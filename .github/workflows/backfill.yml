@@ -12,7 +12,12 @@ on:
         required: true
         type: string
       notify:
-        description: "Send Telegram notification at the end?"
+        description: "Send Telegram + email notification at the end?"
+        required: false
+        type: boolean
+        default: false
+      force:
+        description: "Re-summarize even if data already exists (use after prompt changes)"
         required: false
         type: boolean
         default: false
@@ -26,6 +31,9 @@ env:
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+  EMAIL_TO: ${{ secrets.EMAIL_TO }}
+  EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
   SITE_BASE_URL: https://alduere.github.io/notirelevanteperu
 
 jobs:
@@ -64,11 +72,15 @@ jobs:
         run: |
           start="${{ inputs.start_date }}"
           end="${{ inputs.end_date }}"
+          force_flag=""
+          if [ "${{ inputs.force }}" = "true" ]; then
+            force_flag="--force"
+          fi
           current="$start"
           while [ "$current" != "$(date -d "$end + 1 day" +%Y-%m-%d)" ]; do
             echo "::group::Processing $current"
             uv run python -m scripts.scrape --date "$current" || true
-            uv run python -m scripts.summarize --date "$current" || true
+            uv run python -m scripts.summarize --date "$current" $force_flag || true
             echo "::endgroup::"
             current=$(date -d "$current + 1 day" +%Y-%m-%d)
           done
@@ -76,9 +88,15 @@ jobs:
       - name: Build PDFs and Astro site
         run: uv run python -m scripts.build
 
-      - name: Notify (optional)
+      - name: Notify Telegram (optional)
         if: inputs.notify
         run: uv run python -m scripts.notify
+        continue-on-error: true
+
+      - name: Notify Email (optional)
+        if: inputs.notify && env.BREVO_API_KEY != ''
+        run: uv run python -m scripts.notify_email
+        continue-on-error: true
 
       - name: Commit
         run: |

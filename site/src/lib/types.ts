@@ -4,6 +4,7 @@ export interface NormaResumida {
   id: string;
   seccion: string;
   tipo: string;
+  tipo_corto: string;
   numero: string | null;
   titulo_oficial: string;
   entidad_emisora: string;
@@ -14,9 +15,14 @@ export interface NormaResumida {
   portada_img: string | null;
   edicion_extraordinaria: boolean;
   resumen_ejecutivo: string | null;
+  cambios_clave: string[];
+  a_quien_afecta: string | null;
+  vigencia: string | null;
   impacto: Impacto;
+  impacto_razon: string | null;
   sectores: string[];
   tags: string[];
+  prompt_version: number;
 }
 
 export interface DocumentoSeccion {

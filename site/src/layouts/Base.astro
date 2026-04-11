@@ -34,8 +34,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       </a>
       <nav class="flex items-center gap-1 text-sm">
         <a href={`${base}/`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Hoy</a>
+        <a href={`${base}/buscar`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Buscar</a>
         <a href={`${base}/archivo`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Archivo</a>
-        <a href="https://github.com/alduere/notirelevanteperu" class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Repo</a>
+        <a href="https://github.com/alduere/notirelevanteperu" class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium hidden sm:block">Repo</a>
       </nav>
     </div>
   </header>

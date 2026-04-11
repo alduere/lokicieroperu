@@ -18,6 +18,7 @@ from dotenv import load_dotenv
 
 from scripts.lib.gemini import GeminiClient
 from scripts.lib.schemas import (
+    PROMPT_VERSION,
     DiaProcesado,
     DocumentoSeccion,
     Index,
@@ -101,9 +102,17 @@ def main() -> int:
     if out_path.exists() and not args.force:
         existing = json.loads(out_path.read_text(encoding="utf-8"))
         existing_ids = {n["id"] for n in existing.get("normas", [])}
-        if existing_ids == {n.id for n in normas_raw}:
-            logger.info("All %d norms already summarized, skipping", len(normas_raw))
+        existing_versions = {n.get("prompt_version", 0) for n in existing.get("normas", [])}
+        ids_match = existing_ids == {n.id for n in normas_raw}
+        version_current = all(v >= PROMPT_VERSION for v in existing_versions) if existing_versions else False
+        if ids_match and version_current:
+            logger.info("All %d norms already summarized at prompt v%d, skipping", len(normas_raw), PROMPT_VERSION)
             return 0
+        if ids_match and not version_current:
+            logger.info(
+                "Re-summarizing: existing prompt versions %s, current is v%d",
+                existing_versions, PROMPT_VERSION,
+            )
 
     if not os.environ.get("GEMINI_API_KEY"):
         logger.error("GEMINI_API_KEY not set")

@@ -16,7 +16,7 @@ from typing import Iterable
 import requests
 from bs4 import BeautifulSoup, Tag
 
-from scripts.lib.schemas import DocumentoSeccion, NormaCruda, Seccion
+from scripts.lib.schemas import DocumentoSeccion, NormaCruda, Seccion, compute_tipo_corto
 
 logger = logging.getLogger(__name__)
 
@@ -162,11 +162,13 @@ def parse_normas_legales(html: str) -> list[NormaCruda]:
             logger.warning("norm %s without parseable date, skipping", norm_id)
             continue
 
+        tipo_str = tipo or "Norma"
         out.append(
             NormaCruda(
                 id=norm_id,
                 seccion=Seccion.NORMAS_LEGALES,
-                tipo=tipo or "Norma",
+                tipo=tipo_str,
+                tipo_corto=compute_tipo_corto(tipo_str),
                 numero=numero,
                 titulo_oficial=titulo_full,
                 entidad_emisora=entidad,

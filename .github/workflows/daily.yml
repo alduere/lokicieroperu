@@ -24,6 +24,9 @@ env:
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+  EMAIL_TO: ${{ secrets.EMAIL_TO }}
+  EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
   SITE_BASE_URL: https://alduere.github.io/notirelevanteperu
 
 jobs:
@@ -83,6 +86,11 @@ jobs:
       - name: Notify Telegram
         if: success()
         run: uv run python -m scripts.notify --date "${{ steps.target.outputs.value }}"
+        continue-on-error: true
+
+      - name: Notify Email (Brevo)
+        if: success() && env.BREVO_API_KEY != ''
+        run: uv run python -m scripts.notify_email --date "${{ steps.target.outputs.value }}"
         continue-on-error: true
 
       - name: Commit data and PDFs

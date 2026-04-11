@@ -2,7 +2,7 @@
 // at build time. The build.py script copies the files; this module just imports
 // them via Vite's glob import so Astro picks them up statically.
 
-import type { DiaProcesado, IndexEntry } from "./types";
+import type { DiaProcesado, IndexEntry, NormaResumida } from "./types";
 
 const dayModules = import.meta.glob<{ default: DiaProcesado }>(
   "/src/data/2*-*-*.json",
@@ -45,4 +45,45 @@ export function formatFechaEs(date: string): string {
     "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
   ];
   return `${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+}
+
+/** Flatten every norm across every day with a back-reference to its date. */
+export function allNorms(): Array<NormaResumida & { _fecha: string }> {
+  const out: Array<NormaResumida & { _fecha: string }> = [];
+  for (const date of sortedDates) {
+    const dia = days[date];
+    for (const n of dia.normas) {
+      out.push({ ...n, _fecha: date });
+    }
+  }
+  return out;
+}
+
+/** Look up a single norm by id, returning the norm and its date. */
+export function findNorm(id: string): { norma: NormaResumida; fecha: string } | null {
+  for (const date of sortedDates) {
+    const dia = days[date];
+    const n = dia.normas.find((x) => x.id === id);
+    if (n) return { norma: n, fecha: date };
+  }
+  return null;
+}
+
+/** Distinct sorted set of all tipo_corto values for filter UIs. */
+export function distinctTipos(): string[] {
+  const s = new Set<string>();
+  for (const date of sortedDates) {
+    for (const n of days[date].normas) s.add(n.tipo_corto || "OTRO");
+  }
+  return [...s].sort();
+}
+
+export function distinctSectores(): string[] {
+  const s = new Set<string>();
+  for (const date of sortedDates) {
+    for (const n of days[date].normas) {
+      for (const sector of n.sectores) s.add(sector);
+    }
+  }
+  return [...s].sort();
 }

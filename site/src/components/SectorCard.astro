@@ -15,7 +15,7 @@ const medioCount = norms.filter((n) => n.impacto === "medio").length;
 const bajoCount = norms.filter((n) => n.impacto === "bajo").length;
 ---
 
-<article class={`glass h-full p-5 sm:p-6 flex flex-col ${highlight ? "bg-gradient-to-br from-ink-900 to-ink-800 text-white border-ink-900" : ""}`}>
+<article class={`glass h-full p-5 sm:p-6 flex flex-col ${highlight ? "bg-gradient-to-br from-ink-900 to-ink-800 text-white border-ink-900" : ""}`} data-sector-card>
   <header class="flex items-center justify-between gap-3 mb-4">
     <div>
       <h2 class={`text-xs font-semibold uppercase tracking-widest ${highlight ? "text-white/70" : "text-ink-500"}`}>
