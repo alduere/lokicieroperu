@@ -1,0 +1,127 @@
+name: Daily pipeline
+
+on:
+  schedule:
+    # 12:00 UTC = 7:00 AM Lima (UTC-5)
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "Override date (YYYY-MM-DD). Leave empty for today."
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  SITE_BASE_URL: https://alduere.github.io/notirelevanteperu
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    outputs:
+      target_date: ${{ steps.target.outputs.value }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compute target date (Lima time)
+        id: target
+        run: |
+          if [ -n "${{ inputs.target_date }}" ]; then
+            echo "value=${{ inputs.target_date }}" >> "$GITHUB_OUTPUT"
+          else
+            # When the cron fires at 12:00 UTC, Lima (UTC-5) is 07:00 same day,
+            # so today's date in Lima === today's UTC date.
+            echo "value=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install system deps for WeasyPrint
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libcairo2 \
+            libgdk-pixbuf-2.0-0 fonts-liberation
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Install Python deps
+        run: uv sync --frozen
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install site deps
+        working-directory: site
+        run: npm install --no-audit --no-fund
+
+      - name: Scrape El Peruano
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}"
+
+      - name: Summarize with Gemini
+        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}"
+
+      - name: Build PDFs and Astro site
+        run: uv run python -m scripts.build
+
+      - name: Notify Telegram
+        if: success()
+        run: uv run python -m scripts.notify --date "${{ steps.target.outputs.value }}"
+        continue-on-error: true
+
+      - name: Commit data and PDFs
+        run: |
+          git config user.name "notirelevanteperu-bot"
+          git config user.email "noreply@github.com"
+          git add data pdfs
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: ${{ steps.target.outputs.value }} [skip ci]"
+            git push
+          fi
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          uv run python -c "
+          import os
+          from scripts.lib.telegram import TelegramClient
+          c = TelegramClient()
+          c.send_message(
+              '🔴 <b>NotiRelevantePerú</b> — pipeline diario falló para ${{ steps.target.outputs.value }}\n'
+              'Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+          )
+          " || true
+
+  deploy:
+    needs: pipeline
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

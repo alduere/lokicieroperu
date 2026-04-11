@@ -1,0 +1,74 @@
+---
+import "../styles/global.css";
+import { sortedDates, formatFechaEs } from "../lib/data";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Resumen diario con IA de las normas legales del Diario Oficial El Peruano" } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="preconnect" href="https://rsms.me/" />
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E" />
+</head>
+<body class="min-h-screen">
+  <header class="border-b border-ink-200 bg-white/70 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href={`${base}/`} class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-ink-900 text-white grid place-items-center font-bold text-lg tracking-tighter group-hover:rotate-3 transition-transform">NR</div>
+        <div>
+          <div class="font-bold text-lg leading-none">Noti Relevante Perú</div>
+          <div class="text-xs text-ink-500 mt-0.5 uppercase tracking-wider">El día en normas legales</div>
+        </div>
+      </a>
+      <nav class="flex items-center gap-1 text-sm">
+        <a href={`${base}/`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Hoy</a>
+        <a href={`${base}/archivo`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Archivo</a>
+        <a href="https://github.com/alduere/notirelevanteperu" class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Repo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <slot />
+  </main>
+
+  <footer class="mt-20 border-t border-ink-200 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-ink-500">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <div class="font-semibold text-ink-900 mb-2">Noti Relevante Perú</div>
+          <p>Resumen diario automatizado de las normas legales publicadas en el Diario Oficial El Peruano. Cada día a las 7:00 AM hora Lima.</p>
+        </div>
+        <div>
+          <div class="font-semibold text-ink-900 mb-2">Cómo funciona</div>
+          <p>Scrapeamos El Peruano, resumimos cada norma con Gemini 2.5 Flash y publicamos en este sitio + PDF a Telegram. Todo open-source en GitHub.</p>
+        </div>
+        <div>
+          <div class="font-semibold text-ink-900 mb-2">Aviso</div>
+          <p>Los resúmenes son generados por IA y pueden tener errores. Para decisiones legales, consulta siempre el texto oficial de cada norma en El Peruano.</p>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-ink-200 flex items-center justify-between flex-wrap gap-2">
+        <div>
+          Fuente: <a href="https://diariooficial.elperuano.pe" class="text-ink-700 hover:text-ink-900 underline">Diario Oficial El Peruano</a>
+        </div>
+        <div>
+          {sortedDates.length} día{sortedDates.length === 1 ? "" : "s"} publicados
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

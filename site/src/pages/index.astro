@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+import StatsHero from "../components/StatsHero.astro";
+import BentoGrid from "../components/BentoGrid.astro";
+import { latestDate, getDay } from "../lib/data";
+
+const date = latestDate();
+const dia = date ? getDay(date) : null;
+---
+
+<Base title={dia ? `NotiRelevantePerú · ${dia.fecha}` : "NotiRelevantePerú"}>
+  {dia ? (
+    <>
+      <StatsHero dia={dia} />
+      <BentoGrid dia={dia} />
+    </>
+  ) : (
+    <div class="glass p-12 text-center">
+      <h1 class="text-2xl font-bold mb-2">Sin datos todavía</h1>
+      <p class="text-ink-600">El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.</p>
+    </div>
+  )}
+</Base>

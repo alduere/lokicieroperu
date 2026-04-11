@@ -1,0 +1,20 @@
+---
+import Base from "../layouts/Base.astro";
+import StatsHero from "../components/StatsHero.astro";
+import BentoGrid from "../components/BentoGrid.astro";
+import { sortedDates, getDay } from "../lib/data";
+
+export async function getStaticPaths() {
+  return sortedDates.map((date) => ({
+    params: { date },
+    props: { dia: getDay(date) },
+  }));
+}
+
+const { dia } = Astro.props;
+---
+
+<Base title={`NotiRelevantePerú · ${dia.fecha}`}>
+  <StatsHero dia={dia} />
+  <BentoGrid dia={dia} />
+</Base>

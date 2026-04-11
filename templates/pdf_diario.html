@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>NotiRelevantePerú · {{ dia.fecha.isoformat() }}</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 14mm 18mm 14mm;
+    @bottom-center {
+      content: "NotiRelevantePerú · " counter(page) " / " counter(pages);
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 8pt;
+      color: #6b7280;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.45;
+    color: #0f172a;
+    margin: 0;
+  }
+  .cover {
+    page-break-after: always;
+    height: 245mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .cover h1 {
+    font-size: 36pt;
+    margin: 0;
+    letter-spacing: -0.02em;
+    color: #0f172a;
+    line-height: 0.95;
+  }
+  .cover .brand {
+    font-size: 11pt;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    margin-bottom: 8mm;
+  }
+  .cover .fecha {
+    font-size: 14pt;
+    color: #475569;
+    margin-top: 4mm;
+  }
+  .cover .stats {
+    margin-top: 14mm;
+  }
+  .cover .totals {
+    font-size: 96pt;
+    line-height: 0.85;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.04em;
+  }
+  .cover .totals small {
+    font-size: 14pt;
+    color: #6b7280;
+    font-weight: 400;
+    display: block;
+    margin-top: 4mm;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .impacto-row {
+    display: flex;
+    gap: 6mm;
+    margin-top: 10mm;
+  }
+  .impacto-card {
+    flex: 1;
+    border-radius: 4mm;
+    padding: 6mm 5mm;
+    color: #ffffff;
+  }
+  .impacto-card .num { font-size: 32pt; font-weight: 800; line-height: 1; }
+  .impacto-card .lbl { font-size: 9pt; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 2mm; opacity: 0.9; }
+  .impacto-alto  { background: #dc2626; }
+  .impacto-medio { background: #d97706; }
+  .impacto-bajo  { background: #16a34a; }
+
+  .cover .sectores {
+    margin-top: 10mm;
+    font-size: 10pt;
+    color: #475569;
+  }
+  .cover .sectores strong {
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 8pt;
+    display: block;
+    margin-bottom: 2mm;
+  }
+  .cover .footer {
+    font-size: 8pt;
+    color: #94a3b8;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 4mm;
+  }
+
+  h2.sector-title {
+    font-size: 14pt;
+    color: #0f172a;
+    border-bottom: 2px solid #0f172a;
+    padding-bottom: 2mm;
+    margin-top: 8mm;
+    margin-bottom: 4mm;
+    page-break-after: avoid;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  h2.sector-title .count {
+    font-size: 9pt;
+    color: #64748b;
+    font-weight: 400;
+    float: right;
+  }
+
+  .norma {
+    page-break-inside: avoid;
+    margin-bottom: 5mm;
+    padding: 4mm 4mm 4mm 5mm;
+    border-left: 3px solid #cbd5e1;
+    background: #f8fafc;
+    border-radius: 0 2mm 2mm 0;
+  }
+  .norma.alto  { border-left-color: #dc2626; }
+  .norma.medio { border-left-color: #d97706; }
+  .norma.bajo  { border-left-color: #16a34a; }
+
+  .norma .meta {
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #64748b;
+    margin-bottom: 1mm;
+  }
+  .norma .meta .pill {
+    display: inline-block;
+    padding: 0.5mm 1.5mm;
+    border-radius: 1mm;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 2mm;
+  }
+  .norma .meta .pill.alto  { background: #dc2626; }
+  .norma .meta .pill.medio { background: #d97706; }
+  .norma .meta .pill.bajo  { background: #16a34a; }
+
+  .norma h3 {
+    font-size: 10pt;
+    margin: 0 0 1mm 0;
+    color: #0f172a;
+  }
+  .norma .sumilla {
+    font-size: 9pt;
+    color: #1e293b;
+    margin: 1mm 0 2mm 0;
+    font-style: italic;
+  }
+  .norma .resumen {
+    font-size: 9.5pt;
+    color: #0f172a;
+    margin: 1mm 0;
+  }
+  .norma .footer {
+    font-size: 7pt;
+    color: #94a3b8;
+    margin-top: 2mm;
+  }
+  .norma .tags { margin-top: 1mm; }
+  .norma .tags span {
+    display: inline-block;
+    font-size: 7pt;
+    background: #e2e8f0;
+    color: #475569;
+    padding: 0.5mm 1.5mm;
+    border-radius: 1mm;
+    margin-right: 1mm;
+  }
+
+  .docs-section { margin-top: 10mm; page-break-inside: avoid; }
+  .docs-section h2 {
+    font-size: 12pt;
+    color: #0f172a;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 2mm;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .docs-list {
+    font-size: 8.5pt;
+    color: #475569;
+    list-style: none;
+    padding: 0;
+  }
+  .docs-list li { margin-bottom: 1.5mm; }
+  .docs-list .seccion {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f172a;
+    font-size: 7pt;
+    letter-spacing: 0.08em;
+  }
+
+  a { color: #2563eb; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<!-- ============ PORTADA ============ -->
+<section class="cover">
+  <div>
+    <div class="brand">Noti Relevante Perú</div>
+    <h1>El día en normas</h1>
+    <div class="fecha">{{ fecha_es }}</div>
+  </div>
+
+  <div class="stats">
+    <div class="totals">
+      {{ dia.stats.total_normas }}
+      <small>normas legales publicadas</small>
+    </div>
+
+    <div class="impacto-row">
+      <div class="impacto-card impacto-alto">
+        <div class="num">{{ dia.stats.alto }}</div>
+        <div class="lbl">Alto impacto</div>
+      </div>
+      <div class="impacto-card impacto-medio">
+        <div class="num">{{ dia.stats.medio }}</div>
+        <div class="lbl">Medio impacto</div>
+      </div>
+      <div class="impacto-card impacto-bajo">
+        <div class="num">{{ dia.stats.bajo }}</div>
+        <div class="lbl">Bajo impacto</div>
+      </div>
+    </div>
+
+    {% if dia.stats.sectores_top %}
+    <div class="sectores">
+      <strong>Sectores con más actividad</strong>
+      {% for name, count in dia.stats.sectores_top[:6] %}
+        <span>{{ name.replace('_', ' ').title() }} ({{ count }})</span>{% if not loop.last %} · {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="footer">
+    Generado automáticamente · Fuente: Diario Oficial El Peruano · Resúmenes con IA (Gemini) ·
+    {{ site_url }}/{{ dia.fecha.isoformat() }}
+  </div>
+</section>
+
+<!-- ============ NORMAS POR SECTOR ============ -->
+{% for sector_name, normas in normas_por_sector %}
+  <h2 class="sector-title">
+    {{ sector_name.replace('_', ' ').upper() }}
+    <span class="count">{{ normas|length }} norma{{ '' if normas|length == 1 else 's' }}</span>
+  </h2>
+
+  {% for n in normas %}
+  <article class="norma {{ n.impacto.value }}">
+    <div class="meta">
+      <span class="pill {{ n.impacto.value }}">{{ n.impacto.value }}</span>
+      {{ n.tipo }}{% if n.numero %} · N° {{ n.numero }}{% endif %} · {{ n.entidad_emisora }}
+      {% if n.edicion_extraordinaria %} · ED. EXTRAORDINARIA{% endif %}
+    </div>
+    <h3>{{ n.titulo_oficial }}</h3>
+    <div class="sumilla">{{ n.sumilla }}</div>
+    {% if n.resumen_ejecutivo %}
+      <div class="resumen">{{ n.resumen_ejecutivo }}</div>
+    {% endif %}
+    {% if n.tags %}
+      <div class="tags">
+        {% for t in n.tags %}<span>#{{ t }}</span>{% endfor %}
+      </div>
+    {% endif %}
+    {% if n.link_oficial %}
+      <div class="footer">
+        Texto oficial: <a href="{{ n.link_oficial }}">{{ n.link_oficial }}</a>
+      </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+{% endfor %}
+
+<!-- ============ DOCS DE OTRAS SECCIONES ============ -->
+{% if dia.documentos %}
+<section class="docs-section">
+  <h2>Boletines y otras publicaciones del día</h2>
+  <ul class="docs-list">
+    {% for d in dia.documentos %}
+      <li>
+        <span class="seccion">{{ d.seccion.value.replace('_', ' ') }}</span> ·
+        Edición {{ d.edicion }} ·
+        <a href="{{ d.descarga_url }}">descargar PDF</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+</body>
+</html>
