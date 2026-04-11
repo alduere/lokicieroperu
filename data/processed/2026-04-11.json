@@ -5,6 +5,7 @@
       "id": "2504749-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "123-2026-PCM",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 123-2026-PCM",
       "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
@@ -14,23 +15,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDc0OV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504749-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se autoriza el viaje del Gerente General de SUNASS a Francia para participar en eventos. El viaje se realizará en abril de 2026. Esta autorización es relevante para la representación internacional de la entidad reguladora.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "administracion_publica",
-        "agua_saneamiento"
+        "administracion_publica"
       ],
-      "tags": [
-        "viaje",
-        "sunass",
-        "francia",
-        "representacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504994-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "124-2026-PCM",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 124-2026-PCM",
       "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
@@ -40,22 +41,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk5NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504994-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a un nuevo Subsecretario I en la Subsecretaría de Prevención y Gestión de la Información de la PCM. Este nombramiento es efectivo desde abril de 2026. La designación es un movimiento administrativo interno dentro de la PCM.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
         "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "pcm",
-        "prevencion",
-        "gestion_informacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504996-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "125-2026-PCM",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 125-2026-PCM",
       "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
@@ -65,22 +67,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk5Nl8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504996-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a una nueva Subsecretaria I en la Subsecretaría de Coordinación con Entidades Públicas y Privadas de la PCM. El nombramiento entra en vigor en abril de 2026. La medida responde a la necesidad de reestructuración o actualización de personal en la PCM.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
         "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "pcm",
-        "coordinacion",
-        "entidades"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505154-4",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
       "numero": "125-2026-PCM",
       "titulo_oficial": "RESOLUCION SUPREMA N° 125-2026-PCM",
       "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
@@ -90,24 +93,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF80MjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-4_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa al Director Ejecutivo de la Dirección Nacional de Inteligencia (DINI). El nombramiento se hace efectivo en abril de 2026. Esta designación es crucial para la conducción de los servicios de inteligencia del país.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "interior",
-        "justicia",
-        "defensa"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "dini",
-        "inteligencia",
-        "seguridad"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505017-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "D000108-2026-MINAM",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° D000108-2026-MINAM",
       "entidad_emisora": "AMBIENTE",
@@ -117,23 +119,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTAxN18xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505017-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se crea el Grupo de Trabajo para el Planeamiento Institucional del Ministerio del Ambiente. Este grupo tendrá la función de planificar las acciones futuras del ministerio a partir de abril de 2026. Su creación busca optimizar la gestión y estrategia del sector ambiental.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "ambiente",
         "administracion_publica"
       ],
-      "tags": [
-        "grupo_trabajo",
-        "planeamiento",
-        "ministerio_ambiente",
-        "gestion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505154-2",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
       "numero": "004-2026-MINCETUR",
       "titulo_oficial": "DECRETO SUPREMO N° 004-2026-MINCETUR",
       "entidad_emisora": "COMERCIO EXTERIOR Y TURISMO",
@@ -143,25 +145,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF8yMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-2_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se aprueba el Reglamento de la Ley N° 32316, que fortalece el turismo en gobiernos locales y regionales, priorizando la mejora de infraestructura turística. El reglamento entra en vigencia a partir de abril de 2026. Busca impulsar el desarrollo turístico a nivel descentralizado.",
-      "impacto": "alto",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "turismo",
-        "gobierno_local",
-        "gobierno_regional",
-        "economia"
+        "administracion_publica"
       ],
-      "tags": [
-        "reglamento",
-        "turismo",
-        "infraestructura",
-        "desarrollo_local"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504284-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "000003-2026-DSFL-DGPA-VMPCIC/MC",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 000003-2026-DSFL-DGPA-VMPCIC/MC",
       "entidad_emisora": "CULTURA",
@@ -171,23 +171,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDI4NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504284-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se inicia de oficio el procedimiento para declarar y delimitar un bien inmueble prehispánico llamado Santa Ana A o San Juan Sectores 1 y 2 en Huarochirí, Lima. La acción se oficializa en abril de 2026. Busca asegurar la protección y reconocimiento del patrimonio arqueológico.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "cultura",
-        "patrimonio"
+        "administracion_publica"
       ],
-      "tags": [
-        "patrimonio_cultural",
-        "arqueologia",
-        "delimitacion",
-        "lima"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504622-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "000010-2026-DSFL-DGPA-VMPCIC/MC",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 000010-2026-DSFL-DGPA-VMPCIC/MC",
       "entidad_emisora": "CULTURA",
@@ -197,23 +197,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDYyMl8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504622-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se dispone el inicio del procedimiento de saneamiento físico legal del bien inmueble prehispánico Complejo Arqueológico La Centinela en Ica. Este proceso comienza en abril de 2026. Su objetivo es formalizar la situación legal y física del sitio arqueológico.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "cultura",
-        "patrimonio"
+        "administracion_publica"
       ],
-      "tags": [
-        "patrimonio_arqueologico",
-        "saneamiento_legal",
-        "ica",
-        "cultura"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504628-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "000085-2026-DGPA-VMPCIC/MC",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 000085-2026-DGPA-VMPCIC/MC",
       "entidad_emisora": "CULTURA",
@@ -223,23 +223,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDYyOF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504628-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se determina la Protección Provisional del Sitio Arqueológico Targuy, sectores A y B, en Áncash. Esta medida, efectiva desde abril de 2026, busca salvaguardar el sitio mientras se realizan los estudios correspondientes. Es un paso para la conservación del patrimonio cultural.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "cultura",
-        "patrimonio"
+        "administracion_publica"
       ],
-      "tags": [
-        "proteccion_provisional",
-        "sitio_arqueologico",
-        "ancash",
-        "patrimonio"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505156-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
       "numero": "003-2026-MC",
       "titulo_oficial": "RESOLUCION SUPREMA N° 003-2026-MC",
       "entidad_emisora": "CULTURA",
@@ -249,23 +249,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1Nl8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505156-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se autoriza la inafectación del Impuesto General a las Ventas (IGV) para los servicios culturales de la Asociación Orquestas Infantiles y Juveniles del Perú. Esta medida, vigente desde abril de 2026, busca fomentar la actividad cultural. Beneficia directamente a la mencionada asociación.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "cultura",
-        "tributacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "inafectacion_igv",
-        "servicios_culturales",
-        "musica",
-        "asociacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504620-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "00406-2026-DE",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 00406-2026-DE",
       "entidad_emisora": "DEFENSA",
@@ -275,22 +275,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDYyMF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504620-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se autoriza el viaje de representantes del Comando Conjunto de las Fuerzas Armadas a Brasil por comisión de servicios. El viaje se realiza en abril de 2026. La finalidad es fortalecer la cooperación y el intercambio en materia de defensa.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "defensa"
+        "administracion_publica"
       ],
-      "tags": [
-        "viaje",
-        "comision_servicios",
-        "fuerzas_armadas",
-        "brasil"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505057-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "00413-2026-DE",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 00413-2026-DE",
       "entidad_emisora": "DEFENSA",
@@ -300,22 +301,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA1N18xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505057-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se autoriza el viaje de personal militar de la Marina de Guerra del Perú a Estados Unidos en comisión de servicios. La autorización es para abril de 2026. El objetivo es participar en actividades de formación y cooperación internacional naval.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "defensa"
+        "administracion_publica"
       ],
-      "tags": [
-        "viaje",
-        "marina_guerra",
-        "estados_unidos",
-        "cooperacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504561-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "D000016-2026-MIDAGRI-SENASA-DSA",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° D000016-2026-MIDAGRI-SENASA-DSA",
       "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
@@ -325,25 +327,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDU2MV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504561-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se aprueban los requisitos sanitarios para el ingreso temporal de equinos destinados al evento ecuestre Gran Premio Latinoamericano Perú 2026, provenientes de Uruguay, Chile y Argentina. La norma rige desde abril de 2026. Busca garantizar la sanidad animal en eventos internacionales.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "agricultura",
-        "salud_animal",
-        "transporte",
-        "eventos"
+        "administracion_publica"
       ],
-      "tags": [
-        "requisitos_sanitarios",
-        "equinos",
-        "importacion_temporal",
-        "eventos_ecuestres"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505016-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "072-2026-MIDAGRI-DVDAFIR-AGRO",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 072-2026-MIDAGRI-DVDAFIR-AGRO RURAL-DE",
       "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
@@ -353,23 +353,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTAxNl8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505016-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a un nuevo Asesor de la Dirección Ejecutiva del Programa de Desarrollo Productivo Agrario Rural (AGRO RURAL). El nombramiento es efectivo a partir de abril de 2026. Esta designación busca fortalecer la gestión del programa agrario.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "agricultura",
         "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "agro_rural",
-        "asesor",
-        "agricultura"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505131-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "073-2026-MIDAGRI-DVDAFIR-AGRO",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 073-2026-MIDAGRI-DVDAFIR-AGRO RURAL-DE",
       "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
@@ -379,24 +379,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTEzMV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505131-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa al Jefe de la Subunidad de Siembra y Cosecha de Agua de AGRO RURAL. El nombramiento entra en vigencia en abril de 2026. La posición es clave para la gestión de recursos hídricos en el ámbito rural.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "agricultura",
-        "administracion_publica",
-        "agua"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "agro_rural",
-        "siembra_cosecha_agua",
-        "gestion_recursos_hidricos"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505154-3",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
       "numero": "004-2026-MIDIS",
       "titulo_oficial": "DECRETO SUPREMO N° 004-2026-MIDIS",
       "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
@@ -406,23 +405,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF8zMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-3_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Aprueba los montos máximos que recibirán las entidades del Gobierno Nacional y los gobiernos regionales por cumplir metas del Fondo de Estímulo al Desempeño y Logro de Resultados Sociales (FED). La norma establece los montos para la primera verificación de la Edición 2025-2026. Esto es importante para la asignación de recursos y la evaluación del desempeño de las entidades públicas.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "gobierno_nacional",
-        "gobierno_regional"
+        "administracion_publica"
       ],
-      "tags": [
-        "fed",
-        "metas",
-        "desempeño",
-        "recursos"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504899-1",
       "seccion": "normas_legales",
       "tipo": "FE DE ERRATA Res.",
+      "tipo_corto": "OTRO",
       "numero": "000147-2026-MIDIS/PAE-DE",
       "titulo_oficial": "FE DE ERRATA Res. N° 000147-2026-MIDIS/PAE-DE",
       "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
@@ -432,20 +431,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDg5OV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504899-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se publica una Fe de Erratas para la Resolución N° 000147-2026-MIDIS/PAE-DE. La norma no detalla el contenido de la corrección. Su importancia radica en asegurar la correcta publicación de la norma original.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
         "administracion_publica"
       ],
-      "tags": [
-        "fe de erratas",
-        "publicacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504963-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "000635-2026-MIDIS/PNCM-DE",
       "titulo_oficial": "RESOLUCION N° 000635-2026-MIDIS/PNCM-DE",
       "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
@@ -455,23 +457,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk2M18xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504963-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa al Coordinador de la Unidad Territorial Ucayali del Programa Nacional Cuna Más. El nombramiento es efectivo a partir de su publicación. Esta designación es relevante para la continuidad operativa del programa en la región.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "desarrollo_social",
-        "educacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "cuna mas",
-        "ucayali",
-        "coordinador"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504849-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "181-2026-EF/49",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 181-2026-EF/49",
       "entidad_emisora": "ECONOMIA Y FINANZAS",
@@ -481,21 +483,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDg0OV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504849-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa a la Asesora – Secretaria Ejecutiva del Despacho Viceministerial de Economía. El nombramiento tiene efecto inmediato. Esta designación es importante para el funcionamiento del Viceministerio de Economía.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "economia"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "asesora",
-        "viceministerio de economia"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505065-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "050-2026-MINEDU/VMGI-PRONABEC",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 050-2026-MINEDU/VMGI-PRONABEC",
       "entidad_emisora": "EDUCACION",
@@ -505,21 +509,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA2NV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505065-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa a la Ejecutiva de la Oficina de Asesoría Jurídica del Programa Nacional de Becas y Crédito Educativo (PRONABEC). El nombramiento es efectivo a partir de su publicación. Esta designación es importante para el soporte legal del programa de becas.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "educacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "pronabec",
-        "asesoria juridica"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505071-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "048-2026-MINEDU/VMGI-PRONABEC",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 048-2026-MINEDU/VMGI-PRONABEC",
       "entidad_emisora": "EDUCACION",
@@ -529,21 +535,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA3MV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505071-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa al Asesor de la Dirección Ejecutiva del Programa Nacional de Becas y Crédito Educativo (PRONABEC). El nombramiento es efectivo a partir de su publicación. Esta designación es importante para el apoyo a la alta dirección del programa de becas.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "educacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "pronabec",
-        "asesor"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505054-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "217-2026-MINEDU",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 217-2026-MINEDU",
       "entidad_emisora": "EDUCACION",
@@ -553,22 +561,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA1NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505054-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Dispone la publicación del proyecto de Decreto Supremo que modifica el Reglamento de la Ley de Institutos y Escuelas de Educación Superior. La norma también incluye la exposición de motivos para su revisión pública. Esto permite la participación ciudadana y de los actores educativos en la propuesta normativa.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "educacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "educacion superior",
-        "reglamento",
-        "proyecto de norma",
-        "participacion ciudadana"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505092-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "000261-2026-IN-VOI-DGIN",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 000261-2026-IN-VOI-DGIN",
       "entidad_emisora": "INTERIOR",
@@ -578,22 +587,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5Ml8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505092-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa al Subprefecto Provincial de Putumayo, departamento de Loreto. El nombramiento es efectivo a partir de su publicación. Esta designación es importante para la representación del gobierno en la provincia.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "interior"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "subprefecto",
-        "loreto",
-        "putumayo"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505105-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "000264-2026-IN-VOI-DGI",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 000264-2026-IN-VOI-DGI",
       "entidad_emisora": "INTERIOR",
@@ -603,22 +613,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTEwNV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505105-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa Subprefectos Distritales de Huancayo (Junín), Frías y Veintiséis de Octubre (Piura). Los nombramientos son efectivos a partir de su publicación. Estas designaciones son importantes para la representación del gobierno en dichas localidades.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "interior"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "subprefecto",
-        "junin",
-        "piura"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504754-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "0447-2026-IN",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 0447-2026-IN",
       "entidad_emisora": "INTERIOR",
@@ -628,23 +639,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDc1NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504754-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Autoriza el viaje de personal policial a Argentina en comisión de servicios. La autorización es para fines específicos relacionados con sus funciones. Esto es importante para la cooperación internacional y el cumplimiento de misiones policiales.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "interior",
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "viaje autorizado",
-        "policia",
-        "argentina",
-        "comision de servicios"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505154-5",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
       "numero": "063-2026-RE",
       "titulo_oficial": "RESOLUCION SUPREMA N° 063-2026-RE",
       "entidad_emisora": "RELACIONES EXTERIORES",
@@ -654,21 +665,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF81MjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-5_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Da por terminadas las funciones del Cónsul Honorario del Perú en Gotemburgo, Reino de Suecia. La medida es efectiva a partir de su publicación. Esto es importante para la reestructuración o evaluación de la representación consular honoraria.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "relaciones_exteriores"
+        "administracion_publica"
       ],
-      "tags": [
-        "consul honorario",
-        "suecia",
-        "terminacion de funciones"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505154-1",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
       "numero": "002-2026-SA",
       "titulo_oficial": "DECRETO SUPREMO N° 002-2026-SA",
       "entidad_emisora": "SALUD",
@@ -678,23 +691,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Aprueba las Orientaciones para el Cuidado Integral de la Salud Mental de Niñas, Niños y Adolescentes en Riesgo o Situación de Desprotección Familiar. La norma busca establecer directrices para la atención de esta población vulnerable. Es importante para garantizar el bienestar psicológico de los menores en situaciones de riesgo.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "salud",
-        "desarrollo_social"
+        "administracion_publica"
       ],
-      "tags": [
-        "salud mental",
-        "niños",
-        "adolescentes",
-        "desproteccion familiar"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505149-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "371-2026/MINSA",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 371-2026/MINSA",
       "entidad_emisora": "SALUD",
@@ -704,21 +717,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE0OV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505149-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa al Director Adjunto de la Dirección General del Hospital Nacional Sergio E. Bernales. El nombramiento es efectivo a partir de su publicación. Esta designación es importante para la gestión y operación del hospital.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "salud"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "hospital",
-        "director adjunto"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504989-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
       "numero": "368-2026/MINSA",
       "titulo_oficial": "RESOLUCION MINISTERIAL N° 368-2026/MINSA",
       "entidad_emisora": "SALUD",
@@ -728,21 +743,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk4OV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504989-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa a la Directora Adjunta de la Dirección Ejecutiva del Hospital San Juan de Lurigancho. El nombramiento es efectivo a partir de su publicación. Esta designación es importante para la gestión y operación del hospital.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "salud"
+        "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "hospital",
-        "directora adjunta"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504856-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "060-2026-VIVIENDA/VMCS/PNSU/DE",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 060-2026-VIVIENDA/VMCS/PNSU/DE",
       "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
@@ -752,23 +769,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDg1Nl8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504856-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Designa al Coordinador de la Subunidad de Planeamiento de la Unidad de Planeamiento y Presupuesto del Programa Nacional de Saneamiento Urbano. El nombramiento es efectivo a partir de su publicación. Esta designación es importante para la planificación y gestión presupuestaria del programa.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "vivienda",
         "administracion_publica"
       ],
-      "tags": [
-        "designacion",
-        "saneamiento urbano",
-        "planeamiento",
-        "presupuesto"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505011-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
       "numero": "084-2026/VIVIENDA/VMCS/PNSR",
       "titulo_oficial": "RESOLUCION DIRECTORAL N° 084-2026/VIVIENDA/VMCS/PNSR",
       "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
@@ -778,21 +795,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTAxMV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505011-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a una nueva Coordinadora en la Sub Unidad de Proyectos Especiales del Programa Nacional de Saneamiento Rural. La designación se realiza a través de una Resolución Directoral del Ministerio de Vivienda, Construcción y Saneamiento. Esta medida es de carácter administrativo y busca asegurar la continuidad en la gestión de proyectos. La norma no especifica una fecha de entrada en vigencia, pero se infiere que es inmediata a su publicación.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "vivienda"
+        "administracion_publica"
       ],
-      "tags": [
-        "designación",
-        "saneamiento",
-        "proyectos"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504822-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "000039-2026-DV-PE",
       "titulo_oficial": "RESOLUCION N° 000039-2026-DV-PE",
       "entidad_emisora": "COMISION NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS",
@@ -802,22 +821,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDgyMl8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504822-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se autoriza una transferencia financiera a favor de la Municipalidad Distrital de Acocro. Esta operación, emitida por la Comisión Nacional para el Desarrollo y Vida sin Drogas (DEVIDA), tiene como objetivo financiar una actividad específica. La norma detalla los montos y condiciones de la transferencia. Su importancia radica en la asignación de recursos para proyectos municipales.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "gobierno_local",
         "administracion_publica"
       ],
-      "tags": [
-        "transferencia financiera",
-        "municipalidad",
-        "devida"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505019-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "000054-2026-P/IPD",
       "titulo_oficial": "RESOLUCION N° 000054-2026-P/IPD",
       "entidad_emisora": "INSTITUTO PERUANO DEL DEPORTE",
@@ -827,22 +847,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTAxOV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505019-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a la nueva Jefa de la Oficina de Información y Comunicaciones del Instituto Peruano del Deporte (IPD). La resolución emitida por el IPD formaliza esta designación. El objetivo es cubrir una posición clave para la gestión de la comunicación institucional. La norma tiene un impacto directo en la estructura administrativa del IPD.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "deporte",
         "administracion_publica"
       ],
-      "tags": [
-        "designación",
-        "comunicaciones",
-        "ipd"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2503821-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "006-2026-SMV/01",
       "titulo_oficial": "RESOLUCION N° 006-2026-SMV/01",
       "entidad_emisora": "SUPERINTENDENCIA DEL MERCADO DE VALORES",
@@ -852,22 +873,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMzgyMV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2503821-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se modifican las condiciones de inscripción y exclusión de valores mobiliarios en el Registro Público del Mercado de Valores. La Superintendencia del Mercado de Valores (SMV) emite esta resolución que ajusta aspectos técnicos del reglamento. Los cambios afectan a los emisores y participantes del mercado de valores. La norma busca optimizar los procedimientos de registro y negociación de valores.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "financiero",
-        "mercado_de_valores"
+        "administracion_publica"
       ],
-      "tags": [
-        "mercado de valores",
-        "inscripción de valores",
-        "smv"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505070-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "000094-2026-MIGRACIONES",
       "titulo_oficial": "RESOLUCION N° 000094-2026-MIGRACIONES",
       "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE MIGRACIONES",
@@ -877,23 +899,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA3MF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505070-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa al nuevo Jefe de Administración y Finanzas de la Superintendencia Nacional de Migraciones (MIGRACIONES). Esta resolución formaliza la asignación de responsabilidades en un área administrativa crucial. La medida busca garantizar la correcta gestión de los recursos financieros y logísticos de la institución. La designación es de carácter interno y operativo.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "interior",
         "administracion_publica"
       ],
-      "tags": [
-        "designación",
-        "administración",
-        "finanzas",
-        "migraciones"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504981-1",
       "seccion": "normas_legales",
       "tipo": "INVESTIGACION Definitiva",
+      "tipo_corto": "OTRO",
       "numero": "1301-2024-JUN",
       "titulo_oficial": "INVESTIGACION Definitiva N° 1301-2024-JUNÍN",
       "entidad_emisora": "CONSEJO EJECUTIVO DEL PODER JUDICIAL",
@@ -903,22 +925,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk4MV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504981-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se impone la medida disciplinaria de destitución a un juez de paz de la Comunidad Campesina de Palián, en Huancayo. La investigación, llevada a cabo por el Consejo Ejecutivo del Poder Judicial, determinó la falta cometida por el magistrado. Esta sanción busca mantener la integridad y el correcto desempeño del sistema de justicia. La resolución es de carácter definitivo y tiene implicancias directas en la función judicial.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia",
-        "judicial"
+        "administracion_publica"
       ],
-      "tags": [
-        "destitución",
-        "juez de paz",
-        "disciplina judicial"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504991-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION ADMINISTRATIVA",
+      "tipo_corto": "RA",
       "numero": "000043-2026-P-CE-PJ",
       "titulo_oficial": "RESOLUCION ADMINISTRATIVA N° 000043-2026-P-CE-PJ",
       "entidad_emisora": "CONSEJO EJECUTIVO DEL PODER JUDICIAL",
@@ -928,22 +951,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk5MV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504991-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se acepta la renuncia de un Juez Especializado Civil titular de Chincha, en la Corte Superior de Justicia de Ica. La resolución administrativa del Consejo Ejecutivo del Poder Judicial formaliza esta aceptación. La medida responde a una solicitud personal del magistrado. Su impacto se centra en la cobertura de plazas judiciales en la región.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia",
-        "judicial"
+        "administracion_publica"
       ],
-      "tags": [
-        "renuncia",
-        "juez",
-        "poder judicial"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2490947-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "0009-2026-BCRP-N",
       "titulo_oficial": "RESOLUCION N° 0009-2026-BCRP-N",
       "entidad_emisora": "BANCO CENTRAL DE RESERVA",
@@ -953,22 +977,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjQ5MDk0N18xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2490947-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se autoriza la misión en el exterior de un Gerente Central del Banco Central de Reserva (BCRP). El objetivo es su participación en eventos relevantes en Estados Unidos. La resolución emitida por el BCRP aprueba el viaje y los gastos asociados. Esta autorización es necesaria para la representación institucional en foros internacionales. La norma es de carácter administrativo y operativo.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "economia",
-        "financiero"
+        "administracion_publica"
       ],
-      "tags": [
-        "viaje al exterior",
-        "bcrc",
-        "gerencia"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2500359-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "0013-2026-BCRP-N",
       "titulo_oficial": "RESOLUCION N° 0013-2026-BCRP-N",
       "entidad_emisora": "BANCO CENTRAL DE RESERVA",
@@ -978,22 +1003,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMDM1OV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2500359-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se aprueba la misión en el exterior del Presidente del Banco Central de Reserva (BCRP) para participar en eventos en Estados Unidos. La resolución del BCRP autoriza formalmente este viaje. La participación del Presidente es fundamental para la representación del país en foros económicos internacionales. La norma tiene implicancias en la diplomacia económica y la imagen del país.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "economia",
-        "financiero"
+        "administracion_publica"
       ],
-      "tags": [
-        "viaje al exterior",
-        "presidente bcrc",
-        "eventos internacionales"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2489177-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1788-2026-CU-GYT/UNCP",
       "titulo_oficial": "RESOLUCION N° 1788-2026-CU-GYT/UNCP",
       "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
@@ -1003,21 +1029,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjQ4OTE3N18xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2489177-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se otorga un diploma duplicado por el grado académico de maestra en educación, mención gestión educativa, de la Universidad Nacional del Centro del Perú. La resolución emitida por la universidad formaliza la entrega del documento. Esta medida responde a una solicitud para reemplazar un diploma original. Su importancia radica en la validación oficial del título profesional.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "educacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "diploma",
-        "grado académico",
-        "educación"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2502900-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "004704-2026-R/UNMSM",
       "titulo_oficial": "RESOLUCION N° 004704-2026-R/UNMSM",
       "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
@@ -1027,22 +1055,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMjkwMF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2502900-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se autoriza el viaje de la Rectora de la Universidad Nacional Mayor de San Marcos (UNMSM) y otros funcionarios a Argentina. El propósito es participar en actividades relacionadas con el aniversario de la universidad y el Fondo Editorial. La resolución de la UNMSM aprueba la comisión de servicios. Esta autorización es crucial para la representación de la institución en el extranjero. La norma tiene un impacto en las relaciones internacionales de la universidad.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "educacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "viaje al exterior",
-        "rectora",
-        "unmsm",
-        "argentina"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2503470-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "017-2026-CO-UNACHU",
       "titulo_oficial": "RESOLUCION N° 017-2026-CO-UNACHU",
       "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
@@ -1052,21 +1081,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMzQ3MF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2503470-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se rectifican artículos del Reglamento de Organización y Funciones (ROF) de la Universidad Nacional Autónoma de Chupaca. La resolución del Consejo de Coordinación (CO) de la universidad realiza ajustes específicos al artículo 26°. Estas correcciones buscan adecuar el documento normativo a la estructura y necesidades actuales de la institución. La norma es de carácter interno y operativo.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "educacion"
+        "administracion_publica"
       ],
-      "tags": [
-        "reglamento",
-        "rof",
-        "universidad"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1037-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1037-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1076,22 +1107,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se acepta la renuncia de una fiscal adjunta provincial provisional transitoria del Distrito Fiscal de Ayacucho. La resolución del Ministerio Público formaliza esta decisión. La medida tiene como objetivo desvincular a la profesional de su cargo. Su impacto se centra en la gestión de personal fiscal en la región.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia",
-        "ministerio_publico"
+        "administracion_publica"
       ],
-      "tags": [
-        "renuncia",
-        "fiscal",
-        "ministerio público"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-2",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1038-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1038-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1101,23 +1133,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF8yMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-2_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a un nuevo fiscal en la Fiscalía Provincial de Familia de El Agustino. La resolución del Ministerio Público formaliza esta asignación. El objetivo es cubrir una plaza vacante y asegurar la continuidad del servicio de justicia en materia de familia. La norma tiene un impacto directo en la operatividad de la fiscalía.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia",
-        "ministerio_publico"
+        "administracion_publica"
       ],
-      "tags": [
-        "designación",
-        "fiscal",
-        "familia",
-        "ministerio público"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-3",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1039-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1039-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1127,23 +1159,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF8zMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-3_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a un fiscal en el Equipo de Apoyo Fiscal del Distrito Fiscal de Lima Centro. La resolución del Ministerio Público formaliza esta asignación de funciones. La medida busca reforzar el equipo de apoyo para optimizar la labor fiscal en Lima Centro. La norma tiene un impacto en la distribución de recursos humanos dentro del Ministerio Público.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia",
-        "ministerio_publico"
+        "administracion_publica"
       ],
-      "tags": [
-        "designación",
-        "fiscal",
-        "lima centro",
-        "ministerio público"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-4",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1040-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1040-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1153,21 +1185,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF80MjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-4_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "El Ministerio Público nombra a un fiscal provincial provisional para el Distrito Fiscal de Lambayeque. Esta designación busca asegurar la continuidad y el adecuado funcionamiento del servicio de justicia en dicha jurisdicción. La medida entra en vigencia a partir de su publicación.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "ministerio publico",
-        "fiscal provincial",
-        "designacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-5",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1041-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1041-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1177,21 +1211,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF81MjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-5_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "El Ministerio Público nombra a un fiscal adjunto provincial provisional para el Distrito Fiscal de Lima Este. Esta acción tiene como objetivo fortalecer la capacidad operativa del Ministerio Público en la mencionada jurisdicción. La designación es efectiva desde su publicación.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "ministerio publico",
-        "fiscal adjunto",
-        "designacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-6",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1042-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1042-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1201,21 +1237,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF82MjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-6_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "Se designa a una fiscal adjunta provincial provisional para el Distrito Fiscal de La Libertad por parte del Ministerio Público. Esta medida refuerza la labor fiscal en la región, garantizando la atención de casos. La vigencia inicia con la publicación de la resolución.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "ministerio publico",
-        "fiscal adjunta",
-        "designacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-7",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1048-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1048-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1225,21 +1263,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF83MjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-7_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "El Ministerio Público designa a un fiscal provincial como adscrito a la Fiscalía de la Nación, específicamente en el área de Enriquecimiento Ilícito y Denuncias Constitucionales. Esta asignación busca optimizar la investigación de casos de alta complejidad y relevancia. La medida es efectiva desde su publicación.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "ministerio publico",
-        "fiscalia de la nacion",
-        "enriquecimiento ilicito"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505090-8",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
       "numero": "1049-2026-MP-FN",
       "titulo_oficial": "RESOLUCION N° 1049-2026-MP-FN",
       "entidad_emisora": "MINISTERIO PUBLICO",
@@ -1249,21 +1289,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA5MF84MjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505090-8_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "El Ministerio Público nombra a un fiscal adjunto provincial provisional para el Distrito Fiscal de Lima Centro. Esta designación busca cubrir plazas necesarias para el correcto desempeño de las funciones fiscales en la jurisdicción. La medida entra en vigor desde su publicación.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "ministerio publico",
-        "fiscal adjunto",
-        "designacion"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504554-1",
       "seccion": "normas_legales",
       "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
       "numero": "017-2025-GORE-ICA",
       "titulo_oficial": "ORDENANZA N° 017-2025-GORE-ICA",
       "entidad_emisora": "GOBIERNO REGIONAL DE ICA",
@@ -1273,23 +1315,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDU1NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504554-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "El Gobierno Regional de Ica aprueba la incorporación de siete procedimientos administrativos y un servicio de la Dirección Regional de Energía y Minas a su Texto Único de Procedimientos Administrativos (TUPA). Esto busca simplificar y unificar los trámites para los ciudadanos y empresas en la región. La norma es efectiva desde su publicación.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "gobierno_regional",
-        "energia",
-        "economia"
+        "administracion_publica"
       ],
-      "tags": [
-        "tupa",
-        "procedimientos administrativos",
-        "energia y minas"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2503231-1",
       "seccion": "normas_legales",
       "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
       "numero": "542-2026/GRP-CR",
       "titulo_oficial": "ORDENANZA N° 542-2026/GRP-CR",
       "entidad_emisora": "GOBIERNO REGIONAL DE PIURA",
@@ -1299,22 +1341,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMzIzMV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2503231-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "El Gobierno Regional de Piura conforma una Mesa Territorial para la Gestión Integral del Ecosistema Frágil Humedal Costero Santa Julia. El objetivo es coordinar acciones entre diversas entidades y actores para la conservación y uso sostenible de este importante ecosistema. La medida entra en vigencia a partir de su publicación.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "gobierno_regional",
-        "ambiente"
+        "administracion_publica"
       ],
-      "tags": [
-        "humedal",
-        "gestion ambiental",
-        "ecosistema"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2504244-1",
       "seccion": "normas_legales",
       "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
       "numero": "631-MSI",
       "titulo_oficial": "ORDENANZA N° 631-MSI",
       "entidad_emisora": "MUNICIPALIDAD DE SAN ISIDRO",
@@ -1324,22 +1367,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDI0NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504244-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "La Municipalidad de San Isidro aprueba la Matriz Local de Prioridades Ambientales y Climáticas del distrito. Esta herramienta servirá como guía para la planificación y ejecución de políticas locales orientadas a la sostenibilidad y la adaptación al cambio climático. La norma es efectiva desde su publicación.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "gobierno_local",
-        "ambiente"
+        "administracion_publica"
       ],
-      "tags": [
-        "medio ambiente",
-        "cambio climatico",
-        "prioridades locales"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2505055-1",
       "seccion": "normas_legales",
       "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
       "numero": "748-MSS",
       "titulo_oficial": "ORDENANZA N° 748-MSS",
       "entidad_emisora": "MUNICIPALIDAD DE SANTIAGO DE SURCO",
@@ -1349,22 +1393,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA1NV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505055-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "La Municipalidad de Santiago de Surco autoriza la celebración del Matrimonio Civil Comunitario 2026. Esta iniciativa busca facilitar el acceso de parejas a la formalización de su unión civil, promoviendo la unidad familiar. La norma es efectiva desde su publicación.",
-      "impacto": "bajo",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "gobierno_local",
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "matrimonio civil",
-        "comunitario",
-        "municipalidad"
-      ]
+      "tags": [],
+      "prompt_version": 0
     },
     {
       "id": "2501720-1",
       "seccion": "normas_legales",
       "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
       "numero": "012-2026-MPMN",
       "titulo_oficial": "ORDENANZA N° 012-2026-MPMN",
       "entidad_emisora": "MUNICIPALIDAD PROVINCIAL DE MARISCAL NIETO",
@@ -1374,17 +1419,17 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMTcyMF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2501720-1_Portada.jpg",
       "edicion_extraordinaria": false,
-      "resumen_ejecutivo": "La Municipalidad Provincial de Mariscal Nieto aprueba el Reglamento para las Elecciones de Autoridades Municipales de Centros Poblados de su jurisdicción. El objetivo es establecer las reglas claras para la elección democrática de representantes locales. La norma entra en vigencia desde su publicación.",
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
       "impacto": "medio",
+      "impacto_razon": null,
       "sectores": [
-        "gobierno_local",
-        "justicia"
+        "administracion_publica"
       ],
-      "tags": [
-        "elecciones",
-        "centros poblados",
-        "reglamento"
-      ]
+      "tags": [],
+      "prompt_version": 0
     }
   ],
   "documentos": [
@@ -1524,36 +1569,16 @@
   ],
   "stats": {
     "total_normas": 55,
-    "alto": 1,
-    "medio": 18,
-    "bajo": 36,
+    "alto": 0,
+    "medio": 55,
+    "bajo": 0,
     "sectores_top": [
       [
-        "justicia",
-        14
-      ],
-      [
         "administracion_publica",
-        11
-      ],
-      [
-        "educacion",
-        7
-      ],
-      [
-        "interior",
-        5
-      ],
-      [
-        "gobierno_local",
-        5
-      ],
-      [
-        "economia",
-        5
+        55
       ]
     ],
     "documentos_otras_secciones": 19
   },
-  "generated_at": "2026-04-11T22:25:07.022022Z"
+  "generated_at": "2026-04-11T23:34:21.489583Z"
 }
