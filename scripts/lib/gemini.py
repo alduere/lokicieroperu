@@ -26,8 +26,8 @@ from scripts.lib.schemas import PROMPT_VERSION, Impacto, NormaCruda, NormaResumi
 logger = logging.getLogger(__name__)
 
 MODEL = "gemini-2.5-flash-lite"
-BATCH_SIZE = 12  # 60-80 norms/day → 5-7 batches/day
-RATE_LIMIT_SECONDS = 4.5  # 15 RPM free tier cap → 1 call every 4.5s
+BATCH_SIZE = 25  # 60-80 norms/day → 2-4 batches/day. Fits comfortably in any tier.
+RATE_LIMIT_SECONDS = 1.0  # Paid tier has 4000 RPM; throttle just for politeness
 
 SYSTEM_PROMPT = """Eres un analista legal peruano senior. Tu trabajo es resumir
 normas legales del Diario Oficial El Peruano para profesionales (abogados,
@@ -195,7 +195,7 @@ class GeminiClient:
                 response_mime_type="application/json",
                 response_schema=_RESPONSE_SCHEMA,
                 temperature=0.25,
-                max_output_tokens=8192,
+                max_output_tokens=32768,  # 25 norms × ~600 tokens output ≈ 15k. Safe margin.
             ),
         )
         text = resp.text or "{}"
