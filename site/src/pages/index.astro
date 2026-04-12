@@ -60,34 +60,34 @@ function impactLabel(impacto: Impacto): string {
   {hub ? (
     <>
       {/* Hero */}
-      <section class="text-center py-6">
-        <div class="text-xs uppercase tracking-[0.25em] text-ink-sepia font-sans mb-3">
+      <section class="text-center py-8 animate-entrance">
+        <div class="text-[10px] uppercase tracking-[0.3em] text-ink-sepia font-sans mb-3 font-semibold">
           Resumen del día
         </div>
-        <h1 class="font-display font-black text-4xl sm:text-5xl tracking-tightest leading-none mb-6">
+        <h1 class="font-display font-black text-4xl sm:text-5xl lg:text-6xl tracking-tightest leading-[0.9] mb-8">
           {formatFechaEs(hub.fecha)}
         </h1>
-        <div class="flex justify-center gap-8 sm:gap-12 text-center">
+        <div class="flex justify-center gap-10 sm:gap-16 text-center animate-entrance delay-2">
           <div>
-            <div class="font-display font-black text-3xl leading-none">{hub.stats.total_publicaciones}</div>
-            <div class="text-xs uppercase tracking-widest text-ink-sepia mt-1 font-sans">Publicaciones</div>
+            <div class="font-display font-black text-4xl sm:text-5xl leading-none">{hub.stats.total_publicaciones}</div>
+            <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Publicaciones</div>
           </div>
           <div>
-            <div class="font-display font-black text-3xl leading-none text-impact-alto">{hub.stats.alertas_alto}</div>
-            <div class="text-xs uppercase tracking-widest text-ink-sepia mt-1 font-sans">Alto impacto</div>
+            <div class="font-display font-black text-4xl sm:text-5xl leading-none text-impact-alto">{hub.stats.alertas_alto}</div>
+            <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Alto impacto</div>
           </div>
           <div>
-            <div class="font-display font-black text-3xl leading-none">{hub.stats.fuentes_activas}</div>
-            <div class="text-xs uppercase tracking-widest text-ink-sepia mt-1 font-sans">Fuentes activas</div>
+            <div class="font-display font-black text-4xl sm:text-5xl leading-none">{hub.stats.fuentes_activas}</div>
+            <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Fuentes</div>
           </div>
         </div>
       </section>
 
-      <div class="section-divider"><span></span></div>
+      <div class="ornament animate-entrance delay-3"><div class="ornament-diamond"></div></div>
 
       {/* El Peruano source block */}
       {epSource && epSource.total > 0 && (
-        <div class="source-block mb-12" data-source="elperuano">
+        <div class="source-block mb-12 animate-entrance delay-4" data-source="elperuano">
           {/* Source header */}
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
             <div>
@@ -154,7 +154,7 @@ function impactLabel(impacto: Impacto): string {
 
       {/* INDECOPI combined source block */}
       {(indecopiTotal + consumidorTotal + gacetaTotal) > 0 && (
-        <div class="source-block mb-12" data-source="indecopi">
+        <div class="source-block mb-12 animate-entrance delay-5" data-source="indecopi">
           {/* Source header */}
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
             <div>
@@ -280,7 +280,7 @@ function impactLabel(impacto: Impacto): string {
 
       {/* Tribunal Fiscal source block */}
       {tfTotal > 0 ? (
-        <div class="source-block mb-12" data-source="tribunal-fiscal">
+        <div class="source-block mb-12 animate-entrance delay-6" data-source="tribunal-fiscal">
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
             <div>
               <h2 class="font-display font-black text-2xl tracking-tightest leading-none">

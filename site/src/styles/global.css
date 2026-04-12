@@ -5,50 +5,81 @@
 @layer base {
   html {
     -webkit-font-smoothing: antialiased;
+    font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
+    hanging-punctuation: first last;
+    text-rendering: optimizeLegibility;
   }
   body {
     @apply bg-parchment text-ink;
+    position: relative;
+  }
+  /* Paper grain texture overlay */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.3;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+  }
+  /* Playfair optical sizing */
+  .font-display {
+    font-optical-sizing: auto;
   }
 }
 
 @layer components {
-  /* Double rule — classic press header/footer border */
-  .double-rule-top {
-    border-top: 3px solid theme("colors.ink.DEFAULT");
-    position: relative;
-  }
-  .double-rule-top::after {
-    content: "";
-    display: block;
-    border-top: 1px solid theme("colors.ink.DEFAULT");
-    margin-top: 2px;
-  }
-
+  /* ═══ DOUBLE RULES — classic broadsheet borders ═══ */
   .double-rule-bottom {
     border-bottom: 3px solid theme("colors.ink.DEFAULT");
     position: relative;
   }
-  .double-rule-bottom::before {
+  .double-rule-bottom::after {
     content: "";
     display: block;
     border-bottom: 1px solid theme("colors.ink.DEFAULT");
-    margin-bottom: 2px;
+    margin-top: 2px;
   }
 
-  /* Impact pills */
+  .double-rule-top {
+    position: relative;
+    padding-top: 6px;
+  }
+  .double-rule-top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 3px solid theme("colors.ink.DEFAULT");
+  }
+  .double-rule-top::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    border-top: 1px solid theme("colors.ink.DEFAULT");
+  }
+
+  /* ═══ IMPACT PILLS ═══ */
   .impact-pill {
-    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-xs font-semibold uppercase tracking-wider;
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider;
+    letter-spacing: 0.08em;
   }
-  .impact-pill.alto  { background: rgba(139, 32, 32, 0.1); color: theme("colors.impact.alto"); }
-  .impact-pill.medio { background: rgba(154, 107, 26, 0.1); color: theme("colors.impact.medio"); }
-  .impact-pill.bajo  { background: rgba(58, 107, 58, 0.1);  color: theme("colors.impact.bajo"); }
+  .impact-pill.alto  { background: rgba(139, 32, 32, 0.12); color: theme("colors.impact.alto"); }
+  .impact-pill.medio { background: rgba(154, 107, 26, 0.12); color: theme("colors.impact.medio"); }
+  .impact-pill.bajo  { background: rgba(58, 107, 58, 0.12);  color: theme("colors.impact.bajo"); }
 
-  /* Source tab bar */
+  /* ═══ SOURCE TABS ═══ */
   .source-tab {
-    @apply px-4 py-2.5 text-sm font-semibold transition-colors cursor-pointer;
+    @apply px-4 py-2.5 text-sm font-semibold transition-all cursor-pointer;
     color: theme("colors.ink.sepia");
     border-bottom: 2px solid transparent;
     margin-bottom: -1px;
+    position: relative;
   }
   .source-tab:hover {
     color: theme("colors.ink.light");
@@ -59,22 +90,24 @@
     font-weight: 700;
   }
 
-  /* Ruled item — norm or alert in a list */
+  /* ═══ RULED ITEMS ═══ */
   .ruled-item {
     @apply py-3;
     border-bottom: 1px solid theme("colors.ink.rule-light");
+    transition: all 0.2s ease;
   }
   .ruled-item:hover {
-    background: rgba(44, 24, 16, 0.03);
-    margin: 0 -8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 4px;
+    background: rgba(44, 24, 16, 0.025);
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+    border-bottom-color: transparent;
   }
 
-  /* Section divider with centered text */
+  /* ═══ SECTION DIVIDERS ═══ */
   .section-divider {
-    @apply flex items-center gap-3 my-7;
+    @apply flex items-center gap-4 my-8;
   }
   .section-divider::before,
   .section-divider::after {
@@ -84,7 +117,87 @@
     background: theme("colors.ink.rule");
   }
   .section-divider span {
-    @apply text-xs uppercase tracking-widest whitespace-nowrap;
+    @apply text-[10px] uppercase tracking-[0.25em] whitespace-nowrap;
     color: theme("colors.ink.sepia");
+  }
+
+  /* ═══ ORNAMENTAL DIVIDER — diamond motif ═══ */
+  .ornament {
+    @apply flex items-center justify-center gap-3 my-8;
+    color: theme("colors.ink.rule");
+  }
+  .ornament::before,
+  .ornament::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: theme("colors.ink.rule");
+  }
+  .ornament-diamond {
+    width: 6px;
+    height: 6px;
+    background: theme("colors.ink.rule");
+    transform: rotate(45deg);
+    flex-shrink: 0;
+  }
+
+  /* ═══ STAGGERED ENTRANCE ANIMATIONS ═══ */
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes ruleExpand {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+
+  .animate-entrance {
+    animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .animate-fade {
+    animation: fadeIn 0.5s ease both;
+  }
+
+  /* Stagger delays */
+  .delay-1 { animation-delay: 0.05s; }
+  .delay-2 { animation-delay: 0.1s; }
+  .delay-3 { animation-delay: 0.15s; }
+  .delay-4 { animation-delay: 0.2s; }
+  .delay-5 { animation-delay: 0.25s; }
+  .delay-6 { animation-delay: 0.3s; }
+  .delay-7 { animation-delay: 0.35s; }
+
+  /* ═══ SOURCE BLOCK HOVER ═══ */
+  .source-block {
+    transition: opacity 0.3s ease;
+  }
+  .source-block.hidden {
+    display: none;
+  }
+
+  /* ═══ MASTHEAD ═══ */
+  .masthead-title {
+    font-family: theme("fontFamily.display");
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  }
+  .masthead-subtitle {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: theme("colors.ink.sepia");
+    margin-top: 2px;
   }
 }

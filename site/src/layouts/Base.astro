@@ -11,12 +11,16 @@ interface Props {
 
 const {
   title,
-  description = "Inteligencia regulatoria peruana con IA — El Peruano, INDECOPI y más",
+  description = "Inteligencia regulatoria peruana con IA — El Peruano, INDECOPI, Tribunal Fiscal",
   sourceSlug,
   sourceName,
 } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const isHub = !sourceSlug;
+const today = new Date();
+const dayNames = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+const monthNames = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+const todayStr = `${dayNames[today.getDay()]} ${today.getDate()} de ${monthNames[today.getMonth()]} de ${today.getFullYear()}`;
 ---
 
 <!doctype html>
@@ -28,47 +32,54 @@ const isHub = !sourceSlug;
   <meta name="description" content={description} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,400;1,700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E" />
 </head>
 <body class="min-h-screen font-sans">
-  <!-- Header -->
-  <header class="sticky top-0 z-50 bg-parchment double-rule-bottom">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-      <a href={`${base}/`} class="flex items-center gap-3 group">
-        <div class="w-10 h-10 bg-ink text-parchment-light grid place-items-center font-display font-bold text-lg tracking-tighter group-hover:rotate-3 transition-transform">
-          LK
-        </div>
-        <div>
-          <div class="font-display font-black text-xl leading-none tracking-tightest">Loki-ciero Perú</div>
-          <div class="text-[10px] text-ink-sepia mt-0.5 uppercase tracking-[0.2em] font-sans">Inteligencia regulatoria</div>
-        </div>
-      </a>
-      <nav class="flex items-center gap-1 text-sm font-sans">
-        {isHub ? (
-          <>
-            <a href={`${base}/`} class="px-3 py-1.5 hover:text-ink-light font-semibold">Inicio</a>
-            <a href={`${base}/buscar`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Buscar todo</a>
-          </>
-        ) : (
-          <>
-            <a href={`${base}/`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Inicio</a>
-            <a href={`${base}/${sourceSlug}/`} class="px-3 py-1.5 hover:text-ink-light font-semibold">{sourceName || "Hoy"}</a>
-            <a href={`${base}/${sourceSlug}/buscar`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Buscar</a>
-            <a href={`${base}/${sourceSlug}/archivo`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Archivo</a>
-          </>
-        )}
-        <a href="https://github.com/alduere/lokicieroperu" class="px-3 py-1.5 hover:text-ink-light text-ink-sepia hidden sm:block">Repo</a>
-      </nav>
+
+  <!-- ═══ MASTHEAD ═══ -->
+  <header class="sticky top-0 z-50 bg-parchment/95 backdrop-blur-sm double-rule-bottom">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <!-- Top dateline -->
+      <div class="flex items-center justify-between py-1.5 text-[10px] text-ink-sepia tracking-wider border-b border-ink-rule-light">
+        <span class="uppercase">{todayStr}</span>
+        <a href="https://github.com/alduere/lokicieroperu" class="hover:text-ink transition-colors hidden sm:block">GitHub</a>
+      </div>
+      <!-- Main masthead -->
+      <div class="flex items-center justify-between py-3">
+        <a href={`${base}/`} class="flex items-center gap-3 group">
+          <div class="w-9 h-9 bg-ink text-parchment-light grid place-items-center font-display font-black text-sm tracking-tighter group-hover:rotate-2 transition-transform duration-300">
+            LK
+          </div>
+          <div>
+            <div class="masthead-title">Loki-ciero Perú</div>
+            <div class="masthead-subtitle">Inteligencia regulatoria</div>
+          </div>
+        </a>
+        <nav class="flex items-center gap-0.5 text-[13px] font-sans">
+          {isHub ? (
+            <>
+              <a href={`${base}/`} class="px-2.5 py-1 font-semibold text-ink">Inicio</a>
+              <span class="text-ink-rule">|</span>
+              <a href={`${base}/buscar`} class="px-2.5 py-1 text-ink-sepia hover:text-ink transition-colors">Buscar</a>
+            </>
+          ) : (
+            <>
+              <a href={`${base}/`} class="px-2.5 py-1 text-ink-sepia hover:text-ink transition-colors">Inicio</a>
+              <span class="text-ink-rule">|</span>
+              <a href={`${base}/${sourceSlug}/`} class="px-2.5 py-1 font-semibold text-ink">{sourceName}</a>
+              <span class="text-ink-rule">|</span>
+              <a href={`${base}/${sourceSlug}/archivo`} class="px-2.5 py-1 text-ink-sepia hover:text-ink transition-colors">Archivo</a>
+            </>
+          )}
+        </nav>
+      </div>
     </div>
   </header>
 
-  <!-- Tabs bar (hub pages only) -->
+  <!-- ═══ TABS BAR ═══ -->
   {isHub && (
-    <nav class="bg-ink/[0.03] border-b border-ink-rule">
+    <nav class="border-b border-ink-rule bg-parchment">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
         <button class="source-tab active" data-source="all">Todas</button>
         <button class="source-tab" data-source="elperuano">El Peruano</button>
@@ -78,11 +89,10 @@ const isHub = !sourceSlug;
     </nav>
   )}
 
-  <!-- Source-specific nav for INDECOPI -->
   {sourceSlug === "indecopi" && (
-    <nav class="bg-ink/[0.03] border-b border-ink-rule">
+    <nav class="border-b border-ink-rule bg-parchment">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
-        <a href={`${base}/indecopi/`} class="source-tab">Hoy</a>
+        <a href={`${base}/indecopi/`} class="source-tab">Resumen</a>
         <a href={`${base}/indecopi/alertas/`} class="source-tab">Alertas</a>
         <a href={`${base}/indecopi/consumidor/`} class="source-tab">Consumidor</a>
         <a href={`${base}/indecopi/gaceta-pi/`} class="source-tab">Gaceta PI</a>
@@ -90,55 +100,86 @@ const isHub = !sourceSlug;
     </nav>
   )}
 
-  <!-- Source-specific nav for Tribunal Fiscal -->
   {sourceSlug === "tribunal-fiscal" && (
-    <nav class="bg-ink/[0.03] border-b border-ink-rule">
+    <nav class="border-b border-ink-rule bg-parchment">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
-        <a href={`${base}/tribunal-fiscal/`} class="source-tab">Hoy</a>
-        <a href={`${base}/tribunal-fiscal/buscar`} class="source-tab">Buscar</a>
+        <a href={`${base}/tribunal-fiscal/`} class="source-tab">Resoluciones</a>
         <a href={`${base}/tribunal-fiscal/archivo`} class="source-tab">Archivo</a>
       </div>
     </nav>
   )}
 
+  {sourceSlug === "elperuano" && (
+    <nav class="border-b border-ink-rule bg-parchment">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
+        <a href={`${base}/elperuano/`} class="source-tab">Hoy</a>
+        <a href={`${base}/elperuano/buscar`} class="source-tab">Buscar</a>
+        <a href={`${base}/elperuano/archivo`} class="source-tab">Archivo</a>
+      </div>
+    </nav>
+  )}
+
+  <!-- ═══ MAIN ═══ -->
   <main class="max-w-5xl mx-auto px-4 sm:px-6 py-8">
     <slot />
   </main>
 
-  <!-- Footer -->
-  <footer class="mt-20 double-rule-top">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10 text-sm text-ink-sepia flex items-start justify-between flex-wrap gap-6">
-      <div class="flex flex-col gap-2">
-        <div class="font-sans font-semibold text-ink uppercase tracking-wider text-xs mb-1">Fuentes</div>
-        <a href={`${base}/elperuano/`} class="hover:text-ink transition-colors">El Peruano</a>
-        <a href={`${base}/indecopi/`} class="hover:text-ink transition-colors">INDECOPI</a>
-        <a href={`${base}/indecopi/alertas/`} class="hover:text-ink transition-colors">Alertas</a>
-        <a href={`${base}/indecopi/consumidor/`} class="hover:text-ink transition-colors">Consumidor</a>
-        <a href={`${base}/indecopi/gaceta-pi/`} class="hover:text-ink transition-colors">Gaceta PI</a>
-        <a href={`${base}/tribunal-fiscal/`} class="hover:text-ink transition-colors">Tribunal Fiscal</a>
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="mt-16 double-rule-top pt-8">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 pb-10">
+      <div class="flex flex-col sm:flex-row items-start justify-between gap-6">
+        <!-- Left: Colophon -->
+        <div class="max-w-sm">
+          <div class="font-display font-black text-lg mb-2">Loki-ciero Perú</div>
+          <p class="text-xs text-ink-sepia leading-relaxed">
+            Resumen diario automatizado de normas, alertas y resoluciones regulatorias peruanas.
+            Fuentes oficiales scrapeadas con IA a las 7:00 AM Lima. Los resúmenes pueden contener
+            errores — consulta siempre el texto oficial.
+          </p>
+        </div>
+        <!-- Right: Source links -->
+        <div class="flex gap-8 text-xs">
+          <div>
+            <div class="font-semibold text-ink uppercase tracking-wider text-[10px] mb-2">Fuentes</div>
+            <div class="flex flex-col gap-1.5 text-ink-sepia">
+              <a href={`${base}/elperuano/`} class="hover:text-ink transition-colors">El Peruano</a>
+              <a href={`${base}/indecopi/`} class="hover:text-ink transition-colors">INDECOPI</a>
+              <a href={`${base}/tribunal-fiscal/`} class="hover:text-ink transition-colors">Tribunal Fiscal</a>
+            </div>
+          </div>
+          <div>
+            <div class="font-semibold text-ink uppercase tracking-wider text-[10px] mb-2">INDECOPI</div>
+            <div class="flex flex-col gap-1.5 text-ink-sepia">
+              <a href={`${base}/indecopi/alertas/`} class="hover:text-ink transition-colors">Alertas</a>
+              <a href={`${base}/indecopi/consumidor/`} class="hover:text-ink transition-colors">Consumidor</a>
+              <a href={`${base}/indecopi/gaceta-pi/`} class="hover:text-ink transition-colors">Gaceta PI</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="font-display italic text-ink-sepia text-right">
-        {epSortedDates.length} día{epSortedDates.length === 1 ? "" : "s"} publicados
+      <!-- Bottom rule -->
+      <div class="mt-8 pt-4 border-t border-ink-rule flex items-center justify-between text-[10px] text-ink-sepia">
+        <span>{epSortedDates.length} ediciones publicadas</span>
+        <span class="font-display italic">Hecho con IA en Lima, Perú</span>
       </div>
     </div>
   </footer>
 
+  <!-- ═══ TAB FILTERING ═══ -->
   {isHub && (
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         const tabs = document.querySelectorAll<HTMLButtonElement>(".source-tab");
         const blocks = document.querySelectorAll<HTMLElement>(".source-block");
-
         tabs.forEach((tab) => {
           tab.addEventListener("click", () => {
             const source = tab.dataset.source;
-
             tabs.forEach((t) => t.classList.remove("active"));
             tab.classList.add("active");
-
             blocks.forEach((block) => {
               if (source === "all" || block.dataset.source === source) {
                 block.classList.remove("hidden");
+                block.style.animation = "fadeUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) both";
               } else {
                 block.classList.add("hidden");
               }
