@@ -1,0 +1,51 @@
+---
+import Base from "../../layouts/Base.astro";
+import { gacetaSortedDates, getGacetaDay, formatFechaEs } from "../../lib/data";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const days = gacetaSortedDates.map((d) => ({ date: d, dia: getGacetaDay(d)! }));
+---
+
+<Base title="Archivo · Gaceta PI · Loki-ciero Peru" sourceSlug="gaceta-pi" sourceName="Gaceta PI">
+  <nav class="text-xs text-ink-sepia mb-4">
+    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+    <span class="mx-1">›</span>
+    <a href={`${base}/gaceta-pi/`} class="hover:text-ink">Gaceta PI</a>
+    <span class="mx-1">›</span>
+    <span class="text-ink">Archivo</span>
+  </nav>
+
+  <div class="mb-8">
+    <h1 class="font-display text-4xl font-bold tracking-tightest">Archivo</h1>
+    <p class="text-ink-sepia mt-2">Historial de publicaciones de la Gaceta de Propiedad Industrial</p>
+  </div>
+
+  {days.length > 0 ? (
+    <div class="overflow-hidden border-t-2 border-ink">
+      <table class="w-full text-sm">
+        <thead class="bg-parchment-light border-b-2 border-ink">
+          <tr>
+            <th class="text-left px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Fecha</th>
+            <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Solicitudes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {days.map(({ date, dia }) => (
+            <tr class="border-b border-ink-rule-light hover:bg-parchment-light/50">
+              <td class="px-4 py-3">
+                <a href={`${base}/gaceta-pi/`} class="font-display font-semibold text-ink hover:text-ink-light">
+                  {formatFechaEs(date)}
+                </a>
+              </td>
+              <td class="px-4 py-3 text-right font-mono text-ink-light">{dia.stats.total_solicitudes}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  ) : (
+    <div class="border border-ink-rule rounded-lg p-12 text-center">
+      <p class="text-ink-light">Aun no hay datos de la Gaceta PI en el archivo.</p>
+    </div>
+  )}
+</Base>

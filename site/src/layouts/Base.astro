@@ -73,6 +73,8 @@ const isHub = !sourceSlug;
         <button class="source-tab active" data-source="all">Todas</button>
         <button class="source-tab" data-source="elperuano">El Peruano</button>
         <button class="source-tab" data-source="indecopi-alertas">INDECOPI Alertas</button>
+        <button class="source-tab" data-source="consumidor">Consumidor</button>
+        <button class="source-tab" data-source="gaceta-pi">Gaceta PI</button>
       </div>
     </nav>
   )}
@@ -87,7 +89,9 @@ const isHub = !sourceSlug;
       <div class="flex flex-col gap-2">
         <div class="font-sans font-semibold text-ink uppercase tracking-wider text-xs mb-1">Fuentes</div>
         <a href={`${base}/elperuano/`} class="hover:text-ink transition-colors">El Peruano</a>
-        <a href="https://www.indecopi.gob.pe" class="hover:text-ink transition-colors">INDECOPI</a>
+        <a href={`${base}/indecopi-alertas/`} class="hover:text-ink transition-colors">INDECOPI Alertas</a>
+        <a href={`${base}/consumidor/`} class="hover:text-ink transition-colors">Consumidor</a>
+        <a href={`${base}/gaceta-pi/`} class="hover:text-ink transition-colors">Gaceta PI</a>
       </div>
       <div class="font-display italic text-ink-sepia text-right">
         {epSortedDates.length} día{epSortedDates.length === 1 ? "" : "s"} publicados

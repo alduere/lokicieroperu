@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
-import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay } from "../lib/data";
-import type { NormaResumida, AlertaResumida, Impacto } from "../lib/types";
+import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay } from "../lib/data";
+import type { NormaResumida, AlertaResumida, NoticiaResumida, SolicitudPIResumida, Impacto } from "../lib/types";
 
 const date = latestHubDate();
 const hub = date ? getHubDay(date) : null;
@@ -25,9 +25,23 @@ const epRemaining = epTotal - epItems.length;
 const indecopiItems = indecopiDay ? indecopiDay.items : [];
 const indecopiTotal = indecopiItems.length;
 
+// Consumidor: load source data
+const consumidorDay = date ? getConsumidorDay(date) : null;
+const consumidorItems = consumidorDay ? consumidorDay.items : [];
+const consumidorTotal = consumidorItems.length;
+
+// Gaceta PI: load source data, show top 10 on hub
+const gacetaDay = date ? getGacetaDay(date) : null;
+const gacetaItemsAll = gacetaDay ? gacetaDay.items : [];
+const gacetaVisible = gacetaItemsAll.slice(0, 10);
+const gacetaTotal = gacetaItemsAll.length;
+const gacetaRemaining = gacetaTotal - gacetaVisible.length;
+
 // Hub source metadata
 const epSource = hub?.sources.find((s) => s.slug === "elperuano");
 const indecopiSource = hub?.sources.find((s) => s.slug === "indecopi-alertas");
+const consumidorSource = hub?.sources.find((s) => s.slug === "consumidor");
+const gacetaSource = hub?.sources.find((s) => s.slug === "gaceta-pi");
 
 function impactLabel(impacto: Impacto): string {
   return impacto.charAt(0).toUpperCase() + impacto.slice(1);
@@ -185,6 +199,119 @@ function impactLabel(impacto: Impacto): string {
               </a>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* Consumidor source block */}
+      {consumidorTotal > 0 && (
+        <div class="source-block mb-12" data-source="consumidor">
+          <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+            <div>
+              <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
+                {consumidorSource ? consumidorSource.nombre : "Consumidor"}
+              </h2>
+            </div>
+            <div class="font-display font-black text-3xl leading-none">
+              {consumidorTotal}
+            </div>
+          </div>
+          <div class="font-display italic text-ink-sepia text-sm mb-3">
+            {consumidorSource ? consumidorSource.subtitulo : "Noticias de proteccion al consumidor"}
+          </div>
+
+          {consumidorSource && consumidorSource.categorias.length > 0 && (
+            <div class="flex gap-2 mb-4">
+              {consumidorSource.categorias.map((cat) => (
+                <span class={`impact-pill ${cat.nombre}`}>
+                  {impactLabel(cat.nombre as Impacto)} {cat.count}
+                </span>
+              ))}
+            </div>
+          )}
+
+          <div>
+            {consumidorItems.map((noticia) => (
+              <div class="ruled-item block">
+                <div class="flex items-start gap-2 mb-1">
+                  <span class={`impact-pill ${noticia.impacto} flex-shrink-0`}>
+                    {impactLabel(noticia.impacto)}
+                  </span>
+                  <span class="font-display font-bold text-ink leading-snug">
+                    {noticia.titulo}
+                  </span>
+                </div>
+                {noticia.resumen && (
+                  <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
+                    {noticia.resumen}
+                  </p>
+                )}
+                {noticia.link_oficial && (
+                  <a href={noticia.link_oficial} class="text-xs text-ink-sepia hover:text-ink mt-1 inline-block" target="_blank" rel="noopener noreferrer">
+                    Ver en consumidor.gob.pe &rarr;
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Gaceta PI source block */}
+      {gacetaTotal > 0 && (
+        <div class="source-block mb-12" data-source="gaceta-pi">
+          <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+            <div>
+              <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
+                {gacetaSource ? gacetaSource.nombre : "Gaceta PI"}
+              </h2>
+            </div>
+            <div class="font-display font-black text-3xl leading-none">
+              {gacetaTotal}
+            </div>
+          </div>
+          <div class="font-display italic text-ink-sepia text-sm mb-3">
+            {gacetaSource ? gacetaSource.subtitulo : "Solicitudes de propiedad industrial"}
+          </div>
+
+          {gacetaSource && gacetaSource.categorias.length > 0 && (
+            <div class="flex gap-2 mb-4">
+              {gacetaSource.categorias.map((cat) => (
+                <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full">
+                  {cat.nombre} {cat.count}
+                </span>
+              ))}
+            </div>
+          )}
+
+          <div>
+            {gacetaVisible.map((item) => (
+              <a
+                href={`${base}/gaceta-pi/item/${item.id}`}
+                class="ruled-item block"
+              >
+                <div class="flex items-start gap-2 mb-1">
+                  <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full flex-shrink-0">
+                    {item.tipo_solicitud}
+                  </span>
+                  <span class="font-display font-bold text-ink leading-snug">
+                    {item.signo_solicitado}
+                  </span>
+                </div>
+                <div class="text-xs text-ink-sepia ml-0 mt-1">
+                  {item.solicitante}{item.clase ? ` · Clase ${item.clase}` : ""}
+                </div>
+              </a>
+            ))}
+          </div>
+
+          {gacetaRemaining > 0 && (
+            <a
+              href={`${base}/gaceta-pi/`}
+              class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
+            >
+              + {gacetaRemaining} mas &rarr;
+            </a>
+          )}
         </div>
       )}
 

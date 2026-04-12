@@ -207,3 +207,89 @@ class DiaAlertasProcesado(BaseModel):
 class AlertasIndexEntry(BaseModel):
     fecha: date
     total_alertas: int
+
+
+# ── INDECOPI Consumidor (WordPress) ─────────────────────────────────────
+
+CONSUMIDOR_PROMPT_VERSION = 1
+
+
+class NoticiaCruda(BaseModel):
+    """A news post from consumidor.gob.pe WordPress API."""
+
+    id: str
+    titulo: str
+    extracto: str | None = None  # HTML excerpt, stripped
+    fecha_publicacion: date
+    link_oficial: str | None = None
+    categorias: list[int] = Field(default_factory=list)
+
+
+class NoticiaResumida(NoticiaCruda):
+    """A news post after AI summarization."""
+
+    resumen: str | None = None
+    impacto: Impacto = Impacto.MEDIO
+    impacto_razon: str | None = None
+    tags: list[str] = Field(default_factory=list)
+    prompt_version: int = 0
+
+
+class StatsNoticiasDia(BaseModel):
+    total_noticias: int
+
+
+class DiaNoticiasProcesado(BaseModel):
+    fecha: date
+    source_slug: str = "consumidor"
+    items: list[NoticiaResumida]
+    stats: StatsNoticiasDia
+    generated_at: str
+
+
+class NoticiasIndexEntry(BaseModel):
+    fecha: date
+    total_noticias: int
+
+
+# ── INDECOPI Gaceta de Propiedad Industrial ─────────────────────────────
+
+GACETA_PROMPT_VERSION = 1
+
+
+class SolicitudPICruda(BaseModel):
+    """A trademark/patent filing from the IP Gazette."""
+
+    id: str  # expedition number
+    tipo_solicitud: str  # "Marca de Producto", "Marca de Servicio", "Patente de Invencion", etc.
+    signo_solicitado: str  # the trademark name/sign
+    solicitante: str  # applicant name
+    clase: str | None = None  # Nice classification
+    fecha_publicacion: date
+    fecha_presentacion: date | None = None
+    fecha_limite_oposicion: date | None = None
+    descripcion: str | None = None  # product/service description
+
+
+class SolicitudPIResumida(SolicitudPICruda):
+    """Not AI-summarized — filings are structured data, no AI needed."""
+
+    prompt_version: int = 0
+
+
+class StatsGacetaDia(BaseModel):
+    total_solicitudes: int
+    por_tipo: list[tuple[str, int]] = Field(default_factory=list)
+
+
+class DiaGacetaProcesado(BaseModel):
+    fecha: date
+    source_slug: str = "gaceta-pi"
+    items: list[SolicitudPIResumida]
+    stats: StatsGacetaDia
+    generated_at: str
+
+
+class GacetaIndexEntry(BaseModel):
+    fecha: date
+    total_solicitudes: int

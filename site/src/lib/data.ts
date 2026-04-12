@@ -2,7 +2,7 @@
 // at build time. The build.py script copies the files; this module just imports
 // them via Vite's glob import so Astro picks them up statically.
 
-import type { DiaProcesado, IndexEntry, NormaResumida, HubDay, DiaAlertasProcesado } from "./types";
+import type { DiaProcesado, IndexEntry, NormaResumida, HubDay, DiaAlertasProcesado, DiaNoticiasProcesado, DiaGacetaProcesado } from "./types";
 
 const dayModules = import.meta.glob<{ default: DiaProcesado }>(
   "/src/data/2*-*-*.json",
@@ -175,4 +175,42 @@ export function getIndecopiDay(date: string): DiaAlertasProcesado | null {
 
 export function latestIndecopiDate(): string | null {
   return indecopiSortedDates[0] ?? null;
+}
+
+// Consumidor data
+const consumidorModules = import.meta.glob<{ default: DiaNoticiasProcesado }>(
+  "/src/data/consumidor/2*-*-*.json",
+  { eager: true, import: "default" },
+);
+export const consumidorDays: Record<string, DiaNoticiasProcesado> = Object.fromEntries(
+  Object.entries(consumidorModules).map(([path, mod]) => {
+    const date = path.split("/").pop()!.replace(".json", "");
+    return [date, mod];
+  }),
+);
+export const consumidorSortedDates: string[] = Object.keys(consumidorDays).sort().reverse();
+export function getConsumidorDay(date: string): DiaNoticiasProcesado | null {
+  return consumidorDays[date] ?? null;
+}
+export function latestConsumidorDate(): string | null {
+  return consumidorSortedDates[0] ?? null;
+}
+
+// Gaceta PI data
+const gacetaModules = import.meta.glob<{ default: DiaGacetaProcesado }>(
+  "/src/data/gaceta-pi/2*-*-*.json",
+  { eager: true, import: "default" },
+);
+export const gacetaDays: Record<string, DiaGacetaProcesado> = Object.fromEntries(
+  Object.entries(gacetaModules).map(([path, mod]) => {
+    const date = path.split("/").pop()!.replace(".json", "");
+    return [date, mod];
+  }),
+);
+export const gacetaSortedDates: string[] = Object.keys(gacetaDays).sort().reverse();
+export function getGacetaDay(date: string): DiaGacetaProcesado | null {
+  return gacetaDays[date] ?? null;
+}
+export function latestGacetaDate(): string | null {
+  return gacetaSortedDates[0] ?? null;
 }

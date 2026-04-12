@@ -80,12 +80,28 @@ jobs:
         run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source indecopi-alertas
         continue-on-error: true
 
+      - name: Scrape Consumidor
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source consumidor
+        continue-on-error: true
+
+      - name: Scrape Gaceta PI
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source gaceta-pi
+        continue-on-error: true
+
       # ── Summarize all sources ───────────────────────────────────────
       - name: Summarize El Peruano
         run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source elperuano
 
       - name: Summarize INDECOPI Alertas
         run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source indecopi-alertas
+        continue-on-error: true
+
+      - name: Summarize Consumidor
+        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source consumidor
+        continue-on-error: true
+
+      - name: Summarize Gaceta PI
+        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source gaceta-pi
         continue-on-error: true
 
       # ── Build ───────────────────────────────────────────────────────

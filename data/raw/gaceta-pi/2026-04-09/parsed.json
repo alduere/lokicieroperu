@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-04-09",
+  "items": [
+    {
+      "id": "67251-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "REX TOOLS",
+      "solicitante": "SILVA HERNANDEZ ANTONELLA, de Perú",
+      "clase": "06",
+      "fecha_publicacion": "2026-04-09",
+      "fecha_presentacion": "2026-03-18",
+      "fecha_limite_oposicion": "2026-05-22",
+      "descripcion": null
+    },
+    {
+      "id": "69032-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "VORNDIEKE",
+      "solicitante": "SOLUCIONES EN MENSAJERIA Y COURIER MYV S.A.C., de Perú",
+      "clase": "25",
+      "fecha_publicacion": "2026-04-09",
+      "fecha_presentacion": "2026-03-19",
+      "fecha_limite_oposicion": "2026-05-22",
+      "descripcion": null
+    },
+    {
+      "id": "12141-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "LA REINA DEL SUR ACEITE VEGETAL",
+      "solicitante": "BIOLIVAS S.A.C., de Perú",
+      "clase": "29",
+      "fecha_publicacion": "2026-04-09",
+      "fecha_presentacion": "2026-03-02",
+      "fecha_limite_oposicion": "2026-05-22",
+      "descripcion": null
+    },
+    {
+      "id": "12233-2026/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "THAYSA LINDSEY TU DULCE PRINCESITA DEL AMOR",
+      "solicitante": "MULLISACA MAMANI THAYSA LINDSEY, de Perú",
+      "clase": "41",
+      "fecha_publicacion": "2026-04-09",
+      "fecha_presentacion": "2026-03-02",
+      "fecha_limite_oposicion": "2026-05-22",
+      "descripcion": null
+    },
+    {
+      "id": "12569-2026/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "UNTU",
+      "solicitante": "GHILARDI SILVA DIEGO ALEXIS, de Perú",
+      "clase": "31",
+      "fecha_publicacion": "2026-04-09",
+      "fecha_presentacion": "2026-03-03",
+      "fecha_limite_oposicion": "2026-05-22",
+      "descripcion": null
+    }
+  ]
+}

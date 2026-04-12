@@ -86,6 +86,51 @@ export interface CategoryPill {
   color: string;
 }
 
+// Consumidor news types
+export interface NoticiaResumida {
+  id: string;
+  titulo: string;
+  extracto: string | null;
+  fecha_publicacion: string;
+  link_oficial: string | null;
+  categorias: number[];
+  resumen: string | null;
+  impacto: Impacto;
+  impacto_razon: string | null;
+  tags: string[];
+  prompt_version: number;
+}
+
+export interface DiaNoticiasProcesado {
+  fecha: string;
+  source_slug: string;
+  items: NoticiaResumida[];
+  stats: { total_noticias: number };
+  generated_at: string;
+}
+
+// Gaceta PI types
+export interface SolicitudPIResumida {
+  id: string;
+  tipo_solicitud: string;
+  signo_solicitado: string;
+  solicitante: string;
+  clase: string | null;
+  fecha_publicacion: string;
+  fecha_presentacion: string | null;
+  fecha_limite_oposicion: string | null;
+  descripcion: string | null;
+  prompt_version: number;
+}
+
+export interface DiaGacetaProcesado {
+  fecha: string;
+  source_slug: string;
+  items: SolicitudPIResumida[];
+  stats: { total_solicitudes: number; por_tipo: Array<[string, number]> };
+  generated_at: string;
+}
+
 // INDECOPI Alertas types
 export interface AlertaResumida {
   id: string;

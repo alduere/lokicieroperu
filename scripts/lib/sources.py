@@ -42,6 +42,15 @@ SOURCES: dict[str, SourceConfig] = {
             {"key": "bajo", "label": "Bajo impacto", "color": "bg-green-500"},
         ],
     ),
+    "consumidor": SourceConfig(
+        slug="consumidor",
+        nombre="Consumidor",
+        subtitulo="Protección al consumidor",
+        item_label="noticias",
+        scraper_cls="scripts.scrapers.consumidor.ConsumidorScraper",
+        summarizer_cls="scripts.summarizers.consumidor.ConsumidorSummarizer",
+        categorias=[],
+    ),
     "indecopi-alertas": SourceConfig(
         slug="indecopi-alertas",
         nombre="INDECOPI Alertas",
@@ -54,6 +63,18 @@ SOURCES: dict[str, SourceConfig] = {
             {"key": "alimentos", "label": "Alimentos", "color": "bg-amber-500"},
             {"key": "electronicos", "label": "Electrónicos", "color": "bg-purple-500"},
             {"key": "otros", "label": "Otros", "color": "bg-gray-400"},
+        ],
+    ),
+    "gaceta-pi": SourceConfig(
+        slug="gaceta-pi",
+        nombre="Gaceta PI",
+        subtitulo="Propiedad Industrial",
+        item_label="solicitudes",
+        scraper_cls="scripts.scrapers.gaceta_pi.GacetaPIScraper",
+        summarizer_cls="scripts.summarizers.gaceta_pi.GacetaPISummarizer",
+        categorias=[
+            {"key": "marca", "label": "Marcas", "color": "bg-blue-500"},
+            {"key": "patente", "label": "Patentes", "color": "bg-purple-500"},
         ],
     ),
 }

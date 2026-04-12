@@ -1,0 +1,92 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { gacetaDays, gacetaSortedDates, formatFechaEs } from "../../../lib/data";
+import type { SolicitudPIResumida } from "../../../lib/types";
+
+export async function getStaticPaths() {
+  const paths: { params: { id: string }; props: { solicitud: SolicitudPIResumida; fecha: string } }[] = [];
+  for (const date of gacetaSortedDates) {
+    const dia = gacetaDays[date];
+    if (!dia) continue;
+    for (const item of dia.items) {
+      paths.push({ params: { id: item.id }, props: { solicitud: item, fecha: date } });
+    }
+  }
+  return paths;
+}
+
+interface Props {
+  solicitud: SolicitudPIResumida;
+  fecha: string;
+}
+
+const { solicitud, fecha } = Astro.props;
+const fechaEs = formatFechaEs(solicitud.fecha_publicacion);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title={`${solicitud.signo_solicitado} · Gaceta PI`} sourceSlug="gaceta-pi" sourceName="Gaceta PI">
+  <article class="max-w-3xl mx-auto" data-pagefind-body
+    data-pagefind-meta={`title:${solicitud.signo_solicitado}, tipo:${solicitud.tipo_solicitud}, fecha:${solicitud.fecha_publicacion}`}
+    data-pagefind-filter={`fuente:Gaceta PI,tipo:${solicitud.tipo_solicitud},fecha:${solicitud.fecha_publicacion}`}
+  >
+    <nav class="text-xs text-ink-sepia mb-4">
+      <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+      <span class="mx-1">›</span>
+      <a href={`${base}/gaceta-pi/`} class="hover:text-ink">Gaceta PI</a>
+      <span class="mx-1">›</span>
+      <span class="text-ink">{fechaEs}</span>
+    </nav>
+
+    <header class="border-b-2 border-ink pb-6 mb-6">
+      <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-ink-sepia mb-3 flex-wrap">
+        <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full">{solicitud.tipo_solicitud}</span>
+        {solicitud.clase && <span>Clase {solicitud.clase}</span>}
+      </div>
+      <h1 class="font-display text-2xl sm:text-3xl font-bold tracking-tight leading-snug mb-3">{solicitud.signo_solicitado}</h1>
+      <p class="font-display text-base text-ink-light italic leading-relaxed">{solicitud.solicitante}</p>
+    </header>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+      <div class="border border-ink-rule rounded-lg p-5">
+        <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Tipo de solicitud</h3>
+        <p class="text-sm text-ink font-medium">{solicitud.tipo_solicitud}</p>
+      </div>
+      {solicitud.clase && (
+        <div class="border border-ink-rule rounded-lg p-5">
+          <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Clase</h3>
+          <p class="text-sm text-ink font-medium">{solicitud.clase}</p>
+        </div>
+      )}
+      <div class="border border-ink-rule rounded-lg p-5">
+        <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Fecha de publicacion</h3>
+        <p class="text-sm text-ink font-medium">{formatFechaEs(solicitud.fecha_publicacion)}</p>
+      </div>
+      {solicitud.fecha_presentacion && (
+        <div class="border border-ink-rule rounded-lg p-5">
+          <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Fecha de presentacion</h3>
+          <p class="text-sm text-ink font-medium">{formatFechaEs(solicitud.fecha_presentacion)}</p>
+        </div>
+      )}
+      {solicitud.fecha_limite_oposicion && (
+        <div class="border border-ink-rule rounded-lg p-5 sm:col-span-2 border-l-4 border-l-impact-alto">
+          <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Fecha limite de oposicion</h3>
+          <p class="text-sm text-ink font-medium">{formatFechaEs(solicitud.fecha_limite_oposicion)}</p>
+        </div>
+      )}
+    </section>
+
+    {solicitud.descripcion && (
+      <section class="border-b border-ink-rule pb-6 mb-6">
+        <h2 class="text-xs uppercase tracking-widest text-ink-sepia mb-3 font-semibold">Descripcion</h2>
+        <p class="text-base leading-relaxed text-ink">{solicitud.descripcion}</p>
+      </section>
+    )}
+
+    <div class="flex items-center justify-center mt-8">
+      <a href={`${base}/gaceta-pi/`} class="inline-flex items-center gap-2 px-5 py-3 border border-ink-rule rounded-lg font-semibold text-sm hover:bg-parchment-light transition-colors">
+        &larr; Volver a la Gaceta
+      </a>
+    </div>
+  </article>
+</Base>

@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-04-10",
+  "items": [
+    {
+      "id": "33718-2025/DSD",
+      "tipo_solicitud": "NOMBRE COMERCIAL",
+      "signo_solicitado": "PLAST NAVARRETE S.A.C.",
+      "solicitante": "PLAST NAVARRETE SOCIEDAD ANONIMA CERRADA, de Perú",
+      "clase": "21",
+      "fecha_publicacion": "2026-04-10",
+      "fecha_presentacion": "2025-06-27",
+      "fecha_limite_oposicion": "2026-05-25",
+      "descripcion": null
+    },
+    {
+      "id": "58049-2025/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "DENTAL PRO STUDIO ESTÉTICA DENTAL E IMPLANTOLOGÍA AVANZADA",
+      "solicitante": "SAMILLAN ARBULU RANDY VINY, de Perú",
+      "clase": "44",
+      "fecha_publicacion": "2026-04-10",
+      "fecha_presentacion": "2025-11-03",
+      "fecha_limite_oposicion": "2026-05-25",
+      "descripcion": null
+    },
+    {
+      "id": "11577-2026/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "VIXIA",
+      "solicitante": "Hitachi Construction Machinery Co., Ltd. , de Japón",
+      "clase": "07",
+      "fecha_publicacion": "2026-04-10",
+      "fecha_presentacion": "2026-02-26",
+      "fecha_limite_oposicion": "2026-05-25",
+      "descripcion": null
+    },
+    {
+      "id": "11580-2026/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "WIXIM",
+      "solicitante": "Hitachi Construction Machinery Co., Ltd. , de Japón",
+      "clase": "07",
+      "fecha_publicacion": "2026-04-10",
+      "fecha_presentacion": "2026-02-26",
+      "fecha_limite_oposicion": "2026-05-25",
+      "descripcion": null
+    },
+    {
+      "id": "11586-2026/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "WIXIM",
+      "solicitante": "Hitachi Construction Machinery Co., Ltd. , de Japón",
+      "clase": "07",
+      "fecha_publicacion": "2026-04-10",
+      "fecha_presentacion": "2026-02-26",
+      "fecha_limite_oposicion": "2026-05-25",
+      "descripcion": null
+    }
+  ]
+}

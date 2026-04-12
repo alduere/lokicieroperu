@@ -1,0 +1,68 @@
+---
+import Base from "../../layouts/Base.astro";
+import { latestConsumidorDate, getConsumidorDay, formatFechaEs } from "../../lib/data";
+import type { NoticiaResumida, Impacto } from "../../lib/types";
+
+const date = latestConsumidorDate();
+const dia = date ? getConsumidorDay(date) : null;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+function impactLabel(impacto: Impacto): string {
+  return impacto.charAt(0).toUpperCase() + impacto.slice(1);
+}
+---
+
+<Base title={dia ? `Consumidor · ${dia.fecha}` : "Consumidor · Loki-ciero Peru"} sourceSlug="consumidor" sourceName="Consumidor">
+  <nav class="text-xs text-ink-sepia mb-4">
+    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+    <span class="mx-1">›</span>
+    <span class="text-ink">Consumidor</span>
+  </nav>
+
+  {dia && dia.items.length > 0 ? (
+    <>
+      <div class="border-b-2 border-ink pb-6 mb-8">
+        <div class="text-xs uppercase tracking-widest text-ink-sepia mb-1">{formatFechaEs(dia.fecha)}</div>
+        <h1 class="font-display text-4xl sm:text-5xl font-black tracking-tightest mb-3">Noticias del consumidor</h1>
+        <div class="flex items-center gap-6 text-sm text-ink-light">
+          <div><span class="font-display text-3xl font-bold text-ink">{dia.stats.total_noticias}</span> noticias</div>
+        </div>
+      </div>
+
+      <div class="divide-y divide-ink-rule">
+        {dia.items.map((noticia: NoticiaResumida) => (
+          <div class="ruled-item py-5">
+            <div class="flex items-start justify-between gap-4">
+              <div class="flex-1">
+                <div class="flex items-center gap-2 mb-2">
+                  <span class={`impact-pill ${noticia.impacto}`}>{impactLabel(noticia.impacto)}</span>
+                </div>
+                <h2 class="font-display font-bold text-lg leading-snug mb-1">{noticia.titulo}</h2>
+                {noticia.resumen ? (
+                  <p class="text-sm text-ink-light line-clamp-3">{noticia.resumen}</p>
+                ) : noticia.extracto ? (
+                  <p class="text-sm text-ink-light line-clamp-3">{noticia.extracto}</p>
+                ) : null}
+                <div class="flex items-center gap-3 mt-2 text-xs text-ink-sepia">
+                  {noticia.tags.length > 0 && (
+                    <span>{noticia.tags.slice(0, 3).map((t) => `#${t}`).join(" ")}</span>
+                  )}
+                </div>
+              </div>
+            </div>
+            {noticia.link_oficial && (
+              <a href={noticia.link_oficial} class="inline-block mt-2 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors" target="_blank" rel="noopener noreferrer">
+                Ver en consumidor.gob.pe &rarr;
+              </a>
+            )}
+          </div>
+        ))}
+      </div>
+    </>
+  ) : (
+    <div class="border border-ink-rule rounded-lg p-12 text-center">
+      <h1 class="font-display text-2xl font-bold mb-2">Sin noticias</h1>
+      <p class="text-ink-light">No hay noticias de consumidor para hoy.</p>
+    </div>
+  )}
+</Base>
