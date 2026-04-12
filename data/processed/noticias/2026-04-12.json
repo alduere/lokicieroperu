@@ -1,0 +1,410 @@
+{
+  "fecha": "2026-04-12",
+  "noticias": [
+    {
+      "id": "andina-35a4ac276cae",
+      "titulo": "Datum: Fujimori 16.5%, López Aliaga 12.8%, Nieto 11.6%, Belmont 10.5%, Sánchez 10%",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-datum-fujimori-165-lopez-aliaga-128-nieto-116-belmont-105-sanchez-10-1070965.aspx",
+      "fecha": "2026-04-12T23:15:53Z",
+      "contenido": "La empresa encuestadora Datum emitió resultados a boca de urna, tras culminar la jornada electoral, que se amplió hasta las 18:00 horas.",
+      "fuente_display": "Andina",
+      "resumen": "La encuestadora Datum presentó sus resultados a boca de urna para las Elecciones Generales 2026, ubicando a Fujimori en primer lugar con 16.5% y a López Aliaga con 12.8%. Otros candidatos mencionados son Nieto, Belmont y Sánchez.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "datum",
+        "encuesta",
+        "boca de urna",
+        "candidatos"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d0ffbfb2ed79",
+      "titulo": "Elecciones 2026: los candidatos Belmont y Cerrón no acudieron a emitir su voto",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-los-candidatos-belmont-y-cerron-no-acudieron-a-emitir-su-voto-1070870.aspx",
+      "fecha": "2026-04-12T23:14:39Z",
+      "contenido": "Los candidatos presidenciales del Partido Cívico Obras, Ricardo Belmont y del Partido Político Nacional Perú Libre, Vladimir Roy Cerrón Rojas no emitieron su voto durante el desarrollo de las Elecciones Generales 2026.",
+      "fuente_display": "Andina",
+      "resumen": "Los candidatos presidenciales Ricardo Belmont (Partido Cívico Obras) y Vladimir Roy Cerrón Rojas (Perú Libre) no ejercieron su derecho al voto en las Elecciones Generales 2026. Su ausencia se registró durante la jornada electoral.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "candidatos",
+        "ricardo belmont",
+        "vladimir cerrón",
+        "ausentismo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3e249ca1dcac",
+      "titulo": "Ipsos: Fujimori 16.6%, Sánchez 12.1%, Belmont 11.8%, López Aliaga 11%, Nieto 10.7%",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ipsos-fujimori-166-sanchez-121-belmont-118-lopez-aliaga-11-nieto-107-1070961.aspx",
+      "fecha": "2026-04-12T23:03:11Z",
+      "contenido": "La empresa encuestadora Ipsos Apoyo emitió resultados a boca de urna, tras culminar la jornada electoral, que se amplió hasta las 18:00 horas.",
+      "fuente_display": "Andina",
+      "resumen": "Ipsos Apoyo publicó sus resultados a boca de urna para las Elecciones Generales 2026, con Fujimori liderando con 16.6% y Sánchez en segundo lugar con 12.1%. Belmont, López Aliaga y Nieto también figuran en los resultados.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "ipsos",
+        "encuesta",
+        "boca de urna",
+        "candidatos"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-439a8d1e221d",
+      "titulo": "Elecciones 2026: Culmina horario de votación en todo el país",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-culmina-horario-votacion-todo-pais-1070955.aspx",
+      "fecha": "2026-04-12T23:00:04Z",
+      "contenido": "A las 18:00 horas de hoy, culminó el horario de votación de las Elecciones Generales 2026 en todo el país, para definir al nuevo presidente de la República y dos vicepresidentes, así como a los integrantes del Congreso bicameral y del  Parlamento Andino.",
+      "fuente_display": "Andina",
+      "resumen": "El horario de votación para las Elecciones Generales 2026 concluyó a las 18:00 horas en todo el Perú. La jornada electoral definió al nuevo presidente, vicepresidentes, el Congreso bicameral y el Parlamento Andino.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "votación",
+        "horario",
+        "congreso",
+        "parlamento andino"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-17bebe364e97",
+      "titulo": "Minsa: Perú y Bolivia fortalecerán vacunación contra el sarampión en zonas fronterizas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-minsa-peru-y-bolivia-fortaleceran-vacunacion-contra-sarampion-zonas-fronterizas-1070976.aspx",
+      "fecha": "2026-04-12T22:58:31Z",
+      "contenido": "Con el propósito de fortalecer la campaña de vacunación en la región Puno, el Ministerio de Salud (Minsa) sostuvo reuniones de trabajo la última semana con el gobernador regional y representantes del Ministerio de Salud y Deportes de Bolivia.",
+      "fuente_display": "Andina",
+      "resumen": "Perú y Bolivia coordinarán el fortalecimiento de la vacunación contra el sarampión en zonas fronterizas, especialmente en la región Puno. El Ministerio de Salud peruano sostuvo reuniones con autoridades sanitarias bolivianas para este fin.",
+      "categoria": "Política",
+      "tags": [
+        "minsa",
+        "salud pública",
+        "vacunación",
+        "sarampión",
+        "bolivia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-7075da7190e5",
+      "titulo": "Ejército de EE.UU. advierte que bloqueará todos los puertos de Irán desde el lunes",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ejercito-eeuu-advierte-bloqueara-todos-los-puertos-iran-desde-lunes-1070977.aspx",
+      "fecha": "2026-04-12T22:54:03Z",
+      "contenido": "El ejército de Estados Unidos anunció que comenzará a bloquear todos los puertos iraníes del Golfo el lunes a las 14H00 GMT y que permitirá el paso por el estratégico estrecho de Ormuz solo a barcos que no se dirijan a Irán ni salgan de ese país.",
+      "fuente_display": "Andina",
+      "resumen": "El ejército de Estados Unidos anunció un bloqueo de todos los puertos iraníes en el Golfo a partir del lunes. El estrecho de Ormuz solo permitirá el paso de barcos no vinculados a Irán, según la advertencia militar.",
+      "categoria": "Política",
+      "tags": [
+        "ee.uu.",
+        "irán",
+        "bloqueo naval",
+        "estrecho de ormuz",
+        "geopolítica"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-160dd21ec4a2",
+      "titulo": "Defensoría verifica intervención por suplantación de identidad en Puno y Arequipa",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-defensoria-verifica-intervencion-suplantacion-identidad-puno-y-arequipa-1070973.aspx",
+      "fecha": "2026-04-12T22:25:45Z",
+      "contenido": "Durante las Elecciones Generales que se desarrolla este domingo 12 de abril, el Mecanismo Nacional de Prevención de la Tortura, adscrito a la Defensoría del Pueblo, tomó conocimiento de la intervención y detención de tres personas en los departamentos de Puno y Arequipa, por usurpación de identidad.",
+      "fuente_display": "Andina",
+      "resumen": "La Defensoría del Pueblo, a través del Mecanismo Nacional de Prevención de la Tortura, está verificando la intervención de tres personas por suplantación de identidad en Puno y Arequipa durante las Elecciones Generales 2026.",
+      "categoria": "Política",
+      "tags": [
+        "defensoría del pueblo",
+        "elecciones 2026",
+        "suplantación de identidad",
+        "puno",
+        "arequipa"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-dffb5c2f9344",
+      "titulo": "Elecciones 2026: Serenos y fiscalizadores refuerzan seguridad en Lima",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-serenos-y-fiscalizadores-refuerzan-seguridad-lima-1070971.aspx",
+      "fecha": "2026-04-12T22:22:33Z",
+      "contenido": "La Municipalidad de Lima, a través del Serenazgo y la gerencia de Fiscalización y Control, ejecuta hoy un operativo especial con motivo de la jornada electoral, redoblando las acciones de seguridad, control y prevención para proteger a los ciudadanos que acuden a ejercer su derecho al voto.",
+      "fuente_display": "Andina",
+      "resumen": "La Municipalidad de Lima reforzó la seguridad en la capital con serenos y fiscalizadores para las Elecciones Generales 2026. El operativo especial busca proteger a los ciudadanos durante el ejercicio de su derecho al voto.",
+      "categoria": "Política",
+      "tags": [
+        "municipalidad de lima",
+        "seguridad",
+        "elecciones 2026",
+        "serenazgo",
+        "operativo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-bffe41aa9dcb",
+      "titulo": "Elecciones 2026: candidato Yonhy Lescano emitió su voto en colegio en Surco",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-candidato-yonhy-lescano-emitio-su-voto-colegio-surco-1070946.aspx",
+      "fecha": "2026-04-12T22:09:43Z",
+      "contenido": "El candidato presidencial por el partido Cooperación Popular, Yonhy Lescano Ancieta, emitió su voto en el distrito de Santiago de Surco, en el marco de las elecciones generales 2026.",
+      "fuente_display": "Andina",
+      "resumen": "El candidato presidencial Yonhy Lescano Ancieta, por el partido Cooperación Popular, emitió su voto en el distrito de Santiago de Surco. Su participación se dio en el marco de las Elecciones Generales 2026.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "yonhy lescano",
+        "candidato",
+        "votación",
+        "santiago de surco"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-b87a07db6367",
+      "titulo": "Elecciones 2026: jefe de ONPE informa que se instalaron 99.8 % de mesas a nivel nacional",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-jefe-onpe-informa-se-instalaron-998-mesas-a-nivel-nacional-1070969.aspx",
+      "fecha": "2026-04-12T21:48:17Z",
+      "contenido": "El jefe de la Oficina Nacional de Procesos Electorales (ONPE), Piero Corvetto, informó que un 99.8 % de mesas de sufragio lograron instalarse a nivel nacional, pese a los inconvenientes en la instalación de estas debido al retraso en el despliegue de material electoral.",
+      "fuente_display": "Andina",
+      "resumen": "El jefe de la ONPE, Piero Corvetto, informó que el 99.8% de las mesas de sufragio se instalaron a nivel nacional para las Elecciones Generales 2026. Se registraron algunos inconvenientes por retrasos en la distribución del material electoral.",
+      "categoria": "Política",
+      "tags": [
+        "onpe",
+        "piero corvetto",
+        "elecciones 2026",
+        "mesas de sufragio",
+        "instalación"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-0b892943ec74",
+      "titulo": "Fiscalía y PNP intervienen empresa Galaga encargada de distribuir material electoral",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-fiscalia-y-pnp-intervienen-empresa-galaga-encargada-distribuir-material-electoral-1070962.aspx",
+      "fecha": "2026-04-12T21:47:34Z",
+      "contenido": "La Dirección Contra la Corrupción de la Policía Nacional (Dircocor) y Fiscalía realizaron diligencias en la sede de la empresa Servicios Generales Galaga SAC  en el distrito de San Juan de Lurigancho por incumplimiento con la distribución de material electoral en el marco de las elecciones generales 2026.",
+      "fuente_display": "Andina",
+      "resumen": "La Fiscalía y la Policía Anticorrupción intervinieron la empresa Servicios Generales Galaga SAC por incumplimiento en la distribución de material electoral para las Elecciones Generales 2026. Las diligencias se realizaron en San Juan de Lurigancho.",
+      "categoria": "Política",
+      "tags": [
+        "fiscalía",
+        "policía",
+        "dircocor",
+        "elecciones 2026",
+        "material electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-696135470863",
+      "titulo": "Elecciones 2026: Reniec entrega más 200 mil DNI en todo el país",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-reniec-entrega-mas-200-mil-dni-todo-pais-1070967.aspx",
+      "fecha": "2026-04-12T21:44:35Z",
+      "contenido": "En el contexto de las Elecciones Generales 2026, el Registro Nacional de Identificación y Estado Civil (Reniec) ejecutó un despliegue de atención en diferentes agencias a escala nacional para la entrega del Documento Nacional de Identidad (DNI) el viernes 10, sábado 11 y este domingo 12 de abril desde las 6:00 a.m. La entidad registral viene entregando más de 200 mil DNI, para que los ciudadanos se encuentren identificados y, de esta manera, puedan participar en el proceso electoral.",
+      "fuente_display": "Andina",
+      "resumen": "El Reniec entregó más de 200 mil DNI a nivel nacional para las Elecciones Generales 2026, facilitando la identificación de los ciudadanos. La entidad amplió su atención durante los días previos a la jornada electoral.",
+      "categoria": "Política",
+      "tags": [
+        "reniec",
+        "dni",
+        "elecciones 2026",
+        "identificación",
+        "ciudadanos"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-82a61b3ee930",
+      "titulo": "Elecciones 2026: Ministerio Público desmiente orden de detención contra jefe de la ONPE",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-ministerio-publico-desmiente-orden-detencion-contra-jefe-de-onpe-1070966.aspx",
+      "fecha": "2026-04-12T21:33:41Z",
+      "contenido": "El Ministerio Público desmintió que haya emitido una orden de detención contra el jefe de la Oficina Nacional de Procesos Electorales (ONPE), Piero Corvetto, debido al retraso en la llegada de material electoral para la instalación de las mesas de sufragio para las Elecciones Generales 2026.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio Público desmintió la emisión de una orden de detención contra el jefe de la ONPE, Piero Corvetto, relacionada con demoras en la distribución de material electoral para las Elecciones Generales 2026.",
+      "categoria": "Política",
+      "tags": [
+        "ministerio público",
+        "onpe",
+        "piero corvetto",
+        "elecciones 2026",
+        "desmentido"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-227db4d46ee7",
+      "titulo": "Elecciones 2026: Contraloría despliega auditores en Lima ante incidencias",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-contraloria-despliega-auditores-lima-ante-incidencias-1070963.aspx",
+      "fecha": "2026-04-12T21:24:19Z",
+      "contenido": "La Contraloría General de la República desplegó más de 30 auditores en puntos estratégicos de Lima Metropolitana, tras registrarse incidencias relacionadas con demoras en la instalación de mesas de sufragio y la distribución de material electoral en diversos centros de votación.",
+      "fuente_display": "Andina",
+      "resumen": "La Contraloría General de la República desplegó más de 30 auditores en Lima para supervisar las Elecciones Generales 2026. La medida se tomó ante incidencias reportadas por demoras en la instalación de mesas y distribución de material electoral.",
+      "categoria": "Política",
+      "tags": [
+        "contraloría",
+        "elecciones 2026",
+        "auditores",
+        "lima",
+        "incidencias"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-ae3b17114e8a",
+      "titulo": "Elecciones 2026: si cumples 18 años hasta el 12 de abril, podrás votar",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-si-cumples-18-anos-hasta-12-abril-podras-votar-1067632.aspx",
+      "fecha": "2026-04-12T21:23:30Z",
+      "contenido": "Los jóvenes peruanos que cumplan 18 años de edad hasta el domingo 12 de abril, día de las Elecciones Generales 2026, podrán votar porque han sido incorporados en el respectivo Padrón Electoral, informó el Registro Nacional de Identificación y Estado Civil (Reniec).",
+      "fuente_display": "Andina",
+      "resumen": "Los jóvenes peruanos que cumplan 18 años hasta el 12 de abril podrán votar en las Elecciones Generales 2026, según informó el Reniec. Estos ciudadanos fueron incorporados al Padrón Electoral.",
+      "categoria": "Política",
+      "tags": [
+        "reniec",
+        "jóvenes",
+        "elecciones 2026",
+        "padrón electoral",
+        "derecho al voto"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1e449d9a458b",
+      "titulo": "Hungría: primer ministro Orbán reconoce \"dolorosa\" derrota ante Magyar en parlamentarias",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-hungria-primer-ministro-orban-reconoce-dolorosa-derrota-ante-magyar-parlamentarias-1070964.aspx",
+      "fecha": "2026-04-12T21:16:07Z",
+      "contenido": "El primer ministro húngaro, el nacionalista Viktor Orbán, reconoció la derrota en las elecciones parlamentarias del domingo frente a su rival conservador, Peter Magyar.",
+      "fuente_display": "Andina",
+      "resumen": "El primer ministro de Hungría, Viktor Orbán, reconoció la derrota de su partido en las elecciones parlamentarias frente a su rival Peter Magyar. Orbán calificó el resultado como \"doloroso\".",
+      "categoria": "Política",
+      "tags": [
+        "hungría",
+        "viktor orbán",
+        "elecciones parlamentarias",
+        "derrota",
+        "peter magyar"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-da5dbac12a21",
+      "titulo": "Elecciones 2026: Fiscalía y la Policía Nacional realizan diligencias en ONPE",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-fiscalia-y-policia-nacional-realizan-diligencias-onpe-1070959.aspx",
+      "fecha": "2026-04-12T21:15:16Z",
+      "contenido": "La Dirección Contra la Corrupción de la Policía Nacional (Dircocor) de la Policía Nacional informó que se encuentra realizando diligencias en la sede de la Oficina Nacional de Procesos Electorales (ONPE), por la situación de demora en el despliegue de material electoral.",
+      "fuente_display": "Andina",
+      "resumen": "La Fiscalía y la Policía Nacional realizan diligencias en la sede de la ONPE por demoras en el despliegue de material electoral para las Elecciones Generales 2026. La Dirección Contra la Corrupción lidera la intervención.",
+      "categoria": "Política",
+      "tags": [
+        "fiscalía",
+        "policía",
+        "onpe",
+        "elecciones 2026",
+        "material electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-e6e548e08bb4",
+      "titulo": "Elecciones 2026: Observadores de OEA destacan alta participación de miembros de mesa",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-observadores-oea-destacan-alta-participacion-miembros-mesa-1070949.aspx",
+      "fecha": "2026-04-12T21:09:03Z",
+      "contenido": "El jefe de la Misión de Observación Electoral de la Organización de Estados Americanos (OEA), Víctor Rico Frontaura, informó que ha habido una significativa participación de los miembros de mesa, importantes actores en las elecciones generales 2026.",
+      "fuente_display": "Andina",
+      "resumen": "Observadores de la OEA destacaron la alta participación de miembros de mesa en las Elecciones Generales 2026. El jefe de la misión, Víctor Rico Frontaura, resaltó la importancia de estos actores en el proceso electoral.",
+      "categoria": "Política",
+      "tags": [
+        "oea",
+        "observadores electorales",
+        "elecciones 2026",
+        "miembros de mesa",
+        "participación"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-7b79f172f15f",
+      "titulo": "Elecciones 2026: se inicia la puesta a cero de servidores de la ONPE",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-se-inicia-puesta-a-cero-servidores-de-onpe-1070956.aspx",
+      "fecha": "2026-04-12T21:03:12Z",
+      "contenido": "La Oficina Nacional de Procesos Electorales (ONPE) realizó la puesta a cero en sus servidores informáticos en el marco de las elecciones generales 2026 que se desarrolla hoy domingo 12 de abril de 2026.",
+      "fuente_display": "Andina",
+      "resumen": "La ONPE inició la puesta a cero de sus servidores informáticos como parte de los procedimientos para las Elecciones Generales 2026. Este proceso se realizó el domingo 12 de abril de 2026.",
+      "categoria": "Política",
+      "tags": [
+        "onpe",
+        "servidores",
+        "elecciones 2026",
+        "proceso electoral",
+        "tecnología"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-0453bcc0a75b",
+      "titulo": "Áncash: ODPE Santa reporta instalación total de mesas y proceso electoral sin incidentes",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ancash-odpe-santa-reporta-instalacion-total-mesas-y-proceso-electoral-sin-incidentes-1070954.aspx",
+      "fecha": "2026-04-12T20:50:07Z",
+      "contenido": "El proceso electoral en la jurisdicción de la ODPE Santa, que comprende las provincias del Santa y Pallasca, en la región Áncash, se desarrolla con normalidad y sin incidentes, luego de que la totalidad de mesas de sufragio quedara instalada antes del mediodía.",
+      "fuente_display": "Andina",
+      "resumen": "La Oficina Descentralizada de Procesos Electorales (ODPE) de Santa, en Áncash, reportó la instalación total de mesas de sufragio y un proceso electoral sin incidentes. La normalidad se mantuvo hasta el mediodía.",
+      "categoria": "Política",
+      "tags": [
+        "ancash",
+        "odpe santa",
+        "elecciones 2026",
+        "mesas de sufragio",
+        "normalidad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-6e62e0f9a268",
+      "titulo": "Elecciones 2026: así llega la economía peruana a los comicios para elegir al nuevo presidente",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/elecciones-2026-asi-llega-la-economia-peruana-al-proceso-electoral-para-elegir-al-nuevo-presidente-del-peru-noticia-1683982",
+      "fecha": "2026-04-12T12:56:09Z",
+      "contenido": "Aunque Perú mantiene estabilidad macroeconómica, el  alza de precios , la informalidad y la incertidumbre global impactan en el bolsillo de los ciudadanos.",
+      "fuente_display": "RPP",
+      "resumen": "La economía peruana enfrenta desafíos como el alza de precios y la informalidad, a pesar de mantener una estabilidad macroeconómica. Estos factores, sumados a la incertidumbre global, impactan directamente en el bolsillo de los ciudadanos de cara a las elecciones presidenciales de 2026.",
+      "categoria": "Economía",
+      "tags": [
+        "elecciones 2026",
+        "economía peruana",
+        "inflación",
+        "informalidad",
+        "incertidumbre"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 21,
+  "fuentes_activas": [
+    "andina",
+    "rpp"
+  ],
+  "prompt_version": "prensa-v1"
+}
