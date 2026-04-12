@@ -2,6 +2,14 @@
   "fecha": "2026-04-12",
   "items": [
     {
+      "id": "andina-ea0fe2810b64",
+      "titulo": "ONPE confirmó desarrollo normal de Elecciones Generales en Ucayali",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-onpe-confirmo-desarrollo-normal-elecciones-generales-ucayali-1070981.aspx",
+      "fecha": "2026-04-12T23:24:58+00:00",
+      "contenido": "En la región Ucayali se logró la instalación del 100% de las mesas de sufragio, garantizando el desarrollo de las Elecciones Generales con normalidad. En total, 405,806 electores estuvieron habilitados para votar en 132 locales de votación y 1,394 mesas distribuidas en las provincias de Coronel Portillo, Padre Abad y Purús."
+    },
+    {
       "id": "andina-35a4ac276cae",
       "titulo": "Datum: Fujimori 16.5%, López Aliaga 12.8%, Nieto 11.6%, Belmont 10.5%, Sánchez 10%",
       "fuente": "andina",
@@ -152,14 +160,6 @@
       "url": "https://andina.pe/agencia/noticia-elecciones-2026-se-inicia-puesta-a-cero-servidores-de-onpe-1070956.aspx",
       "fecha": "2026-04-12T21:03:12+00:00",
       "contenido": "La Oficina Nacional de Procesos Electorales (ONPE) realizó la puesta a cero en sus servidores informáticos en el marco de las elecciones generales 2026 que se desarrolla hoy domingo 12 de abril de 2026."
-    },
-    {
-      "id": "andina-0453bcc0a75b",
-      "titulo": "Áncash: ODPE Santa reporta instalación total de mesas y proceso electoral sin incidentes",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-ancash-odpe-santa-reporta-instalacion-total-mesas-y-proceso-electoral-sin-incidentes-1070954.aspx",
-      "fecha": "2026-04-12T20:50:07+00:00",
-      "contenido": "El proceso electoral en la jurisdicción de la ODPE Santa, que comprende las provincias del Santa y Pallasca, en la región Áncash, se desarrolla con normalidad y sin incidentes, luego de que la totalidad de mesas de sufragio quedara instalada antes del mediodía."
     },
     {
       "id": "rpp-6e62e0f9a268",
