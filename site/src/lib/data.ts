@@ -2,7 +2,7 @@
 // at build time. The build.py script copies the files; this module just imports
 // them via Vite's glob import so Astro picks them up statically.
 
-import type { DiaProcesado, IndexEntry, NormaResumida, HubDay, DiaAlertasProcesado, DiaNoticiasProcesado, DiaGacetaProcesado, DiaTFProcesado } from "./types";
+import type { DiaProcesado, IndexEntry, NormaResumida, HubDay, DiaAlertasProcesado, DiaNoticiasProcesado, DiaGacetaProcesado, DiaTFProcesado, DiaPrensa, DatosFinancieros } from "./types";
 
 const dayModules = import.meta.glob<{ default: DiaProcesado }>(
   "/src/data/2*-*-*.json",
@@ -232,4 +232,50 @@ export function getTfDay(date: string): DiaTFProcesado | null {
 }
 export function latestTfDate(): string | null {
   return tfSortedDates[0] ?? null;
+}
+
+// ── Noticias (press news) ────────────────────────────────────────────
+const noticiasModules = import.meta.glob<{ default: DiaPrensa }>(
+  "/src/data/noticias/2*-*-*.json",
+  { eager: true, import: "default" },
+);
+
+export const noticiasDays: Record<string, DiaPrensa> = Object.fromEntries(
+  Object.entries(noticiasModules).map(([path, mod]) => {
+    const date = path.split("/").pop()!.replace(".json", "");
+    return [date, mod];
+  }),
+);
+
+export const noticiasSortedDates: string[] = Object.keys(noticiasDays).sort().reverse();
+
+export function getNoticiasDay(date: string): DiaPrensa | null {
+  return noticiasDays[date] ?? null;
+}
+
+export function latestNoticiasDate(): string | null {
+  return noticiasSortedDates[0] ?? null;
+}
+
+// ── Financiero (exchange rate + minerals) ────────────────────────────
+const financieroModules = import.meta.glob<{ default: DatosFinancieros }>(
+  "/src/data/financiero/2*-*-*.json",
+  { eager: true, import: "default" },
+);
+
+export const financieroDays: Record<string, DatosFinancieros> = Object.fromEntries(
+  Object.entries(financieroModules).map(([path, mod]) => {
+    const date = path.split("/").pop()!.replace(".json", "");
+    return [date, mod];
+  }),
+);
+
+export const financieroSortedDates: string[] = Object.keys(financieroDays).sort().reverse();
+
+export function getFinancieroDay(date: string): DatosFinancieros | null {
+  return financieroDays[date] ?? null;
+}
+
+export function latestFinancieroDate(): string | null {
+  return financieroSortedDates[0] ?? null;
 }

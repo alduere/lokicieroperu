@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { epSortedDates } from "../lib/data";
+import { epSortedDates, latestFinancieroDate, getFinancieroDay } from "../lib/data";
 
 interface Props {
   title: string;
@@ -18,9 +18,13 @@ const {
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const isHub = !sourceSlug;
 const today = new Date();
-const dayNames = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+const dayNames = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
 const monthNames = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 const todayStr = `${dayNames[today.getDay()]} ${today.getDate()} de ${monthNames[today.getMonth()]} de ${today.getFullYear()}`;
+
+// Financial ticker data
+const finDate = latestFinancieroDate();
+const finData = finDate ? getFinancieroDay(finDate) : null;
 ---
 
 <!doctype html>
@@ -45,14 +49,49 @@ const todayStr = `${dayNames[today.getDay()]} ${today.getDate()} de ${monthNames
         <span class="uppercase">{todayStr}</span>
         <a href="https://github.com/alduere/lokicieroperu" class="hover:text-ink transition-colors hidden sm:block">GitHub</a>
       </div>
+
+      <!-- Financial ticker -->
+      {finData && (
+        <div class="flex items-center gap-3 py-1 overflow-x-auto scrollbar-none border-b border-ink-rule-light text-[10px] font-sans tracking-wide">
+          <span class="text-ink-sepia font-semibold uppercase flex-shrink-0">Mercados</span>
+          <span class="text-ink-rule">|</span>
+          {/* USD/PEN */}
+          <span class="flex items-center gap-1 flex-shrink-0">
+            <span class="font-semibold text-ink">USD/PEN</span>
+            <span class="font-mono">{finData.usd_pen.valor.toFixed(4)}</span>
+            <span class={`font-mono ${finData.usd_pen.variacion_pct > 0 ? "text-impact-alto" : finData.usd_pen.variacion_pct < 0 ? "text-impact-bajo" : "text-ink-sepia"}`}>
+              {finData.usd_pen.variacion_pct > 0 ? "↑" : finData.usd_pen.variacion_pct < 0 ? "↓" : "−"}{Math.abs(finData.usd_pen.variacion_pct).toFixed(2)}%
+            </span>
+          </span>
+          {finData.minerales.map((m) => (
+            <>
+              <span class="text-ink-rule">|</span>
+              <span class="flex items-center gap-1 flex-shrink-0">
+                <span class="font-semibold text-ink">{m.simbolo}</span>
+                <span class="font-mono">{m.valor.toFixed(2)}</span>
+                <span class={`font-mono ${m.variacion_pct > 0 ? "text-impact-alto" : m.variacion_pct < 0 ? "text-impact-bajo" : "text-ink-sepia"}`}>
+                  {m.variacion_pct > 0 ? "↑" : m.variacion_pct < 0 ? "↓" : "−"}{Math.abs(m.variacion_pct).toFixed(2)}%
+                </span>
+              </span>
+            </>
+          ))}
+        </div>
+      )}
+
       <!-- Main masthead -->
       <div class="flex items-center justify-between py-3">
         <a href={`${base}/`} class="flex items-center gap-3 group">
-          <div class="w-9 h-9 bg-ink text-parchment-light grid place-items-center font-display font-black text-sm tracking-tighter group-hover:rotate-2 transition-transform duration-300">
-            LK
-          </div>
+          <svg class="w-9 h-9 group-hover:rotate-2 transition-transform duration-300" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" fill="#2c1810"/>
+            <text x="20" y="14" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="900" font-size="11" fill="#f5f0e6" letter-spacing="-0.5">LK</text>
+            <line x1="8" y1="18" x2="32" y2="18" stroke="#f5f0e6" stroke-width="0.5"/>
+            <line x1="8" y1="20" x2="32" y2="20" stroke="#f5f0e6" stroke-width="0.3"/>
+            {/* Quill/nib motif */}
+            <path d="M20 23 L17 33 L20 31 L23 33 Z" fill="#f5f0e6" opacity="0.9"/>
+            <path d="M20 23 L19 28 L20 27 L21 28 Z" fill="#2c1810"/>
+          </svg>
           <div>
-            <div class="masthead-title">Loki-ciero Perú</div>
+            <div class="masthead-title">Loki-ciero Peru</div>
             <div class="masthead-subtitle">Inteligencia regulatoria</div>
           </div>
         </a>
@@ -81,10 +120,20 @@ const todayStr = `${dayNames[today.getDay()]} ${today.getDate()} de ${monthNames
   {isHub && (
     <nav class="border-b border-ink-rule bg-parchment">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
-        <button class="source-tab active" data-source="all">Todas</button>
+        <button class="source-tab active" data-source="noticias">Noticias</button>
+        <button class="source-tab" data-source="all">Todas</button>
         <button class="source-tab" data-source="elperuano">El Peruano</button>
         <button class="source-tab" data-source="indecopi">INDECOPI</button>
         <button class="source-tab" data-source="tribunal-fiscal">Tribunal Fiscal</button>
+      </div>
+    </nav>
+  )}
+
+  {sourceSlug === "noticias" && (
+    <nav class="border-b border-ink-rule bg-parchment">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
+        <a href={`${base}/noticias/`} class="source-tab">Hoy</a>
+        <a href={`${base}/noticias/archivo`} class="source-tab">Archivo</a>
       </div>
     </nav>
   )}
@@ -130,10 +179,10 @@ const todayStr = `${dayNames[today.getDay()]} ${today.getDate()} de ${monthNames
       <div class="flex flex-col sm:flex-row items-start justify-between gap-6">
         <!-- Left: Colophon -->
         <div class="max-w-sm">
-          <div class="font-display font-black text-lg mb-2">Loki-ciero Perú</div>
+          <div class="font-display font-black text-lg mb-2">Loki-ciero Peru</div>
           <p class="text-xs text-ink-sepia leading-relaxed">
             Resumen diario automatizado de normas, alertas y resoluciones regulatorias peruanas.
-            Fuentes oficiales scrapeadas con IA a las 7:00 AM Lima. Los resúmenes pueden contener
+            Fuentes oficiales scrapeadas con IA a las 7:00 AM Lima. Los resumenes pueden contener
             errores — consulta siempre el texto oficial.
           </p>
         </div>
@@ -142,6 +191,7 @@ const todayStr = `${dayNames[today.getDay()]} ${today.getDate()} de ${monthNames
           <div>
             <div class="font-semibold text-ink uppercase tracking-wider text-[10px] mb-2">Fuentes</div>
             <div class="flex flex-col gap-1.5 text-ink-sepia">
+              <a href={`${base}/noticias/`} class="hover:text-ink transition-colors">Noticias</a>
               <a href={`${base}/elperuano/`} class="hover:text-ink transition-colors">El Peruano</a>
               <a href={`${base}/indecopi/`} class="hover:text-ink transition-colors">INDECOPI</a>
               <a href={`${base}/tribunal-fiscal/`} class="hover:text-ink transition-colors">Tribunal Fiscal</a>
@@ -160,7 +210,7 @@ const todayStr = `${dayNames[today.getDay()]} ${today.getDate()} de ${monthNames
       <!-- Bottom rule -->
       <div class="mt-8 pt-4 border-t border-ink-rule flex items-center justify-between text-[10px] text-ink-sepia">
         <span>{epSortedDates.length} ediciones publicadas</span>
-        <span class="font-display italic">Hecho con IA en Lima, Perú</span>
+        <span class="font-display italic">Hecho con IA en Lima, Peru</span>
       </div>
     </div>
   </footer>

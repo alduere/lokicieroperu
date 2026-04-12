@@ -92,6 +92,14 @@ jobs:
         run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source tribunal-fiscal
         continue-on-error: true
 
+      - name: Scrape Noticias
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source noticias
+        continue-on-error: true
+
+      - name: Scrape Financiero
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source financiero
+        continue-on-error: true
+
       # ── Summarize all sources ───────────────────────────────────────
       - name: Summarize El Peruano
         run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source elperuano
@@ -110,6 +118,10 @@ jobs:
 
       - name: Summarize Tribunal Fiscal
         run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source tribunal-fiscal
+        continue-on-error: true
+
+      - name: Summarize Noticias
+        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source noticias
         continue-on-error: true
 
       # ── Build ───────────────────────────────────────────────────────

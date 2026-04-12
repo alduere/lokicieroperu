@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
-import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay, latestTfDate, getTfDay } from "../lib/data";
-import type { NormaResumida, AlertaResumida, NoticiaResumida, SolicitudPIResumida, ResolucionTFResumida, Impacto } from "../lib/types";
+import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay, latestTfDate, getTfDay, latestNoticiasDate, getNoticiasDay } from "../lib/data";
+import type { NormaResumida, AlertaResumida, NoticiaResumida, SolicitudPIResumida, ResolucionTFResumida, Impacto, PrensaResumida } from "../lib/types";
 
 const date = latestHubDate();
 const hub = date ? getHubDay(date) : null;
@@ -10,6 +10,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 // Load source-specific data for item lists
 const epDay = date ? getEpDay(date) : null;
 const indecopiDay = date ? getIndecopiDay(date) : null;
+
+// Noticias (press news)
+const noticiasDate = latestNoticiasDate();
+const noticiasDay = noticiasDate ? getNoticiasDay(noticiasDate) : null;
+const noticiasItems = noticiasDay ? noticiasDay.noticias : [];
+const noticiasTotal = noticiasItems.length;
 
 // El Peruano: sort by impact (alto first), take top 5
 const impactOrder: Record<Impacto, number> = { alto: 0, medio: 1, bajo: 2 };
@@ -54,40 +60,118 @@ const gacetaSource = hub?.sources.find((s) => s.slug === "gaceta-pi");
 function impactLabel(impacto: Impacto): string {
   return impacto.charAt(0).toUpperCase() + impacto.slice(1);
 }
+
+// Category color mapping for noticias
+function categoriaPillClass(cat: string): string {
+  const lower = cat.toLowerCase();
+  if (lower.includes("econom")) return "bg-amber-100 text-amber-800 border-amber-300";
+  if (lower.includes("finanz")) return "bg-emerald-100 text-emerald-800 border-emerald-300";
+  if (lower.includes("politi") || lower.includes("polít")) return "bg-red-100 text-red-800 border-red-300";
+  return "bg-parchment-light text-ink-light border-ink-rule-light";
+}
+
+function fuentePillClass(fuente: string): string {
+  return "bg-parchment-light text-ink-sepia border-ink-rule-light";
+}
 ---
 
 <Base title={hub ? `Loki-ciero Peru · ${hub.fecha}` : "Loki-ciero Peru"}>
-  {hub ? (
+  {hub || noticiasTotal > 0 ? (
     <>
       {/* Hero */}
       <section class="text-center py-8 animate-entrance">
         <div class="text-[10px] uppercase tracking-[0.3em] text-ink-sepia font-sans mb-3 font-semibold">
-          Resumen del día
+          Resumen del dia
         </div>
         <h1 class="font-display font-black text-4xl sm:text-5xl lg:text-6xl tracking-tightest leading-[0.9] mb-8">
-          {formatFechaEs(hub.fecha)}
+          {hub ? formatFechaEs(hub.fecha) : noticiasDate ? formatFechaEs(noticiasDate) : ""}
         </h1>
-        <div class="flex justify-center gap-10 sm:gap-16 text-center animate-entrance delay-2">
-          <div>
-            <div class="font-display font-black text-4xl sm:text-5xl leading-none">{hub.stats.total_publicaciones}</div>
-            <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Publicaciones</div>
+        {hub && (
+          <div class="flex justify-center gap-10 sm:gap-16 text-center animate-entrance delay-2">
+            <div>
+              <div class="font-display font-black text-4xl sm:text-5xl leading-none">{hub.stats.total_publicaciones}</div>
+              <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Publicaciones</div>
+            </div>
+            <div>
+              <div class="font-display font-black text-4xl sm:text-5xl leading-none text-impact-alto">{hub.stats.alertas_alto}</div>
+              <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Alto impacto</div>
+            </div>
+            <div>
+              <div class="font-display font-black text-4xl sm:text-5xl leading-none">{hub.stats.fuentes_activas}</div>
+              <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Fuentes</div>
+            </div>
           </div>
-          <div>
-            <div class="font-display font-black text-4xl sm:text-5xl leading-none text-impact-alto">{hub.stats.alertas_alto}</div>
-            <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Alto impacto</div>
-          </div>
-          <div>
-            <div class="font-display font-black text-4xl sm:text-5xl leading-none">{hub.stats.fuentes_activas}</div>
-            <div class="text-[10px] uppercase tracking-[0.2em] text-ink-sepia mt-2 font-sans font-semibold">Fuentes</div>
-          </div>
-        </div>
+        )}
       </section>
 
       <div class="ornament animate-entrance delay-3"><div class="ornament-diamond"></div></div>
 
-      {/* El Peruano source block */}
+      {/* ═══ NOTICIAS source block (first tab, default visible) ═══ */}
+      <div class="source-block mb-12 animate-entrance delay-4" data-source="noticias">
+        <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+          <div>
+            <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
+              Noticias
+            </h2>
+          </div>
+          <div class="font-display font-black text-3xl leading-none">
+            {noticiasTotal}
+          </div>
+        </div>
+        <div class="font-display italic text-ink-sepia text-sm mb-4">
+          Prensa economica y politica del dia
+        </div>
+
+        {noticiasTotal > 0 ? (
+          <>
+            <div>
+              {noticiasItems.slice(0, 10).map((item: PrensaResumida) => (
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener"
+                  class="ruled-item block"
+                >
+                  <div class="flex items-start gap-2 mb-1 flex-wrap">
+                    <span class={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold border flex-shrink-0 ${fuentePillClass(item.fuente)}`}>
+                      {item.fuente_display}
+                    </span>
+                    <span class={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold border flex-shrink-0 ${categoriaPillClass(item.categoria)}`}>
+                      {item.categoria}
+                    </span>
+                  </div>
+                  <h3 class="font-display font-bold text-ink leading-snug mt-1">
+                    {item.titulo}
+                  </h3>
+                  {item.resumen && (
+                    <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
+                      {item.resumen}
+                    </p>
+                  )}
+                  <div class="text-xs text-ink-sepia mt-1">
+                    {item.fecha}
+                  </div>
+                </a>
+              ))}
+            </div>
+
+            {noticiasTotal > 10 && (
+              <a
+                href={`${base}/noticias/`}
+                class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
+              >
+                + {noticiasTotal - 10} mas &rarr;
+              </a>
+            )}
+          </>
+        ) : (
+          <p class="text-ink-sepia text-sm py-4">No hay noticias disponibles para hoy.</p>
+        )}
+      </div>
+
+      {/* ═══ El Peruano source block ═══ */}
       {epSource && epSource.total > 0 && (
-        <div class="source-block mb-12 animate-entrance delay-4" data-source="elperuano">
+        <div class="source-block mb-12 animate-entrance delay-4 hidden" data-source="elperuano">
           {/* Source header */}
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
             <div>
@@ -146,15 +230,15 @@ function impactLabel(impacto: Impacto): string {
               href={`${base}/elperuano/`}
               class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
             >
-              + {epRemaining} más &rarr;
+              + {epRemaining} mas &rarr;
             </a>
           )}
         </div>
       )}
 
-      {/* INDECOPI combined source block */}
+      {/* ═══ INDECOPI combined source block ═══ */}
       {(indecopiTotal + consumidorTotal + gacetaTotal) > 0 && (
-        <div class="source-block mb-12 animate-entrance delay-5" data-source="indecopi">
+        <div class="source-block mb-12 animate-entrance delay-5 hidden" data-source="indecopi">
           {/* Source header */}
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
             <div>
@@ -278,9 +362,9 @@ function impactLabel(impacto: Impacto): string {
         </div>
       )}
 
-      {/* Tribunal Fiscal source block */}
+      {/* ═══ Tribunal Fiscal source block ═══ */}
       {tfTotal > 0 ? (
-        <div class="source-block mb-12 animate-entrance delay-6" data-source="tribunal-fiscal">
+        <div class="source-block mb-12 animate-entrance delay-6 hidden" data-source="tribunal-fiscal">
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
             <div>
               <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
@@ -332,7 +416,7 @@ function impactLabel(impacto: Impacto): string {
           )}
         </div>
       ) : (
-        <div class="source-block mb-6 opacity-50" data-source="tribunal-fiscal">
+        <div class="source-block mb-6 opacity-50 hidden" data-source="tribunal-fiscal">
           <div class="border-b border-ink-rule pb-2 flex items-end justify-between">
             <h2 class="font-display font-bold text-lg tracking-tightest">Tribunal Fiscal</h2>
             <div class="font-display font-black text-xl leading-none text-ink-sepia">0</div>
@@ -342,10 +426,10 @@ function impactLabel(impacto: Impacto): string {
       )}
 
       {/* Fallback: sources with zero items */}
-      {hub.sources.filter((s) => s.total === 0).length > 0 && (
+      {hub && hub.sources.filter((s) => s.total === 0).length > 0 && (
         <div class="section-divider"><span>Sin novedades hoy</span></div>
       )}
-      {hub.sources.filter((s) => s.total === 0).map((source) => {
+      {hub && hub.sources.filter((s) => s.total === 0).map((source) => {
         const mapped = source.slug === "indecopi-alertas" || source.slug === "consumidor" || source.slug === "gaceta-pi" ? "indecopi" : source.slug;
         return (
           <div class="source-block mb-6 opacity-50" data-source={mapped}>
@@ -360,9 +444,9 @@ function impactLabel(impacto: Impacto): string {
     </>
   ) : (
     <section class="text-center py-16">
-      <h1 class="font-display font-black text-3xl mb-3">Sin datos todavía</h1>
+      <h1 class="font-display font-black text-3xl mb-3">Sin datos todavia</h1>
       <p class="text-ink-sepia font-sans">
-        El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.
+        El primer scraping aun no se ha ejecutado. Vuelve manana despues de las 7:00 AM Lima.
       </p>
     </section>
   )}

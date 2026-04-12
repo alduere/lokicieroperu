@@ -196,3 +196,50 @@ export interface DiaTFProcesado {
   stats: { total_resoluciones: number; por_sala: Array<[string, number]> };
   generated_at: string;
 }
+
+// ── Financial data ────────────────────────────────────────────────────
+
+export interface CotizacionCambio {
+  moneda: string;
+  valor: number;
+  variacion_pct: number;
+}
+
+export interface CotizacionMineral {
+  nombre: string;
+  simbolo: string;
+  ticker: string;
+  unidad: string;
+  valor: number;
+  variacion_pct: number;
+}
+
+export interface DatosFinancieros {
+  fecha: string;
+  usd_pen: CotizacionCambio;
+  minerales: CotizacionMineral[];
+}
+
+// ── Press news ────────────────────────────────────────────────────────
+
+export interface PrensaResumida {
+  id: string;
+  titulo: string;
+  fuente: string;
+  fuente_display: string;
+  url: string;
+  fecha: string;
+  contenido: string;
+  resumen: string | null;
+  categoria: string;
+  tags: string[];
+  prompt_version: string;
+}
+
+export interface DiaPrensa {
+  fecha: string;
+  noticias: PrensaResumida[];
+  total: number;
+  fuentes_activas: string[];
+  prompt_version: string;
+}

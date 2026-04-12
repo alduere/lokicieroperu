@@ -1,0 +1,174 @@
+---
+import Base from "../../layouts/Base.astro";
+import { latestNoticiasDate, getNoticiasDay, formatFechaEs } from "../../lib/data";
+import type { PrensaResumida } from "../../lib/types";
+
+const date = latestNoticiasDate();
+const dia = date ? getNoticiasDay(date) : null;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Group by source
+const bySource: Record<string, PrensaResumida[]> = {};
+const byCategory: Record<string, PrensaResumida[]> = {};
+if (dia) {
+  for (const n of dia.noticias) {
+    const src = n.fuente_display || n.fuente;
+    if (!bySource[src]) bySource[src] = [];
+    bySource[src].push(n);
+
+    const cat = n.categoria || "Otros";
+    if (!byCategory[cat]) byCategory[cat] = [];
+    byCategory[cat].push(n);
+  }
+}
+
+const allItems = dia ? dia.noticias : [];
+const sources = Object.keys(bySource).sort();
+const categories = Object.keys(byCategory).sort();
+
+function categoriaPillClass(cat: string): string {
+  const lower = cat.toLowerCase();
+  if (lower.includes("econom")) return "bg-amber-100 text-amber-800 border-amber-300";
+  if (lower.includes("finanz")) return "bg-emerald-100 text-emerald-800 border-emerald-300";
+  if (lower.includes("politi") || lower.includes("polit")) return "bg-red-100 text-red-800 border-red-300";
+  return "bg-parchment-light text-ink-light border-ink-rule-light";
+}
+---
+
+<Base title={dia ? `Noticias · ${dia.fecha}` : "Noticias · Loki-ciero Peru"} sourceSlug="noticias" sourceName="Noticias">
+  <nav class="text-xs text-ink-sepia mb-4">
+    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+    <span class="mx-1">&rsaquo;</span>
+    <span class="text-ink">Noticias</span>
+  </nav>
+
+  {dia && allItems.length > 0 ? (
+    <>
+      <div class="border-b-2 border-ink pb-6 mb-6">
+        <div class="text-xs uppercase tracking-widest text-ink-sepia mb-1">{formatFechaEs(dia.fecha)}</div>
+        <h1 class="font-display text-4xl sm:text-5xl font-black tracking-tightest mb-3">Noticias</h1>
+        <div class="flex items-center gap-6 text-sm text-ink-light">
+          <div><span class="font-display text-3xl font-bold text-ink">{allItems.length}</span> articulos</div>
+          <div><span class="font-display text-3xl font-bold text-ink">{sources.length}</span> fuentes</div>
+        </div>
+      </div>
+
+      {/* Filter pills */}
+      <div class="flex flex-wrap gap-2 mb-6">
+        <button class="noticias-filter active text-xs px-3 py-1.5 rounded-full border border-ink-rule font-semibold transition-all cursor-pointer" data-filter="all">
+          Todas ({allItems.length})
+        </button>
+        {categories.map((cat) => (
+          <button class={`noticias-filter text-xs px-3 py-1.5 rounded-full border font-semibold transition-all cursor-pointer ${categoriaPillClass(cat)}`} data-filter={cat}>
+            {cat} ({byCategory[cat].length})
+          </button>
+        ))}
+      </div>
+
+      {/* Source filter */}
+      <div class="flex flex-wrap gap-2 mb-8">
+        {sources.map((src) => (
+          <button class="noticias-source-filter text-xs px-3 py-1.5 rounded-full border border-ink-rule-light text-ink-sepia font-semibold transition-all cursor-pointer hover:border-ink-rule hover:text-ink" data-source={src}>
+            {src} ({bySource[src].length})
+          </button>
+        ))}
+      </div>
+
+      <div id="noticias-list">
+        {allItems.map((item: PrensaResumida) => (
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener"
+            class="ruled-item block noticias-item"
+            data-cat={item.categoria}
+            data-source={item.fuente_display || item.fuente}
+          >
+            <div class="flex items-start gap-2 mb-1 flex-wrap">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold border bg-parchment-light text-ink-sepia border-ink-rule-light flex-shrink-0">
+                {item.fuente_display}
+              </span>
+              <span class={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold border flex-shrink-0 ${categoriaPillClass(item.categoria)}`}>
+                {item.categoria}
+              </span>
+            </div>
+            <h3 class="font-display font-bold text-ink leading-snug mt-1">
+              {item.titulo}
+            </h3>
+            {item.resumen && (
+              <p class="text-sm text-ink-light mt-1.5 line-clamp-3">
+                {item.resumen}
+              </p>
+            )}
+            {!item.resumen && item.contenido && (
+              <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
+                {item.contenido}
+              </p>
+            )}
+            <div class="flex items-center gap-3 mt-2 text-xs text-ink-sepia">
+              <span>{item.fecha}</span>
+              {item.tags.length > 0 && (
+                <span class="flex gap-1">
+                  {item.tags.slice(0, 3).map((tag) => (
+                    <span class="px-1.5 py-0.5 bg-parchment-light border border-ink-rule-light rounded text-[9px]">{tag}</span>
+                  ))}
+                </span>
+              )}
+            </div>
+          </a>
+        ))}
+      </div>
+    </>
+  ) : (
+    <div class="border border-ink-rule rounded-lg p-12 text-center">
+      <h1 class="font-display text-2xl font-bold mb-2">Sin noticias</h1>
+      <p class="text-ink-light">No hay noticias disponibles para hoy. El scraping se ejecuta a las 7:00 AM Lima.</p>
+    </div>
+  )}
+</Base>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const catFilters = document.querySelectorAll<HTMLButtonElement>(".noticias-filter");
+    const srcFilters = document.querySelectorAll<HTMLButtonElement>(".noticias-source-filter");
+    const items = document.querySelectorAll<HTMLElement>(".noticias-item");
+
+    let activeCat = "all";
+    let activeSource = "all";
+
+    function applyFilters() {
+      items.forEach((item) => {
+        const matchCat = activeCat === "all" || item.dataset.cat === activeCat;
+        const matchSrc = activeSource === "all" || item.dataset.source === activeSource;
+        if (matchCat && matchSrc) {
+          item.classList.remove("hidden");
+        } else {
+          item.classList.add("hidden");
+        }
+      });
+    }
+
+    catFilters.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        catFilters.forEach((b) => b.classList.remove("active", "bg-ink", "text-parchment"));
+        btn.classList.add("active");
+        activeCat = btn.dataset.filter || "all";
+        applyFilters();
+      });
+    });
+
+    srcFilters.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        if (btn.classList.contains("bg-ink")) {
+          btn.classList.remove("bg-ink", "text-parchment", "border-ink");
+          activeSource = "all";
+        } else {
+          srcFilters.forEach((b) => b.classList.remove("bg-ink", "text-parchment", "border-ink"));
+          btn.classList.add("bg-ink", "text-parchment", "border-ink");
+          activeSource = btn.dataset.source || "all";
+        }
+        applyFilters();
+      });
+    });
+  });
+</script>
