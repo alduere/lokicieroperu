@@ -8,7 +8,7 @@ moves between scripts is validated against one of them.
 from __future__ import annotations
 
 import re
-from datetime import date
+from datetime import date, datetime
 from enum import Enum
 
 from pydantic import BaseModel, Field, HttpUrl
@@ -341,3 +341,70 @@ class DiaTFProcesado(BaseModel):
 class TFIndexEntry(BaseModel):
     fecha: date
     total_resoluciones: int
+
+
+# ── Datos Financieros (tipo de cambio + minerales) ─────────────────────
+
+class CotizacionCambio(BaseModel):
+    """Exchange rate quote (e.g. USD/PEN)."""
+    moneda: str  # "USD/PEN"
+    valor: float
+    variacion_pct: float  # % change vs previous day
+
+class CotizacionMineral(BaseModel):
+    """Commodity/mineral price quote."""
+    nombre: str  # "Cobre", "Plata", etc.
+    simbolo: str  # "Cu", "Ag", etc.
+    precio: float
+    unidad: str  # "USD/lb", "USD/oz"
+    variacion_pct: float
+
+class DatosFinancieros(BaseModel):
+    """Daily financial data: exchange rate + mineral prices."""
+    fecha: date
+    usd_pen: CotizacionCambio
+    minerales: list[CotizacionMineral]
+
+
+# ── Noticias de Prensa (multi-source news) ─────────────────────────────
+
+PRENSA_PROMPT_VERSION = "prensa-v1"
+
+FUENTE_DISPLAY: dict[str, str] = {
+    "gestion": "Gestión",
+    "elcomercio": "El Comercio",
+    "rpp": "RPP",
+    "andina": "Andina",
+    "semanaeconomica": "Semana Económica",
+    "bcrp": "BCRP",
+}
+
+class PrensaCruda(BaseModel):
+    """A news article as fetched from RSS or HTML scraping."""
+    id: str
+    titulo: str
+    fuente: str
+    url: str
+    fecha: datetime
+    contenido: str
+
+class PrensaResumida(PrensaCruda):
+    """A news article after Gemini summarization."""
+    fuente_display: str = ""
+    resumen: str | None = None
+    categoria: str = "Economía"
+    tags: list[str] = Field(default_factory=list)
+    prompt_version: str = ""
+
+class DiaPrensa(BaseModel):
+    """Processed output for one day of press news."""
+    fecha: str
+    noticias: list[PrensaResumida]
+    total: int
+    fuentes_activas: list[str]
+    prompt_version: str
+
+class PrensaIndexEntry(BaseModel):
+    fecha: date
+    total_noticias: int
+    fuentes_activas: list[str]
