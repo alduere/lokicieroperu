@@ -43,8 +43,6 @@ jobs:
           if [ -n "${{ inputs.target_date }}" ]; then
             echo "value=${{ inputs.target_date }}" >> "$GITHUB_OUTPUT"
           else
-            # When the cron fires at 12:00 UTC, Lima (UTC-5) is 07:00 same day,
-            # so today's date in Lima === today's UTC date.
             echo "value=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
           fi
 
@@ -74,15 +72,27 @@ jobs:
         working-directory: site
         run: npm install --no-audit --no-fund
 
+      # ── Scrape all sources ──────────────────────────────────────────
       - name: Scrape El Peruano
-        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}"
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source elperuano
 
-      - name: Summarize with Gemini
-        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}"
+      - name: Scrape INDECOPI Alertas
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source indecopi-alertas
+        continue-on-error: true
 
+      # ── Summarize all sources ───────────────────────────────────────
+      - name: Summarize El Peruano
+        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source elperuano
+
+      - name: Summarize INDECOPI Alertas
+        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source indecopi-alertas
+        continue-on-error: true
+
+      # ── Build ───────────────────────────────────────────────────────
       - name: Build PDFs and Astro site
         run: uv run python -m scripts.build
 
+      # ── Notify ──────────────────────────────────────────────────────
       - name: Notify Telegram
         if: success()
         run: uv run python -m scripts.notify --date "${{ steps.target.outputs.value }}"
@@ -93,6 +103,7 @@ jobs:
         run: uv run python -m scripts.notify_email --date "${{ steps.target.outputs.value }}"
         continue-on-error: true
 
+      # ── Persist ─────────────────────────────────────────────────────
       - name: Commit data and PDFs
         run: |
           git config user.name "lokicieroperu-bot"

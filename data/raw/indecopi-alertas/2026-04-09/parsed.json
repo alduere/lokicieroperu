@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-04-09",
+  "items": [
+    {
+      "id": "4237",
+      "codigo_alerta": "A4237",
+      "titulo": "Camionetas RAM podrían presentar fallas de iluminación y frenos del remolque",
+      "sumilla": "Diveimport S.A. informó al Indecopi sobre el llamado a revisión de 43 vehículos RAM modelos 1500 REBEL CREW CAB 4X4 (2025-2026) y 1500 RHO CREW CAB 4X4 (2025) fabricados en Estados Unidos. Según lo informado, podrían presentarse fallas de la señal del giro del y/o de las luces de freno del remolque, lo que podría hacer que otros vehículos no noten a tiempo cuando la camioneta cambia de dirección o reduce la velocidad. Además, los frenos del remolque podrían no funcionar. Esto podría incrementar el riesgo de accidente. Los consumidores pueden contactarse al número (01) 712-2000 o al correo acciondefabrica@divemotor.com.pe.",
+      "fecha_publicacion": "2026-04-09",
+      "categoria": "Vehículos automotores, remolques y semirremolques; y sus partes y accesorios",
+      "url_slug": "camionetas-ram-podrian-presentar-fallas-de-iluminacion-y-frenos-del-remolque",
+      "nombre_producto": "Automóvil",
+      "marca": "RAM",
+      "modelo": "1500 REBEL CREW CAB 4X4 (2025 - 2026),1500 RHO CREW CAB 4X4 (2025)",
+      "lote": null,
+      "unidades_involucradas": "43",
+      "periodo": "años ",
+      "descripcion_riesgo": "Algunas camionetas involucradas podrían experimentar una pérdida de iluminación del remolque y/o de los frenos eléctricos del remolque. La señal del giro del remolque podría no parpadear cuando se accione la palanca de las luces direccionales del vehículo y las luces de freno del remolque podrían no activarse al aplicar los frenos de servicio del vehículo. Además, si está equipado, los frenos del remolque podrían no funcionar.",
+      "descripcion_efectos": "La falta de iluminación del remolque podría hacer que un vehículo que se aproxima no perciba el cambio de dirección o velocidad del vehículo y el remolque, lo que podría provocar un accidente sin previo aviso. Adicionalmente, la pérdida de los frenos del remolque podrían causar un accidente sin advertencia previa.",
+      "medidas_adoptadas": "El proveedor informó que,  como medida preventiva, STELLANTIS a través de los concesionarios de servicio autorizados hace un llamado a revisión de manera gratuita a la totalidad de vehículos afectados para realizar el cambio del módulo del remolque. Los repuestos arribarán a partir del 20 de abril, fecha estimada a partir de la cual los consumidores afectados podrán agendar su cita. Para más información, los consumidores pueden contactarse al Call Center (01) 712-2000 o al correo acciondefabrica@divemotor.com.pe.",
+      "datos_contacto": "Para más información, los consumidores pueden contactarse al Call Center (01) 712-2000 o al correo acciondefabrica@divemotor.com.pe.",
+      "imagen_url": "/apps/dpc/indecopialertas/files/alerta/4237/imagen/Plantilla de imágenes.jpgPlantilla de imágenes.jpg",
+      "ficha_url": "https://servicio.indecopi.gob.pe/indecopialertasapi/public/alerta/descargarFichaTecnica/4237",
+      "link_oficial": "https://alertasdeconsumo.gob.pe/alertas/camionetas-ram-podrian-presentar-fallas-de-iluminacion-y-frenos-del-remolque"
+    }
+  ]
+}

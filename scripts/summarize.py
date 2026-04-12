@@ -1,6 +1,11 @@
-"""Run Gemini over the parsed normas and produce data/processed/<date>.json.
+"""Run AI summarization over parsed data for one or all sources.
 
-Idempotent: if the processed file already exists with the same norm IDs, skip.
+Idempotent: skips if processed file exists with current data + prompt version.
+
+Usage:
+    uv run python scripts/summarize.py --date 2026-04-10
+    uv run python scripts/summarize.py --date 2026-04-10 --source elperuano
+    uv run python scripts/summarize.py --date 2026-04-10 --force
 """
 
 from __future__ import annotations
@@ -10,23 +15,12 @@ import json
 import logging
 import os
 import sys
-from collections import Counter
-from datetime import date, datetime
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
 
-from scripts.lib.gemini import GeminiClient
-from scripts.lib.schemas import (
-    PROMPT_VERSION,
-    DiaProcesado,
-    DocumentoSeccion,
-    Index,
-    IndexEntry,
-    NormaCruda,
-    NormaResumida,
-    StatsDia,
-)
+from scripts.lib.sources import enabled_sources, get_source, load_summarizer
 
 logger = logging.getLogger("summarize")
 
@@ -36,49 +30,93 @@ DATA_PROCESSED = REPO_ROOT / "data" / "processed"
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Summarize parsed norms with Gemini")
+    p = argparse.ArgumentParser(description="Summarize parsed data with AI")
     p.add_argument("--date", required=True, help="YYYY-MM-DD")
+    p.add_argument("--source", help="Source slug; defaults to all enabled")
     p.add_argument("--force", action="store_true", help="Re-summarize even if file exists")
     return p.parse_args()
 
 
-def _build_stats(normas: list[NormaResumida], n_docs: int) -> StatsDia:
-    counts = Counter(n.impacto.value for n in normas)
-    sectores = Counter(s for n in normas for s in n.sectores)
-    return StatsDia(
-        total_normas=len(normas),
-        alto=counts.get("alto", 0),
-        medio=counts.get("medio", 0),
-        bajo=counts.get("bajo", 0),
-        sectores_top=sectores.most_common(6),
-        documentos_otras_secciones=n_docs,
-    )
+def _update_source_index(source_slug: str, processed_data: dict, summarizer: object) -> None:
+    """Update the per-source index.json with the new day's entry."""
+    index_path = DATA_PROCESSED / source_slug / "index.json"
 
-
-def _update_index(dia: DiaProcesado) -> None:
-    index_path = DATA_PROCESSED / "index.json"
-    entries: list[IndexEntry] = []
+    entries: list[dict] = []
     if index_path.exists():
         try:
-            existing = Index(**json.loads(index_path.read_text(encoding="utf-8")))
-            entries = [e for e in existing.fechas if e.fecha != dia.fecha]
+            existing = json.loads(index_path.read_text(encoding="utf-8"))
+            fecha = processed_data["fecha"]
+            entries = [e for e in existing.get("fechas", []) if e.get("fecha") != fecha]
         except Exception as exc:  # noqa: BLE001
-            logger.warning("Could not parse existing index.json: %s", exc)
-    entries.append(
-        IndexEntry(
-            fecha=dia.fecha,
-            total_normas=dia.stats.total_normas,
-            alto=dia.stats.alto,
-            medio=dia.stats.medio,
-            bajo=dia.stats.bajo,
-        )
-    )
-    entries.sort(key=lambda e: e.fecha, reverse=True)
-    Index(fechas=entries).model_dump_json(indent=2)
+            logger.warning("Could not parse %s: %s", index_path, exc)
+
+    # Let the summarizer build its source-specific index entry
+    if hasattr(summarizer, "make_index_entry"):
+        entry = summarizer.make_index_entry(processed_data)
+    else:
+        # Generic fallback
+        entry = {
+            "fecha": processed_data["fecha"],
+            "total_items": len(processed_data.get("items", [])),
+        }
+    entries.append(entry)
+    entries.sort(key=lambda e: e.get("fecha", ""), reverse=True)
     index_path.write_text(
-        Index(fechas=entries).model_dump_json(indent=2),
+        json.dumps({"fechas": entries}, ensure_ascii=False, indent=2, default=str),
         encoding="utf-8",
     )
+
+
+def summarize_source(source_slug: str, target_date: str, force: bool) -> int:
+    """Summarize one source for a given date. Returns 0 on success."""
+    source = get_source(source_slug)
+    summarizer = load_summarizer(source)
+
+    raw_dir = DATA_RAW / source_slug / target_date
+    parsed_path = raw_dir / "parsed.json"
+    if not parsed_path.exists():
+        logger.warning("No parsed data at %s — skipping %s", parsed_path, source.nombre)
+        return 0
+
+    parsed_data = json.loads(parsed_path.read_text(encoding="utf-8"))
+
+    out_dir = DATA_PROCESSED / source_slug
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"{target_date}.json"
+
+    # Idempotency check
+    if out_path.exists() and not force:
+        existing = json.loads(out_path.read_text(encoding="utf-8"))
+        existing_ids = {
+            n.get("id") for n in existing.get("normas", existing.get("items", []))
+        }
+        new_ids = {
+            n.get("id") for n in parsed_data.get("normas", parsed_data.get("items", []))
+        }
+        ids_match = existing_ids == new_ids
+        stale = summarizer.is_stale(existing)
+
+        if ids_match and not stale:
+            logger.info("Skipping %s %s — already up to date", source.nombre, target_date)
+            return 0
+        if ids_match and stale:
+            logger.info("Re-summarizing %s %s — data is stale", source.nombre, target_date)
+
+    if not os.environ.get("GEMINI_API_KEY"):
+        logger.error("GEMINI_API_KEY not set")
+        return 2
+
+    logger.info("Summarizing %s for %s", source.nombre, target_date)
+    processed = summarizer.summarize_day(parsed_data)
+
+    out_path.write_text(
+        json.dumps(processed, ensure_ascii=False, indent=2, default=str),
+        encoding="utf-8",
+    )
+    logger.info("Wrote %s", out_path)
+
+    _update_source_index(source_slug, processed, summarizer)
+    return 0
 
 
 def main() -> int:
@@ -86,54 +124,24 @@ def main() -> int:
     load_dotenv()
     args = parse_args()
 
-    target = datetime.strptime(args.date, "%Y-%m-%d").date()
-    raw_dir = DATA_RAW / target.isoformat()
-    parsed_path = raw_dir / "parsed.json"
-    if not parsed_path.exists():
-        logger.error("No parsed data at %s — run scrape.py first", parsed_path)
-        return 1
+    target_date = datetime.strptime(args.date, "%Y-%m-%d").date().isoformat()
 
-    parsed = json.loads(parsed_path.read_text(encoding="utf-8"))
-    normas_raw = [NormaCruda(**n) for n in parsed["normas"]]
-    documentos = [DocumentoSeccion(**d) for d in parsed["documentos"]]
+    if args.source:
+        sources = [get_source(args.source)]
+    else:
+        sources = enabled_sources()
 
-    DATA_PROCESSED.mkdir(parents=True, exist_ok=True)
-    out_path = DATA_PROCESSED / f"{target.isoformat()}.json"
-    if out_path.exists() and not args.force:
-        existing = json.loads(out_path.read_text(encoding="utf-8"))
-        existing_ids = {n["id"] for n in existing.get("normas", [])}
-        existing_versions = {n.get("prompt_version", 0) for n in existing.get("normas", [])}
-        ids_match = existing_ids == {n.id for n in normas_raw}
-        version_current = all(v >= PROMPT_VERSION for v in existing_versions) if existing_versions else False
-        if ids_match and version_current:
-            logger.info("All %d norms already summarized at prompt v%d, skipping", len(normas_raw), PROMPT_VERSION)
-            return 0
-        if ids_match and not version_current:
-            logger.info(
-                "Re-summarizing: existing prompt versions %s, current is v%d",
-                existing_versions, PROMPT_VERSION,
-            )
+    errors = 0
+    for source in sources:
+        try:
+            result = summarize_source(source.slug, target_date, args.force)
+            if result != 0:
+                errors += 1
+        except Exception as exc:  # noqa: BLE001
+            logger.error("Failed to summarize %s: %s", source.nombre, exc)
+            errors += 1
 
-    if not os.environ.get("GEMINI_API_KEY"):
-        logger.error("GEMINI_API_KEY not set")
-        return 2
-
-    client = GeminiClient()
-    logger.info("Summarizing %d norms in batches", len(normas_raw))
-    summarized = client.summarize_all(normas_raw)
-
-    dia = DiaProcesado(
-        fecha=target,
-        normas=summarized,
-        documentos=documentos,
-        stats=_build_stats(summarized, len(documentos)),
-        generated_at=datetime.utcnow().isoformat() + "Z",
-    )
-    out_path.write_text(dia.model_dump_json(indent=2), encoding="utf-8")
-    logger.info("Wrote %s (%d normas)", out_path, len(summarized))
-
-    _update_index(dia)
-    return 0
+    return 1 if errors == len(sources) else 0
 
 
 if __name__ == "__main__":

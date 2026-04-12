@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-04-08",
+  "items": [
+    {
+      "id": "4235",
+      "codigo_alerta": "A4235",
+      "titulo": "Vehículos Hyundai Ioniq AE EV presentan riesgo de incendio",
+      "sumilla": "Automotores Gildemeister Perú S.A.C. informó al Indecopi sobre el llamado a revisión de 67 vehículos Hyundai modelo Ioniq AE EV fabricados en Corea del Sur entre 2018 y 2022. Según indicó, en algunos vehículos involucrados podrían encenderse luces de advertencia y, en situaciones específicas, podría generarse un cortocircuito eléctrico mientras el vehículo se encuentra estacionado o en proceso de carga, lo que incrementa el riesgo de incendio. Para más información, los consumidores pueden contactarse al número (01) 613-7777 o al correo electrónico atencioncliente@gildemeister.pe.",
+      "fecha_publicacion": "2026-04-08",
+      "categoria": "Vehículos automotores, remolques y semirremolques; y sus partes y accesorios",
+      "url_slug": "vehiculos-hyundai-ioniq-ae-ev-presentan-riesgo-de-incendio",
+      "nombre_producto": "Automóvil",
+      "marca": "Hyundai",
+      "modelo": "Ioniq AE EV",
+      "lote": null,
+      "unidades_involucradas": "67",
+      "periodo": "años ",
+      "descripcion_riesgo": "En situaciones específicas, podría generarse un cortocircuito eléctrico mientras el vehículo se encuentra estacionado o en proceso de carga y tener luces de advertencia encendidas.",
+      "descripcion_efectos": "El cortocircuito incrementa el riesgo de incendio.",
+      "medidas_adoptadas": "El proveedor informó que, como medida preventiva y gratuita, realizará una revisión técnica de los vehículos involucrados, y, de corresponder realizará la Actualización BMS - mejora de SW BMS/VCULDC/MCU/IGPM AE EV PE (LÓGICA DDQT APLICADA). Dependiendo del diagnóstico realizará lo siguiente:\r\n- Si el vehículo únicamente requiere la actualización de software del BMS, el procedimiento tendrá una duración aproximada de 2 horas y no será necesario reemplazar ninguna pieza.\r\n- Si adicionalmente se detecta que la luz de advertencia se encuentra encendida, el tiempo estimado del servicio será de aproximadamente 8 horas. En este caso, será necesario realizar el reemplazo del componente BSA, así como del refrigerante correspondiente, los cuales serán gestionados mediante importación.",
+      "datos_contacto": "Para más información, los consumidores pueden contactarse al número (01) 613-7777 o al correo electrónico atencioncliente@gildemeister.pe.",
+      "imagen_url": "/apps/dpc/indecopialertas/files/alerta/4235/imagen/Plantilla de imágenes.jpgPlantilla de imágenes.jpg",
+      "ficha_url": "https://servicio.indecopi.gob.pe/indecopialertasapi/public/alerta/descargarFichaTecnica/4235",
+      "link_oficial": "https://alertasdeconsumo.gob.pe/alertas/vehiculos-hyundai-ioniq-ae-ev-presentan-riesgo-de-incendio"
+    },
+    {
+      "id": "4236",
+      "codigo_alerta": "A4236",
+      "titulo": "Vehículos Hyundai KONA OS EV podrían presentar riesgo de incendio",
+      "sumilla": "Automotores Gildemeister Perú S.A.C. informó al Indecopi sobre el llamado a revisión de 47 vehículos Hyundai KONA OS EV, fabricados en Corea del Sur entre 2018 y 2023, debido a posibles defectos que podrían generar advertencias en el tablero, problemas de carga y sobrecalentamiento. En situaciones específicas, estas fallas podrían ocasionar un cortocircuito cuando el vehículo se encuentre estacionado o en proceso de carga, incrementando el riesgo de incendio. Para más información, los consumidores pueden comunicarse al (01) 613-7777 o al correo atencioncliente@gildemeister.pe.",
+      "fecha_publicacion": "2026-04-08",
+      "categoria": "Vehículos automotores, remolques y semirremolques; y sus partes y accesorios",
+      "url_slug": "vehiculos-hyundai-kona-os-ev-podrian-presentar-riesgo-de-incendio",
+      "nombre_producto": "Automóvil",
+      "marca": "Hyundai",
+      "modelo": "KONA OS EV",
+      "lote": null,
+      "unidades_involucradas": "47",
+      "periodo": "años ",
+      "descripcion_riesgo": "Algunos vehículos involucrados podrían presentar encendido de luces de advertencia, imposibilidad de carga, sobrecalentamiento de la batería y/o error interno de las celdas.",
+      "descripcion_efectos": "En situaciones específicas, podría generarse un cortocircuito eléctrico mientras el vehículo se encuentra estacionado o en proceso de carga, lo que incrementa el riesgo de incendio.",
+      "medidas_adoptadas": "El proveedor informó que como medida preventiva y gratuita, realizará una revisión técnica de los vehículos involucrados para verificar los códigos de falla (DTC), la posible sustitución del BSA o BMA y la actualización de BMS. Este procedimiento tiene una duración aproximada de 2 horas; no obstante, en caso de que se requiera el reemplazo del BSA, el tiempo estimado será de aproximadamente 8 horas.",
+      "datos_contacto": "Para más información, los consumidores pueden comunicarse al (01) 613-7777 o al correo atencioncliente@gildemeister.pe.",
+      "imagen_url": "/apps/dpc/indecopialertas/files/alerta/4236/imagen/Plantilla de imágenes.jpgPlantilla de imágenes.jpg",
+      "ficha_url": "https://servicio.indecopi.gob.pe/indecopialertasapi/public/alerta/descargarFichaTecnica/4236",
+      "link_oficial": "https://alertasdeconsumo.gob.pe/alertas/vehiculos-hyundai-kona-os-ev-podrian-presentar-riesgo-de-incendio"
+    }
+  ]
+}

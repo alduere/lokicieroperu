@@ -1,0 +1,138 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { indecopiDays, indecopiSortedDates, formatFechaEs } from "../../../lib/data";
+import type { AlertaResumida } from "../../../lib/types";
+
+export async function getStaticPaths() {
+  const paths: { params: { id: string }; props: { alerta: AlertaResumida; fecha: string } }[] = [];
+  for (const date of indecopiSortedDates) {
+    const dia = indecopiDays[date];
+    if (!dia) continue;
+    for (const item of dia.items) {
+      paths.push({ params: { id: item.id }, props: { alerta: item, fecha: date } });
+    }
+  }
+  return paths;
+}
+
+interface Props {
+  alerta: AlertaResumida;
+  fecha: string;
+}
+
+const { alerta, fecha } = Astro.props;
+const fechaEs = formatFechaEs(alerta.fecha_publicacion);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title={`${alerta.titulo} · INDECOPI Alertas`} sourceSlug="indecopi-alertas" sourceName="Alertas">
+  <article class="max-w-3xl mx-auto" data-pagefind-body
+    data-pagefind-meta={`title:${alerta.titulo}, categoria:${alerta.categoria || ""}, fecha:${alerta.fecha_publicacion}, impacto:${alerta.impacto}`}
+    data-pagefind-filter={`fuente:INDECOPI Alertas,impacto:${alerta.impacto},fecha:${alerta.fecha_publicacion}`}
+  >
+    <nav class="text-xs text-ink-500 mb-4">
+      <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+      <span class="mx-1">›</span>
+      <a href={`${base}/indecopi-alertas/`} class="hover:text-ink-900">INDECOPI Alertas</a>
+      <span class="mx-1">›</span>
+      <span class="text-ink-700">{fechaEs}</span>
+    </nav>
+
+    <header class="glass p-6 sm:p-8 mb-6">
+      <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-ink-500 mb-3 flex-wrap">
+        <span class={`impact-pill ${alerta.impacto}`}>{alerta.impacto} impacto</span>
+        {alerta.categoria && <span>{alerta.categoria}</span>}
+        {alerta.codigo_alerta && <span>· {alerta.codigo_alerta}</span>}
+      </div>
+      <h1 class="text-2xl sm:text-3xl font-bold tracking-tight leading-snug mb-3">{alerta.titulo}</h1>
+      {alerta.sumilla && <p class="text-base text-ink-700 italic leading-relaxed">{alerta.sumilla}</p>}
+    </header>
+
+    {alerta.resumen && (
+      <section class="glass p-6 sm:p-8 mb-6">
+        <h2 class="text-xs uppercase tracking-widest text-ink-500 mb-3 font-semibold">Resumen</h2>
+        <p class="text-base leading-relaxed text-ink-900">{alerta.resumen}</p>
+      </section>
+    )}
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+      {alerta.nombre_producto && (
+        <div class="glass p-5">
+          <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Producto</h3>
+          <p class="text-sm text-ink-900 font-medium">{alerta.nombre_producto}</p>
+        </div>
+      )}
+      {alerta.marca && (
+        <div class="glass p-5">
+          <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Marca</h3>
+          <p class="text-sm text-ink-900 font-medium">{alerta.marca}</p>
+        </div>
+      )}
+      {alerta.modelo && (
+        <div class="glass p-5 sm:col-span-2">
+          <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Modelo</h3>
+          <p class="text-sm text-ink-900">{alerta.modelo}</p>
+        </div>
+      )}
+    </section>
+
+    {alerta.descripcion_riesgo && (
+      <section class="glass p-6 mb-6 border-l-4 border-impact-alto">
+        <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Riesgo identificado</h3>
+        <p class="text-sm text-ink-900 leading-relaxed">{alerta.descripcion_riesgo}</p>
+      </section>
+    )}
+
+    {alerta.descripcion_efectos && (
+      <section class="glass p-6 mb-6">
+        <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Efectos</h3>
+        <p class="text-sm text-ink-900 leading-relaxed">{alerta.descripcion_efectos}</p>
+      </section>
+    )}
+
+    {alerta.medidas_adoptadas && (
+      <section class="glass p-6 mb-6 border-l-4 border-green-500">
+        <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Medidas adoptadas</h3>
+        <p class="text-sm text-ink-900 leading-relaxed">{alerta.medidas_adoptadas}</p>
+      </section>
+    )}
+
+    {alerta.datos_contacto && (
+      <section class="glass p-6 mb-6">
+        <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Contacto</h3>
+        <p class="text-sm text-ink-900">{alerta.datos_contacto}</p>
+      </section>
+    )}
+
+    {(alerta.tags?.length > 0 || alerta.impacto_razon) && (
+      <section class="glass p-6 mb-6">
+        {alerta.impacto_razon && (
+          <div class="mb-3">
+            <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-1 font-semibold">Nivel de impacto</h3>
+            <p class="text-sm text-ink-900">{alerta.impacto_razon}</p>
+          </div>
+        )}
+        {alerta.tags?.length > 0 && (
+          <div>
+            {alerta.tags.map((t) => (
+              <span class="inline-block px-2 py-1 text-xs bg-ink-50 text-ink-600 rounded-md mr-1 mb-1">#{t}</span>
+            ))}
+          </div>
+        )}
+      </section>
+    )}
+
+    <div class="flex items-center justify-center gap-4 mt-8 flex-wrap">
+      {alerta.ficha_url && (
+        <a href={alerta.ficha_url} class="inline-flex items-center gap-2 px-5 py-3 bg-ink-900 text-white rounded-lg font-semibold text-sm hover:bg-ink-700 transition-colors" target="_blank" rel="noopener noreferrer">
+          Descargar ficha técnica ↓
+        </a>
+      )}
+      {alerta.link_oficial && (
+        <a href={alerta.link_oficial} class="inline-flex items-center gap-2 px-5 py-3 border border-ink-300 rounded-lg font-semibold text-sm hover:bg-ink-50 transition-colors" target="_blank" rel="noopener noreferrer">
+          Ver en INDECOPI →
+        </a>
+      )}
+    </div>
+  </article>
+</Base>

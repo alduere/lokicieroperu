@@ -1,25 +1,97 @@
 ---
 import Base from "../layouts/Base.astro";
-import StatsHero from "../components/StatsHero.astro";
-import BentoGrid from "../components/BentoGrid.astro";
-import FilterBar from "../components/FilterBar.astro";
-import { latestDate, getDay } from "../lib/data";
+import HubCard from "../components/HubCard.astro";
+import { latestHubDate, getHubDay, formatFechaEs } from "../lib/data";
 
-const date = latestDate();
-const dia = date ? getDay(date) : null;
+const date = latestHubDate();
+const hub = date ? getHubDay(date) : null;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// Sort sources by total descending
+const sortedSources = hub
+  ? [...hub.sources].sort((a, b) => b.total - a.total)
+  : [];
+
+// The source with the highest total gets featured
+const topSlug = sortedSources.length > 0 ? sortedSources[0].slug : null;
+
+// Split into active and empty sources
+const activeSources = sortedSources.filter((s) => s.total > 0);
+const emptySources = sortedSources.filter((s) => s.total === 0);
 ---
 
-<Base title={dia ? `Loki-ciero Perú · ${dia.fecha}` : "Loki-ciero Perú"}>
-  {dia ? (
+<Base title={hub ? `Loki-ciero Peru · ${hub.fecha}` : "Loki-ciero Peru"}>
+  {hub ? (
     <>
-      <StatsHero dia={dia} />
-      <FilterBar normas={dia.normas} />
-      <BentoGrid dia={dia} />
+      {/* Hero section */}
+      <section class="glass p-6 sm:p-8 mb-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+          <div class="lg:col-span-2">
+            <div class="text-xs uppercase tracking-widest text-ink-500 mb-2">Resumen del dia</div>
+            <h1 class="text-3xl sm:text-5xl font-bold tracking-tightest leading-none">
+              {formatFechaEs(hub.fecha)}
+            </h1>
+          </div>
+
+          <div class="grid grid-cols-3 gap-3">
+            <div class="rounded-xl bg-ink-900 p-4 text-white">
+              <div class="text-4xl font-extrabold leading-none">{hub.stats.total_publicaciones}</div>
+              <div class="text-xs uppercase tracking-widest mt-2 opacity-90">Publicaciones</div>
+            </div>
+            <div class="rounded-xl bg-ink-700 p-4 text-white">
+              <div class="text-4xl font-extrabold leading-none">{hub.stats.fuentes_activas}</div>
+              <div class="text-xs uppercase tracking-widest mt-2 opacity-90">Fuentes</div>
+            </div>
+            <div class="rounded-xl bg-impact-alto p-4 text-white">
+              <div class="text-4xl font-extrabold leading-none">{hub.stats.alertas_alto}</div>
+              <div class="text-xs uppercase tracking-widest mt-2 opacity-90">Alto impacto</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Source grid - active sources */}
+      {activeSources.length > 0 && (
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          {activeSources.map((source) => (
+            <HubCard
+              slug={source.slug}
+              nombre={source.nombre}
+              subtitulo={source.subtitulo}
+              total={source.total}
+              label={source.label}
+              categorias={source.categorias}
+              updatedAt={source.updated_at}
+              featured={source.slug === topSlug}
+            />
+          ))}
+        </div>
+      )}
+
+      {/* Empty sources */}
+      {emptySources.length > 0 && (
+        <div class="mt-8">
+          <h2 class="text-sm uppercase tracking-widest text-ink-400 mb-4">Sin novedades hoy</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {emptySources.map((source) => (
+              <HubCard
+                slug={source.slug}
+                nombre={source.nombre}
+                subtitulo={source.subtitulo}
+                total={source.total}
+                label={source.label}
+                categorias={source.categorias}
+                updatedAt={source.updated_at}
+              />
+            ))}
+          </div>
+        </div>
+      )}
     </>
   ) : (
     <div class="glass p-12 text-center">
-      <h1 class="text-2xl font-bold mb-2">Sin datos todavía</h1>
-      <p class="text-ink-600">El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.</p>
+      <h1 class="text-2xl font-bold mb-2">Sin datos todavia</h1>
+      <p class="text-ink-600">El primer scraping aun no se ha ejecutado. Vuelve manana despues de las 7:00 AM Lima.</p>
     </div>
   )}
 </Base>

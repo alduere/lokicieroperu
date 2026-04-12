@@ -1,8 +1,9 @@
-"""Scrape one day from El Peruano and save raw HTML + a parsed JSON.
+"""Scrape one or all sources for one day and save raw data.
 
 Usage:
-    uv run python scripts/scrape.py                # scrape today
-    uv run python scripts/scrape.py --date 2026-04-10
+    uv run python scripts/scrape.py --date 2026-04-10                   # all sources
+    uv run python scripts/scrape.py --date 2026-04-10 --source elperuano  # one source
+    uv run python scripts/scrape.py                                       # today, all
 """
 
 from __future__ import annotations
@@ -14,61 +15,75 @@ import sys
 from datetime import date, datetime
 from pathlib import Path
 
-from scripts.lib.elperuano import scrape_day
-from scripts.lib.schemas import Seccion
+from scripts.lib.sources import enabled_sources, get_source, load_scraper
 
 logger = logging.getLogger("scrape")
-
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_RAW = REPO_ROOT / "data" / "raw"
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Scrape El Peruano for one day")
+    p = argparse.ArgumentParser(description="Scrape sources for one day")
     p.add_argument("--date", help="YYYY-MM-DD; defaults to today (Lima)")
+    p.add_argument("--source", help="Source slug (e.g., elperuano); defaults to all enabled")
     return p.parse_args()
+
+
+def scrape_source(source_slug: str, target: date) -> int:
+    """Scrape a single source for a given date. Returns 0 on success."""
+    source = get_source(source_slug)
+    scraper = load_scraper(source)
+
+    out_dir = DATA_RAW / source_slug / target.isoformat()
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    logger.info("Scraping %s for %s", source.nombre, target.isoformat())
+    data = scraper.scrape_day(target)
+
+    # Persist raw HTML if provided
+    raw_html = data.pop("raw_html", {})
+    for section_name, html in raw_html.items():
+        if html:
+            (out_dir / f"{section_name}.html").write_text(html, encoding="utf-8")
+
+    # Persist parsed (but not yet summarized) data
+    (out_dir / "parsed.json").write_text(
+        json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    n_items = len(data.get("normas", data.get("items", [])))
+    logger.info("Done %s: %d items", source.nombre, n_items)
+
+    if n_items == 0:
+        logger.warning("No content from %s for %s", source.nombre, target)
+    return 0
 
 
 def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     args = parse_args()
 
-    target: date | None
+    target: date
     if args.date:
         target = datetime.strptime(args.date, "%Y-%m-%d").date()
     else:
-        target = None  # scrape today via Load* endpoints
+        target = date.today()
 
-    actual_date = target or date.today()
-    out_dir = DATA_RAW / actual_date.isoformat()
-    out_dir.mkdir(parents=True, exist_ok=True)
+    if args.source:
+        sources = [get_source(args.source)]
+    else:
+        sources = enabled_sources()
 
-    logger.info("Scraping El Peruano for %s", actual_date.isoformat())
-    normas, documentos, raw = scrape_day(target)
+    errors = 0
+    for source in sources:
+        try:
+            scrape_source(source.slug, target)
+        except Exception as exc:  # noqa: BLE001
+            logger.error("Failed to scrape %s: %s", source.nombre, exc)
+            errors += 1
 
-    # Persist raw HTML for evidence
-    for seccion_value, html in raw.items():
-        if html:
-            (out_dir / f"{seccion_value}.html").write_text(html, encoding="utf-8")
-
-    # Persist parsed (but not yet summarized) data
-    parsed = {
-        "fecha": actual_date.isoformat(),
-        "normas": [n.model_dump(mode="json") for n in normas],
-        "documentos": [d.model_dump(mode="json") for d in documentos],
-    }
-    (out_dir / "parsed.json").write_text(
-        json.dumps(parsed, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-
-    n_normas = len(normas)
-    n_docs = len(documentos)
-    logger.info("Done: %d normas legales, %d documentos otras secciones", n_normas, n_docs)
-
-    if n_normas == 0 and n_docs == 0:
-        logger.warning("No content found for %s — El Peruano may not have published yet", actual_date)
-    return 0
+    return 1 if errors == len(sources) else 0
 
 
 if __name__ == "__main__":

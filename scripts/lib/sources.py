@@ -1,0 +1,89 @@
+"""Source registry for Loki-ciero Perú.
+
+Each source defines its slug, display name, scraper, and summarizer.
+Adding a new source = adding an entry here + implementing scraper/summarizer.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from scripts.scrapers.base import BaseScraper
+    from scripts.summarizers.base import BaseSummarizer
+
+
+@dataclass(frozen=True)
+class SourceConfig:
+    slug: str
+    nombre: str
+    subtitulo: str
+    item_label: str  # "normas", "alertas", "resoluciones"
+    enabled: bool = True
+    scraper_cls: str = ""  # dotted import path
+    summarizer_cls: str = ""  # dotted import path
+    categorias: list[dict[str, str]] = field(default_factory=list)
+
+
+# ── Registry ────────────────────────────────────────────────────────────────
+
+SOURCES: dict[str, SourceConfig] = {
+    "elperuano": SourceConfig(
+        slug="elperuano",
+        nombre="El Peruano",
+        subtitulo="Diario Oficial",
+        item_label="normas",
+        scraper_cls="scripts.scrapers.elperuano.ElPeruanoScraper",
+        summarizer_cls="scripts.summarizers.elperuano.ElPeruanoSummarizer",
+        categorias=[
+            {"key": "alto", "label": "Alto impacto", "color": "bg-red-500"},
+            {"key": "medio", "label": "Medio impacto", "color": "bg-orange-400"},
+            {"key": "bajo", "label": "Bajo impacto", "color": "bg-green-500"},
+        ],
+    ),
+    "indecopi-alertas": SourceConfig(
+        slug="indecopi-alertas",
+        nombre="INDECOPI Alertas",
+        subtitulo="Alertas de consumo",
+        item_label="alertas",
+        scraper_cls="scripts.scrapers.indecopi_alertas.IndecopiAlertasScraper",
+        summarizer_cls="scripts.summarizers.indecopi_alertas.IndecopiAlertasSummarizer",
+        categorias=[
+            {"key": "vehiculos", "label": "Vehículos", "color": "bg-blue-500"},
+            {"key": "alimentos", "label": "Alimentos", "color": "bg-amber-500"},
+            {"key": "electronicos", "label": "Electrónicos", "color": "bg-purple-500"},
+            {"key": "otros", "label": "Otros", "color": "bg-gray-400"},
+        ],
+    ),
+}
+
+
+def enabled_sources() -> list[SourceConfig]:
+    """Return all enabled sources in registry order."""
+    return [s for s in SOURCES.values() if s.enabled]
+
+
+def get_source(slug: str) -> SourceConfig:
+    """Get a source by slug. Raises KeyError if not found."""
+    return SOURCES[slug]
+
+
+def load_scraper(source: SourceConfig) -> BaseScraper:
+    """Dynamically import and instantiate the scraper for a source."""
+    module_path, class_name = source.scraper_cls.rsplit(".", 1)
+    import importlib
+
+    module = importlib.import_module(module_path)
+    cls = getattr(module, class_name)
+    return cls()
+
+
+def load_summarizer(source: SourceConfig) -> BaseSummarizer:
+    """Dynamically import and instantiate the summarizer for a source."""
+    module_path, class_name = source.summarizer_cls.rsplit(".", 1)
+    import importlib
+
+    module = importlib.import_module(module_path)
+    cls = getattr(module, class_name)
+    return cls()

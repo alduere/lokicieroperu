@@ -1,10 +1,10 @@
 ---
-import Base from "../../layouts/Base.astro";
-import { allNorms, formatFechaEs } from "../../lib/data";
-import type { NormaResumida } from "../../lib/types";
+import Base from "../../../layouts/Base.astro";
+import { epAllNorms, formatFechaEs } from "../../../lib/data";
+import type { NormaResumida } from "../../../lib/types";
 
 export async function getStaticPaths() {
-  return allNorms().map((n) => ({
+  return epAllNorms().map((n) => ({
     params: { id: n.id },
     props: { norma: n, fecha: n._fecha },
   }));
@@ -20,7 +20,7 @@ const fechaEs = formatFechaEs(norma.fecha_publicacion);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={`${norma.tipo_corto}${norma.numero ? ` ${norma.numero}` : ""} · Loki-ciero Perú`}>
+<Base title={`${norma.tipo_corto}${norma.numero ? ` ${norma.numero}` : ""} · El Peruano · Loki-ciero Perú`} sourceSlug="elperuano" sourceName="El Peruano">
   <article
     class="max-w-3xl mx-auto"
     data-pagefind-body
@@ -28,7 +28,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     data-pagefind-filter={`tipo:${norma.tipo_corto},impacto:${norma.impacto},fecha:${norma.fecha_publicacion}`}
   >
     <nav class="text-xs text-ink-500 mb-4">
-      <a href={`${base}/${fecha}`} class="hover:text-ink-900">← {fechaEs}</a>
+      <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+      <span class="mx-1">›</span>
+      <a href={`${base}/elperuano/`} class="hover:text-ink-900">El Peruano</a>
+      <span class="mx-1">›</span>
+      <a href={`${base}/elperuano/${fecha}`} class="hover:text-ink-900">{fechaEs}</a>
     </nav>
 
     <header class="glass p-6 sm:p-8 mb-6">

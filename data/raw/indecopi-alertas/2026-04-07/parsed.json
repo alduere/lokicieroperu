@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-04-07",
+  "items": [
+    {
+      "id": "4234",
+      "codigo_alerta": "A4234",
+      "titulo": "Anuncian retiro de un lote de latas de leche condensada semidescremada PARMALAT",
+      "sumilla": "Lactalis Peru S.A.C. informó al Indecopi sobre el retiro de 43944 unidades del producto Leche Condensada Semidescremada de la marca PARMALAT, en presentación de 395 g, correspondientes al Lote No. 892-8. Según señaló, ha advertido que dicho lote no cumple con sus estándares de calidad y se ha observado que los productos presentaban un estado de solidificación, lo cual podría afectar la ingesta de los consumidores. Se insta a los consumidores a verificar el etiquetado y no adquirir o consumir el lote afectado. Los consumidores pueden contactar a LACTALIS PERU S.A.C. al número de teléfono 913529537.",
+      "fecha_publicacion": "2026-04-07",
+      "categoria": "Leche líquida y crema procesada y suero de la leche",
+      "url_slug": "anuncian-retiro-de-un-lote-de-latas-de-leche-condensada-semidescremada-parmalat",
+      "nombre_producto": "Leche condensada semidescremada",
+      "marca": "Parmalat",
+      "modelo": "Presentación: Lata de 395 g",
+      "lote": "892-8",
+      "unidades_involucradas": "43944",
+      "periodo": "años ",
+      "descripcion_riesgo": "Presencia de consistencia solidificada en los productos.",
+      "descripcion_efectos": "Podría afectar la ingesta de los consumidores.",
+      "medidas_adoptadas": "El proveedor informó que, luego de una revisión de los productos en sus almacenes, se verificó que los productos reportados presentaban un estado de solidificación, ante lo cual, dispuso el retiro y destrucción del lote N° 892-8. Sin perjuicio de ello, solicitó un análisis de control de calidad a la empresa NSF INASSA S.A.C., siendo que con fecha 16.03.2026 se emitió el Informe de Ensayo N° 238823-01 y 238823-02, donde se observó que determinados productos del lote en cuestión presentaron resultados fuera de los rangos aceptables. El proveedor dispuso la destrucción del lote por posibles riesgos a la salud que podrían afectar la ingesta de los consumidores. Adicionalmente, reportó que luego de su destrucción notarial, ha tomado conocimiento de una presunta comercialización de los productos observados. Los consumidores pueden contactar a LACTALIS PERU S.A.C. al correo electrónico ronal.narro@pe.lactalis.com.",
+      "datos_contacto": "Los consumidores pueden contactar a LACTALIS PERU S.A.C. al correo electrónico ronal.narro@pe.lactalis.com.",
+      "imagen_url": "/apps/dpc/indecopialertas/files/alerta/4234/imagen/Plantilla de imágenes.jpgPlantilla de imágenes.jpg",
+      "ficha_url": "https://servicio.indecopi.gob.pe/indecopialertasapi/public/alerta/descargarFichaTecnica/4234",
+      "link_oficial": "https://alertasdeconsumo.gob.pe/alertas/anuncian-retiro-de-un-lote-de-latas-de-leche-condensada-semidescremada-parmalat"
+    }
+  ]
+}

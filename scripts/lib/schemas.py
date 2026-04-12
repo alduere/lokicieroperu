@@ -147,3 +147,63 @@ class IndexEntry(BaseModel):
 
 class Index(BaseModel):
     fechas: list[IndexEntry]
+
+
+# ── INDECOPI Alertas de Consumo ─────────────────────────────────────────────
+
+ALERTAS_PROMPT_VERSION = 1
+
+
+class AlertaCruda(BaseModel):
+    """A consumer alert as fetched from the INDECOPI REST API."""
+
+    id: str
+    codigo_alerta: str | None = None
+    titulo: str
+    sumilla: str | None = None
+    fecha_publicacion: date
+    categoria: str | None = None
+    url_slug: str | None = None
+    nombre_producto: str | None = None
+    marca: str | None = None
+    modelo: str | None = None
+    lote: str | None = None
+    unidades_involucradas: str | None = None
+    periodo: str | None = None
+    descripcion_riesgo: str | None = None
+    descripcion_efectos: str | None = None
+    medidas_adoptadas: str | None = None
+    datos_contacto: str | None = None
+    imagen_url: str | None = None
+    ficha_url: str | None = None
+    link_oficial: str | None = None
+
+
+class AlertaResumida(AlertaCruda):
+    """An alert after AI summarization."""
+
+    resumen: str | None = None
+    impacto: Impacto = Impacto.MEDIO
+    impacto_razon: str | None = None
+    tags: list[str] = Field(default_factory=list)
+    prompt_version: int = 0
+
+
+class StatsAlertasDia(BaseModel):
+    total_alertas: int
+    por_categoria: list[tuple[str, int]] = Field(default_factory=list)
+
+
+class DiaAlertasProcesado(BaseModel):
+    """Processed output for one day of INDECOPI alerts."""
+
+    fecha: date
+    source_slug: str = "indecopi-alertas"
+    items: list[AlertaResumida]
+    stats: StatsAlertasDia
+    generated_at: str
+
+
+class AlertasIndexEntry(BaseModel):
+    fecha: date
+    total_alertas: int

@@ -1,15 +1,23 @@
 ---
-import Base from "../layouts/Base.astro";
-import { sortedDates, getDay, formatFechaEs } from "../lib/data";
+import Base from "../../layouts/Base.astro";
+import { epSortedDates, getEpDay, formatFechaEs } from "../../lib/data";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const days = sortedDates.map((d) => ({ date: d, dia: getDay(d)! }));
+const days = epSortedDates.map((d) => ({ date: d, dia: getEpDay(d)! }));
 ---
 
-<Base title="Archivo · Loki-ciero Perú">
+<Base title="Archivo · El Peruano · Loki-ciero Perú" sourceSlug="elperuano" sourceName="El Peruano">
+  <nav class="text-xs text-ink-500 mb-4">
+    <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+    <span class="mx-1">›</span>
+    <a href={`${base}/elperuano/`} class="hover:text-ink-900">El Peruano</a>
+    <span class="mx-1">›</span>
+    <span class="text-ink-700">Archivo</span>
+  </nav>
+
   <div class="mb-8">
     <h1 class="text-4xl font-bold tracking-tightest">Archivo</h1>
-    <p class="text-ink-500 mt-2">Todas las ediciones diarias publicadas</p>
+    <p class="text-ink-500 mt-2">Todas las ediciones diarias publicadas en El Peruano</p>
   </div>
 
   <div class="glass overflow-hidden">
@@ -28,7 +36,7 @@ const days = sortedDates.map((d) => ({ date: d, dia: getDay(d)! }));
         {days.map(({ date, dia }) => (
           <tr class="border-b border-ink-100 hover:bg-ink-50">
             <td class="px-4 py-3">
-              <a href={`${base}/${date}`} class="font-semibold text-ink-900 hover:text-ink-700">
+              <a href={`${base}/elperuano/${date}`} class="font-semibold text-ink-900 hover:text-ink-700">
                 {formatFechaEs(date)}
               </a>
             </td>

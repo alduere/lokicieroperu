@@ -2,6 +2,186 @@
   "fecha": "2026-04-11",
   "normas": [
     {
+      "id": "2505169-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0090-2026-MINCETUR",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0090-2026-MINCETUR",
+      "entidad_emisora": "COMERCIO EXTERIOR Y TURISMO",
+      "sumilla": "Designan Presidente Ejecutivo de la Comisión de Promoción del Perú para la Exportación y el Turismo - PROMPERÚ",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505169-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE2OV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505169-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505170-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000106-2026-MC",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000106-2026-MC",
+      "entidad_emisora": "CULTURA",
+      "sumilla": "Autorizan viaje de servidores de la Orquesta Sinfónica Nacional de la Dirección de Elencos Nacionales de la Dirección General de Industrias Culturales y Artes a Argentina en comisión de servicios",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505170-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE3MF8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505170-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505171-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000105-2026-MC",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000105-2026-MC",
+      "entidad_emisora": "CULTURA",
+      "sumilla": "Autorizan viaje de servidores de la Dirección de Elencos Nacionales de la Dirección General de Industrias Culturales y Artes a Argentina en comisión de servicios",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505171-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE3MV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505171-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505181-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "D000104-2026-MIDIS",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° D000104-2026-MIDIS",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Directora General de la Dirección General de Implementación de Políticas y Articulación Territorial",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505181-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE4MV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505181-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505182-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "D000105-2026-MIDIS",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° D000105-2026-MIDIS",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Director General de la Dirección General de Seguimiento Evaluación e Innovación Social",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505182-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE4Ml8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505182-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505183-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "D000108-2026-MIDIS",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° D000108-2026-MIDIS",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Directora General de la Dirección General de Calidad de la Gestión de las Prestaciones Sociales",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505183-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE4M18xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505183-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505185-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "D000110-2026-MIDIS",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° D000110-2026-MIDIS",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Directora General de la Dirección General de Articulación de las Prestaciones Sociales",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505185-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE4NV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505185-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505165-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "0013-2026-EF/50",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 0013-2026-EF/50.01",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Resolución Directoral que modifica la Directiva N° 0002-2024-EF/50.01 Directiva de Programación Multianual Presupuestaria y Formulación Presupuestaria aprobada por la Resolución Directoral N° 0021-2024-EF/50.01.",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505165-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE2NV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505165-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505186-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "000270-2026-IN-VOI-DGIN",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 000270-2026-IN-VOI-DGIN",
+      "entidad_emisora": "INTERIOR",
+      "sumilla": "Designan subprefectos(as) Distritales en diversos distritos de la provincia y departamento de Lima",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505186-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE4Nl8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505186-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505188-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL 000268-2026-IN-VOI-DGIN",
+      "tipo_corto": "RD",
+      "numero": null,
+      "titulo_oficial": "RESOLUCION DIRECTORAL 000268-2026-IN-VOI-DGIN",
+      "entidad_emisora": "INTERIOR",
+      "sumilla": "Designan Subprefectos(as) Distritales en diversos distritos de los departamentos de Cajamarca Ica y Ancash",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505188-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE4OF8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505188-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505189-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL 000246-2026-IN-VOI-DGIN",
+      "tipo_corto": "RD",
+      "numero": null,
+      "titulo_oficial": "RESOLUCION DIRECTORAL 000246-2026-IN-VOI-DGIN",
+      "entidad_emisora": "INTERIOR",
+      "sumilla": "Designan Subprefectos Distritales en distritos de las provincias de Huarochirí y Cañete del departamento de Lima",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505189-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE4OV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505189-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2505159-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "139-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 139-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Disponen publicación del proyecto de Decreto Supremo que aprueba la Política Nacional Multisectorial de Agua Potable y Saneamiento al 2050 y de su Exposición de Motivos a efectos de recibir los comentarios aportes u opiniones de la ciudadanía",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505159-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1OV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505159-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
       "id": "2504749-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -92,18 +272,18 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2504284-1",
+      "id": "2505156-1",
       "seccion": "normas_legales",
-      "tipo": "RESOLUCION DIRECTORAL",
-      "tipo_corto": "RD",
-      "numero": "000003-2026-DSFL-DGPA-VMPCIC/MC",
-      "titulo_oficial": "RESOLUCION DIRECTORAL N° 000003-2026-DSFL-DGPA-VMPCIC/MC",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "003-2026-MC",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 003-2026-MC",
       "entidad_emisora": "CULTURA",
-      "sumilla": "Inician de oficio el procedimiento de declaratoria y delimitación definitiva del bien inmueble prehispánico denominado Santa Ana A o San Juan Sectores 1 y 2 ubicado en el distrito de Ricardo Palma provincia de Huarochirí departamento de Lima",
+      "sumilla": "Autorizan la inafectación del Impuesto General a las Ventas respecto a la prestación de servicios culturales de la asociación denominada Asociación Orquestas Infantiles y Juveniles del Perú",
       "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504284-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDI4NF8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504284-1_Portada.jpg",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505156-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1Nl8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505156-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -137,18 +317,18 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2505156-1",
+      "id": "2504284-1",
       "seccion": "normas_legales",
-      "tipo": "RESOLUCION SUPREMA",
-      "tipo_corto": "RSU",
-      "numero": "003-2026-MC",
-      "titulo_oficial": "RESOLUCION SUPREMA N° 003-2026-MC",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "000003-2026-DSFL-DGPA-VMPCIC/MC",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 000003-2026-DSFL-DGPA-VMPCIC/MC",
       "entidad_emisora": "CULTURA",
-      "sumilla": "Autorizan la inafectación del Impuesto General a las Ventas respecto a la prestación de servicios culturales de la asociación denominada Asociación Orquestas Infantiles y Juveniles del Perú",
+      "sumilla": "Inician de oficio el procedimiento de declaratoria y delimitación definitiva del bien inmueble prehispánico denominado Santa Ana A o San Juan Sectores 1 y 2 ubicado en el distrito de Ricardo Palma provincia de Huarochirí departamento de Lima",
       "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505156-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1Nl8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505156-1_Portada.jpg",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504284-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDI4NF8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504284-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -182,18 +362,18 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2504561-1",
+      "id": "2505131-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
       "tipo_corto": "RD",
-      "numero": "D000016-2026-MIDAGRI-SENASA-DSA",
-      "titulo_oficial": "RESOLUCION DIRECTORAL N° D000016-2026-MIDAGRI-SENASA-DSA",
+      "numero": "073-2026-MIDAGRI-DVDAFIR-AGRO",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 073-2026-MIDAGRI-DVDAFIR-AGRO RURAL-DE",
       "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
-      "sumilla": "Aprueban requisitos sanitarios para el ingreso temporal de equinos que participarán en el evento ecuestre Gran Premio Latinoamericano Perú 2026 procedentes de la República Oriental del Uruguay la República de Chile y la República Argentina",
+      "sumilla": "Designan Jefe de la Subunidad de Siembra y Cosecha de Agua de la Unidad de Cadena de Valor Agroforestal Forestal y Silvopastoril de AGRO RURAL",
       "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504561-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDU2MV8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504561-1_Portada.jpg",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505131-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTEzMV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505131-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -212,33 +392,18 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2505131-1",
+      "id": "2504561-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
       "tipo_corto": "RD",
-      "numero": "073-2026-MIDAGRI-DVDAFIR-AGRO",
-      "titulo_oficial": "RESOLUCION DIRECTORAL N° 073-2026-MIDAGRI-DVDAFIR-AGRO RURAL-DE",
+      "numero": "D000016-2026-MIDAGRI-SENASA-DSA",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° D000016-2026-MIDAGRI-SENASA-DSA",
       "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
-      "sumilla": "Designan Jefe de la Subunidad de Siembra y Cosecha de Agua de la Unidad de Cadena de Valor Agroforestal Forestal y Silvopastoril de AGRO RURAL",
+      "sumilla": "Aprueban requisitos sanitarios para el ingreso temporal de equinos que participarán en el evento ecuestre Gran Premio Latinoamericano Perú 2026 procedentes de la República Oriental del Uruguay la República de Chile y la República Argentina",
       "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505131-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTEzMV8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505131-1_Portada.jpg",
-      "edicion_extraordinaria": false
-    },
-    {
-      "id": "2505154-3",
-      "seccion": "normas_legales",
-      "tipo": "DECRETO SUPREMO",
-      "tipo_corto": "DS",
-      "numero": "004-2026-MIDIS",
-      "titulo_oficial": "DECRETO SUPREMO N° 004-2026-MIDIS",
-      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
-      "sumilla": "Decreto Supremo que aprueba los montos máximos para cada entidad del Gobierno Nacional y para los gobiernos regionales por el cumplimiento de las metas establecidas en el marco del Fondo de Estímulo al Desempeño y Logro de Resultados Sociales (FED) correspondiente a la primera verificación de la Edición 2025-2026",
-      "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505154-3",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF8zMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-3_Portada.jpg",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504561-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDU2MV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504561-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -272,6 +437,21 @@
       "edicion_extraordinaria": false
     },
     {
+      "id": "2505154-3",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "004-2026-MIDIS",
+      "titulo_oficial": "DECRETO SUPREMO N° 004-2026-MIDIS",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Decreto Supremo que aprueba los montos máximos para cada entidad del Gobierno Nacional y para los gobiernos regionales por el cumplimiento de las metas establecidas en el marco del Fondo de Estímulo al Desempeño y Logro de Resultados Sociales (FED) correspondiente a la primera verificación de la Edición 2025-2026",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505154-3",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF8zMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-3_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
       "id": "2504849-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -302,21 +482,6 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2505071-1",
-      "seccion": "normas_legales",
-      "tipo": "RESOLUCION DIRECTORAL",
-      "tipo_corto": "RD",
-      "numero": "048-2026-MINEDU/VMGI-PRONABEC",
-      "titulo_oficial": "RESOLUCION DIRECTORAL N° 048-2026-MINEDU/VMGI-PRONABEC",
-      "entidad_emisora": "EDUCACION",
-      "sumilla": "Designan Asesor de la Dirección Ejecutiva del Programa Nacional de Becas y Crédito Educativo – PRONABEC",
-      "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505071-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA3MV8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505071-1_Portada.jpg",
-      "edicion_extraordinaria": false
-    },
-    {
       "id": "2505054-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -329,6 +494,21 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505054-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA1NF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505054-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+      "id": "2505071-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "048-2026-MINEDU/VMGI-PRONABEC",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 048-2026-MINEDU/VMGI-PRONABEC",
+      "entidad_emisora": "EDUCACION",
+      "sumilla": "Designan Asesor de la Dirección Ejecutiva del Programa Nacional de Becas y Crédito Educativo – PRONABEC",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505071-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTA3MV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505071-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -392,21 +572,6 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2505154-1",
-      "seccion": "normas_legales",
-      "tipo": "DECRETO SUPREMO",
-      "tipo_corto": "DS",
-      "numero": "002-2026-SA",
-      "titulo_oficial": "DECRETO SUPREMO N° 002-2026-SA",
-      "entidad_emisora": "SALUD",
-      "sumilla": "Decreto Supremo que aprueba las Orientaciones para el Cuidado Integral de la Salud Mental de Niñas Niños y Adolescentes en Situación de Riesgo de Desprotección Familiar o en Situación de Desprotección Familiar",
-      "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505154-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-1_Portada.jpg",
-      "edicion_extraordinaria": false
-    },
-    {
       "id": "2505149-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -419,6 +584,21 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505149-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE0OV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505149-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+      "id": "2505154-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "002-2026-SA",
+      "titulo_oficial": "DECRETO SUPREMO N° 002-2026-SA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Decreto Supremo que aprueba las Orientaciones para el Cuidado Integral de la Salud Mental de Niñas Niños y Adolescentes en Situación de Riesgo de Desprotección Familiar o en Situación de Desprotección Familiar",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505154-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE1NF8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505154-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -437,21 +617,6 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2504856-1",
-      "seccion": "normas_legales",
-      "tipo": "RESOLUCION DIRECTORAL",
-      "tipo_corto": "RD",
-      "numero": "060-2026-VIVIENDA/VMCS/PNSU/DE",
-      "titulo_oficial": "RESOLUCION DIRECTORAL N° 060-2026-VIVIENDA/VMCS/PNSU/DE",
-      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
-      "sumilla": "Designan Coordinador de la Subunidad de Planeamiento de la Unidad de Planeamiento y Presupuesto del Programa Nacional de Saneamiento Urbano",
-      "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504856-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDg1Nl8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504856-1_Portada.jpg",
-      "edicion_extraordinaria": false
-    },
-    {
       "id": "2505011-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
@@ -464,6 +629,21 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505011-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTAxMV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2505011-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+      "id": "2504856-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "060-2026-VIVIENDA/VMCS/PNSU/DE",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 060-2026-VIVIENDA/VMCS/PNSU/DE",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Coordinador de la Subunidad de Planeamiento de la Unidad de Planeamiento y Presupuesto del Programa Nacional de Saneamiento Urbano",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504856-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDg1Nl8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504856-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -527,21 +707,6 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2504981-1",
-      "seccion": "normas_legales",
-      "tipo": "INVESTIGACION Definitiva",
-      "tipo_corto": "OTRO",
-      "numero": "1301-2024-JUN",
-      "titulo_oficial": "INVESTIGACION Definitiva N° 1301-2024-JUNÍN",
-      "entidad_emisora": "CONSEJO EJECUTIVO DEL PODER JUDICIAL",
-      "sumilla": "Imponen medida disciplinaria de destitución a juez de paz de la Comunidad Campesina de Palián distrito y provincia de Huancayo Corte Superior de Justicia de Junín",
-      "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504981-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk4MV8xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504981-1_Portada.jpg",
-      "edicion_extraordinaria": false
-    },
-    {
       "id": "2504991-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION ADMINISTRATIVA",
@@ -554,6 +719,21 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504991-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk5MV8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504991-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+      "id": "2504981-1",
+      "seccion": "normas_legales",
+      "tipo": "INVESTIGACION Definitiva",
+      "tipo_corto": "OTRO",
+      "numero": "1301-2024-JUN",
+      "titulo_oficial": "INVESTIGACION Definitiva N° 1301-2024-JUNÍN",
+      "entidad_emisora": "CONSEJO EJECUTIVO DEL PODER JUDICIAL",
+      "sumilla": "Imponen medida disciplinaria de destitución a juez de paz de la Comunidad Campesina de Palián distrito y provincia de Huancayo Corte Superior de Justicia de Junín",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504981-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDk4MV8xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2504981-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -587,21 +767,6 @@
       "edicion_extraordinaria": false
     },
     {
-      "id": "2489177-1",
-      "seccion": "normas_legales",
-      "tipo": "RESOLUCION",
-      "tipo_corto": "RES",
-      "numero": "1788-2026-CU-GYT/UNCP",
-      "titulo_oficial": "RESOLUCION N° 1788-2026-CU-GYT/UNCP",
-      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
-      "sumilla": "Otorgan diploma duplicado grado académico de maestra en educación mención: gestión educativa de la Universidad Nacional del Centro del Perú",
-      "fecha_publicacion": "2026-04-11",
-      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2489177-1",
-      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjQ4OTE3N18xMjAyNjA0MTE=",
-      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2489177-1_Portada.jpg",
-      "edicion_extraordinaria": false
-    },
-    {
       "id": "2502900-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
@@ -614,6 +779,21 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2502900-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMjkwMF8xMjAyNjA0MTE=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2502900-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+      "id": "2489177-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "1788-2026-CU-GYT/UNCP",
+      "titulo_oficial": "RESOLUCION N° 1788-2026-CU-GYT/UNCP",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Otorgan diploma duplicado grado académico de maestra en educación mención: gestión educativa de la Universidad Nacional del Centro del Perú",
+      "fecha_publicacion": "2026-04-11",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2489177-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjQ4OTE3N18xMjAyNjA0MTE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/2489177-1_Portada.jpg",
       "edicion_extraordinaria": false
     },
     {
@@ -834,132 +1014,6 @@
       "fecha_publicacion": "2026-04-11",
       "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQxMQ==",
       "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/11/_BO20260411_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504231-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504231_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504231_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504255-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504255_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504255_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504296-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504296_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504296_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504499-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504499_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504499_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504503-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504503_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504503_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504504-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504504_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504504_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504508-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504508_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504508_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504509-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504509_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504509_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504512-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504512_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504512_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504514-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504514_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504514_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504534-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504534_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504534_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504537-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504537_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504537_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504565-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504565_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504565_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504593-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504593_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504593_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504593-2",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504593_2.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504593_2_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504593-3",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504593_3.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504593_3_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504670-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504670_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504670_1_Portada.jpg"
-    },
-    {
-      "seccion": "concesiones_mineras",
-      "edicion": "2504682-1",
-      "fecha_publicacion": "2026-04-11",
-      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/11/2504682_1.pdf",
-      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/11/2504682_1_Portada.jpg"
     }
   ]
 }

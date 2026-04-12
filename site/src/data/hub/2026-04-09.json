@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-04-09",
+  "sources": [
+    {
+      "slug": "elperuano",
+      "nombre": "El Peruano",
+      "subtitulo": "Diario Oficial",
+      "total": 95,
+      "label": "normas",
+      "categorias": [
+        {
+          "nombre": "alto",
+          "count": 6,
+          "color": "bg-red-500"
+        },
+        {
+          "nombre": "medio",
+          "count": 33,
+          "color": "bg-orange-400"
+        },
+        {
+          "nombre": "bajo",
+          "count": 56,
+          "color": "bg-green-500"
+        }
+      ],
+      "updated_at": "2026-04-11T23:49:41.447937Z"
+    }
+  ],
+  "stats": {
+    "total_publicaciones": 95,
+    "fuentes_activas": 1,
+    "alertas_alto": 6
+  },
+  "generated_at": "2026-04-12T17:31:22.327412Z"
+}

@@ -1,11 +1,21 @@
 ---
-import Base from "../layouts/Base.astro";
+import Base from "../../layouts/Base.astro";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title="Buscar · Loki-ciero Peru">
+<Base title="Buscar en El Peruano · Loki-ciero Perú" sourceSlug="elperuano" sourceName="El Peruano">
   <div class="max-w-4xl mx-auto">
-    <h1 class="text-4xl font-bold tracking-tightest mb-2">Buscar en todas las fuentes</h1>
-    <p class="text-ink-500 mb-8">Busqueda full-text en todas las fuentes del hub</p>
+    <nav class="text-xs text-ink-500 mb-4">
+      <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+      <span class="mx-1">›</span>
+      <a href={`${base}/elperuano/`} class="hover:text-ink-900">El Peruano</a>
+      <span class="mx-1">›</span>
+      <span class="text-ink-700">Buscar</span>
+    </nav>
+
+    <h1 class="text-4xl font-bold tracking-tightest mb-2">Buscar en El Peruano</h1>
+    <p class="text-ink-500 mb-8">Búsqueda full-text con filtros por tipo, impacto, sector y entidad</p>
 
     <div id="search" class="mb-8"></div>
 
@@ -21,16 +31,16 @@ import Base from "../layouts/Base.astro";
             resetStyles: false,
             bundlePath: "/lokicieroperu/pagefind/",
             translations: {
-              placeholder: "Buscar en todas las fuentes...",
+              placeholder: "Buscar normas en El Peruano...",
               clear_search: "Limpiar",
-              load_more: "Cargar mas resultados",
-              search_label: "Buscar en Loki-ciero Peru",
+              load_more: "Cargar más resultados",
+              search_label: "Buscar en El Peruano",
               filters_label: "Filtros",
               zero_results: "Sin resultados para [SEARCH_TERM]",
               many_results: "[COUNT] resultados para [SEARCH_TERM]",
               one_result: "1 resultado para [SEARCH_TERM]",
               alt_search: "Sin resultados para [SEARCH_TERM]. Mostrando resultados para [DIFFERENT_TERM]",
-              search_suggestion: "Sin resultados para [SEARCH_TERM]. Pruebe una busqueda diferente",
+              search_suggestion: "Sin resultados para [SEARCH_TERM]. Pruebe una búsqueda diferente",
               searching: "Buscando [SEARCH_TERM]...",
             },
           });

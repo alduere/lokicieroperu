@@ -57,3 +57,70 @@ export interface IndexEntry {
   medio: number;
   bajo: number;
 }
+
+// Hub types
+export interface HubDay {
+  fecha: string;
+  sources: SourceSummary[];
+  stats: {
+    total_publicaciones: number;
+    fuentes_activas: number;
+    alertas_alto: number;
+  };
+  generated_at: string;
+}
+
+export interface SourceSummary {
+  slug: string;
+  nombre: string;
+  subtitulo: string;
+  total: number;
+  label: string;
+  categorias: CategoryPill[];
+  updated_at: string;
+}
+
+export interface CategoryPill {
+  nombre: string;
+  count: number;
+  color: string;
+}
+
+// INDECOPI Alertas types
+export interface AlertaResumida {
+  id: string;
+  codigo_alerta: string | null;
+  titulo: string;
+  sumilla: string | null;
+  fecha_publicacion: string;
+  categoria: string | null;
+  url_slug: string | null;
+  nombre_producto: string | null;
+  marca: string | null;
+  modelo: string | null;
+  descripcion_riesgo: string | null;
+  descripcion_efectos: string | null;
+  medidas_adoptadas: string | null;
+  datos_contacto: string | null;
+  imagen_url: string | null;
+  ficha_url: string | null;
+  link_oficial: string | null;
+  resumen: string | null;
+  impacto: Impacto;
+  impacto_razon: string | null;
+  tags: string[];
+  prompt_version: number;
+}
+
+export interface StatsAlertasDia {
+  total_alertas: number;
+  por_categoria: Array<[string, number]>;
+}
+
+export interface DiaAlertasProcesado {
+  fecha: string;
+  source_slug: string;
+  items: AlertaResumida[];
+  stats: StatsAlertasDia;
+  generated_at: string;
+}
