@@ -26,69 +26,99 @@ const isHub = !sourceSlug;
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
-  <link rel="preconnect" href="https://rsms.me/" />
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet"
+  />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E" />
 </head>
-<body class="min-h-screen">
-  <header class="border-b border-ink-200 bg-white/70 backdrop-blur sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+<body class="min-h-screen font-sans">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-parchment double-rule-bottom">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
       <a href={`${base}/`} class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-xl bg-ink-900 text-white grid place-items-center font-bold text-lg tracking-tighter group-hover:rotate-3 transition-transform">LK</div>
+        <div class="w-10 h-10 bg-ink text-parchment-light grid place-items-center font-display font-bold text-lg tracking-tighter group-hover:rotate-3 transition-transform">
+          LK
+        </div>
         <div>
-          <div class="font-bold text-lg leading-none">Loki-ciero Perú</div>
-          <div class="text-xs text-ink-500 mt-0.5 uppercase tracking-wider">Inteligencia regulatoria</div>
+          <div class="font-display font-black text-xl leading-none tracking-tightest">Loki-ciero Perú</div>
+          <div class="text-[10px] text-ink-sepia mt-0.5 uppercase tracking-[0.2em] font-sans">Inteligencia regulatoria</div>
         </div>
       </a>
-      <nav class="flex items-center gap-1 text-sm">
+      <nav class="flex items-center gap-1 text-sm font-sans">
         {isHub ? (
           <>
-            <a href={`${base}/`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Inicio</a>
-            <a href={`${base}/buscar`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Buscar todo</a>
+            <a href={`${base}/`} class="px-3 py-1.5 hover:text-ink-light font-semibold">Inicio</a>
+            <a href={`${base}/buscar`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Buscar todo</a>
           </>
         ) : (
           <>
-            <a href={`${base}/`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 text-ink-500">Inicio</a>
-            <a href={`${base}/${sourceSlug}/`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">{sourceName || "Hoy"}</a>
-            <a href={`${base}/${sourceSlug}/buscar`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Buscar</a>
-            <a href={`${base}/${sourceSlug}/archivo`} class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium">Archivo</a>
+            <a href={`${base}/`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Inicio</a>
+            <a href={`${base}/${sourceSlug}/`} class="px-3 py-1.5 hover:text-ink-light font-semibold">{sourceName || "Hoy"}</a>
+            <a href={`${base}/${sourceSlug}/buscar`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Buscar</a>
+            <a href={`${base}/${sourceSlug}/archivo`} class="px-3 py-1.5 hover:text-ink-light text-ink-sepia">Archivo</a>
           </>
         )}
-        <a href="https://github.com/alduere/lokicieroperu" class="px-3 py-1.5 rounded-lg hover:bg-ink-100 font-medium hidden sm:block">Repo</a>
+        <a href="https://github.com/alduere/lokicieroperu" class="px-3 py-1.5 hover:text-ink-light text-ink-sepia hidden sm:block">Repo</a>
       </nav>
     </div>
   </header>
 
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <!-- Tabs bar (hub pages only) -->
+  {isHub && (
+    <nav class="bg-ink/[0.03] border-b border-ink-rule">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
+        <button class="source-tab active" data-source="all">Todas</button>
+        <button class="source-tab" data-source="elperuano">El Peruano</button>
+        <button class="source-tab" data-source="indecopi-alertas">INDECOPI Alertas</button>
+      </div>
+    </nav>
+  )}
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-8">
     <slot />
   </main>
 
-  <footer class="mt-20 border-t border-ink-200 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-sm text-ink-500">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div>
-          <div class="font-semibold text-ink-900 mb-2">Loki-ciero Perú</div>
-          <p>Resumen diario automatizado de normas, alertas y resoluciones regulatorias peruanas. Cada día a las 7:00 AM hora Lima.</p>
-        </div>
-        <div>
-          <div class="font-semibold text-ink-900 mb-2">Cómo funciona</div>
-          <p>Scrapeamos fuentes oficiales (El Peruano, INDECOPI), resumimos con IA y publicamos en este sitio + Telegram + email. Open-source en GitHub.</p>
-        </div>
-        <div>
-          <div class="font-semibold text-ink-900 mb-2">Aviso</div>
-          <p>Los resúmenes son generados por IA y pueden tener errores. Para decisiones legales, consulta siempre el texto oficial de cada fuente.</p>
-        </div>
+  <!-- Footer -->
+  <footer class="mt-20 double-rule-top">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10 text-sm text-ink-sepia flex items-start justify-between flex-wrap gap-6">
+      <div class="flex flex-col gap-2">
+        <div class="font-sans font-semibold text-ink uppercase tracking-wider text-xs mb-1">Fuentes</div>
+        <a href={`${base}/elperuano/`} class="hover:text-ink transition-colors">El Peruano</a>
+        <a href="https://www.indecopi.gob.pe" class="hover:text-ink transition-colors">INDECOPI</a>
       </div>
-      <div class="mt-8 pt-6 border-t border-ink-200 flex items-center justify-between flex-wrap gap-2">
-        <div>
-          Fuentes: <a href="https://diariooficial.elperuano.pe" class="text-ink-700 hover:text-ink-900 underline">El Peruano</a> ·
-          <a href="https://www.indecopi.gob.pe" class="text-ink-700 hover:text-ink-900 underline">INDECOPI</a>
-        </div>
-        <div>
-          {epSortedDates.length} día{epSortedDates.length === 1 ? "" : "s"} publicados
-        </div>
+      <div class="font-display italic text-ink-sepia text-right">
+        {epSortedDates.length} día{epSortedDates.length === 1 ? "" : "s"} publicados
       </div>
     </div>
   </footer>
+
+  {isHub && (
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const tabs = document.querySelectorAll<HTMLButtonElement>(".source-tab");
+        const blocks = document.querySelectorAll<HTMLElement>(".source-block");
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
+            const source = tab.dataset.source;
+
+            tabs.forEach((t) => t.classList.remove("active"));
+            tab.classList.add("active");
+
+            blocks.forEach((block) => {
+              if (source === "all" || block.dataset.source === source) {
+                block.classList.remove("hidden");
+              } else {
+                block.classList.add("hidden");
+              }
+            });
+          });
+        });
+      });
+    </script>
+  )}
 </body>
 </html>

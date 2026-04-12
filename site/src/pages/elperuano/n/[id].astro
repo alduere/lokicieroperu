@@ -27,44 +27,44 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     data-pagefind-meta={`title:${norma.tipo_corto}${norma.numero ? " " + norma.numero : ""}, entidad:${norma.entidad_emisora}, fecha:${norma.fecha_publicacion}, impacto:${norma.impacto}`}
     data-pagefind-filter={`tipo:${norma.tipo_corto},impacto:${norma.impacto},fecha:${norma.fecha_publicacion}`}
   >
-    <nav class="text-xs text-ink-500 mb-4">
-      <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+    <nav class="text-xs text-ink-sepia mb-4">
+      <a href={`${base}/`} class="hover:text-ink">Inicio</a>
       <span class="mx-1">›</span>
-      <a href={`${base}/elperuano/`} class="hover:text-ink-900">El Peruano</a>
+      <a href={`${base}/elperuano/`} class="hover:text-ink">El Peruano</a>
       <span class="mx-1">›</span>
-      <a href={`${base}/elperuano/${fecha}`} class="hover:text-ink-900">{fechaEs}</a>
+      <a href={`${base}/elperuano/${fecha}`} class="hover:text-ink">{fechaEs}</a>
     </nav>
 
-    <header class="glass p-6 sm:p-8 mb-6">
-      <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-ink-500 mb-3 flex-wrap">
+    <header class="border-b-2 border-ink pb-6 mb-6">
+      <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-ink-sepia mb-3 flex-wrap">
         <span class={`impact-pill ${norma.impacto}`}>{norma.impacto} impacto</span>
         <span data-pagefind-filter={`tipo:${norma.tipo_corto}`}>{norma.tipo_corto}</span>
         {norma.numero && <span>· N° {norma.numero}</span>}
         {norma.edicion_extraordinaria && <span class="text-impact-alto font-bold">· EDICIÓN EXTRAORDINARIA</span>}
       </div>
-      <div class="text-xs uppercase tracking-widest text-ink-700 font-semibold mb-2" data-pagefind-filter={`entidad:${norma.entidad_emisora}`}>
+      <div class="text-xs uppercase tracking-widest text-ink-sepia font-semibold mb-2" data-pagefind-filter={`entidad:${norma.entidad_emisora}`}>
         {norma.entidad_emisora}
       </div>
-      <h1 class="text-2xl sm:text-3xl font-bold tracking-tight leading-snug mb-3">{norma.titulo_oficial}</h1>
-      <p class="text-base text-ink-700 italic leading-relaxed">{norma.sumilla}</p>
+      <h1 class="font-display text-2xl sm:text-3xl font-bold tracking-tight leading-snug mb-3">{norma.titulo_oficial}</h1>
+      <p class="font-display text-base text-ink-light italic leading-relaxed">{norma.sumilla}</p>
     </header>
 
     {norma.resumen_ejecutivo && (
-      <section class="glass p-6 sm:p-8 mb-6">
-        <h2 class="text-xs uppercase tracking-widest text-ink-500 mb-3 font-semibold">Resumen ejecutivo</h2>
-        <p class="text-base leading-relaxed text-ink-900">{norma.resumen_ejecutivo}</p>
+      <section class="border-b border-ink-rule pb-6 mb-6">
+        <h2 class="text-xs uppercase tracking-widest text-ink-sepia mb-3 font-semibold">Resumen ejecutivo</h2>
+        <p class="text-base leading-relaxed text-ink">{norma.resumen_ejecutivo}</p>
       </section>
     )}
 
     {(norma.cambios_clave?.length > 0 || norma.a_quien_afecta || norma.vigencia) && (
       <section class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
         {norma.cambios_clave?.length > 0 && (
-          <div class="glass p-5 sm:col-span-3">
-            <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Cambios clave</h3>
-            <ul class="space-y-1 text-sm text-ink-900">
+          <div class="border border-ink-rule rounded-lg p-5 sm:col-span-3">
+            <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Cambios clave</h3>
+            <ul class="space-y-1 text-sm text-ink">
               {norma.cambios_clave.map((c) => (
                 <li class="flex gap-2">
-                  <span class="text-ink-400">→</span>
+                  <span class="text-ink-rule">→</span>
                   <span>{c}</span>
                 </li>
               ))}
@@ -72,33 +72,33 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
           </div>
         )}
         {norma.a_quien_afecta && (
-          <div class="glass p-5">
-            <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">A quién afecta</h3>
-            <p class="text-sm text-ink-900">{norma.a_quien_afecta}</p>
+          <div class="border border-ink-rule rounded-lg p-5">
+            <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">A quién afecta</h3>
+            <p class="text-sm text-ink">{norma.a_quien_afecta}</p>
           </div>
         )}
         {norma.vigencia && (
-          <div class="glass p-5">
-            <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Vigencia</h3>
-            <p class="text-sm text-ink-900">{norma.vigencia}</p>
+          <div class="border border-ink-rule rounded-lg p-5">
+            <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Vigencia</h3>
+            <p class="text-sm text-ink">{norma.vigencia}</p>
           </div>
         )}
         {norma.impacto_razon && (
-          <div class="glass p-5">
-            <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-2 font-semibold">Por qué este impacto</h3>
-            <p class="text-sm text-ink-900">{norma.impacto_razon}</p>
+          <div class="border border-ink-rule rounded-lg p-5">
+            <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-2 font-semibold">Por qué este impacto</h3>
+            <p class="text-sm text-ink">{norma.impacto_razon}</p>
           </div>
         )}
       </section>
     )}
 
     {(norma.sectores?.length > 0 || norma.tags?.length > 0) && (
-      <section class="glass p-6 mb-6">
-        <h3 class="text-xs uppercase tracking-widest text-ink-500 mb-3 font-semibold">Clasificación</h3>
+      <section class="border-b border-ink-rule pb-6 mb-6">
+        <h3 class="text-xs uppercase tracking-widest text-ink-sepia mb-3 font-semibold">Clasificación</h3>
         {norma.sectores?.length > 0 && (
           <div class="mb-2">
             {norma.sectores.map((s) => (
-              <span class="inline-block px-2 py-1 text-xs font-semibold bg-ink-100 text-ink-800 rounded-md mr-1.5 mb-1" data-pagefind-filter={`sector:${s}`}>
+              <span class="inline-block px-2 py-1 text-xs font-semibold bg-parchment-light border border-ink-rule-light text-ink rounded-md mr-1.5 mb-1" data-pagefind-filter={`sector:${s}`}>
                 {s.replace(/_/g, " ")}
               </span>
             ))}
@@ -107,7 +107,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
         {norma.tags?.length > 0 && (
           <div>
             {norma.tags.map((t) => (
-              <span class="inline-block px-2 py-1 text-xs bg-ink-50 text-ink-600 rounded-md mr-1 mb-1">#{t}</span>
+              <span class="inline-block px-2 py-1 text-xs bg-parchment-light border border-ink-rule-light text-ink-light rounded-md mr-1 mb-1">#{t}</span>
             ))}
           </div>
         )}
@@ -116,7 +116,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
     {norma.link_oficial && (
       <div class="text-center mt-8">
-        <a href={norma.link_oficial} class="inline-flex items-center gap-2 px-5 py-3 bg-ink-900 text-white rounded-lg font-semibold text-sm hover:bg-ink-700 transition-colors" target="_blank" rel="noopener noreferrer">
+        <a href={norma.link_oficial} class="inline-flex items-center gap-2 px-5 py-3 bg-ink text-parchment-light rounded-lg font-semibold text-sm hover:bg-ink-light transition-colors" target="_blank" rel="noopener noreferrer">
           Ver texto oficial en El Peruano →
         </a>
       </div>

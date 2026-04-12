@@ -4,24 +4,87 @@
 
 @layer base {
   html {
-    font-feature-settings: "cv11", "ss01", "ss03";
     -webkit-font-smoothing: antialiased;
   }
   body {
-    @apply bg-ink-50 text-ink-900;
+    @apply bg-parchment text-ink;
   }
 }
 
 @layer components {
-  .glass {
-    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-    border: 1px solid #e2e8f0;
-    border-radius: 1.25rem;
+  /* Double rule — classic press header/footer border */
+  .double-rule-top {
+    border-top: 3px solid theme("colors.ink.DEFAULT");
+    position: relative;
   }
+  .double-rule-top::after {
+    content: "";
+    display: block;
+    border-top: 1px solid theme("colors.ink.DEFAULT");
+    margin-top: 2px;
+  }
+
+  .double-rule-bottom {
+    border-bottom: 3px solid theme("colors.ink.DEFAULT");
+    position: relative;
+  }
+  .double-rule-bottom::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid theme("colors.ink.DEFAULT");
+    margin-bottom: 2px;
+  }
+
+  /* Impact pills */
   .impact-pill {
     @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-xs font-semibold uppercase tracking-wider;
   }
-  .impact-pill.alto  { @apply bg-impact-alto/10 text-impact-alto; }
-  .impact-pill.medio { @apply bg-impact-medio/10 text-impact-medio; }
-  .impact-pill.bajo  { @apply bg-impact-bajo/10 text-impact-bajo; }
+  .impact-pill.alto  { background: rgba(139, 32, 32, 0.1); color: theme("colors.impact.alto"); }
+  .impact-pill.medio { background: rgba(154, 107, 26, 0.1); color: theme("colors.impact.medio"); }
+  .impact-pill.bajo  { background: rgba(58, 107, 58, 0.1);  color: theme("colors.impact.bajo"); }
+
+  /* Source tab bar */
+  .source-tab {
+    @apply px-4 py-2.5 text-sm font-semibold transition-colors cursor-pointer;
+    color: theme("colors.ink.sepia");
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }
+  .source-tab:hover {
+    color: theme("colors.ink.light");
+  }
+  .source-tab.active {
+    color: theme("colors.ink.DEFAULT");
+    border-bottom-color: theme("colors.ink.DEFAULT");
+    font-weight: 700;
+  }
+
+  /* Ruled item — norm or alert in a list */
+  .ruled-item {
+    @apply py-3;
+    border-bottom: 1px solid theme("colors.ink.rule-light");
+  }
+  .ruled-item:hover {
+    background: rgba(44, 24, 16, 0.03);
+    margin: 0 -8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+  }
+
+  /* Section divider with centered text */
+  .section-divider {
+    @apply flex items-center gap-3 my-7;
+  }
+  .section-divider::before,
+  .section-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: theme("colors.ink.rule");
+  }
+  .section-divider span {
+    @apply text-xs uppercase tracking-widest whitespace-nowrap;
+    color: theme("colors.ink.sepia");
+  }
 }

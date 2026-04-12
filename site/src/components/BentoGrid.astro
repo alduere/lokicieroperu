@@ -24,38 +24,27 @@ const ORDER = { alto: 0, medio: 1, bajo: 2 };
 for (const [, norms] of sortedGroups) {
   norms.sort((a, b) => ORDER[a.impacto] - ORDER[b.impacto]);
 }
-
-// Bento sizing: top 2 sectors get larger cards, next ones smaller.
-function gridSpan(idx: number, count: number): string {
-  if (idx === 0) return "md:col-span-2 md:row-span-2";
-  if (idx === 1 && count > 4) return "md:col-span-1 md:row-span-2";
-  return "md:col-span-1 md:row-span-1";
-}
 ---
 
-<section class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 auto-rows-[minmax(220px,auto)] gap-4">
-  {sortedGroups.map(([sector, norms], idx) => (
-    <div class={gridSpan(idx, norms.length)}>
-      <SectorCard sector={sector} norms={norms} highlight={idx === 0} />
-    </div>
+<section>
+  {sortedGroups.map(([sector, norms]) => (
+    <SectorCard sector={sector} norms={norms} />
   ))}
 </section>
 
 {dia.documentos.length > 0 && (
   <section class="mt-10">
-    <h2 class="text-xs uppercase tracking-widest text-ink-500 mb-3">Otras secciones del día</h2>
-    <div class="glass p-6">
-      <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-sm">
-        {dia.documentos.map((d) => (
-          <li class="flex items-center justify-between gap-3 py-2 border-b border-ink-100 last:border-0">
-            <div>
-              <div class="font-semibold text-ink-900 text-xs uppercase tracking-wider">{d.seccion.replace(/_/g, " ")}</div>
-              <div class="text-ink-600">Edición {d.edicion}</div>
-            </div>
-            <a href={d.descarga_url} class="text-ink-500 hover:text-ink-900 text-xs">PDF →</a>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <div class="section-divider"><span>Otras secciones del d&iacute;a</span></div>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6">
+      {dia.documentos.map((d) => (
+        <li class="ruled-item flex items-center justify-between gap-3">
+          <div>
+            <div class="font-display font-semibold text-ink text-xs uppercase tracking-wider">{d.seccion.replace(/_/g, " ")}</div>
+            <div class="text-ink-sepia text-xs font-sans">Edici&oacute;n {d.edicion}</div>
+          </div>
+          <a href={d.descarga_url} class="text-ink-sepia hover:text-ink text-xs font-sans">PDF &rarr;</a>
+        </li>
+      ))}
+    </ul>
   </section>
 )}

@@ -6,16 +6,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 <Base title="Buscar en El Peruano · Loki-ciero Perú" sourceSlug="elperuano" sourceName="El Peruano">
   <div class="max-w-4xl mx-auto">
-    <nav class="text-xs text-ink-500 mb-4">
-      <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+    <nav class="text-xs text-ink-sepia mb-4">
+      <a href={`${base}/`} class="hover:text-ink">Inicio</a>
       <span class="mx-1">›</span>
-      <a href={`${base}/elperuano/`} class="hover:text-ink-900">El Peruano</a>
+      <a href={`${base}/elperuano/`} class="hover:text-ink">El Peruano</a>
       <span class="mx-1">›</span>
-      <span class="text-ink-700">Buscar</span>
+      <span class="text-ink">Buscar</span>
     </nav>
 
-    <h1 class="text-4xl font-bold tracking-tightest mb-2">Buscar en El Peruano</h1>
-    <p class="text-ink-500 mb-8">Búsqueda full-text con filtros por tipo, impacto, sector y entidad</p>
+    <h1 class="font-display text-4xl font-bold tracking-tightest mb-2">Buscar en El Peruano</h1>
+    <p class="text-ink-sepia mb-8">Búsqueda full-text con filtros por tipo, impacto, sector y entidad</p>
 
     <div id="search" class="mb-8"></div>
 
@@ -51,47 +51,48 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 </Base>
 
 <style is:global>
-  /* Custom Pagefind UI tweaks to match the bento aesthetic */
+  /* Custom Pagefind UI tweaks to match the editorial aesthetic */
   :root {
     --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: #0f172a;
-    --pagefind-ui-text: #0f172a;
-    --pagefind-ui-background: #ffffff;
-    --pagefind-ui-border: #e2e8f0;
-    --pagefind-ui-tag: #f1f5f9;
+    --pagefind-ui-primary: #2c1810;
+    --pagefind-ui-text: #2c1810;
+    --pagefind-ui-background: #faf5eb;
+    --pagefind-ui-border: #c4b69c;
+    --pagefind-ui-tag: #f5f0e6;
     --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: 12px;
-    --pagefind-ui-image-border-radius: 8px;
+    --pagefind-ui-border-radius: 4px;
+    --pagefind-ui-image-border-radius: 4px;
     --pagefind-ui-image-box-ratio: 3 / 2;
-    --pagefind-ui-font: "Inter", system-ui, sans-serif;
+    --pagefind-ui-font: "Source Sans 3", system-ui, sans-serif;
   }
   .pagefind-ui__search-input {
     font-weight: 500;
-    border-radius: 12px;
+    border-radius: 4px;
     padding: 14px 18px;
   }
   .pagefind-ui__filter-panel {
     margin-top: 1rem;
   }
   .pagefind-ui__filter-group {
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
+    border: 1px solid #c4b69c;
+    border-radius: 4px;
     padding: 12px 16px;
     margin-bottom: 8px;
   }
   .pagefind-ui__result {
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 12px;
+    border-bottom: 1px solid #c4b69c;
+    padding: 16px 0;
+    margin-bottom: 0;
   }
   .pagefind-ui__result-link {
-    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
     font-weight: 700;
-    color: #0f172a;
+    color: #2c1810;
   }
   .pagefind-ui__result-excerpt {
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.6;
+    color: #5a4a3a;
   }
 </style>

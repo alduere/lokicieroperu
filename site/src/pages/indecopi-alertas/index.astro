@@ -9,40 +9,40 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title={dia ? `INDECOPI Alertas · ${dia.fecha}` : "INDECOPI Alertas · Loki-ciero Perú"} sourceSlug="indecopi-alertas" sourceName="Alertas">
-  <nav class="text-xs text-ink-500 mb-4">
-    <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+  <nav class="text-xs text-ink-sepia mb-4">
+    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
     <span class="mx-1">›</span>
-    <span class="text-ink-700">INDECOPI Alertas</span>
+    <span class="text-ink">INDECOPI Alertas</span>
   </nav>
 
   {dia && dia.items.length > 0 ? (
     <>
-      <div class="glass p-6 sm:p-8 mb-8">
-        <div class="text-xs uppercase tracking-widest text-ink-500 mb-1">{formatFechaEs(dia.fecha)}</div>
-        <h1 class="text-4xl sm:text-5xl font-bold tracking-tightest mb-3">Alertas de consumo</h1>
-        <div class="flex items-center gap-6 text-sm text-ink-600">
-          <div><span class="text-3xl font-bold text-ink-900">{dia.stats.total_alertas}</span> alertas</div>
+      <div class="border-b-2 border-ink pb-6 mb-8">
+        <div class="text-xs uppercase tracking-widest text-ink-sepia mb-1">{formatFechaEs(dia.fecha)}</div>
+        <h1 class="font-display text-4xl sm:text-5xl font-black tracking-tightest mb-3">Alertas de consumo</h1>
+        <div class="flex items-center gap-6 text-sm text-ink-light">
+          <div><span class="font-display text-3xl font-bold text-ink">{dia.stats.total_alertas}</span> alertas</div>
         </div>
       </div>
 
-      <div class="space-y-4">
+      <div class="divide-y divide-ink-rule">
         {dia.items.map((alerta: AlertaResumida) => (
-          <a href={`${base}/indecopi-alertas/item/${alerta.id}`} class="glass p-5 block hover:shadow-lg transition-shadow">
+          <a href={`${base}/indecopi-alertas/item/${alerta.id}`} class="ruled-item block py-5 hover:bg-parchment-light/50 transition-colors">
             <div class="flex items-start justify-between gap-4">
               <div class="flex-1">
                 <div class="flex items-center gap-2 mb-2">
                   <span class={`impact-pill ${alerta.impacto}`}>{alerta.impacto}</span>
                   {alerta.categoria && (
-                    <span class="text-xs px-2 py-0.5 bg-ink-100 text-ink-600 rounded-full">{alerta.categoria}</span>
+                    <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full">{alerta.categoria}</span>
                   )}
                 </div>
-                <h2 class="font-bold text-lg leading-snug mb-1">{alerta.titulo}</h2>
+                <h2 class="font-display font-bold text-lg leading-snug mb-1">{alerta.titulo}</h2>
                 {alerta.resumen ? (
-                  <p class="text-sm text-ink-600 line-clamp-2">{alerta.resumen}</p>
+                  <p class="text-sm text-ink-light line-clamp-2">{alerta.resumen}</p>
                 ) : alerta.sumilla ? (
-                  <p class="text-sm text-ink-600 line-clamp-2">{alerta.sumilla}</p>
+                  <p class="text-sm text-ink-light line-clamp-2">{alerta.sumilla}</p>
                 ) : null}
-                <div class="flex items-center gap-3 mt-2 text-xs text-ink-400">
+                <div class="flex items-center gap-3 mt-2 text-xs text-ink-sepia">
                   {alerta.marca && <span>Marca: {alerta.marca}</span>}
                   {alerta.nombre_producto && <span>Producto: {alerta.nombre_producto}</span>}
                 </div>
@@ -53,9 +53,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       </div>
     </>
   ) : (
-    <div class="glass p-12 text-center">
-      <h1 class="text-2xl font-bold mb-2">Sin alertas</h1>
-      <p class="text-ink-600">No hay alertas de consumo para hoy. INDECOPI publica alertas según se detectan riesgos.</p>
+    <div class="border border-ink-rule rounded-lg p-12 text-center">
+      <h1 class="font-display text-2xl font-bold mb-2">Sin alertas</h1>
+      <p class="text-ink-light">No hay alertas de consumo para hoy. INDECOPI publica alertas según se detectan riesgos.</p>
     </div>
   )}
 </Base>

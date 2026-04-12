@@ -1,97 +1,213 @@
 ---
 import Base from "../layouts/Base.astro";
-import HubCard from "../components/HubCard.astro";
-import { latestHubDate, getHubDay, formatFechaEs } from "../lib/data";
+import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay } from "../lib/data";
+import type { NormaResumida, AlertaResumida, Impacto } from "../lib/types";
 
 const date = latestHubDate();
 const hub = date ? getHubDay(date) : null;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
-// Sort sources by total descending
-const sortedSources = hub
-  ? [...hub.sources].sort((a, b) => b.total - a.total)
+// Load source-specific data for item lists
+const epDay = date ? getEpDay(date) : null;
+const indecopiDay = date ? getIndecopiDay(date) : null;
+
+// El Peruano: sort by impact (alto first), take top 5
+const impactOrder: Record<Impacto, number> = { alto: 0, medio: 1, bajo: 2 };
+const epItems = epDay
+  ? [...epDay.normas]
+      .sort((a, b) => impactOrder[a.impacto] - impactOrder[b.impacto])
+      .slice(0, 5)
   : [];
+const epTotal = epDay ? epDay.normas.length : 0;
+const epRemaining = epTotal - epItems.length;
 
-// The source with the highest total gets featured
-const topSlug = sortedSources.length > 0 ? sortedSources[0].slug : null;
+// INDECOPI: show all items
+const indecopiItems = indecopiDay ? indecopiDay.items : [];
+const indecopiTotal = indecopiItems.length;
 
-// Split into active and empty sources
-const activeSources = sortedSources.filter((s) => s.total > 0);
-const emptySources = sortedSources.filter((s) => s.total === 0);
+// Hub source metadata
+const epSource = hub?.sources.find((s) => s.slug === "elperuano");
+const indecopiSource = hub?.sources.find((s) => s.slug === "indecopi-alertas");
+
+function impactLabel(impacto: Impacto): string {
+  return impacto.charAt(0).toUpperCase() + impacto.slice(1);
+}
 ---
 
 <Base title={hub ? `Loki-ciero Peru · ${hub.fecha}` : "Loki-ciero Peru"}>
   {hub ? (
     <>
-      {/* Hero section */}
-      <section class="glass p-6 sm:p-8 mb-8">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-          <div class="lg:col-span-2">
-            <div class="text-xs uppercase tracking-widest text-ink-500 mb-2">Resumen del dia</div>
-            <h1 class="text-3xl sm:text-5xl font-bold tracking-tightest leading-none">
-              {formatFechaEs(hub.fecha)}
-            </h1>
+      {/* Hero */}
+      <section class="text-center py-6">
+        <div class="text-xs uppercase tracking-[0.25em] text-ink-sepia font-sans mb-3">
+          Resumen del día
+        </div>
+        <h1 class="font-display font-black text-4xl sm:text-5xl tracking-tightest leading-none mb-6">
+          {formatFechaEs(hub.fecha)}
+        </h1>
+        <div class="flex justify-center gap-8 sm:gap-12 text-center">
+          <div>
+            <div class="font-display font-black text-3xl leading-none">{hub.stats.total_publicaciones}</div>
+            <div class="text-xs uppercase tracking-widest text-ink-sepia mt-1 font-sans">Publicaciones</div>
           </div>
-
-          <div class="grid grid-cols-3 gap-3">
-            <div class="rounded-xl bg-ink-900 p-4 text-white">
-              <div class="text-4xl font-extrabold leading-none">{hub.stats.total_publicaciones}</div>
-              <div class="text-xs uppercase tracking-widest mt-2 opacity-90">Publicaciones</div>
-            </div>
-            <div class="rounded-xl bg-ink-700 p-4 text-white">
-              <div class="text-4xl font-extrabold leading-none">{hub.stats.fuentes_activas}</div>
-              <div class="text-xs uppercase tracking-widest mt-2 opacity-90">Fuentes</div>
-            </div>
-            <div class="rounded-xl bg-impact-alto p-4 text-white">
-              <div class="text-4xl font-extrabold leading-none">{hub.stats.alertas_alto}</div>
-              <div class="text-xs uppercase tracking-widest mt-2 opacity-90">Alto impacto</div>
-            </div>
+          <div>
+            <div class="font-display font-black text-3xl leading-none text-impact-alto">{hub.stats.alertas_alto}</div>
+            <div class="text-xs uppercase tracking-widest text-ink-sepia mt-1 font-sans">Alto impacto</div>
+          </div>
+          <div>
+            <div class="font-display font-black text-3xl leading-none">{hub.stats.fuentes_activas}</div>
+            <div class="text-xs uppercase tracking-widest text-ink-sepia mt-1 font-sans">Fuentes activas</div>
           </div>
         </div>
       </section>
 
-      {/* Source grid - active sources */}
-      {activeSources.length > 0 && (
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          {activeSources.map((source) => (
-            <HubCard
-              slug={source.slug}
-              nombre={source.nombre}
-              subtitulo={source.subtitulo}
-              total={source.total}
-              label={source.label}
-              categorias={source.categorias}
-              updatedAt={source.updated_at}
-              featured={source.slug === topSlug}
-            />
-          ))}
+      <div class="section-divider"><span></span></div>
+
+      {/* El Peruano source block */}
+      {epSource && epSource.total > 0 && (
+        <div class="source-block mb-12" data-source="elperuano">
+          {/* Source header */}
+          <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+            <div>
+              <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
+                {epSource.nombre}
+              </h2>
+            </div>
+            <div class="font-display font-black text-3xl leading-none">
+              {epSource.total}
+            </div>
+          </div>
+          <div class="font-display italic text-ink-sepia text-sm mb-3">
+            {epSource.subtitulo}
+          </div>
+
+          {/* Impact pills */}
+          {epSource.categorias.length > 0 && (
+            <div class="flex gap-2 mb-4">
+              {epSource.categorias.map((cat) => (
+                <span class={`impact-pill ${cat.nombre}`}>
+                  {impactLabel(cat.nombre as Impacto)} {cat.count}
+                </span>
+              ))}
+            </div>
+          )}
+
+          {/* Item list */}
+          <div>
+            {epItems.map((norma) => (
+              <a
+                href={`${base}/elperuano/n/${norma.id}`}
+                class="ruled-item block"
+              >
+                <div class="flex items-start gap-2 mb-1">
+                  <span class={`impact-pill ${norma.impacto} flex-shrink-0`}>
+                    {impactLabel(norma.impacto)}
+                  </span>
+                  <span class="font-display font-bold text-ink leading-snug">
+                    {norma.titulo_oficial}
+                  </span>
+                </div>
+                <div class="text-xs text-ink-sepia ml-0 mt-1">
+                  {norma.tipo_corto} · {norma.entidad_emisora}
+                </div>
+                {(norma.impacto === "alto" || norma.impacto === "medio") && norma.resumen_ejecutivo && (
+                  <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
+                    {norma.resumen_ejecutivo}
+                  </p>
+                )}
+              </a>
+            ))}
+          </div>
+
+          {epRemaining > 0 && (
+            <a
+              href={`${base}/elperuano/`}
+              class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
+            >
+              + {epRemaining} más &rarr;
+            </a>
+          )}
         </div>
       )}
 
-      {/* Empty sources */}
-      {emptySources.length > 0 && (
-        <div class="mt-8">
-          <h2 class="text-sm uppercase tracking-widest text-ink-400 mb-4">Sin novedades hoy</h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {emptySources.map((source) => (
-              <HubCard
-                slug={source.slug}
-                nombre={source.nombre}
-                subtitulo={source.subtitulo}
-                total={source.total}
-                label={source.label}
-                categorias={source.categorias}
-                updatedAt={source.updated_at}
-              />
+      {/* INDECOPI Alertas source block */}
+      {indecopiSource && indecopiSource.total > 0 && (
+        <div class="source-block mb-12" data-source="indecopi-alertas">
+          {/* Source header */}
+          <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+            <div>
+              <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
+                {indecopiSource.nombre}
+              </h2>
+            </div>
+            <div class="font-display font-black text-3xl leading-none">
+              {indecopiSource.total}
+            </div>
+          </div>
+          <div class="font-display italic text-ink-sepia text-sm mb-3">
+            {indecopiSource.subtitulo}
+          </div>
+
+          {/* Impact pills */}
+          {indecopiSource.categorias.length > 0 && (
+            <div class="flex gap-2 mb-4">
+              {indecopiSource.categorias.map((cat) => (
+                <span class={`impact-pill ${cat.nombre}`}>
+                  {impactLabel(cat.nombre as Impacto)} {cat.count}
+                </span>
+              ))}
+            </div>
+          )}
+
+          {/* Item list */}
+          <div>
+            {indecopiItems.map((item) => (
+              <a
+                href={`${base}/indecopi-alertas/item/${item.id}`}
+                class="ruled-item block"
+              >
+                <div class="flex items-start gap-2 mb-1">
+                  <span class={`impact-pill ${item.impacto} flex-shrink-0`}>
+                    {impactLabel(item.impacto)}
+                  </span>
+                  <span class="font-display font-bold text-ink leading-snug">
+                    {item.titulo}
+                  </span>
+                </div>
+                <div class="text-xs text-ink-sepia ml-0 mt-1">
+                  {item.categoria || "Alerta"} · {item.marca || "Sin marca"}
+                </div>
+                {(item.impacto === "alto" || item.impacto === "medio") && item.resumen && (
+                  <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
+                    {item.resumen}
+                  </p>
+                )}
+              </a>
             ))}
           </div>
         </div>
       )}
+
+      {/* Fallback: sources with zero items */}
+      {hub.sources.filter((s) => s.total === 0).length > 0 && (
+        <div class="section-divider"><span>Sin novedades hoy</span></div>
+      )}
+      {hub.sources.filter((s) => s.total === 0).map((source) => (
+        <div class="source-block mb-6 opacity-50" data-source={source.slug}>
+          <div class="border-b border-ink-rule pb-2 flex items-end justify-between">
+            <h2 class="font-display font-bold text-lg tracking-tightest">{source.nombre}</h2>
+            <div class="font-display font-black text-xl leading-none text-ink-sepia">0</div>
+          </div>
+          <div class="font-display italic text-ink-sepia text-sm mt-1">{source.subtitulo}</div>
+        </div>
+      ))}
     </>
   ) : (
-    <div class="glass p-12 text-center">
-      <h1 class="text-2xl font-bold mb-2">Sin datos todavia</h1>
-      <p class="text-ink-600">El primer scraping aun no se ha ejecutado. Vuelve manana despues de las 7:00 AM Lima.</p>
-    </div>
+    <section class="text-center py-16">
+      <h1 class="font-display font-black text-3xl mb-3">Sin datos todavía</h1>
+      <p class="text-ink-sepia font-sans">
+        El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.
+      </p>
+    </section>
   )}
 </Base>

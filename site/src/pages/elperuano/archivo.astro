@@ -7,45 +7,45 @@ const days = epSortedDates.map((d) => ({ date: d, dia: getEpDay(d)! }));
 ---
 
 <Base title="Archivo · El Peruano · Loki-ciero Perú" sourceSlug="elperuano" sourceName="El Peruano">
-  <nav class="text-xs text-ink-500 mb-4">
-    <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+  <nav class="text-xs text-ink-sepia mb-4">
+    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
     <span class="mx-1">›</span>
-    <a href={`${base}/elperuano/`} class="hover:text-ink-900">El Peruano</a>
+    <a href={`${base}/elperuano/`} class="hover:text-ink">El Peruano</a>
     <span class="mx-1">›</span>
-    <span class="text-ink-700">Archivo</span>
+    <span class="text-ink">Archivo</span>
   </nav>
 
   <div class="mb-8">
-    <h1 class="text-4xl font-bold tracking-tightest">Archivo</h1>
-    <p class="text-ink-500 mt-2">Todas las ediciones diarias publicadas en El Peruano</p>
+    <h1 class="font-display text-4xl font-bold tracking-tightest">Archivo</h1>
+    <p class="text-ink-sepia mt-2">Todas las ediciones diarias publicadas en El Peruano</p>
   </div>
 
-  <div class="glass overflow-hidden">
+  <div class="overflow-hidden border-t-2 border-ink">
     <table class="w-full text-sm">
-      <thead class="bg-ink-50 border-b border-ink-200">
+      <thead class="bg-parchment-light border-b-2 border-ink">
         <tr>
-          <th class="text-left px-4 py-3 font-semibold text-ink-700 uppercase text-xs tracking-wider">Fecha</th>
-          <th class="text-right px-4 py-3 font-semibold text-ink-700 uppercase text-xs tracking-wider">Total</th>
-          <th class="text-right px-4 py-3 font-semibold text-ink-700 uppercase text-xs tracking-wider">Alto</th>
-          <th class="text-right px-4 py-3 font-semibold text-ink-700 uppercase text-xs tracking-wider">Medio</th>
-          <th class="text-right px-4 py-3 font-semibold text-ink-700 uppercase text-xs tracking-wider">Bajo</th>
-          <th class="text-right px-4 py-3 font-semibold text-ink-700 uppercase text-xs tracking-wider">PDF</th>
+          <th class="text-left px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Fecha</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Total</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Alto</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Medio</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Bajo</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">PDF</th>
         </tr>
       </thead>
       <tbody>
         {days.map(({ date, dia }) => (
-          <tr class="border-b border-ink-100 hover:bg-ink-50">
+          <tr class="border-b border-ink-rule-light hover:bg-parchment-light/50">
             <td class="px-4 py-3">
-              <a href={`${base}/elperuano/${date}`} class="font-semibold text-ink-900 hover:text-ink-700">
+              <a href={`${base}/elperuano/${date}`} class="font-display font-semibold text-ink hover:text-ink-light">
                 {formatFechaEs(date)}
               </a>
             </td>
-            <td class="px-4 py-3 text-right font-mono">{dia.stats.total_normas}</td>
+            <td class="px-4 py-3 text-right font-mono text-ink-light">{dia.stats.total_normas}</td>
             <td class="px-4 py-3 text-right font-mono text-impact-alto">{dia.stats.alto}</td>
             <td class="px-4 py-3 text-right font-mono text-impact-medio">{dia.stats.medio}</td>
             <td class="px-4 py-3 text-right font-mono text-impact-bajo">{dia.stats.bajo}</td>
             <td class="px-4 py-3 text-right">
-              <a href={`${base}/pdfs/${date}.pdf`} class="text-ink-500 hover:text-ink-900 text-xs">↓ PDF</a>
+              <a href={`${base}/pdfs/${date}.pdf`} class="text-ink-sepia hover:text-ink text-xs">↓ PDF</a>
             </td>
           </tr>
         ))}

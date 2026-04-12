@@ -7,39 +7,37 @@ interface Props {
   dark?: boolean;
 }
 
-const { norma, compact = false, dark = false } = Astro.props;
+const { norma, compact = false } = Astro.props;
 const meta = `${norma.tipo_corto}${norma.numero ? ` ${norma.numero}` : ""}`;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const sectoresAttr = (norma.sectores || []).join(",");
 ---
 
-<div
-  class={`pb-3 ${dark ? "border-b border-white/10" : "border-b border-ink-100"} last:border-0 last:pb-0`}
+<a
+  href={`${base}/n/${norma.id}`}
+  class="ruled-item block"
   data-norma
   data-tipo={norma.tipo_corto}
   data-impacto={norma.impacto}
   data-sectores={sectoresAttr}
 >
   <div class="flex items-start gap-2 mb-1">
-    <span class={`impact-pill ${norma.impacto} shrink-0 ${dark ? "!bg-white/10 !text-white" : ""}`}>{norma.impacto}</span>
-    <div class={`text-[10px] uppercase tracking-wider font-mono ${dark ? "text-white/60" : "text-ink-500"} truncate`}>
-      {meta} · {norma.entidad_emisora}
+    <span class={`impact-pill ${norma.impacto} shrink-0`}>{norma.impacto}</span>
+    <div class="text-xs uppercase tracking-wider text-ink-sepia truncate font-sans">
+      {meta} &middot; {norma.entidad_emisora}
     </div>
   </div>
-  <a
-    href={`${base}/n/${norma.id}`}
-    class={`block text-sm font-semibold leading-snug ${dark ? "text-white hover:text-white/80" : "text-ink-900 hover:text-ink-700"} ${compact ? "line-clamp-2" : ""}`}
-  >
+  <div class={`font-display font-bold text-sm leading-snug text-ink hover:text-ink-light ${compact ? "line-clamp-2" : ""}`}>
     {norma.titulo_oficial}
-  </a>
+  </div>
   {!compact && norma.resumen_ejecutivo && (
-    <p class={`text-xs leading-relaxed mt-1.5 ${dark ? "text-white/80" : "text-ink-600"} line-clamp-3`}>
+    <p class="text-xs leading-relaxed mt-1.5 text-ink-light line-clamp-3 font-sans">
       {norma.resumen_ejecutivo}
     </p>
   )}
-  {compact && (
-    <p class={`text-xs leading-snug mt-1 ${dark ? "text-white/70" : "text-ink-500"} line-clamp-2 italic`}>
+  {compact && norma.sumilla && (
+    <p class="text-xs leading-snug mt-1 text-ink-sepia line-clamp-2 italic font-sans">
       {norma.sumilla}
     </p>
   )}
-</div>
+</a>

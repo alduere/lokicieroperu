@@ -8,53 +8,44 @@ interface Props {
   highlight?: boolean;
 }
 
-const { sector, norms, highlight = false } = Astro.props;
-const sectorTitle = sector.replace(/_/g, " ").toUpperCase();
+const { sector, norms } = Astro.props;
+const sectorTitle = sector.replace(/_/g, " ");
 const altoCount = norms.filter((n) => n.impacto === "alto").length;
 const medioCount = norms.filter((n) => n.impacto === "medio").length;
 const bajoCount = norms.filter((n) => n.impacto === "bajo").length;
 ---
 
-<article class={`glass h-full p-5 sm:p-6 flex flex-col ${highlight ? "bg-gradient-to-br from-ink-900 to-ink-800 text-white border-ink-900" : ""}`} data-sector-card>
-  <header class="flex items-center justify-between gap-3 mb-4">
-    <div>
-      <h2 class={`text-xs font-semibold uppercase tracking-widest ${highlight ? "text-white/70" : "text-ink-500"}`}>
-        {sectorTitle}
-      </h2>
-      <div class={`text-3xl font-extrabold tracking-tightest leading-none mt-1 ${highlight ? "text-white" : "text-ink-900"}`}>
-        {norms.length}
-      </div>
-    </div>
-    <div class="flex gap-1">
+<article class="mb-8" data-sector-card>
+  <header class="flex items-baseline justify-between gap-3 pb-2 mb-1 border-b-2 border-ink">
+    <h2 class="font-display font-bold text-lg capitalize">
+      {sectorTitle}
+      <span class="text-ink-sepia font-sans text-sm font-normal ml-2">({norms.length})</span>
+    </h2>
+    <div class="flex gap-2">
       {altoCount > 0 && (
-        <span class="inline-flex items-center gap-1 text-xs font-semibold">
-          <span class="w-2.5 h-2.5 rounded-full bg-impact-alto inline-block"></span>
+        <span class="inline-flex items-center gap-1 text-xs font-semibold text-impact-alto">
+          <span class="w-2 h-2 rounded-full bg-impact-alto inline-block"></span>
           {altoCount}
         </span>
       )}
       {medioCount > 0 && (
-        <span class="inline-flex items-center gap-1 text-xs font-semibold ml-2">
-          <span class="w-2.5 h-2.5 rounded-full bg-impact-medio inline-block"></span>
+        <span class="inline-flex items-center gap-1 text-xs font-semibold text-impact-medio">
+          <span class="w-2 h-2 rounded-full bg-impact-medio inline-block"></span>
           {medioCount}
         </span>
       )}
       {bajoCount > 0 && (
-        <span class="inline-flex items-center gap-1 text-xs font-semibold ml-2">
-          <span class="w-2.5 h-2.5 rounded-full bg-impact-bajo inline-block"></span>
+        <span class="inline-flex items-center gap-1 text-xs font-semibold text-impact-bajo">
+          <span class="w-2 h-2 rounded-full bg-impact-bajo inline-block"></span>
           {bajoCount}
         </span>
       )}
     </div>
   </header>
 
-  <div class={`flex-1 space-y-3 overflow-hidden ${highlight ? "text-white/95" : ""}`}>
-    {norms.slice(0, highlight ? 6 : 4).map((n) => (
-      <NormaItem norma={n} compact={!highlight} dark={highlight} />
+  <div class="space-y-0">
+    {norms.map((n) => (
+      <NormaItem norma={n} compact />
     ))}
-    {norms.length > (highlight ? 6 : 4) && (
-      <div class={`text-xs ${highlight ? "text-white/60" : "text-ink-500"} pt-1`}>
-        +{norms.length - (highlight ? 6 : 4)} norma{norms.length - (highlight ? 6 : 4) === 1 ? "" : "s"} más en el PDF
-      </div>
-    )}
   </div>
 </article>
