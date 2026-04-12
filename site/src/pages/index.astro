@@ -144,174 +144,129 @@ function impactLabel(impacto: Impacto): string {
         </div>
       )}
 
-      {/* INDECOPI Alertas source block */}
-      {indecopiSource && indecopiSource.total > 0 && (
-        <div class="source-block mb-12" data-source="indecopi-alertas">
+      {/* INDECOPI combined source block */}
+      {(indecopiTotal + consumidorTotal + gacetaTotal) > 0 && (
+        <div class="source-block mb-12" data-source="indecopi">
           {/* Source header */}
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
             <div>
               <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
-                {indecopiSource.nombre}
+                INDECOPI
               </h2>
             </div>
             <div class="font-display font-black text-3xl leading-none">
-              {indecopiSource.total}
+              {indecopiTotal + consumidorTotal + gacetaTotal}
             </div>
           </div>
           <div class="font-display italic text-ink-sepia text-sm mb-3">
-            {indecopiSource.subtitulo}
+            Alertas, proteccion al consumidor, propiedad industrial
           </div>
 
-          {/* Impact pills */}
-          {indecopiSource.categorias.length > 0 && (
-            <div class="flex gap-2 mb-4">
-              {indecopiSource.categorias.map((cat) => (
-                <span class={`impact-pill ${cat.nombre}`}>
-                  {impactLabel(cat.nombre as Impacto)} {cat.count}
-                </span>
-              ))}
-            </div>
-          )}
-
-          {/* Item list */}
-          <div>
-            {indecopiItems.map((item) => (
-              <a
-                href={`${base}/indecopi-alertas/item/${item.id}`}
-                class="ruled-item block"
-              >
-                <div class="flex items-start gap-2 mb-1">
-                  <span class={`impact-pill ${item.impacto} flex-shrink-0`}>
-                    {impactLabel(item.impacto)}
-                  </span>
-                  <span class="font-display font-bold text-ink leading-snug">
-                    {item.titulo}
-                  </span>
-                </div>
-                <div class="text-xs text-ink-sepia ml-0 mt-1">
-                  {item.categoria || "Alerta"} · {item.marca || "Sin marca"}
-                </div>
-                {(item.impacto === "alto" || item.impacto === "medio") && item.resumen && (
-                  <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
-                    {item.resumen}
-                  </p>
-                )}
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Consumidor source block */}
-      {consumidorTotal > 0 && (
-        <div class="source-block mb-12" data-source="consumidor">
-          <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
-            <div>
-              <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
-                {consumidorSource ? consumidorSource.nombre : "Consumidor"}
-              </h2>
-            </div>
-            <div class="font-display font-black text-3xl leading-none">
-              {consumidorTotal}
-            </div>
-          </div>
-          <div class="font-display italic text-ink-sepia text-sm mb-3">
-            {consumidorSource ? consumidorSource.subtitulo : "Noticias de proteccion al consumidor"}
-          </div>
-
-          {consumidorSource && consumidorSource.categorias.length > 0 && (
-            <div class="flex gap-2 mb-4">
-              {consumidorSource.categorias.map((cat) => (
-                <span class={`impact-pill ${cat.nombre}`}>
-                  {impactLabel(cat.nombre as Impacto)} {cat.count}
-                </span>
-              ))}
-            </div>
-          )}
-
-          <div>
-            {consumidorItems.map((noticia) => (
-              <div class="ruled-item block">
-                <div class="flex items-start gap-2 mb-1">
-                  <span class={`impact-pill ${noticia.impacto} flex-shrink-0`}>
-                    {impactLabel(noticia.impacto)}
-                  </span>
-                  <span class="font-display font-bold text-ink leading-snug">
-                    {noticia.titulo}
-                  </span>
-                </div>
-                {noticia.resumen && (
-                  <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
-                    {noticia.resumen}
-                  </p>
-                )}
-                {noticia.link_oficial && (
-                  <a href={noticia.link_oficial} class="text-xs text-ink-sepia hover:text-ink mt-1 inline-block" target="_blank" rel="noopener noreferrer">
-                    Ver en consumidor.gob.pe &rarr;
-                  </a>
-                )}
+          {/* Alertas mini-section */}
+          {indecopiTotal > 0 && (
+            <div class="mb-6">
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-xs uppercase tracking-widest text-ink-sepia font-semibold">Alertas</h3>
+                <span class="text-xs text-ink-sepia">{indecopiTotal}</span>
               </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Gaceta PI source block */}
-      {gacetaTotal > 0 && (
-        <div class="source-block mb-12" data-source="gaceta-pi">
-          <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
-            <div>
-              <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
-                {gacetaSource ? gacetaSource.nombre : "Gaceta PI"}
-              </h2>
-            </div>
-            <div class="font-display font-black text-3xl leading-none">
-              {gacetaTotal}
-            </div>
-          </div>
-          <div class="font-display italic text-ink-sepia text-sm mb-3">
-            {gacetaSource ? gacetaSource.subtitulo : "Solicitudes de propiedad industrial"}
-          </div>
-
-          {gacetaSource && gacetaSource.categorias.length > 0 && (
-            <div class="flex gap-2 mb-4">
-              {gacetaSource.categorias.map((cat) => (
-                <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full">
-                  {cat.nombre} {cat.count}
-                </span>
-              ))}
+              <div>
+                {indecopiItems.slice(0, 3).map((item) => (
+                  <a
+                    href={`${base}/indecopi/alertas/item/${item.id}`}
+                    class="ruled-item block"
+                  >
+                    <div class="flex items-start gap-2 mb-1">
+                      <span class={`impact-pill ${item.impacto} flex-shrink-0`}>
+                        {impactLabel(item.impacto)}
+                      </span>
+                      <span class="font-display font-bold text-ink leading-snug">
+                        {item.titulo}
+                      </span>
+                    </div>
+                    <div class="text-xs text-ink-sepia ml-0 mt-1">
+                      {item.categoria || "Alerta"} &middot; {item.marca || "Sin marca"}
+                    </div>
+                  </a>
+                ))}
+              </div>
+              {indecopiTotal > 3 && (
+                <a href={`${base}/indecopi/alertas/`} class="inline-block mt-2 text-xs font-semibold text-ink-sepia hover:text-ink transition-colors">
+                  + {indecopiTotal - 3} mas &rarr;
+                </a>
+              )}
             </div>
           )}
 
-          <div>
-            {gacetaVisible.map((item) => (
-              <a
-                href={`${base}/gaceta-pi/item/${item.id}`}
-                class="ruled-item block"
-              >
-                <div class="flex items-start gap-2 mb-1">
-                  <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full flex-shrink-0">
-                    {item.tipo_solicitud}
-                  </span>
-                  <span class="font-display font-bold text-ink leading-snug">
-                    {item.signo_solicitado}
-                  </span>
-                </div>
-                <div class="text-xs text-ink-sepia ml-0 mt-1">
-                  {item.solicitante}{item.clase ? ` · Clase ${item.clase}` : ""}
-                </div>
-              </a>
-            ))}
-          </div>
-
-          {gacetaRemaining > 0 && (
-            <a
-              href={`${base}/gaceta-pi/`}
-              class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
-            >
-              + {gacetaRemaining} mas &rarr;
-            </a>
+          {/* Consumidor mini-section */}
+          {consumidorTotal > 0 && (
+            <div class="mb-6">
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-xs uppercase tracking-widest text-ink-sepia font-semibold">Consumidor</h3>
+                <span class="text-xs text-ink-sepia">{consumidorTotal}</span>
+              </div>
+              <div>
+                {consumidorItems.slice(0, 3).map((noticia) => (
+                  <div class="ruled-item block">
+                    <div class="flex items-start gap-2 mb-1">
+                      <span class={`impact-pill ${noticia.impacto} flex-shrink-0`}>
+                        {impactLabel(noticia.impacto)}
+                      </span>
+                      <span class="font-display font-bold text-ink leading-snug">
+                        {noticia.titulo}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {consumidorTotal > 3 && (
+                <a href={`${base}/indecopi/consumidor/`} class="inline-block mt-2 text-xs font-semibold text-ink-sepia hover:text-ink transition-colors">
+                  + {consumidorTotal - 3} mas &rarr;
+                </a>
+              )}
+            </div>
           )}
+
+          {/* Gaceta PI mini-section */}
+          {gacetaTotal > 0 && (
+            <div class="mb-6">
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-xs uppercase tracking-widest text-ink-sepia font-semibold">Gaceta PI</h3>
+                <span class="text-xs text-ink-sepia">{gacetaTotal}</span>
+              </div>
+              <div>
+                {gacetaVisible.slice(0, 5).map((item) => (
+                  <a
+                    href={`${base}/indecopi/gaceta-pi/item/${item.id}`}
+                    class="ruled-item block"
+                  >
+                    <div class="flex items-start gap-2 mb-1">
+                      <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full flex-shrink-0">
+                        {item.tipo_solicitud}
+                      </span>
+                      <span class="font-display font-bold text-ink leading-snug">
+                        {item.signo_solicitado}
+                      </span>
+                    </div>
+                    <div class="text-xs text-ink-sepia ml-0 mt-1">
+                      {item.solicitante}{item.clase ? ` &middot; Clase ${item.clase}` : ""}
+                    </div>
+                  </a>
+                ))}
+              </div>
+              {gacetaTotal > 5 && (
+                <a href={`${base}/indecopi/gaceta-pi/`} class="inline-block mt-2 text-xs font-semibold text-ink-sepia hover:text-ink transition-colors">
+                  + {gacetaTotal - 5} mas &rarr;
+                </a>
+              )}
+            </div>
+          )}
+
+          <a
+            href={`${base}/indecopi/`}
+            class="inline-block mt-2 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
+          >
+            + Ver todo en INDECOPI &rarr;
+          </a>
         </div>
       )}
 
@@ -319,15 +274,18 @@ function impactLabel(impacto: Impacto): string {
       {hub.sources.filter((s) => s.total === 0).length > 0 && (
         <div class="section-divider"><span>Sin novedades hoy</span></div>
       )}
-      {hub.sources.filter((s) => s.total === 0).map((source) => (
-        <div class="source-block mb-6 opacity-50" data-source={source.slug}>
-          <div class="border-b border-ink-rule pb-2 flex items-end justify-between">
-            <h2 class="font-display font-bold text-lg tracking-tightest">{source.nombre}</h2>
-            <div class="font-display font-black text-xl leading-none text-ink-sepia">0</div>
+      {hub.sources.filter((s) => s.total === 0).map((source) => {
+        const mapped = source.slug === "indecopi-alertas" || source.slug === "consumidor" || source.slug === "gaceta-pi" ? "indecopi" : source.slug;
+        return (
+          <div class="source-block mb-6 opacity-50" data-source={mapped}>
+            <div class="border-b border-ink-rule pb-2 flex items-end justify-between">
+              <h2 class="font-display font-bold text-lg tracking-tightest">{source.nombre}</h2>
+              <div class="font-display font-black text-xl leading-none text-ink-sepia">0</div>
+            </div>
+            <div class="font-display italic text-ink-sepia text-sm mt-1">{source.subtitulo}</div>
           </div>
-          <div class="font-display italic text-ink-sepia text-sm mt-1">{source.subtitulo}</div>
-        </div>
-      ))}
+        );
+      })}
     </>
   ) : (
     <section class="text-center py-16">

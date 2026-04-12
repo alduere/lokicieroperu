@@ -1,7 +1,7 @@
 ---
-import Base from "../../../layouts/Base.astro";
-import { indecopiDays, indecopiSortedDates, formatFechaEs } from "../../../lib/data";
-import type { AlertaResumida } from "../../../lib/types";
+import Base from "../../../../layouts/Base.astro";
+import { indecopiDays, indecopiSortedDates, formatFechaEs } from "../../../../lib/data";
+import type { AlertaResumida } from "../../../../lib/types";
 
 export async function getStaticPaths() {
   const paths: { params: { id: string }; props: { alerta: AlertaResumida; fecha: string } }[] = [];
@@ -25,16 +25,18 @@ const fechaEs = formatFechaEs(alerta.fecha_publicacion);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={`${alerta.titulo} · INDECOPI Alertas`} sourceSlug="indecopi-alertas" sourceName="Alertas">
+<Base title={`${alerta.titulo} · INDECOPI Alertas`} sourceSlug="indecopi" sourceName="INDECOPI">
   <article class="max-w-3xl mx-auto" data-pagefind-body
     data-pagefind-meta={`title:${alerta.titulo}, categoria:${alerta.categoria || ""}, fecha:${alerta.fecha_publicacion}, impacto:${alerta.impacto}`}
     data-pagefind-filter={`fuente:INDECOPI Alertas,impacto:${alerta.impacto},fecha:${alerta.fecha_publicacion}`}
   >
     <nav class="text-xs text-ink-sepia mb-4">
       <a href={`${base}/`} class="hover:text-ink">Inicio</a>
-      <span class="mx-1">›</span>
-      <a href={`${base}/indecopi-alertas/`} class="hover:text-ink">INDECOPI Alertas</a>
-      <span class="mx-1">›</span>
+      <span class="mx-1">&rsaquo;</span>
+      <a href={`${base}/indecopi/`} class="hover:text-ink">INDECOPI</a>
+      <span class="mx-1">&rsaquo;</span>
+      <a href={`${base}/indecopi/alertas/`} class="hover:text-ink">Alertas</a>
+      <span class="mx-1">&rsaquo;</span>
       <span class="text-ink">{fechaEs}</span>
     </nav>
 
@@ -42,7 +44,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-ink-sepia mb-3 flex-wrap">
         <span class={`impact-pill ${alerta.impacto}`}>{alerta.impacto} impacto</span>
         {alerta.categoria && <span>{alerta.categoria}</span>}
-        {alerta.codigo_alerta && <span>· {alerta.codigo_alerta}</span>}
+        {alerta.codigo_alerta && <span>&middot; {alerta.codigo_alerta}</span>}
       </div>
       <h1 class="font-display text-2xl sm:text-3xl font-bold tracking-tight leading-snug mb-3">{alerta.titulo}</h1>
       {alerta.sumilla && <p class="font-display text-base text-ink-light italic leading-relaxed">{alerta.sumilla}</p>}
@@ -125,12 +127,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     <div class="flex items-center justify-center gap-4 mt-8 flex-wrap">
       {alerta.ficha_url && (
         <a href={alerta.ficha_url} class="inline-flex items-center gap-2 px-5 py-3 bg-ink text-parchment-light rounded-lg font-semibold text-sm hover:bg-ink-light transition-colors" target="_blank" rel="noopener noreferrer">
-          Descargar ficha técnica ↓
+          Descargar ficha tecnica
         </a>
       )}
       {alerta.link_oficial && (
         <a href={alerta.link_oficial} class="inline-flex items-center gap-2 px-5 py-3 border border-ink-rule rounded-lg font-semibold text-sm hover:bg-parchment-light transition-colors" target="_blank" rel="noopener noreferrer">
-          Ver en INDECOPI →
+          Ver en INDECOPI &rarr;
         </a>
       )}
     </div>

@@ -1,7 +1,7 @@
 ---
-import Base from "../../layouts/Base.astro";
-import { latestConsumidorDate, getConsumidorDay, formatFechaEs } from "../../lib/data";
-import type { NoticiaResumida, Impacto } from "../../lib/types";
+import Base from "../../../layouts/Base.astro";
+import { latestConsumidorDate, getConsumidorDay, formatFechaEs } from "../../../lib/data";
+import type { NoticiaResumida, Impacto } from "../../../lib/types";
 
 const date = latestConsumidorDate();
 const dia = date ? getConsumidorDay(date) : null;
@@ -12,10 +12,12 @@ function impactLabel(impacto: Impacto): string {
 }
 ---
 
-<Base title={dia ? `Consumidor · ${dia.fecha}` : "Consumidor · Loki-ciero Peru"} sourceSlug="consumidor" sourceName="Consumidor">
+<Base title={dia ? `Consumidor · ${dia.fecha}` : "Consumidor · Loki-ciero Peru"} sourceSlug="indecopi" sourceName="INDECOPI">
   <nav class="text-xs text-ink-sepia mb-4">
     <a href={`${base}/`} class="hover:text-ink">Inicio</a>
-    <span class="mx-1">›</span>
+    <span class="mx-1">&rsaquo;</span>
+    <a href={`${base}/indecopi/`} class="hover:text-ink">INDECOPI</a>
+    <span class="mx-1">&rsaquo;</span>
     <span class="text-ink">Consumidor</span>
   </nav>
 

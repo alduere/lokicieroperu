@@ -72,9 +72,19 @@ const isHub = !sourceSlug;
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
         <button class="source-tab active" data-source="all">Todas</button>
         <button class="source-tab" data-source="elperuano">El Peruano</button>
-        <button class="source-tab" data-source="indecopi-alertas">INDECOPI Alertas</button>
-        <button class="source-tab" data-source="consumidor">Consumidor</button>
-        <button class="source-tab" data-source="gaceta-pi">Gaceta PI</button>
+        <button class="source-tab" data-source="indecopi">INDECOPI</button>
+      </div>
+    </nav>
+  )}
+
+  <!-- Source-specific nav for INDECOPI -->
+  {sourceSlug === "indecopi" && (
+    <nav class="bg-ink/[0.03] border-b border-ink-rule">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
+        <a href={`${base}/indecopi/`} class="source-tab">Hoy</a>
+        <a href={`${base}/indecopi/alertas/`} class="source-tab">Alertas</a>
+        <a href={`${base}/indecopi/consumidor/`} class="source-tab">Consumidor</a>
+        <a href={`${base}/indecopi/gaceta-pi/`} class="source-tab">Gaceta PI</a>
       </div>
     </nav>
   )}
@@ -89,9 +99,10 @@ const isHub = !sourceSlug;
       <div class="flex flex-col gap-2">
         <div class="font-sans font-semibold text-ink uppercase tracking-wider text-xs mb-1">Fuentes</div>
         <a href={`${base}/elperuano/`} class="hover:text-ink transition-colors">El Peruano</a>
-        <a href={`${base}/indecopi-alertas/`} class="hover:text-ink transition-colors">INDECOPI Alertas</a>
-        <a href={`${base}/consumidor/`} class="hover:text-ink transition-colors">Consumidor</a>
-        <a href={`${base}/gaceta-pi/`} class="hover:text-ink transition-colors">Gaceta PI</a>
+        <a href={`${base}/indecopi/`} class="hover:text-ink transition-colors">INDECOPI</a>
+        <a href={`${base}/indecopi/alertas/`} class="hover:text-ink transition-colors">Alertas</a>
+        <a href={`${base}/indecopi/consumidor/`} class="hover:text-ink transition-colors">Consumidor</a>
+        <a href={`${base}/indecopi/gaceta-pi/`} class="hover:text-ink transition-colors">Gaceta PI</a>
       </div>
       <div class="font-display italic text-ink-sepia text-right">
         {epSortedDates.length} día{epSortedDates.length === 1 ? "" : "s"} publicados

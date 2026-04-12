@@ -1,17 +1,19 @@
 ---
-import Base from "../../layouts/Base.astro";
-import { consumidorSortedDates, getConsumidorDay, formatFechaEs } from "../../lib/data";
+import Base from "../../../layouts/Base.astro";
+import { consumidorSortedDates, getConsumidorDay, formatFechaEs } from "../../../lib/data";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const days = consumidorSortedDates.map((d) => ({ date: d, dia: getConsumidorDay(d)! }));
 ---
 
-<Base title="Archivo · Consumidor · Loki-ciero Peru" sourceSlug="consumidor" sourceName="Consumidor">
+<Base title="Archivo · Consumidor · Loki-ciero Peru" sourceSlug="indecopi" sourceName="INDECOPI">
   <nav class="text-xs text-ink-sepia mb-4">
     <a href={`${base}/`} class="hover:text-ink">Inicio</a>
-    <span class="mx-1">›</span>
-    <a href={`${base}/consumidor/`} class="hover:text-ink">Consumidor</a>
-    <span class="mx-1">›</span>
+    <span class="mx-1">&rsaquo;</span>
+    <a href={`${base}/indecopi/`} class="hover:text-ink">INDECOPI</a>
+    <span class="mx-1">&rsaquo;</span>
+    <a href={`${base}/indecopi/consumidor/`} class="hover:text-ink">Consumidor</a>
+    <span class="mx-1">&rsaquo;</span>
     <span class="text-ink">Archivo</span>
   </nav>
 
@@ -33,7 +35,7 @@ const days = consumidorSortedDates.map((d) => ({ date: d, dia: getConsumidorDay(
           {days.map(({ date, dia }) => (
             <tr class="border-b border-ink-rule-light hover:bg-parchment-light/50">
               <td class="px-4 py-3">
-                <a href={`${base}/consumidor/`} class="font-display font-semibold text-ink hover:text-ink-light">
+                <a href={`${base}/indecopi/consumidor/`} class="font-display font-semibold text-ink hover:text-ink-light">
                   {formatFechaEs(date)}
                 </a>
               </td>

@@ -1,18 +1,20 @@
 ---
-import Base from "../../layouts/Base.astro";
-import { latestIndecopiDate, getIndecopiDay, formatFechaEs } from "../../lib/data";
-import type { AlertaResumida } from "../../lib/types";
+import Base from "../../../layouts/Base.astro";
+import { latestIndecopiDate, getIndecopiDay, formatFechaEs } from "../../../lib/data";
+import type { AlertaResumida } from "../../../lib/types";
 
 const date = latestIndecopiDate();
 const dia = date ? getIndecopiDay(date) : null;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={dia ? `INDECOPI Alertas · ${dia.fecha}` : "INDECOPI Alertas · Loki-ciero Perú"} sourceSlug="indecopi-alertas" sourceName="Alertas">
+<Base title={dia ? `INDECOPI Alertas · ${dia.fecha}` : "INDECOPI Alertas · Loki-ciero Peru"} sourceSlug="indecopi" sourceName="INDECOPI">
   <nav class="text-xs text-ink-sepia mb-4">
     <a href={`${base}/`} class="hover:text-ink">Inicio</a>
-    <span class="mx-1">›</span>
-    <span class="text-ink">INDECOPI Alertas</span>
+    <span class="mx-1">&rsaquo;</span>
+    <a href={`${base}/indecopi/`} class="hover:text-ink">INDECOPI</a>
+    <span class="mx-1">&rsaquo;</span>
+    <span class="text-ink">Alertas</span>
   </nav>
 
   {dia && dia.items.length > 0 ? (
@@ -27,7 +29,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
       <div class="divide-y divide-ink-rule">
         {dia.items.map((alerta: AlertaResumida) => (
-          <a href={`${base}/indecopi-alertas/item/${alerta.id}`} class="ruled-item block py-5 hover:bg-parchment-light/50 transition-colors">
+          <a href={`${base}/indecopi/alertas/item/${alerta.id}`} class="ruled-item block py-5 hover:bg-parchment-light/50 transition-colors">
             <div class="flex items-start justify-between gap-4">
               <div class="flex-1">
                 <div class="flex items-center gap-2 mb-2">
@@ -55,7 +57,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   ) : (
     <div class="border border-ink-rule rounded-lg p-12 text-center">
       <h1 class="font-display text-2xl font-bold mb-2">Sin alertas</h1>
-      <p class="text-ink-light">No hay alertas de consumo para hoy. INDECOPI publica alertas según se detectan riesgos.</p>
+      <p class="text-ink-light">No hay alertas de consumo para hoy. INDECOPI publica alertas segun se detectan riesgos.</p>
     </div>
   )}
 </Base>
