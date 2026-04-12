@@ -90,6 +90,29 @@ SOURCES: dict[str, SourceConfig] = {
             {"key": "aduanas", "label": "Aduanas", "color": "bg-purple-500"},
         ],
     ),
+    "noticias": SourceConfig(
+        slug="noticias",
+        nombre="Noticias",
+        subtitulo="Economía, finanzas y política",
+        item_label="noticias",
+        scraper_cls="scripts.scrapers.noticias.NoticiasScraper",
+        summarizer_cls="scripts.summarizers.noticias.NoticiasSummarizer",
+        categorias=[
+            {"key": "economia", "label": "Economía", "color": "bg-amber-500"},
+            {"key": "finanzas", "label": "Finanzas", "color": "bg-green-500"},
+            {"key": "politica", "label": "Política", "color": "bg-red-500"},
+        ],
+    ),
+    "financiero": SourceConfig(
+        slug="financiero",
+        nombre="Datos Financieros",
+        subtitulo="Tipo de cambio y minerales",
+        item_label="cotizaciones",
+        enabled=False,  # no summarizer — only invoked via explicit --source
+        scraper_cls="scripts.scrapers.financiero.FinancieroScraper",
+        summarizer_cls="",  # no summarizer needed
+        categorias=[],
+    ),
 }
 
 

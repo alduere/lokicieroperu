@@ -99,6 +99,9 @@ def _sync_site_data() -> None:
         for f in ep_dir.glob("*.json"):
             shutil.copy2(f, SITE_DATA / f.name)
 
+    # Sync financiero data (raw → processed → site, no summarization)
+    _sync_financiero_data()
+
     # Generate hub summary
     _generate_hub_summary()
 
@@ -107,6 +110,31 @@ def _sync_site_data() -> None:
     site_public_pdfs.mkdir(parents=True, exist_ok=True)
     for f in PDFS_DIR.glob("*.pdf"):
         shutil.copy2(f, site_public_pdfs / f.name)
+
+
+def _sync_financiero_data() -> None:
+    """Copy raw financiero data directly to processed + site (no summarization)."""
+    raw_dir = REPO_ROOT / "data" / "raw" / "financiero"
+    processed_dir = DATA_PROCESSED / "financiero"
+    site_dir = SITE_DATA / "financiero"
+
+    if not raw_dir.exists():
+        return
+
+    processed_dir.mkdir(parents=True, exist_ok=True)
+    site_dir.mkdir(parents=True, exist_ok=True)
+
+    for date_dir in raw_dir.iterdir():
+        if not date_dir.is_dir():
+            continue
+        parsed = date_dir / "parsed.json"
+        if not parsed.exists():
+            continue
+        date_str = date_dir.name
+        shutil.copy2(parsed, processed_dir / f"{date_str}.json")
+        shutil.copy2(parsed, site_dir / f"{date_str}.json")
+
+    logger.info("Synced financiero data")
 
 
 def _generate_hub_summary() -> None:
