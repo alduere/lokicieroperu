@@ -88,6 +88,10 @@ jobs:
         run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source gaceta-pi
         continue-on-error: true
 
+      - name: Scrape Tribunal Fiscal
+        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source tribunal-fiscal
+        continue-on-error: true
+
       # ── Summarize all sources ───────────────────────────────────────
       - name: Summarize El Peruano
         run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source elperuano
@@ -102,6 +106,10 @@ jobs:
 
       - name: Summarize Gaceta PI
         run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source gaceta-pi
+        continue-on-error: true
+
+      - name: Summarize Tribunal Fiscal
+        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source tribunal-fiscal
         continue-on-error: true
 
       # ── Build ───────────────────────────────────────────────────────

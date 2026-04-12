@@ -73,6 +73,7 @@ const isHub = !sourceSlug;
         <button class="source-tab active" data-source="all">Todas</button>
         <button class="source-tab" data-source="elperuano">El Peruano</button>
         <button class="source-tab" data-source="indecopi">INDECOPI</button>
+        <button class="source-tab" data-source="tribunal-fiscal">Tribunal Fiscal</button>
       </div>
     </nav>
   )}
@@ -85,6 +86,17 @@ const isHub = !sourceSlug;
         <a href={`${base}/indecopi/alertas/`} class="source-tab">Alertas</a>
         <a href={`${base}/indecopi/consumidor/`} class="source-tab">Consumidor</a>
         <a href={`${base}/indecopi/gaceta-pi/`} class="source-tab">Gaceta PI</a>
+      </div>
+    </nav>
+  )}
+
+  <!-- Source-specific nav for Tribunal Fiscal -->
+  {sourceSlug === "tribunal-fiscal" && (
+    <nav class="bg-ink/[0.03] border-b border-ink-rule">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-0 overflow-x-auto">
+        <a href={`${base}/tribunal-fiscal/`} class="source-tab">Hoy</a>
+        <a href={`${base}/tribunal-fiscal/buscar`} class="source-tab">Buscar</a>
+        <a href={`${base}/tribunal-fiscal/archivo`} class="source-tab">Archivo</a>
       </div>
     </nav>
   )}
@@ -103,6 +115,7 @@ const isHub = !sourceSlug;
         <a href={`${base}/indecopi/alertas/`} class="hover:text-ink transition-colors">Alertas</a>
         <a href={`${base}/indecopi/consumidor/`} class="hover:text-ink transition-colors">Consumidor</a>
         <a href={`${base}/indecopi/gaceta-pi/`} class="hover:text-ink transition-colors">Gaceta PI</a>
+        <a href={`${base}/tribunal-fiscal/`} class="hover:text-ink transition-colors">Tribunal Fiscal</a>
       </div>
       <div class="font-display italic text-ink-sepia text-right">
         {epSortedDates.length} día{epSortedDates.length === 1 ? "" : "s"} publicados

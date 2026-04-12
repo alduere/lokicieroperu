@@ -2,7 +2,7 @@
 // at build time. The build.py script copies the files; this module just imports
 // them via Vite's glob import so Astro picks them up statically.
 
-import type { DiaProcesado, IndexEntry, NormaResumida, HubDay, DiaAlertasProcesado, DiaNoticiasProcesado, DiaGacetaProcesado } from "./types";
+import type { DiaProcesado, IndexEntry, NormaResumida, HubDay, DiaAlertasProcesado, DiaNoticiasProcesado, DiaGacetaProcesado, DiaTFProcesado } from "./types";
 
 const dayModules = import.meta.glob<{ default: DiaProcesado }>(
   "/src/data/2*-*-*.json",
@@ -213,4 +213,23 @@ export function getGacetaDay(date: string): DiaGacetaProcesado | null {
 }
 export function latestGacetaDate(): string | null {
   return gacetaSortedDates[0] ?? null;
+}
+
+// Tribunal Fiscal data
+const tfModules = import.meta.glob<{ default: DiaTFProcesado }>(
+  "/src/data/tribunal-fiscal/2*-*-*.json",
+  { eager: true, import: "default" },
+);
+export const tfDays: Record<string, DiaTFProcesado> = Object.fromEntries(
+  Object.entries(tfModules).map(([path, mod]) => {
+    const date = path.split("/").pop()!.replace(".json", "");
+    return [date, mod];
+  }),
+);
+export const tfSortedDates: string[] = Object.keys(tfDays).sort().reverse();
+export function getTfDay(date: string): DiaTFProcesado | null {
+  return tfDays[date] ?? null;
+}
+export function latestTfDate(): string | null {
+  return tfSortedDates[0] ?? null;
 }

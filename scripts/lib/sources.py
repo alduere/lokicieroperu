@@ -77,6 +77,19 @@ SOURCES: dict[str, SourceConfig] = {
             {"key": "patente", "label": "Patentes", "color": "bg-purple-500"},
         ],
     ),
+    "tribunal-fiscal": SourceConfig(
+        slug="tribunal-fiscal",
+        nombre="Tribunal Fiscal",
+        subtitulo="Jurisprudencia tributaria",
+        item_label="resoluciones",
+        scraper_cls="scripts.scrapers.tribunal_fiscal.TribunalFiscalScraper",
+        summarizer_cls="scripts.summarizers.tribunal_fiscal.TribunalFiscalSummarizer",
+        categorias=[
+            {"key": "igv", "label": "IGV", "color": "bg-blue-500"},
+            {"key": "renta", "label": "Renta", "color": "bg-amber-500"},
+            {"key": "aduanas", "label": "Aduanas", "color": "bg-purple-500"},
+        ],
+    ),
 }
 
 

@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
-import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay } from "../lib/data";
-import type { NormaResumida, AlertaResumida, NoticiaResumida, SolicitudPIResumida, Impacto } from "../lib/types";
+import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay, latestTfDate, getTfDay } from "../lib/data";
+import type { NormaResumida, AlertaResumida, NoticiaResumida, SolicitudPIResumida, ResolucionTFResumida, Impacto } from "../lib/types";
 
 const date = latestHubDate();
 const hub = date ? getHubDay(date) : null;
@@ -36,6 +36,14 @@ const gacetaItemsAll = gacetaDay ? gacetaDay.items : [];
 const gacetaVisible = gacetaItemsAll.slice(0, 10);
 const gacetaTotal = gacetaItemsAll.length;
 const gacetaRemaining = gacetaTotal - gacetaVisible.length;
+
+// Tribunal Fiscal: load source data, show top 5 on hub
+const tfDate = latestTfDate();
+const tfDay = tfDate ? getTfDay(tfDate) : null;
+const tfItemsAll = tfDay ? tfDay.items : [];
+const tfVisible = tfItemsAll.slice(0, 5);
+const tfTotal = tfItemsAll.length;
+const tfRemaining = tfTotal - tfVisible.length;
 
 // Hub source metadata
 const epSource = hub?.sources.find((s) => s.slug === "elperuano");
@@ -267,6 +275,69 @@ function impactLabel(impacto: Impacto): string {
           >
             + Ver todo en INDECOPI &rarr;
           </a>
+        </div>
+      )}
+
+      {/* Tribunal Fiscal source block */}
+      {tfTotal > 0 ? (
+        <div class="source-block mb-12" data-source="tribunal-fiscal">
+          <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+            <div>
+              <h2 class="font-display font-black text-2xl tracking-tightest leading-none">
+                Tribunal Fiscal
+              </h2>
+            </div>
+            <div class="font-display font-black text-3xl leading-none">
+              {tfTotal}
+            </div>
+          </div>
+          <div class="font-display italic text-ink-sepia text-sm mb-3">
+            Jurisprudencia tributaria — resoluciones del dia
+          </div>
+
+          <div>
+            {tfVisible.map((item) => (
+              <a
+                href={`${base}/tribunal-fiscal/item/${item.id}`}
+                class="ruled-item block"
+              >
+                <div class="flex items-start gap-2 mb-1">
+                  <span class={`impact-pill ${item.impacto} flex-shrink-0`}>
+                    {impactLabel(item.impacto)}
+                  </span>
+                  <span class="font-display font-bold text-ink leading-snug">
+                    {item.numero_rtf}
+                  </span>
+                </div>
+                {item.sumilla && (
+                  <p class="text-sm text-ink-light mt-1 line-clamp-2">{item.sumilla}</p>
+                )}
+                <div class="text-xs text-ink-sepia ml-0 mt-1 flex items-center gap-2">
+                  {item.sala && (
+                    <span class="px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full">{item.sala}</span>
+                  )}
+                  {item.tema_tributario && <span>{item.tema_tributario}</span>}
+                </div>
+              </a>
+            ))}
+          </div>
+
+          {tfRemaining > 0 && (
+            <a
+              href={`${base}/tribunal-fiscal/`}
+              class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
+            >
+              + {tfRemaining} mas &rarr;
+            </a>
+          )}
+        </div>
+      ) : (
+        <div class="source-block mb-6 opacity-50" data-source="tribunal-fiscal">
+          <div class="border-b border-ink-rule pb-2 flex items-end justify-between">
+            <h2 class="font-display font-bold text-lg tracking-tightest">Tribunal Fiscal</h2>
+            <div class="font-display font-black text-xl leading-none text-ink-sepia">0</div>
+          </div>
+          <div class="font-display italic text-ink-sepia text-sm mt-1">Jurisprudencia tributaria — resoluciones del dia</div>
         </div>
       )}
 

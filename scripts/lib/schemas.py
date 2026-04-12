@@ -293,3 +293,51 @@ class DiaGacetaProcesado(BaseModel):
 class GacetaIndexEntry(BaseModel):
     fecha: date
     total_solicitudes: int
+
+
+# ── Tribunal Fiscal ─────────────────────────────────────────────────────
+
+TRIBUNAL_FISCAL_PROMPT_VERSION = 1
+
+
+class ResolucionTFCruda(BaseModel):
+    """A resolution from the Tribunal Fiscal."""
+
+    id: str  # RTF number e.g. "2026_1_00123"
+    numero_rtf: str
+    fecha_rtf: date
+    numero_expediente: str | None = None
+    sala: str | None = None  # "1", "2", ..., "A", "Q"
+    sumilla: str | None = None  # fetched from Sumilla.htm
+    administracion: str | None = None  # SUNAT, Municipal, etc.
+    link_pdf: str | None = None
+    link_sumilla: str | None = None
+
+
+class ResolucionTFResumida(ResolucionTFCruda):
+    """A resolution after AI summarization."""
+
+    resumen: str | None = None
+    impacto: Impacto = Impacto.MEDIO
+    impacto_razon: str | None = None
+    tema_tributario: str | None = None  # e.g. "IGV", "Impuesto a la Renta", "Aduanas"
+    tags: list[str] = Field(default_factory=list)
+    prompt_version: int = 0
+
+
+class StatsTFDia(BaseModel):
+    total_resoluciones: int
+    por_sala: list[tuple[str, int]] = Field(default_factory=list)
+
+
+class DiaTFProcesado(BaseModel):
+    fecha: date
+    source_slug: str = "tribunal-fiscal"
+    items: list[ResolucionTFResumida]
+    stats: StatsTFDia
+    generated_at: str
+
+
+class TFIndexEntry(BaseModel):
+    fecha: date
+    total_resoluciones: int

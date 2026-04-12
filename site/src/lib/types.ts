@@ -169,3 +169,30 @@ export interface DiaAlertasProcesado {
   stats: StatsAlertasDia;
   generated_at: string;
 }
+
+// Tribunal Fiscal types
+export interface ResolucionTFResumida {
+  id: string;
+  numero_rtf: string;
+  fecha_rtf: string;
+  numero_expediente: string | null;
+  sala: string | null;
+  sumilla: string | null;
+  administracion: string | null;
+  link_pdf: string | null;
+  link_sumilla: string | null;
+  resumen: string | null;
+  impacto: Impacto;
+  impacto_razon: string | null;
+  tema_tributario: string | null;
+  tags: string[];
+  prompt_version: number;
+}
+
+export interface DiaTFProcesado {
+  fecha: string;
+  source_slug: string;
+  items: ResolucionTFResumida[];
+  stats: { total_resoluciones: number; por_sala: Array<[string, number]> };
+  generated_at: string;
+}
