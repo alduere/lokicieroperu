@@ -28,10 +28,10 @@ const categories = Object.keys(byCategory).sort();
 
 function categoriaPillClass(cat: string): string {
   const lower = cat.toLowerCase();
-  if (lower.includes("econom")) return "bg-amber-100 text-amber-800 border-amber-300";
-  if (lower.includes("finanz")) return "bg-emerald-100 text-emerald-800 border-emerald-300";
-  if (lower.includes("politi") || lower.includes("polit")) return "bg-red-100 text-red-800 border-red-300";
-  return "bg-parchment-light text-ink-light border-ink-rule-light";
+  if (lower.includes("econom")) return "bg-[#9a6b1a] text-white";
+  if (lower.includes("finanz")) return "bg-[#3a6b3a] text-white";
+  if (lower.includes("politi") || lower.includes("polit")) return "bg-[#8b2020] text-white";
+  return "bg-ink-sepia text-white";
 }
 ---
 
@@ -84,15 +84,15 @@ function categoriaPillClass(cat: string): string {
             data-cat={item.categoria}
             data-source={item.fuente_display || item.fuente}
           >
-            <div class="flex items-start gap-2 mb-1 flex-wrap">
-              <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold border bg-parchment-light text-ink-sepia border-ink-rule-light flex-shrink-0">
-                {item.fuente_display}
-              </span>
-              <span class={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold border flex-shrink-0 ${categoriaPillClass(item.categoria)}`}>
+            <div class="flex items-center gap-2 flex-wrap text-[11px] text-ink-sepia mb-1">
+              <span class={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold flex-shrink-0 ${categoriaPillClass(item.categoria)}`}>
                 {item.categoria}
               </span>
+              <span>{item.fuente_display}</span>
+              <span class="text-ink-rule">&middot;</span>
+              <span>{item.fecha}</span>
             </div>
-            <h3 class="font-display font-bold text-ink leading-snug mt-1">
+            <h3 class="font-display font-bold text-ink leading-snug">
               {item.titulo}
             </h3>
             {item.resumen && (
@@ -105,16 +105,6 @@ function categoriaPillClass(cat: string): string {
                 {item.contenido}
               </p>
             )}
-            <div class="flex items-center gap-3 mt-2 text-xs text-ink-sepia">
-              <span>{item.fecha}</span>
-              {item.tags.length > 0 && (
-                <span class="flex gap-1">
-                  {item.tags.slice(0, 3).map((tag) => (
-                    <span class="px-1.5 py-0.5 bg-parchment-light border border-ink-rule-light rounded text-[9px]">{tag}</span>
-                  ))}
-                </span>
-              )}
-            </div>
           </a>
         ))}
       </div>
