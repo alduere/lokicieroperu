@@ -1,5 +1,5 @@
 [project]
-name = "notirelevanteperu"
+name = "lokicieroperu"
 version = "0.1.0"
 description = "Daily scraper + AI summarizer + bento dashboard for Peru's official gazette (El Peruano)"
 requires-python = ">=3.11"

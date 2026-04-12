@@ -27,7 +27,7 @@ env:
   BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
   EMAIL_TO: ${{ secrets.EMAIL_TO }}
   EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-  SITE_BASE_URL: https://alduere.github.io/notirelevanteperu
+  SITE_BASE_URL: https://alduere.github.io/lokicieroperu
 
 jobs:
   pipeline:
@@ -95,7 +95,7 @@ jobs:
 
       - name: Commit data and PDFs
         run: |
-          git config user.name "notirelevanteperu-bot"
+          git config user.name "lokicieroperu-bot"
           git config user.email "noreply@github.com"
           git add data pdfs
           if git diff --staged --quiet; then
@@ -118,7 +118,7 @@ jobs:
           from scripts.lib.telegram import TelegramClient
           c = TelegramClient()
           c.send_message(
-              '🔴 <b>NotiRelevantePerú</b> — pipeline diario falló para ${{ steps.target.outputs.value }}\n'
+              '🔴 <b>Loki-ciero Perú</b> — pipeline diario falló para ${{ steps.target.outputs.value }}\n'
               'Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
           )
           " || true

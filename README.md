@@ -1,4 +1,4 @@
-# NotiRelevantePerú
+# Loki-ciero Perú
 
 > Resumen diario con IA de las normas legales publicadas en el Diario Oficial El Peruano.
 
@@ -10,7 +10,7 @@ Cada día a las **7:00 AM hora Lima** (12:00 UTC), un workflow de GitHub Actions
 4. **Publica** un dashboard bento navegable en GitHub Pages
 5. **Envía** el PDF a Telegram con link al dashboard
 
-Sitio: https://alduere.github.io/notirelevanteperu
+Sitio: https://alduere.github.io/lokicieroperu
 
 ## Stack
 

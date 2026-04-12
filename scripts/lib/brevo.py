@@ -20,8 +20,8 @@ import requests
 logger = logging.getLogger(__name__)
 
 API_URL = "https://api.brevo.com/v3/smtp/email"
-DEFAULT_FROM_EMAIL = "notirelevanteperu@noreply.brevo.com"
-DEFAULT_FROM_NAME = "NotiRelevantePerú"
+DEFAULT_FROM_EMAIL = "lokicieroperu@noreply.brevo.com"
+DEFAULT_FROM_NAME = "Loki-ciero Perú"
 
 
 class BrevoClient:

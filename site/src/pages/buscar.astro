@@ -2,15 +2,15 @@
 import Base from "../layouts/Base.astro";
 ---
 
-<Base title="Buscar · NotiRelevantePerú">
+<Base title="Buscar · Loki-ciero Perú">
   <div class="max-w-4xl mx-auto">
     <h1 class="text-4xl font-bold tracking-tightest mb-2">Buscar normas</h1>
     <p class="text-ink-500 mb-8">Búsqueda full-text con filtros por tipo, impacto, sector y entidad</p>
 
     <div id="search" class="mb-8"></div>
 
-    <link href="/notirelevanteperu/pagefind/pagefind-ui.css" rel="stylesheet">
-    <script is:inline src="/notirelevanteperu/pagefind/pagefind-ui.js"></script>
+    <link href="/lokicieroperu/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script is:inline src="/lokicieroperu/pagefind/pagefind-ui.js"></script>
     <script is:inline>
       window.addEventListener("DOMContentLoaded", () => {
         if (typeof PagefindUI !== "undefined") {
@@ -19,12 +19,12 @@ import Base from "../layouts/Base.astro";
             showSubResults: true,
             showImages: false,
             resetStyles: false,
-            bundlePath: "/notirelevanteperu/pagefind/",
+            bundlePath: "/lokicieroperu/pagefind/",
             translations: {
               placeholder: "Buscar por palabra clave, entidad, sector...",
               clear_search: "Limpiar",
               load_more: "Cargar más resultados",
-              search_label: "Buscar en NotiRelevantePerú",
+              search_label: "Buscar en Loki-ciero Perú",
               filters_label: "Filtros",
               zero_results: "Sin resultados para [SEARCH_TERM]",
               many_results: "[COUNT] resultados para [SEARCH_TERM]",

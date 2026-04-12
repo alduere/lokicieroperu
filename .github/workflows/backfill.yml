@@ -34,7 +34,7 @@ env:
   BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
   EMAIL_TO: ${{ secrets.EMAIL_TO }}
   EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-  SITE_BASE_URL: https://alduere.github.io/notirelevanteperu
+  SITE_BASE_URL: https://alduere.github.io/lokicieroperu
 
 jobs:
   backfill:
@@ -100,7 +100,7 @@ jobs:
 
       - name: Commit
         run: |
-          git config user.name "notirelevanteperu-bot"
+          git config user.name "lokicieroperu-bot"
           git config user.email "noreply@github.com"
           git add data pdfs
           if git diff --staged --quiet; then

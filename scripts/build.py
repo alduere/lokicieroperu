@@ -46,7 +46,7 @@ def parse_args() -> argparse.Namespace:
 def _site_url() -> str:
     import os
 
-    return os.environ.get("SITE_BASE_URL", "https://alduere.github.io/notirelevanteperu")
+    return os.environ.get("SITE_BASE_URL", "https://alduere.github.io/lokicieroperu")
 
 
 def _render_pdfs(only_date: str | None) -> None:

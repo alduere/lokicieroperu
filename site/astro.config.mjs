@@ -3,7 +3,7 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://alduere.github.io",
-  base: "/notirelevanteperu",
+  base: "/lokicieroperu",
   trailingSlash: "ignore",
   integrations: [tailwind()],
   output: "static",

@@ -1,4 +1,4 @@
-"""Pydantic schemas for the NotiRelevantePerú pipeline.
+"""Pydantic schemas for the Loki-ciero Perú pipeline.
 
 These models are the contract between the scraper, the summarizer, the
 website builder, the PDF builder and the Telegram notifier. Anything that

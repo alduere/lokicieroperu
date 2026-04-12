@@ -75,7 +75,7 @@ def _render_html(dia: DiaProcesado, site_url: str) -> str:
 def _subject(dia: DiaProcesado) -> str:
     d = dia.fecha
     fecha = f"{d.day} {MES_ES_SHORT[d.month]}"
-    parts = [f"📰 NotiRelevantePerú · {fecha}", f"{dia.stats.total_normas} normas"]
+    parts = [f"📰 Loki-ciero Perú · {fecha}", f"{dia.stats.total_normas} normas"]
     if dia.stats.alto > 0:
         parts.append(f"{dia.stats.alto} alto impacto")
     return " · ".join(parts)
@@ -95,7 +95,7 @@ def main() -> int:
         return 1
 
     dia = DiaProcesado(**json.loads(json_path.read_text(encoding="utf-8")))
-    site_url = os.environ.get("SITE_BASE_URL", "https://alduere.github.io/notirelevanteperu")
+    site_url = os.environ.get("SITE_BASE_URL", "https://alduere.github.io/lokicieroperu")
     html = _render_html(dia, site_url)
     subject = _subject(dia)
 

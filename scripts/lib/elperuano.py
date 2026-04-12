@@ -21,7 +21,7 @@ from scripts.lib.schemas import DocumentoSeccion, NormaCruda, Seccion, compute_t
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://diariooficial.elperuano.pe"
-USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) NotiRelevantePeru/0.1 (+https://github.com/alduere/notirelevanteperu)"
+USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) LokicieroPeru/0.1 (+https://github.com/alduere/lokicieroperu)"
 DEFAULT_HEADERS = {
     "User-Agent": USER_AGENT,
     "Accept-Language": "es-PE,es;q=0.9",

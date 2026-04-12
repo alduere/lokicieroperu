@@ -51,7 +51,7 @@ def _format_caption(dia: DiaProcesado, site_url: str) -> str:
     sectores_str = " · ".join(f"{name.replace('_', ' ').title()} ({n})" for name, n in s.sectores_top[:3])
     link = f"{site_url.rstrip('/')}/{d.isoformat()}"
     return (
-        f"📰 <b>NotiRelevantePerú</b> · {fecha_es}\n\n"
+        f"📰 <b>Loki-ciero Perú</b> · {fecha_es}\n\n"
         f"<b>{s.total_normas}</b> normas publicadas\n"
         f"🔴 {s.alto} alto · 🟡 {s.medio} medio · 🟢 {s.bajo} bajo\n"
         f"\n"
@@ -75,7 +75,7 @@ def main() -> int:
         return 1
 
     dia = DiaProcesado(**json.loads(json_path.read_text(encoding="utf-8")))
-    site_url = os.environ.get("SITE_BASE_URL", "https://alduere.github.io/notirelevanteperu")
+    site_url = os.environ.get("SITE_BASE_URL", "https://alduere.github.io/lokicieroperu")
     caption = _format_caption(dia, site_url)
 
     if args.dry_run:
