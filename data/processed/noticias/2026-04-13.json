@@ -2,6 +2,60 @@
   "fecha": "2026-04-13",
   "noticias": [
     {
+      "id": "andina-f8af1d1eaa69",
+      "titulo": "Elecciones 2026: López Aliaga señala que su partido perdió votos por mesas no instaladas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-lopez-aliaga-senala-su-partido-perdio-votos-mesas-no-instaladas-1070998.aspx",
+      "fecha": "2026-04-13T01:52:56Z",
+      "contenido": "El candidato presidencial de Renovación Popular, Rafael López Aliaga, aseveró que su partido perdió votos, luego de que la ONPE anunciara que 63 300 personas no sufragaron por demoras en la instalación de las mesas electorales.",
+      "fuente_display": "Andina",
+      "resumen": "Rafael López Aliaga, candidato de Renovación Popular, afirmó que su partido perdió votos debido a que muchas mesas electorales no se instalaron a tiempo. La ONPE informó que 63,300 personas no pudieron votar por esta causa.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "renovación popular",
+        "rafael lópez aliaga",
+        "mesas electorales"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-50639f35907d",
+      "titulo": "INEN atendió un millón 400 mil recetas de pacientes con cáncer durante el último año",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-inen-atendio-un-millon-400-mil-recetas-pacientes-cancer-durante-ultimo-ano-1071007.aspx",
+      "fecha": "2026-04-13T01:51:03Z",
+      "contenido": "El Ministerio de Salud (Minsa), a través del Instituto Nacional de Enfermedades Neoplásicas (INEN), atendió un millón 400 mil recetas médicas en el último año, consolidando un sistema que garantiza tratamientos seguros y oportunos para pacientes con cáncer.",
+      "fuente_display": "Andina",
+      "resumen": "El Instituto Nacional de Enfermedades Neoplásicas (INEN) del Ministerio de Salud atendió 1.4 millones de recetas para pacientes con cáncer en el último año. Esto asegura tratamientos oportunos y seguros para quienes padecen esta enfermedad.",
+      "categoria": "Economía",
+      "tags": [
+        "salud",
+        "inen",
+        "cáncer",
+        "recetas médicas"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8769417aae5a",
+      "titulo": "Jorge Nieto pide a sus electores esperar con tranquilidad resultado del conteo oficial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-jorge-nieto-pide-a-sus-electores-esperar-tranquilidad-resultado-del-conteo-oficial-1071006.aspx",
+      "fecha": "2026-04-13T01:35:48Z",
+      "contenido": "El candidato presidencial del Partido del Buen Gobierno, Jorge Nieto Montesinos, invocó a sus electores a esperar con tranquilidad el resultado del conteo oficial, y asimismo expresó que espera llegar a la segunda vuelta según los indicadores que su agrupación política maneja.",
+      "fuente_display": "Andina",
+      "resumen": "Jorge Nieto Montesinos, candidato presidencial del Partido del Buen Gobierno, pidió a sus electores mantener la calma mientras se espera el conteo oficial. Expresó su esperanza de llegar a la segunda vuelta según los indicadores de su partido.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "jorge nieto",
+        "conteo oficial",
+        "segunda vuelta"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
       "id": "andina-97d0b597bab9",
       "titulo": "ODPE Chiclayo puso en cero sistema de cómputo para asegurar adecuado conteo de votos",
       "fuente": "andina",
@@ -9,13 +63,13 @@
       "fecha": "2026-04-13T01:22:55Z",
       "contenido": "A pocas horas del cierre de la jornada electoral, la Oficina Descentralizada de Procesos Electorales (ODPE) de Chiclayo, región Lambayeque,  realizó la puesta en “cero” de sus servidores en el centro de cómputo, un procedimiento clave para asegurar la transparencia en el conteo de votos de las Elecciones Generales 2026.",
       "fuente_display": "Andina",
-      "resumen": "La Oficina Descentralizada de Procesos Electorales (ODPE) de Chiclayo realizó la puesta en \"cero\" de sus servidores en el centro de cómputo. Este procedimiento es clave para asegurar la transparencia en el conteo de votos de las Elecciones Generales 2026.",
+      "resumen": "La ODPE de Chiclayo realizó un procedimiento de \"cero\" en sus servidores de cómputo para garantizar la transparencia en el conteo de votos de las Elecciones Generales 2026. Esta acción es crucial para asegurar la integridad del proceso electoral.",
       "categoria": "Política",
       "tags": [
+        "elecciones 2026",
         "odpe chiclayo",
         "conteo de votos",
-        "transparencia",
-        "elecciones 2026"
+        "transparencia"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -27,12 +81,12 @@
       "fecha": "2026-04-13T01:14:19Z",
       "contenido": "El candidato presidencial del Partido Cívico Obras, Ricardo Pablo Belmont Cassinelli, se pronunció tras la difusión de los resultados a boca de urna, los cuales lo ubican entre los primeros lugares.",
       "fuente_display": "Andina",
-      "resumen": "El candidato presidencial del Partido Cívico Obras, Ricardo Pablo Belmont Cassinelli, se pronunció sobre los resultados preliminares de las Elecciones 2026. Belmont comentó los resultados a boca de urna que lo ubican entre los primeros lugares.",
+      "resumen": "Ricardo Pablo Belmont Cassinelli, candidato presidencial del Partido Cívico Obras, comentó los resultados preliminares tras el cierre de la votación. Los resultados a boca de urna lo ubican entre los primeros lugares.",
       "categoria": "Política",
       "tags": [
+        "elecciones 2026",
         "ricardo belmont",
         "resultados preliminares",
-        "elecciones 2026",
         "boca de urna"
       ],
       "prompt_version": "prensa-v1"
@@ -45,12 +99,12 @@
       "fecha": "2026-04-13T01:14:06Z",
       "contenido": "Un movimiento sísmico de magnitud 3.5 se registró esta noche en la Provincia Constitucional del Callao, al oeste de Lima, sin que se reportaran daños.",
       "fuente_display": "Andina",
-      "resumen": "El Instituto Geofísico del Perú (IGP) informó sobre un movimiento sísmico de magnitud 3.5 registrado en el Callao. No se reportaron daños materiales ni personales a causa del temblor.",
+      "resumen": "Un movimiento sísmico de magnitud 3.5 se registró en la Provincia Constitucional del Callao durante la noche. No se reportaron daños materiales ni personales a causa del temblor.",
       "categoria": "Economía",
       "tags": [
-        "igp",
-        "movimiento sísmico",
+        "sismo",
         "callao",
+        "igp",
         "temblor"
       ],
       "prompt_version": "prensa-v1"
@@ -63,12 +117,12 @@
       "fecha": "2026-04-13T01:10:15Z",
       "contenido": "El candidato presidencial de Juntos por el Perú, Roberto Sánchez, manifestó que toma con serenidad y gratitud los primeros resultados a boca de urna, que lo ubican entre el grupo de candidatos que podría pasar a una eventual segunda vuelta.",
       "fuente_display": "Andina",
-      "resumen": "El candidato presidencial de Juntos por el Perú, Roberto Sánchez, expresó serenidad y gratitud ante los primeros resultados a boca de urna de las Elecciones 2026. Sánchez se ubica entre los candidatos que podrían pasar a una eventual segunda vuelta.",
+      "resumen": "Roberto Sánchez, candidato presidencial de Juntos por el Perú, recibió los primeros resultados a boca de urna con serenidad y gratitud. Estos resultados lo sitúan en el grupo de candidatos con posibilidades de pasar a una segunda vuelta.",
       "categoria": "Política",
       "tags": [
+        "elecciones 2026",
         "roberto sánchez",
         "resultados a boca de urna",
-        "elecciones 2026",
         "segunda vuelta"
       ],
       "prompt_version": "prensa-v1"
@@ -81,14 +135,13 @@
       "fecha": "2026-04-13T00:57:29Z",
       "contenido": "Decenas de votantes que llegaron a Barranca para participar en las Elecciones 2026, decidieron luego visitar los balnearios de esta provincia, en el departamento de Lima, donde playas como Puerto Chico, Chorrillos y Colorado fueron los más frecuentados.",
       "fuente_display": "Andina",
-      "resumen": "Más de 4,000 ciudadanos recibieron información sobre los resultados electorales en las playas del Norte Chico, específicamente en Barranca. Playas como Puerto Chico, Chorrillos y Colorado fueron las más concurridas.",
+      "resumen": "Más de 4,000 ciudadanos que participaron en las Elecciones 2026 en Barranca decidieron visitar las playas del Norte Chico. Balnearios como Puerto Chico, Chorrillos y Colorado fueron los más concurridos.",
       "categoria": "Política",
       "tags": [
         "elecciones 2026",
-        "norte chico",
         "barranca",
         "playas",
-        "resultados electorales"
+        "turismo"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -100,32 +153,31 @@
       "fecha": "2026-04-13T00:53:33Z",
       "contenido": "Con ventas por un millón 86,000 dólares y expectativas de negocio por tres millones 659,000 dólares en los próximos 12 meses, concluyó la misión comercial en Costa Rica, organizada por el Ministerio de Relaciones Exteriores, la Embajada del Perú en el país centroamericano, la Asociación de Exportadores (Adex), y el apoyo estratégico de la Cámara de Comercio de Costa Rica (CRECEX).",
       "fuente_display": "Andina",
-      "resumen": "Empresas peruanas lograron más de US$ 1 millón en ventas durante una misión comercial en Costa Rica. Las expectativas de negocio a futuro ascienden a casi US$ 3.7 millones.",
+      "resumen": "Empresas peruanas lograron más de un millón de dólares en ventas durante una misión comercial en Costa Rica. Se proyectan negocios por casi cuatro millones de dólares en los próximos 12 meses.",
       "categoria": "Economía",
       "tags": [
-        "empresas peruanas",
+        "exportaciones",
         "misión comercial",
         "costa rica",
-        "exportaciones",
         "adex"
       ],
       "prompt_version": "prensa-v1"
     },
     {
-      "id": "andina-8111f4cdaf23",
-      "titulo": "Elecciones 2026: amplían horarios de instalación de mesas y de votación hasta el lunes 13",
+      "id": "andina-d0785e207c03",
+      "titulo": "Elecciones 2026: este lunes 13 continúa sufragio en mesas que no fueron instaladas",
       "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-amplian-horarios-instalacion-mesas-y-votacion-hasta-lunes-13-1070993.aspx",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-este-lunes-13-continua-sufragio-mesas-no-fueron-instaladas-1070993.aspx",
       "fecha": "2026-04-13T00:50:27Z",
       "contenido": "El Jurado Nacional de Elecciones (JNE) dispuso ampliar el horario de votación, desde las 07:00 horas hasta las 18:00 horas, del lunes 13 de abril, en aquellas centros de votación donde la ciudadanía no pudo ejercer su derecho al sufragio este domingo.",
       "fuente_display": "Andina",
-      "resumen": "El Jurado Nacional de Elecciones (JNE) amplió el horario de instalación de mesas y de votación hasta el lunes 13 de abril. Esta medida se aplica a centros de votación donde la ciudadanía no pudo sufragar el domingo.",
+      "resumen": "El Jurado Nacional de Elecciones (JNE) permitirá que el sufragio continúe este lunes 13 de abril en mesas que no fueron instaladas. El horario de votación se extenderá de 07:00 a 18:00 horas.",
       "categoria": "Política",
       "tags": [
-        "jne",
-        "horario de votación",
         "elecciones 2026",
-        "centros de votación"
+        "jne",
+        "votación",
+        "mesas electorales"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -137,13 +189,13 @@
       "fecha": "2026-04-13T00:38:30Z",
       "contenido": "El presidente de la Junta de Fiscales Superiores de Junín, Ramón Alfonso Vallejo Odría, y el fiscal superior coordinador de enlace, Lucio Raúl Amado Picón, monitorearon el trabajo de los 268 fiscales desplegados a los locales de votación como parte de las Elecciones Generales 2026 celebradas hoy, 12 de abril.",
       "fuente_display": "Andina",
-      "resumen": "El distrito fiscal de Junín registró cerca de 1000 acciones preventivas durante las Elecciones Generales 2026. Monitorearon el trabajo de 268 fiscales desplegados en locales de votación.",
+      "resumen": "El distrito fiscal de Junín registró cerca de 1000 acciones preventivas durante las Elecciones Generales 2026. 268 fiscales fueron desplegados a los locales de votación para monitorear el proceso.",
       "categoria": "Política",
       "tags": [
-        "distrito fiscal junín",
-        "acciones preventivas",
-        "fiscales",
-        "elecciones 2026"
+        "elecciones 2026",
+        "fiscalía",
+        "junín",
+        "monitoreo"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -155,18 +207,18 @@
       "fecha": "2026-04-13T00:22:43Z",
       "contenido": "La Oficina Nacional de Procesos Electorales (ONPE) informa sobre los resultados de los comicios generales, priorizando reportes de la elección de la fórmula presidencial, tras el cierre de la jornada electoral.",
       "fuente_display": "Andina",
-      "resumen": "La Oficina Nacional de Procesos Electorales (ONPE) habilitó un enlace para consultar los resultados de los comicios generales. Se priorizan los reportes de la elección presidencial tras el cierre de la jornada electoral.",
+      "resumen": "La Oficina Nacional de Procesos Electorales (ONPE) ha habilitado un enlace para consultar los resultados de las Elecciones Generales 2026. Se prioriza la información sobre la elección presidencial tras el cierre de la jornada electoral.",
       "categoria": "Política",
       "tags": [
+        "elecciones 2026",
         "onpe",
         "resultados electorales",
-        "elecciones 2026",
-        "presidencial"
+        "conteo"
       ],
       "prompt_version": "prensa-v1"
     }
   ],
-  "total": 9,
+  "total": 12,
   "fuentes_activas": [
     "andina"
   ],

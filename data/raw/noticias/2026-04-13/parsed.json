@@ -2,6 +2,30 @@
   "fecha": "2026-04-13",
   "items": [
     {
+      "id": "andina-f8af1d1eaa69",
+      "titulo": "Elecciones 2026: López Aliaga señala que su partido perdió votos por mesas no instaladas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-lopez-aliaga-senala-su-partido-perdio-votos-mesas-no-instaladas-1070998.aspx",
+      "fecha": "2026-04-13T01:52:56+00:00",
+      "contenido": "El candidato presidencial de Renovación Popular, Rafael López Aliaga, aseveró que su partido perdió votos, luego de que la ONPE anunciara que 63 300 personas no sufragaron por demoras en la instalación de las mesas electorales."
+    },
+    {
+      "id": "andina-50639f35907d",
+      "titulo": "INEN atendió un millón 400 mil recetas de pacientes con cáncer durante el último año",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-inen-atendio-un-millon-400-mil-recetas-pacientes-cancer-durante-ultimo-ano-1071007.aspx",
+      "fecha": "2026-04-13T01:51:03+00:00",
+      "contenido": "El Ministerio de Salud (Minsa), a través del Instituto Nacional de Enfermedades Neoplásicas (INEN), atendió un millón 400 mil recetas médicas en el último año, consolidando un sistema que garantiza tratamientos seguros y oportunos para pacientes con cáncer."
+    },
+    {
+      "id": "andina-8769417aae5a",
+      "titulo": "Jorge Nieto pide a sus electores esperar con tranquilidad resultado del conteo oficial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-jorge-nieto-pide-a-sus-electores-esperar-tranquilidad-resultado-del-conteo-oficial-1071006.aspx",
+      "fecha": "2026-04-13T01:35:48+00:00",
+      "contenido": "El candidato presidencial del Partido del Buen Gobierno, Jorge Nieto Montesinos, invocó a sus electores a esperar con tranquilidad el resultado del conteo oficial, y asimismo expresó que espera llegar a la segunda vuelta según los indicadores que su agrupación política maneja."
+    },
+    {
       "id": "andina-97d0b597bab9",
       "titulo": "ODPE Chiclayo puso en cero sistema de cómputo para asegurar adecuado conteo de votos",
       "fuente": "andina",
@@ -50,10 +74,10 @@
       "contenido": "Con ventas por un millón 86,000 dólares y expectativas de negocio por tres millones 659,000 dólares en los próximos 12 meses, concluyó la misión comercial en Costa Rica, organizada por el Ministerio de Relaciones Exteriores, la Embajada del Perú en el país centroamericano, la Asociación de Exportadores (Adex), y el apoyo estratégico de la Cámara de Comercio de Costa Rica (CRECEX)."
     },
     {
-      "id": "andina-8111f4cdaf23",
-      "titulo": "Elecciones 2026: amplían horarios de instalación de mesas y de votación hasta el lunes 13",
+      "id": "andina-d0785e207c03",
+      "titulo": "Elecciones 2026: este lunes 13 continúa sufragio en mesas que no fueron instaladas",
       "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-amplian-horarios-instalacion-mesas-y-votacion-hasta-lunes-13-1070993.aspx",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-este-lunes-13-continua-sufragio-mesas-no-fueron-instaladas-1070993.aspx",
       "fecha": "2026-04-13T00:50:27+00:00",
       "contenido": "El Jurado Nacional de Elecciones (JNE) dispuso ampliar el horario de votación, desde las 07:00 horas hasta las 18:00 horas, del lunes 13 de abril, en aquellas centros de votación donde la ciudadanía no pudo ejercer su derecho al sufragio este domingo."
     },
