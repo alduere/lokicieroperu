@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FilterBar from "../components/FilterBar.astro";
 import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay, latestTfDate, getTfDay, latestNoticiasDate, getNoticiasDay } from "../lib/data";
 import type { NormaResumida, AlertaResumida, NoticiaResumida, SolicitudPIResumida, ResolucionTFResumida, Impacto, PrensaResumida } from "../lib/types";
 
@@ -17,15 +18,22 @@ const noticiasDay = noticiasDate ? getNoticiasDay(noticiasDate) : null;
 const noticiasItems = noticiasDay ? noticiasDay.noticias : [];
 const noticiasTotal = noticiasItems.length;
 
-// El Peruano: sort by impact (alto first), take top 5
+// El Peruano: sort by impact (alto first), show all for filtering
 const impactOrder: Record<Impacto, number> = { alto: 0, medio: 1, bajo: 2 };
-const epItems = epDay
+const epAllItems = epDay
   ? [...epDay.normas]
       .sort((a, b) => impactOrder[a.impacto] - impactOrder[b.impacto])
-      .slice(0, 5)
   : [];
 const epTotal = epDay ? epDay.normas.length : 0;
-const epRemaining = epTotal - epItems.length;
+
+// Group El Peruano norms by primary sector for sectored display
+const epSectorGroups = new Map<string, NormaResumida[]>();
+for (const n of epAllItems) {
+  const primary = n.sectores[0] || "administracion_publica";
+  if (!epSectorGroups.has(primary)) epSectorGroups.set(primary, []);
+  epSectorGroups.get(primary)!.push(n);
+}
+const epSortedSectors = [...epSectorGroups.entries()].sort((a, b) => b[1].length - a[1].length);
 
 // INDECOPI: show all items
 const indecopiItems = indecopiDay ? indecopiDay.items : [];
@@ -179,7 +187,7 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
       </div>
 
       {/* ═══ El Peruano source block ═══ */}
-      {epSource && epSource.total > 0 && (
+      {epSource && epSource.total > 0 && epDay && (
         <div class="source-block mb-12 animate-entrance delay-4 hidden" data-source="elperuano">
           {/* Source header */}
           <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
@@ -188,60 +196,67 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
                 {epSource.nombre}
               </h2>
             </div>
-            <div class="font-display font-black text-3xl leading-none">
-              {epSource.total}
+            <div class="font-display font-black text-3xl leading-none" id="filter-count">
+              {epSource.total} normas
             </div>
           </div>
-          <div class="font-display italic text-ink-sepia text-sm mb-3">
+          <div class="font-display italic text-ink-sepia text-sm mb-1">
             {epSource.subtitulo}
           </div>
 
-          {/* Impact pills */}
-          {epSource.categorias.length > 0 && (
-            <div class="flex gap-2 mb-4">
-              {epSource.categorias.map((cat) => (
-                <span class={`impact-pill ${cat.nombre}`}>
-                  {impactLabel(cat.nombre as Impacto)} {cat.count}
-                </span>
-              ))}
-            </div>
-          )}
+          {/* Filter bar */}
+          <FilterBar normas={epDay.normas} />
 
-          {/* Item list */}
-          <div>
-            {epItems.map((norma) => (
-              <a
-                href={`${base}/elperuano/n/${norma.id}`}
-                class="ruled-item block"
-              >
-                <div class="flex items-start gap-2 mb-1">
-                  <span class={`impact-pill ${norma.impacto} flex-shrink-0`}>
-                    {impactLabel(norma.impacto)}
-                  </span>
-                  <span class="font-display font-bold text-ink leading-snug">
-                    {norma.titulo_oficial}
-                  </span>
+          {/* Sector-grouped item list */}
+          {epSortedSectors.map(([sector, norms]) => {
+            const sectorTitle = sector.replace(/_/g, " ");
+            return (
+              <article class="mb-6" data-sector-card>
+                <header class="flex items-baseline justify-between gap-3 pb-2 mb-1 border-b-2 border-ink">
+                  <h3 class="font-display font-bold text-lg capitalize">
+                    {sectorTitle}
+                    <span class="text-ink-sepia font-sans text-sm font-normal ml-2">({norms.length})</span>
+                  </h3>
+                </header>
+                <div>
+                  {norms.map((norma) => (
+                    <a
+                      href={`${base}/elperuano/n/${norma.id}`}
+                      class="ruled-item block"
+                      data-norma
+                      data-tipo={norma.tipo_corto}
+                      data-impacto={norma.impacto}
+                      data-sectores={(norma.sectores || []).join(",")}
+                    >
+                      <div class="flex items-start gap-2 mb-1">
+                        <span class={`impact-pill ${norma.impacto} flex-shrink-0`}>
+                          {impactLabel(norma.impacto)}
+                        </span>
+                        <span class="font-display font-bold text-ink leading-snug">
+                          {norma.titulo_oficial}
+                        </span>
+                      </div>
+                      <div class="text-xs text-ink-sepia ml-0 mt-1">
+                        {norma.tipo_corto} · {norma.entidad_emisora}
+                      </div>
+                      {(norma.impacto === "alto" || norma.impacto === "medio") && norma.resumen_ejecutivo && (
+                        <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
+                          {norma.resumen_ejecutivo}
+                        </p>
+                      )}
+                    </a>
+                  ))}
                 </div>
-                <div class="text-xs text-ink-sepia ml-0 mt-1">
-                  {norma.tipo_corto} · {norma.entidad_emisora}
-                </div>
-                {(norma.impacto === "alto" || norma.impacto === "medio") && norma.resumen_ejecutivo && (
-                  <p class="text-sm text-ink-light mt-1.5 line-clamp-2">
-                    {norma.resumen_ejecutivo}
-                  </p>
-                )}
-              </a>
-            ))}
-          </div>
+              </article>
+            );
+          })}
 
-          {epRemaining > 0 && (
-            <a
-              href={`${base}/elperuano/`}
-              class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
-            >
-              + {epRemaining} mas &rarr;
-            </a>
-          )}
+          <a
+            href={`${base}/elperuano/`}
+            class="inline-block mt-2 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors"
+          >
+            Ver pagina completa &rarr;
+          </a>
         </div>
       )}
 
