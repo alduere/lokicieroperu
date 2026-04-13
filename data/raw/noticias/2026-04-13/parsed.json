@@ -2,6 +2,22 @@
   "fecha": "2026-04-13",
   "items": [
     {
+      "id": "andina-5c61ad991d93",
+      "titulo": "Elecciones 2026: Tribunal de Honor del Pacto Ético invoca a mantener calma y prudencia",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-tribunal-honor-del-pacto-etico-invoca-a-mantener-calma-y-prudencia-1071009.aspx",
+      "fecha": "2026-04-13T02:26:51+00:00",
+      "contenido": "El Tribunal de Honor del Pacto Ético Electoral (PEE), invocó a la ciudadanía y a las organizaciones políticas a mantener la calma y prudencia tras el término de la jornada electoral de hoy, al tiempo de recordar que la publicación de los resultados oficiales es competencia exclusiva de la Oficina Nacional de Procesos Electorales (ONPE)."
+    },
+    {
+      "id": "andina-7e0c0087533d",
+      "titulo": "Parkinson: estos ocho síntomas no son “normales” durante el envejecimiento",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-parkinson-estos-ocho-sintomas-no-son-normales-durante-envejecimiento-1071010.aspx",
+      "fecha": "2026-04-13T02:26:12+00:00",
+      "contenido": "La enfermedad de Parkinson es un trastorno neurodegenerativo progresivo que afecta principalmente el movimiento. Entre sus síntomas más frecuentes se encuentran el temblor en reposo, la rigidez muscular, la lentitud en los movimientos y las dificultades para mantener el equilibrio."
+    },
+    {
       "id": "andina-f8af1d1eaa69",
       "titulo": "Elecciones 2026: López Aliaga señala que su partido perdió votos por mesas no instaladas",
       "fuente": "andina",
@@ -34,10 +50,10 @@
       "contenido": "A pocas horas del cierre de la jornada electoral, la Oficina Descentralizada de Procesos Electorales (ODPE) de Chiclayo, región Lambayeque,  realizó la puesta en “cero” de sus servidores en el centro de cómputo, un procedimiento clave para asegurar la transparencia en el conteo de votos de las Elecciones Generales 2026."
     },
     {
-      "id": "andina-ae9ec1194b33",
-      "titulo": "Elecciones 2026: Belmont comenta resultados preliminares tras cierre de votación",
+      "id": "andina-7f0c3480c559",
+      "titulo": "Elecciones 2026: Belmont agradece apoyo y respaldo recibido en la contienda",
       "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-belmont-comenta-resultados-preliminares-tras-cierre-votacion-1071003.aspx",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-belmont-agradece-apoyo-y-respaldo-recibido-la-contienda-1071003.aspx",
       "fecha": "2026-04-13T01:14:19+00:00",
       "contenido": "El candidato presidencial del Partido Cívico Obras, Ricardo Pablo Belmont Cassinelli, se pronunció tras la difusión de los resultados a boca de urna, los cuales lo ubican entre los primeros lugares."
     },
