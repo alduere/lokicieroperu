@@ -1,0 +1,318 @@
+---
+import Base from "../../layouts/Base.astro";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base title="Loki · LOS VISITANTES" sourceSlug="visitantes" sourceName="LOS VISITANTES">
+  <section class="animate-entrance">
+    <h1 class="font-display font-extrabold text-3xl sm:text-4xl tracking-tightest leading-tight mb-2 text-txt">
+      LOS VISITANTES
+    </h1>
+    <p class="text-txt-tertiary text-sm mb-8 max-w-xl">
+      Busca en el registro oficial de visitas a entidades del Estado peruano.
+      Datos del portal de transparencia <span class="text-txt-secondary">visitas.servicios.gob.pe</span>.
+    </p>
+
+    {/* Search form */}
+    <div class="bg-loki-elevated border border-edge rounded-xl p-5 sm:p-6 mb-8">
+      <div class="flex flex-col sm:flex-row gap-3">
+        <div class="flex-1">
+          <label for="search-input" class="block text-[11px] uppercase tracking-widest text-txt-tertiary font-medium mb-1.5">
+            Buscar por apellidos o DNI
+          </label>
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Ej: Garcia Lopez o 12345678"
+            minlength="3"
+            class="w-full px-4 py-2.5 bg-loki-surface border border-edge rounded-lg text-txt placeholder:text-txt-tertiary/50 font-sans text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-colors"
+          />
+        </div>
+        <div class="sm:w-48">
+          <label for="date-from" class="block text-[11px] uppercase tracking-widest text-txt-tertiary font-medium mb-1.5">
+            Desde
+          </label>
+          <input
+            id="date-from"
+            type="date"
+            class="w-full px-4 py-2.5 bg-loki-surface border border-edge rounded-lg text-txt font-sans text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-colors"
+          />
+        </div>
+        <div class="sm:w-48">
+          <label for="date-to" class="block text-[11px] uppercase tracking-widest text-txt-tertiary font-medium mb-1.5">
+            Hasta
+          </label>
+          <input
+            id="date-to"
+            type="date"
+            class="w-full px-4 py-2.5 bg-loki-surface border border-edge rounded-lg text-txt font-sans text-sm focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30 transition-colors"
+          />
+        </div>
+      </div>
+      <div class="flex items-center gap-3 mt-4">
+        <button
+          id="btn-search"
+          class="px-6 py-2.5 bg-accent text-white font-medium text-sm rounded-lg hover:bg-accent/90 transition-colors focus:outline-none focus:ring-2 focus:ring-accent/50"
+        >
+          Buscar
+        </button>
+        <span id="search-status" class="text-xs text-txt-tertiary hidden"></span>
+      </div>
+    </div>
+
+    {/* Results area */}
+    <div id="results-area" class="hidden">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="font-display font-bold text-lg text-txt">Resultados</h2>
+        <span id="results-count" class="text-sm text-txt-tertiary"></span>
+      </div>
+
+      <div id="results-table-wrap" class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-edge text-left">
+              <th class="py-2 pr-3 text-[10px] uppercase tracking-widest text-txt-tertiary font-medium">Fecha</th>
+              <th class="py-2 pr-3 text-[10px] uppercase tracking-widest text-txt-tertiary font-medium">Visitante</th>
+              <th class="py-2 pr-3 text-[10px] uppercase tracking-widest text-txt-tertiary font-medium hidden sm:table-cell">Doc.</th>
+              <th class="py-2 pr-3 text-[10px] uppercase tracking-widest text-txt-tertiary font-medium">Entidad visitada</th>
+              <th class="py-2 pr-3 text-[10px] uppercase tracking-widest text-txt-tertiary font-medium hidden md:table-cell">Funcionario</th>
+              <th class="py-2 pr-3 text-[10px] uppercase tracking-widest text-txt-tertiary font-medium hidden lg:table-cell">Motivo</th>
+              <th class="py-2 text-[10px] uppercase tracking-widest text-txt-tertiary font-medium hidden md:table-cell">Hora</th>
+            </tr>
+          </thead>
+          <tbody id="results-body"></tbody>
+        </table>
+      </div>
+
+      <div id="pagination" class="flex items-center justify-center gap-2 mt-6 hidden">
+        <button id="btn-prev" class="px-3 py-1.5 text-xs font-medium text-txt-secondary bg-loki-elevated border border-edge rounded-lg hover:bg-loki-surface transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
+          Anterior
+        </button>
+        <span id="page-info" class="text-xs text-txt-tertiary"></span>
+        <button id="btn-next" class="px-3 py-1.5 text-xs font-medium text-txt-secondary bg-loki-elevated border border-edge rounded-lg hover:bg-loki-surface transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
+          Siguiente
+        </button>
+      </div>
+    </div>
+
+    {/* Error / empty states */}
+    <div id="error-area" class="hidden text-center py-10">
+      <p id="error-msg" class="text-txt-tertiary text-sm"></p>
+      <a
+        id="portal-link"
+        href="https://visitas.servicios.gob.pe/consultas/"
+        target="_blank"
+        rel="noopener"
+        class="inline-block mt-3 text-sm font-medium text-accent hover:text-accent/80 transition-colors"
+      >
+        Buscar directamente en el portal oficial &rarr;
+      </a>
+    </div>
+
+    {/* Info box */}
+    <div class="mt-10 p-4 bg-loki-elevated/50 border border-edge-light rounded-lg">
+      <p class="text-[11px] text-txt-tertiary leading-relaxed">
+        <span class="font-semibold text-txt-secondary">Fuente:</span> Plataforma de Registro de Visitas en Linea
+        (Secretaria de Gobierno Digital). Los datos se obtienen del portal oficial de transparencia del Estado peruano.
+        El rango de fechas maximo por consulta es de 90 dias.
+      </p>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const API_URL = "https://visitas.servicios.gob.pe/consultas/dataBusqueda.php";
+  const RECAPTCHA_SITE_KEY = "6LdKTSocAAAAAN_TWX3cgpUMgIKpw_zGrellc3Lj";
+
+  const searchInput = document.getElementById("search-input") as HTMLInputElement;
+  const dateFrom = document.getElementById("date-from") as HTMLInputElement;
+  const dateTo = document.getElementById("date-to") as HTMLInputElement;
+  const btnSearch = document.getElementById("btn-search") as HTMLButtonElement;
+  const searchStatus = document.getElementById("search-status") as HTMLSpanElement;
+  const resultsArea = document.getElementById("results-area") as HTMLDivElement;
+  const resultsCount = document.getElementById("results-count") as HTMLSpanElement;
+  const resultsBody = document.getElementById("results-body") as HTMLTableSectionElement;
+  const errorArea = document.getElementById("error-area") as HTMLDivElement;
+  const errorMsg = document.getElementById("error-msg") as HTMLParagraphElement;
+  const pagination = document.getElementById("pagination") as HTMLDivElement;
+  const btnPrev = document.getElementById("btn-prev") as HTMLButtonElement;
+  const btnNext = document.getElementById("btn-next") as HTMLButtonElement;
+  const pageInfo = document.getElementById("page-info") as HTMLSpanElement;
+
+  // Set default dates: last 30 days
+  const now = new Date();
+  const thirtyAgo = new Date(now);
+  thirtyAgo.setDate(thirtyAgo.getDate() - 30);
+  dateTo.value = now.toISOString().slice(0, 10);
+  dateFrom.value = thirtyAgo.toISOString().slice(0, 10);
+
+  let allResults: any[] = [];
+  let currentPage = 1;
+  const PAGE_SIZE = 20;
+
+  function formatDateDMY(iso: string): string {
+    const [y, m, d] = iso.split("-");
+    return `${d}/${m}/${y}`;
+  }
+
+  function showStatus(msg: string) {
+    searchStatus.textContent = msg;
+    searchStatus.classList.remove("hidden");
+  }
+
+  function hideStatus() {
+    searchStatus.classList.add("hidden");
+  }
+
+  function showError(msg: string) {
+    errorMsg.textContent = msg;
+    errorArea.classList.remove("hidden");
+    resultsArea.classList.add("hidden");
+  }
+
+  function hideError() {
+    errorArea.classList.add("hidden");
+  }
+
+  function escapeHtml(str: string): string {
+    const div = document.createElement("div");
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function renderPage() {
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const end = Math.min(start + PAGE_SIZE, allResults.length);
+    const pageItems = allResults.slice(start, end);
+    const totalPages = Math.ceil(allResults.length / PAGE_SIZE);
+
+    resultsBody.innerHTML = pageItems.map((r: any) => `
+      <tr class="border-b border-edge-light hover:bg-loki-elevated/30 transition-colors">
+        <td class="py-2.5 pr-3 text-txt-secondary whitespace-nowrap">${escapeHtml(r.fecha || "")}</td>
+        <td class="py-2.5 pr-3 text-txt font-medium">${escapeHtml(r.visitante || "")}</td>
+        <td class="py-2.5 pr-3 text-txt-secondary hidden sm:table-cell">${escapeHtml(r.documento || "")}</td>
+        <td class="py-2.5 pr-3 text-txt-secondary">${escapeHtml(r.razon_social || "")}</td>
+        <td class="py-2.5 pr-3 text-txt-secondary hidden md:table-cell">${escapeHtml(r.funcionario || "")}</td>
+        <td class="py-2.5 pr-3 text-txt-tertiary text-xs hidden lg:table-cell">${escapeHtml(r.motivo || "")}</td>
+        <td class="py-2.5 text-txt-tertiary text-xs hidden md:table-cell whitespace-nowrap">${escapeHtml(r.horaIn || "")}${r.horaOut ? " - " + escapeHtml(r.horaOut) : ""}</td>
+      </tr>
+    `).join("");
+
+    resultsCount.textContent = `${allResults.length} resultado${allResults.length !== 1 ? "s" : ""}`;
+
+    if (totalPages > 1) {
+      pagination.classList.remove("hidden");
+      pageInfo.textContent = `Pagina ${currentPage} de ${totalPages}`;
+      btnPrev.disabled = currentPage <= 1;
+      btnNext.disabled = currentPage >= totalPages;
+    } else {
+      pagination.classList.add("hidden");
+    }
+  }
+
+  async function doSearch() {
+    const query = searchInput.value.trim();
+    if (query.length < 3) {
+      showError("Ingresa al menos 3 caracteres para buscar.");
+      return;
+    }
+
+    const from = dateFrom.value;
+    const to = dateTo.value;
+    if (!from || !to) {
+      showError("Selecciona un rango de fechas.");
+      return;
+    }
+
+    // Validate date range (max 90 days)
+    const diffDays = Math.round((new Date(to).getTime() - new Date(from).getTime()) / (1000 * 60 * 60 * 24));
+    if (diffDays > 90) {
+      showError("El rango de fechas no puede exceder 90 dias. Reduce el rango e intenta de nuevo.");
+      return;
+    }
+    if (diffDays < 0) {
+      showError("La fecha 'Desde' debe ser anterior a la fecha 'Hasta'.");
+      return;
+    }
+
+    hideError();
+    btnSearch.disabled = true;
+    showStatus("Buscando...");
+
+    const fechaRange = `${formatDateDMY(from)} - ${formatDateDMY(to)}`;
+
+    try {
+      // Try direct API call
+      const formData = new FormData();
+      formData.append("busqueda", query);
+      formData.append("fecha", fechaRange);
+      formData.append("ruc", "");
+      formData.append("token", "");
+
+      const resp = await fetch(API_URL, {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+
+      const data = await resp.json();
+
+      if (data.result === "300") {
+        // reCAPTCHA block — fallback to portal link
+        showError(
+          "El portal del gobierno requiere verificacion de seguridad (reCAPTCHA). " +
+          "Puedes buscar directamente en el portal oficial."
+        );
+        btnSearch.disabled = false;
+        hideStatus();
+        return;
+      }
+
+      if (data.result === "100" || !data.data || data.data.length === 0) {
+        showError("No se encontraron resultados para esta busqueda.");
+        btnSearch.disabled = false;
+        hideStatus();
+        return;
+      }
+
+      allResults = Array.isArray(data.data) ? data.data : [];
+      currentPage = 1;
+      resultsArea.classList.remove("hidden");
+      resultsArea.style.animation = "fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) both";
+      renderPage();
+    } catch (err: unknown) {
+      // CORS or network error — show fallback
+      const portalUrl = `https://visitas.servicios.gob.pe/consultas/`;
+      showError(
+        "No se pudo conectar al portal de visitas (posible restriccion de acceso cruzado). " +
+        "Puedes buscar directamente en el portal oficial."
+      );
+    } finally {
+      btnSearch.disabled = false;
+      hideStatus();
+    }
+  }
+
+  btnSearch.addEventListener("click", doSearch);
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") doSearch();
+  });
+
+  // Auto-fill from URL query param
+  const urlParams = new URLSearchParams(window.location.search);
+  const qParam = urlParams.get("q");
+  if (qParam) {
+    searchInput.value = qParam;
+    doSearch();
+  }
+
+  btnPrev.addEventListener("click", () => {
+    if (currentPage > 1) { currentPage--; renderPage(); }
+  });
+  btnNext.addEventListener("click", () => {
+    const totalPages = Math.ceil(allResults.length / PAGE_SIZE);
+    if (currentPage < totalPages) { currentPage++; renderPage(); }
+  });
+</script>
