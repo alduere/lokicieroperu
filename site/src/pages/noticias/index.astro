@@ -36,7 +36,7 @@ function categoriaPillClass(cat: string): string {
 ---
 
 <Base title={dia ? `Noticias · ${dia.fecha}` : "Noticias · Loki"} sourceSlug="noticias" sourceName="Noticias">
-  <nav class="text-xs text-txt-dim mb-4">
+  <nav class="text-xs text-txt-tertiary mb-4">
     <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
     <span class="text-txt">Noticias</span>
@@ -45,9 +45,9 @@ function categoriaPillClass(cat: string): string {
   {dia && allItems.length > 0 ? (
     <>
       <div class="border-b-2 border-edge pb-6 mb-6">
-        <div class="text-xs uppercase tracking-widest text-txt-dim mb-1">{formatFechaEs(dia.fecha)}</div>
+        <div class="text-xs uppercase tracking-widest text-txt-tertiary mb-1">{formatFechaEs(dia.fecha)}</div>
         <h1 class="font-display text-4xl sm:text-5xl font-extrabold tracking-tightest mb-3">Noticias</h1>
-        <div class="flex items-center gap-6 text-sm text-txt-muted">
+        <div class="flex items-center gap-6 text-sm text-txt-secondary">
           <div><span class="font-display text-3xl font-bold text-txt">{allItems.length}</span> articulos</div>
           <div><span class="font-display text-3xl font-bold text-txt">{sources.length}</span> fuentes</div>
         </div>
@@ -68,7 +68,7 @@ function categoriaPillClass(cat: string): string {
       {/* Source filter */}
       <div class="flex flex-wrap gap-2 mb-8">
         {sources.map((src) => (
-          <button class="noticias-source-filter text-xs px-3 py-1.5 rounded-full border border-edge text-txt-dim font-semibold transition-all cursor-pointer hover:border-edge hover:text-txt" data-source={src}>
+          <button class="noticias-source-filter text-xs px-3 py-1.5 rounded-full border border-edge text-txt-tertiary font-semibold transition-all cursor-pointer hover:border-edge hover:text-txt" data-source={src}>
             {src} ({bySource[src].length})
           </button>
         ))}
@@ -84,7 +84,7 @@ function categoriaPillClass(cat: string): string {
             data-cat={item.categoria}
             data-source={item.fuente_display || item.fuente}
           >
-            <div class="flex items-center gap-2 flex-wrap text-[11px] text-txt-dim mb-1">
+            <div class="flex items-center gap-2 flex-wrap text-[11px] text-txt-tertiary mb-1">
               <span class={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold flex-shrink-0 ${categoriaPillClass(item.categoria)}`}>
                 {item.categoria}
               </span>
@@ -96,12 +96,12 @@ function categoriaPillClass(cat: string): string {
               {item.titulo}
             </h3>
             {item.resumen && (
-              <p class="text-sm text-txt-muted mt-1.5 line-clamp-3">
+              <p class="text-sm text-txt-secondary mt-1.5 line-clamp-3">
                 {item.resumen}
               </p>
             )}
             {!item.resumen && item.contenido && (
-              <p class="text-sm text-txt-muted mt-1.5 line-clamp-2">
+              <p class="text-sm text-txt-secondary mt-1.5 line-clamp-2">
                 {item.contenido}
               </p>
             )}
@@ -112,7 +112,7 @@ function categoriaPillClass(cat: string): string {
   ) : (
     <div class="border border-edge rounded-lg p-12 text-center">
       <h1 class="font-display text-2xl font-bold mb-2">Sin noticias</h1>
-      <p class="text-txt-muted">No hay noticias disponibles para hoy. El scraping se ejecuta a las 7:00 AM Lima.</p>
+      <p class="text-txt-secondary">No hay noticias disponibles para hoy. El scraping se ejecuta a las 7:00 AM Lima.</p>
     </div>
   )}
 </Base>

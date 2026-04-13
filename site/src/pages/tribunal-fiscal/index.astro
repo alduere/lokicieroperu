@@ -9,7 +9,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title={dia ? `Tribunal Fiscal · ${dia.fecha}` : "Tribunal Fiscal · Loki"} sourceSlug="tribunal-fiscal" sourceName="Tribunal Fiscal">
-  <nav class="text-xs text-txt-dim mb-4">
+  <nav class="text-xs text-txt-tertiary mb-4">
     <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
     <span class="text-txt">Tribunal Fiscal</span>
@@ -18,9 +18,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   {dia && dia.items.length > 0 ? (
     <>
       <div class="border-b-2 border-edge pb-6 mb-8">
-        <div class="text-xs uppercase tracking-widest text-txt-dim mb-1">{formatFechaEs(dia.fecha)}</div>
+        <div class="text-xs uppercase tracking-widest text-txt-tertiary mb-1">{formatFechaEs(dia.fecha)}</div>
         <h1 class="font-display text-4xl sm:text-5xl font-extrabold tracking-tightest mb-3">Tribunal Fiscal</h1>
-        <div class="flex items-center gap-6 text-sm text-txt-muted">
+        <div class="flex items-center gap-6 text-sm text-txt-secondary">
           <div><span class="font-display text-3xl font-bold text-txt">{dia.stats.total_resoluciones}</span> resoluciones</div>
         </div>
       </div>
@@ -33,14 +33,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
                 <div class="flex items-center gap-2 mb-2">
                   <span class={`impact-pill ${item.impacto}`}>{item.impacto}</span>
                   {item.sala && (
-                    <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-muted rounded-full">{item.sala}</span>
+                    <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-secondary rounded-full">{item.sala}</span>
                   )}
                 </div>
                 <h2 class="font-display font-bold text-lg leading-snug mb-1">{item.numero_rtf}</h2>
                 {item.sumilla && (
-                  <p class="text-sm text-txt-muted line-clamp-2">{item.sumilla}</p>
+                  <p class="text-sm text-txt-secondary line-clamp-2">{item.sumilla}</p>
                 )}
-                <div class="flex items-center gap-3 mt-2 text-xs text-txt-dim">
+                <div class="flex items-center gap-3 mt-2 text-xs text-txt-tertiary">
                   {item.tema_tributario && <span>{item.tema_tributario}</span>}
                   {item.numero_expediente && <span>Exp. {item.numero_expediente}</span>}
                 </div>
@@ -53,7 +53,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   ) : (
     <div class="border border-edge rounded-lg p-12 text-center">
       <h1 class="font-display text-2xl font-bold mb-2">Sin resoluciones</h1>
-      <p class="text-txt-muted">No hay resoluciones del Tribunal Fiscal para hoy.</p>
+      <p class="text-txt-secondary">No hay resoluciones del Tribunal Fiscal para hoy.</p>
     </div>
   )}
 </Base>

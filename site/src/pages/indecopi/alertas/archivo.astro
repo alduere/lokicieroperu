@@ -7,7 +7,7 @@ const days = indecopiSortedDates.map((d) => ({ date: d, dia: getIndecopiDay(d)! 
 ---
 
 <Base title="Archivo · INDECOPI Alertas · Loki" sourceSlug="indecopi" sourceName="INDECOPI">
-  <nav class="text-xs text-txt-dim mb-4">
+  <nav class="text-xs text-txt-tertiary mb-4">
     <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
     <a href={`${base}/indecopi/`} class="hover:text-txt">INDECOPI</a>
@@ -19,7 +19,7 @@ const days = indecopiSortedDates.map((d) => ({ date: d, dia: getIndecopiDay(d)! 
 
   <div class="mb-8">
     <h1 class="font-display text-4xl font-bold tracking-tightest">Archivo</h1>
-    <p class="text-txt-dim mt-2">Historial de alertas de consumo de INDECOPI</p>
+    <p class="text-txt-tertiary mt-2">Historial de alertas de consumo de INDECOPI</p>
   </div>
 
   {days.length > 0 ? (
@@ -27,19 +27,19 @@ const days = indecopiSortedDates.map((d) => ({ date: d, dia: getIndecopiDay(d)! 
       <table class="w-full text-sm">
         <thead class="bg-loki-surface border-b-2 border-edge">
           <tr>
-            <th class="text-left px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Fecha</th>
-            <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Alertas</th>
+            <th class="text-left px-4 py-3 font-sans font-semibold text-txt-tertiary uppercase text-xs tracking-wider">Fecha</th>
+            <th class="text-right px-4 py-3 font-sans font-semibold text-txt-tertiary uppercase text-xs tracking-wider">Alertas</th>
           </tr>
         </thead>
         <tbody>
           {days.map(({ date, dia }) => (
             <tr class="border-b border-edge hover:bg-loki-surface/50">
               <td class="px-4 py-3">
-                <a href={`${base}/indecopi/alertas/`} class="font-display font-semibold text-txt hover:text-txt-muted">
+                <a href={`${base}/indecopi/alertas/`} class="font-display font-semibold text-txt hover:text-txt-secondary">
                   {formatFechaEs(date)}
                 </a>
               </td>
-              <td class="px-4 py-3 text-right font-mono text-txt-muted">{dia.stats.total_alertas}</td>
+              <td class="px-4 py-3 text-right font-mono text-txt-secondary">{dia.stats.total_alertas}</td>
             </tr>
           ))}
         </tbody>
@@ -47,7 +47,7 @@ const days = indecopiSortedDates.map((d) => ({ date: d, dia: getIndecopiDay(d)! 
     </div>
   ) : (
     <div class="border border-edge rounded-lg p-12 text-center">
-      <p class="text-txt-muted">Aun no hay datos de alertas en el archivo.</p>
+      <p class="text-txt-secondary">Aun no hay datos de alertas en el archivo.</p>
     </div>
   )}
 </Base>

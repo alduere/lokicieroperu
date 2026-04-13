@@ -13,7 +13,7 @@ function impactLabel(impacto: Impacto): string {
 ---
 
 <Base title={dia ? `Consumidor · ${dia.fecha}` : "Consumidor · Loki"} sourceSlug="indecopi" sourceName="INDECOPI">
-  <nav class="text-xs text-txt-dim mb-4">
+  <nav class="text-xs text-txt-tertiary mb-4">
     <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
     <a href={`${base}/indecopi/`} class="hover:text-txt">INDECOPI</a>
@@ -24,9 +24,9 @@ function impactLabel(impacto: Impacto): string {
   {dia && dia.items.length > 0 ? (
     <>
       <div class="border-b-2 border-edge pb-6 mb-8">
-        <div class="text-xs uppercase tracking-widest text-txt-dim mb-1">{formatFechaEs(dia.fecha)}</div>
+        <div class="text-xs uppercase tracking-widest text-txt-tertiary mb-1">{formatFechaEs(dia.fecha)}</div>
         <h1 class="font-display text-4xl sm:text-5xl font-extrabold tracking-tightest mb-3">Noticias del consumidor</h1>
-        <div class="flex items-center gap-6 text-sm text-txt-muted">
+        <div class="flex items-center gap-6 text-sm text-txt-secondary">
           <div><span class="font-display text-3xl font-bold text-txt">{dia.stats.total_noticias}</span> noticias</div>
         </div>
       </div>
@@ -41,11 +41,11 @@ function impactLabel(impacto: Impacto): string {
                 </div>
                 <h2 class="font-display font-bold text-lg leading-snug mb-1">{noticia.titulo}</h2>
                 {noticia.resumen ? (
-                  <p class="text-sm text-txt-muted line-clamp-3">{noticia.resumen}</p>
+                  <p class="text-sm text-txt-secondary line-clamp-3">{noticia.resumen}</p>
                 ) : noticia.extracto ? (
-                  <p class="text-sm text-txt-muted line-clamp-3">{noticia.extracto}</p>
+                  <p class="text-sm text-txt-secondary line-clamp-3">{noticia.extracto}</p>
                 ) : null}
-                <div class="flex items-center gap-3 mt-2 text-xs text-txt-dim">
+                <div class="flex items-center gap-3 mt-2 text-xs text-txt-tertiary">
                   {noticia.tags.length > 0 && (
                     <span>{noticia.tags.slice(0, 3).map((t) => `#${t}`).join(" ")}</span>
                   )}
@@ -53,7 +53,7 @@ function impactLabel(impacto: Impacto): string {
               </div>
             </div>
             {noticia.link_oficial && (
-              <a href={noticia.link_oficial} class="inline-block mt-2 text-sm font-semibold text-txt-dim hover:text-txt transition-colors" target="_blank" rel="noopener noreferrer">
+              <a href={noticia.link_oficial} class="inline-block mt-2 text-sm font-semibold text-txt-tertiary hover:text-txt transition-colors" target="_blank" rel="noopener noreferrer">
                 Ver en consumidor.gob.pe &rarr;
               </a>
             )}
@@ -64,7 +64,7 @@ function impactLabel(impacto: Impacto): string {
   ) : (
     <div class="border border-edge rounded-lg p-12 text-center">
       <h1 class="font-display text-2xl font-bold mb-2">Sin noticias</h1>
-      <p class="text-txt-muted">No hay noticias de consumidor para hoy.</p>
+      <p class="text-txt-secondary">No hay noticias de consumidor para hoy.</p>
     </div>
   )}
 </Base>

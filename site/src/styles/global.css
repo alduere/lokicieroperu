@@ -15,15 +15,15 @@
     font-optical-sizing: auto;
   }
   ::selection {
-    background: rgba(129, 140, 248, 0.3);
-    color: #fff;
+    background: rgba(26, 86, 219, 0.15);
+    color: #111;
   }
 }
 
 @layer components {
   /* ═══ IMPACT PILLS ═══ */
   .impact-pill {
-    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider;
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider;
   }
   .impact-pill.alto  { background: theme("colors.impact.alto-bg"); color: theme("colors.impact.alto"); }
   .impact-pill.medio { background: theme("colors.impact.medio-bg"); color: theme("colors.impact.medio"); }
@@ -31,35 +31,33 @@
 
   /* ═══ SOURCE TABS — pill button style ═══ */
   .source-tab {
-    @apply px-4 py-2 text-sm font-medium rounded-lg transition-all cursor-pointer;
-    color: theme("colors.txt.muted");
+    @apply px-4 py-2 text-[13px] font-medium rounded-pill transition-all cursor-pointer uppercase tracking-wide;
+    color: theme("colors.txt.secondary");
     background: transparent;
-    border: 1px solid transparent;
+    border: none;
   }
   .source-tab:hover {
     color: theme("colors.txt.DEFAULT");
-    background: theme("colors.loki.surface");
+    background: theme("colors.loki.muted");
   }
   .source-tab.active {
-    color: theme("colors.txt.DEFAULT");
-    background: theme("colors.loki.elevated");
-    border-color: theme("colors.edge.DEFAULT");
+    color: white;
+    background: theme("colors.txt.DEFAULT");
     font-weight: 600;
-    box-shadow: 0 0 12px rgba(129, 140, 248, 0.06);
   }
 
   /* ═══ RULED ITEMS ═══ */
   .ruled-item {
-    @apply py-3;
+    @apply py-3.5;
     border-bottom: 1px solid theme("colors.edge.light");
-    transition: all 0.15s ease;
+    transition: all 0.12s ease;
   }
   .ruled-item:hover {
-    background: theme("colors.loki.surface");
-    margin: 0 -12px;
-    padding-left: 12px;
-    padding-right: 12px;
-    border-radius: 8px;
+    background: theme("colors.accent.light");
+    margin: 0 -14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 6px;
     border-bottom-color: transparent;
   }
 
@@ -72,11 +70,11 @@
     content: "";
     flex: 1;
     height: 1px;
-    background: theme("colors.edge.DEFAULT");
+    background: theme("colors.edge.light");
   }
   .section-divider span {
     @apply text-[10px] uppercase tracking-[0.25em] whitespace-nowrap;
-    color: theme("colors.txt.dim");
+    color: theme("colors.txt.tertiary");
   }
 
   /* ═══ STAGGERED ENTRANCE ANIMATIONS ═══ */
@@ -131,9 +129,9 @@
   .masthead-title {
     font-family: theme("fontFamily.display");
     font-weight: 800;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: theme("colors.txt.DEFAULT");
   }
 
@@ -141,10 +139,10 @@
   .loki-card {
     background: theme("colors.loki.surface");
     border: 1px solid theme("colors.edge.light");
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 1.25rem;
   }
   .loki-card:hover {
-    border-color: theme("colors.edge.hover");
+    border-color: theme("colors.edge.DEFAULT");
   }
 }

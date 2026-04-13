@@ -7,7 +7,7 @@ const days = tfSortedDates.map((d) => ({ date: d, dia: getTfDay(d)! }));
 ---
 
 <Base title="Archivo · Tribunal Fiscal · Loki" sourceSlug="tribunal-fiscal" sourceName="Tribunal Fiscal">
-  <nav class="text-xs text-txt-dim mb-4">
+  <nav class="text-xs text-txt-tertiary mb-4">
     <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
     <a href={`${base}/tribunal-fiscal/`} class="hover:text-txt">Tribunal Fiscal</a>
@@ -17,7 +17,7 @@ const days = tfSortedDates.map((d) => ({ date: d, dia: getTfDay(d)! }));
 
   <div class="mb-8">
     <h1 class="font-display text-4xl font-bold tracking-tightest">Archivo</h1>
-    <p class="text-txt-dim mt-2">Historial de resoluciones del Tribunal Fiscal</p>
+    <p class="text-txt-tertiary mt-2">Historial de resoluciones del Tribunal Fiscal</p>
   </div>
 
   {days.length > 0 ? (
@@ -25,19 +25,19 @@ const days = tfSortedDates.map((d) => ({ date: d, dia: getTfDay(d)! }));
       <table class="w-full text-sm">
         <thead class="bg-loki-surface border-b-2 border-edge">
           <tr>
-            <th class="text-left px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Fecha</th>
-            <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Resoluciones</th>
+            <th class="text-left px-4 py-3 font-sans font-semibold text-txt-tertiary uppercase text-xs tracking-wider">Fecha</th>
+            <th class="text-right px-4 py-3 font-sans font-semibold text-txt-tertiary uppercase text-xs tracking-wider">Resoluciones</th>
           </tr>
         </thead>
         <tbody>
           {days.map(({ date, dia }) => (
             <tr class="border-b border-edge hover:bg-loki-surface/50">
               <td class="px-4 py-3">
-                <a href={`${base}/tribunal-fiscal/`} class="font-display font-semibold text-txt hover:text-txt-muted">
+                <a href={`${base}/tribunal-fiscal/`} class="font-display font-semibold text-txt hover:text-txt-secondary">
                   {formatFechaEs(date)}
                 </a>
               </td>
-              <td class="px-4 py-3 text-right font-mono text-txt-muted">{dia.stats.total_resoluciones}</td>
+              <td class="px-4 py-3 text-right font-mono text-txt-secondary">{dia.stats.total_resoluciones}</td>
             </tr>
           ))}
         </tbody>
@@ -45,7 +45,7 @@ const days = tfSortedDates.map((d) => ({ date: d, dia: getTfDay(d)! }));
     </div>
   ) : (
     <div class="border border-edge rounded-lg p-12 text-center">
-      <p class="text-txt-muted">Aun no hay datos del Tribunal Fiscal en el archivo.</p>
+      <p class="text-txt-secondary">Aun no hay datos del Tribunal Fiscal en el archivo.</p>
     </div>
   )}
 </Base>

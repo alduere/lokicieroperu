@@ -23,20 +23,20 @@ const sectoresAttr = (norma.sectores || []).join(",");
 >
   <div class="flex items-start gap-2 mb-1">
     <span class={`impact-pill ${norma.impacto} shrink-0`}>{norma.impacto}</span>
-    <div class="text-xs uppercase tracking-wider text-txt-dim truncate font-sans">
+    <div class="text-xs uppercase tracking-wider text-txt-tertiary truncate font-sans">
       {meta} &middot; {norma.entidad_emisora}
     </div>
   </div>
-  <div class={`font-display font-bold text-sm leading-snug text-txt hover:text-txt-muted ${compact ? "line-clamp-2" : ""}`}>
+  <div class={`font-display font-bold text-sm leading-snug text-txt hover:text-txt-secondary ${compact ? "line-clamp-2" : ""}`}>
     {norma.titulo_oficial}
   </div>
   {!compact && norma.resumen_ejecutivo && (
-    <p class="text-xs leading-relaxed mt-1.5 text-txt-muted line-clamp-3 font-sans">
+    <p class="text-xs leading-relaxed mt-1.5 text-txt-secondary line-clamp-3 font-sans">
       {norma.resumen_ejecutivo}
     </p>
   )}
   {compact && norma.sumilla && (
-    <p class="text-xs leading-snug mt-1 text-txt-dim line-clamp-2 italic font-sans">
+    <p class="text-xs leading-snug mt-1 text-txt-tertiary line-clamp-2 italic font-sans">
       {norma.sumilla}
     </p>
   )}

@@ -32,7 +32,7 @@ const TIPO_LABELS: Record<string, string> = {
 
 <div class="py-4 mb-6 border-b border-edge" id="filters">
   <div class="flex items-center gap-2 flex-wrap">
-    <span class="text-xs font-sans font-medium text-txt-dim uppercase tracking-widest mr-2">Filtrar:</span>
+    <span class="text-xs font-sans font-medium text-txt-tertiary uppercase tracking-widest mr-2">Filtrar:</span>
 
     <div class="flex flex-wrap gap-1.5">
       <button
@@ -59,14 +59,14 @@ const TIPO_LABELS: Record<string, string> = {
   </div>
 
   <details class="mt-3 text-xs">
-    <summary class="cursor-pointer text-txt-dim font-medium uppercase tracking-widest hover:text-txt font-sans">
+    <summary class="cursor-pointer text-txt-tertiary font-medium uppercase tracking-widest hover:text-txt font-sans">
       Filtrar por tipo de norma ({tipos.length})
     </summary>
     <div class="mt-2 flex flex-wrap gap-1.5">
       <button class="filter-chip filter-tipo active text-xs px-2.5 py-1 rounded-lg bg-loki-elevated text-txt font-medium font-sans border border-edge" data-filter-type="tipo" data-filter-value="all">Todos</button>
       {tipos.map(([code, count]) => (
         <button
-          class="filter-chip filter-tipo text-xs px-2.5 py-1 rounded-lg border border-edge-light text-txt-muted hover:bg-loki-elevated transition-colors font-mono"
+          class="filter-chip filter-tipo text-xs px-2.5 py-1 rounded-lg border border-edge-light text-txt-secondary hover:bg-loki-elevated transition-colors font-mono"
           data-filter-type="tipo"
           data-filter-value={code}
           title={TIPO_LABELS[code] || code}
@@ -77,14 +77,14 @@ const TIPO_LABELS: Record<string, string> = {
 
   {sectores.length > 0 && (
     <details class="mt-3 text-xs">
-      <summary class="cursor-pointer text-txt-dim font-medium uppercase tracking-widest hover:text-txt font-sans">
+      <summary class="cursor-pointer text-txt-tertiary font-medium uppercase tracking-widest hover:text-txt font-sans">
         Filtrar por sector ({sectores.length})
       </summary>
       <div class="mt-2 flex flex-wrap gap-1.5">
         <button class="filter-chip filter-sector active text-xs px-2.5 py-1 rounded-lg bg-loki-elevated text-txt font-medium font-sans border border-edge" data-filter-type="sector" data-filter-value="all">Todos</button>
         {sectores.map(([sector, count]) => (
           <button
-            class="filter-chip filter-sector text-xs px-2.5 py-1 rounded-lg border border-edge-light text-txt-muted hover:bg-loki-elevated transition-colors font-sans"
+            class="filter-chip filter-sector text-xs px-2.5 py-1 rounded-lg border border-edge-light text-txt-secondary hover:bg-loki-elevated transition-colors font-sans"
             data-filter-type="sector"
             data-filter-value={sector}
           >{sector.replace(/_/g, " ")} ({count})</button>
@@ -135,7 +135,7 @@ const TIPO_LABELS: Record<string, string> = {
           b.classList.toggle("active", b.getAttribute("data-filter-value") === value);
           if (b.classList.contains("active")) {
             b.classList.add("bg-loki-elevated", "text-txt", "border-edge");
-            b.classList.remove("border-edge-light", "text-txt-muted", "text-impact-alto", "text-impact-medio", "text-impact-bajo");
+            b.classList.remove("border-edge-light", "text-txt-secondary", "text-impact-alto", "text-impact-medio", "text-impact-bajo");
           } else if (type === "impacto") {
             var v = b.getAttribute("data-filter-value");
             b.classList.remove("bg-loki-elevated", "text-txt", "border-edge");
@@ -145,7 +145,7 @@ const TIPO_LABELS: Record<string, string> = {
             else if (v === "bajo") b.classList.add("text-impact-bajo");
           } else {
             b.classList.remove("bg-loki-elevated", "text-txt", "border-edge");
-            b.classList.add("border-edge-light", "text-txt-muted");
+            b.classList.add("border-edge-light", "text-txt-secondary");
           }
         });
         applyFilters();

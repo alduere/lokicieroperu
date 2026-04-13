@@ -11,7 +11,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
 <Base title={dia ? `El Peruano · Loki� · ${dia.fecha}` : "El Peruano · Loki�"} sourceSlug="elperuano" sourceName="El Peruano">
-  <nav class="text-xs text-txt-dim mb-4">
+  <nav class="text-xs text-txt-tertiary mb-4">
     <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">›</span>
     <span class="text-txt">El Peruano</span>
@@ -26,7 +26,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   ) : (
     <div class="loki-card p-12 text-center">
       <h1 class="text-2xl font-bold mb-2">Sin datos todavía</h1>
-      <p class="text-txt-dim">El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.</p>
+      <p class="text-txt-tertiary">El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.</p>
     </div>
   )}
 </Base>

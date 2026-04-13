@@ -35,18 +35,18 @@ const timeStr = updatedDate.toLocaleTimeString("es-PE", {
       <h3 class="text-lg font-bold tracking-tightest text-txt group-hover:text-txt transition-colors">
         {nombre}
       </h3>
-      <p class="text-xs text-txt-dim mt-0.5">{subtitulo}</p>
+      <p class="text-xs text-txt-tertiary mt-0.5">{subtitulo}</p>
     </div>
   </div>
 
   <div class="flex items-end gap-2 mb-4">
     <div class:list={[
       "text-5xl font-extrabold tracking-tightest leading-none",
-      isEmpty ? "text-txt-dim" : "text-txt",
+      isEmpty ? "text-txt-tertiary" : "text-txt",
     ]}>
       {total}
     </div>
-    <div class="text-txt-dim pb-1 text-sm uppercase tracking-widest">{label}</div>
+    <div class="text-txt-tertiary pb-1 text-sm uppercase tracking-widest">{label}</div>
   </div>
 
   {categorias.length > 0 && (
@@ -59,7 +59,7 @@ const timeStr = updatedDate.toLocaleTimeString("es-PE", {
     </div>
   )}
 
-  <div class="text-xs text-txt-dim mt-auto">
+  <div class="text-xs text-txt-tertiary mt-auto">
     Actualizado {timeStr}
   </div>
 </a>

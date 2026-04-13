@@ -60,7 +60,7 @@ function categoriaPillClass(cat: string): string {
   if (lower.includes("econom")) return "bg-amber-500/20 text-amber-400";
   if (lower.includes("finanz")) return "bg-emerald-500/20 text-emerald-400";
   if (lower.includes("politi") || lower.includes("polit")) return "bg-rose-500/20 text-rose-400";
-  return "bg-loki-elevated text-txt-muted";
+  return "bg-loki-elevated text-txt-secondary";
 }
 
 const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
@@ -109,15 +109,15 @@ for (const r of tfItemsAll) {
           <div class="flex justify-center gap-8 sm:gap-14 text-center animate-entrance delay-2">
             <div>
               <div class="font-display font-extrabold text-4xl sm:text-5xl leading-none text-txt">{hub.stats.total_publicaciones}</div>
-              <div class="text-[10px] uppercase tracking-[0.2em] text-txt-dim mt-2 font-sans font-medium">Publicaciones</div>
+              <div class="text-[10px] uppercase tracking-[0.2em] text-txt-tertiary mt-2 font-sans font-medium">Publicaciones</div>
             </div>
             <div>
               <div class="font-display font-extrabold text-4xl sm:text-5xl leading-none text-impact-alto">{hub.stats.alertas_alto}</div>
-              <div class="text-[10px] uppercase tracking-[0.2em] text-txt-dim mt-2 font-sans font-medium">Alto impacto</div>
+              <div class="text-[10px] uppercase tracking-[0.2em] text-txt-tertiary mt-2 font-sans font-medium">Alto impacto</div>
             </div>
             <div>
               <div class="font-display font-extrabold text-4xl sm:text-5xl leading-none text-txt">{hub.stats.fuentes_activas}</div>
-              <div class="text-[10px] uppercase tracking-[0.2em] text-txt-dim mt-2 font-sans font-medium">Fuentes</div>
+              <div class="text-[10px] uppercase tracking-[0.2em] text-txt-tertiary mt-2 font-sans font-medium">Fuentes</div>
             </div>
           </div>
         )}
@@ -129,9 +129,9 @@ for (const r of tfItemsAll) {
       <div class="source-block mb-12 animate-entrance delay-4" data-source="noticias">
         <div class="flex items-end justify-between mb-2">
           <h2 class="font-display font-bold text-xl text-txt">Noticias</h2>
-          <span class="font-display font-bold text-2xl text-txt-muted">{noticiasTotal}</span>
+          <span class="font-display font-bold text-2xl text-txt-secondary">{noticiasTotal}</span>
         </div>
-        <p class="text-txt-dim text-sm mb-3">Prensa economica y politica del dia</p>
+        <p class="text-txt-tertiary text-sm mb-3">Prensa economica y politica del dia</p>
 
         {noticiasTotal > 0 && (
           <>
@@ -150,7 +150,7 @@ for (const r of tfItemsAll) {
               <div class="flex flex-wrap gap-1.5 mb-4" id="noticias-fuente-chips">
                 <button class="noticias-fuente-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-fuente="all">Todas fuentes</button>
                 {fuentesActivas.map((fuente: string) => (
-                  <button class="noticias-fuente-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-transparent text-txt-muted border border-edge-light hover:border-edge" data-fuente={fuente}>{fuente}</button>
+                  <button class="noticias-fuente-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-transparent text-txt-secondary border border-edge-light hover:border-edge" data-fuente={fuente}>{fuente}</button>
                 ))}
               </div>
             )}
@@ -158,23 +158,23 @@ for (const r of tfItemsAll) {
             <div>
               {noticiasItems.slice(0, 10).map((item: PrensaResumida) => (
                 <a href={item.url} target="_blank" rel="noopener" class="ruled-item block noticias-hub-item" data-fuente={item.fuente} data-cat={item.categoria}>
-                  <div class="flex items-center gap-2 flex-wrap text-[11px] text-txt-dim mb-1">
+                  <div class="flex items-center gap-2 flex-wrap text-[11px] text-txt-tertiary mb-1">
                     <span class={`inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-semibold flex-shrink-0 ${categoriaPillClass(item.categoria)}`}>{item.categoria}</span>
                     <span>{item.fuente_display}</span>
                     <span class="text-edge">&middot;</span>
                     <span>{item.fecha}</span>
                   </div>
                   <h3 class="font-display font-bold text-txt leading-snug">{item.titulo}</h3>
-                  {item.resumen && <p class="text-sm text-txt-muted mt-1.5 line-clamp-2">{item.resumen}</p>}
+                  {item.resumen && <p class="text-sm text-txt-secondary mt-1.5 line-clamp-2">{item.resumen}</p>}
                 </a>
               ))}
             </div>
             {noticiasTotal > 10 && (
-              <a href={`${base}/noticias/`} class="inline-block mt-4 text-sm font-medium text-txt-muted hover:text-txt transition-colors">+ {noticiasTotal - 10} mas &rarr;</a>
+              <a href={`${base}/noticias/`} class="inline-block mt-4 text-sm font-medium text-txt-secondary hover:text-txt transition-colors">+ {noticiasTotal - 10} mas &rarr;</a>
             )}
           </>
         )}
-        {noticiasTotal === 0 && <p class="text-txt-dim text-sm py-4">No hay noticias disponibles para hoy.</p>}
+        {noticiasTotal === 0 && <p class="text-txt-tertiary text-sm py-4">No hay noticias disponibles para hoy.</p>}
       </div>
 
       {/* ═══ EL PERUANO ═══ */}
@@ -182,16 +182,16 @@ for (const r of tfItemsAll) {
         <div class="source-block mb-12 animate-entrance delay-4 hidden" data-source="elperuano">
           <div class="flex items-end justify-between mb-1">
             <h2 class="font-display font-bold text-xl text-txt">{epSource.nombre}</h2>
-            <span class="font-display font-bold text-2xl text-txt-muted" id="filter-count">{epSource.total} normas</span>
+            <span class="font-display font-bold text-2xl text-txt-secondary" id="filter-count">{epSource.total} normas</span>
           </div>
-          <p class="text-txt-dim text-sm mb-1">{epSource.subtitulo}</p>
+          <p class="text-txt-tertiary text-sm mb-1">{epSource.subtitulo}</p>
           <FilterBar normas={epDay.normas} />
           {epSortedSectors.map(([sector, norms]) => (
             <article class="mb-6" data-sector-card>
               <header class="flex items-baseline justify-between gap-3 pb-2 mb-1 border-b border-edge">
                 <h3 class="font-display font-bold text-lg capitalize text-txt">
                   {sector.replace(/_/g, " ")}
-                  <span class="text-txt-dim font-sans text-sm font-normal ml-2">({norms.length})</span>
+                  <span class="text-txt-tertiary font-sans text-sm font-normal ml-2">({norms.length})</span>
                 </h3>
               </header>
               <div>
@@ -201,16 +201,16 @@ for (const r of tfItemsAll) {
                       <span class={`impact-pill ${norma.impacto} flex-shrink-0`}>{impactLabel(norma.impacto)}</span>
                       <span class="font-display font-bold text-txt leading-snug">{norma.titulo_oficial}</span>
                     </div>
-                    <div class="text-xs text-txt-dim ml-0 mt-1">{norma.tipo_corto} · {norma.entidad_emisora}</div>
+                    <div class="text-xs text-txt-tertiary ml-0 mt-1">{norma.tipo_corto} · {norma.entidad_emisora}</div>
                     {(norma.impacto === "alto" || norma.impacto === "medio") && norma.resumen_ejecutivo && (
-                      <p class="text-sm text-txt-muted mt-1.5 line-clamp-2">{norma.resumen_ejecutivo}</p>
+                      <p class="text-sm text-txt-secondary mt-1.5 line-clamp-2">{norma.resumen_ejecutivo}</p>
                     )}
                   </a>
                 ))}
               </div>
             </article>
           ))}
-          <a href={`${base}/elperuano/`} class="inline-block mt-2 text-sm font-medium text-txt-muted hover:text-txt transition-colors">Ver pagina completa &rarr;</a>
+          <a href={`${base}/elperuano/`} class="inline-block mt-2 text-sm font-medium text-txt-secondary hover:text-txt transition-colors">Ver pagina completa &rarr;</a>
         </div>
       )}
 
@@ -219,9 +219,9 @@ for (const r of tfItemsAll) {
         <div class="source-block mb-12 animate-entrance delay-5 hidden" data-source="indecopi">
           <div class="flex items-end justify-between mb-1">
             <h2 class="font-display font-bold text-xl text-txt">INDECOPI</h2>
-            <span class="font-display font-bold text-2xl text-txt-muted" id="indecopi-count">{indecopiTotal + consumidorTotal + gacetaTotal}</span>
+            <span class="font-display font-bold text-2xl text-txt-secondary" id="indecopi-count">{indecopiTotal + consumidorTotal + gacetaTotal}</span>
           </div>
-          <p class="text-txt-dim text-sm mb-3">Alertas, proteccion al consumidor, propiedad industrial</p>
+          <p class="text-txt-tertiary text-sm mb-3">Alertas, proteccion al consumidor, propiedad industrial</p>
 
           {/* Impact semaphore */}
           {(indecopiImpactCounts.alto + indecopiImpactCounts.medio + indecopiImpactCounts.bajo) > 0 && (
@@ -243,8 +243,8 @@ for (const r of tfItemsAll) {
           {indecopiTotal > 0 && (
             <div class="mb-6">
               <div class="flex items-center justify-between mb-2">
-                <h3 class="text-xs uppercase tracking-widest text-txt-dim font-medium">Alertas</h3>
-                <span class="text-xs text-txt-dim">{indecopiTotal}</span>
+                <h3 class="text-xs uppercase tracking-widest text-txt-tertiary font-medium">Alertas</h3>
+                <span class="text-xs text-txt-tertiary">{indecopiTotal}</span>
               </div>
               {indecopiItems.slice(0, 3).map((item) => (
                 <a href={`${base}/indecopi/alertas/item/${item.id}`} class="ruled-item block indecopi-item" data-impact={item.impacto}>
@@ -252,10 +252,10 @@ for (const r of tfItemsAll) {
                     <span class={`impact-pill ${item.impacto} flex-shrink-0`}>{impactLabel(item.impacto)}</span>
                     <span class="font-display font-bold text-txt leading-snug">{item.titulo}</span>
                   </div>
-                  <div class="text-xs text-txt-dim ml-0 mt-1">{item.categoria || "Alerta"} &middot; {item.marca || "Sin marca"}</div>
+                  <div class="text-xs text-txt-tertiary ml-0 mt-1">{item.categoria || "Alerta"} &middot; {item.marca || "Sin marca"}</div>
                 </a>
               ))}
-              {indecopiTotal > 3 && <a href={`${base}/indecopi/alertas/`} class="inline-block mt-2 text-xs font-medium text-txt-muted hover:text-txt transition-colors">+ {indecopiTotal - 3} mas &rarr;</a>}
+              {indecopiTotal > 3 && <a href={`${base}/indecopi/alertas/`} class="inline-block mt-2 text-xs font-medium text-txt-secondary hover:text-txt transition-colors">+ {indecopiTotal - 3} mas &rarr;</a>}
             </div>
           )}
 
@@ -263,8 +263,8 @@ for (const r of tfItemsAll) {
           {consumidorTotal > 0 && (
             <div class="mb-6">
               <div class="flex items-center justify-between mb-2">
-                <h3 class="text-xs uppercase tracking-widest text-txt-dim font-medium">Consumidor</h3>
-                <span class="text-xs text-txt-dim">{consumidorTotal}</span>
+                <h3 class="text-xs uppercase tracking-widest text-txt-tertiary font-medium">Consumidor</h3>
+                <span class="text-xs text-txt-tertiary">{consumidorTotal}</span>
               </div>
               {consumidorItems.slice(0, 3).map((noticia) => (
                 <div class="ruled-item block indecopi-item" data-impact={noticia.impacto}>
@@ -274,7 +274,7 @@ for (const r of tfItemsAll) {
                   </div>
                 </div>
               ))}
-              {consumidorTotal > 3 && <a href={`${base}/indecopi/consumidor/`} class="inline-block mt-2 text-xs font-medium text-txt-muted hover:text-txt transition-colors">+ {consumidorTotal - 3} mas &rarr;</a>}
+              {consumidorTotal > 3 && <a href={`${base}/indecopi/consumidor/`} class="inline-block mt-2 text-xs font-medium text-txt-secondary hover:text-txt transition-colors">+ {consumidorTotal - 3} mas &rarr;</a>}
             </div>
           )}
 
@@ -282,22 +282,22 @@ for (const r of tfItemsAll) {
           {gacetaTotal > 0 && (
             <div class="mb-6">
               <div class="flex items-center justify-between mb-2">
-                <h3 class="text-xs uppercase tracking-widest text-txt-dim font-medium">Gaceta PI</h3>
-                <span class="text-xs text-txt-dim">{gacetaTotal}</span>
+                <h3 class="text-xs uppercase tracking-widest text-txt-tertiary font-medium">Gaceta PI</h3>
+                <span class="text-xs text-txt-tertiary">{gacetaTotal}</span>
               </div>
               {gacetaVisible.slice(0, 5).map((item) => (
                 <a href={`${base}/indecopi/gaceta-pi/item/${item.id}`} class="ruled-item block">
                   <div class="flex items-start gap-2 mb-1">
-                    <span class="text-xs px-2 py-0.5 bg-loki-elevated border border-edge text-txt-muted rounded-md flex-shrink-0">{item.tipo_solicitud}</span>
+                    <span class="text-xs px-2 py-0.5 bg-loki-elevated border border-edge text-txt-secondary rounded-md flex-shrink-0">{item.tipo_solicitud}</span>
                     <span class="font-display font-bold text-txt leading-snug">{item.signo_solicitado}</span>
                   </div>
-                  <div class="text-xs text-txt-dim ml-0 mt-1">{item.solicitante}{item.clase ? ` · Clase ${item.clase}` : ""}</div>
+                  <div class="text-xs text-txt-tertiary ml-0 mt-1">{item.solicitante}{item.clase ? ` · Clase ${item.clase}` : ""}</div>
                 </a>
               ))}
-              {gacetaTotal > 5 && <a href={`${base}/indecopi/gaceta-pi/`} class="inline-block mt-2 text-xs font-medium text-txt-muted hover:text-txt transition-colors">+ {gacetaTotal - 5} mas &rarr;</a>}
+              {gacetaTotal > 5 && <a href={`${base}/indecopi/gaceta-pi/`} class="inline-block mt-2 text-xs font-medium text-txt-secondary hover:text-txt transition-colors">+ {gacetaTotal - 5} mas &rarr;</a>}
             </div>
           )}
-          <a href={`${base}/indecopi/`} class="inline-block mt-2 text-sm font-medium text-txt-muted hover:text-txt transition-colors">+ Ver todo en INDECOPI &rarr;</a>
+          <a href={`${base}/indecopi/`} class="inline-block mt-2 text-sm font-medium text-txt-secondary hover:text-txt transition-colors">+ Ver todo en INDECOPI &rarr;</a>
         </div>
       )}
 
@@ -306,9 +306,9 @@ for (const r of tfItemsAll) {
         <div class="source-block mb-12 animate-entrance delay-6 hidden" data-source="tribunal-fiscal">
           <div class="flex items-end justify-between mb-1">
             <h2 class="font-display font-bold text-xl text-txt">Tribunal Fiscal</h2>
-            <span class="font-display font-bold text-2xl text-txt-muted" id="tf-count">{tfTotal}</span>
+            <span class="font-display font-bold text-2xl text-txt-secondary" id="tf-count">{tfTotal}</span>
           </div>
-          <p class="text-txt-dim text-sm mb-3">Jurisprudencia tributaria — resoluciones del dia</p>
+          <p class="text-txt-tertiary text-sm mb-3">Jurisprudencia tributaria — resoluciones del dia</p>
 
           {/* Impact semaphore */}
           {(tfImpactCounts.alto + tfImpactCounts.medio + tfImpactCounts.bajo) > 0 && (
@@ -331,7 +331,7 @@ for (const r of tfItemsAll) {
             <div class="flex flex-wrap gap-1.5 mb-4" id="tf-sala-chips">
               <button class="tf-sala-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-sala="all">Todas salas</button>
               {[...tfSalas.entries()].sort((a, b) => b[1] - a[1]).map(([sala, count]) => (
-                <button class="tf-sala-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-transparent text-txt-muted border border-edge-light hover:border-edge" data-sala={sala}>{sala} ({count})</button>
+                <button class="tf-sala-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-transparent text-txt-secondary border border-edge-light hover:border-edge" data-sala={sala}>{sala} ({count})</button>
               ))}
             </div>
           )}
@@ -342,22 +342,22 @@ for (const r of tfItemsAll) {
                 <span class={`impact-pill ${item.impacto} flex-shrink-0`}>{impactLabel(item.impacto)}</span>
                 <span class="font-display font-bold text-txt leading-snug">{item.numero_rtf}</span>
               </div>
-              {item.sumilla && <p class="text-sm text-txt-muted mt-1 line-clamp-2">{item.sumilla}</p>}
-              <div class="text-xs text-txt-dim ml-0 mt-1 flex items-center gap-2">
-                {item.sala && <span class="px-2 py-0.5 bg-loki-elevated border border-edge text-txt-muted rounded-md">{item.sala}</span>}
+              {item.sumilla && <p class="text-sm text-txt-secondary mt-1 line-clamp-2">{item.sumilla}</p>}
+              <div class="text-xs text-txt-tertiary ml-0 mt-1 flex items-center gap-2">
+                {item.sala && <span class="px-2 py-0.5 bg-loki-elevated border border-edge text-txt-secondary rounded-md">{item.sala}</span>}
                 {item.tema_tributario && <span>{item.tema_tributario}</span>}
               </div>
             </a>
           ))}
-          {tfRemaining > 0 && <a href={`${base}/tribunal-fiscal/`} class="inline-block mt-4 text-sm font-medium text-txt-muted hover:text-txt transition-colors">+ {tfRemaining} mas &rarr;</a>}
+          {tfRemaining > 0 && <a href={`${base}/tribunal-fiscal/`} class="inline-block mt-4 text-sm font-medium text-txt-secondary hover:text-txt transition-colors">+ {tfRemaining} mas &rarr;</a>}
         </div>
       ) : (
         <div class="source-block mb-6 opacity-40 hidden" data-source="tribunal-fiscal">
           <div class="flex items-end justify-between pb-2 border-b border-edge">
             <h2 class="font-display font-bold text-lg text-txt">Tribunal Fiscal</h2>
-            <span class="font-display font-bold text-xl text-txt-dim">0</span>
+            <span class="font-display font-bold text-xl text-txt-tertiary">0</span>
           </div>
-          <p class="text-txt-dim text-sm mt-1">Jurisprudencia tributaria — resoluciones del dia</p>
+          <p class="text-txt-tertiary text-sm mt-1">Jurisprudencia tributaria — resoluciones del dia</p>
         </div>
       )}
 
@@ -370,9 +370,9 @@ for (const r of tfItemsAll) {
           <div class="source-block mb-6 opacity-40" data-source={mapped}>
             <div class="flex items-end justify-between pb-2 border-b border-edge">
               <h2 class="font-display font-bold text-lg text-txt">{source.nombre}</h2>
-              <span class="font-display font-bold text-xl text-txt-dim">0</span>
+              <span class="font-display font-bold text-xl text-txt-tertiary">0</span>
             </div>
-            <p class="text-txt-dim text-sm mt-1">{source.subtitulo}</p>
+            <p class="text-txt-tertiary text-sm mt-1">{source.subtitulo}</p>
           </div>
         );
       })}
@@ -380,7 +380,7 @@ for (const r of tfItemsAll) {
   ) : (
     <section class="text-center py-16">
       <h1 class="font-display font-extrabold text-3xl mb-3 text-txt">Sin datos todavia</h1>
-      <p class="text-txt-dim font-sans">El primer scraping aun no se ha ejecutado. Vuelve manana despues de las 7:00 AM Lima.</p>
+      <p class="text-txt-tertiary font-sans">El primer scraping aun no se ha ejecutado. Vuelve manana despues de las 7:00 AM Lima.</p>
     </section>
   )}
 </Base>
@@ -423,7 +423,7 @@ for (const r of tfItemsAll) {
     }
 
     const active = ["bg-loki-elevated", "text-txt", "border-edge"];
-    const inactive = ["bg-transparent", "text-txt-muted", "border-edge-light"];
+    const inactive = ["bg-transparent", "text-txt-secondary", "border-edge-light"];
 
     // Noticias: category filter
     setupChipFilter(".noticias-cat-chip", ".noticias-hub-item", "cat", active, inactive);

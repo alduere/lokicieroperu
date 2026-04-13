@@ -36,24 +36,24 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
   <meta name="description" content={description} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,400&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%8D%3C/text%3E%3C/svg%3E" />
 </head>
 <body class="min-h-screen font-sans">
 
-  <header class="sticky top-0 z-50 bg-loki-bg/95 backdrop-blur-md border-b border-edge">
+  <header class="sticky top-0 z-50 bg-loki-surface/95 backdrop-blur-md border-b border-edge">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       {/* Financial ticker */}
       {finData && (
         <div class="flex items-center gap-3 py-1.5 overflow-x-auto scrollbar-none border-b border-edge-light text-[11px] font-sans tracking-wide">
-          <span class="text-txt-dim font-semibold uppercase flex-shrink-0">Mercados</span>
+          <span class="text-txt-tertiary font-semibold uppercase flex-shrink-0">Mercados</span>
           {finData.usd_pen.valor > 0 && (
             <>
               <span class="text-edge">|</span>
               <span class="flex items-center gap-1 flex-shrink-0">
                 <span class="font-medium text-txt">USD/PEN</span>
-                <span class="font-mono text-txt-muted">{finData.usd_pen.valor.toFixed(4)}</span>
-                <span class={`font-mono ${finData.usd_pen.variacion_pct > 0 ? "text-impact-bajo" : finData.usd_pen.variacion_pct < 0 ? "text-impact-alto" : "text-txt-dim"}`}>
+                <span class="font-mono text-txt-secondary">{finData.usd_pen.valor.toFixed(4)}</span>
+                <span class={`font-mono ${finData.usd_pen.variacion_pct > 0 ? "text-impact-bajo" : finData.usd_pen.variacion_pct < 0 ? "text-impact-alto" : "text-txt-tertiary"}`}>
                   {finData.usd_pen.variacion_pct > 0 ? "+" : ""}{finData.usd_pen.variacion_pct.toFixed(2)}%
                 </span>
               </span>
@@ -64,8 +64,8 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
               <span class="text-edge">|</span>
               <span class="flex items-center gap-1 flex-shrink-0">
                 <span class="font-medium text-txt">{m.simbolo}</span>
-                <span class="font-mono text-txt-muted">{m.valor.toFixed(2)}</span>
-                <span class={`font-mono ${m.variacion_pct > 0 ? "text-impact-bajo" : m.variacion_pct < 0 ? "text-impact-alto" : "text-txt-dim"}`}>
+                <span class="font-mono text-txt-secondary">{m.valor.toFixed(2)}</span>
+                <span class={`font-mono ${m.variacion_pct > 0 ? "text-impact-bajo" : m.variacion_pct < 0 ? "text-impact-alto" : "text-txt-tertiary"}`}>
                   {m.variacion_pct > 0 ? "+" : ""}{m.variacion_pct.toFixed(2)}%
                 </span>
               </span>
@@ -80,15 +80,15 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
           <span class="masthead-title group-hover:text-accent transition-colors duration-200">Loki</span>
         </a>
         <div class="flex items-center gap-3">
-          <span class="text-[11px] text-txt-dim hidden sm:block">{todayStr}</span>
+          <span class="text-[11px] text-txt-tertiary hidden sm:block">{todayStr}</span>
           <nav class="flex items-center gap-1 text-[13px] font-sans">
             {isHub ? (
               <>
-                <a href={`${base}/buscar`} class="px-2.5 py-1 text-txt-muted hover:text-txt transition-colors rounded-md hover:bg-loki-surface">Buscar</a>
+                <a href={`${base}/buscar`} class="px-2.5 py-1 text-txt-secondary hover:text-txt transition-colors rounded-md hover:bg-loki-surface">Buscar</a>
               </>
             ) : (
               <>
-                <a href={`${base}/`} class="px-2.5 py-1 text-txt-muted hover:text-txt transition-colors rounded-md hover:bg-loki-surface">Inicio</a>
+                <a href={`${base}/`} class="px-2.5 py-1 text-txt-secondary hover:text-txt transition-colors rounded-md hover:bg-loki-surface">Inicio</a>
                 <span class="text-edge">/</span>
                 <span class="px-2.5 py-1 font-medium text-txt">{sourceName}</span>
               </>
@@ -101,7 +101,7 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
 
   {/* ═══ TABS BAR ═══ */}
   {isHub && (
-    <nav class="bg-loki-bg border-b border-edge">
+    <nav class="bg-loki-surface border-b border-edge">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-1.5 py-2 overflow-x-auto">
         <button class="source-tab active" data-source="noticias">Noticias</button>
         <button class="source-tab" data-source="elperuano">El Peruano</button>
@@ -112,7 +112,7 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
   )}
 
   {sourceSlug === "noticias" && (
-    <nav class="bg-loki-bg border-b border-edge">
+    <nav class="bg-loki-surface border-b border-edge">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-1.5 py-2 overflow-x-auto">
         <a href={`${base}/noticias/`} class="source-tab">Hoy</a>
         <a href={`${base}/noticias/archivo`} class="source-tab">Archivo</a>
@@ -121,7 +121,7 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
   )}
 
   {sourceSlug === "indecopi" && (
-    <nav class="bg-loki-bg border-b border-edge">
+    <nav class="bg-loki-surface border-b border-edge">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-1.5 py-2 overflow-x-auto">
         <a href={`${base}/indecopi/`} class="source-tab">Resumen</a>
         <a href={`${base}/indecopi/alertas/`} class="source-tab">Alertas</a>
@@ -132,7 +132,7 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
   )}
 
   {sourceSlug === "tribunal-fiscal" && (
-    <nav class="bg-loki-bg border-b border-edge">
+    <nav class="bg-loki-surface border-b border-edge">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-1.5 py-2 overflow-x-auto">
         <a href={`${base}/tribunal-fiscal/`} class="source-tab">Resoluciones</a>
         <a href={`${base}/tribunal-fiscal/archivo`} class="source-tab">Archivo</a>
@@ -141,7 +141,7 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
   )}
 
   {sourceSlug === "elperuano" && (
-    <nav class="bg-loki-bg border-b border-edge">
+    <nav class="bg-loki-surface border-b border-edge">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 flex gap-1.5 py-2 overflow-x-auto">
         <a href={`${base}/elperuano/`} class="source-tab">Hoy</a>
         <a href={`${base}/elperuano/buscar`} class="source-tab">Buscar</a>
@@ -159,7 +159,7 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
       <div class="flex flex-col sm:flex-row items-start justify-between gap-6">
         <div class="max-w-sm">
           <div class="font-display font-bold text-lg mb-2 text-txt">Loki</div>
-          <p class="text-xs text-txt-dim leading-relaxed">
+          <p class="text-xs text-txt-tertiary leading-relaxed">
             Resumen diario automatizado de normas, alertas y resoluciones regulatorias peruanas.
             Fuentes oficiales scrapeadas con IA a las 7:00 AM Lima. Los resumenes pueden contener
             errores — consulta siempre el texto oficial.
@@ -167,8 +167,8 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
         </div>
         <div class="flex gap-8 text-xs">
           <div>
-            <div class="font-medium text-txt-muted uppercase tracking-wider text-[10px] mb-2">Fuentes</div>
-            <div class="flex flex-col gap-1.5 text-txt-dim">
+            <div class="font-medium text-txt-secondary uppercase tracking-wider text-[10px] mb-2">Fuentes</div>
+            <div class="flex flex-col gap-1.5 text-txt-tertiary">
               <a href={`${base}/noticias/`} class="hover:text-txt transition-colors">Noticias</a>
               <a href={`${base}/elperuano/`} class="hover:text-txt transition-colors">El Peruano</a>
               <a href={`${base}/indecopi/`} class="hover:text-txt transition-colors">INDECOPI</a>
@@ -176,8 +176,8 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
             </div>
           </div>
           <div>
-            <div class="font-medium text-txt-muted uppercase tracking-wider text-[10px] mb-2">INDECOPI</div>
-            <div class="flex flex-col gap-1.5 text-txt-dim">
+            <div class="font-medium text-txt-secondary uppercase tracking-wider text-[10px] mb-2">INDECOPI</div>
+            <div class="flex flex-col gap-1.5 text-txt-tertiary">
               <a href={`${base}/indecopi/alertas/`} class="hover:text-txt transition-colors">Alertas</a>
               <a href={`${base}/indecopi/consumidor/`} class="hover:text-txt transition-colors">Consumidor</a>
               <a href={`${base}/indecopi/gaceta-pi/`} class="hover:text-txt transition-colors">Gaceta PI</a>
@@ -185,7 +185,7 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
           </div>
         </div>
       </div>
-      <div class="mt-8 pt-4 border-t border-edge flex items-center justify-between text-[10px] text-txt-dim">
+      <div class="mt-8 pt-4 border-t border-edge flex items-center justify-between text-[10px] text-txt-tertiary">
         <span>{epSortedDates.length} ediciones publicadas</span>
         <a href="https://github.com/alduere/lokicieroperu" class="hover:text-txt transition-colors">GitHub</a>
       </div>

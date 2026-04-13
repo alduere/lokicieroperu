@@ -5,7 +5,7 @@ import Base from "../layouts/Base.astro";
 <Base title="Buscar · Loki">
   <div class="max-w-4xl mx-auto">
     <h1 class="font-display text-4xl font-bold tracking-tightest mb-2">Buscar en todas las fuentes</h1>
-    <p class="text-txt-dim mb-8">Busqueda full-text en todas las fuentes del hub</p>
+    <p class="text-txt-tertiary mb-8">Busqueda full-text en todas las fuentes del hub</p>
 
     <div id="search" class="mb-8"></div>
 
@@ -41,50 +41,47 @@ import Base from "../layouts/Base.astro";
 </Base>
 
 <style is:global>
-  /* Custom Pagefind UI tweaks for dark theme */
   :root {
     --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: #818cf8;
-    --pagefind-ui-text: #e8e8ec;
-    --pagefind-ui-background: #14151c;
-    --pagefind-ui-border: #25262f;
-    --pagefind-ui-tag: #1c1d26;
+    --pagefind-ui-primary: #1a56db;
+    --pagefind-ui-text: #111111;
+    --pagefind-ui-background: #FFFFFF;
+    --pagefind-ui-border: #DCDCDC;
+    --pagefind-ui-tag: #F0F0F0;
     --pagefind-ui-border-width: 1px;
     --pagefind-ui-border-radius: 8px;
     --pagefind-ui-image-border-radius: 8px;
     --pagefind-ui-image-box-ratio: 3 / 2;
-    --pagefind-ui-font: "DM Sans", system-ui, sans-serif;
+    --pagefind-ui-font: "Outfit", system-ui, sans-serif;
   }
   .pagefind-ui__search-input {
     font-weight: 500;
     border-radius: 8px;
     padding: 14px 18px;
-    background: #1c1d26;
-    color: #e8e8ec;
   }
   .pagefind-ui__filter-panel {
     margin-top: 1rem;
   }
   .pagefind-ui__filter-group {
-    border: 1px solid #25262f;
+    border: 1px solid #ECECEC;
     border-radius: 8px;
     padding: 12px 16px;
     margin-bottom: 8px;
   }
   .pagefind-ui__result {
-    border-bottom: 1px solid #25262f;
+    border-bottom: 1px solid #ECECEC;
     padding: 16px 0;
     margin-bottom: 0;
   }
   .pagefind-ui__result-link {
-    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-family: "Newsreader", Georgia, serif;
     font-size: 18px;
     font-weight: 700;
-    color: #e8e8ec;
+    color: #111111;
   }
   .pagefind-ui__result-excerpt {
     font-size: 14px;
     line-height: 1.6;
-    color: #8b8c99;
+    color: #4A4A4A;
   }
 </style>

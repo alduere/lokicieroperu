@@ -14,7 +14,7 @@ const remaining = allItems.length - visibleItems.length;
 ---
 
 <Base title={dia ? `Gaceta PI · ${dia.fecha}` : "Gaceta PI · Loki"} sourceSlug="indecopi" sourceName="INDECOPI">
-  <nav class="text-xs text-txt-dim mb-4">
+  <nav class="text-xs text-txt-tertiary mb-4">
     <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
     <a href={`${base}/indecopi/`} class="hover:text-txt">INDECOPI</a>
@@ -25,14 +25,14 @@ const remaining = allItems.length - visibleItems.length;
   {dia && dia.items.length > 0 ? (
     <>
       <div class="border-b-2 border-edge pb-6 mb-8">
-        <div class="text-xs uppercase tracking-widest text-txt-dim mb-1">{formatFechaEs(dia.fecha)}</div>
+        <div class="text-xs uppercase tracking-widest text-txt-tertiary mb-1">{formatFechaEs(dia.fecha)}</div>
         <h1 class="font-display text-4xl sm:text-5xl font-extrabold tracking-tightest mb-3">Gaceta de Propiedad Industrial</h1>
-        <div class="flex items-center gap-6 text-sm text-txt-muted flex-wrap">
+        <div class="flex items-center gap-6 text-sm text-txt-secondary flex-wrap">
           <div><span class="font-display text-3xl font-bold text-txt">{dia.stats.total_solicitudes}</span> solicitudes</div>
           {dia.stats.por_tipo.length > 0 && (
             <div class="flex gap-3 flex-wrap">
               {dia.stats.por_tipo.map(([tipo, count]) => (
-                <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-muted rounded-full">
+                <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-secondary rounded-full">
                   {tipo} {count}
                 </span>
               ))}
@@ -47,13 +47,13 @@ const remaining = allItems.length - visibleItems.length;
             <div class="flex items-start justify-between gap-4">
               <div class="flex-1">
                 <div class="flex items-center gap-2 mb-2">
-                  <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-muted rounded-full">{item.tipo_solicitud}</span>
+                  <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-secondary rounded-full">{item.tipo_solicitud}</span>
                   {item.clase && (
-                    <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-dim rounded-full">Clase {item.clase}</span>
+                    <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-tertiary rounded-full">Clase {item.clase}</span>
                   )}
                 </div>
                 <h2 class="font-display font-bold text-lg leading-snug mb-1">{item.signo_solicitado}</h2>
-                <div class="text-sm text-txt-muted">{item.solicitante}</div>
+                <div class="text-sm text-txt-secondary">{item.solicitante}</div>
               </div>
             </div>
           </a>
@@ -62,7 +62,7 @@ const remaining = allItems.length - visibleItems.length;
 
       {remaining > 0 && (
         <div class="mt-6 text-center">
-          <span class="text-sm text-txt-dim">
+          <span class="text-sm text-txt-tertiary">
             + {remaining} solicitudes mas en este dia.
             <a href={`${base}/indecopi/gaceta-pi/archivo`} class="font-semibold hover:text-txt transition-colors">Ver archivo &rarr;</a>
           </span>
@@ -72,7 +72,7 @@ const remaining = allItems.length - visibleItems.length;
   ) : (
     <div class="border border-edge rounded-lg p-12 text-center">
       <h1 class="font-display text-2xl font-bold mb-2">Sin solicitudes</h1>
-      <p class="text-txt-muted">No hay publicaciones de la Gaceta de Propiedad Industrial para hoy.</p>
+      <p class="text-txt-secondary">No hay publicaciones de la Gaceta de Propiedad Industrial para hoy.</p>
     </div>
   )}
 </Base>
