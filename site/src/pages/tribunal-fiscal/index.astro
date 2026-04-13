@@ -8,39 +8,39 @@ const dia = date ? getTfDay(date) : null;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={dia ? `Tribunal Fiscal · ${dia.fecha}` : "Tribunal Fiscal · Loki-ciero Peru"} sourceSlug="tribunal-fiscal" sourceName="Tribunal Fiscal">
-  <nav class="text-xs text-ink-sepia mb-4">
-    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+<Base title={dia ? `Tribunal Fiscal · ${dia.fecha}` : "Tribunal Fiscal · Loki"} sourceSlug="tribunal-fiscal" sourceName="Tribunal Fiscal">
+  <nav class="text-xs text-txt-dim mb-4">
+    <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
-    <span class="text-ink">Tribunal Fiscal</span>
+    <span class="text-txt">Tribunal Fiscal</span>
   </nav>
 
   {dia && dia.items.length > 0 ? (
     <>
-      <div class="border-b-2 border-ink pb-6 mb-8">
-        <div class="text-xs uppercase tracking-widest text-ink-sepia mb-1">{formatFechaEs(dia.fecha)}</div>
-        <h1 class="font-display text-4xl sm:text-5xl font-black tracking-tightest mb-3">Tribunal Fiscal</h1>
-        <div class="flex items-center gap-6 text-sm text-ink-light">
-          <div><span class="font-display text-3xl font-bold text-ink">{dia.stats.total_resoluciones}</span> resoluciones</div>
+      <div class="border-b-2 border-edge pb-6 mb-8">
+        <div class="text-xs uppercase tracking-widest text-txt-dim mb-1">{formatFechaEs(dia.fecha)}</div>
+        <h1 class="font-display text-4xl sm:text-5xl font-extrabold tracking-tightest mb-3">Tribunal Fiscal</h1>
+        <div class="flex items-center gap-6 text-sm text-txt-muted">
+          <div><span class="font-display text-3xl font-bold text-txt">{dia.stats.total_resoluciones}</span> resoluciones</div>
         </div>
       </div>
 
-      <div class="divide-y divide-ink-rule">
+      <div class="divide-y divide-edge">
         {dia.items.map((item: ResolucionTFResumida) => (
-          <a href={`${base}/tribunal-fiscal/item/${item.id}`} class="ruled-item block py-5 hover:bg-parchment-light/50 transition-colors">
+          <a href={`${base}/tribunal-fiscal/item/${item.id}`} class="ruled-item block py-5 hover:bg-loki-surface/50 transition-colors">
             <div class="flex items-start justify-between gap-4">
               <div class="flex-1">
                 <div class="flex items-center gap-2 mb-2">
                   <span class={`impact-pill ${item.impacto}`}>{item.impacto}</span>
                   {item.sala && (
-                    <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full">{item.sala}</span>
+                    <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-muted rounded-full">{item.sala}</span>
                   )}
                 </div>
                 <h2 class="font-display font-bold text-lg leading-snug mb-1">{item.numero_rtf}</h2>
                 {item.sumilla && (
-                  <p class="text-sm text-ink-light line-clamp-2">{item.sumilla}</p>
+                  <p class="text-sm text-txt-muted line-clamp-2">{item.sumilla}</p>
                 )}
-                <div class="flex items-center gap-3 mt-2 text-xs text-ink-sepia">
+                <div class="flex items-center gap-3 mt-2 text-xs text-txt-dim">
                   {item.tema_tributario && <span>{item.tema_tributario}</span>}
                   {item.numero_expediente && <span>Exp. {item.numero_expediente}</span>}
                 </div>
@@ -51,9 +51,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       </div>
     </>
   ) : (
-    <div class="border border-ink-rule rounded-lg p-12 text-center">
+    <div class="border border-edge rounded-lg p-12 text-center">
       <h1 class="font-display text-2xl font-bold mb-2">Sin resoluciones</h1>
-      <p class="text-ink-light">No hay resoluciones del Tribunal Fiscal para hoy.</p>
+      <p class="text-txt-muted">No hay resoluciones del Tribunal Fiscal para hoy.</p>
     </div>
   )}
 </Base>

@@ -10,11 +10,11 @@ const dia = date ? getEpDay(date) : null;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={dia ? `El Peruano · Loki-ciero Perú · ${dia.fecha}` : "El Peruano · Loki-ciero Perú"} sourceSlug="elperuano" sourceName="El Peruano">
-  <nav class="text-xs text-ink-500 mb-4">
-    <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+<Base title={dia ? `El Peruano · Loki� · ${dia.fecha}` : "El Peruano · Loki�"} sourceSlug="elperuano" sourceName="El Peruano">
+  <nav class="text-xs text-txt-dim mb-4">
+    <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">›</span>
-    <span class="text-ink-700">El Peruano</span>
+    <span class="text-txt">El Peruano</span>
   </nav>
 
   {dia ? (
@@ -24,9 +24,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       <BentoGrid dia={dia} />
     </>
   ) : (
-    <div class="glass p-12 text-center">
+    <div class="loki-card p-12 text-center">
       <h1 class="text-2xl font-bold mb-2">Sin datos todavía</h1>
-      <p class="text-ink-600">El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.</p>
+      <p class="text-txt-dim">El primer scraping aún no se ha ejecutado. Vuelve mañana después de las 7:00 AM Lima.</p>
     </div>
   )}
 </Base>

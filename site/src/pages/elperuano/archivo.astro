@@ -6,46 +6,46 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const days = epSortedDates.map((d) => ({ date: d, dia: getEpDay(d)! }));
 ---
 
-<Base title="Archivo · El Peruano · Loki-ciero Perú" sourceSlug="elperuano" sourceName="El Peruano">
-  <nav class="text-xs text-ink-sepia mb-4">
-    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+<Base title="Archivo · El Peruano · Loki�" sourceSlug="elperuano" sourceName="El Peruano">
+  <nav class="text-xs text-txt-dim mb-4">
+    <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">›</span>
-    <a href={`${base}/elperuano/`} class="hover:text-ink">El Peruano</a>
+    <a href={`${base}/elperuano/`} class="hover:text-txt">El Peruano</a>
     <span class="mx-1">›</span>
-    <span class="text-ink">Archivo</span>
+    <span class="text-txt">Archivo</span>
   </nav>
 
   <div class="mb-8">
     <h1 class="font-display text-4xl font-bold tracking-tightest">Archivo</h1>
-    <p class="text-ink-sepia mt-2">Todas las ediciones diarias publicadas en El Peruano</p>
+    <p class="text-txt-dim mt-2">Todas las ediciones diarias publicadas en El Peruano</p>
   </div>
 
-  <div class="overflow-hidden border-t-2 border-ink">
+  <div class="overflow-hidden border-t-2 border-edge">
     <table class="w-full text-sm">
-      <thead class="bg-parchment-light border-b-2 border-ink">
+      <thead class="bg-loki-surface border-b-2 border-edge">
         <tr>
-          <th class="text-left px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Fecha</th>
-          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Total</th>
-          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Alto</th>
-          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Medio</th>
-          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Bajo</th>
-          <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">PDF</th>
+          <th class="text-left px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Fecha</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Total</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Alto</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Medio</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Bajo</th>
+          <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">PDF</th>
         </tr>
       </thead>
       <tbody>
         {days.map(({ date, dia }) => (
-          <tr class="border-b border-ink-rule-light hover:bg-parchment-light/50">
+          <tr class="border-b border-edge hover:bg-loki-surface/50">
             <td class="px-4 py-3">
-              <a href={`${base}/elperuano/${date}`} class="font-display font-semibold text-ink hover:text-ink-light">
+              <a href={`${base}/elperuano/${date}`} class="font-display font-semibold text-txt hover:text-txt-muted">
                 {formatFechaEs(date)}
               </a>
             </td>
-            <td class="px-4 py-3 text-right font-mono text-ink-light">{dia.stats.total_normas}</td>
+            <td class="px-4 py-3 text-right font-mono text-txt-muted">{dia.stats.total_normas}</td>
             <td class="px-4 py-3 text-right font-mono text-impact-alto">{dia.stats.alto}</td>
             <td class="px-4 py-3 text-right font-mono text-impact-medio">{dia.stats.medio}</td>
             <td class="px-4 py-3 text-right font-mono text-impact-bajo">{dia.stats.bajo}</td>
             <td class="px-4 py-3 text-right">
-              <a href={`${base}/pdfs/${date}.pdf`} class="text-ink-sepia hover:text-ink text-xs">↓ PDF</a>
+              <a href={`${base}/pdfs/${date}.pdf`} class="text-txt-dim hover:text-txt text-xs">↓ PDF</a>
             </td>
           </tr>
         ))}

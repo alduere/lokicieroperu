@@ -18,11 +18,11 @@ const { dia } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
-<Base title={`El Peruano · Loki-ciero Perú · ${dia.fecha}`} sourceSlug="elperuano" sourceName="El Peruano">
-  <nav class="text-xs text-ink-500 mb-4">
-    <a href={`${base}/`} class="hover:text-ink-900">Inicio</a>
+<Base title={`El Peruano · Loki� · ${dia.fecha}`} sourceSlug="elperuano" sourceName="El Peruano">
+  <nav class="text-xs text-txt-dim mb-4">
+    <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">›</span>
-    <a href={`${base}/elperuano/`} class="hover:text-ink-900">El Peruano</a>
+    <a href={`${base}/elperuano/`} class="hover:text-txt">El Peruano</a>
   </nav>
 
   <StatsHero dia={dia} />

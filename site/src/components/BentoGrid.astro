@@ -39,10 +39,10 @@ for (const [, norms] of sortedGroups) {
       {dia.documentos.map((d) => (
         <li class="ruled-item flex items-center justify-between gap-3">
           <div>
-            <div class="font-display font-semibold text-ink text-xs uppercase tracking-wider">{d.seccion.replace(/_/g, " ")}</div>
-            <div class="text-ink-sepia text-xs font-sans">Edici&oacute;n {d.edicion}</div>
+            <div class="font-display font-semibold text-txt text-xs uppercase tracking-wider">{d.seccion.replace(/_/g, " ")}</div>
+            <div class="text-txt-dim text-xs font-sans">Edici&oacute;n {d.edicion}</div>
           </div>
-          <a href={d.descarga_url} class="text-ink-sepia hover:text-ink text-xs font-sans">PDF &rarr;</a>
+          <a href={d.descarga_url} class="text-txt-dim hover:text-txt text-xs font-sans">PDF &rarr;</a>
         </li>
       ))}
     </ul>

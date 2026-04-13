@@ -6,46 +6,46 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const days = tfSortedDates.map((d) => ({ date: d, dia: getTfDay(d)! }));
 ---
 
-<Base title="Archivo · Tribunal Fiscal · Loki-ciero Peru" sourceSlug="tribunal-fiscal" sourceName="Tribunal Fiscal">
-  <nav class="text-xs text-ink-sepia mb-4">
-    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+<Base title="Archivo · Tribunal Fiscal · Loki" sourceSlug="tribunal-fiscal" sourceName="Tribunal Fiscal">
+  <nav class="text-xs text-txt-dim mb-4">
+    <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
-    <a href={`${base}/tribunal-fiscal/`} class="hover:text-ink">Tribunal Fiscal</a>
+    <a href={`${base}/tribunal-fiscal/`} class="hover:text-txt">Tribunal Fiscal</a>
     <span class="mx-1">&rsaquo;</span>
-    <span class="text-ink">Archivo</span>
+    <span class="text-txt">Archivo</span>
   </nav>
 
   <div class="mb-8">
     <h1 class="font-display text-4xl font-bold tracking-tightest">Archivo</h1>
-    <p class="text-ink-sepia mt-2">Historial de resoluciones del Tribunal Fiscal</p>
+    <p class="text-txt-dim mt-2">Historial de resoluciones del Tribunal Fiscal</p>
   </div>
 
   {days.length > 0 ? (
-    <div class="overflow-hidden border-t-2 border-ink">
+    <div class="overflow-hidden border-t-2 border-edge">
       <table class="w-full text-sm">
-        <thead class="bg-parchment-light border-b-2 border-ink">
+        <thead class="bg-loki-surface border-b-2 border-edge">
           <tr>
-            <th class="text-left px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Fecha</th>
-            <th class="text-right px-4 py-3 font-sans font-semibold text-ink-sepia uppercase text-xs tracking-wider">Resoluciones</th>
+            <th class="text-left px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Fecha</th>
+            <th class="text-right px-4 py-3 font-sans font-semibold text-txt-dim uppercase text-xs tracking-wider">Resoluciones</th>
           </tr>
         </thead>
         <tbody>
           {days.map(({ date, dia }) => (
-            <tr class="border-b border-ink-rule-light hover:bg-parchment-light/50">
+            <tr class="border-b border-edge hover:bg-loki-surface/50">
               <td class="px-4 py-3">
-                <a href={`${base}/tribunal-fiscal/`} class="font-display font-semibold text-ink hover:text-ink-light">
+                <a href={`${base}/tribunal-fiscal/`} class="font-display font-semibold text-txt hover:text-txt-muted">
                   {formatFechaEs(date)}
                 </a>
               </td>
-              <td class="px-4 py-3 text-right font-mono text-ink-light">{dia.stats.total_resoluciones}</td>
+              <td class="px-4 py-3 text-right font-mono text-txt-muted">{dia.stats.total_resoluciones}</td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
   ) : (
-    <div class="border border-ink-rule rounded-lg p-12 text-center">
-      <p class="text-ink-light">Aun no hay datos del Tribunal Fiscal en el archivo.</p>
+    <div class="border border-edge rounded-lg p-12 text-center">
+      <p class="text-txt-muted">Aun no hay datos del Tribunal Fiscal en el archivo.</p>
     </div>
   )}
 </Base>

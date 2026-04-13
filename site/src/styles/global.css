@@ -6,102 +6,60 @@
   html {
     -webkit-font-smoothing: antialiased;
     font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
-    hanging-punctuation: first last;
     text-rendering: optimizeLegibility;
   }
   body {
-    @apply bg-parchment text-ink;
-    position: relative;
+    @apply bg-loki-bg text-txt;
   }
-  /* Paper grain texture overlay */
-  body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: 9999;
-    pointer-events: none;
-    opacity: 0.3;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E");
-    background-size: 256px 256px;
-  }
-  /* Playfair optical sizing */
   .font-display {
     font-optical-sizing: auto;
+  }
+  ::selection {
+    background: rgba(129, 140, 248, 0.3);
+    color: #fff;
   }
 }
 
 @layer components {
-  /* ═══ DOUBLE RULES — classic broadsheet borders ═══ */
-  .double-rule-bottom {
-    border-bottom: 3px solid theme("colors.ink.DEFAULT");
-    position: relative;
-  }
-  .double-rule-bottom::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid theme("colors.ink.DEFAULT");
-    margin-top: 2px;
-  }
-
-  .double-rule-top {
-    position: relative;
-    padding-top: 6px;
-  }
-  .double-rule-top::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-top: 3px solid theme("colors.ink.DEFAULT");
-  }
-  .double-rule-top::after {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 0;
-    right: 0;
-    border-top: 1px solid theme("colors.ink.DEFAULT");
-  }
-
   /* ═══ IMPACT PILLS ═══ */
   .impact-pill {
-    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider;
-    letter-spacing: 0.08em;
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider;
   }
-  .impact-pill.alto  { background: rgba(139, 32, 32, 0.12); color: theme("colors.impact.alto"); }
-  .impact-pill.medio { background: rgba(154, 107, 26, 0.12); color: theme("colors.impact.medio"); }
-  .impact-pill.bajo  { background: rgba(58, 107, 58, 0.12);  color: theme("colors.impact.bajo"); }
+  .impact-pill.alto  { background: theme("colors.impact.alto-bg"); color: theme("colors.impact.alto"); }
+  .impact-pill.medio { background: theme("colors.impact.medio-bg"); color: theme("colors.impact.medio"); }
+  .impact-pill.bajo  { background: theme("colors.impact.bajo-bg");  color: theme("colors.impact.bajo"); }
 
-  /* ═══ SOURCE TABS ═══ */
+  /* ═══ SOURCE TABS — pill button style ═══ */
   .source-tab {
-    @apply px-4 py-2.5 text-sm font-semibold transition-all cursor-pointer;
-    color: theme("colors.ink.sepia");
-    border-bottom: 2px solid transparent;
-    margin-bottom: -1px;
-    position: relative;
+    @apply px-4 py-2 text-sm font-medium rounded-lg transition-all cursor-pointer;
+    color: theme("colors.txt.muted");
+    background: transparent;
+    border: 1px solid transparent;
   }
   .source-tab:hover {
-    color: theme("colors.ink.light");
+    color: theme("colors.txt.DEFAULT");
+    background: theme("colors.loki.surface");
   }
   .source-tab.active {
-    color: theme("colors.ink.DEFAULT");
-    border-bottom-color: theme("colors.ink.DEFAULT");
-    font-weight: 700;
+    color: theme("colors.txt.DEFAULT");
+    background: theme("colors.loki.elevated");
+    border-color: theme("colors.edge.DEFAULT");
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(129, 140, 248, 0.06);
   }
 
   /* ═══ RULED ITEMS ═══ */
   .ruled-item {
     @apply py-3;
-    border-bottom: 1px solid theme("colors.ink.rule-light");
-    transition: all 0.2s ease;
+    border-bottom: 1px solid theme("colors.edge.light");
+    transition: all 0.15s ease;
   }
   .ruled-item:hover {
-    background: rgba(44, 24, 16, 0.025);
+    background: theme("colors.loki.surface");
     margin: 0 -12px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 3px;
+    border-radius: 8px;
     border-bottom-color: transparent;
   }
 
@@ -114,31 +72,11 @@
     content: "";
     flex: 1;
     height: 1px;
-    background: theme("colors.ink.rule");
+    background: theme("colors.edge.DEFAULT");
   }
   .section-divider span {
     @apply text-[10px] uppercase tracking-[0.25em] whitespace-nowrap;
-    color: theme("colors.ink.sepia");
-  }
-
-  /* ═══ ORNAMENTAL DIVIDER — diamond motif ═══ */
-  .ornament {
-    @apply flex items-center justify-center gap-3 my-8;
-    color: theme("colors.ink.rule");
-  }
-  .ornament::before,
-  .ornament::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: theme("colors.ink.rule");
-  }
-  .ornament-diamond {
-    width: 6px;
-    height: 6px;
-    background: theme("colors.ink.rule");
-    transform: rotate(45deg);
-    flex-shrink: 0;
+    color: theme("colors.txt.dim");
   }
 
   /* ═══ STAGGERED ENTRANCE ANIMATIONS ═══ */
@@ -156,19 +94,14 @@
     from { opacity: 0; }
     to { opacity: 1; }
   }
-  @keyframes ruleExpand {
-    from { transform: scaleX(0); }
-    to { transform: scaleX(1); }
-  }
 
   .animate-entrance {
-    animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
   }
   .animate-fade {
-    animation: fadeIn 0.5s ease both;
+    animation: fadeIn 0.4s ease both;
   }
 
-  /* Stagger delays */
   .delay-1 { animation-delay: 0.05s; }
   .delay-2 { animation-delay: 0.1s; }
   .delay-3 { animation-delay: 0.15s; }
@@ -177,7 +110,7 @@
   .delay-6 { animation-delay: 0.3s; }
   .delay-7 { animation-delay: 0.35s; }
 
-  /* ═══ SOURCE BLOCK HOVER ═══ */
+  /* ═══ SOURCE BLOCKS ═══ */
   .source-block {
     transition: opacity 0.3s ease;
   }
@@ -185,7 +118,7 @@
     display: none;
   }
 
-  /* ═══ SCROLLBAR HIDDEN (for financial ticker) ═══ */
+  /* ═══ SCROLLBAR ═══ */
   .scrollbar-none {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -197,16 +130,21 @@
   /* ═══ MASTHEAD ═══ */
   .masthead-title {
     font-family: theme("fontFamily.display");
-    font-weight: 900;
-    letter-spacing: -0.02em;
+    font-weight: 800;
+    letter-spacing: -0.03em;
     line-height: 1;
-    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-size: 1.5rem;
+    color: theme("colors.txt.DEFAULT");
   }
-  .masthead-subtitle {
-    font-size: 9px;
-    text-transform: uppercase;
-    letter-spacing: 0.25em;
-    color: theme("colors.ink.sepia");
-    margin-top: 2px;
+
+  /* ═══ CARD ═══ */
+  .loki-card {
+    background: theme("colors.loki.surface");
+    border: 1px solid theme("colors.edge.light");
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+  .loki-card:hover {
+    border-color: theme("colors.edge.hover");
   }
 }

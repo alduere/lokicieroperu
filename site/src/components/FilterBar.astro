@@ -7,7 +7,6 @@ interface Props {
 
 const { normas } = Astro.props;
 
-// Compute counts per tipo and per impacto
 const tipoCounts = new Map<string, number>();
 const impactoCounts = new Map<string, number>();
 const sectorCounts = new Map<string, number>();
@@ -20,56 +19,39 @@ const tipos = [...tipoCounts.entries()].sort((a, b) => b[1] - a[1]);
 const sectores = [...sectorCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
 
 const TIPO_LABELS: Record<string, string> = {
-  DS: "Decreto Supremo",
-  DU: "Decreto de Urgencia",
-  DL: "Decreto Legislativo",
-  LEY: "Ley",
-  RM: "R. Ministerial",
-  RVM: "R. Viceministerial",
-  RD: "R. Directoral",
-  RS: "R. Superintendencia",
-  RJ: "R. Jefatural",
-  RA: "R. Administrativa",
-  RPRE: "R. Presidencia",
-  RCD: "R. Consejo Directivo",
-  RSU: "R. Suprema",
-  RES: "Resoluci\u00f3n",
-  OR: "Ordenanza Regional",
-  OM: "Ordenanza Municipal",
-  ORD: "Ordenanza",
-  AC: "Acuerdo de Consejo",
-  ACU: "Acuerdo",
-  CIRC: "Circular",
-  DIR: "Directiva",
-  FE: "Fe de Erratas",
-  REG: "Reglamento",
-  PROT: "Protocolo",
-  OTRO: "Otro",
+  DS: "Decreto Supremo", DU: "Decreto de Urgencia", DL: "Decreto Legislativo",
+  LEY: "Ley", RM: "R. Ministerial", RVM: "R. Viceministerial",
+  RD: "R. Directoral", RS: "R. Superintendencia", RJ: "R. Jefatural",
+  RA: "R. Administrativa", RPRE: "R. Presidencia", RCD: "R. Consejo Directivo",
+  RSU: "R. Suprema", RES: "Resoluci\u00f3n", OR: "Ordenanza Regional",
+  OM: "Ordenanza Municipal", ORD: "Ordenanza", AC: "Acuerdo de Consejo",
+  ACU: "Acuerdo", CIRC: "Circular", DIR: "Directiva",
+  FE: "Fe de Erratas", REG: "Reglamento", PROT: "Protocolo", OTRO: "Otro",
 };
 ---
 
-<div class="py-4 mb-6 border-b border-ink-rule" id="filters">
+<div class="py-4 mb-6 border-b border-edge" id="filters">
   <div class="flex items-center gap-2 flex-wrap">
-    <span class="text-xs font-sans font-semibold text-ink-sepia uppercase tracking-widest mr-2">Filtrar:</span>
+    <span class="text-xs font-sans font-medium text-txt-dim uppercase tracking-widest mr-2">Filtrar:</span>
 
     <div class="flex flex-wrap gap-1.5">
       <button
-        class="filter-chip filter-impacto active text-xs px-3 py-1.5 rounded-md bg-ink text-parchment-light font-semibold font-sans"
+        class="filter-chip filter-impacto active text-xs px-3 py-1.5 rounded-lg bg-loki-elevated text-txt font-medium font-sans border border-edge"
         data-filter-type="impacto"
         data-filter-value="all"
       >Todos</button>
       <button
-        class="filter-chip filter-impacto text-xs px-3 py-1.5 rounded-md border border-ink-rule text-impact-alto font-semibold font-sans hover:bg-ink hover:text-parchment-light transition-colors"
+        class="filter-chip filter-impacto text-xs px-3 py-1.5 rounded-lg border border-edge-light text-impact-alto font-medium font-sans hover:bg-loki-elevated transition-colors"
         data-filter-type="impacto"
         data-filter-value="alto"
       >Alto ({impactoCounts.get("alto") || 0})</button>
       <button
-        class="filter-chip filter-impacto text-xs px-3 py-1.5 rounded-md border border-ink-rule text-impact-medio font-semibold font-sans hover:bg-ink hover:text-parchment-light transition-colors"
+        class="filter-chip filter-impacto text-xs px-3 py-1.5 rounded-lg border border-edge-light text-impact-medio font-medium font-sans hover:bg-loki-elevated transition-colors"
         data-filter-type="impacto"
         data-filter-value="medio"
       >Medio ({impactoCounts.get("medio") || 0})</button>
       <button
-        class="filter-chip filter-impacto text-xs px-3 py-1.5 rounded-md border border-ink-rule text-impact-bajo font-semibold font-sans hover:bg-ink hover:text-parchment-light transition-colors"
+        class="filter-chip filter-impacto text-xs px-3 py-1.5 rounded-lg border border-edge-light text-impact-bajo font-medium font-sans hover:bg-loki-elevated transition-colors"
         data-filter-type="impacto"
         data-filter-value="bajo"
       >Bajo ({impactoCounts.get("bajo") || 0})</button>
@@ -77,14 +59,14 @@ const TIPO_LABELS: Record<string, string> = {
   </div>
 
   <details class="mt-3 text-xs">
-    <summary class="cursor-pointer text-ink-sepia font-semibold uppercase tracking-widest hover:text-ink font-sans">
+    <summary class="cursor-pointer text-txt-dim font-medium uppercase tracking-widest hover:text-txt font-sans">
       Filtrar por tipo de norma ({tipos.length})
     </summary>
     <div class="mt-2 flex flex-wrap gap-1.5">
-      <button class="filter-chip filter-tipo active text-xs px-2.5 py-1 rounded-md bg-ink text-parchment-light font-semibold font-sans" data-filter-type="tipo" data-filter-value="all">Todos</button>
+      <button class="filter-chip filter-tipo active text-xs px-2.5 py-1 rounded-lg bg-loki-elevated text-txt font-medium font-sans border border-edge" data-filter-type="tipo" data-filter-value="all">Todos</button>
       {tipos.map(([code, count]) => (
         <button
-          class="filter-chip filter-tipo text-xs px-2.5 py-1 rounded-md border border-ink-rule text-ink-sepia hover:bg-ink hover:text-parchment-light transition-colors font-mono"
+          class="filter-chip filter-tipo text-xs px-2.5 py-1 rounded-lg border border-edge-light text-txt-muted hover:bg-loki-elevated transition-colors font-mono"
           data-filter-type="tipo"
           data-filter-value={code}
           title={TIPO_LABELS[code] || code}
@@ -95,14 +77,14 @@ const TIPO_LABELS: Record<string, string> = {
 
   {sectores.length > 0 && (
     <details class="mt-3 text-xs">
-      <summary class="cursor-pointer text-ink-sepia font-semibold uppercase tracking-widest hover:text-ink font-sans">
+      <summary class="cursor-pointer text-txt-dim font-medium uppercase tracking-widest hover:text-txt font-sans">
         Filtrar por sector ({sectores.length})
       </summary>
       <div class="mt-2 flex flex-wrap gap-1.5">
-        <button class="filter-chip filter-sector active text-xs px-2.5 py-1 rounded-md bg-ink text-parchment-light font-semibold font-sans" data-filter-type="sector" data-filter-value="all">Todos</button>
+        <button class="filter-chip filter-sector active text-xs px-2.5 py-1 rounded-lg bg-loki-elevated text-txt font-medium font-sans border border-edge" data-filter-type="sector" data-filter-value="all">Todos</button>
         {sectores.map(([sector, count]) => (
           <button
-            class="filter-chip filter-sector text-xs px-2.5 py-1 rounded-md border border-ink-rule text-ink-sepia hover:bg-ink hover:text-parchment-light transition-colors font-sans"
+            class="filter-chip filter-sector text-xs px-2.5 py-1 rounded-lg border border-edge-light text-txt-muted hover:bg-loki-elevated transition-colors font-sans"
             data-filter-type="sector"
             data-filter-value={sector}
           >{sector.replace(/_/g, " ")} ({count})</button>
@@ -131,7 +113,6 @@ const TIPO_LABELS: Record<string, string> = {
         if (!visible) hidden++;
       });
 
-      // Hide sector cards that have no visible norms left
       document.querySelectorAll("[data-sector-card]").forEach((card) => {
         const visible = card.querySelectorAll('[data-norma]:not([style*="display: none"])');
         card.style.display = visible.length > 0 ? "" : "none";
@@ -153,18 +134,18 @@ const TIPO_LABELS: Record<string, string> = {
         document.querySelectorAll(".filter-" + type).forEach((b) => {
           b.classList.toggle("active", b.getAttribute("data-filter-value") === value);
           if (b.classList.contains("active")) {
-            b.classList.add("bg-ink", "text-parchment-light");
-            b.classList.remove("border", "border-ink-rule", "text-ink-sepia", "text-impact-alto", "text-impact-medio", "text-impact-bajo");
+            b.classList.add("bg-loki-elevated", "text-txt", "border-edge");
+            b.classList.remove("border-edge-light", "text-txt-muted", "text-impact-alto", "text-impact-medio", "text-impact-bajo");
           } else if (type === "impacto") {
             var v = b.getAttribute("data-filter-value");
-            b.classList.remove("bg-ink", "text-parchment-light");
-            b.classList.add("border", "border-ink-rule");
+            b.classList.remove("bg-loki-elevated", "text-txt", "border-edge");
+            b.classList.add("border-edge-light");
             if (v === "alto") b.classList.add("text-impact-alto");
             else if (v === "medio") b.classList.add("text-impact-medio");
             else if (v === "bajo") b.classList.add("text-impact-bajo");
           } else {
-            b.classList.remove("bg-ink", "text-parchment-light");
-            b.classList.add("border", "border-ink-rule", "text-ink-sepia");
+            b.classList.remove("bg-loki-elevated", "text-txt", "border-edge");
+            b.classList.add("border-edge-light", "text-txt-muted");
           }
         });
         applyFilters();

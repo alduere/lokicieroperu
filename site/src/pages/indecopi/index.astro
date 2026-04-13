@@ -27,44 +27,44 @@ function impactLabel(impacto: Impacto): string {
 }
 ---
 
-<Base title="INDECOPI · Loki-ciero Peru" sourceSlug="indecopi" sourceName="INDECOPI">
-  <nav class="text-xs text-ink-sepia mb-4">
-    <a href={`${base}/`} class="hover:text-ink">Inicio</a>
+<Base title="INDECOPI · Loki" sourceSlug="indecopi" sourceName="INDECOPI">
+  <nav class="text-xs text-txt-dim mb-4">
+    <a href={`${base}/`} class="hover:text-txt">Inicio</a>
     <span class="mx-1">&rsaquo;</span>
-    <span class="text-ink">INDECOPI</span>
+    <span class="text-txt">INDECOPI</span>
   </nav>
 
   {/* Hero */}
-  <section class="border-b-2 border-ink pb-6 mb-8">
+  <section class="border-b-2 border-edge pb-6 mb-8">
     {latestDate && (
-      <div class="text-xs uppercase tracking-widest text-ink-sepia mb-1">{formatFechaEs(latestDate)}</div>
+      <div class="text-xs uppercase tracking-widest text-txt-dim mb-1">{formatFechaEs(latestDate)}</div>
     )}
-    <h1 class="font-display text-4xl sm:text-5xl font-black tracking-tightest mb-2">INDECOPI</h1>
-    <p class="font-display italic text-ink-sepia text-sm mb-4">
+    <h1 class="font-display text-4xl sm:text-5xl font-extrabold tracking-tightest mb-2">INDECOPI</h1>
+    <p class="font-display italic text-txt-dim text-sm mb-4">
       Instituto Nacional de Defensa de la Competencia y de la Proteccion de la Propiedad Intelectual
     </p>
-    <div class="flex items-center gap-8 text-sm text-ink-light flex-wrap">
+    <div class="flex items-center gap-8 text-sm text-txt-muted flex-wrap">
       <div>
-        <span class="font-display text-3xl font-bold text-ink">{totalItems}</span>
+        <span class="font-display text-3xl font-bold text-txt">{totalItems}</span>
         <span class="ml-1">publicaciones</span>
       </div>
       <div>
-        <span class="font-display text-2xl font-bold text-ink">{alertasItems.length}</span>
+        <span class="font-display text-2xl font-bold text-txt">{alertasItems.length}</span>
         <span class="ml-1">alertas</span>
       </div>
       <div>
-        <span class="font-display text-2xl font-bold text-ink">{consumidorItems.length}</span>
+        <span class="font-display text-2xl font-bold text-txt">{consumidorItems.length}</span>
         <span class="ml-1">noticias</span>
       </div>
       <div>
-        <span class="font-display text-2xl font-bold text-ink">{gacetaItems.length}</span>
+        <span class="font-display text-2xl font-bold text-txt">{gacetaItems.length}</span>
         <span class="ml-1">solicitudes PI</span>
       </div>
     </div>
   </section>
 
   {/* Sub-source tabs */}
-  <nav class="flex gap-0 border-b border-ink-rule mb-8 overflow-x-auto">
+  <nav class="flex gap-0 border-b border-edge mb-8 overflow-x-auto">
     <button class="subsource-tab active" data-subsource="all">Todas</button>
     <button class="subsource-tab" data-subsource="alertas">Alertas</button>
     <button class="subsource-tab" data-subsource="consumidor">Consumidor</button>
@@ -74,28 +74,28 @@ function impactLabel(impacto: Impacto): string {
   {/* Alertas block */}
   {alertasItems.length > 0 && (
     <div class="subsource-block mb-12" data-subsource="alertas">
-      <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+      <div class="border-b-2 border-edge pb-2 mb-1 flex items-end justify-between">
         <div>
-          <h2 class="font-display font-black text-2xl tracking-tightest leading-none">Alertas</h2>
+          <h2 class="font-display font-extrabold text-2xl tracking-tightest leading-none">Alertas</h2>
         </div>
-        <div class="font-display font-black text-3xl leading-none">{alertasItems.length}</div>
+        <div class="font-display font-extrabold text-3xl leading-none">{alertasItems.length}</div>
       </div>
-      <div class="font-display italic text-ink-sepia text-sm mb-3">
+      <div class="font-display italic text-txt-dim text-sm mb-3">
         Alertas de seguridad de productos de consumo
       </div>
 
-      <div class="divide-y divide-ink-rule">
+      <div class="divide-y divide-edge">
         {alertasItems.slice(0, 10).map((alerta) => (
-          <a href={`${base}/indecopi/alertas/item/${alerta.id}`} class="ruled-item block py-4 hover:bg-parchment-light/50 transition-colors">
+          <a href={`${base}/indecopi/alertas/item/${alerta.id}`} class="ruled-item block py-4 hover:bg-loki-surface/50 transition-colors">
             <div class="flex items-start gap-2 mb-1">
               <span class={`impact-pill ${alerta.impacto} flex-shrink-0`}>
                 {impactLabel(alerta.impacto)}
               </span>
-              <span class="font-display font-bold text-ink leading-snug">
+              <span class="font-display font-bold text-txt leading-snug">
                 {alerta.titulo}
               </span>
             </div>
-            <div class="text-xs text-ink-sepia ml-0 mt-1">
+            <div class="text-xs text-txt-dim ml-0 mt-1">
               {alerta.categoria || "Alerta"} &middot; {alerta.marca || "Sin marca"}
             </div>
           </a>
@@ -103,12 +103,12 @@ function impactLabel(impacto: Impacto): string {
       </div>
 
       {alertasItems.length > 10 && (
-        <a href={`${base}/indecopi/alertas/`} class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors">
+        <a href={`${base}/indecopi/alertas/`} class="inline-block mt-4 text-sm font-semibold text-txt-dim hover:text-txt transition-colors">
           + {alertasItems.length - 10} mas &rarr;
         </a>
       )}
       {alertasItems.length <= 10 && (
-        <a href={`${base}/indecopi/alertas/`} class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors">
+        <a href={`${base}/indecopi/alertas/`} class="inline-block mt-4 text-sm font-semibold text-txt-dim hover:text-txt transition-colors">
           Ver todas las alertas &rarr;
         </a>
       )}
@@ -118,32 +118,32 @@ function impactLabel(impacto: Impacto): string {
   {/* Consumidor block */}
   {consumidorItems.length > 0 && (
     <div class="subsource-block mb-12" data-subsource="consumidor">
-      <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+      <div class="border-b-2 border-edge pb-2 mb-1 flex items-end justify-between">
         <div>
-          <h2 class="font-display font-black text-2xl tracking-tightest leading-none">Consumidor</h2>
+          <h2 class="font-display font-extrabold text-2xl tracking-tightest leading-none">Consumidor</h2>
         </div>
-        <div class="font-display font-black text-3xl leading-none">{consumidorItems.length}</div>
+        <div class="font-display font-extrabold text-3xl leading-none">{consumidorItems.length}</div>
       </div>
-      <div class="font-display italic text-ink-sepia text-sm mb-3">
+      <div class="font-display italic text-txt-dim text-sm mb-3">
         Noticias de proteccion al consumidor
       </div>
 
-      <div class="divide-y divide-ink-rule">
+      <div class="divide-y divide-edge">
         {consumidorItems.slice(0, 10).map((noticia) => (
           <div class="ruled-item py-4">
             <div class="flex items-start gap-2 mb-1">
               <span class={`impact-pill ${noticia.impacto} flex-shrink-0`}>
                 {impactLabel(noticia.impacto)}
               </span>
-              <span class="font-display font-bold text-ink leading-snug">
+              <span class="font-display font-bold text-txt leading-snug">
                 {noticia.titulo}
               </span>
             </div>
             {noticia.resumen && (
-              <p class="text-sm text-ink-light mt-1.5 line-clamp-2">{noticia.resumen}</p>
+              <p class="text-sm text-txt-muted mt-1.5 line-clamp-2">{noticia.resumen}</p>
             )}
             {noticia.link_oficial && (
-              <a href={noticia.link_oficial} class="text-xs text-ink-sepia hover:text-ink mt-1 inline-block" target="_blank" rel="noopener noreferrer">
+              <a href={noticia.link_oficial} class="text-xs text-txt-dim hover:text-txt mt-1 inline-block" target="_blank" rel="noopener noreferrer">
                 Ver en consumidor.gob.pe &rarr;
               </a>
             )}
@@ -152,12 +152,12 @@ function impactLabel(impacto: Impacto): string {
       </div>
 
       {consumidorItems.length > 10 && (
-        <a href={`${base}/indecopi/consumidor/`} class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors">
+        <a href={`${base}/indecopi/consumidor/`} class="inline-block mt-4 text-sm font-semibold text-txt-dim hover:text-txt transition-colors">
           + {consumidorItems.length - 10} mas &rarr;
         </a>
       )}
       {consumidorItems.length <= 10 && (
-        <a href={`${base}/indecopi/consumidor/`} class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors">
+        <a href={`${base}/indecopi/consumidor/`} class="inline-block mt-4 text-sm font-semibold text-txt-dim hover:text-txt transition-colors">
           Ver todas las noticias &rarr;
         </a>
       )}
@@ -167,28 +167,28 @@ function impactLabel(impacto: Impacto): string {
   {/* Gaceta PI block */}
   {gacetaItems.length > 0 && (
     <div class="subsource-block mb-12" data-subsource="gaceta-pi">
-      <div class="border-b-2 border-ink pb-2 mb-1 flex items-end justify-between">
+      <div class="border-b-2 border-edge pb-2 mb-1 flex items-end justify-between">
         <div>
-          <h2 class="font-display font-black text-2xl tracking-tightest leading-none">Gaceta PI</h2>
+          <h2 class="font-display font-extrabold text-2xl tracking-tightest leading-none">Gaceta PI</h2>
         </div>
-        <div class="font-display font-black text-3xl leading-none">{gacetaItems.length}</div>
+        <div class="font-display font-extrabold text-3xl leading-none">{gacetaItems.length}</div>
       </div>
-      <div class="font-display italic text-ink-sepia text-sm mb-3">
+      <div class="font-display italic text-txt-dim text-sm mb-3">
         Solicitudes de propiedad industrial
       </div>
 
-      <div class="divide-y divide-ink-rule">
+      <div class="divide-y divide-edge">
         {gacetaItems.slice(0, 10).map((item) => (
-          <a href={`${base}/indecopi/gaceta-pi/item/${item.id}`} class="ruled-item block py-4 hover:bg-parchment-light/50 transition-colors">
+          <a href={`${base}/indecopi/gaceta-pi/item/${item.id}`} class="ruled-item block py-4 hover:bg-loki-surface/50 transition-colors">
             <div class="flex items-start gap-2 mb-1">
-              <span class="text-xs px-2 py-0.5 bg-parchment-light border border-ink-rule-light text-ink-light rounded-full flex-shrink-0">
+              <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-muted rounded-full flex-shrink-0">
                 {item.tipo_solicitud}
               </span>
-              <span class="font-display font-bold text-ink leading-snug">
+              <span class="font-display font-bold text-txt leading-snug">
                 {item.signo_solicitado}
               </span>
             </div>
-            <div class="text-xs text-ink-sepia ml-0 mt-1">
+            <div class="text-xs text-txt-dim ml-0 mt-1">
               {item.solicitante}{item.clase ? ` · Clase ${item.clase}` : ""}
             </div>
           </a>
@@ -196,12 +196,12 @@ function impactLabel(impacto: Impacto): string {
       </div>
 
       {gacetaItems.length > 10 && (
-        <a href={`${base}/indecopi/gaceta-pi/`} class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors">
+        <a href={`${base}/indecopi/gaceta-pi/`} class="inline-block mt-4 text-sm font-semibold text-txt-dim hover:text-txt transition-colors">
           + {gacetaItems.length - 10} mas &rarr;
         </a>
       )}
       {gacetaItems.length <= 10 && (
-        <a href={`${base}/indecopi/gaceta-pi/`} class="inline-block mt-4 text-sm font-semibold text-ink-sepia hover:text-ink transition-colors">
+        <a href={`${base}/indecopi/gaceta-pi/`} class="inline-block mt-4 text-sm font-semibold text-txt-dim hover:text-txt transition-colors">
           Ver todas las solicitudes &rarr;
         </a>
       )}
@@ -210,8 +210,8 @@ function impactLabel(impacto: Impacto): string {
 
   {totalItems === 0 && (
     <section class="text-center py-16">
-      <h2 class="font-display font-black text-3xl mb-3">Sin datos todavia</h2>
-      <p class="text-ink-sepia font-sans">
+      <h2 class="font-display font-extrabold text-3xl mb-3">Sin datos todavia</h2>
+      <p class="text-txt-dim font-sans">
         Aun no hay publicaciones de INDECOPI disponibles.
       </p>
     </section>
@@ -249,7 +249,7 @@ function impactLabel(impacto: Impacto): string {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--color-ink-sepia, #8a7a6a);
+    color: #55566a;
     border-bottom: 2px solid transparent;
     transition: color 0.15s, border-color 0.15s;
     white-space: nowrap;
@@ -260,10 +260,10 @@ function impactLabel(impacto: Impacto): string {
     border-right: none;
   }
   .subsource-tab:hover {
-    color: var(--color-ink, #2c1810);
+    color: #e8e8ec;
   }
   .subsource-tab.active {
-    color: var(--color-ink, #2c1810);
-    border-bottom-color: var(--color-ink, #2c1810);
+    color: #e8e8ec;
+    border-bottom-color: #818cf8;
   }
 </style>
