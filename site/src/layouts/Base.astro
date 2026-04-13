@@ -47,21 +47,25 @@ const finData = finDate ? getFinancieroDay(finDate) : null;
       {finData && (
         <div class="flex items-center gap-3 py-1.5 overflow-x-auto scrollbar-none border-b border-edge-light text-[11px] font-sans tracking-wide">
           <span class="text-txt-dim font-semibold uppercase flex-shrink-0">Mercados</span>
-          <span class="text-edge">|</span>
-          <span class="flex items-center gap-1 flex-shrink-0">
-            <span class="font-medium text-txt">USD/PEN</span>
-            <span class="font-mono text-txt-muted">{finData.usd_pen.valor.toFixed(4)}</span>
-            <span class={`font-mono ${finData.usd_pen.variacion_pct > 0 ? "text-impact-alto" : finData.usd_pen.variacion_pct < 0 ? "text-impact-bajo" : "text-txt-dim"}`}>
-              {finData.usd_pen.variacion_pct > 0 ? "+" : ""}{finData.usd_pen.variacion_pct.toFixed(2)}%
-            </span>
-          </span>
-          {finData.minerales.map((m) => (
+          {finData.usd_pen.valor > 0 && (
+            <>
+              <span class="text-edge">|</span>
+              <span class="flex items-center gap-1 flex-shrink-0">
+                <span class="font-medium text-txt">USD/PEN</span>
+                <span class="font-mono text-txt-muted">{finData.usd_pen.valor.toFixed(4)}</span>
+                <span class={`font-mono ${finData.usd_pen.variacion_pct > 0 ? "text-impact-bajo" : finData.usd_pen.variacion_pct < 0 ? "text-impact-alto" : "text-txt-dim"}`}>
+                  {finData.usd_pen.variacion_pct > 0 ? "+" : ""}{finData.usd_pen.variacion_pct.toFixed(2)}%
+                </span>
+              </span>
+            </>
+          )}
+          {finData.minerales.filter((m) => m.valor > 0).map((m) => (
             <>
               <span class="text-edge">|</span>
               <span class="flex items-center gap-1 flex-shrink-0">
                 <span class="font-medium text-txt">{m.simbolo}</span>
                 <span class="font-mono text-txt-muted">{m.valor.toFixed(2)}</span>
-                <span class={`font-mono ${m.variacion_pct > 0 ? "text-impact-alto" : m.variacion_pct < 0 ? "text-impact-bajo" : "text-txt-dim"}`}>
+                <span class={`font-mono ${m.variacion_pct > 0 ? "text-impact-bajo" : m.variacion_pct < 0 ? "text-impact-alto" : "text-txt-dim"}`}>
                   {m.variacion_pct > 0 ? "+" : ""}{m.variacion_pct.toFixed(2)}%
                 </span>
               </span>
