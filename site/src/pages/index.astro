@@ -64,6 +64,38 @@ function categoriaPillClass(cat: string): string {
 }
 
 const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
+
+// Noticias: compute category counts
+const noticiaCategorias = new Map<string, number>();
+for (const n of noticiasItems) {
+  noticiaCategorias.set(n.categoria, (noticiaCategorias.get(n.categoria) || 0) + 1);
+}
+const noticiaCategoriasOrdered = [...noticiaCategorias.entries()].sort((a, b) => b[1] - a[1]);
+
+// INDECOPI: compute impact counts across all subsources
+const allIndecopiWithImpact = [
+  ...indecopiItems.map((i) => i.impacto),
+  ...consumidorItems.map((i) => i.impacto),
+];
+const indecopiImpactCounts = { alto: 0, medio: 0, bajo: 0 };
+for (const imp of allIndecopiWithImpact) {
+  if (imp in indecopiImpactCounts) indecopiImpactCounts[imp as Impacto]++;
+}
+
+// INDECOPI alertas: category counts
+const indecopiCategorias = new Map<string, number>();
+for (const a of indecopiItems) {
+  const cat = a.categoria || "Alerta";
+  indecopiCategorias.set(cat, (indecopiCategorias.get(cat) || 0) + 1);
+}
+
+// Tribunal Fiscal: impact counts and sala counts
+const tfImpactCounts = { alto: 0, medio: 0, bajo: 0 };
+const tfSalas = new Map<string, number>();
+for (const r of tfItemsAll) {
+  if (r.impacto in tfImpactCounts) tfImpactCounts[r.impacto as Impacto]++;
+  if (r.sala) tfSalas.set(r.sala, (tfSalas.get(r.sala) || 0) + 1);
+}
 ---
 
 <Base title={hub ? `Loki · ${hub.fecha}` : "Loki"}>
@@ -95,23 +127,37 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
 
       {/* ═══ NOTICIAS ═══ */}
       <div class="source-block mb-12 animate-entrance delay-4" data-source="noticias">
-        <div class="flex items-end justify-between mb-4">
+        <div class="flex items-end justify-between mb-2">
           <h2 class="font-display font-bold text-xl text-txt">Noticias</h2>
           <span class="font-display font-bold text-2xl text-txt-muted">{noticiasTotal}</span>
         </div>
-        <p class="text-txt-dim text-sm mb-4">Prensa economica y politica del dia</p>
+        <p class="text-txt-dim text-sm mb-3">Prensa economica y politica del dia</p>
 
-        {noticiasTotal > 0 ? (
+        {noticiasTotal > 0 && (
           <>
-            <div class="flex flex-wrap gap-2 mb-4" id="noticias-fuente-chips">
-              <button class="noticias-fuente-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-fuente="all">Todas</button>
-              {fuentesActivas.map((fuente: string) => (
-                <button class="noticias-fuente-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-transparent text-txt-muted border border-edge-light hover:border-edge" data-fuente={fuente}>{fuente}</button>
+            {/* Category filter chips */}
+            <div class="flex flex-wrap gap-1.5 mb-3" id="noticias-cat-chips">
+              <button class="noticias-cat-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-cat="all">Todas</button>
+              {noticiaCategoriasOrdered.map(([cat, count]) => (
+                <button class={`noticias-cat-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer border border-edge-light hover:border-edge ${categoriaPillClass(cat)}`} data-cat={cat}>
+                  {cat} ({count})
+                </button>
               ))}
             </div>
+
+            {/* Source filter chips */}
+            {fuentesActivas.length > 1 && (
+              <div class="flex flex-wrap gap-1.5 mb-4" id="noticias-fuente-chips">
+                <button class="noticias-fuente-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-fuente="all">Todas fuentes</button>
+                {fuentesActivas.map((fuente: string) => (
+                  <button class="noticias-fuente-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-transparent text-txt-muted border border-edge-light hover:border-edge" data-fuente={fuente}>{fuente}</button>
+                ))}
+              </div>
+            )}
+
             <div>
               {noticiasItems.slice(0, 10).map((item: PrensaResumida) => (
-                <a href={item.url} target="_blank" rel="noopener" class="ruled-item block noticias-hub-item" data-fuente={item.fuente}>
+                <a href={item.url} target="_blank" rel="noopener" class="ruled-item block noticias-hub-item" data-fuente={item.fuente} data-cat={item.categoria}>
                   <div class="flex items-center gap-2 flex-wrap text-[11px] text-txt-dim mb-1">
                     <span class={`inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-semibold flex-shrink-0 ${categoriaPillClass(item.categoria)}`}>{item.categoria}</span>
                     <span>{item.fuente_display}</span>
@@ -127,9 +173,8 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
               <a href={`${base}/noticias/`} class="inline-block mt-4 text-sm font-medium text-txt-muted hover:text-txt transition-colors">+ {noticiasTotal - 10} mas &rarr;</a>
             )}
           </>
-        ) : (
-          <p class="text-txt-dim text-sm py-4">No hay noticias disponibles para hoy.</p>
         )}
+        {noticiasTotal === 0 && <p class="text-txt-dim text-sm py-4">No hay noticias disponibles para hoy.</p>}
       </div>
 
       {/* ═══ EL PERUANO ═══ */}
@@ -174,10 +219,27 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
         <div class="source-block mb-12 animate-entrance delay-5 hidden" data-source="indecopi">
           <div class="flex items-end justify-between mb-1">
             <h2 class="font-display font-bold text-xl text-txt">INDECOPI</h2>
-            <span class="font-display font-bold text-2xl text-txt-muted">{indecopiTotal + consumidorTotal + gacetaTotal}</span>
+            <span class="font-display font-bold text-2xl text-txt-muted" id="indecopi-count">{indecopiTotal + consumidorTotal + gacetaTotal}</span>
           </div>
-          <p class="text-txt-dim text-sm mb-4">Alertas, proteccion al consumidor, propiedad industrial</p>
+          <p class="text-txt-dim text-sm mb-3">Alertas, proteccion al consumidor, propiedad industrial</p>
 
+          {/* Impact semaphore */}
+          {(indecopiImpactCounts.alto + indecopiImpactCounts.medio + indecopiImpactCounts.bajo) > 0 && (
+            <div class="flex flex-wrap gap-1.5 mb-3" id="indecopi-impact-chips">
+              <button class="indecopi-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-impact="all">Todos</button>
+              {indecopiImpactCounts.alto > 0 && (
+                <button class="indecopi-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer border border-edge-light text-impact-alto hover:bg-loki-elevated" data-impact="alto">Alto ({indecopiImpactCounts.alto})</button>
+              )}
+              {indecopiImpactCounts.medio > 0 && (
+                <button class="indecopi-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer border border-edge-light text-impact-medio hover:bg-loki-elevated" data-impact="medio">Medio ({indecopiImpactCounts.medio})</button>
+              )}
+              {indecopiImpactCounts.bajo > 0 && (
+                <button class="indecopi-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer border border-edge-light text-impact-bajo hover:bg-loki-elevated" data-impact="bajo">Bajo ({indecopiImpactCounts.bajo})</button>
+              )}
+            </div>
+          )}
+
+          {/* Alertas mini-section */}
           {indecopiTotal > 0 && (
             <div class="mb-6">
               <div class="flex items-center justify-between mb-2">
@@ -185,7 +247,7 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
                 <span class="text-xs text-txt-dim">{indecopiTotal}</span>
               </div>
               {indecopiItems.slice(0, 3).map((item) => (
-                <a href={`${base}/indecopi/alertas/item/${item.id}`} class="ruled-item block">
+                <a href={`${base}/indecopi/alertas/item/${item.id}`} class="ruled-item block indecopi-item" data-impact={item.impacto}>
                   <div class="flex items-start gap-2 mb-1">
                     <span class={`impact-pill ${item.impacto} flex-shrink-0`}>{impactLabel(item.impacto)}</span>
                     <span class="font-display font-bold text-txt leading-snug">{item.titulo}</span>
@@ -197,6 +259,7 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
             </div>
           )}
 
+          {/* Consumidor mini-section */}
           {consumidorTotal > 0 && (
             <div class="mb-6">
               <div class="flex items-center justify-between mb-2">
@@ -204,7 +267,7 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
                 <span class="text-xs text-txt-dim">{consumidorTotal}</span>
               </div>
               {consumidorItems.slice(0, 3).map((noticia) => (
-                <div class="ruled-item block">
+                <div class="ruled-item block indecopi-item" data-impact={noticia.impacto}>
                   <div class="flex items-start gap-2 mb-1">
                     <span class={`impact-pill ${noticia.impacto} flex-shrink-0`}>{impactLabel(noticia.impacto)}</span>
                     <span class="font-display font-bold text-txt leading-snug">{noticia.titulo}</span>
@@ -215,6 +278,7 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
             </div>
           )}
 
+          {/* Gaceta PI mini-section */}
           {gacetaTotal > 0 && (
             <div class="mb-6">
               <div class="flex items-center justify-between mb-2">
@@ -242,11 +306,38 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
         <div class="source-block mb-12 animate-entrance delay-6 hidden" data-source="tribunal-fiscal">
           <div class="flex items-end justify-between mb-1">
             <h2 class="font-display font-bold text-xl text-txt">Tribunal Fiscal</h2>
-            <span class="font-display font-bold text-2xl text-txt-muted">{tfTotal}</span>
+            <span class="font-display font-bold text-2xl text-txt-muted" id="tf-count">{tfTotal}</span>
           </div>
-          <p class="text-txt-dim text-sm mb-4">Jurisprudencia tributaria — resoluciones del dia</p>
+          <p class="text-txt-dim text-sm mb-3">Jurisprudencia tributaria — resoluciones del dia</p>
+
+          {/* Impact semaphore */}
+          {(tfImpactCounts.alto + tfImpactCounts.medio + tfImpactCounts.bajo) > 0 && (
+            <div class="flex flex-wrap gap-1.5 mb-3" id="tf-impact-chips">
+              <button class="tf-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-impact="all">Todos</button>
+              {tfImpactCounts.alto > 0 && (
+                <button class="tf-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer border border-edge-light text-impact-alto hover:bg-loki-elevated" data-impact="alto">Alto ({tfImpactCounts.alto})</button>
+              )}
+              {tfImpactCounts.medio > 0 && (
+                <button class="tf-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer border border-edge-light text-impact-medio hover:bg-loki-elevated" data-impact="medio">Medio ({tfImpactCounts.medio})</button>
+              )}
+              {tfImpactCounts.bajo > 0 && (
+                <button class="tf-impact-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer border border-edge-light text-impact-bajo hover:bg-loki-elevated" data-impact="bajo">Bajo ({tfImpactCounts.bajo})</button>
+              )}
+            </div>
+          )}
+
+          {/* Sala filter */}
+          {tfSalas.size > 1 && (
+            <div class="flex flex-wrap gap-1.5 mb-4" id="tf-sala-chips">
+              <button class="tf-sala-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-loki-elevated text-txt border border-edge" data-sala="all">Todas salas</button>
+              {[...tfSalas.entries()].sort((a, b) => b[1] - a[1]).map(([sala, count]) => (
+                <button class="tf-sala-chip text-xs px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer bg-transparent text-txt-muted border border-edge-light hover:border-edge" data-sala={sala}>{sala} ({count})</button>
+              ))}
+            </div>
+          )}
+
           {tfVisible.map((item) => (
-            <a href={`${base}/tribunal-fiscal/item/${item.id}`} class="ruled-item block">
+            <a href={`${base}/tribunal-fiscal/item/${item.id}`} class="ruled-item block tf-item" data-impact={item.impacto} data-sala={item.sala || ""}>
               <div class="flex items-start gap-2 mb-1">
                 <span class={`impact-pill ${item.impacto} flex-shrink-0`}>{impactLabel(item.impacto)}</span>
                 <span class="font-display font-bold text-txt leading-snug">{item.numero_rtf}</span>
@@ -296,26 +387,57 @@ const fuentesActivas = noticiasDay ? noticiasDay.fuentes_activas : [];
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const chips = document.querySelectorAll<HTMLButtonElement>(".noticias-fuente-chip");
-    const items = document.querySelectorAll<HTMLElement>(".noticias-hub-item");
-    if (chips.length === 0) return;
-    chips.forEach((chip) => {
-      chip.addEventListener("click", () => {
-        const fuente = chip.dataset.fuente;
-        chips.forEach((c) => {
-          c.classList.remove("bg-loki-elevated", "text-txt", "border-edge");
-          c.classList.add("bg-transparent", "text-txt-muted", "border-edge-light");
-        });
-        chip.classList.remove("bg-transparent", "text-txt-muted", "border-edge-light");
-        chip.classList.add("bg-loki-elevated", "text-txt", "border-edge");
-        items.forEach((item) => {
-          if (fuente === "all" || item.dataset.fuente === fuente) {
-            item.classList.remove("hidden");
-          } else {
-            item.classList.add("hidden");
-          }
+    // ── Chip filter helper ──
+    function setupChipFilter(
+      chipSelector: string,
+      itemSelector: string,
+      dataAttr: string,
+      activeClass: string[],
+      inactiveClass: string[]
+    ) {
+      const chips = document.querySelectorAll<HTMLButtonElement>(chipSelector);
+      const items = document.querySelectorAll<HTMLElement>(itemSelector);
+      if (chips.length === 0) return;
+
+      chips.forEach((chip) => {
+        chip.addEventListener("click", () => {
+          const val = chip.dataset[dataAttr] || chip.getAttribute(`data-${dataAttr.replace(/([A-Z])/g, '-$1').toLowerCase()}`);
+
+          chips.forEach((c) => {
+            activeClass.forEach((cls) => c.classList.remove(cls));
+            inactiveClass.forEach((cls) => c.classList.add(cls));
+          });
+          inactiveClass.forEach((cls) => chip.classList.remove(cls));
+          activeClass.forEach((cls) => chip.classList.add(cls));
+
+          items.forEach((item) => {
+            const itemVal = item.dataset[dataAttr] || item.getAttribute(`data-${dataAttr.replace(/([A-Z])/g, '-$1').toLowerCase()}`);
+            if (val === "all" || itemVal === val) {
+              item.classList.remove("hidden");
+            } else {
+              item.classList.add("hidden");
+            }
+          });
         });
       });
-    });
+    }
+
+    const active = ["bg-loki-elevated", "text-txt", "border-edge"];
+    const inactive = ["bg-transparent", "text-txt-muted", "border-edge-light"];
+
+    // Noticias: category filter
+    setupChipFilter(".noticias-cat-chip", ".noticias-hub-item", "cat", active, inactive);
+
+    // Noticias: fuente filter
+    setupChipFilter(".noticias-fuente-chip", ".noticias-hub-item", "fuente", active, inactive);
+
+    // INDECOPI: impact filter
+    setupChipFilter(".indecopi-impact-chip", ".indecopi-item", "impact", active, inactive);
+
+    // Tribunal Fiscal: impact filter
+    setupChipFilter(".tf-impact-chip", ".tf-item", "impact", active, inactive);
+
+    // Tribunal Fiscal: sala filter
+    setupChipFilter(".tf-sala-chip", ".tf-item", "sala", active, inactive);
   });
 </script>
