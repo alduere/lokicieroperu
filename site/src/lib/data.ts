@@ -215,6 +215,11 @@ export function latestGacetaDate(): string | null {
   return gacetaSortedDates[0] ?? null;
 }
 
+/** Sanitise an ID for use in URL paths (replaces `/` with `--`). */
+export function safeId(raw: string): string {
+  return raw.replace(/\//g, "--");
+}
+
 // Tribunal Fiscal data
 const tfModules = import.meta.glob<{ default: DiaTFProcesado }>(
   "/src/data/tribunal-fiscal/2*-*-*.json",

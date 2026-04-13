@@ -1,6 +1,6 @@
 ---
 import Base from "../../../../layouts/Base.astro";
-import { gacetaDays, gacetaSortedDates, formatFechaEs } from "../../../../lib/data";
+import { gacetaDays, gacetaSortedDates, formatFechaEs, safeId } from "../../../../lib/data";
 import type { SolicitudPIResumida } from "../../../../lib/types";
 
 export async function getStaticPaths() {
@@ -9,7 +9,8 @@ export async function getStaticPaths() {
     const dia = gacetaDays[date];
     if (!dia) continue;
     for (const item of dia.items) {
-      paths.push({ params: { id: item.id }, props: { solicitud: item, fecha: date } });
+      if (!item.id) continue;
+      paths.push({ params: { id: safeId(item.id) }, props: { solicitud: item, fecha: date } });
     }
   }
   return paths;

@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { latestIndecopiDate, getIndecopiDay, latestConsumidorDate, getConsumidorDay, latestGacetaDate, getGacetaDay, formatFechaEs } from "../../lib/data";
+import { latestIndecopiDate, getIndecopiDay, latestConsumidorDate, getConsumidorDay, latestGacetaDate, getGacetaDay, formatFechaEs, safeId } from "../../lib/data";
 import type { Impacto } from "../../lib/types";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -179,7 +179,7 @@ function impactLabel(impacto: Impacto): string {
 
       <div class="divide-y divide-edge">
         {gacetaItems.slice(0, 10).map((item) => (
-          <a href={`${base}/indecopi/gaceta-pi/item/${item.id}`} class="ruled-item block py-4 hover:bg-loki-surface/50 transition-colors">
+          <a href={`${base}/indecopi/gaceta-pi/item/${safeId(item.id)}`} class="ruled-item block py-4 hover:bg-loki-surface/50 transition-colors">
             <div class="flex items-start gap-2 mb-1">
               <span class="text-xs px-2 py-0.5 bg-loki-surface border border-edge text-txt-secondary rounded-full flex-shrink-0">
                 {item.tipo_solicitud}

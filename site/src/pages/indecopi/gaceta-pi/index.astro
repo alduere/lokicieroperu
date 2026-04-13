@@ -1,6 +1,6 @@
 ---
 import Base from "../../../layouts/Base.astro";
-import { latestGacetaDate, getGacetaDay, formatFechaEs } from "../../../lib/data";
+import { latestGacetaDate, getGacetaDay, formatFechaEs, safeId } from "../../../lib/data";
 import type { SolicitudPIResumida } from "../../../lib/types";
 
 const date = latestGacetaDate();
@@ -43,7 +43,7 @@ const remaining = allItems.length - visibleItems.length;
 
       <div class="divide-y divide-edge">
         {visibleItems.map((item: SolicitudPIResumida) => (
-          <a href={`${base}/indecopi/gaceta-pi/item/${item.id}`} class="ruled-item block py-5 hover:bg-loki-surface/50 transition-colors">
+          <a href={`${base}/indecopi/gaceta-pi/item/${safeId(item.id)}`} class="ruled-item block py-5 hover:bg-loki-surface/50 transition-colors">
             <div class="flex items-start justify-between gap-4">
               <div class="flex-1">
                 <div class="flex items-center gap-2 mb-2">

@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import FilterBar from "../components/FilterBar.astro";
-import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay, latestTfDate, getTfDay, latestNoticiasDate, getNoticiasDay } from "../lib/data";
+import { latestHubDate, getHubDay, formatFechaEs, getEpDay, getIndecopiDay, getConsumidorDay, getGacetaDay, latestTfDate, getTfDay, latestNoticiasDate, getNoticiasDay, safeId } from "../lib/data";
 import type { NormaResumida, AlertaResumida, NoticiaResumida, SolicitudPIResumida, ResolucionTFResumida, Impacto, PrensaResumida } from "../lib/types";
 
 const date = latestHubDate();
@@ -286,7 +286,7 @@ for (const r of tfItemsAll) {
                 <span class="text-xs text-txt-tertiary">{gacetaTotal}</span>
               </div>
               {gacetaVisible.slice(0, 5).map((item) => (
-                <a href={`${base}/indecopi/gaceta-pi/item/${item.id}`} class="ruled-item block">
+                <a href={`${base}/indecopi/gaceta-pi/item/${safeId(item.id)}`} class="ruled-item block">
                   <div class="flex items-start gap-2 mb-1">
                     <span class="text-xs px-2 py-0.5 bg-loki-elevated border border-edge text-txt-secondary rounded-md flex-shrink-0">{item.tipo_solicitud}</span>
                     <span class="font-display font-bold text-txt leading-snug">{item.signo_solicitado}</span>
