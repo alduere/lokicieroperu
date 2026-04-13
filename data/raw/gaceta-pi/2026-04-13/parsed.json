@@ -1,4 +1,60 @@
 {
   "fecha": "2026-04-13",
-  "items": []
+  "items": [
+    {
+      "id": "63131-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "EL PLAN PERFECTO EXISTE",
+      "solicitante": "Dave & Buster's I, L.P., de Estados Unidos de América",
+      "clase": "41",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-11-27",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null
+    },
+    {
+      "id": "65298-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "STRYZACTA",
+      "solicitante": "RayzeBio, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-10",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null
+    },
+    {
+      "id": "67660-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "OLEYREV",
+      "solicitante": "Juno Therapeutics, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-22",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null
+    },
+    {
+      "id": "68225-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "D",
+      "solicitante": "DE SANGOSSE, de Francia",
+      "clase": "01",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-26",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null
+    },
+    {
+      "id": "68606-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "Fecha de Presentación:",
+      "solicitante": "TERNA S.p.A. , de Italia",
+      "clase": "04",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-29",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null
+    }
+  ]
 }
