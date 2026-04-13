@@ -19,8 +19,8 @@
       "simbolo": "Ag",
       "ticker": "SI=F",
       "unidad": "USD/oz",
-      "valor": 74.465,
-      "variacion_pct": -2.4357
+      "valor": 74.505,
+      "variacion_pct": -2.3833
     },
     {
       "nombre": "Zinc",
@@ -43,8 +43,8 @@
       "simbolo": "Au",
       "ticker": "GC=F",
       "unidad": "USD/oz",
-      "valor": 4745.3999,
-      "variacion_pct": -0.3465
+      "valor": 4744.8999,
+      "variacion_pct": -0.357
     }
   ]
 }
