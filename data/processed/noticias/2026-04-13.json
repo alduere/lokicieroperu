@@ -27,13 +27,13 @@
       "fecha": "2026-04-13T12:45:07Z",
       "contenido": "El proceso de elecciones generales se inició en 13 locales de votación en la ciudad de Lima, en las que no se pudieron instalar las mesa de sufragio en la víspera.",
       "fuente_display": "Andina",
-      "resumen": "Se iniciaron comicios en 13 locales de votación en Lima que no lograron instalar sus mesas de sufragio en la víspera. El proceso de elecciones generales busca asegurar el derecho al voto de los ciudadanos.",
+      "resumen": "Se iniciaron comicios en 13 locales de votación en Lima que no habían instalado sus mesas de sufragio previamente. El proceso electoral busca asegurar el derecho al voto de los ciudadanos.",
       "categoria": "Política",
       "tags": [
         "elecciones",
         "lima",
         "mesas de sufragio",
-        "comicios"
+        "proceso electoral"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -45,13 +45,13 @@
       "fecha": "2026-04-13T12:44:36Z",
       "contenido": "La superestrella pop Britney Spears se internó en un centro de rehabilitación tras ser arrestada el mes pasado bajo sospecha de conducir alcoholizada, informaron el domingo varios medios estadounidenses.",
       "fuente_display": "Andina",
-      "resumen": "La superestrella pop Britney Spears se ha internado en un centro de rehabilitación tras ser arrestada por sospecha de conducir alcoholizada. La noticia fue difundida por medios estadounidenses.",
+      "resumen": "La superestrella pop Britney Spears se ha internado en un centro de rehabilitación. La decisión se da tras ser arrestada el mes pasado bajo sospecha de conducir en estado de ebriedad.",
       "categoria": "Política",
       "tags": [
         "celebridades",
         "rehabilitación",
         "arresto",
-        "noticias internacionales"
+        "música"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -63,13 +63,13 @@
       "fecha": "2026-04-13T12:36:57Z",
       "contenido": "El papa León XIV afirmó este lunes que no tiene \"la intención de entrar en un debate\" con Donald Trump, en respuesta a las críticas del presidente estadounidense.",
       "fuente_display": "Andina",
-      "resumen": "El papa León XIV declaró que no tiene intención de debatir con Donald Trump, respondiendo a las críticas del presidente estadounidense. La declaración se realizó este lunes.",
+      "resumen": "El papa León XIV declaró que no tiene intención de debatir con Donald Trump. La afirmación surge como respuesta a las críticas vertidas por el presidente estadounidense.",
       "categoria": "Política",
       "tags": [
         "vaticano",
         "donald trump",
-        "religión",
-        "política internacional"
+        "política internacional",
+        "religión"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -81,7 +81,7 @@
       "fecha": "2026-04-13T12:34:36Z",
       "contenido": "Las autoridades de Ica avanzan con los preparativos para la visita que realizará esta semana a esta región del sur del Perú, la mexicana Fátima Bosch, elegida Miss Universo el año pasado, programando actividades que incluirán su participación en un corso por la ciudad, navegar por la laguna de la Huacachina y asistir al Santuario del Señor de Luren.",
       "fuente_display": "Andina",
-      "resumen": "La Miss Universo 2025, Fátima Bosch, visitará Ica esta semana para conocer el oasis de Huacachina y el Santuario de Luren. Las autoridades locales preparan un corso y otras actividades.",
+      "resumen": "La Miss Universo 2025, Fátima Bosch, visitará Ica esta semana. Su agenda incluye un corso por la ciudad, un paseo por la laguna de Huacachina y una visita al Santuario del Señor de Luren.",
       "categoria": "Política",
       "tags": [
         "miss universo",
@@ -99,7 +99,7 @@
       "fecha": "2026-04-13T12:33:29Z",
       "contenido": "Reafirmando su compromiso con el crecimiento y la modernización de las empresas del Estado, la Alta Dirección de la Corporación Fonafe realizó ayer una visita a las instalaciones de SIMA Perú en su sede del Callao.",
       "fuente_display": "Andina",
-      "resumen": "La Alta Dirección de Fonafe reafirmó su compromiso con el desarrollo de la industria naval durante una visita a las instalaciones de SIMA Perú en el Callao. El objetivo es el crecimiento y modernización de las empresas del Estado.",
+      "resumen": "La Alta Dirección de Fonafe reafirmó su compromiso con el desarrollo de la industria naval. Dicha reafirmación se dio durante una visita a las instalaciones de SIMA Perú en el Callao.",
       "categoria": "Economía",
       "tags": [
         "fonafe",
@@ -117,13 +117,13 @@
       "fecha": "2026-04-13T12:30:41Z",
       "contenido": "Con el entusiasmo de dejar en alto el nombre del Perú, la delegación nacional desfiló en la ceremonia de inauguración de los IV Juegos Suramericanos de la Juventud Panamá 2026, que se realizó en el Estadio Rommel Fernández.",
       "fuente_display": "Andina",
-      "resumen": "La delegación peruana desfiló con orgullo en la ceremonia de inauguración de los IV Juegos Suramericanos de la Juventud Panamá 2026. El objetivo es dejar en alto el nombre del Perú en el evento deportivo.",
+      "resumen": "La delegación peruana desfiló con orgullo en la ceremonia de inauguración de los IV Juegos Suramericanos de la Juventud Panamá 2026. El evento deportivo busca promover la participación juvenil en el continente.",
       "categoria": "Política",
       "tags": [
         "deportes",
         "juegos suramericanos",
         "panamá",
-        "delegación peruana"
+        "juventud"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -135,13 +135,13 @@
       "fecha": "2026-04-13T12:16:29Z",
       "contenido": "Tras obtener el campeonato mundial de la Media Maratón de Marcha Atlética en Brasil, la deportista nacional Kimberly García dedicó su título máximo a todo los peruanos y aseguró que su sueño olímpico de la infancia sigue vivo.",
       "fuente_display": "Andina",
-      "resumen": "La deportista Kimberly García dedicó su victoria en el campeonato mundial de Marcha Atlética en Brasil a todos los peruanos. García aseguró que su sueño olímpico de infancia sigue vigente.",
+      "resumen": "La deportista Kimberly García dedicó su reciente victoria en el campeonato mundial de Marcha Atlética a todos los peruanos. García aseguró que su sueño olímpico de infancia sigue vigente.",
       "categoria": "Política",
       "tags": [
-        "deportes",
         "atletismo",
         "marcha atlética",
-        "kimberly garcía"
+        "deportista peruana",
+        "mundial"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -153,13 +153,13 @@
       "fecha": "2026-04-13T12:07:38Z",
       "contenido": "El boletín Normas Legales del Diario Oficial El Peruano difunde una serie de dispositivos de interés público y de impacto para la marcha del país. Conoce a continuación cuáles son las normas legales más relevantes de hoy.",
       "fuente_display": "Andina",
-      "resumen": "El Diario Oficial El Peruano publicó normas legales de interés público y de impacto para el país este lunes 13 de abril. Se detallan los dispositivos más relevantes de la jornada.",
+      "resumen": "El Diario Oficial El Peruano publicó normas legales de interés público y de impacto nacional este lunes 13 de abril. El boletín Normas Legales contiene dispositivos relevantes para la marcha del país.",
       "categoria": "Política",
       "tags": [
         "normas legales",
         "el peruano",
         "legislación",
-        "actualidad"
+        "política"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -171,7 +171,7 @@
       "fecha": "2026-04-13T12:06:12Z",
       "contenido": "La solidez macroeconómica de una Nación no constituye un fin en sí mismo, sino la plataforma indispensable para ejecutar transformaciones estructurales que deriven en un bienestar social tangible y permanente.",
       "fuente_display": "Andina",
-      "resumen": "El Banco Mundial proyecta que Perú crecerá por encima de sus pares en América Latina y el Caribe. La solidez macroeconómica es vista como una plataforma para transformaciones estructurales y bienestar social.",
+      "resumen": "El Banco Mundial proyecta que Perú crecerá por encima de sus pares en América Latina y el Caribe. La solidez macroeconómica del país es vista como una plataforma para transformaciones estructurales y bienestar social.",
       "categoria": "Economía",
       "tags": [
         "banco mundial",
@@ -189,13 +189,13 @@
       "fecha": "2026-04-13T11:54:48Z",
       "contenido": "En el territorio peruano existen evidencias claras del avanzado conocimiento tecnológico alcanzado por nuestros antepasados para adaptarse y progresar en entornos geográficos complejos. Un claro ejemplo de ello son los Waru Waru, un sistema que continúa utilizándose en la actualidad por las comunidades herederas de ese magnífico legado ancestral.",
       "fuente_display": "Andina",
-      "resumen": "Se destaca el sistema ancestral peruano de Waru Waru, un avanzado conocimiento tecnológico que permitía la adaptación a entornos geográficos complejos. Este sistema sigue siendo utilizado por comunidades herederas de este legado.",
+      "resumen": "El sistema de Waru Waru, una tecnología ancestral peruana, sigue siendo utilizado por comunidades locales. Este sistema demuestra el avanzado conocimiento tecnológico de los antepasados para adaptarse a entornos complejos.",
       "categoria": "Economía",
       "tags": [
         "cultura",
-        "ancestral",
-        "tecnología",
-        "waru waru"
+        "tecnología ancestral",
+        "waru waru",
+        "perú"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -207,7 +207,7 @@
       "fecha": "2026-04-13T11:52:23Z",
       "contenido": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) exhortó a los empleadores a brindar facilidades a sus trabajadores para que puedan ejercer su derecho al voto y cumplir con su rol como miembros de mesa durante la jornada electoral de este 13 de abril de 2026, en el marco de las Elecciones Generales.",
       "fuente_display": "Andina",
-      "resumen": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) exhortó a los empleadores a facilitar la participación de sus trabajadores en las elecciones generales del 13 de abril. Se pide dar facilidades para el voto y para cumplir roles de miembros de mesa.",
+      "resumen": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) exhortó a los empleadores a facilitar la participación de sus trabajadores en las elecciones. Se pide dar facilidades para el ejercicio del voto y el rol como miembros de mesa.",
       "categoria": "Política",
       "tags": [
         "mtpe",
@@ -225,11 +225,11 @@
       "fecha": "2026-04-13T11:48:49Z",
       "contenido": "El Ejecutivo dispuso la ampliación de medidas para asegurar el derecho al voto en las Elecciones Generales 2026, tras registrarse mesas de sufragio que no fueron instaladas por retrasos en la distribución del material electoral.",
       "fuente_display": "Andina",
-      "resumen": "El Ejecutivo amplió medidas para garantizar el derecho al voto en las Elecciones Generales 2026. Esto se da tras registrarse mesas de sufragio no instaladas por retrasos en la distribución de material electoral.",
+      "resumen": "El Gobierno implementó medidas adicionales para garantizar el derecho al voto en las Elecciones Generales 2026. Esto se da tras la no instalación de algunas mesas de sufragio por retrasos en la distribución de material electoral.",
       "categoria": "Política",
       "tags": [
-        "elecciones",
         "gobierno",
+        "elecciones",
         "derecho al voto",
         "mesas de sufragio"
       ],
@@ -243,13 +243,13 @@
       "fecha": "2026-04-13T11:44:19Z",
       "contenido": "Oleajes de ligera a moderada intensidad se presentan en el litoral peruano desde el domingo 12 y se prolongarán hasta el lunes 20 de abril, informó la Dirección de Hidrografía y Navegación de la Marina de Guerra del Perú.",
       "fuente_display": "Andina",
-      "resumen": "Oleajes de ligera a moderada intensidad afectarán el litoral peruano desde el domingo 12 hasta el lunes 20 de abril. La información fue proporcionada por la Dirección de Hidrografía y Navegación de la Marina de Guerra.",
+      "resumen": "Se pronostican oleajes de ligera a moderada intensidad en el litoral peruano hasta el lunes 20 de abril. La Dirección de Hidrografía y Navegación de la Marina de Guerra del Perú emitió la advertencia.",
       "categoria": "Economía",
       "tags": [
-        "marina",
-        "litoral",
         "oleajes",
-        "alertas"
+        "litoral peruano",
+        "marina de guerra",
+        "clima"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -261,7 +261,7 @@
       "fecha": "2026-04-13T11:42:08Z",
       "contenido": "A partir de las 6 de la tarde de ayer, la Oficina Nacional de Procesos Electorales (ONPE) ha habilitado un enlace en la página web de las Elecciones Generales 2026  que permite conocer los resultados oficiales de los comicios realizados hoy, conforme se van procesando actas en los 126 centros de cómputo del organismo electoral.",
       "fuente_display": "Andina",
-      "resumen": "La ONPE habilitó un enlace en su página web para conocer los resultados oficiales de las Elecciones Generales 2026. El sistema permite ver el avance del procesamiento de actas en los centros de cómputo.",
+      "resumen": "La ONPE habilitó un enlace en su página web para consultar los resultados oficiales de las Elecciones Generales 2026. Los ciudadanos pueden acceder a los resultados conforme se procesan las actas.",
       "categoria": "Política",
       "tags": [
         "onpe",
@@ -279,7 +279,7 @@
       "fecha": "2026-04-13T11:05:39Z",
       "contenido": "En  Perú , el  tipo de cambio  para hoy lunes 13 de abril es de  S/3.40 según el Banco Central de Reserva Del Perú.",
       "fuente_display": "RPP",
-      "resumen": "El tipo de cambio del dólar en Perú para el lunes 13 de abril se sitúa en S/3.40, según información del Banco Central de Reserva del Perú. La cotización refleja la fluctuación del mercado.",
+      "resumen": "El tipo de cambio del dólar en Perú para hoy, lunes 13 de abril de 2026, se sitúa en S/3.40, según información del Banco Central de Reserva del Perú.",
       "categoria": "Finanzas",
       "tags": [
         "dólar",
@@ -297,7 +297,7 @@
       "fecha": "2026-04-13T11:00:50Z",
       "contenido": "EI Ministerio de Educación (Minedu) informó que se mantendrán habilitadas las 13 instituciones educativas de San Juan de Miraflores, Lurín y Pachacamac en las que quedó pendiente el sufragio de más de 50 mil ciudadanos a fin de que puedan emitir su voto, tal como ha sido ordenado, de forma excepcional, por el Jurado Nacional de Elecciones (JNE).",
       "fuente_display": "Andina",
-      "resumen": "El Ministerio de Educación informó que 13 colegios de Lima Sur permanecerán habilitados para el sufragio este 13 de abril. Más de 50 mil ciudadanos podrán emitir su voto de forma excepcional, según orden del JNE.",
+      "resumen": "El Ministerio de Educación informó que 13 colegios en Lima Sur permanecerán habilitados para el sufragio este 13 de abril. Más de 50 mil ciudadanos podrán emitir su voto en estas instituciones.",
       "categoria": "Política",
       "tags": [
         "elecciones",
@@ -315,8 +315,8 @@
       "fecha": "2026-04-13T11:00:00Z",
       "contenido": "Fotos: ANDINA/Verónica Calderón",
       "fuente_display": "Andina",
-      "resumen": "El suplemento \"Variedades\" de esta semana aborda la creciente popularidad del anime en Lima. Se exploran sus manifestaciones en pistas de baile y ferias, reflejando su impacto cultural.",
-      "categoria": "Política",
+      "resumen": "El suplemento \"Variedades\" de esta semana aborda la creciente popularidad del anime. Se exploran cómo este género japonés está influyendo en las pistas de baile y ferias en Lima.",
+      "categoria": "Economía",
       "tags": [
         "cultura",
         "anime",
@@ -333,7 +333,7 @@
       "fecha": "2026-04-13T11:00:00Z",
       "contenido": "Este lunes 13 de abril se estiman acumulados de lluvia entre 15 y 30 mm/día en Tumbes y Piura, y registros entre 3 y 15 mm/día en el resto de la costa norte, informó el Servicio Nacional de Meteorología e Hidrología (Senamhi).",
       "fuente_display": "Andina",
-      "resumen": "El Senamhi pronostica lluvias ligeras a moderadas en la costa norte del Perú para este lunes 13 de abril. Se esperan acumulados de lluvia significativos en Tumbes y Piura.",
+      "resumen": "Se esperan lluvias ligeras a moderadas en la costa norte del Perú este lunes 13 de abril. Los acumulados de lluvia estimados varían entre 15 y 30 mm/día en Tumbes y Piura, según el Senamhi.",
       "categoria": "Economía",
       "tags": [
         "clima",
@@ -351,11 +351,11 @@
       "fecha": "2026-04-13T11:00:00Z",
       "contenido": "Hoy, 13 de abril, se cumple el primer aniversario del fallecimiento de Mario Vargas Llosa (Arequipa, 1936- Lima, 2025). Como recordó Álvaro Vargas Llosa, el mayor de sus tres hijos, el Premio Nobel de Literatura 2010 “fue una persona que vivió la vida como una gran aventura, ese era su espíritu, visión y talante”.",
       "fuente_display": "Andina",
-      "resumen": "Se conmemora el primer aniversario del fallecimiento del Premio Nobel de Literatura peruano Mario Vargas Llosa, ocurrido en Lima el 13 de abril de 2025. Su hijo Álvaro recordó su espíritu aventurero.",
+      "resumen": "Se conmemora el primer aniversario del fallecimiento del Premio Nobel de Literatura peruano Mario Vargas Llosa. El escritor falleció en Lima el 13 de abril de 2025, dejando un legado literario universal.",
       "categoria": "Política",
       "tags": [
-        "cultura",
         "mario vargas llosa",
+        "premio nobel",
         "literatura",
         "aniversario"
       ],
@@ -369,10 +369,16 @@
       "fecha": "2026-04-13T10:00:00Z",
       "contenido": "En el marco del actual proceso electoral, el futuro del empleo se ha convertido en un tema central, con el avance en el Congreso del Proyecto de Ley N° 10612/2024-CR, se busca establecer el teletrabajo como un derecho obligatorio para poblaciones vulnerables.",
       "fuente_display": "Andina",
-      "resumen": null,
+      "resumen": "El Congreso avanza en el Proyecto de Ley N° 10612/2024-CR, que busca establecer el teletrabajo como un derecho obligatorio para poblaciones vulnerables. Esta iniciativa se presenta como un tema central en el debate electoral de cara a las elecciones 2026, con potencial impacto en la libertad financiera.",
       "categoria": "Economía",
-      "tags": [],
-      "prompt_version": ""
+      "tags": [
+        "teletrabajo",
+        "libertad financiera",
+        "congreso",
+        "elecciones 2026",
+        "poblaciones vulnerables"
+      ],
+      "prompt_version": "prensa-v1"
     }
   ],
   "total": 21,
