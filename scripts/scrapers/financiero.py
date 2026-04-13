@@ -1,4 +1,4 @@
-"""Financial data scraper — USD/PEN from BCRP + mineral prices from yfinance."""
+"""Financial data scraper — USD/PEN from BCRP + mineral prices from yfinance + LME."""
 
 from __future__ import annotations
 
@@ -7,19 +7,27 @@ from datetime import date, timedelta
 from typing import Any
 
 import requests
+from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 USER_AGENT = "LokicieroPeru/0.1 (+https://github.com/alduere/lokicieroperu)"
 BCRP_API_URL = "https://estadisticas.bcrp.gob.pe/estadisticas/series/api"
 BCRP_SERIES = "PD04637PA0"
 
-MINERALES: list[dict[str, str]] = [
+# Minerals fetched via yfinance
+MINERALES_YFINANCE: list[dict[str, str]] = [
     {"nombre": "Cobre", "simbolo": "Cu", "ticker": "HG=F", "unidad": "USD/lb"},
     {"nombre": "Plata", "simbolo": "Ag", "ticker": "SI=F", "unidad": "USD/oz"},
-    {"nombre": "Zinc", "simbolo": "Zn", "ticker": "ZNC=F", "unidad": "USD/lb"},
-    {"nombre": "Plomo", "simbolo": "Pb", "ticker": "PB=F", "unidad": "USD/lb"},
     {"nombre": "Oro", "simbolo": "Au", "ticker": "GC=F", "unidad": "USD/oz"},
 ]
+
+# Minerals fetched via westmetall.com (LME prices)
+MINERALES_LME: list[dict[str, str]] = [
+    {"nombre": "Zinc", "simbolo": "Zn", "lme_field": "LME_Zn_cash", "unidad": "USD/mt"},
+    {"nombre": "Plomo", "simbolo": "Pb", "lme_field": "LME_Pb_cash", "unidad": "USD/mt"},
+]
+
+WESTMETALL_URL = "https://www.westmetall.com/en/markdaten.php"
 
 # How many calendar days back to request in order to guarantee ≥2 business-day values
 _BCRP_LOOKBACK_DAYS = 10
@@ -75,26 +83,16 @@ def _fetch_bcrp_usd_pen(target: date) -> dict[str, float]:
     return {"valor": round(valor, 4), "variacion_pct": variacion_pct}
 
 
-def _fetch_mineral_prices(target: date) -> list[dict[str, Any]]:
-    """Fetch closing prices for each mineral in MINERALES using yfinance.
-
-    For each ticker, we request a short recent window to get the last two
-    closes and compute the day-over-day variation.  On any failure we
-    return ``valor=0.0`` and ``variacion_pct=0.0`` so that one bad ticker
-    never breaks the whole run.
-
-    Returns:
-        List of dicts with keys: nombre, simbolo, ticker, unidad, valor, variacion_pct
-    """
+def _fetch_yfinance_prices(target: date) -> list[dict[str, Any]]:
+    """Fetch closing prices for yfinance-sourced minerals (Cu, Ag, Au)."""
     import yfinance as yf  # lazy import — not always needed in tests
 
-    # Fetch enough history to guarantee ≥2 closes (5 trading days ≈ 7+ calendar)
     lookback_start = target - timedelta(days=7)
-    end = target + timedelta(days=1)  # yfinance end is exclusive
+    end = target + timedelta(days=1)
 
     results: list[dict[str, Any]] = []
 
-    for mineral in MINERALES:
+    for mineral in MINERALES_YFINANCE:
         ticker = mineral["ticker"]
         try:
             hist = yf.Ticker(ticker).history(
@@ -132,6 +130,86 @@ def _fetch_mineral_prices(target: date) -> list[dict[str, Any]]:
         )
 
     return results
+
+
+def _fetch_lme_prices() -> list[dict[str, Any]]:
+    """Fetch LME cash-settlement prices for Zn and Pb from westmetall.com."""
+    results: list[dict[str, Any]] = []
+
+    for mineral in MINERALES_LME:
+        lme_field = mineral["lme_field"]
+        try:
+            resp = requests.get(
+                WESTMETALL_URL,
+                params={"action": "table", "field": lme_field},
+                headers={"User-Agent": USER_AGENT},
+                timeout=20,
+            )
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            tbody = soup.find("tbody")
+            if not tbody:
+                logger.warning("westmetall: no <tbody> for %s", lme_field)
+                results.append(_lme_empty(mineral))
+                continue
+
+            rows = tbody.find_all("tr")
+            prices: list[float] = []
+            for row in rows[:5]:
+                cols = row.find_all("td")
+                if len(cols) >= 2:
+                    raw = cols[1].get_text(strip=True).replace(",", "")
+                    try:
+                        prices.append(float(raw))
+                    except (TypeError, ValueError):
+                        continue
+
+            if prices:
+                valor = round(prices[0], 2)
+                variacion_pct = (
+                    round((prices[0] - prices[1]) / prices[1] * 100, 4)
+                    if len(prices) >= 2 and prices[1]
+                    else 0.0
+                )
+            else:
+                logger.warning("westmetall: no prices parsed for %s", lme_field)
+                valor = 0.0
+                variacion_pct = 0.0
+
+            results.append(
+                {
+                    "nombre": mineral["nombre"],
+                    "simbolo": mineral["simbolo"],
+                    "ticker": lme_field,
+                    "unidad": mineral["unidad"],
+                    "valor": valor,
+                    "variacion_pct": variacion_pct,
+                }
+            )
+
+        except Exception as exc:  # noqa: BLE001
+            logger.error("westmetall fetch failed for %s: %s", lme_field, exc)
+            results.append(_lme_empty(mineral))
+
+    return results
+
+
+def _lme_empty(mineral: dict[str, str]) -> dict[str, Any]:
+    return {
+        "nombre": mineral["nombre"],
+        "simbolo": mineral["simbolo"],
+        "ticker": mineral["lme_field"],
+        "unidad": mineral["unidad"],
+        "valor": 0.0,
+        "variacion_pct": 0.0,
+    }
+
+
+def _fetch_mineral_prices(target: date) -> list[dict[str, Any]]:
+    """Fetch all mineral prices: yfinance (Cu, Ag, Au) + LME (Zn, Pb)."""
+    yf_results = _fetch_yfinance_prices(target)
+    lme_results = _fetch_lme_prices()
+    return yf_results + lme_results
 
 
 class FinancieroScraper:
