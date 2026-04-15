@@ -1,0 +1,1830 @@
+{
+  "fecha": "2026-04-15",
+  "normas": [
+    {
+      "id": "2506231-1",
+      "seccion": "normas_legales",
+      "tipo": "LEY",
+      "tipo_corto": "LEY",
+      "numero": "32581",
+      "titulo_oficial": "LEY N° 32581",
+      "entidad_emisora": "CONGRESO DE LA REPUBLICA",
+      "sumilla": "Ley que garantiza el pago de la pensión para la protección y seguridad social de los maestros jubilados y cesantes del Perú",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506231-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506231-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se establece una ley para asegurar el pago de pensiones a los maestros jubilados y cesantes del Perú. Esta norma busca garantizar la protección y seguridad social de este grupo de ex-trabajadores del sector educativo. La ley beneficia directamente a los docentes que han culminado su vida laboral activa. Se trata de una nueva disposición legal que crea un marco específico para la seguridad social magisterial.",
+      "cambios_clave": [
+        "Garantiza el pago de pensiones a maestros jubilados y cesantes."
+      ],
+      "a_quien_afecta": "Maestros jubilados y cesantes del sector educativo.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Crea un marco legal específico para la seguridad social de un sector amplio de ex-trabajadores.",
+      "sectores": [
+        "educacion",
+        "pensiones"
+      ],
+      "tags": [
+        "pensiones",
+        "maestros",
+        "seguridad social"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506231-2",
+      "seccion": "normas_legales",
+      "tipo": "LEY",
+      "tipo_corto": "LEY",
+      "numero": "32582",
+      "titulo_oficial": "LEY N° 32582",
+      "entidad_emisora": "CONGRESO DE LA REPUBLICA",
+      "sumilla": "Ley que modifica la Ley 27037 Ley de Promoción de la Inversión en la Amazonía para la innovación reactivación económica y equidad de beneficios",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506231-2",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMV8yMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506231-2_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica la Ley 27037, Ley de Promoción de la Inversión en la Amazonía. Los cambios buscan impulsar la innovación, reactivar la economía y asegurar una distribución más equitativa de los beneficios generados en la región amazónica. Esta ley impacta a empresas y proyectos que operan en la Amazonía peruana. La modificación busca actualizar y mejorar los incentivos y alcances de la ley original.",
+      "cambios_clave": [
+        "Modifica Ley de Promoción de la Inversión en la Amazonía.",
+        "Busca innovación, reactivación económica y equidad de beneficios."
+      ],
+      "a_quien_afecta": "Empresas y proyectos en la Amazonía peruana.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Afecta la normativa que promueve la inversión y el desarrollo en una región específica del país.",
+      "sectores": [
+        "economia",
+        "region_amazonica"
+      ],
+      "tags": [
+        "inversion",
+        "amazonía",
+        "reactivación económica"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506234-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "054-2026-PCM",
+      "titulo_oficial": "DECRETO SUPREMO N° 054-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Decreto Supremo que aprueba el Reglamento de la Ley N° 31742 Ley que promueve el fortalecimiento transparencia y meritocracia del Servicio Civil a través de la implementación de la Plataforma Integrada para la Gestión Electrónica de Recursos Humanos",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506234-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzNF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506234-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Reglamento de la Ley 31742, que fortalece la transparencia y meritocracia en el Servicio Civil. La norma implementa una Plataforma Integrada para la Gestión Electrónica de Recursos Humanos. Esto afectará a las entidades públicas y a los servidores civiles, quienes deberán interactuar con el nuevo sistema. El reglamento detalla la aplicación práctica de la ley aprobada previamente.",
+      "cambios_clave": [
+        "Aprueba reglamento de la Ley 31742.",
+        "Implementa plataforma electrónica para gestión de RRHH en el Estado."
+      ],
+      "a_quien_afecta": "Entidades públicas y servidores civiles del Perú.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Reglamenta una ley que impacta la gestión de recursos humanos en todo el sector público.",
+      "sectores": [
+        "administracion_publica",
+        "tecnologia"
+      ],
+      "tags": [
+        "servicio civil",
+        "meritocracia",
+        "gestión electrónica"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506232-4",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "126-2026-PCM",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 126-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Modifican la R.S. N° 025-2021-PCM a fin de actualizar la conformación de los integrantes de la Comisión Consultiva de Ciencia Tecnología e Innovación",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506232-4",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMl80MjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506232-4_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se actualiza la conformación de la Comisión Consultiva de Ciencia, Tecnología e Innovación. La modificación busca optimizar el funcionamiento del grupo asesor. Esta medida afecta a los integrantes actuales y futuros de dicha comisión. Se modifica una resolución suprema previa para reflejar los cambios en la composición del comité.",
+      "cambios_clave": [
+        "Actualiza la conformación de la Comisión Consultiva de Ciencia, Tecnología e Innovación."
+      ],
+      "a_quien_afecta": "Integrantes de la Comisión Consultiva de Ciencia, Tecnología e Innovación.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Modificación interna de un órgano consultivo sin impacto directo en el público general.",
+      "sectores": [
+        "ciencia",
+        "tecnologia"
+      ],
+      "tags": [
+        "comisión consultiva",
+        "ciencia",
+        "tecnología"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506225-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "093-2026-MINCETUR",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 093-2026-MINCETUR",
+      "entidad_emisora": "COMERCIO EXTERIOR Y TURISMO",
+      "sumilla": "Modifican la R.M. N° 146-2023-MINCETUR sobre conformación del Comité Directivo del Centro de Innovación Productiva y Transferencia Tecnológica de Artesanía y Turismo de Ucayali – CITE Artesanía Ucayali",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506225-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIyNV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506225-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica la conformación del Comité Directivo del Centro de Innovación Productiva y Transferencia Tecnológica de Artesanía y Turismo de Ucayali (CITE Artesanía Ucayali). El objetivo es optimizar la gestión y dirección del centro. Esta resolución impacta a los miembros del comité y a las actividades del CITE en la región. Se actualiza una resolución ministerial anterior.",
+      "cambios_clave": [
+        "Modifica la conformación del Comité Directivo del CITE Artesanía Ucayali."
+      ],
+      "a_quien_afecta": "Miembros del Comité Directivo del CITE Artesanía Ucayali.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Ajuste en la composición de un comité directivo de un centro de innovación regional.",
+      "sectores": [
+        "artesania",
+        "turismo",
+        "innovacion"
+      ],
+      "tags": [
+        "comité directivo",
+        "artesanía",
+        "turismo"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505508-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION VICE MINISTERIAL",
+      "tipo_corto": "RES",
+      "numero": "000105-2026-VMPCIC/MC",
+      "titulo_oficial": "RESOLUCION VICE MINISTERIAL N° 000105-2026-VMPCIC/MC",
+      "entidad_emisora": "CULTURA",
+      "sumilla": "Declaran Patrimonio Cultural de la Nación al documento titulado Pedimento sobre información de méritos y servicios de Diego Núñez de Mercado hecho ante el Teniente Gobernador y Capitán de la Villa de Trujillo Don Garci Holguín de 1537 custodiado por el Archivo Regional de La Libertad",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505508-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTUwOF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505508-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara Patrimonio Cultural de la Nación a un documento histórico de 1537. El documento, titulado 'Pedimento sobre información de méritos y servicios de Diego Núñez de Mercado', se encuentra custodiado por el Archivo Regional de La Libertad. Esta declaratoria protege y reconoce el valor histórico del documento. Afecta principalmente a la entidad que lo custodia y a la preservación del patrimonio documental.",
+      "cambios_clave": [
+        "Declara Patrimonio Cultural de la Nación a documento histórico de 1537."
+      ],
+      "a_quien_afecta": "Archivo Regional de La Libertad y la preservación del patrimonio documental.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Reconocimiento de valor patrimonial a un documento histórico específico.",
+      "sectores": [
+        "cultura",
+        "historia"
+      ],
+      "tags": [
+        "patrimonio cultural",
+        "documento histórico",
+        "archivo"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505260-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION VICE MINISTERIAL",
+      "tipo_corto": "RES",
+      "numero": "000104-2026-VMPCIC/MC",
+      "titulo_oficial": "RESOLUCION VICE MINISTERIAL N° 000104-2026-VMPCIC/MC",
+      "entidad_emisora": "CULTURA",
+      "sumilla": "Declaran Patrimonio Cultural de la Nación el Libro copiador de oficios de la Dirección General de Rentas del Ministerio de Hacienda sección Guano (1877 - 1878) que se custodia en el Archivo General de la Nación",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505260-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTI2MF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505260-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara Patrimonio Cultural de la Nación al 'Libro copiador de oficios de la Dirección General de Rentas del Ministerio de Hacienda sección Guano (1877 - 1878)'. Este valioso documento histórico se custodia en el Archivo General de la Nación. La declaratoria asegura su protección y reconocimiento. Impacta en la preservación del patrimonio documental y en la entidad que lo alberga.",
+      "cambios_clave": [
+        "Declara Patrimonio Cultural de la Nación a libro copiador de oficios de 1877-1878."
+      ],
+      "a_quien_afecta": "Archivo General de la Nación y la preservación del patrimonio documental.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Reconocimiento de valor patrimonial a un documento histórico específico.",
+      "sectores": [
+        "cultura",
+        "historia"
+      ],
+      "tags": [
+        "patrimonio cultural",
+        "documento histórico",
+        "archivo"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505440-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "D000014-2026-MIDAGRI-SENASA-DSV",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° D000014-2026-MIDAGRI-SENASA-DSV",
+      "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
+      "sumilla": "Autorizan ingreso al país de plantas de arándanos de origen y procedencia de la República de Chile a través del Complejo Fronterizo Santa Rosa bajo responsabilidad de la empresa Prosembra Sociedad Anónima Cerrada",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505440-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTQ0MF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505440-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el ingreso al país de plantas de arándanos provenientes de Chile. La entrada se realizará por el Complejo Fronterizo Santa Rosa y bajo responsabilidad de la empresa Prosembra SAC. Esta autorización es para fines de importación y posible desarrollo agrícola. Afecta a la empresa importadora y a las autoridades sanitarias y aduaneras.",
+      "cambios_clave": [
+        "Autoriza ingreso de plantas de arándanos desde Chile.",
+        "Establece punto de ingreso y responsable de la importación."
+      ],
+      "a_quien_afecta": "Empresa Prosembra SAC y autoridades sanitarias y agrícolas.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Permite la importación de material biológico con implicancias fitosanitarias y agrícolas.",
+      "sectores": [
+        "agricultura",
+        "sanidad"
+      ],
+      "tags": [
+        "importación",
+        "arándanos",
+        "sanidad vegetal"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505795-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0117-2026-MIDAGRI",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0117-2026-MIDAGRI",
+      "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
+      "sumilla": "Designan Director General de Gestión Territorial de la Dirección General de Gestión Territorial",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505795-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTc5NV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505795-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director General de Gestión Territorial. El nombramiento recae en una persona específica para ocupar dicho cargo directivo. Esta acción afecta directamente al funcionario designado y a la estructura orgánica del Ministerio de Desarrollo Agrario y Riego. Es una designación interna que no modifica la normativa general.",
+      "cambios_clave": [
+        "Designa Director General de Gestión Territorial."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Ministerio de Desarrollo Agrario y Riego.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico sin efectos regulatorios amplios.",
+      "sectores": [
+        "agricultura",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "gestión territorial",
+        "funcionario"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506078-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "D000034-2026-OFIS-PE",
+      "titulo_oficial": "RESOLUCION N° D000034-2026-OFIS-PE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Jefe de la Oficina de Administración del Organismo de Focalización e Información Social (OFIS)",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506078-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjA3OF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506078-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de la Oficina de Administración del Organismo de Focalización e Información Social (OFIS). El nombramiento recae en una persona específica para liderar dicha oficina. Esta acción afecta al funcionario designado y a la organización interna del OFIS. Es una designación de personal para un puesto clave.",
+      "cambios_clave": [
+        "Designa Jefe de la Oficina de Administración del OFIS."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Organismo de Focalización e Información Social (OFIS).",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico para un puesto administrativo interno.",
+      "sectores": [
+        "administracion_publica",
+        "inclusion_social"
+      ],
+      "tags": [
+        "designación",
+        "jefe de administración",
+        "ofis"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506232-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "058-2026-EF",
+      "titulo_oficial": "DECRETO SUPREMO N° 058-2026-EF",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Decreto Supremo que modifica el Decreto Supremo N° 086-2003-EF Aprueban Reglamento del Fedatario Fiscalizador",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506232-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506232-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el Reglamento del Fedatario Fiscalizador, aprobado por Decreto Supremo N° 086-2003-EF. Los cambios buscan actualizar o precisar aspectos relacionados con la función del fedatario fiscalizador. Esta norma impacta a quienes ejercen o interactúan con esta figura en el ámbito fiscal. Se actualiza una normativa previa sobre fiscalización.",
+      "cambios_clave": [
+        "Modifica Reglamento del Fedatario Fiscalizador.",
+        "Actualiza normativa de 2003 sobre fiscalización."
+      ],
+      "a_quien_afecta": "Fedatarios fiscalizadores y entidades sujetas a fiscalización.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modifica el reglamento de una figura clave en los procesos de fiscalización.",
+      "sectores": [
+        "tributacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "fedatario fiscalizador",
+        "reglamento",
+        "fiscalización"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506232-2",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "059-2026-EF",
+      "titulo_oficial": "DECRETO SUPREMO N° 059-2026-EF",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor del Gobierno Regional de Ucayali y de diversos gobiernos locales",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506232-2",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMl8yMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506232-2_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026. Los fondos se dirigen al Gobierno Regional de Ucayali y a diversos gobiernos locales. El objetivo es financiar gastos específicos en estas entidades subnacionales. Esta medida afecta la asignación presupuestaria y las finanzas de las regiones y municipios beneficiados.",
+      "cambios_clave": [
+        "Autoriza transferencia de partidas presupuestarias.",
+        "Beneficia a Gobierno Regional de Ucayali y gobiernos locales."
+      ],
+      "a_quien_afecta": "Gobierno Regional de Ucayali y gobiernos locales beneficiados.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Implica una reasignación de fondos públicos a nivel regional y local.",
+      "sectores": [
+        "presupuesto_publico",
+        "gobierno_regional",
+        "gobierno_local"
+      ],
+      "tags": [
+        "transferencia presupuestaria",
+        "gobiernos regionales",
+        "gobiernos locales"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506232-3",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "060-2026-EF",
+      "titulo_oficial": "DECRETO SUPREMO N° 060-2026-EF",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Decreto Supremo que modifica el Reglamento del Decreto de Urgencia N° 012-2019 que establece medidas para fortalecer la seguridad vial en la prestación del servicio de transporte público terrestre de carga y del transporte regular de personas de los ámbitos nacional regional y provincial",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506232-3",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMl8zMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506232-3_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el Reglamento del Decreto de Urgencia N° 012-2019, relacionado con la seguridad vial en el transporte público. Los ajustes buscan mejorar las disposiciones para el transporte de carga y de personas a nivel nacional, regional y provincial. Esta norma impacta a empresas y operadores del sector transporte. Se actualiza la normativa vigente para reforzar la seguridad vial.",
+      "cambios_clave": [
+        "Modifica reglamento sobre seguridad vial en transporte público.",
+        "Afecta transporte de carga y personas a nivel nacional."
+      ],
+      "a_quien_afecta": "Empresas y operadores de transporte público terrestre de carga y personas.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Modifica la regulación de seguridad vial para un sector de transporte amplio.",
+      "sectores": [
+        "transporte",
+        "seguridad_vial"
+      ],
+      "tags": [
+        "seguridad vial",
+        "transporte público",
+        "reglamento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505692-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "185-2026-EF/10",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 185-2026-EF/10",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Autorizan viaje de Director de Servicios al Inversionista de PROINVERSIÓN a Brasil en comisión de servicios",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505692-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTY5Ml8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505692-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje a Brasil de un Director de Servicios al Inversionista de PROINVERSIÓN. El viaje es en comisión de servicios para atender asuntos relacionados con la promoción de inversiones. Esta autorización impacta al funcionario y a las actividades de PROINVERSIÓN en el extranjero. Es un permiso individual para un viaje de trabajo.",
+      "cambios_clave": [
+        "Autoriza viaje de Director de Servicios al Inversionista a Brasil."
+      ],
+      "a_quien_afecta": "Director de Servicios al Inversionista de PROINVERSIÓN.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para un funcionario en comisión de servicios.",
+      "sectores": [
+        "economia",
+        "inversion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje oficial",
+        "proinversión",
+        "inversiones"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2503104-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "149-2026-MINEM/DM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 149-2026-MINEM/DM",
+      "entidad_emisora": "ENERGIA Y MINAS",
+      "sumilla": "Aprueban texto de aclaración del Contrato de Concesión N° 561-2021 solicitada por la Empresa de Generación Eléctrica del Sur S.A. relacionada a la concesión definitiva de generación de energía eléctrica con Recursos Energéticos Renovables para el proyecto Central Hidroeléctrica Moquegua 3",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2503104-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMzEwNF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2503104-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el texto de aclaración de un Contrato de Concesión para generación de energía eléctrica. La solicitud fue de la Empresa de Generación Eléctrica del Sur S.A. y se refiere a la Central Hidroeléctrica Moquegua 3. Esta aclaración precisa aspectos del contrato existente. Impacta a la empresa concesionaria y al sector energético.",
+      "cambios_clave": [
+        "Aprueba aclaración de Contrato de Concesión N° 561-2021.",
+        "Se refiere a la Central Hidroeléctrica Moquegua 3."
+      ],
+      "a_quien_afecta": "Empresa de Generación Eléctrica del Sur S.A. y el sector energético.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modifica un contrato de concesión en el sector de generación de energía eléctrica.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "contrato de concesión",
+        "energía eléctrica",
+        "aclaración"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506090-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "165-2026-MINEM/DM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 165-2026-MINEM/DM",
+      "entidad_emisora": "ENERGIA Y MINAS",
+      "sumilla": "Autorizan transferencia financiera de recursos a favor del Gobierno Regional de Huánuco",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506090-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjA5MF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506090-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una transferencia financiera de recursos a favor del Gobierno Regional de Huánuco. El objetivo es financiar actividades o proyectos específicos en dicha región. Esta medida impacta en la asignación presupuestaria del gobierno regional. Es una transferencia de fondos del sector Energía y Minas.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera a Gobierno Regional de Huánuco."
+      ],
+      "a_quien_afecta": "Gobierno Regional de Huánuco y el Ministerio de Energía y Minas.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Implica una transferencia de fondos públicos a un gobierno regional.",
+      "sectores": [
+        "energia",
+        "gobierno_regional",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "gobierno regional",
+        "recursos"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506119-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "166-2026-MINEM/DM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 166-2026-MINEM/DM",
+      "entidad_emisora": "ENERGIA Y MINAS",
+      "sumilla": "Autorizan transferencia financiera de recursos a favor del Pliego 453: Gobierno Regional de Loreto",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506119-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjExOV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506119-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una transferencia financiera de recursos a favor del Pliego 453: Gobierno Regional de Loreto. El propósito es financiar actividades o proyectos específicos en la región. Esta medida impacta en la asignación presupuestaria del gobierno regional. Los fondos provienen del Ministerio de Energía y Minas.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera a Gobierno Regional de Loreto."
+      ],
+      "a_quien_afecta": "Gobierno Regional de Loreto y el Ministerio de Energía y Minas.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Implica una transferencia de fondos públicos a un gobierno regional.",
+      "sectores": [
+        "energia",
+        "gobierno_regional",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "gobierno regional",
+        "recursos"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505766-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "301-2026-PRODUCE/PROINNOVATE",
+      "titulo_oficial": "RESOLUCION N° 301-2026-PRODUCE/PROINNOVATE",
+      "entidad_emisora": "PRODUCE",
+      "sumilla": "Aprueban otorgamiento de subvenciones a favor de beneficiarios",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505766-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTc2Nl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505766-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el otorgamiento de subvenciones a favor de beneficiarios específicos. La resolución detalla los criterios y montos de las subvenciones. Esto impacta directamente a las personas o entidades que recibirán los fondos. La medida proviene del programa PROINNOVATE del Ministerio de la Producción.",
+      "cambios_clave": [
+        "Aprueba otorgamiento de subvenciones a beneficiarios."
+      ],
+      "a_quien_afecta": "Beneficiarios de subvenciones del programa PROINNOVATE.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Concede subvenciones, lo que implica una asignación de recursos públicos a terceros.",
+      "sectores": [
+        "economia",
+        "innovacion",
+        "mype"
+      ],
+      "tags": [
+        "subvenciones",
+        "proinnovate",
+        "financiamiento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505447-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "000006-2026-INACAL/DN",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 000006-2026-INACAL/DN",
+      "entidad_emisora": "PRODUCE",
+      "sumilla": "Aprueban Normas Técnicas Peruanas y textos afines",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505447-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTQ0N18xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505447-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueban nuevas Normas Técnicas Peruanas y textos afines. Estas normas establecen especificaciones técnicas y de calidad para diversos productos o procesos. Su aprobación impacta a los sectores productivos y a los consumidores que se rigen por estos estándares. La medida es emitida por el Instituto Nacional de Calidad (INACAL).",
+      "cambios_clave": [
+        "Aprueban nuevas Normas Técnicas Peruanas.",
+        "Establecen estándares de calidad y especificaciones técnicas."
+      ],
+      "a_quien_afecta": "Sectores productivos y consumidores que utilizan normas técnicas.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece estándares técnicos que afectan la producción y comercialización de bienes y servicios.",
+      "sectores": [
+        "economia",
+        "industria",
+        "calidad"
+      ],
+      "tags": [
+        "normas técnicas",
+        "calidad",
+        "estándares"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505967-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000096-2026-PRODUCE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000096-2026-PRODUCE",
+      "entidad_emisora": "PRODUCE",
+      "sumilla": "Autorizan Transferencia Financiera a favor de la Corporación Financiera de Desarrollo S.A. - COFIDE para financiar parcialmente el Bono al Buen Pagador de IMPULSO MYPERU (BBP)",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505967-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTk2N18xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505967-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia Financiera a favor de COFIDE para financiar parcialmente el Bono al Buen Pagador (BBP) de IMPULSO MYPERU. El objetivo es facilitar el acceso a financiamiento para las micro y pequeñas empresas. Esta medida impacta a COFIDE, a las MYPEs y al sistema financiero. Se busca dinamizar el crédito para emprendedores.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera a COFIDE para Bono al Buen Pagador.",
+        "Financia parcialmente IMPULSO MYPERU."
+      ],
+      "a_quien_afecta": "COFIDE, MYPEs y entidades financieras del programa IMPULSO MYPERU.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Facilita el acceso a crédito para MYPEs a través de un bono, impactando el sector financiero y empresarial.",
+      "sectores": [
+        "financiero",
+        "mype",
+        "economia"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "cofide",
+        "impulso myperu"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506232-5",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "067-2026-RE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 067-2026-RE",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Pasan a situación de retiro a Segunda Secretaria en el Servicio Diplomático de la República",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506232-5",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMl81MjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506232-5_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se dispone el pase a situación de retiro de una Segunda Secretaria en el Servicio Diplomático de la República. Esta medida afecta a la funcionaria involucrada y a la estructura del servicio exterior. Es una decisión administrativa interna del Ministerio de Relaciones Exteriores. No implica cambios normativos generales.",
+      "cambios_clave": [
+        "Pasa a retiro a Segunda Secretaria del Servicio Diplomático."
+      ],
+      "a_quien_afecta": "Segunda Secretaria del Servicio Diplomático y el Ministerio de Relaciones Exteriores.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Decisión administrativa individual sobre el retiro de un miembro del servicio diplomático.",
+      "sectores": [
+        "relaciones_exteriores",
+        "administracion_publica"
+      ],
+      "tags": [
+        "retiro",
+        "servicio diplomático",
+        "funcionario"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505716-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "378-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 378-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Designan Directora Ejecutiva de la Dirección de Planificación del Personal de la Salud de la Dirección General de Personal de la Salud",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505716-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTcxNl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505716-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Directora Ejecutiva de la Dirección de Planificación del Personal de la Salud. El nombramiento recae en una persona específica para liderar dicha dirección. Esta acción afecta a la funcionaria designada y a la estructura del Ministerio de Salud. Es una designación interna para un puesto directivo.",
+      "cambios_clave": [
+        "Designa Directora Ejecutiva de Planificación del Personal de la Salud."
+      ],
+      "a_quien_afecta": "Directora Ejecutiva designada y el Ministerio de Salud.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de una funcionaria específica para un puesto directivo en el sector salud.",
+      "sectores": [
+        "salud",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "personal de salud",
+        "ministerio de salud"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505730-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "377-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 377-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Designan Director Ejecutivo de la Dirección de Fortalecimiento de Capacidades del Personal de la Salud de la Dirección General de Personal de la Salud",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505730-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTczMF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505730-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director Ejecutivo de la Dirección de Fortalecimiento de Capacidades del Personal de la Salud. El nombramiento recae en una persona específica para liderar dicha dirección. Esta acción afecta a la funcionaria designada y a la estructura del Ministerio de Salud. Es una designación interna para un puesto directivo.",
+      "cambios_clave": [
+        "Designa Director Ejecutivo de Fortalecimiento de Capacidades del Personal de la Salud."
+      ],
+      "a_quien_afecta": "Director Ejecutivo designado y el Ministerio de Salud.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico para un puesto directivo en el sector salud.",
+      "sectores": [
+        "salud",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "personal de salud",
+        "ministerio de salud"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505761-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "379-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 379-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Disponen fechas de inicio y término del SERUMS 2026-I para profesionales de la salud que adjudiquen plaza remunerada y plaza equivalente",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505761-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTc2MV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505761-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se establecen las fechas de inicio y término del SERUMS 2026-I para profesionales de la salud. La norma aplica a quienes adjudiquen plaza remunerada y plaza equivalente. Esto afecta a los profesionales de la salud que participarán en el SERUMS. Se definen los plazos para el cumplimiento de esta etapa formativa y de servicio.",
+      "cambios_clave": [
+        "Dispone fechas de inicio y término del SERUMS 2026-I.",
+        "Aplica a profesionales de la salud con plaza remunerada/equivalente."
+      ],
+      "a_quien_afecta": "Profesionales de la salud que participan en el SERUMS 2026-I.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Define el cronograma para el Servicio Rural y Urbano Marginal de Salud (SERUMS).",
+      "sectores": [
+        "salud",
+        "educacion"
+      ],
+      "tags": [
+        "serums",
+        "profesionales de la salud",
+        "cronograma"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505607-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "189-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 189-2026-MTC/01.02",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Autorizan viaje de inspector de la Dirección General de Aeronáutica Civil del Ministerio de Transportes y Comunicaciones a EE.UU. en comisión de servicios",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505607-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYwN18xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505607-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje a EE.UU. de un inspector de la Dirección General de Aeronáutica Civil. El viaje es en comisión de servicios para asuntos relacionados con la aviación civil. Esta autorización impacta al funcionario y a las actividades de fiscalización o supervisión aeronáutica. Es un permiso individual para un viaje de trabajo.",
+      "cambios_clave": [
+        "Autoriza viaje de inspector de Aeronáutica Civil a EE.UU."
+      ],
+      "a_quien_afecta": "Inspector de la Dirección General de Aeronáutica Civil.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para un funcionario en comisión de servicios.",
+      "sectores": [
+        "transporte",
+        "aeronautica",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje oficial",
+        "aeronáutica civil",
+        "inspector"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505632-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "190-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 190-2026-MTC/01.02",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Autorizan viaje de inspector de la Dirección General de Aeronáutica Civil a EE.UU. en comisión de servicios",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505632-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzMl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505632-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de un inspector de la Dirección General de Aeronáutica Civil a Estados Unidos. El propósito es realizar una comisión de servicios relacionada con sus funciones. Esta autorización recae sobre un funcionario específico del Ministerio de Transportes y Comunicaciones. La norma es un acto administrativo puntual que no modifica regulaciones previas.",
+      "cambios_clave": [
+        "Autoriza viaje de inspector de la DGAC a EE.UU."
+      ],
+      "a_quien_afecta": "Funcionario del Ministerio de Transportes y Comunicaciones.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un funcionario.",
+      "sectores": [
+        "transporte",
+        "aeronautica"
+      ],
+      "tags": [
+        "viaje oficial",
+        "aeronautica",
+        "inspector"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505981-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "163-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 163-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Jefe de Tecnologías de la Información de la Oficina de Tecnologías de la Información de la Oficina General de Estadística e Informática del Ministerio",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505981-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTk4MV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505981-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Jefe de Tecnologías de la Información de la Oficina General de Estadística e Informática del Ministerio de Vivienda, Construcción y Saneamiento. El cargo recae en un profesional específico dentro de la estructura del ministerio. Esta es una designación interna que no altera el marco normativo vigente.",
+      "cambios_clave": [
+        "Designa Jefe de Tecnologías de la Información."
+      ],
+      "a_quien_afecta": "Funcionario del Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario interno.",
+      "sectores": [
+        "administracion_publica",
+        "vivienda"
+      ],
+      "tags": [
+        "designacion",
+        "ti",
+        "ministerio"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506230-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "160-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 160-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Autorizan Transferencia Financiera a favor del Instituto Geofísico del Perú",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506230-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIzMF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506230-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una transferencia financiera del Ministerio de Vivienda, Construcción y Saneamiento hacia el Instituto Geofísico del Perú. El objetivo es proveer recursos económicos para actividades específicas del instituto. Esta operación beneficia directamente al Instituto Geofísico del Perú. La norma concreta una asignación presupuestaria sin modificar regulaciones generales.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera al Instituto Geofísico del Perú."
+      ],
+      "a_quien_afecta": "Instituto Geofísico del Perú y Ministerio de Vivienda.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Transferencia financiera a entidad pública para fines específicos.",
+      "sectores": [
+        "vivienda",
+        "ciencia"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "igp",
+        "recursos"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505989-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "60-2026-OS/CD",
+      "titulo_oficial": "RESOLUCION N° 60-2026-OS/CD",
+      "entidad_emisora": "ORGANISMO SUPERVISOR DE LA INVERSIÓN EN ENERGÍA Y MINERÍA",
+      "sumilla": "Aprueban medidas transitorias y excepcionales para el reporte de información de inventarios de combustibles líquidos y GLP a Osinergmin",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505989-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTk4OV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505989-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se establecen medidas transitorias y excepcionales para el reporte de información sobre inventarios de combustibles líquidos y GLP al Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin). Estas disposiciones afectan a las empresas que manejan estos productos y deben reportar a Osinergmin. La norma implementa un procedimiento temporal ante circunstancias específicas.",
+      "cambios_clave": [
+        "Aprueba medidas transitorias para reporte de inventarios de combustibles."
+      ],
+      "a_quien_afecta": "Empresas de combustibles líquidos y GLP y Osinergmin.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece procedimientos operativos para empresas del sector energético.",
+      "sectores": [
+        "energia",
+        "hidrocarburos"
+      ],
+      "tags": [
+        "combustibles",
+        "reporte",
+        "osinergmin",
+        "transitorio"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505994-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "61-2026-OS/CD",
+      "titulo_oficial": "RESOLUCION N° 61-2026-OS/CD",
+      "entidad_emisora": "ORGANISMO SUPERVISOR DE LA INVERSIÓN EN ENERGÍA Y MINERÍA",
+      "sumilla": "Resolución de Consejo Directivo que modifica los peajes y compensaciones de los Sistemas Secundarios de Transmisión de Red Eléctrica del Sur S.A. e Interconexión Eléctrica ISA Perú S.A.",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505994-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTk5NF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505994-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifican los peajes y compensaciones aplicables a los Sistemas Secundarios de Transmisión de Red Eléctrica del Sur S.A. e Interconexión Eléctrica ISA Perú S.A. Estos cambios impactan directamente a las empresas mencionadas y a los usuarios del sistema de transmisión eléctrica. La resolución ajusta tarifas y cargos establecidos previamente por Osinergmin.",
+      "cambios_clave": [
+        "Modifica peajes y compensaciones de sistemas secundarios de transmisión."
+      ],
+      "a_quien_afecta": "Empresas de transmisión eléctrica y Osinergmin.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Modifica tarifas y cargos en el sector de transmisión eléctrica.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "peajes",
+        "transmision electrica",
+        "tarifas",
+        "osinergmin"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506000-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "62-2026-OS/CD",
+      "titulo_oficial": "RESOLUCION N° 62-2026-OS/CD",
+      "entidad_emisora": "ORGANISMO SUPERVISOR DE LA INVERSIÓN EN ENERGÍA Y MINERÍA",
+      "sumilla": "Resolución de Consejo Directivo que modifica el Procedimiento Técnico del COES N° 46 Garantías y Constitución de Fideicomisos para el Mercado Mayorista de Electricidad (PR-46)",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506000-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjAwMF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506000-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el Procedimiento Técnico del COES N° 46, el cual regula las garantías y la constitución de fideicomisos para el Mercado Mayorista de Electricidad. Esta modificación afecta a los participantes del mercado eléctrico que deben cumplir con estas exigencias. La norma actualiza un procedimiento técnico existente para el sector eléctrico.",
+      "cambios_clave": [
+        "Modifica procedimiento técnico sobre garantías y fideicomisos en mercado eléctrico."
+      ],
+      "a_quien_afecta": "Participantes del Mercado Mayorista de Electricidad y COES.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Modifica reglas de operación y garantías en el mercado eléctrico.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "mercado electrico",
+        "garantias",
+        "fideicomisos",
+        "coes"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506010-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "63-2026-OS/CD",
+      "titulo_oficial": "RESOLUCION N° 63-2026-OS/CD",
+      "entidad_emisora": "ORGANISMO SUPERVISOR DE LA INVERSIÓN EN ENERGÍA Y MINERÍA",
+      "sumilla": "Resolución de Consejo Directivo que determina el cargo unitario de liquidación y modifica las tarifas de los sistemas secundarios de transmisión y sistemas complementarios de transmisión producto de la liquidación anual de los ingresos para el periodo mayo 2026 – abril 2027",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506010-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjAxMF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506010-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se determina el cargo unitario de liquidación y se modifican las tarifas de los sistemas secundarios y complementarios de transmisión para el periodo mayo 2026-abril 2027. Esto impacta a las empresas concesionarias de transmisión y a los usuarios del sistema eléctrico. La resolución establece los costos de transmisión para el próximo año regulatorio.",
+      "cambios_clave": [
+        "Fija cargo unitario de liquidación y modifica tarifas de transmisión (mayo 2026-abr 2027)."
+      ],
+      "a_quien_afecta": "Empresas de transmisión eléctrica y usuarios del sistema.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Establece tarifas de transmisión eléctrica para el próximo periodo anual.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "tarifas",
+        "transmision electrica",
+        "liquidacion",
+        "osinergmin"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506022-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "69-2026-OS/CD",
+      "titulo_oficial": "RESOLUCION N° 69-2026-OS/CD",
+      "entidad_emisora": "ORGANISMO SUPERVISOR DE LA INVERSIÓN EN ENERGÍA Y MINERÍA",
+      "sumilla": "Resolución de Consejo Directivo que modifica la Resolución N° 047-2025-OS/CD en cuanto a la distribución de la responsabilidad de pago entre generadores por el uso del Sistema Secundario de Transmisión Generación/Demanda",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506022-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjAyMl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506022-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica la Resolución N° 047-2025-OS/CD en lo referente a la distribución de la responsabilidad de pago entre generadores por el uso del Sistema Secundario de Transmisión Generación/Demanda. Este cambio afecta a los generadores eléctricos y a Osinergmin. La norma ajusta la asignación de costos de transmisión entre los actores del sector.",
+      "cambios_clave": [
+        "Modifica distribución de pago de uso de transmisión entre generadores."
+      ],
+      "a_quien_afecta": "Generadores eléctricos y Osinergmin.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Reasigna costos de uso de infraestructura de transmisión eléctrica.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "transmision electrica",
+        "generadores",
+        "costos",
+        "osinergmin"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506041-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "70-2026-OS/CD",
+      "titulo_oficial": "RESOLUCION N° 70-2026-OS/CD",
+      "entidad_emisora": "ORGANISMO SUPERVISOR DE LA INVERSIÓN EN ENERGÍA Y MINERÍA",
+      "sumilla": "Resolución que fija los precios en barra y cargos tarifarios para el período mayo 2026 – abril 2027",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://epdoc2.elperuano.pe/EpPo/VistaNLSE.asp?Referencias=MjUwNjA0MS0xMjAyNjA0MTU=",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjA0MV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506041-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se fijan los precios en barra y los cargos tarifarios para el Mercado Mayorista de Electricidad durante el periodo mayo 2026-abril 2027. Estas tarifas impactan a los generadores, distribuidores y grandes consumidores de electricidad. La resolución establece los precios de la energía en el mercado spot para el próximo año regulatorio.",
+      "cambios_clave": [
+        "Fija precios en barra y cargos tarifarios del mercado eléctrico (mayo 2026-abr 2027)."
+      ],
+      "a_quien_afecta": "Participantes del mercado eléctrico y Osinergmin.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Establece precios de la electricidad en el mercado mayorista.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "precios electricidad",
+        "tarifas",
+        "mercado mayorista",
+        "osinergmin"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2504502-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000092-2026-INGEMMET/PE",
+      "titulo_oficial": "RESOLUCION N° 000092-2026-INGEMMET/PE",
+      "entidad_emisora": "INSTITUTO GEOLÓGICO MINERO Y METALÚRGICO",
+      "sumilla": "Disponen publicar relación de 466 títulos de concesión minera cuyos títulos se aprobaron en marzo de 2026",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504502-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDUwMl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2504502-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se dispone la publicación de una relación con 466 títulos de concesión minera aprobados durante marzo de 2026. Esta información es de interés para empresas mineras, inversionistas y el público en general. El Instituto Geológico, Minero y Metalúrgico (INGEMMET) cumple con su deber de informar sobre las concesiones otorgadas.",
+      "cambios_clave": [
+        "Publica relación de 466 títulos de concesión minera aprobados en marzo 2026."
+      ],
+      "a_quien_afecta": "Empresas mineras, inversionistas y público en general.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Informa sobre la aprobación de concesiones mineras.",
+      "sectores": [
+        "mineria"
+      ],
+      "tags": [
+        "concesiones mineras",
+        "publicacion",
+        "ingemmet"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506175-1",
+      "seccion": "normas_legales",
+      "tipo": "FE DE ERRATA Res.",
+      "tipo_corto": "OTRO",
+      "numero": "000056-2026-SUNAT/800000",
+      "titulo_oficial": "FE DE ERRATA Res. N° 000056-2026-SUNAT/800000",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+      "sumilla": "FE DE ERRATA",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506175-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjE3NV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506175-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se emite una fe de erratas para la Resolución N° 000056-2026-SUNAT/800000. Esta corrección aclara o rectifica errores materiales en el texto original de la resolución. La fe de erratas afecta a quienes se vieron impactados por la resolución original y a la propia SUNAT.",
+      "cambios_clave": [
+        "Corrige errores materiales en la Resolución N° 000056-2026-SUNAT/800000."
+      ],
+      "a_quien_afecta": "Contribuyentes afectados por la Resolución N° 000056-2026-SUNAT/800000.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Aclara o rectifica errores en una norma previa sin modificar su fondo.",
+      "sectores": [
+        "tributacion"
+      ],
+      "tags": [
+        "fe de erratas",
+        "sunat",
+        "resolucion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506205-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000099-2026-MIGRACIONES",
+      "titulo_oficial": "RESOLUCION N° 000099-2026-MIGRACIONES",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE MIGRACIONES",
+      "sumilla": "Designan Gerente General de la Gerencia General de la Superintendencia Nacional de Migraciones – MIGRACIONES",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506205-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIwNV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506205-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Gerente General de la Superintendencia Nacional de Migraciones (MIGRACIONES). El cargo recae en un profesional específico dentro de la institución. Esta es una designación interna que no altera el marco normativo ni operativo de la entidad.",
+      "cambios_clave": [
+        "Designa Gerente General de la Superintendencia Nacional de Migraciones."
+      ],
+      "a_quien_afecta": "Funcionario de la Superintendencia Nacional de Migraciones.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario interno.",
+      "sectores": [
+        "migraciones",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "gerente general",
+        "migraciones"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506227-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000097-2026-MIGRACIONES",
+      "titulo_oficial": "RESOLUCION N° 000097-2026-MIGRACIONES",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE MIGRACIONES",
+      "sumilla": "Aprueban Plan de Trabajo del registro de datos personales y biométricos de los solicitantes de la condición del refugiado",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506227-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjIyN18xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2506227-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Plan de Trabajo para el registro de datos personales y biométricos de los solicitantes de la condición de refugiado. Este plan establece los procedimientos y plazos para la recolección de información sensible. Afecta directamente a los solicitantes de refugio y a la Superintendencia Nacional de Migraciones. La norma implementa un procedimiento específico para la gestión de solicitudes de refugio.",
+      "cambios_clave": [
+        "Aprueba Plan de Trabajo para registro de datos de solicitantes de refugio."
+      ],
+      "a_quien_afecta": "Solicitantes de refugio y Superintendencia Nacional de Migraciones.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece procedimiento para el registro de datos de solicitantes de refugio.",
+      "sectores": [
+        "migraciones",
+        "derechos_humanos"
+      ],
+      "tags": [
+        "refugio",
+        "datos personales",
+        "migraciones",
+        "plan de trabajo"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505884-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SBS",
+      "tipo_corto": "RES",
+      "numero": "01113-2026",
+      "titulo_oficial": "RESOLUCION SBS N° 01113-2026",
+      "entidad_emisora": "SUPERINTENDENCIA DE BANCA, SEGUROS Y ADMINISTRADORAS PRIVADAS DE FONDOS DE PENSIONES",
+      "sumilla": "Declaran el sometimiento a Régimen de Intervención a la Caja Rural de Ahorro y Crédito Del Centro S.A.",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505884-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTg4NF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505884-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara el sometimiento de la Caja Rural de Ahorro y Crédito Del Centro S.A. a un Régimen de Intervención. Esto implica la intervención de la Superintendencia de Banca, Seguros y AFP (SBS) en la gestión de la entidad financiera. La medida afecta directamente a la Caja Rural Del Centro S.A. y sus depositantes. Es una acción de supervisión prudencial ante problemas financieros.",
+      "cambios_clave": [
+        "Somete a Caja Rural Del Centro S.A. a Régimen de Intervención."
+      ],
+      "a_quien_afecta": "Caja Rural de Ahorro y Crédito Del Centro S.A. y SBS.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Intervención de una entidad financiera por parte del regulador.",
+      "sectores": [
+        "financiero",
+        "banca"
+      ],
+      "tags": [
+        "intervencion",
+        "caja rural",
+        "sbs",
+        "financiero"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505684-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SBS",
+      "tipo_corto": "RES",
+      "numero": "01082-2026",
+      "titulo_oficial": "RESOLUCION SBS N° 01082-2026",
+      "entidad_emisora": "SUPERINTENDENCIA DE BANCA, SEGUROS Y ADMINISTRADORAS PRIVADAS DE FONDOS DE PENSIONES",
+      "sumilla": "Declaran el sometimiento a régimen de intervención de la Cooperativa de Ahorro y Crédito Kuria y designan interventores",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505684-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTY4NF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505684-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara el sometimiento de la Cooperativa de Ahorro y Crédito Kuria a un régimen de intervención y se designan interventores. La Superintendencia de Banca, Seguros y AFP (SBS) toma el control de la cooperativa. Esta medida afecta a la Cooperativa Kuria y sus socios. Es una acción de supervisión ante dificultades financieras de la entidad.",
+      "cambios_clave": [
+        "Somete a Cooperativa Kuria a régimen de intervención y designa interventores."
+      ],
+      "a_quien_afecta": "Cooperativa de Ahorro y Crédito Kuria y SBS.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Intervención de una entidad financiera por parte del regulador.",
+      "sectores": [
+        "financiero",
+        "banca"
+      ],
+      "tags": [
+        "intervencion",
+        "cooperativa",
+        "sbs",
+        "financiero"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505706-1",
+      "seccion": "normas_legales",
+      "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
+      "numero": "551-AREQUIPA",
+      "titulo_oficial": "ORDENANZA N° 551-AREQUIPA",
+      "entidad_emisora": "GOBIERNO REGIONAL DE AREQUIPA",
+      "sumilla": "Declaran de prioridad e interés regional el fortalecimiento de las diversas formas de organización familiar como espacio fundamental para el desarrollo cognitivo y crecimiento integral del ser humano en nuestra región",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505706-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTcwNl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505706-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara de prioridad e interés regional el fortalecimiento de las organizaciones familiares para el desarrollo cognitivo y crecimiento integral de las personas en la región Arequipa. Esta ordenanza promueve la importancia de la familia como núcleo social. Afecta a la ciudadanía y a las políticas públicas del Gobierno Regional de Arequipa. Es una declaratoria de interés regional sin implicancias económicas directas.",
+      "cambios_clave": [
+        "Declara de interés regional el fortalecimiento de organizaciones familiares."
+      ],
+      "a_quien_afecta": "Ciudadanía de Arequipa y Gobierno Regional.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Declara interés regional en un tema social y de desarrollo humano.",
+      "sectores": [
+        "gobierno_regional",
+        "mujer",
+        "familia"
+      ],
+      "tags": [
+        "familia",
+        "desarrollo",
+        "arequipa",
+        "interes regional"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2504690-1",
+      "seccion": "normas_legales",
+      "tipo": "ACUERDO",
+      "tipo_corto": "ACU",
+      "numero": "098-2026-CR/GRM",
+      "titulo_oficial": "ACUERDO N° 098-2026-CR/GRM",
+      "entidad_emisora": "GOBIERNO REGIONAL DE MOQUEGUA",
+      "sumilla": "Autorizan transferencia financiera del Gobierno Regional de Moquegua a favor de la Municipalidad Distrital de Puquina",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504690-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDY5MF8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2504690-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una transferencia financiera del Gobierno Regional de Moquegua a favor de la Municipalidad Distrital de Puquina. El objetivo es proveer recursos para proyectos o actividades específicas de la municipalidad. Esta operación beneficia directamente a la Municipalidad de Puquina. La norma concreta una asignación presupuestaria entre entidades públicas.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera del Gobierno Regional de Moquegua a Municipalidad de Puquina."
+      ],
+      "a_quien_afecta": "Gobierno Regional de Moquegua y Municipalidad de Puquina.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Transferencia financiera entre entidades del sector público.",
+      "sectores": [
+        "gobierno_regional",
+        "gobierno_local"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "gobierno regional",
+        "municipalidad"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505705-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "059-2026/MLV",
+      "titulo_oficial": "RESOLUCION N° 059-2026/MLV",
+      "entidad_emisora": "MUNICIPALIDAD DE LA VICTORIA",
+      "sumilla": "Designan Auxiliar Coactivo para la Subgerencia de Sanciones y Coactiva Administrativa",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505705-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTcwNV8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505705-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a un Auxiliar Coactivo para la Subgerencia de Sanciones y Coactiva Administrativa de la Municipalidad de La Victoria. El cargo recae en un profesional específico dentro de la estructura municipal. Esta es una designación interna que no altera el marco normativo vigente.",
+      "cambios_clave": [
+        "Designa Auxiliar Coactivo en la Municipalidad de La Victoria."
+      ],
+      "a_quien_afecta": "Funcionario de la Municipalidad de La Victoria.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario interno.",
+      "sectores": [
+        "gobierno_local",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "auxiliar coactivo",
+        "municipalidad"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505006-1",
+      "seccion": "normas_legales",
+      "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
+      "numero": "391-MDL",
+      "titulo_oficial": "ORDENANZA N° 391-MDL",
+      "entidad_emisora": "MUNICIPALIDAD DE LURIGANCHO CHOSICA",
+      "sumilla": "Ordenanza que aprueba el Reglamento de Audiencias Públicas de Rendición de Cuentas de la Municipalidad Distrital de Lurigancho",
+      "fecha_publicacion": "2026-04-15",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505006-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTAwNl8xMjAyNjA0MTU=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/2505006-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Reglamento de Audiencias Públicas de Rendición de Cuentas de la Municipalidad Distrital de Lurigancho. Este reglamento establece las normas y procedimientos para la realización de audiencias donde la municipalidad informa a la ciudadanía sobre su gestión. Afecta a la municipalidad y a los vecinos de Lurigancho. La norma crea un marco para la transparencia y participación ciudadana.",
+      "cambios_clave": [
+        "Aprueba Reglamento de Audiencias Públicas de Rendición de Cuentas."
+      ],
+      "a_quien_afecta": "Municipalidad de Lurigancho y ciudadanos del distrito.",
+      "vigencia": "Desde su publicación (15/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece procedimiento para rendición de cuentas municipal.",
+      "sectores": [
+        "gobierno_local",
+        "transparencia"
+      ],
+      "tags": [
+        "rendicion de cuentas",
+        "audiencia publica",
+        "municipalidad",
+        "reglamento"
+      ],
+      "prompt_version": 2
+    }
+  ],
+  "documentos": [
+    {
+      "seccion": "boletin_oficial",
+      "edicion": "12943",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQxNQ==",
+      "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/15/_BO20260415_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505216-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505216_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505216_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505227-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505227_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505227_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505231-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505231_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505231_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505247-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505247_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505247_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505252-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505252_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505252_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505257-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505257_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505257_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505285-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505285_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505285_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505297-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505297_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505297_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505321-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505321_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505321_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505322-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505322_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505322_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505324-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505324_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505324_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505335-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505335_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505335_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505342-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505342_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505342_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505356-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505356_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505356_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505364-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505364_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505364_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505388-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505388_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505388_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505441-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505441_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505441_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505452-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505452_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505452_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505452-2",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505452_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505452_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505456-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505456_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505456_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505457-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505457_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505457_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505458-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505458_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505458_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505460-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505460_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505460_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505461-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505461_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505461_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505504-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505504_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505504_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505509-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505509_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505509_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505510-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505510_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505510_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505514-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505514_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505514_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505518-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505518_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505518_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505521-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505521_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505521_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505524-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505524_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505524_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505534-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505534_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505534_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505537-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505537_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505537_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505537-2",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505537_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505537_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505540-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505540_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505540_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505542-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505542_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505542_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505543-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505543_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505543_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505544-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505544_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505544_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505599-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505599_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505599_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505602-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505602_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505602_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505602-2",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505602_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505602_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505890-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505890_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505890_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505906-1",
+      "fecha_publicacion": "2026-04-15",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/15/2505906_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/15/2505906_1_Portada.jpg"
+    }
+  ],
+  "stats": {
+    "total_normas": 44,
+    "alto": 12,
+    "medio": 16,
+    "bajo": 16,
+    "sectores_top": [
+      [
+        "administracion_publica",
+        12
+      ],
+      [
+        "energia",
+        9
+      ],
+      [
+        "electricidad",
+        6
+      ],
+      [
+        "economia",
+        5
+      ],
+      [
+        "gobierno_regional",
+        5
+      ],
+      [
+        "gobierno_local",
+        4
+      ]
+    ],
+    "documentos_otras_secciones": 44
+  },
+  "generated_at": "2026-04-15T12:57:44.169829Z"
+}

@@ -1,6 +1,10 @@
 {
   "fechas": [
     {
+      "fecha": "2026-04-15",
+      "total_alertas": 0
+    },
+    {
       "fecha": "2026-04-14",
       "total_alertas": 0
     },
