@@ -1,0 +1,842 @@
+{
+  "fecha": "2026-04-19",
+  "normas": [
+    {
+      "id": "2507232-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION VICE MINISTERIAL",
+      "tipo_corto": "RES",
+      "numero": "000112-2026-VMPCIC/MC",
+      "titulo_oficial": "RESOLUCION VICE MINISTERIAL N° 000112-2026-VMPCIC/MC",
+      "entidad_emisora": "CULTURA",
+      "sumilla": "Declaran monumento integrante del Patrimonio Cultural de la Nación a la Iglesia Parroquial San Cristóbal de Cabana Sur y su torre espadaña ubicada en el distrito de Cabana provincia de Lucanas departamento de Ayacucho",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507232-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzIzMl8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507232-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara como monumento integrante del Patrimonio Cultural de la Nación a la Iglesia Parroquial San Cristóbal de Cabana Sur y su torre espadaña. Esta declaratoria protege un bien inmueble de valor histórico y arquitectónico ubicado en el departamento de Ayacucho. La norma protege el patrimonio cultural peruano. No modifica ni deroga normas previas, sino que añade un bien a la lista de patrimonio protegido.",
+      "cambios_clave": [
+        "Declara monumento histórico a la Iglesia Parroquial San Cristóbal de Cabana Sur."
+      ],
+      "a_quien_afecta": "Al Ministerio de Cultura y a la comunidad de Cabana, Ayacucho.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Declara un bien cultural sin afectar derechos ni obligaciones generales.",
+      "sectores": [
+        "cultura"
+      ],
+      "tags": [
+        "monumento",
+        "patrimonio cultural",
+        "iglesia",
+        "ayacucho"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507548-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "00450-2026-DE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 00450-2026-DE",
+      "entidad_emisora": "DEFENSA",
+      "sumilla": "Autorizan viaje del Director de Asuntos Multilaterales y Cooperación Internacional de la Dirección General de Relaciones Internacionales del Ministerio a la Confederación Suiza en comisión de servicios",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507548-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU0OF8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507548-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje del Director de Asuntos Multilaterales y Cooperación Internacional del Ministerio de Defensa a Suiza. El propósito es participar en una comisión de servicios. Esta autorización permite al funcionario realizar gestiones diplomáticas o de cooperación en el extranjero. No implica cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Autoriza viaje del Director de Asuntos Multilaterales a Suiza."
+      ],
+      "a_quien_afecta": "Al funcionario del Ministerio de Defensa y a la propia entidad.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un funcionario sin impacto general.",
+      "sectores": [
+        "defensa",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "viaje oficial",
+        "defensa",
+        "suiza",
+        "cooperación internacional"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507565-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "00451-2026-DE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 00451-2026-DE",
+      "entidad_emisora": "DEFENSA",
+      "sumilla": "Autorizan viaje de personal militar de la Fuerza Aérea del Perú a los Estados Unidos de América en comisión de servicios",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507565-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU2NV8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507565-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de personal militar de la Fuerza Aérea del Perú a los Estados Unidos de América. La comisión de servicios tiene como objetivo realizar actividades específicas en el extranjero. Esta medida permite al personal militar cumplir misiones internacionales. No genera cambios normativos ni afecta a la ciudadanía en general.",
+      "cambios_clave": [
+        "Autoriza viaje de personal militar de la FAP a EE.UU."
+      ],
+      "a_quien_afecta": "Al personal militar de la Fuerza Aérea del Perú y al Ministerio de Defensa.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje para personal militar sin efectos generales.",
+      "sectores": [
+        "defensa",
+        "fuerzas_armadas"
+      ],
+      "tags": [
+        "viaje militar",
+        "fuerza aérea",
+        "estados unidos"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507000-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "162-2026-MINEM/DM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 162-2026-MINEM/DM",
+      "entidad_emisora": "ENERGIA Y MINAS",
+      "sumilla": "Aprueban segunda modificación de concesión definitiva para desarrollar la actividad de transmisión de energía eléctrica en proyecto de línea de transmisión ubicada en el departamento de Arequipa solicitada por ENERGÍA RENOVABLE LA JOYA S.A.",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507000-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzAwMF8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507000-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba la segunda modificación a la concesión definitiva para desarrollar la actividad de transmisión de energía eléctrica en Arequipa. La modificación corresponde a un proyecto de línea de transmisión solicitado por ENERGÍA RENOVABLE LA JOYA S.A. Esto permite ajustar los términos de la concesión para el desarrollo del proyecto. La norma modifica una concesión previa existente.",
+      "cambios_clave": [
+        "Modifica concesión definitiva para línea de transmisión eléctrica en Arequipa."
+      ],
+      "a_quien_afecta": "A ENERGÍA RENOVABLE LA JOYA S.A. y al sector de transmisión eléctrica.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modifica una concesión de transmisión eléctrica, afectando el desarrollo de infraestructura energética.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "concesión eléctrica",
+        "transmisión de energía",
+        "arequipa",
+        "modificación"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507510-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "171-2026-MINEM/DM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 171-2026-MINEM/DM",
+      "entidad_emisora": "ENERGIA Y MINAS",
+      "sumilla": "Disponen publicación del proyecto de Decreto Supremo que aprueba el Reglamento de los Servicios Complementarios y Modifica el Reglamento de la Ley de Concesiones Eléctricas el Reglamento del Mercado Mayorista de Electricidad y el Reglamento del Comité de Operación Económica del Sistema - COES",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507510-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzUxMF8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507510-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se dispone la publicación del proyecto de Decreto Supremo que aprobará el Reglamento de los Servicios Complementarios. Este proyecto también modificará reglamentos clave como el de Concesiones Eléctricas, el del Mercado Mayorista de Electricidad y el del COES. La medida busca someter a opinión pública la propuesta regulatoria. Implica una futura modificación de normas sectoriales importantes.",
+      "cambios_clave": [
+        "Publica proyecto de reglamento de servicios complementarios eléctricos.",
+        "Modificará reglamentos de concesiones, mercado mayorista y COES."
+      ],
+      "a_quien_afecta": "A los agentes del sector eléctrico y al público en general para comentarios.",
+      "vigencia": "La publicación es inmediata; la entrada en vigor dependerá del DS.",
+      "impacto": "alto",
+      "impacto_razon": "Propone modificar reglamentos centrales del sector eléctrico, afectando a todos los actores.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "reglamento eléctrico",
+        "servicios complementarios",
+        "mercado mayorista",
+        "concesiones eléctricas"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507137-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "211-2026-RE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 211-2026-RE",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Autorizan a la Agencia Peruana de Cooperación Internacional - APCI el gasto por pasajes seguros y viáticos para el desplazamiento de cooperantes peruanos que brindarán asistencia técnica y capacitación en Colombia",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507137-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzEzN18xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507137-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza a la Agencia Peruana de Cooperación Internacional (APCI) a realizar gastos por pasajes y viáticos. Estos fondos cubrirán el desplazamiento de cooperantes peruanos que brindarán asistencia técnica y capacitación en Colombia. La norma facilita la ejecución de programas de cooperación internacional. No introduce cambios regulatorios sustantivos.",
+      "cambios_clave": [
+        "Autoriza gastos para cooperantes peruanos en Colombia."
+      ],
+      "a_quien_afecta": "A la APCI y a los cooperantes peruanos que viajarán a Colombia.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autoriza gastos para un programa de cooperación específico.",
+      "sectores": [
+        "relaciones_exteriores",
+        "cooperacion_internacional"
+      ],
+      "tags": [
+        "apci",
+        "cooperantes",
+        "colombia",
+        "asistencia técnica"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507560-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "168-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 168-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Modifican la Resolución Ministerial N° 027-2025-VIVIENDA sobre delegación de facultades y atribuciones en los Directores Ejecutivos del Programa Nacional de Saneamiento Urbano del Programa Nacional de Saneamiento Rural y del Programa Agua Segura para Lima y Callao",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507560-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU2MF8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507560-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifican facultades delegadas a los Directores Ejecutivos de programas nacionales de saneamiento urbano y rural, y del programa Agua Segura Lima y Callao. La modificación se realiza sobre la Resolución Ministerial N° 027-2025-VIVIENDA. Busca optimizar la gestión de dichos programas. Ajusta la delegación de funciones internas.",
+      "cambios_clave": [
+        "Modifica delegación de facultades en directores de programas de saneamiento."
+      ],
+      "a_quien_afecta": "A los Directores Ejecutivos de programas de saneamiento y al Ministerio de Vivienda.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Ajusta la delegación de facultades en la gestión de programas clave de saneamiento.",
+      "sectores": [
+        "vivienda",
+        "construccion",
+        "urbanismo",
+        "agua"
+      ],
+      "tags": [
+        "saneamiento",
+        "delegación de facultades",
+        "programas nacionales",
+        "vivienda"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507376-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000062-2026-PROMPERU/PE",
+      "titulo_oficial": "RESOLUCION N° 000062-2026-PROMPERU/PE",
+      "entidad_emisora": "COMISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMO",
+      "sumilla": "Designan Asesor 2 – Asesor de la Presidencia Ejecutiva de la Comisión de Promoción del Perú para la Exportación y el Turismo – PROMPERÚ",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507376-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzM3Nl8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507376-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a un Asesor 2 para la Presidencia Ejecutiva de PROMPERÚ. Este nombramiento es de carácter temporal y de confianza. La función principal será brindar apoyo directo a la alta dirección de la entidad promotora de exportaciones y turismo. Es una designación interna sin impacto externo.",
+      "cambios_clave": [
+        "Designa Asesor 2 de la Presidencia Ejecutiva de PROMPERÚ."
+      ],
+      "a_quien_afecta": "Únicamente al funcionario designado y a la Presidencia Ejecutiva de PROMPERÚ.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un asesor sin efectos sobre terceros.",
+      "sectores": [
+        "comercio_exterior",
+        "turismo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "promperú",
+        "asesor",
+        "alta dirección"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506865-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "064-2026/CDB-INDECOPI",
+      "titulo_oficial": "RESOLUCION N° 064-2026/CDB-INDECOPI",
+      "entidad_emisora": "INSTITUTO NACIONAL DE DEFENSA DE LA COMPETENCIA Y DE LA PROTECCION DE LA PROPIEDAD INTELECTUAL",
+      "sumilla": "Disponen a solicitud de la empresa productora nacional Tecnología Textil S.A. el inicio de un procedimiento de examen por presuntas prácticas de elusión de los derechos antidumping impuestos mediante Resolución N° 273-2021/CDB-INDECOPI sobre importaciones de tejidos de ligamento tafetán originarios de la República Popular China",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506865-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjg2NV8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2506865-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se inicia un procedimiento de examen por presuntas prácticas de elusión de derechos antidumping sobre importaciones de tejidos de ligamento tafetán de China. La solicitud fue presentada por Tecnología Textil S.A., empresa productora nacional. El objetivo es determinar si se están eludiendo las medidas antidumping vigentes. Esto podría resultar en la imposición o modificación de aranceles.",
+      "cambios_clave": [
+        "Inicia procedimiento de examen por elusión de derechos antidumping.",
+        "Afecta importaciones de tejidos de China."
+      ],
+      "a_quien_afecta": "A la empresa Tecnología Textil S.A. y a los importadores de tejidos de China.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Inicia un procedimiento que podría afectar el comercio de textiles y la aplicación de aranceles.",
+      "sectores": [
+        "comercio_exterior",
+        "aduanas",
+        "industria",
+        "comercio"
+      ],
+      "tags": [
+        "antidumping",
+        "elusión",
+        "tejidos",
+        "china",
+        "indecopi"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507528-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000070-2026/SUNAT",
+      "titulo_oficial": "RESOLUCION N° 000070-2026/SUNAT",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+      "sumilla": "Modifica el Procedimiento Específico Reconocimiento Físico - Extracción y Análisis de Muestras DESPA-PE.00.03 (Versión 4)",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507528-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzUyOF8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507528-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el Procedimiento Específico Reconocimiento Físico - Extracción y Análisis de Muestras (DESPA-PE.00.03 Versión 4). Esta actualización ajusta los protocolos operativos de la SUNAT para la inspección y muestreo de mercancías. Busca optimizar los procesos de control aduanero. La norma actualiza un procedimiento interno de la SUNAT.",
+      "cambios_clave": [
+        "Modifica procedimiento de reconocimiento físico y análisis de muestras de SUNAT."
+      ],
+      "a_quien_afecta": "A los operadores de comercio exterior y a la SUNAT.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Actualiza un procedimiento clave de control aduanero, afectando operaciones de importación/exportación.",
+      "sectores": [
+        "aduanas",
+        "tributacion",
+        "comercio_exterior"
+      ],
+      "tags": [
+        "sunat",
+        "procedimiento aduanero",
+        "muestreo",
+        "reconocimiento físico"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507561-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000048-2026-SANIPES/PE",
+      "titulo_oficial": "RESOLUCION N° 000048-2026-SANIPES/PE",
+      "entidad_emisora": "AUTORIDAD NACIONAL DE SANIDAD E INOCUIDAD EN PESCA Y ACUICULTURA",
+      "sumilla": "Designan Jefe de la Oficina de Administración de la Autoridad Nacional de Sanidad e Inocuidad en Pesca y Acuicultura – SANIPES",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507561-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU2MV8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507561-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de la Oficina de Administración de SANIPES. Este nombramiento recae en una persona específica para ocupar un cargo directivo dentro de la entidad sanitaria pesquera. La designación es para cubrir una posición clave en la gestión administrativa. Es una designación interna sin efectos externos.",
+      "cambios_clave": [
+        "Designa Jefe de la Oficina de Administración de SANIPES."
+      ],
+      "a_quien_afecta": "Al funcionario designado y a la Autoridad Nacional de Sanidad e Inocuidad en Pesca y Acuicultura (SANIPES).",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un jefe de oficina sin impacto general.",
+      "sectores": [
+        "pesqueria",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "sanipes",
+        "administración",
+        "jefe de oficina"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507563-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000047-2026-SANIPES/PE",
+      "titulo_oficial": "RESOLUCION N° 000047-2026-SANIPES/PE",
+      "entidad_emisora": "AUTORIDAD NACIONAL DE SANIDAD E INOCUIDAD EN PESCA Y ACUICULTURA",
+      "sumilla": "Designan Coordinador General de la Oficina Sanitaria Desconcentrada de la Autoridad Nacional de Sanidad e Inocuidad en Pesca y Acuicultura – SANIPES",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507563-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU2M18xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507563-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Coordinador General de la Oficina Sanitaria Desconcentrada de SANIPES. Este nombramiento cubre una posición de coordinación importante dentro de la estructura de la entidad sanitaria pesquera. La designación es para asegurar la operatividad de las oficinas desconcentradas. Es una designación interna sin impacto externo.",
+      "cambios_clave": [
+        "Designa Coordinador General de Oficina Sanitaria Desconcentrada de SANIPES."
+      ],
+      "a_quien_afecta": "Al funcionario designado y a la Autoridad Nacional de Sanidad e Inocuidad en Pesca y Acuicultura (SANIPES).",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un coordinador sin impacto general.",
+      "sectores": [
+        "pesqueria",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "sanipes",
+        "coordinador",
+        "oficina desconcentrada"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2504423-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION ADMINISTRATIVA",
+      "tipo_corto": "RA",
+      "numero": "000041-2026-P-CE-PJ",
+      "titulo_oficial": "RESOLUCION ADMINISTRATIVA N° 000041-2026-P-CE-PJ",
+      "entidad_emisora": "CONSEJO EJECUTIVO DEL PODER JUDICIAL",
+      "sumilla": "Autorizan viaje de Juez Supremo titular y Presidente de la Cuarta Sala de Derecho Constitucional y Social Transitoria de la Corte Suprema de Justicia de la República para participar como ponente en evento a realizarse en Colombia",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2504423-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDQyM18xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2504423-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de un Juez Supremo titular, Presidente de la Cuarta Sala de Derecho Constitucional y Social Transitoria, a Colombia. El propósito es participar como ponente en un evento. Esta autorización permite al magistrado representar al Poder Judicial en foros internacionales. No modifica normas ni afecta a terceros.",
+      "cambios_clave": [
+        "Autoriza viaje de Juez Supremo titular a Colombia para evento."
+      ],
+      "a_quien_afecta": "Al Juez Supremo titular y al Consejo Ejecutivo del Poder Judicial.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un magistrado sin impacto general.",
+      "sectores": [
+        "justicia",
+        "judicial"
+      ],
+      "tags": [
+        "viaje judicial",
+        "juez supremo",
+        "colombia",
+        "congreso"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506492-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "055-2026-UNAJMA/R",
+      "titulo_oficial": "RESOLUCION N° 055-2026-UNAJMA/R",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Autorizan viaje de docente de la Universidad Nacional José María Arguedas a fin de participar en programa de movilidad académica y administrativa que se realizará en Ecuador",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506492-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjQ5Ml8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2506492-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de un docente de la Universidad Nacional José María Arguedas a Ecuador. El objetivo es participar en un programa de movilidad académica y administrativa. Esta medida fomenta el intercambio de conocimientos y la colaboración internacional universitaria. No implica cambios regulatorios.",
+      "cambios_clave": [
+        "Autoriza viaje de docente de UNAJMA a Ecuador para movilidad académica."
+      ],
+      "a_quien_afecta": "Al docente de la UNAJMA y a la propia universidad.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un docente para fines académicos.",
+      "sectores": [
+        "educacion"
+      ],
+      "tags": [
+        "viaje académico",
+        "unajma",
+        "ecuador",
+        "movilidad estudiantil"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506718-1",
+      "seccion": "normas_legales",
+      "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
+      "numero": "543-2026/GRP-CR",
+      "titulo_oficial": "ORDENANZA N° 543-2026/GRP-CR",
+      "entidad_emisora": "GOBIERNO REGIONAL DE PIURA",
+      "sumilla": "Aprueban el Cuadro para Asignación de Personal Provisional (CAP-P) de la Gerencia Sub Regional Morropón Huancabamba",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506718-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjcxOF8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2506718-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Cuadro para Asignación de Personal Provisional (CAP-P) de la Gerencia Sub Regional Morropón Huancabamba. Esta aprobación establece la estructura de puestos de trabajo de dicha gerencia. Busca optimizar la organización y funcionamiento de la entidad regional. Modifica la estructura de personal de una gerencia subregional.",
+      "cambios_clave": [
+        "Aprueba Cuadro para Asignación de Personal Provisional (CAP-P) de Gerencia Sub Regional Morropón Huancabamba."
+      ],
+      "a_quien_afecta": "A la Gerencia Sub Regional Morropón Huancabamba y a su personal.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Aprueba el CAP-P de una gerencia subregional, afectando su estructura laboral.",
+      "sectores": [
+        "gobierno_regional",
+        "administracion_publica"
+      ],
+      "tags": [
+        "cap-p",
+        "gerencia sub regional",
+        "piura",
+        "personal"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506711-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "009",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 009 -2026-DREM/GOB.REG.TACNA",
+      "entidad_emisora": "GOBIERNO REGIONAL DE TACNA",
+      "sumilla": "Disponen publicar concesiones mineras cuyos títulos fueron otorgados en coordenadas UTM de los vértices en sistema WGS84",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506711-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjcxMV8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2506711-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se disponen la publicación de concesiones mineras cuyos títulos fueron otorgados en coordenadas UTM con sistema WGS84. Esta medida busca dar transparencia al registro de concesiones mineras. Facilita la consulta pública de la información geográfica de las mismas. No introduce cambios en el régimen de concesiones, solo en la publicidad.",
+      "cambios_clave": [
+        "Dispone publicar concesiones mineras con coordenadas UTM WGS84."
+      ],
+      "a_quien_afecta": "A los titulares de concesiones mineras y al público interesado.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Afecta la publicidad de concesiones mineras, impactando en la transparencia del sector.",
+      "sectores": [
+        "mineria",
+        "gobierno_regional"
+      ],
+      "tags": [
+        "concesiones mineras",
+        "publicación",
+        "coordenadas utm",
+        "tacna"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2499722-1",
+      "seccion": "normas_legales",
+      "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
+      "numero": "004-2026-GRU-CR",
+      "titulo_oficial": "ORDENANZA N° 004-2026-GRU-CR",
+      "entidad_emisora": "GOBIERNO REGIONAL DE UCAYALI",
+      "sumilla": "Declaran de interés regional el proyecto Microred OFF-GRID con generación fotovoltaica Nueva Italia - Perú orientado a dotar de suministro eléctrico a diversas localidades de la provincia de Atalaya departamento de Ucayali",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2499722-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjQ5OTcyMl8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2499722-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara de interés regional el proyecto Microred OFF-GRID con generación fotovoltaica en la provincia de Atalaya, Ucayali. El proyecto busca dotar de suministro eléctrico a diversas localidades. Esta declaratoria impulsa el desarrollo de energías renovables y el acceso a electricidad en zonas rurales. Fomenta la inversión en infraestructura energética.",
+      "cambios_clave": [
+        "Declara de interés regional proyecto de microred fotovoltaica en Atalaya, Ucayali."
+      ],
+      "a_quien_afecta": "A las localidades de Atalaya, Ucayali, y a empresas del sector energético.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Declara de interés regional un proyecto de electrificación rural, impulsando el desarrollo energético.",
+      "sectores": [
+        "energia",
+        "gobierno_regional",
+        "electricidad"
+      ],
+      "tags": [
+        "interés regional",
+        "microred",
+        "fotovoltaica",
+        "ucayali",
+        "electrificación rural"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507402-1",
+      "seccion": "normas_legales",
+      "tipo": "ORDENANZA",
+      "tipo_corto": "ORD",
+      "numero": "541-MVES",
+      "titulo_oficial": "ORDENANZA N° 541-MVES",
+      "entidad_emisora": "MUNICIPALIDAD DE VILLA EL SALVADOR",
+      "sumilla": "Ordenanza que aprueba el Reglamento del Presupuesto Participativo y Presupuesto Participativo Específico 2027 Basado en Resultados del distrito de Villa El Salvador",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://epdoc2.elperuano.pe/EpPo/VistaNLSE.asp?Referencias=MjUwNzQwMi0xMjAyNjA0MTk=",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzQwMl8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507402-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Reglamento del Presupuesto Participativo y Presupuesto Participativo Específico 2027 Basado en Resultados del distrito de Villa El Salvador. Esta norma establece los procedimientos para la elaboración y ejecución del presupuesto participativo. Busca asegurar la participación ciudadana en la definición de prioridades de inversión. Modifica el reglamento de presupuesto participativo.",
+      "cambios_clave": [
+        "Aprueba Reglamento del Presupuesto Participativo 2027 de Villa El Salvador."
+      ],
+      "a_quien_afecta": "A los ciudadanos de Villa El Salvador y a la municipalidad distrital.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Aprueba el reglamento del presupuesto participativo, afectando la planificación y ejecución de obras municipales.",
+      "sectores": [
+        "gobierno_local",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "presupuesto participativo",
+        "reglamento",
+        "villa el salvador",
+        "inversión pública"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507219-1",
+      "seccion": "normas_legales",
+      "tipo": "CONVENIO Enmiendas de los anexos II, VIII y IX del Convenio de Basilea",
+      "tipo_corto": "OTRO",
+      "numero": null,
+      "titulo_oficial": "CONVENIO Enmiendas de los anexos II, VIII y IX del Convenio de Basilea",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Enmiendas de los Anexos II VIII y IX del Convenio de Basilea de 1989",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507219-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzIxOV8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507219-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se registran las enmiendas a los Anexos II, VIII y IX del Convenio de Basilea sobre el control de los movimientos transfronterizos de los desechos peligrosos y su eliminación. Estas modificaciones actualizan la clasificación y control de los desechos. Busca mejorar la gestión ambiental internacional de residuos peligrosos. Es una actualización a un convenio internacional.",
+      "cambios_clave": [
+        "Registra enmiendas a los Anexos II, VIII y IX del Convenio de Basilea."
+      ],
+      "a_quien_afecta": "Al Ministerio del Ambiente y a las entidades relacionadas con la gestión de residuos peligrosos.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Actualiza la normativa sobre gestión internacional de residuos peligrosos.",
+      "sectores": [
+        "ambiente",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "convenio de basilea",
+        "residuos peligrosos",
+        "enmiendas",
+        "gestión ambiental"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507230-1",
+      "seccion": "normas_legales",
+      "tipo": "CONVENIO Entrada en vigor de enmiendas de los anexos II, VIII y IX del Convenio de Basilea",
+      "tipo_corto": "OTRO",
+      "numero": null,
+      "titulo_oficial": "CONVENIO Entrada en vigor de enmiendas de los anexos II, VIII y IX del Convenio de Basilea",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Entrada en vigor de las Enmiendas de los Anexos II VIII y IX del Convenio de Basilea de 1989",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507230-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzIzMF8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507230-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se informa la entrada en vigor de las enmiendas a los Anexos II, VIII y IX del Convenio de Basilea. Estas modificaciones, que actualizan la clasificación y control de desechos peligrosos, ya son aplicables. La entrada en vigor facilita la implementación de mejores prácticas internacionales en la gestión de residuos. Es la formalización de la aplicación de las enmiendas.",
+      "cambios_clave": [
+        "Entrada en vigor de enmiendas a los Anexos II, VIII y IX del Convenio de Basilea."
+      ],
+      "a_quien_afecta": "Al Ministerio del Ambiente y a las entidades involucradas en la gestión de residuos peligrosos.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Formaliza la entrada en vigor de actualizaciones al Convenio de Basilea sobre residuos peligrosos.",
+      "sectores": [
+        "ambiente",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "convenio de basilea",
+        "residuos peligrosos",
+        "entrada en vigor",
+        "gestión ambiental"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507312-1",
+      "seccion": "normas_legales",
+      "tipo": "CONVENIO Acuerdo Cooperación Perú - China",
+      "tipo_corto": "ACU",
+      "numero": null,
+      "titulo_oficial": "CONVENIO Acuerdo Cooperación Perú - China",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Convenio de Cooperación Económica y Técnica entre el Gobierno de la República del Perú y el Gobierno de la República Popular China",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507312-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzMxMl8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507312-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se publica el Convenio de Cooperación Económica y Técnica entre el Gobierno del Perú y el Gobierno de la República Popular China. Este acuerdo busca fomentar el intercambio y la colaboración en diversas áreas económicas y técnicas entre ambos países. Facilita la implementación de proyectos conjuntos y el fortalecimiento de relaciones bilaterales. Es un nuevo convenio de cooperación.",
+      "cambios_clave": [
+        "Publica Convenio de Cooperación Económica y Técnica Perú - China."
+      ],
+      "a_quien_afecta": "A los sectores económicos y técnicos de Perú y China, y a las entidades de ambos gobiernos.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece un marco de cooperación económica y técnica bilateral entre Perú y China.",
+      "sectores": [
+        "economia",
+        "relaciones_exteriores",
+        "comercio_exterior"
+      ],
+      "tags": [
+        "convenio",
+        "cooperación económica",
+        "perú",
+        "china"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507315-1",
+      "seccion": "normas_legales",
+      "tipo": "CONVENIO Acuerdo Cooperación Perú - China",
+      "tipo_corto": "ACU",
+      "numero": null,
+      "titulo_oficial": "CONVENIO Acuerdo Cooperación Perú - China",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Entrada en vigor del Convenio de Cooperación Económica y Técnica entre el Gobierno de la República del Perú y el Gobierno de la República Popular China",
+      "fecha_publicacion": "2026-04-19",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507315-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzMxNV8xMjAyNjA0MTk=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/2507315-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se informa la entrada en vigor del Convenio de Cooperación Económica y Técnica entre el Gobierno del Perú y el Gobierno de la República Popular China. Con esto, el acuerdo bilateral ya es plenamente operativo. Esto permite iniciar la ejecución de las acciones de cooperación acordadas en áreas económicas y técnicas. Es la formalización de la aplicabilidad del convenio.",
+      "cambios_clave": [
+        "Entrada en vigor del Convenio de Cooperación Económica y Técnica Perú - China."
+      ],
+      "a_quien_afecta": "A los sectores económicos y técnicos de Perú y China, y a las entidades de ambos gobiernos.",
+      "vigencia": "Desde su publicación (19/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Formaliza la entrada en vigor del convenio de cooperación económica y técnica bilateral.",
+      "sectores": [
+        "economia",
+        "relaciones_exteriores",
+        "comercio_exterior"
+      ],
+      "tags": [
+        "convenio",
+        "cooperación económica",
+        "entrada en vigor",
+        "perú",
+        "china"
+      ],
+      "prompt_version": 2
+    }
+  ],
+  "documentos": [
+    {
+      "seccion": "boletin_oficial",
+      "edicion": "12947",
+      "fecha_publicacion": "2026-04-19",
+      "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQxOQ==",
+      "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/19/_BO20260419_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507090-1",
+      "fecha_publicacion": "2026-04-19",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/19/2507090_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/19/2507090_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507141-1",
+      "fecha_publicacion": "2026-04-19",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/19/2507141_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/19/2507141_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507212-1",
+      "fecha_publicacion": "2026-04-19",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/19/2507212_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/19/2507212_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507258-1",
+      "fecha_publicacion": "2026-04-19",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/19/2507258_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/19/2507258_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507333-1",
+      "fecha_publicacion": "2026-04-19",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/19/2507333_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/19/2507333_1_Portada.jpg"
+    }
+  ],
+  "stats": {
+    "total_normas": 22,
+    "alto": 1,
+    "medio": 12,
+    "bajo": 9,
+    "sectores_top": [
+      [
+        "relaciones_exteriores",
+        6
+      ],
+      [
+        "comercio_exterior",
+        5
+      ],
+      [
+        "administracion_publica",
+        4
+      ],
+      [
+        "energia",
+        3
+      ],
+      [
+        "electricidad",
+        3
+      ],
+      [
+        "gobierno_regional",
+        3
+      ]
+    ],
+    "documentos_otras_secciones": 6
+  },
+  "generated_at": "2026-04-19T12:35:12.262339Z"
+}
