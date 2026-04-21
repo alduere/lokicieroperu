@@ -1,0 +1,88 @@
+{
+  "fecha": "2026-04-21",
+  "source_slug": "gaceta-pi",
+  "items": [
+    {
+      "id": "10010-2026/DSD",
+      "tipo_solicitud": "NOMBRE COMERCIAL",
+      "signo_solicitado": "MIYU ACCESORIOS",
+      "solicitante": "HUAMAN SENOSAIN LOREN ANALI, de Perú; IRAYTA YAMASHIRO MANUEL TAKESHY, de Perú",
+      "clase": "14",
+      "fecha_publicacion": "2026-04-21",
+      "fecha_presentacion": "2026-02-19",
+      "fecha_limite_oposicion": "2026-06-03",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "11219-2026/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "W WITNAM REAL ESTATE",
+      "solicitante": "COMECA MONTOYA WITMAN WILIAN, de Perú",
+      "clase": "36",
+      "fecha_publicacion": "2026-04-21",
+      "fecha_presentacion": "2026-02-24",
+      "fecha_limite_oposicion": "2026-06-03",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "12283-2026/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "CW CARLOS WILLIAM BARBER STORE",
+      "solicitante": "ACOSTA CHERO CARLOS WILLIAM, de Perú",
+      "clase": "25",
+      "fecha_publicacion": "2026-04-21",
+      "fecha_presentacion": "2026-04-13",
+      "fecha_limite_oposicion": "2026-06-03",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "14617-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "KATEBOGE",
+      "solicitante": "RODRIGUEZ ESPIRITU GUISSENIA LIESBET, de Perú",
+      "clase": "14",
+      "fecha_publicacion": "2026-04-21",
+      "fecha_presentacion": null,
+      "fecha_limite_oposicion": "2026-06-03",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "15251-2026/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "RIMAN",
+      "solicitante": "ASK COMPANY CO., LTD. , de República de Corea",
+      "clase": "35",
+      "fecha_publicacion": "2026-04-21",
+      "fecha_presentacion": "2026-03-13",
+      "fecha_limite_oposicion": "2026-06-03",
+      "descripcion": null,
+      "prompt_version": 0
+    }
+  ],
+  "stats": {
+    "total_solicitudes": 5,
+    "por_tipo": [
+      [
+        "MARCA DE SERVICIO",
+        2
+      ],
+      [
+        "NOMBRE COMERCIAL",
+        1
+      ],
+      [
+        "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+        1
+      ],
+      [
+        "MARCA DE PRODUCTO",
+        1
+      ]
+    ]
+  },
+  "generated_at": "2026-04-21T12:58:28.989080Z"
+}

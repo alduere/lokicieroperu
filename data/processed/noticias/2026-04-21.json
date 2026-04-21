@@ -1,0 +1,448 @@
+{
+  "fecha": "2026-04-21",
+  "noticias": [
+    {
+      "id": "andina-70fc5d12cf14",
+      "titulo": "ATU chatarreó 33 vehículos de transporte público informal en lo que va del año",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-atu-chatarreo-33-vehiculos-transporte-publico-informal-lo-va-del-ano-1072066.aspx",
+      "fecha": "2026-04-21T12:55:43Z",
+      "contenido": "La Autoridad de Transporte Urbano para Lima y Callao (ATU) continuó con el chatarreo obligatorio de vehículos de transporte público. En lo que va del año, han sido chatarreados 33 vehículos, los cuales no solo realizaban el servicio de transporte urbano sin la autorización correspondiente, sino que también circulaban en deplorables condiciones.",
+      "fuente_display": "Andina",
+      "resumen": "La ATU ha chatarreado 33 vehículos de transporte público informal en lo que va del año. Estos vehículos no solo operaban sin autorización, sino que también se encontraban en condiciones deplorables.",
+      "categoria": "Economía",
+      "tags": [
+        "atu",
+        "transporte público",
+        "informalidad",
+        "chatarreo",
+        "lima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-59a6daa95ba2",
+      "titulo": "Programa Llamkasun Perú transfiere S/ 115 millones a organismos ejecutores",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-programa-llamkasun-peru-transfiere-s-115-millones-a-organismos-ejecutores-1072071.aspx",
+      "fecha": "2026-04-21T12:54:52Z",
+      "contenido": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) autorizó la transferencia de 115 millones 634,804 soles del Programa de Empleo Temporal Llamkasun Perú, a favor de organismos ejecutores del sector público con los que se han suscrito 122 convenios con el objeto de financiar la ejecución de proyectos de inversión.",
+      "fuente_display": "Andina",
+      "resumen": "El MTPE autorizó la transferencia de S/ 115 millones del Programa Llamkasun Perú a organismos ejecutores. Estos fondos se destinarán a financiar 122 proyectos de inversión pública.",
+      "categoria": "Economía",
+      "tags": [
+        "mtpe",
+        "llamkasun perú",
+        "transferencia de fondos",
+        "proyectos de inversión",
+        "empleo temporal"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-fe438bf6e662",
+      "titulo": "PNP interviene a cinco presuntos miembros de organización criminal en muelle de Chimbote",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-pnp-interviene-a-cinco-presuntos-miembros-organizacion-criminal-muelle-chimbote-1072070.aspx",
+      "fecha": "2026-04-21T12:50:27Z",
+      "contenido": "Una intervención policial en la ciudad de Chimbote, en la provincia del Santa, región Áncash culminó con la detención de cinco presuntos integrantes de una organización criminal, implicada en delitos como extorsión, sicariato, entre otros, registrados en la costa de la región Áncash.",
+      "fuente_display": "Andina",
+      "resumen": "La PNP intervino a cinco presuntos miembros de una organización criminal en Chimbote, Áncash. Los detenidos estarían implicados en delitos como extorsión y sicariato en la región.",
+      "categoria": "Política",
+      "tags": [
+        "pnp",
+        "chimbote",
+        "organización criminal",
+        "extorsión",
+        "áncash"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-5f779cc61dd2",
+      "titulo": "Elecciones 2026: declaran en sesión permanente los 60 Jurados Electorales Especiales",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-declaran-sesion-permanente-los-60-jurados-electorales-especiales-1072067.aspx",
+      "fecha": "2026-04-21T12:30:24Z",
+      "contenido": "El Jurado Nacional de Elecciones (JNE) declaró en sesión permanente, virtual o presencial, a partir de la vigencia de la presente resolución hasta la culminación del proceso electoral de las elecciones generales 2026.",
+      "fuente_display": "Andina",
+      "resumen": "El JNE declaró en sesión permanente a los 60 Jurados Electorales Especiales para las elecciones generales de 2026. Esta medida estará vigente hasta la culminación del proceso electoral.",
+      "categoria": "Política",
+      "tags": [
+        "jne",
+        "elecciones 2026",
+        "jurados electorales especiales",
+        "sesión permanente",
+        "proceso electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-31c7e0cf092c",
+      "titulo": "Cajamarca organiza Fam Trip 2026 para posicionarse en el mercado turístico internacional",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-cajamarca-organiza-fam-trip-2026-para-posicionarse-el-mercado-turistico-internacional-1072069.aspx",
+      "fecha": "2026-04-21T12:29:17Z",
+      "contenido": "Cajamarca busca posicionarse en el mercado turístico internacional con la organización del Fam Trip 2026, en el que participarán por primera vez un total de 24 operadores turísticos provenientes de Asia, Europa y Latinoamérica. La delegación recorrerá los principales atractivos de la región del 17 al 20 de mayo próximo.",
+      "fuente_display": "Andina",
+      "resumen": "Cajamarca organizará el Fam Trip 2026 con la participación de 24 operadores turísticos internacionales de Asia, Europa y Latinoamérica. El objetivo es posicionar la región en el mercado turístico global.",
+      "categoria": "Economía",
+      "tags": [
+        "cajamarca",
+        "turismo internacional",
+        "fam trip 2026",
+        "operadores turísticos",
+        "promoción"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8fd33f0a4545",
+      "titulo": "Trump acusa a Irán de violar el alto el fuego \"numerosas veces\"",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-trump-acusa-a-iran-violar-alto-fuego-numerosas-veces-1072068.aspx",
+      "fecha": "2026-04-21T12:24:38Z",
+      "contenido": "El presidente Donald Trump acusó el martes a Irán de violar repetidamente el alto el fuego acordado con Estados Unidos en Oriente Medio, en medio de la incertidumbre sobre una posible nueva ronda de negociaciones de paz.",
+      "fuente_display": "Andina",
+      "resumen": "El presidente Donald Trump acusó a Irán de violar repetidamente el alto el fuego acordado con Estados Unidos. Esta declaración se produce en medio de la incertidumbre sobre nuevas negociaciones de paz.",
+      "categoria": "Política",
+      "tags": [
+        "donald trump",
+        "irán",
+        "alto el fuego",
+        "negociaciones de paz",
+        "oriente medio"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-24b82632b948",
+      "titulo": "Jeffry Fischman inicia su etapa solista con \"Alejándome de ti\"",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-jeffry-fischman-inicia-su-etapa-solista-alejandome-ti-1072056.aspx",
+      "fecha": "2026-04-21T12:17:22Z",
+      "contenido": "El reconocido artista, compositor y productor peruano Jeffry Fischman inicia una nueva etapa en su carrera con el lanzamiento de “Alejándome de Ti”, su primer sencillo como solista.",
+      "fuente_display": "Andina",
+      "resumen": "El artista peruano Jeffry Fischman lanza su primer sencillo como solista, titulado \"Alejándome de Ti\". Fischman es reconocido por su trayectoria como compositor y productor.",
+      "categoria": "Economía",
+      "tags": [
+        "jeffry fischman",
+        "música",
+        "lanzamiento",
+        "solista",
+        "perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d0b631ef37ed",
+      "titulo": "Scotiabank: economía peruana habría crecido alrededor del 3% en el primer trimestre 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-scotiabank-economia-peruana-habria-crecido-alrededor-del-3-el-primer-trimestre-2026-1072064.aspx",
+      "fecha": "2026-04-21T12:16:46Z",
+      "contenido": "El Producto Bruto Interno (PBI) nacional habría crecido alrededor de 3% durante el primer trimestre del presente año, tasa levemente menor al 3.2% registrado en igual periodo del 2025, según el Departamento de Estudios Económicos de Scotiabank.",
+      "fuente_display": "Andina",
+      "resumen": "Scotiabank proyecta que la economía peruana habría crecido alrededor del 3% en el primer trimestre de 2026. Esta tasa sería ligeramente menor a la registrada en el mismo periodo del año anterior.",
+      "categoria": "Economía",
+      "tags": [
+        "scotiabank",
+        "economía peruana",
+        "pbi",
+        "crecimiento económico",
+        "primer trimestre"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-529ec4084261",
+      "titulo": "Así fue captado el cometa C/2025 R3 desde los Andes del Perú",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-asi-fue-captado-cometa-c2025-r3-desde-los-andes-del-peru-1072007.aspx",
+      "fecha": "2026-04-21T12:15:00Z",
+      "contenido": "El cometa C/2025 R3 fue captado en la madrugada de 15 de abril desde Chilligua, en la región Moquegua, ofreciendo una imagen excepcional del cielo sobre los Andes peruanos. La observación de la Agencia Espacial del Perú - Conida se realizó a 4,600 metros sobre el nivel del mar, en un escenario ideal para registrar fenómenos astronómicos.",
+      "fuente_display": "Andina",
+      "resumen": "El cometa C/2025 R3 fue captado desde Chilligua, Moquegua, a 4,600 metros de altitud. La Agencia Espacial del Perú registró imágenes excepcionales del fenómeno astronómico.",
+      "categoria": "Economía",
+      "tags": [
+        "cometa",
+        "astronomía",
+        "moquegua",
+        "andes",
+        "conida"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-12a1a8d0184d",
+      "titulo": "Estas son las normas legales más importantes del martes 21 de abril del 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-estas-son-las-normas-legales-mas-importantes-del-martes-21-abril-del-2026-1072063.aspx",
+      "fecha": "2026-04-21T12:11:39Z",
+      "contenido": "El boletín Normas Legales del Diario Oficial El Peruano difunde una serie de dispositivos de interés público y de impacto para la marcha del país. Conoce a continuación cuáles son las normas legales más relevantes de hoy.",
+      "fuente_display": "Andina",
+      "resumen": "El Diario Oficial El Peruano publicó normas legales de interés público y de impacto para el país. Se detallan los dispositivos más relevantes del martes 21 de abril de 2026.",
+      "categoria": "Política",
+      "tags": [
+        "normas legales",
+        "el peruano",
+        "dispositivos legales",
+        "interés público",
+        "actualidad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3c03156ea878",
+      "titulo": "\"Bodas de sangre\" llega con una versión moderna y potente",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-bodas-sangre-llega-una-version-moderna-y-potente-1072053.aspx",
+      "fecha": "2026-04-21T12:00:00Z",
+      "contenido": "El clásico \"Bodas de sangre\" llega al Teatro Marsano desde este 22 de abril transformado en un espectáculo sorprendente, bajo la dirección del reconocido director Edgar Saba.",
+      "fuente_display": "Andina",
+      "resumen": "La obra clásica \"Bodas de sangre\" se presenta en una versión moderna y potente en el Teatro Marsano. El espectáculo cuenta con la dirección de Edgar Saba.",
+      "categoria": "Economía",
+      "tags": [
+        "teatro",
+        "bodas de sangre",
+        "teatro marsano",
+        "edgar saba",
+        "espectáculo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-c82d2817b68e",
+      "titulo": "El muro inca hallado al sur de la ciudad del Cusco pudo haber formado parte de Camino Inca",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-el-muro-inca-hallado-al-sur-de-ciudad-del-cusco-pudo-haber-formado-parte-camino-inca-1071947.aspx",
+      "fecha": "2026-04-21T11:59:22Z",
+      "contenido": "El pequeño muro inca recientemente hallado en el distrito de San Jerónimo, al borde de la vía Cusco-Arequipa, habría formado parte de un camino que ingresaba al gran Qhapaq Ñan, Red de Caminos Inca, que salía de la ciudad del Cusco al Qollasuyo.",
+      "fuente_display": "Andina",
+      "resumen": "Un muro inca hallado en San Jerónimo, Cusco, podría haber sido parte del Camino Inca. El descubrimiento sugiere una conexión con el Qhapaq Ñan.",
+      "categoria": "Economía",
+      "tags": [
+        "arqueología",
+        "cusco",
+        "muro inca",
+        "camino inca",
+        "qhapaq ñan"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-ebb6c33b4252",
+      "titulo": "Presidente Balcázar: El nuevo gobierno tiene que ver la compra de aviones F-16 a EE.UU",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-presidente-balcazar-nuevo-gobierno-tiene-ver-compra-aviones-f16-a-eeuu-1072061.aspx",
+      "fecha": "2026-04-21T11:52:07Z",
+      "contenido": "El presidente de la República, José María Balcázar, reafirmó hoy que la compra de los aviones F-16 a Estados Unidos, debe corresponder al próximo Gobierno.",
+      "fuente_display": "Andina",
+      "resumen": "El presidente Balcázar considera que la compra de aviones F-16 a EE.UU. debe ser una decisión del próximo gobierno. Reafirmó la postura sobre esta adquisición militar.",
+      "categoria": "Política",
+      "tags": [
+        "presidente balcázar",
+        "aviones f-16",
+        "estados unidos",
+        "próximo gobierno",
+        "defensa"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-302bfe86a485",
+      "titulo": "Descartan daños tras incendio de bus de transporte sin pasajeros en un grifo de Supe",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-descartan-danos-tras-incendio-bus-transporte-sin-pasajeros-un-grifo-supe-1072060.aspx",
+      "fecha": "2026-04-21T11:47:32Z",
+      "contenido": "Un extraño incendio afectó en la madrugada de hoy martes 21 de abril a un ómnibus de transporte de personal que se encontraba sin pasajeros estacionado en una estación de combustible (grifo) ubicado en el distrito de Supe, provincia de Barranca, región Lima, se informó.",
+      "fuente_display": "Andina",
+      "resumen": "Un bus de transporte de personal sin pasajeros se incendió en un grifo en Supe, Barranca. No se reportaron daños personales, solo materiales.",
+      "categoria": "Economía",
+      "tags": [
+        "incendio",
+        "transporte de personal",
+        "supe",
+        "barranca",
+        "grifo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-0e4b132e0b1c",
+      "titulo": "¿Trabajas o gestionas personal? Certifica competencias y eleva el nivel de tu empresa",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-trabajas-o-gestionas-personal-certifica-competencias-y-eleva-nivel-tu-empresa-1072051.aspx",
+      "fecha": "2026-04-21T11:45:00Z",
+      "contenido": "En un entorno empresarial cada vez más exigente, donde la eficiencia operativa y la calidad del servicio marcan la diferencia, la Certificación de Competencias Laborales se posiciona como una herramienta estratégica para fortalecer la gestión del talento humano en las organizaciones.",
+      "fuente_display": "Andina",
+      "resumen": "La Certificación de Competencias Laborales se presenta como una herramienta estratégica para fortalecer la gestión del talento humano en las empresas. Eleva el nivel de las organizaciones en un entorno exigente.",
+      "categoria": "Economía",
+      "tags": [
+        "certificación de competencias",
+        "gestión de personal",
+        "talento humano",
+        "empresas",
+        "eficiencia operativa"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-a1b4b0ecb6ac",
+      "titulo": "Minsa descarta transmisión local de sarampión en Lima Metropolitana",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-minsa-descarta-transmision-local-sarampion-lima-metropolitana-1072059.aspx",
+      "fecha": "2026-04-21T11:13:33Z",
+      "contenido": "Ante el reporte de cuatro casos de sarampión en Lima Metropolitana, el Centro Nacional de Epidemiología, Prevención y Control de Enfermedades (CDC) del Ministerio de Salud (Minsa) descartó que en la actualidad se registre una transmisión local de la enfermedad.",
+      "fuente_display": "Andina",
+      "resumen": "El Minsa descartó la transmisión local de sarampión en Lima Metropolitana. Se reportaron cuatro casos, pero no hay evidencia de contagio comunitario.",
+      "categoria": "Política",
+      "tags": [
+        "minsa",
+        "sarampión",
+        "lima metropolitana",
+        "salud pública",
+        "epidemiología"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-d91f7c2e278f",
+      "titulo": "Precio del dólar Perú y tipo de cambio hoy 21 de abril del 2026",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-21-de-abril-del-2026-noticia-1685178",
+      "fecha": "2026-04-21T11:05:39Z",
+      "contenido": "En  Perú , el  tipo de cambio  para hoy martes 21 de abril es de  S/3.44 según el Banco Central de Reserva Del Perú.",
+      "fuente_display": "RPP",
+      "resumen": "El tipo de cambio del dólar en Perú para el 21 de abril de 2026 se sitúa en S/3.44, según información del Banco Central de Reserva del Perú.",
+      "categoria": "Finanzas",
+      "tags": [
+        "dólar",
+        "tipo de cambio",
+        "perú",
+        "bcrp",
+        "finanzas"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-6ca7f5d6cd3f",
+      "titulo": "¡Alerta en la costa! Vientos moderados a fuertes levantarán polvo y arena",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-alerta-la-costa-vientos-moderados-a-fuertes-levantaran-polvo-y-arena-1072045.aspx",
+      "fecha": "2026-04-21T11:00:00Z",
+      "contenido": "La velocidad del viento a lo largo de la costa, aumentará de moderada a fuerte intensidad, desde este martes 21 al jueves 23 de abril, previéndose valores próximos a los 34 km/h en la costa norte, a los 33 km/h en la costa centro, alrededor de los 23 km/h en la costa sur y próximos a los 35 km/h en la costa de Ica, informó el Servicio Nacional de Meteorología e Hidrología (Senamhi).",
+      "fuente_display": "Andina",
+      "resumen": "El Senamhi pronostica vientos moderados a fuertes en la costa peruana del 21 al 23 de abril. Se prevé levantamiento de polvo y arena, con velocidades de hasta 35 km/h en Ica.",
+      "categoria": "Economía",
+      "tags": [
+        "senamhi",
+        "vientos",
+        "costa peruana",
+        "polvo y arena",
+        "pronóstico meteorológico"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-de23038a9501",
+      "titulo": "FAP invita a festival aéreo gratuito con espectaculares maniobras y salto en paracaídas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-fap-invita-a-festival-aereo-gratuito-espectaculares-maniobras-y-salto-paracaidas-1072008.aspx",
+      "fecha": "2026-04-21T10:50:28Z",
+      "contenido": "Lima se prepara para un espectáculo aéreo que dejará boquiabiertos a grandes y chicos: la Fuerza Aérea del Perú (FAP) abre este sábado 25 y domingo 26 de abril las puertas de la Base Aérea Las Palmas, en Santiago de Surco, para el XVIII Festival Aéreo BALP 2026. Gratuito y familiar, el evento arranca a las 9:00 a.m. y se extiende hasta las 5:00 p.m., con acrobacias de vértigo y saltos paracaidistas que pintarán el cielo de colores vibrantes.",
+      "fuente_display": "Andina",
+      "resumen": "La Fuerza Aérea del Perú (FAP) realizará un festival aéreo gratuito en la Base Aérea Las Palmas los días 25 y 26 de abril. El evento incluirá maniobras acrobáticas y saltos paracaidistas.",
+      "categoria": "Economía",
+      "tags": [
+        "fap",
+        "festival aéreo",
+        "las palmas",
+        "maniobras",
+        "paracaidismo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-ff0af3c7e338",
+      "titulo": "Conoce los 5 cambios que definen al comprador peruano en el Cyber Wow 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-conoce-los-5-cambios-definen-al-comprador-peruano-el-cyber-wow-2026-1072048.aspx",
+      "fecha": "2026-04-21T08:00:00Z",
+      "contenido": "La compra por impulso que caracterizó las primeras ediciones del Cyber Wow ha cedido terreno a un consumidor digital más analítico y planificado, señala el análisis realizado por Mercado Libre Perú.",
+      "fuente_display": "Andina",
+      "resumen": "Un análisis de Mercado Libre Perú revela 5 cambios en el comprador digital peruano para el Cyber Wow 2026. El consumidor es ahora más analítico y planificado, alejándose de la compra por impulso.",
+      "categoria": "Economía",
+      "tags": [
+        "cyber wow 2026",
+        "comprador peruano",
+        "comercio electrónico",
+        "mercado libre",
+        "tendencias de consumo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-7dc513266fcf",
+      "titulo": "Día Internacional del Libro: autores exploran nuevas plataformas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-dia-internacional-del-libro-autores-exploran-nuevas-plataformas-1072055.aspx",
+      "fecha": "2026-04-21T05:06:25Z",
+      "contenido": "El desafío para los escritores ya no es únicamente publicar, sino lograr ser leídos. La expansión de los formatos digitales, los marketplaces y las redes sociales ha multiplicado las posibilidades de difusión, pero también ha hecho más difícil destacar en medio de una oferta casi infinita de contenidos.",
+      "fuente_display": "Andina",
+      "resumen": "El Día Internacional del Libro resalta cómo los autores peruanos enfrentan el desafío de ser leídos en la era digital. Las nuevas plataformas como marketplaces y redes sociales ofrecen mayor difusión, pero también una competencia más intensa por la atención del público.",
+      "categoria": "Economía",
+      "tags": [
+        "día del libro",
+        "autores",
+        "plataformas digitales",
+        "redes sociales",
+        "difusión"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-9c1f9e9dd77f",
+      "titulo": "Megainversión: Perú presenta proyectos por US$ 38 900 millones para integrar el comercio con Brasil",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/megainversion-peru-presenta-proyectos-por-us-38-900-millones-para-integrar-el-comercio-con-brasil-noticia-1685167",
+      "fecha": "2026-04-21T03:40:14Z",
+      "contenido": "En un evento en Sao Paulo,  Proinversión  destacó que el Perú es la ventana de Sudamérica hacia las economías de la región Asia-Pacífico, y brinda acceso a puertos estratégicos como El Callao, Chancay, Ilo, Matarani y Paita. Además, dio a conocer a empresarios, operadores logístico y actores del comercio exterior las oportunidades de integración logística del país con Brasil.",
+      "fuente_display": "RPP",
+      "resumen": "Perú ha presentado proyectos de megainversión por US$ 38,900 millones para fortalecer el comercio con Brasil, posicionándose como un puente logístico clave entre Asia y Sudamérica. Proinversión destacó el acceso a puertos estratégicos y las oportunidades de integración para empresarios y operadores logísticos.",
+      "categoria": "Economía",
+      "tags": [
+        "megainversión",
+        "comercio",
+        "brasil",
+        "logística",
+        "proinversión"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-91949bc9c09d",
+      "titulo": "Perú rumbo a la OCDE: conoce la página web oficial que muestra cómo va el proceso de adhesión a este organismo",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/peru/actualidad/peru-en-la-ocde-conoce-los-avances-y-la-nueva-pagina-web-oficial-noticia-1685164",
+      "fecha": "2026-04-21T01:49:01Z",
+      "contenido": "La  Cancillería  presentó el portal digital oficial que permite a la ciudadanía monitorear en tiempo real los avances técnicos, informes y beneficios de la ruta de acceso a la  OCDE .",
+      "fuente_display": "RPP",
+      "resumen": "La Cancillería peruana lanzó una página web oficial para que la ciudadanía pueda seguir el proceso de adhesión del Perú a la OCDE. El portal mostrará en tiempo real los avances técnicos, informes y los beneficios esperados de esta importante ruta de acceso.",
+      "categoria": "Política",
+      "tags": [
+        "ocde",
+        "adhesión",
+        "cancillería",
+        "proceso",
+        "portal web"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 23,
+  "fuentes_activas": [
+    "andina",
+    "rpp"
+  ],
+  "prompt_version": "prensa-v1"
+}
