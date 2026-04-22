@@ -1,0 +1,410 @@
+{
+  "fecha": "2026-04-22",
+  "noticias": [
+    {
+      "id": "andina-1538c271585a",
+      "titulo": "Moquegua celebra: declaran Patrimonio Cultural de la Nación a danzas de Matalaque y Ubinas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-moquegua-celebra-declaran-patrimonio-cultural-de-nacion-a-danzas-matalaque-y-ubinas-1072224.aspx",
+      "fecha": "2026-04-22T12:52:36Z",
+      "contenido": "El Ministerio de Cultura declaró como Patrimonio Cultural de la Nación a la expresión artística conocida en el distrito de Matalaque como Los Arrieros o Los Tucumanes Arrieros de Matalaque, y en el distrito de Ubinas como Los Patroncitos o Los Patroncitos Tucumanes de Ubinas, manifestación vigente en la provincia de General Sánchez Cerro, región Moquegua.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Cultura ha declarado Patrimonio Cultural de la Nación a las danzas de Matalaque y Ubinas en la región Moquegua. Estas expresiones artísticas, conocidas como 'Los Arrieros' y 'Los Patroncitos', son manifestaciones vigentes en la provincia de General Sánchez Cerro.",
+      "categoria": "Política",
+      "tags": [
+        "cultura",
+        "patrimonio",
+        "moquegua",
+        "danzas",
+        "ministerio de cultura"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-0d6b20dd7ee3",
+      "titulo": "Perú aprueba reglamento de Ley de Zonas Económicas Especiales Privadas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-aprueba-reglamento-ley-zonas-economicas-especiales-privadas-1072225.aspx",
+      "fecha": "2026-04-22T12:51:19Z",
+      "contenido": "El Ministerio de Comercio Exterior y Turismo (Mincetur) aprobó el reglamento de la Ley N° 32449, que define el marco normativo de creación, autorización y funcionamiento de las Zonas Económicas Especiales Privadas (ZEEP) en el Perú.",
+      "fuente_display": "Andina",
+      "resumen": "El Mincetur aprobó el reglamento de la Ley de Zonas Económicas Especiales Privadas (ZEEP). Esta ley establece el marco normativo para la creación, autorización y funcionamiento de estas zonas en el Perú, buscando fomentar la inversión y el desarrollo económico.",
+      "categoria": "Economía",
+      "tags": [
+        "zeep",
+        "mincetur",
+        "reglamento",
+        "inversión",
+        "desarrollo económico"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4ae13d4c3065",
+      "titulo": "Universitario vs. Deportivo Garcilaso: Hora y canales para ver hoy el partido crucial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-universitario-vs-deportivo-garcilaso-hora-y-canales-para-ver-hoy-partido-crucial-1072227.aspx",
+      "fecha": "2026-04-22T12:50:01Z",
+      "contenido": "Bajo la dirección técnica de Jorge Araujo, Universitario sale este martes (20:30 horas) a enfrentar al Deportivo Garcilaso en partido pendiente de la décima fecha del Torneo Apertura, que se jugará en el Estadio Monumental de Ate y será transmitido en directo.",
+      "fuente_display": "Andina",
+      "resumen": "Universitario se enfrenta a Deportivo Garcilaso hoy a las 20:30 horas en el Estadio Monumental de Ate. Este crucial partido es un pendiente de la décima fecha del Torneo Apertura y será transmitido en directo.",
+      "categoria": "Política",
+      "tags": [
+        "fútbol",
+        "torneo apertura",
+        "universitario",
+        "deportivo garcilaso",
+        "deportes"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8063f216684f",
+      "titulo": "Jefe de Gabinete plantea que FF.AA. apoye traslado de material electoral en segunda vuelta",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-jefe-gabinete-plantea-ffaa-apoye-traslado-material-electoral-segunda-vuelta-1072226.aspx",
+      "fecha": "2026-04-22T12:49:47Z",
+      "contenido": "El presidente del Consejo de Ministros, Luis Arroyo Sánchez, anunció que en los próximos días se reunirá con las autoridades electorales para proponer que las Fuerzas Armadas apoyen en el traslado y custodia del material electoral durante la segunda vuelta presidencial que se realizará en junio de este año.",
+      "fuente_display": "Andina",
+      "resumen": "El Jefe de Gabinete, Luis Arroyo Sánchez, propondrá a las autoridades electorales que las Fuerzas Armadas apoyen en el traslado y custodia del material electoral. Esta medida se aplicaría durante la segunda vuelta presidencial en junio.",
+      "categoria": "Política",
+      "tags": [
+        "fuerzas armadas",
+        "material electoral",
+        "segunda vuelta",
+        "jefe de gabinete",
+        "elecciones"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-6a4af6a52ae4",
+      "titulo": "Día de la Tierra: claves del accionar de Perú para conservar y proteger la biodiversidad",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-dia-de-tierra-claves-del-accionar-peru-para-conservar-y-proteger-biodiversidad-1072112.aspx",
+      "fecha": "2026-04-22T12:27:47Z",
+      "contenido": "El Perú es uno de los 17 países más megadiversos del mundo que, en conjunto, poseen más del 70 % de la biodiversidad del planeta. Al celebrarse, el 22 de abril, el Día Internacional de la Madre Tierra, cabe conocer las acciones que desarrolla nuestro país para contribuir a la conservación y protección de este maravilloso y único tesoro natural, parte del cual se encuentra distribuido en nuestro territorio.",
+      "fuente_display": "Andina",
+      "resumen": "En el Día de la Tierra, se destacan las acciones de Perú para conservar su biodiversidad, siendo uno de los países megadiversos del mundo. El país implementa medidas para proteger su valioso patrimonio natural.",
+      "categoria": "Política",
+      "tags": [
+        "día de la tierra",
+        "biodiversidad",
+        "conservación",
+        "medio ambiente",
+        "perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-2a94adf86a62",
+      "titulo": "¡Impecable! Ignacio Buse clasifica a la segunda ronda del Masters 1000 de Madrid",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-impecable-ignacio-buse-clasifica-a-segunda-ronda-del-masters-1000-madrid-1072223.aspx",
+      "fecha": "2026-04-22T12:16:09Z",
+      "contenido": "Impecable fue el debut para el tenista peruano Ignacio Buse (58 ATP) en el Mutua Madrid Open, logrando este miércoles su primer triunfo en el cuadro principal de un torneo Masters 1000.",
+      "fuente_display": "Andina",
+      "resumen": "El tenista peruano Ignacio Buse clasificó a la segunda ronda del Masters 1000 de Madrid. Este triunfo marca su primera victoria en el cuadro principal de un torneo de esta categoría.",
+      "categoria": "Política",
+      "tags": [
+        "tenis",
+        "ignacio buse",
+        "masters 1000",
+        "deportes",
+        "madrid"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-0ae70b71e724",
+      "titulo": "Sunat: se controlará que ventas por redes sociales emitan comprobante de pago [Entrevista]",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-sunat-se-controlara-ventas-redes-sociales-emitan-comprobante-pago-entrevista-1072194.aspx",
+      "fecha": "2026-04-22T12:12:44Z",
+      "contenido": "La recaudación tributaria superaría los 183,000 millones de soles al cierre del 2026, considerando el buen desempeño registrado en el primer trimestre de este año.",
+      "fuente_display": "Andina",
+      "resumen": "La Sunat controlará que las ventas realizadas a través de redes sociales emitan comprobantes de pago. Se proyecta que la recaudación tributaria supere los 183,000 millones de soles al cierre del 2026, impulsada por el buen desempeño del primer trimestre.",
+      "categoria": "Economía",
+      "tags": [
+        "sunat",
+        "recaudación tributaria",
+        "comprobantes de pago",
+        "redes sociales",
+        "economía"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-a0097bc04acc",
+      "titulo": "Cajamarca: Contraloría ejecuta operativos de control en Celendín, Chota, Cutervo y Jaén",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-cajamarca-contraloria-ejecuta-operativos-control-celendin-chota-cutervo-y-jaen-1072222.aspx",
+      "fecha": "2026-04-22T12:09:35Z",
+      "contenido": "Un equipo de auditores de la Contraloría General de la República se desplaza a las provincias cajamarquinas de Celendín, Chota, Cutervo y Jaén como parte de un operativo nacional de control territorial multidisciplinario, que se prolongará hasta el viernes 24 de abril, con el objetivo de verificar el cumplimiento de la normatividad en las instituciones públicas.",
+      "fuente_display": "Andina",
+      "resumen": "La Contraloría General de la República realiza operativos de control en las provincias cajamarquinas de Celendín, Chota, Cutervo y Jaén. El objetivo es verificar el cumplimiento de la normatividad en las instituciones públicas de la región.",
+      "categoria": "Política",
+      "tags": [
+        "contraloría",
+        "cajamarca",
+        "control",
+        "instituciones públicas",
+        "operativos"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4b75d75df2c0",
+      "titulo": "COER alerta que zonas altas de Puno soportarán 72 horas de lluvias intensas y nevadas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-coer-alerta-zonas-altas-puno-soportaran-72-horas-lluvias-intensas-y-nevadas-1072220.aspx",
+      "fecha": "2026-04-22T11:53:07Z",
+      "contenido": "La región Puno enfrenta lluvias intensas y nevadas peligrosas durante las próximas 72 horas. El Centro de Operaciones de Emergencia Regional (COER) emitió un aviso de alerta nivel tres tras los últimos reportes del Senamhi. El mal tiempo comenzó este martes 21 de abril y se extenderá hasta el jueves 23.",
+      "fuente_display": "Andina",
+      "resumen": "El COER de Puno alerta sobre lluvias intensas y nevadas peligrosas durante las próximas 72 horas. El Senamhi emitió un aviso de nivel tres ante el pronóstico de mal tiempo que se extenderá hasta el jueves 23 de abril.",
+      "categoria": "Política",
+      "tags": [
+        "puno",
+        "clima",
+        "lluvias",
+        "nevadas",
+        "coer"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-f737b157782f",
+      "titulo": "Corte del Callao resuelve procesos judiciales con IA y aplicativos digitales",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-corte-del-callao-resuelve-procesos-judiciales-ia-y-aplicativos-digitales-1072221.aspx",
+      "fecha": "2026-04-22T11:47:42Z",
+      "contenido": "El presidente de la Corte Superior de Justicia del Callao, Miguel Ricardo Castañeda Moya, anunció que se usarán herramientas digitales con inteligencia artificial que optimizan la redacción de documentos judiciales (actas exprés), especialmente en el área penal y en aplicativos de otras especialidades legales.",
+      "fuente_display": "Andina",
+      "resumen": "La Corte del Callao implementará el uso de inteligencia artificial y aplicativos digitales para resolver procesos judiciales. Estas herramientas optimizarán la redacción de documentos y agilizarán los trámites legales.",
+      "categoria": "Política",
+      "tags": [
+        "corte del callao",
+        "inteligencia artificial",
+        "procesos judiciales",
+        "tecnología",
+        "justicia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4afde7eb19a1",
+      "titulo": "Estas son las normas legales más importantes del miércoles 22 de abril del 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-estas-son-las-normas-legales-mas-importantes-del-miercoles-22-abril-del-2026-1072218.aspx",
+      "fecha": "2026-04-22T11:38:19Z",
+      "contenido": "El boletín Normas Legales del Diario Oficial El Peruano difunde una serie de dispositivos de interés público y de impacto para la marcha del país. Conoce a continuación cuáles son las normas legales más relevantes de hoy.",
+      "fuente_display": "Andina",
+      "resumen": "El Diario Oficial El Peruano publicó normas legales de interés público y de impacto para el país este miércoles 22 de abril. Se detallan los dispositivos más relevantes que rigen la marcha nacional.",
+      "categoria": "Política",
+      "tags": [
+        "normas legales",
+        "el peruano",
+        "dispositivos",
+        "país",
+        "actualidad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3bd7a153429b",
+      "titulo": "Aniversario de Ayacucho: ¿Por qué fue declarada Ciudad Creativa y qué destaca Unesco?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-aniversario-ayacucho-por-fue-declarada-ciudad-creativa-y-destaca-unesco-1072172.aspx",
+      "fecha": "2026-04-22T11:31:10Z",
+      "contenido": "El 3 de noviembre de 2019, la ciudad de Ayacucho se convirtió en una de las dos primeras urbes de Perú en integrar la Red de Ciudades Creativas de la Unesco. A propósito de la celebración del 486 aniversario de la fundación española de esta emblemática localidad, protagonista de trascendentales acontecimientos históricos e ineludible destino turístico, cabe destacar los atributos que la llevaron a ser distinguida y formar parte de esta prestigiosa membresía mundial.",
+      "fuente_display": "Andina",
+      "resumen": "Ayacucho, Ciudad Creativa de la Unesco, celebra su 486 aniversario. La distinción reconoce sus atributos culturales y su contribución a la red mundial de ciudades creativas.",
+      "categoria": "Política",
+      "tags": [
+        "ayacucho",
+        "unesco",
+        "ciudad creativa",
+        "cultura",
+        "aniversario"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-bde824228b0d",
+      "titulo": "Día de la Tierra 2026: Google celebra el planeta con doodle de paisajes del mundo",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-dia-de-tierra-2026-google-celebra-planeta-doodle-paisajes-del-mundo-1072219.aspx",
+      "fecha": "2026-04-22T11:23:28Z",
+      "contenido": "Google rinde homenaje a la diversidad natural del planeta mediante una propuesta visual basada en imágenes satelitales reales. El doodle por el Día de la Tierra destaca distintos paisajes globales dentro de cada letra del buscador, con el objetivo de generar conciencia sobre la importancia de cuidar el medio ambiente.",
+      "fuente_display": "Andina",
+      "resumen": "Google celebra el Día de la Tierra con un doodle interactivo que muestra paisajes del mundo. La iniciativa busca generar conciencia sobre la importancia de cuidar el medio ambiente y la biodiversidad.",
+      "categoria": "Política",
+      "tags": [
+        "google",
+        "día de la tierra",
+        "medio ambiente",
+        "biodiversidad",
+        "conciencia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-5034a35da47f",
+      "titulo": "Precio del dólar Perú y tipo de cambio hoy 22 de abril del 2026",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-22-de-abril-del-2026-noticia-1685349",
+      "fecha": "2026-04-22T11:05:39Z",
+      "contenido": "En  Perú , el  tipo de cambio  para hoy miércoles 22 de abril es de  S/3.44 según el Banco Central de Reserva Del Perú.",
+      "fuente_display": "RPP",
+      "resumen": "El precio del dólar en Perú hoy, miércoles 22 de abril, se cotiza a S/3.44 según el Banco Central de Reserva del Perú. El tipo de cambio se mantiene estable en el mercado.",
+      "categoria": "Finanzas",
+      "tags": [
+        "dólar",
+        "tipo de cambio",
+        "bcrp",
+        "finanzas",
+        "perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-67700a3d73bc",
+      "titulo": "Otoño en Lima: ¿seguirán la neblina, las lloviznas o los días de sol?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-otono-lima-seguiran-neblina-las-lloviznas-o-los-dias-sol-1072142.aspx",
+      "fecha": "2026-04-22T10:49:14Z",
+      "contenido": "Lima amaneció ayer cubierta por una densa neblina que sorprendió a miles de ciudadanos, acostumbrados en las últimas semanas a mañanas con presencia de brillo solar. Ante este reciente panorama, ¿Continuará las neblinas?, ¿habrá lloviznas?, ¿Cómo será el otoño y el invierno? El Servicio Nacional de Meteorología e Hidrología del Perú (Senamhi) responde a estas interrogantes.",
+      "fuente_display": "Andina",
+      "resumen": "El Senamhi analiza el comportamiento del otoño en Lima, tras una mañana con densa neblina. Se evalúa si continuarán las neblinas, lloviznas o predominarán los días soleados en la capital.",
+      "categoria": "Política",
+      "tags": [
+        "senamhi",
+        "clima",
+        "lima",
+        "otoño",
+        "neblina"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-a77c5b3edc3e",
+      "titulo": "Hoy inicia el Seminario Internacional de Microfinanzas Arequipa 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-hoy-inicia-seminario-internacional-microfinanzas-arequipa-2026-1072206.aspx",
+      "fecha": "2026-04-22T08:00:00Z",
+      "contenido": "El Seminario Internacional de Microfinanzas Arequipa 2026 se inicia hoy con una jornada enfocada en el análisis del entorno financiero y los desafíos estratégicos del sector hacia el 2030.",
+      "fuente_display": "Andina",
+      "resumen": "Hoy inicia el Seminario Internacional de Microfinanzas en Arequipa, enfocado en el análisis del entorno financiero y los desafíos estratégicos del sector hasta el 2030. El evento congrega a expertos nacionales e internacionales.",
+      "categoria": "Economía",
+      "tags": [
+        "microfinanzas",
+        "arequipa",
+        "seminario",
+        "finanzas",
+        "economía"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-eace167236b1",
+      "titulo": "Renovación Popular llama a las fuerzas políticas a actuar como un frente unido",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-renovacion-popular-llama-a-las-fuerzas-politicas-a-actuar-como-un-frente-unido-1072214.aspx",
+      "fecha": "2026-04-22T05:13:21Z",
+      "contenido": "La agrupación política Renovación Popular, que postula a la Presidencia de la República a Rafael López Aliaga, hizo un llamado a las fuerzas políticas para actuar como un frente unido ante el conteo de votos que se viene desarrollando.",
+      "fuente_display": "Andina",
+      "resumen": "Renovación Popular hace un llamado a las fuerzas políticas para actuar como un frente unido. La agrupación busca consolidar un bloque común ante el desarrollo del conteo de votos.",
+      "categoria": "Política",
+      "tags": [
+        "renovación popular",
+        "fuerzas políticas",
+        "frente unido",
+        "elecciones",
+        "política"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4325f9da20d9",
+      "titulo": "Ministro Zapata lidera presentación de resultados policiales con más de 5 mil detenidos",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ministro-zapata-lidera-presentacion-resultados-policiales-mas-5-mil-detenidos-1072215.aspx",
+      "fecha": "2026-04-22T04:51:27Z",
+      "contenido": "Desde la sede de la División de Emergencia (Diveme) en La Victoria, el ministro del Interior, José Zapata Morante, encabezó la presentación del balance de resultados operativos ejecutados por la Policía Nacional del Perú (PNP) entre el 14 y el 21 de abril.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministro del Interior, José Zapata Morante, presentó los resultados operativos de la Policía Nacional del Perú. Se reportaron más de 5 mil detenidos en acciones realizadas entre el 14 y 21 de abril.",
+      "categoria": "Política",
+      "tags": [
+        "ministerio del interior",
+        "pnp",
+        "operativos",
+        "detenidos",
+        "seguridad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-f0ae429a0ee3",
+      "titulo": "Más feriados y trabajo híbrido: el nuevo reto detrás del cálculo de la CTS",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mas-feriados-y-trabajo-hibrido-nuevo-reto-detras-del-calculo-de-cts-1072217.aspx",
+      "fecha": "2026-04-22T04:48:06Z",
+      "contenido": "Durante años el cálculo de la Compensación por Tiempo de Servicios (CTS) fue un proceso rutinario dentro de las empresas. Hoy, ese escenario es distinto. El entorno laboral se ha vuelto más dinámico y complejo. Más feriados, modalidades híbridas, cambios contractuales dentro del año y remuneraciones variables han añadido nuevas capas de detalle al cálculo.",
+      "fuente_display": "Andina",
+      "resumen": "El cálculo de la Compensación por Tiempo de Servicios (CTS) enfrenta nuevos retos debido a la mayor cantidad de feriados y al trabajo híbrido. La complejidad aumenta con remuneraciones variables y cambios contractuales.",
+      "categoria": "Economía",
+      "tags": [
+        "cts",
+        "compensación por tiempo de servicios",
+        "feriados",
+        "trabajo híbrido",
+        "remuneraciones"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-91fadb2dca17",
+      "titulo": "Fortalecen seguridad laboral de más de 10,000 trabajadores de construcción civil",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-fortalecen-seguridad-laboral-mas-10000-trabajadores-construccion-civil-1072216.aspx",
+      "fecha": "2026-04-22T04:38:49Z",
+      "contenido": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) fortaleció la cultura de prevención de riesgos laborales en el sector construcción, beneficiando a más de 10,000 trabajadores en 14 regiones del país, mediante acciones de capacitación, sensibilización y formación especializada.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) fortaleció la seguridad laboral de más de 10,000 trabajadores de construcción civil. Las capacitaciones se realizaron en 14 regiones para prevenir riesgos laborales.",
+      "categoria": "Economía",
+      "tags": [
+        "mtpe",
+        "seguridad laboral",
+        "construcción civil",
+        "prevención de riesgos",
+        "trabajadores"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1d1013f26dee",
+      "titulo": "Demanda por terrenos crece en el Perú como apuesta de inversión de largo plazo",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-demanda-terrenos-crece-el-peru-como-apuesta-inversion-largo-plazo-1072212.aspx",
+      "fecha": "2026-04-22T04:15:48Z",
+      "contenido": "Los terrenos se están posicionando como una de las principales alternativas de inversión en el mercado inmobiliario peruano, en un contexto de crecimiento del sector y mayor interés por activos simples, accesibles y con potencial de valorización sostenida.",
+      "fuente_display": "Andina",
+      "resumen": "Los terrenos en Perú se han convertido en una inversión inmobiliaria atractiva, impulsados por el crecimiento del sector y la preferencia por activos de inversión sencillos y con potencial de revalorización a largo plazo. Esta tendencia refleja un interés creciente en apuestas de inversión seguras y con proyección de crecimiento sostenido.",
+      "categoria": "Economía",
+      "tags": [
+        "terrenos",
+        "inversión",
+        "mercado inmobiliario",
+        "perú",
+        "valorización"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 21,
+  "fuentes_activas": [
+    "andina",
+    "rpp"
+  ],
+  "prompt_version": "prensa-v1"
+}
