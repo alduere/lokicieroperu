@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-04-23",
+  "items": [
+    {
+      "id": "59019-2024/DSD",
+      "tipo_solicitud": "NOMBRE COMERCIAL",
+      "signo_solicitado": "BVC FARMA E.I.R.L.",
+      "solicitante": "BVC FARMA E.I.R.L., de Perú",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-23",
+      "fecha_presentacion": "2024-12-16",
+      "fecha_limite_oposicion": "2026-06-05",
+      "descripcion": null
+    },
+    {
+      "id": "57674-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "TEP TRANSFORMER EXPLOSION PREVENTION",
+      "solicitante": "TRANSFORMER EXPLOSION PREVENTION LLC, de Estados Unidos de América",
+      "clase": "09",
+      "fecha_publicacion": "2026-04-23",
+      "fecha_presentacion": "2025-10-31",
+      "fecha_limite_oposicion": "2026-06-05",
+      "descripcion": null
+    },
+    {
+      "id": "60561-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "PRAMAC",
+      "solicitante": "PR Industrial S.r.l., de Italia",
+      "clase": "11",
+      "fecha_publicacion": "2026-04-23",
+      "fecha_presentacion": "2025-11-13",
+      "fecha_limite_oposicion": "2026-06-05",
+      "descripcion": null
+    },
+    {
+      "id": "62972-2025/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "XAMICEL",
+      "solicitante": "AGUDO PISFIL GRACE DALILA, de Perú; FLORES QUIHUI RAMIRO, de Perú",
+      "clase": "35",
+      "fecha_publicacion": "2026-04-23",
+      "fecha_presentacion": "2025-11-26",
+      "fecha_limite_oposicion": "2026-06-05",
+      "descripcion": null
+    },
+    {
+      "id": "65601-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "PLUSH VANILLA",
+      "solicitante": "FLUFFY SNOW LLC, de Estados Unidos de América",
+      "clase": "03",
+      "fecha_publicacion": "2026-04-23",
+      "fecha_presentacion": "2025-12-10",
+      "fecha_limite_oposicion": "2026-06-05",
+      "descripcion": null
+    }
+  ]
+}
