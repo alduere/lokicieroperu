@@ -1,6 +1,10 @@
 {
   "fechas": [
     {
+      "fecha": "2026-04-24",
+      "total_solicitudes": 5
+    },
+    {
       "fecha": "2026-04-23",
       "total_solicitudes": 5
     },
