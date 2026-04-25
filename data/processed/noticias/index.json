@@ -1,6 +1,13 @@
 {
   "fechas": [
     {
+      "fecha": "2026-04-25",
+      "total_noticias": 20,
+      "fuentes_activas": [
+        "andina"
+      ]
+    },
+    {
       "fecha": "2026-04-24",
       "total_noticias": 21,
       "fuentes_activas": [
