@@ -2,6 +2,206 @@
   "fecha": "2026-04-24",
   "normas": [
     {
+<<<<<<< HEAD
+      "id": "2509496-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "00474-2026-DE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 00474-2026-DE",
+      "entidad_emisora": "DEFENSA",
+      "sumilla": "Autorizan viaje de personal militar del Instituto Geográfico Nacional a los Países Bajos en comisión de servicios",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509496-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ5Nl8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509496-1_Portada.jpg",
+      "edicion_extraordinaria": true,
+      "resumen_ejecutivo": "Se autoriza el viaje de personal militar del Instituto Geográfico Nacional a los Países Bajos. La comisión de servicios tiene como objetivo la participación en actividades relacionadas con la cartografía y geodesia. Esta autorización recae sobre el personal militar del IGN. La norma se emite en el marco de las funciones del Ministerio de Defensa.",
+      "cambios_clave": [
+        "Autoriza viaje de personal militar del IGN a Países Bajos."
+      ],
+      "a_quien_afecta": "Personal militar del Instituto Geográfico Nacional.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de personal militar.",
+      "sectores": [
+        "defensa",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje militar",
+        "ign",
+        "comision de servicios"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509754-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000164-2026-MIDIS/PAE-DE",
+      "titulo_oficial": "RESOLUCION N° 000164-2026-MIDIS/PAE-DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Jefe de la Subunidad de Control de la Unidad de Control y Vigilancia de la Prestación del Servicio Alimentario del Programa de Alimentación Escolar (PAE)",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509754-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTc1NF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509754-1_Portada.jpg",
+      "edicion_extraordinaria": true,
+      "resumen_ejecutivo": "Se designa al Jefe de la Subunidad de Control de la Unidad de Control y Vigilancia de la Prestación del Servicio Alimentario del Programa de Alimentación Escolar (PAE). El objetivo es asegurar la correcta ejecución de dicho programa. La designación recae sobre un funcionario específico del MIDIS. Esta acción se da en el contexto de la gestión del PAE.",
+      "cambios_clave": [
+        "Designa Jefe de Subunidad de Control del PAE."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Programa de Alimentación Escolar (PAE).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico dentro de una unidad del MIDIS.",
+      "sectores": [
+        "educacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "pae",
+        "midis"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509560-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "000291-2026-IN-VOI-DGIN",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 000291-2026-IN-VOI-DGIN",
+      "entidad_emisora": "INTERIOR",
+      "sumilla": "Designan Subprefecto Distrital de San Luis provincia de San Pablo departamento de Cajamarca",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509560-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTU2MF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509560-1_Portada.jpg",
+      "edicion_extraordinaria": true,
+      "resumen_ejecutivo": "Se designa al Subprefecto Distrital de San Luis, en la provincia de San Pablo, departamento de Cajamarca. El cargo tiene como función representar al Poder Ejecutivo a nivel distrital. La designación recae sobre un ciudadano específico. Esta norma se enmarca en la estructura de Prefecturas del Ministerio del Interior.",
+      "cambios_clave": [
+        "Designa Subprefecto Distrital de San Luis, Cajamarca."
+      ],
+      "a_quien_afecta": "Ciudadano designado y la Prefectura de Cajamarca.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario a nivel distrital.",
+      "sectores": [
+        "interior",
+        "gobierno_local"
+      ],
+      "tags": [
+        "designacion",
+        "subprefecto",
+        "cajamarca"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509832-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "432-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 432-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Designan Director Adjunto de la Dirección General del Hospital María Auxiliadora",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509832-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTgzMl8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509832-1_Portada.jpg",
+      "edicion_extraordinaria": true,
+      "resumen_ejecutivo": "Se designa al Director Adjunto de la Dirección General del Hospital María Auxiliadora. El puesto es clave para la gestión hospitalaria y la dirección médica. La designación recae sobre un profesional de la salud. Esta norma se emite por el Ministerio de Salud.",
+      "cambios_clave": [
+        "Designa Director Adjunto del Hospital María Auxiliadora."
+      ],
+      "a_quien_afecta": "Profesional designado y el Hospital María Auxiliadora.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo directivo en un hospital específico.",
+      "sectores": [
+        "salud",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "hospital",
+        "minsa"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509858-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION ADMINISTRATIVA",
+      "tipo_corto": "RA",
+      "numero": "000031-2026-DP/OGA",
+      "titulo_oficial": "RESOLUCION ADMINISTRATIVA N° 000031-2026-DP/OGA",
+      "entidad_emisora": "DESPACHO PRESIDENCIAL",
+      "sumilla": "Delegan facultades al Ejecutivo de la Oficina de Abastecimiento del Despacho Presidencial",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509858-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg1OF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509858-1_Portada.jpg",
+      "edicion_extraordinaria": true,
+      "resumen_ejecutivo": "Se delegan facultades al Ejecutivo de la Oficina de Abastecimiento del Despacho Presidencial. Esta delegación permite al funcionario actuar en representación del Despacho Presidencial en ciertos actos administrativos. La delegación recae sobre el titular de la Oficina de Abastecimiento. La norma es emitida por el Despacho Presidencial.",
+      "cambios_clave": [
+        "Delega facultades al Ejecutivo de Abastecimiento del Despacho Presidencial."
+      ],
+      "a_quien_afecta": "Funcionario de la Oficina de Abastecimiento del Despacho Presidencial.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Delegación de funciones internas dentro del Despacho Presidencial.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "delegacion de facultades",
+        "despacho presidencial",
+        "abastecimiento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509801-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "100-2026-ATU/PE",
+      "titulo_oficial": "RESOLUCION N° 100-2026-ATU/PE",
+      "entidad_emisora": "AUTORIDAD DE TRANSPORTE URBANO PARA LIMA Y CALLAO",
+      "sumilla": "Designan Gerente General de la Autoridad de Transporte Urbano para Lima y Callao - ATU",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509801-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTgwMV8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509801-1_Portada.jpg",
+      "edicion_extraordinaria": true,
+      "resumen_ejecutivo": "Se designa al Gerente General de la Autoridad de Transporte Urbano para Lima y Callao (ATU). El cargo es fundamental para la gestión y dirección de la entidad. La designación recae sobre un profesional específico. Esta norma es emitida por la ATU.",
+      "cambios_clave": [
+        "Designa Gerente General de la ATU."
+      ],
+      "a_quien_afecta": "Profesional designado y la Autoridad de Transporte Urbano (ATU).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo directivo en una entidad pública específica.",
+      "sectores": [
+        "transporte",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "gerente general",
+        "atu"
+      ],
+      "prompt_version": 2
+    },
+    {
+=======
+>>>>>>> origin/main
       "id": "2509444-1",
       "seccion": "normas_legales",
       "tipo": "LEY",
@@ -15,6 +215,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0NF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509444-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se crea la Universidad Nacional de América Ludovico Bertonio (UNALBE) en el distrito de Juli, provincia de Chucuito, departamento de Puno. La nueva universidad pública tendrá como objetivo impartir educación superior. La ley beneficia a la región Puno y a los estudiantes de la zona. Esta norma establece una nueva institución educativa pública.",
+      "cambios_clave": [
+        "Crea la Universidad Nacional de América Ludovico Bertonio (UNALBE)."
+      ],
+      "a_quien_afecta": "Estudiantes y la comunidad de Puno.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Creación de una nueva universidad pública, impactando la educación superior en la región.",
+=======
       "resumen_ejecutivo": "Se crea la Universidad Nacional de América Ludovico Bertonio (UNALBE) en el distrito de Juli, provincia de Chucuito, departamento de Puno. Esta nueva institución pública busca ampliar el acceso a la educación superior en la región. La norma establece la fundación de esta universidad, que se suma a la oferta académica estatal. Su creación responde a la necesidad de desarrollo educativo en el sur del país.",
       "cambios_clave": [
         "Creación de la Universidad Nacional de América Ludovico Bertonio (UNALBE)."
@@ -23,13 +233,88 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "alto",
       "impacto_razon": "Crea una nueva universidad pública, modificando la oferta educativa y el sector educación superior.",
+>>>>>>> origin/main
       "sectores": [
         "educacion"
       ],
       "tags": [
         "universidad",
+<<<<<<< HEAD
+        "puno",
+        "unalbe"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509442-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "059-2026-PCM",
+      "titulo_oficial": "DECRETO SUPREMO N° 059-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Decreto Supremo que prorroga el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Amazonas Áncash Arequipa Cajamarca Ica Junín La Libertad Lambayeque Lima Madre de Dios Piura Puno San Martín y Tumbes por peligro inminente ante intensas precipitaciones pluviales",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509442-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se prorroga el Estado de Emergencia en varios distritos de 13 departamentos del país debido al peligro inminente de intensas precipitaciones pluviales. La medida permite al gobierno tomar acciones inmediatas para mitigar riesgos y atender a la población afectada. La prórroga aplica a las zonas declaradas en emergencia. Esta norma extiende una medida excepcional ante desastres naturales.",
+      "cambios_clave": [
+        "Prorroga Estado de Emergencia por intensas lluvias en 13 departamentos."
+      ],
+      "a_quien_afecta": "Poblaciones de 13 departamentos y entidades de respuesta a emergencias.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Extiende una medida de emergencia que afecta a múltiples regiones y a la población vulnerable.",
+      "sectores": [
+        "defensa",
+        "interior",
+        "ambiente"
+      ],
+      "tags": [
+        "estado de emergencia",
+        "lluvias",
+        "desastres naturales"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509442-7",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "134-2026-PCM",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 134-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Autorizan viaje de Ministra del Ambiente a Turquía y encargan su Despacho a la Ministra de Cultura",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509442-7",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml83MjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-7_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de la Ministra del Ambiente a Turquía para participar en un evento internacional. Durante su ausencia, el Despacho Ministerial será encargado a la Ministra de Cultura. La autorización recae sobre la titular del MINAM. Esta norma se emite en el contexto de las relaciones exteriores y la participación en foros internacionales.",
+      "cambios_clave": [
+        "Autoriza viaje de Ministra del Ambiente a Turquía.",
+        "Encarga Despacho a Ministra de Cultura."
+      ],
+      "a_quien_afecta": "Ministra del Ambiente, Ministra de Cultura y el MINAM.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de una ministra y encargo de funciones.",
+      "sectores": [
+        "ambiente",
+        "cultura",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "viaje oficial",
+        "ministra",
+        "turquia"
+=======
         "educacion superior",
         "puno"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -47,6 +332,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml8yMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-2_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se prorroga el Estado de Emergencia en el distrito de Independencia, provincia de Huaraz, departamento de Áncash, debido a contaminación hídrica. La medida permite al gobierno implementar acciones para solucionar el problema. La prórroga aplica a dicho distrito. Esta norma extiende una medida excepcional ante una problemática ambiental específica.",
+      "cambios_clave": [
+        "Prorroga Estado de Emergencia por contaminación hídrica en Huaraz, Áncash."
+      ],
+      "a_quien_afecta": "Población de Independencia (Huaraz) y entidades de respuesta ambiental.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Extiende una medida de emergencia que afecta a un distrito específico por un problema ambiental.",
+      "sectores": [
+        "ambiente",
+        "salud",
+=======
       "resumen_ejecutivo": "Se prorroga el Estado de Emergencia en el distrito de Independencia, provincia de Huaraz, departamento de Áncash, debido a un peligro inminente de contaminación hídrica. Esta medida permite al gobierno central y regional implementar acciones inmediatas para mitigar los riesgos y proteger a la población. La prórroga se justifica por la persistencia de la amenaza y la necesidad de continuar con las labores de remediación y prevención. La medida busca salvaguardar la salud pública y el ambiente.",
       "cambios_clave": [
         "Prorroga del Estado de Emergencia en Independencia, Huaraz."
@@ -58,6 +356,7 @@
       "sectores": [
         "salud",
         "ambiente",
+>>>>>>> origin/main
         "gobierno_local"
       ],
       "tags": [
@@ -81,6 +380,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml8zMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-3_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se crea la Comisión Multisectorial para el desarrollo integral del departamento de Puno. Esta comisión temporal tendrá como objetivo proponer y coordinar acciones para el desarrollo de la región. La comisión estará integrada por representantes de diversos ministerios. La norma busca impulsar el desarrollo de Puno.",
+      "cambios_clave": [
+        "Crea Comisión Multisectorial para el desarrollo integral de Puno."
+      ],
+      "a_quien_afecta": "Entidades del Estado y la región Puno.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Creación de una comisión multisectorial para el desarrollo de una región específica.",
+=======
       "resumen_ejecutivo": "Se crea la Comisión Multisectorial para el desarrollo integral del departamento de Puno. Esta comisión temporal tendrá la función de proponer y coordinar políticas y acciones para impulsar el desarrollo de la región. Su conformación busca articular esfuerzos entre diferentes ministerios y entidades para abordar las necesidades específicas de Puno. La iniciativa responde a la necesidad de un enfoque integral y coordinado para el progreso de la zona.",
       "cambios_clave": [
         "Creación de Comisión Multisectorial para el desarrollo de Puno."
@@ -89,18 +398,89 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "medio",
       "impacto_razon": "Crea una comisión temporal con fines de coordinación y propuesta de políticas de desarrollo regional.",
+>>>>>>> origin/main
       "sectores": [
         "gobierno_regional",
         "administracion_publica"
       ],
       "tags": [
         "comision multisectorial",
+<<<<<<< HEAD
+        "puno",
+        "desarrollo"
+=======
         "desarrollo regional",
         "puno"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
     {
+<<<<<<< HEAD
+      "id": "2509184-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "140-2026-PCM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 140-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Autorizan transferencia financiera a favor del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509184-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTE4NF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509184-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una transferencia financiera del Ministerio de Educación al Ministerio de Vivienda, Construcción y Saneamiento. El propósito es financiar actividades o proyectos específicos de ambos ministerios. La transferencia recae sobre recursos presupuestales. Esta norma se enmarca en la gestión presupuestaria del sector público.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera del MINEDU al MVCS."
+      ],
+      "a_quien_afecta": "Ministerio de Educación y Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Movilización de recursos presupuestales entre ministerios para fines específicos.",
+      "sectores": [
+        "presupuesto_publico",
+        "vivienda",
+        "educacion"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "presupuesto",
+        "ministerios"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2509188-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "141-2026-PCM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 141-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Designan representante del Presidente del Consejo de Ministros ante el Consejo Directivo de la Agencia Peruana de Cooperación Internacional – APCI",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509188-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTE4OF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509188-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al representante del Presidente del Consejo de Ministros ante el Consejo Directivo de la Agencia Peruana de Cooperación Internacional (APCI). El representante participará en las decisiones de la APCI. La designación recae sobre un funcionario específico. Esta norma se da en el marco de la gestión de la cooperación internacional.",
+      "cambios_clave": [
+        "Designa representante del PCM ante Consejo Directivo de APCI."
+      ],
+      "a_quien_afecta": "Funcionario designado y la Agencia Peruana de Cooperación Internacional (APCI).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un representante en un órgano colegiado de una agencia pública.",
+      "sectores": [
+        "relaciones_exteriores",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "apci",
+        "pcm"
+=======
       "id": "2509442-1",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
@@ -132,6 +512,7 @@
         "estado de emergencia",
         "lluvias",
         "desastres naturales"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -149,6 +530,24 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTI4N18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509287-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se aprueba la ejecución de expropiación de un inmueble afectado por el proyecto de creación de servicio de protección en riberas del río Motupe. El objetivo es mitigar el peligro de inundación en varios distritos de la provincia de Lambayeque. La norma aprueba el valor de tasación del inmueble. Esta acción se da en el marco de proyectos de inversión pública y gestión de riesgos.",
+      "cambios_clave": [
+        "Aprueba expropiación de inmueble para proyecto de protección en río Motupe."
+      ],
+      "a_quien_afecta": "Propietarios del inmueble y la población de Lambayeque.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Autoriza expropiación de un bien inmueble para un proyecto de infraestructura pública.",
+      "sectores": [
+        "vivienda",
+        "agua",
+        "ambiente"
+      ],
+      "tags": [
+        "expropiacion",
+        "gestion de riesgos",
+=======
       "resumen_ejecutivo": "Se aprueba la ejecución de la expropiación de un área de inmueble necesaria para el Proyecto de Creación del servicio de protección en riberas del río Motupe. El proyecto busca proteger a los distritos de Motupe, Jayanca, Morrope, Pacora, Salas y Túcume, en la provincia de Lambayeque, de inundaciones. Se establece el valor de tasación del predio a expropiar. Esta acción es fundamental para la ejecución de obras de infraestructura de prevención.",
       "cambios_clave": [
         "Aprobación de expropiación de inmueble para protección de riberas del río Motupe."
@@ -166,11 +565,14 @@
       "tags": [
         "expropiacion",
         "infraestructura",
+>>>>>>> origin/main
         "lambayeque"
       ],
       "prompt_version": 2
     },
     {
+<<<<<<< HEAD
+=======
       "id": "2509184-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -273,6 +675,7 @@
       "prompt_version": 2
     },
     {
+>>>>>>> origin/main
       "id": "2509426-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -286,6 +689,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQyNl8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509426-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa a la Directora de la Dirección General de Ordenamiento Territorial y de la Gestión Integrada de los Recursos Naturales. El puesto es clave para la política ambiental y territorial del país. La designación recae sobre una profesional específica. Esta norma se emite por el Ministerio del Ambiente.",
+      "cambios_clave": [
+        "Designa Directora de Ordenamiento Territorial y Gestión de Recursos Naturales."
+      ],
+      "a_quien_afecta": "Profesional designada y el Ministerio del Ambiente.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo directivo en una dirección específica del Ministerio del Ambiente.",
+=======
       "resumen_ejecutivo": "Se designa a la Directora de la Dirección General de Ordenamiento Territorial y de la Gestión Integrada de los Recursos Naturales del Ministerio del Ambiente. Esta designación formaliza la conducción de una dirección clave para la gestión ambiental y territorial del país. La funcionaria designada será responsable de implementar políticas en estas áreas. La norma es un acto administrativo que completa la estructura directiva del ministerio.",
       "cambios_clave": [
         "Designación de Directora General de Ordenamiento Territorial y Recursos Naturales."
@@ -294,14 +707,20 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Designación de un cargo directivo dentro de un ministerio, sin impacto externo directo.",
+>>>>>>> origin/main
       "sectores": [
         "ambiente",
         "administracion_publica"
       ],
       "tags": [
         "designacion",
+<<<<<<< HEAD
+        "ordenamiento territorial",
+        "minam"
+=======
         "ministerio del ambiente",
         "recursos naturales"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -319,6 +738,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQyN18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509427-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se autoriza el viaje de representantes del Ministerio de Comercio Exterior y Turismo (MINCETUR) a República Dominicana. Participarán en un evento internacional relacionado con el sector. La autorización recae sobre los funcionarios designados. Esta norma se enmarca en la promoción del comercio y turismo.",
+      "cambios_clave": [
+        "Autoriza viaje de representantes del MINCETUR a República Dominicana."
+      ],
+      "a_quien_afecta": "Representantes del Ministerio de Comercio Exterior y Turismo.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje de funcionarios para participar en un evento internacional.",
+      "sectores": [
+        "comercio_exterior",
+        "turismo"
+=======
       "resumen_ejecutivo": "Se autoriza el viaje de representantes del Ministerio de Comercio Exterior y Turismo (MINCETUR) a República Dominicana. Participarán en un evento de relevancia para el sector. Esta autorización permite la participación activa del Perú en foros internacionales y la promoción de sus intereses comerciales y turísticos. La norma es un acto administrativo que viabiliza la representación del país en el extranjero.",
       "cambios_clave": [
         "Autorización de viaje de representantes del MINCETUR a República Dominicana."
@@ -331,6 +763,7 @@
         "comercio_exterior",
         "turismo",
         "administracion_publica"
+>>>>>>> origin/main
       ],
       "tags": [
         "viaje oficial",
@@ -353,6 +786,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQzMV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509431-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se autoriza el viaje de representantes del Ministerio de Comercio Exterior y Turismo (MINCETUR) a Brasil. Participarán en un evento internacional relacionado con el sector. La autorización recae sobre los funcionarios designados. Esta norma se enmarca en la promoción del comercio y turismo.",
+      "cambios_clave": [
+        "Autoriza viaje de representantes del MINCETUR a Brasil."
+      ],
+      "a_quien_afecta": "Representantes del Ministerio de Comercio Exterior y Turismo.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje de funcionarios para participar en un evento internacional.",
+      "sectores": [
+        "comercio_exterior",
+        "turismo"
+=======
       "resumen_ejecutivo": "Se autoriza el viaje de representantes del Ministerio de Comercio Exterior y Turismo (MINCETUR) a Brasil para participar en un evento. Esta participación busca fortalecer las relaciones bilaterales y promover los intereses del Perú en el ámbito comercial y turístico. La norma es un acto administrativo que facilita la representación del país en actividades internacionales. Permite a los funcionarios asistir a dicho evento.",
       "cambios_clave": [
         "Autorización de viaje de representantes del MINCETUR a Brasil."
@@ -365,6 +811,7 @@
         "comercio_exterior",
         "turismo",
         "administracion_publica"
+>>>>>>> origin/main
       ],
       "tags": [
         "viaje oficial",
@@ -387,6 +834,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml8xMTIwMjYwNDI0",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-11_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se declara la inafectación del Impuesto General a las Ventas (IGV) para los servicios culturales brindados por la Asociación Cultural Vozarte. El objetivo es fomentar la actividad cultural. La inafectación aplica a los servicios prestados por dicha asociación. Esta norma beneficia a una entidad cultural específica.",
+      "cambios_clave": [
+        "Inafecta IGV a servicios culturales de Asociación Cultural Vozarte."
+      ],
+      "a_quien_afecta": "Asociación Cultural Vozarte y sus clientes.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Inafectación puntual del IGV para una asociación cultural específica.",
+      "sectores": [
+        "tributacion",
+        "cultura"
+=======
       "resumen_ejecutivo": "Se autoriza la inafectación del Impuesto General a las Ventas (IGV) para los servicios culturales brindados por la Asociación Cultural Vozarte. Esta medida busca fomentar la actividad cultural y aliviar la carga tributaria de la asociación. La norma beneficia directamente a la entidad y promueve la difusión de la cultura. Es una exoneración específica para una actividad cultural determinada.",
       "cambios_clave": [
         "Inafectación del IGV para servicios culturales de Asociación Cultural Vozarte."
@@ -398,6 +858,7 @@
       "sectores": [
         "cultura",
         "tributacion"
+>>>>>>> origin/main
       ],
       "tags": [
         "igv",
@@ -420,6 +881,24 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMzN18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509337-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se reconocen a Oficiales Supervisores por el Estado Rector del Puerto (OSERP) con eficacia anticipada. Se deja sin efecto la Resolución Directoral Nº 049-24 MGP/DICAPI. La norma valida la actuación de oficiales en funciones portuarias. Esta resolución se emite por la Dirección General de Capitanías y Guardacostas (DICAPI).",
+      "cambios_clave": [
+        "Reconocen Oficiales Supervisores OSERP con eficacia anticipada.",
+        "Dejan sin efecto resolución anterior."
+      ],
+      "a_quien_afecta": "Oficiales Supervisores y la DICAPI.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Reconocimiento de funciones y anulación de norma previa en ámbito marítimo.",
+      "sectores": [
+        "maritimo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "oficiales supervisores",
+        "puerto",
+=======
       "resumen_ejecutivo": "Se reconocen Oficiales Supervisores por el Estado Rector del Puerto (OSERP) con eficacia anticipada. La medida deja sin efecto una resolución anterior que contenía un listado distinto. Esta acción es relevante para la administración y supervisión de actividades marítimas y portuarias. La Dirección General de Capitanías y Guardacostas (DICAPI) actualiza sus registros de personal autorizado para funciones de supervisión.",
       "cambios_clave": [
         "Reconocimiento de Oficiales Supervisores OSERP con eficacia anticipada.",
@@ -437,6 +916,7 @@
       "tags": [
         "maritimo",
         "supervision",
+>>>>>>> origin/main
         "dicapi"
       ],
       "prompt_version": 2
@@ -455,6 +935,24 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTM0NV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509345-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se aprueba el Listado de los Cursos Modelo de la Organización Marítima Internacional (OMI). El objetivo es estandarizar la formación marítima. El listado será utilizado por las entidades de formación. Esta norma se emite por la Dirección General de Capitanías y Guardacostas (DICAPI).",
+      "cambios_clave": [
+        "Aprueban Listado de Cursos Modelo de la Organización Marítima Internacional (OMI)."
+      ],
+      "a_quien_afecta": "Entidades de formación marítima y profesionales del sector.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece estándares para la formación en el sector marítimo.",
+      "sectores": [
+        "maritimo",
+        "educacion"
+      ],
+      "tags": [
+        "formacion maritima",
+        "omi",
+        "dicapi"
+=======
       "resumen_ejecutivo": "Se aprueba el Listado de los Cursos Modelo de la Organización Marítima Internacional (OMI). Esta aprobación permite estandarizar la formación y capacitación del personal marítimo en el Perú, alineándose a estándares internacionales. La Dirección General de Capitanías y Guardacostas (DICAPI) implementa estos cursos para garantizar la competencia de los profesionales del sector. La norma es fundamental para la seguridad marítima.",
       "cambios_clave": [
         "Aprobación del Listado de Cursos Modelo de la OMI."
@@ -472,6 +970,7 @@
         "maritimo",
         "capacitacion",
         "omi"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -489,6 +988,20 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml8xMDIwMjYwNDI0",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-10_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa al Jefe de la Autoridad Nacional del Agua (ANA). El cargo es fundamental para la gestión de los recursos hídricos del país. La designación recae sobre un profesional específico. Esta norma se emite por el Ministerio de Desarrollo Agrario y Riego.",
+      "cambios_clave": [
+        "Designa Jefe de la Autoridad Nacional del Agua (ANA)."
+      ],
+      "a_quien_afecta": "Profesional designado y la Autoridad Nacional del Agua (ANA).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Designación de la máxima autoridad en gestión de recursos hídricos.",
+      "sectores": [
+        "agua",
+        "agricultura",
+        "ambiente"
+=======
       "resumen_ejecutivo": "Se designa al Jefe de la Autoridad Nacional del Agua (ANA). Esta designación formaliza la conducción de la entidad encargada de la gestión de los recursos hídricos del país. El nuevo jefe será responsable de implementar políticas y planes para el uso sostenible del agua. La norma es un acto administrativo que completa la estructura directiva de la ANA, crucial para la gestión hídrica nacional.",
       "cambios_clave": [
         "Designación del Jefe de la Autoridad Nacional del Agua (ANA)."
@@ -501,6 +1014,7 @@
         "agua",
         "ambiente",
         "administracion_publica"
+>>>>>>> origin/main
       ],
       "tags": [
         "designacion",
@@ -523,6 +1037,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTA0N18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509047-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se oficializa el evento VII Foro Nacional de la Vicuña Ayacucho 2026, a realizarse en la ciudad de Ayacucho. El evento busca promover el manejo sostenible de la vicuña. La oficialización permite la organización y difusión del foro. Esta norma se emite por el Ministerio de Desarrollo Agrario y Riego.",
+      "cambios_clave": [
+        "Oficializa el VII Foro Nacional de la Vicuña Ayacucho 2026."
+      ],
+      "a_quien_afecta": "Organizadores del evento y la comunidad de Ayacucho.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Oficialización de un evento específico relacionado con la fauna y la región.",
+=======
       "resumen_ejecutivo": "Se oficializa la realización del VII Foro Nacional de la Vicuña en Ayacucho. El evento se llevará a cabo en la ciudad de Ayacucho, provincia de Huamanga. Esta oficialización reconoce la importancia del evento para la conservación y manejo sostenible de la vicuña, así como para el desarrollo económico de la región. La norma promueve actividades de interés nacional y regional relacionadas con la fauna y la economía local.",
       "cambios_clave": [
         "Oficialización del VII Foro Nacional de la Vicuña en Ayacucho."
@@ -531,6 +1055,7 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Oficializa un evento de carácter nacional, sin implicar cambios regulatorios o impacto económico directo.",
+>>>>>>> origin/main
       "sectores": [
         "ganaderia",
         "ambiente",
@@ -557,6 +1082,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTI3OV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509279-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa a la jefa de la Unidad de Administración del Programa Nacional \"Contigo\". Este programa brinda pensión no contributiva a personas con discapacidad severa en situación de pobreza. La designación recae sobre una funcionaria específica. Esta norma se emite por el Ministerio de Desarrollo e Inclusión Social (MIDIS).",
+      "cambios_clave": [
+        "Designa jefa de Unidad de Administración del Programa \"Contigo\"."
+      ],
+      "a_quien_afecta": "Funcionaria designada y el Programa \"Contigo\" del MIDIS.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo administrativo en un programa social específico.",
+      "sectores": [
+        "inclusion_social",
+        "discapacidad",
+=======
       "resumen_ejecutivo": "Se designa a la jefa de la Unidad de Administración del Programa Nacional \"Pensión No Contributiva a Personas con Discapacidad Severa en Situación de Pobreza – CONTIGO\". Esta designación formaliza la conducción de la unidad responsable de la gestión administrativa del programa. La funcionaria designada asegurará la correcta administración de los recursos y el funcionamiento del programa. La norma es un acto administrativo interno del MIDIS.",
       "cambios_clave": [
         "Designación de jefa de Unidad de Administración del Programa CONTIGO."
@@ -568,12 +1106,17 @@
       "sectores": [
         "discapacidad",
         "inclusion_social",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
         "designacion",
         "programa contigo",
+<<<<<<< HEAD
+        "midis"
+=======
         "discapacidad"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -591,6 +1134,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQxOF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509418-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa al Director de la Dirección de Mecanismos de Incentivos de la Dirección General de Implementación de Políticas y Articulación Territorial. El puesto es clave para la gestión de políticas públicas. La designación recae sobre un profesional específico. Esta norma se emite por el Ministerio de Desarrollo e Inclusión Social (MIDIS).",
+      "cambios_clave": [
+        "Designa Director de Mecanismos de Incentivos del MIDIS."
+      ],
+      "a_quien_afecta": "Profesional designado y el Ministerio de Desarrollo e Inclusión Social (MIDIS).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo directivo en una dirección específica del MIDIS.",
+=======
       "resumen_ejecutivo": "Se designa al Director de la Dirección de Mecanismos de Incentivos de la Dirección General de Implementación de Políticas y Articulación Territorial del Ministerio de Desarrollo e Inclusión Social (MIDIS). Esta designación formaliza la conducción de una dirección clave para la implementación de políticas sociales. El funcionario designado será responsable de promover y gestionar incentivos para el desarrollo. La norma es un acto administrativo interno del MIDIS.",
       "cambios_clave": [
         "Designación de Director de Dirección de Mecanismos de Incentivos del MIDIS."
@@ -599,14 +1152,20 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Designación de un cargo directivo dentro de un ministerio, sin impacto externo directo.",
+>>>>>>> origin/main
       "sectores": [
         "inclusion_social",
         "administracion_publica"
       ],
       "tags": [
         "designacion",
+<<<<<<< HEAD
+        "politicas publicas",
+        "midis"
+=======
         "midis",
         "politicas sociales"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -624,13 +1183,30 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml80MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-4_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se autoriza una Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales. El objetivo es financiar gastos específicos de estos gobiernos. La transferencia recae sobre recursos presupuestales. Esta norma se emite por el Ministerio de Economía y Finanzas.",
+      "cambios_clave": [
+        "Autoriza Transferencia de Partidas a gobiernos locales para 2026."
+=======
       "resumen_ejecutivo": "Se autoriza una Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales. Esta operación permite a los municipios contar con recursos adicionales para financiar proyectos y gastos corrientes. La transferencia se realiza desde el presupuesto del Ministerio de Economía y Finanzas. La norma busca fortalecer las capacidades de inversión y gestión de los gobiernos locales.",
       "cambios_clave": [
         "Autorización de Transferencia de Partidas a gobiernos locales."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "Diversos gobiernos locales y el Ministerio de Economía y Finanzas.",
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "medio",
+<<<<<<< HEAD
+      "impacto_razon": "Movilización de recursos presupuestales del gobierno central a gobiernos locales.",
+      "sectores": [
+        "presupuesto_publico",
+        "gobierno_local"
+      ],
+      "tags": [
+        "transferencia de partidas",
+        "presupuesto",
+        "gobiernos locales"
+=======
       "impacto_razon": "Autoriza movimiento de recursos presupuestales a gobiernos locales, impactando su capacidad de gasto.",
       "sectores": [
         "gobierno_local",
@@ -641,6 +1217,7 @@
         "transferencia de partidas",
         "gobiernos locales",
         "presupuesto"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -658,6 +1235,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml81MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-5_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se modifica el Reglamento de la Ley del Impuesto General a las Ventas e Impuesto Selectivo al Consumo. La norma ajusta las disposiciones que rigen estos tributos, impactando la recaudación fiscal y las obligaciones de los contribuyentes. Se actualizan reglas previamente establecidas en el reglamento de la ley vigente. La entrada en vigor será a partir de su publicación.",
+      "cambios_clave": [
+        "Modifica el Reglamento de la Ley del IGV e ISC"
+      ],
+      "a_quien_afecta": "Contribuyentes del IGV e ISC y la administración tributaria (SUNAT).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Modifica el reglamento de tributos clave, afectando a todos los contribuyentes y la recaudación fiscal.",
+=======
       "resumen_ejecutivo": "Se modifica el Reglamento de la Ley del Impuesto General a las Ventas (IGV) e Impuesto Selectivo al Consumo (ISC). Esta modificación introduce cambios en la aplicación y cumplimiento de estos tributos. Las modificaciones buscan precisar o actualizar aspectos técnicos y operativos del reglamento. Afecta a contribuyentes y a la administración tributaria en la gestión de estos impuestos.",
       "cambios_clave": [
         "Modificación del Reglamento de la Ley del IGV e ISC."
@@ -666,6 +1253,7 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "alto",
       "impacto_razon": "Modifica reglamento de impuestos clave (IGV, ISC), afectando a todos los contribuyentes y la administración tributaria.",
+>>>>>>> origin/main
       "sectores": [
         "tributacion",
         "economia"
@@ -673,7 +1261,12 @@
       "tags": [
         "igv",
         "isc",
+<<<<<<< HEAD
+        "reglamento",
+        "modificacion"
+=======
         "reglamento"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -691,6 +1284,18 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml84MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-8_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa al representante del Ministerio de Economía y Finanzas ante el Directorio del Banco de la Nación. Esta designación recae en un funcionario específico para cumplir funciones directivas en la entidad financiera estatal. La medida formaliza la representación del ministerio en dicho órgano. La designación es efectiva desde su publicación.",
+      "cambios_clave": [
+        "Designa representante del MEF en el Directorio del Banco de la Nación"
+      ],
+      "a_quien_afecta": "Ministerio de Economía y Finanzas y el Banco de la Nación.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico sin impacto generalizado.",
+      "sectores": [
+        "financiero",
+=======
       "resumen_ejecutivo": "Se designa al representante del Ministerio de Economía y Finanzas (MEF) ante el Directorio del Banco de la Nación. Esta designación formaliza la participación del MEF en la conducción de la entidad financiera estatal. El representante tendrá la función de velar por los intereses del Estado en las decisiones del banco. La norma es un acto administrativo que completa la estructura de gobernanza del Banco de la Nación.",
       "cambios_clave": [
         "Designación de representante del MEF ante el Directorio del Banco de la Nación."
@@ -703,12 +1308,17 @@
         "financiero",
         "banca",
         "economia",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
         "designacion",
         "banco de la nacion",
+<<<<<<< HEAD
+        "directorio"
+=======
         "mef"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -726,6 +1336,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml85MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-9_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designan los miembros del Directorio del Centro Vacacional Huampaní. La resolución nombra a los funcionarios que integrarán dicho órgano directivo, encargados de la gestión y supervisión del centro. Esta acción formaliza la composición del directorio. La designación es efectiva desde su publicación.",
+      "cambios_clave": [
+        "Designa miembros del Directorio del Centro Vacacional Huampaní"
+      ],
+      "a_quien_afecta": "Directorio del Centro Vacacional Huampaní y el Ministerio de Educación.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de miembros de un directorio específico.",
+=======
       "resumen_ejecutivo": "Se designan miembros del Directorio del Centro Vacacional Huampaní. Esta designación formaliza la conducción del centro recreacional, que pertenece al Ministerio de Educación. Los miembros designados tendrán la responsabilidad de la gestión y desarrollo del centro. La norma es un acto administrativo que completa la estructura de gobernanza del Centro Vacacional Huampaní.",
       "cambios_clave": [
         "Designación de miembros del Directorio del Centro Vacacional Huampaní."
@@ -734,6 +1354,7 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Designación de miembros de un directorio de un centro recreacional, sin impacto generalizado.",
+>>>>>>> origin/main
       "sectores": [
         "educacion",
         "administracion_publica"
@@ -741,7 +1362,11 @@
       "tags": [
         "designacion",
         "directorio",
+<<<<<<< HEAD
+        "centro vacacional huampani"
+=======
         "huampani"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -759,6 +1384,25 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODM5MF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508390-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se establece una servidumbre de electroducto con carácter permanente para la concesión definitiva de transmisión de energía eléctrica de BABILONIA SOLAR S.A.C. La medida permite la instalación y operación de una línea de transmisión de 220 kV en Arequipa, facilitando la infraestructura energética. Se formaliza el derecho de paso necesario para el proyecto. La servidumbre es de carácter permanente.",
+      "cambios_clave": [
+        "Establece servidumbre de electroducto permanente para proyecto de transmisión"
+      ],
+      "a_quien_afecta": "Empresa BABILONIA SOLAR S.A.C. y propietarios de predios en La Joya, Arequipa.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Concede un derecho de servidumbre para infraestructura energética, impactando un proyecto específico y predios afectados.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "servidumbre",
+        "electroducto",
+        "energia",
+        "transmision"
+=======
       "resumen_ejecutivo": "Se establece una servidumbre de electroducto con carácter permanente a favor de la concesión definitiva de transmisión de energía eléctrica de BABILONIA SOLAR S.A.C. para su proyecto en Arequipa. Esta servidumbre permite la instalación y operación de líneas de transmisión de energía. La norma es esencial para la ejecución de proyectos de infraestructura energética, garantizando el derecho de paso y la continuidad del suministro. Afecta la propiedad privada en beneficio de la infraestructura eléctrica.",
       "cambios_clave": [
         "Establecimiento de servidumbre de electroducto permanente para proyecto de energía."
@@ -776,6 +1420,7 @@
         "servidumbre",
         "energia",
         "arequipa"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -793,6 +1438,22 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTA4MF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509080-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se aprueba el Listado de Servicios Públicos de Protección Social del Ministerio del Interior que ingresan a un proceso de adaptación ante emergencias. La norma identifica servicios clave para la continuidad operativa del sector Interior en situaciones de crisis, conforme al Decreto Legislativo N° 1654. Esto asegura la resiliencia de funciones esenciales. La adaptación se da ante emergencias.",
+      "cambios_clave": [
+        "Aprueba listado de servicios públicos de protección social del Interior para adaptación a emergencias"
+      ],
+      "a_quien_afecta": "Ministerio del Interior y sus unidades de protección social.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Define servicios críticos para la continuidad del sector Interior en emergencias.",
+      "sectores": [
+        "interior",
+        "administracion_publica"
+      ],
+      "tags": [
+        "servicios publicos",
+=======
       "resumen_ejecutivo": "Se aprueba el Listado de Servicios Públicos de Protección Social del Ministerio del Interior que ingresan al proceso de adaptación ante emergencias. Esta medida permite que dichos servicios puedan ser activados o modificados rápidamente en situaciones de crisis. La norma busca asegurar la continuidad y efectividad de la protección social brindada por el ministerio en escenarios de emergencia. Se alinea con el Decreto Legislativo N° 1654.",
       "cambios_clave": [
         "Aprobación de listado de servicios de protección social del Interior para emergencias."
@@ -807,6 +1468,7 @@
         "defensa"
       ],
       "tags": [
+>>>>>>> origin/main
         "proteccion social",
         "emergencia",
         "ministerio del interior"
@@ -827,6 +1489,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTI3MV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509271-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se modifican el Texto Único de Procedimientos Administrativos (TUPA) del Ministerio de la Mujer y Poblaciones Vulnerables (MIMP). La norma actualiza los procedimientos y requisitos que los ciudadanos deben seguir para interactuar con el ministerio. Esto busca optimizar la gestión administrativa y la atención al público. Se ajustan los trámites vigentes.",
+      "cambios_clave": [
+        "Modifica el Texto Único de Procedimientos Administrativos (TUPA) del MIMP"
+      ],
+      "a_quien_afecta": "Ciudadanos que realizan trámites ante el Ministerio de la Mujer y Poblaciones Vulnerables.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Actualiza procedimientos administrativos, afectando la forma en que los ciudadanos interactúan con el MIMP.",
+      "sectores": [
+        "mujer",
+        "familia",
+=======
       "resumen_ejecutivo": "Se modifican los procedimientos administrativos del Ministerio de la Mujer y Poblaciones Vulnerables (MIMP), contenidos en su Texto Único de Procedimientos Administrativos (TUPA). Estos cambios buscan optimizar, simplificar o actualizar los trámites que los ciudadanos realizan ante el ministerio. La norma es importante para mejorar la eficiencia de la gestión pública y la accesibilidad de los servicios del MIMP. Afecta a quienes interactúan con el ministerio para realizar trámites.",
       "cambios_clave": [
         "Modificación del Texto Único de Procedimientos Administrativos (TUPA) del MIMP."
@@ -839,6 +1514,7 @@
         "mujer",
         "familia",
         "inclusion_social",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
@@ -862,6 +1538,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQzNl8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509436-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se modifica el límite de captura del recurso bonito para el periodo enero-junio de 2026, aplicable a embarcaciones pesqueras artesanales. La resolución ajusta la cuota establecida previamente, buscando una gestión sostenible del recurso. Esto impacta directamente a los pescadores artesanales que operan bajo permiso vigente. Se recalibra la meta de captura anual.",
+      "cambios_clave": [
+        "Modifica el límite de captura del recurso bonito para pescadores artesanales"
+      ],
+      "a_quien_afecta": "Pescadores artesanales con permiso de pesca vigente.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Ajusta cuotas de pesca, afectando directamente la actividad de un sector específico de pescadores.",
+      "sectores": [
+        "pesqueria",
+        "agricultura"
+=======
       "resumen_ejecutivo": "Se ajusta el límite de captura del recurso bonito para el primer semestre de 2026. Esta modificación aplica a las actividades extractivas realizadas por embarcaciones pesqueras artesanales con permiso vigente. La norma actualiza la Resolución Ministerial N° 00070-2026-PRODUCE. Los cambios buscan optimizar la gestión de los recursos marinos.",
       "cambios_clave": [
         "Modifica el límite de captura del recurso bonito para el primer semestre de 2026.",
@@ -873,11 +1562,16 @@
       "impacto_razon": "Afecta directamente las operaciones de pesca artesanal y la gestión de recursos marinos.",
       "sectores": [
         "pesqueria"
+>>>>>>> origin/main
       ],
       "tags": [
         "pesca",
         "bonito",
+<<<<<<< HEAD
+        "limite de captura",
+=======
         "captura",
+>>>>>>> origin/main
         "artesanal"
       ],
       "prompt_version": 2
@@ -896,6 +1590,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQxN18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509417-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa al Ejecutivo Adjunto I del Centro Nacional de Abastecimiento de Recursos Estratégicos en Salud (CENARES). La resolución nombra a un funcionario clave para la gestión de insumos y recursos estratégicos del sector salud. Esta designación es importante para la operatividad y planificación del abastecimiento. El cargo es de confianza y estratégico.",
+      "cambios_clave": [
+        "Designa Ejecutivo Adjunto I del CENARES"
+      ],
+      "a_quien_afecta": "Centro Nacional de Abastecimiento de Recursos Estratégicos en Salud (CENARES).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico dentro de una entidad pública.",
+      "sectores": [
+        "salud",
+        "administracion_publica"
+=======
       "resumen_ejecutivo": "Se designa al nuevo Ejecutivo Adjunto I del Centro Nacional de Abastecimiento de Recursos Estratégicos en Salud (CENARES). Este cargo es clave para la gestión de insumos médicos y farmacéuticos. La designación se realiza dentro de la estructura del Ministerio de Salud. No modifica normativas previas.",
       "cambios_clave": [
         "Designa al Ejecutivo Adjunto I del CENARES."
@@ -906,6 +1613,7 @@
       "impacto_razon": "Designación de personal en una unidad específica del sector salud.",
       "sectores": [
         "salud"
+>>>>>>> origin/main
       ],
       "tags": [
         "designacion",
@@ -915,6 +1623,42 @@
       "prompt_version": 2
     },
     {
+<<<<<<< HEAD
+      "id": "2509352-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "424-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 424-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Derogan el literal h) del artículo 5 de la Resolución Ministerial N° 984-2025/MINSA",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509352-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTM1Ml8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509352-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se deroga el literal h) del artículo 5 de la Resolución Ministerial N° 984-2025/MINSA. Esta acción elimina una disposición específica dentro de un reglamento anterior del Ministerio de Salud. La derogación implica que dicha disposición ya no tendrá efecto legal. Se ajusta la normativa interna del sector salud. La derogación es efectiva desde su publicación.",
+      "cambios_clave": [
+        "Deroga un literal específico de la RM N° 984-2025/MINSA"
+      ],
+      "a_quien_afecta": "Aplicación de la normativa interna del Ministerio de Salud.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Derogación de un punto específico de una resolución, sin impacto generalizado.",
+      "sectores": [
+        "salud",
+        "administracion_publica"
+      ],
+      "tags": [
+        "derogacion",
+        "normativa",
+        "minsa"
+      ],
+      "prompt_version": 2
+    },
+    {
+=======
+>>>>>>> origin/main
       "id": "2509088-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -928,6 +1672,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTA4OF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509088-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se otorga la acreditación al Policlínico Fiori de la Red Prestacional Sabogal del Seguro Social de Salud (ESSALUD). Esta acreditación certifica que el establecimiento cumple con los estándares de calidad y funcionamiento requeridos. Beneficia a los asegurados que utilizan los servicios del policlínico. La acreditación es un reconocimiento formal de calidad.",
+      "cambios_clave": [
+        "Acredita al Policlínico Fiori de ESSALUD"
+      ],
+      "a_quien_afecta": "Policlínico Fiori de ESSALUD y sus pacientes.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Otorga una acreditación a un establecimiento de salud, validando su calidad operativa.",
+      "sectores": [
+        "salud",
+        "financiero"
+=======
       "resumen_ejecutivo": "Se otorga la acreditación al Policlínico Fiori, perteneciente a la Red Prestacional Sabogal de EsSalud. Esta acreditación permite al policlínico operar y brindar servicios de salud bajo el marco normativo vigente. La medida beneficia a los asegurados en Lima. No deroga ni modifica normativas generales.",
       "cambios_clave": [
         "Acredita al Policlínico Fiori de EsSalud en Lima."
@@ -938,16 +1695,53 @@
       "impacto_razon": "Permite la operación de un centro de salud específico, impactando la oferta de servicios a asegurados.",
       "sectores": [
         "salud"
+>>>>>>> origin/main
       ],
       "tags": [
         "acreditacion",
         "policlinico",
         "essalud",
+<<<<<<< HEAD
+        "calidad"
+=======
         "servicios de salud"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
     {
+<<<<<<< HEAD
+      "id": "2509198-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "174-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 174-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Aprueban el Manual de Operaciones del Programa Mejoramiento Integral de Barrios",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509198-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTE5OF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509198-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Manual de Operaciones del Programa Mejoramiento Integral de Barrios. La norma establece los procedimientos y directrices para la ejecución y gestión del programa. Esto impacta en la forma en que se planifican y ejecutan los proyectos de mejoramiento urbano. El manual es clave para la operatividad del programa. Su aprobación es fundamental para su funcionamiento.",
+      "cambios_clave": [
+        "Aprueba el Manual de Operaciones del Programa Mejoramiento Integral de Barrios"
+      ],
+      "a_quien_afecta": "Funcionarios y personal del Programa Mejoramiento Integral de Barrios.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece el marco operativo para un programa de desarrollo urbano.",
+      "sectores": [
+        "vivienda",
+        "construccion",
+        "urbanismo"
+      ],
+      "tags": [
+        "manual de operaciones",
+        "mejoramiento integral de barrios",
+        "gestion"
+=======
       "id": "2509352-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -976,6 +1770,7 @@
         "derogacion",
         "normativa sanitaria",
         "ministerio de salud"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -993,6 +1788,26 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml82MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-6_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se modifica el Reglamento de la Ley N° 31056, que amplía los plazos de titulación de terrenos ocupados por posesiones informales. La norma ajusta las reglas para la formalización de la propiedad de predios, facilitando el acceso a títulos de propiedad. Esto beneficia a posesionarios informales y agiliza procesos de urbanización. Se actualizan disposiciones previas.",
+      "cambios_clave": [
+        "Modifica el Reglamento de la Ley N° 31056 sobre titulación de terrenos"
+      ],
+      "a_quien_afecta": "Posesionarios de terrenos informales y entidades encargadas de la titulación.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Modifica el reglamento de formalización de predios, impactando a miles de posesionarios y el desarrollo urbano.",
+      "sectores": [
+        "vivienda",
+        "urbanismo",
+        "derechos_humanos"
+      ],
+      "tags": [
+        "titulacion",
+        "posesiones informales",
+        "terrenos",
+        "reglamento"
+=======
       "resumen_ejecutivo": "Se modifica el Reglamento de la Ley N° 31056, que amplía plazos para la titulación de terrenos informales. Los cambios buscan agilizar y mejorar el proceso de formalización de la propiedad en asentamientos humanos. La norma actualiza el Decreto Supremo N° 002-2021-VIVIENDA. Beneficia a posesionarios y entidades involucradas en el proceso.",
       "cambios_clave": [
         "Modifica el reglamento de la Ley de titulación de terrenos informales.",
@@ -1045,6 +1860,7 @@
         "manual de operaciones",
         "mejoramiento de barrios",
         "infraestructura urbana"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1062,26 +1878,43 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODg1NV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508855-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se modifica el Reglamento de Calidad de la Prestación de Servicios de Agua Potable y Saneamiento, el Reglamento General de Fiscalización y Sanción, y el Procedimiento de Autorización Excepcional a Municipalidades. La norma ajusta las reglas para la supervisión, sanción y autorización de servicios de saneamiento, buscando mejorar la calidad y eficiencia. Impacta a empresas prestadoras y municipalidades. Se actualizan normativas clave del sector.",
+      "cambios_clave": [
+        "Modifica reglamentos de calidad, fiscalización y autorización de servicios de saneamiento"
+=======
       "resumen_ejecutivo": "Se modifica el Reglamento de Calidad de la Prestación de Servicios de Agua Potable y Saneamiento. También se ajustan el Reglamento General de Fiscalización y Sanción y el procedimiento de autorización excepcional a municipalidades. Estas modificaciones buscan mejorar la regulación y supervisión de los servicios de saneamiento. Afecta a empresas prestadoras y municipalidades.",
       "cambios_clave": [
         "Modifica reglamento de calidad de servicios de agua y saneamiento.",
         "Ajusta reglamento de fiscalización y sanción."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "Empresas prestadoras de servicios de saneamiento y municipalidades.",
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "alto",
+<<<<<<< HEAD
+      "impacto_razon": "Modifica regulaciones centrales del sector saneamiento, afectando la prestación y supervisión de servicios esenciales.",
+=======
       "impacto_razon": "Modifica la regulación y fiscalización de servicios esenciales de agua y saneamiento.",
+>>>>>>> origin/main
       "sectores": [
         "agua",
         "ambiente",
         "gobierno_local"
       ],
       "tags": [
+<<<<<<< HEAD
+        "saneamiento",
+        "calidad",
+        "fiscalizacion",
+        "reglamento"
+=======
         "agua",
         "saneamiento",
         "calidad",
         "fiscalizacion",
         "sunass"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1099,6 +1932,20 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODYwN18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508607-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se dispone la difusión del proyecto de Resolución de Consejo Directivo que modificaría el Reglamento General de Fiscalización y Sanción. La norma inicia un proceso de consulta pública para recoger aportes sobre los cambios propuestos al reglamento de fiscalización. Esto permite la participación de los actores del sector. La difusión es un paso previo a la aprobación final. El reglamento actual es del 2007.",
+      "cambios_clave": [
+        "Dispone difusión de proyecto de modificación del Reglamento General de Fiscalización y Sanción"
+      ],
+      "a_quien_afecta": "Empresas prestadoras de servicios de saneamiento y la SUNASS.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Inicia proceso de consulta pública para modificar reglamento de fiscalización, afectando la regulación del sector.",
+      "sectores": [
+        "agua",
+        "ambiente",
+        "administracion_publica"
+=======
       "resumen_ejecutivo": "Se dispone la difusión del proyecto de modificación del Reglamento General de Fiscalización y Sanción de SUNASS. El objetivo es permitir la participación ciudadana y de los actores del sector antes de su aprobación final. La norma actualiza la Resolución de Consejo Directivo N° 003-2007-SUNASS-CD. Se busca mejorar el marco de fiscalización.",
       "cambios_clave": [
         "Inicia proceso de difusión para modificar Reglamento General de Fiscalización."
@@ -1110,11 +1957,16 @@
       "sectores": [
         "agua",
         "ambiente"
+>>>>>>> origin/main
       ],
       "tags": [
         "fiscalizacion",
         "sancion",
+<<<<<<< HEAD
+        "reglamento",
+=======
         "sunass",
+>>>>>>> origin/main
         "consulta publica"
       ],
       "prompt_version": 2
@@ -1133,6 +1985,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTM4Nl8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509386-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa al Jefe de la Unidad de Tecnologías de la Información del Organismo Técnico de la Administración de los Servicios de Saneamiento (OTASS). La resolución nombra a un funcionario para liderar la gestión de sistemas y tecnologías en el OTASS. Esta designación es clave para la modernización y eficiencia operativa de la entidad. El cargo es de responsabilidad directa.",
+      "cambios_clave": [
+        "Designa Jefe de la Unidad de Tecnologías de la Información del OTASS"
+      ],
+      "a_quien_afecta": "Organismo Técnico de la Administración de los Servicios de Saneamiento (OTASS).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico dentro de una entidad pública.",
+      "sectores": [
+        "agua",
+        "tecnologia",
+=======
       "resumen_ejecutivo": "Se designa al nuevo Jefe de la Unidad de Tecnologías de la Información del Organismo Técnico de la Administración de los Servicios de Saneamiento (OTASS). Este nombramiento es parte de la gestión interna de la entidad. La medida no implica cambios regulatorios externos. Se enfoca en la administración de sistemas informáticos.",
       "cambios_clave": [
         "Designa Jefe de la Unidad de Tecnologías de la Información del OTASS."
@@ -1143,12 +2008,17 @@
       "impacto_razon": "Designación interna de un funcionario en una unidad específica del OTASS.",
       "sectores": [
         "agua",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
         "designacion",
         "otass",
+<<<<<<< HEAD
+        "tecnologia"
+=======
         "ti"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1166,6 +2036,20 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODgyNV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508825-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se declara la revocación automática de la autorización de funcionamiento de Macrocapitales Sociedad Administradora de Fondos S.A. como administradora de fondos mutuos. La norma también dispone su exclusión del Registro Público del Mercado de Valores. Esto implica que la empresa ya no podrá operar en dicho sector. La revocación es automática y tiene efectos inmediatos. Se basa en incumplimientos previos.",
+      "cambios_clave": [
+        "Revoca autorización de funcionamiento de Macrocapitales Sociedad Administradora de Fondos S.A."
+      ],
+      "a_quien_afecta": "Macrocapitales Sociedad Administradora de Fondos S.A. y el mercado de valores.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Revoca la autorización de una entidad financiera, afectando su operación y el registro del mercado de valores.",
+      "sectores": [
+        "financiero",
+        "mercado_valores",
+        "banca"
+=======
       "resumen_ejecutivo": "Se revoca automáticamente la autorización de funcionamiento de Macrocapitales Sociedad Administradora de Fondos S.A. como administradora de fondos mutuos. La empresa es excluida del Registro Público del Mercado de Valores. Esta medida se basa en el incumplimiento de normativas del sector. Afecta directamente a la empresa y a sus inversionistas.",
       "cambios_clave": [
         "Revoca autorización de Macrocapitales Sociedad Administradora de Fondos S.A.",
@@ -1178,11 +2062,16 @@
       "sectores": [
         "financiero",
         "mercado_valores"
+>>>>>>> origin/main
       ],
       "tags": [
         "revocacion",
         "fondos mutuos",
+<<<<<<< HEAD
+        "mercado de valores",
+=======
         "smv",
+>>>>>>> origin/main
         "macrocapitales"
       ],
       "prompt_version": 2
@@ -1201,6 +2090,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQzMF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509430-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa al Jefe de Planeamiento y Presupuesto de la Oficina de Planeamiento y Presupuesto de la Superintendencia Nacional de Migraciones (MIGRACIONES). La resolución nombra a un funcionario para dirigir el área de planificación y finanzas de la entidad. Esta designación es crucial para la gestión estratégica y la asignación de recursos. El cargo es de alta responsabilidad.",
+      "cambios_clave": [
+        "Designa Jefe de Planeamiento y Presupuesto de Migraciones"
+      ],
+      "a_quien_afecta": "Superintendencia Nacional de Migraciones (MIGRACIONES).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico dentro de una entidad pública.",
+=======
       "resumen_ejecutivo": "Se designa al nuevo Jefe de Planeamiento y Presupuesto de la Superintendencia Nacional de Migraciones (MIGRACIONES). Este cargo es responsable de la planificación y gestión financiera de la entidad. La medida se enfoca en la administración interna de MIGRACIONES. No introduce cambios regulatorios externos.",
       "cambios_clave": [
         "Designa Jefe de Planeamiento y Presupuesto de Migraciones."
@@ -1209,6 +2108,7 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Designación interna de un funcionario en la Superintendencia Nacional de Migraciones.",
+>>>>>>> origin/main
       "sectores": [
         "migraciones",
         "administracion_publica"
@@ -1235,6 +2135,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTI2Nl8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509266-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa al Jefe de la Unidad de Contabilidad, Finanzas y Tesorería de la Autoridad Nacional de Sanidad e Inocuidad en Pesca y Acuicultura (SANIPES). La resolución nombra a un funcionario para la gestión financiera y contable de SANIPES. Esta designación es importante para la correcta administración de los recursos de la entidad. El cargo tiene responsabilidades directas.",
+      "cambios_clave": [
+        "Designa Jefe de Contabilidad, Finanzas y Tesorería de SANIPES"
+      ],
+      "a_quien_afecta": "Autoridad Nacional de Sanidad e Inocuidad en Pesca y Acuicultura (SANIPES).",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico dentro de una entidad pública.",
+      "sectores": [
+        "pesqueria",
+        "sanidad",
+=======
       "resumen_ejecutivo": "Se designa al Jefe de la Unidad de Contabilidad, Finanzas y Tesorería de SANIPES. Este nombramiento es para la gestión administrativa y financiera de la Autoridad Nacional de Sanidad e Inocuidad en Pesca y Acuicultura. La medida se centra en la estructura interna de la entidad. No afecta a terceros.",
       "cambios_clave": [
         "Designa Jefe de Unidad de Contabilidad, Finanzas y Tesorería de SANIPES."
@@ -1245,6 +2158,7 @@
       "impacto_razon": "Designación interna de un funcionario en la unidad de finanzas de SANIPES.",
       "sectores": [
         "pesqueria",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
@@ -1269,23 +2183,40 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTIyMV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509221-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se aprueba el Cuadro de Aranceles por servicios prestados por los Juzgados de Paz de la Corte Superior de Justicia de Huancavelica. La norma establece las tarifas que se cobrarán por los servicios que brindan estos juzgados. Esto impacta en los costos para los usuarios que requieran dichos servicios. Se formalizan los montos a cobrar. La aprobación es para la Corte de Huancavelica.",
+      "cambios_clave": [
+        "Aprueba Cuadro de Aranceles para Juzgados de Paz de Huancavelica"
+=======
       "resumen_ejecutivo": "Se aprueba el Cuadro de Aranceles por servicios prestados por los Juzgados de Paz de la Corte Superior de Justicia de Huancavelica. Esta medida establece las tarifas que se cobrarán por diversos trámites y servicios judiciales. Busca estandarizar y transparentar los costos para los usuarios. Afecta a ciudadanos que acuden a estos juzgados.",
       "cambios_clave": [
         "Aprueba el Cuadro de Aranceles para Juzgados de Paz de Huancavelica."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "Usuarios de los Juzgados de Paz de la Corte Superior de Justicia de Huancavelica.",
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "medio",
+<<<<<<< HEAD
+      "impacto_razon": "Establece tarifas para servicios judiciales, afectando los costos para los usuarios en una región específica.",
+      "sectores": [
+        "justicia",
+        "gobierno_regional"
+=======
       "impacto_razon": "Establece tarifas para servicios judiciales, impactando el acceso y costo para los ciudadanos.",
       "sectores": [
         "justicia",
         "gobierno_local"
+>>>>>>> origin/main
       ],
       "tags": [
         "aranceles",
         "juzgados de paz",
         "huancavelica",
+<<<<<<< HEAD
+        "servicios judiciales"
+=======
         "justicia"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1303,6 +2234,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODQyNF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508424-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se dispone reprogramar la visita judicial ordinaria al 25° Juzgado de Trabajo Transitorio de Lima para mayo de 2026. La medida aplaza una diligencia de supervisión programada, debido a prórrogas dispuestas por el Consejo Ejecutivo del Poder Judicial. Esto afecta la agenda de supervisión judicial. La reprogramación es para el mes de mayo. La visita es al juzgado de trabajo de Lima.",
+      "cambios_clave": [
+        "Reprograma visita judicial ordinaria al 25° Juzgado de Trabajo Transitorio de Lima"
+      ],
+      "a_quien_afecta": "25° Juzgado de Trabajo Transitorio de Lima y el órgano de control judicial.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Reprogramación de una diligencia judicial interna sin impacto externo.",
+      "sectores": [
+        "justicia",
+        "judicial"
+=======
       "resumen_ejecutivo": "Se dispone la reprogramación de una visita judicial ordinaria al 25° Juzgado de Trabajo Transitorio de Lima para mayo de 2026. Esta acción se realiza conforme a una prórroga previa dispuesta por el Consejo Ejecutivo del Poder Judicial. La medida afecta la programación de actividades judiciales en Lima. No modifica aranceles ni procedimientos.",
       "cambios_clave": [
         "Reprograma visita judicial ordinaria al 25° Juzgado de Trabajo de Lima."
@@ -1313,12 +2257,51 @@
       "impacto_razon": "Reprogramación logística de una visita judicial específica.",
       "sectores": [
         "justicia"
+>>>>>>> origin/main
       ],
       "tags": [
         "reprogramacion",
         "visita judicial",
+<<<<<<< HEAD
+        "juzgado de trabajo",
+        "lima"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508384-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "0336-2025-EESPPM-DG",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 0336-2025-EESPPM-DG",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Aprueban el Manual de Perfiles de Puestos (MPP) de la Escuela de Educación Superior Pedagógica Pública Monterrico - EESPPM",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508384-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODM4NF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508384-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Manual de Perfiles de Puestos (MPP) de la Escuela de Educación Superior Pedagógica Pública Monterrico (EESPPM). La norma establece la descripción y requisitos de los puestos de trabajo dentro de la institución educativa. Esto es fundamental para la gestión de recursos humanos y la organización interna. El manual detalla las funciones y perfiles. Es un documento interno de gestión.",
+      "cambios_clave": [
+        "Aprueba el Manual de Perfiles de Puestos (MPP) de la EESPPM"
+      ],
+      "a_quien_afecta": "Personal y postulantes de la Escuela de Educación Superior Pedagógica Pública Monterrico.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Aprobación de un manual interno de gestión de puestos de una institución educativa.",
+      "sectores": [
+        "educacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "manual de perfiles de puestos",
+        "eesppm",
+        "gestion de personal"
+=======
         "lima",
         "trabajo"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1336,6 +2319,16 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjQ4OTE3Nl8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2489176-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se otorga diploma de duplicado de título profesional en Economía de la Universidad Nacional del Centro del Perú. La resolución certifica la emisión de un duplicado del título, reemplazando uno extraviado o dañado. Esto permite al egresado contar con la acreditación oficial de su grado académico. El trámite es para un egresado específico. La universidad emite el duplicado.",
+      "cambios_clave": [
+        "Otorga diploma de duplicado de título profesional en Economía"
+      ],
+      "a_quien_afecta": "Egresado de Economía de la Universidad Nacional del Centro del Perú.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Emisión de un duplicado de título profesional para un caso particular.",
+=======
       "resumen_ejecutivo": "Se otorga un diploma de duplicado de título profesional en Economía a un egresado de la Universidad Nacional del Centro del Perú. Esta resolución certifica la validez del nuevo título ante la pérdida o deterioro del original. La medida es un trámite administrativo para un profesional específico. No modifica normativas educativas generales.",
       "cambios_clave": [
         "Otorga duplicado de título profesional en Economía."
@@ -1344,6 +2337,7 @@
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Trámite administrativo individual para la emisión de un duplicado de título.",
+>>>>>>> origin/main
       "sectores": [
         "educacion"
       ],
@@ -1369,6 +2363,25 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTEwMl8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509102-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se aprueba la actualización del Reglamento de Organización y Funciones (ROF) y la estructura orgánica de la Universidad Nacional Autónoma del Distrito de San Marcos. La norma reestructura y actualiza los lineamientos de funcionamiento y organización de la universidad. Esto impacta en la distribución de funciones y la jerarquía interna. Se busca optimizar la gestión institucional. El ROF es un documento clave.",
+      "cambios_clave": [
+        "Aprueba actualización del ROF y estructura orgánica de la Universidad Nacional Autónoma del Distrito de San Marcos"
+      ],
+      "a_quien_afecta": "Universidad Nacional Autónoma del Distrito de San Marcos y su comunidad.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Actualiza el marco normativo y orgánico de una universidad, afectando su estructura y funcionamiento.",
+      "sectores": [
+        "educacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "rof",
+        "reglamento",
+        "universidad",
+        "estructura organica"
+=======
       "resumen_ejecutivo": "Se aprueba la actualización del Reglamento de Organización y Funciones (ROF) y la estructura orgánica de la Universidad Nacional Autónoma del Distrito de San Marcos. Estos documentos definen el funcionamiento interno y la jerarquía de la institución. La medida busca adecuar la estructura universitaria a sus necesidades actuales. Afecta a la comunidad universitaria.",
       "cambios_clave": [
         "Aprueba actualización del ROF y estructura orgánica de la universidad."
@@ -1418,6 +2431,7 @@
         "puestos",
         "educacion",
         "eesppm"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1435,6 +2449,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se acepta la renuncia de una fiscal adjunta provincial provisional del Distrito Fiscal de Huánuco. La resolución formaliza la salida de la funcionaria del Ministerio Público. Esto implica la necesidad de cubrir dicha plaza. La renuncia es voluntaria y se aceptada por la alta dirección. La disposición afecta la conformación del equipo fiscal.",
+      "cambios_clave": [
+        "Acepta renuncia de fiscal adjunta provincial en Huánuco"
+      ],
+      "a_quien_afecta": "Fiscalía Provincial de Huánuco y la fiscal renunciante.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Aceptación de renuncia de una fiscal, sin impacto generalizado.",
+      "sectores": [
+        "justicia",
+        "judicial"
+=======
       "resumen_ejecutivo": "Se acepta la renuncia de una fiscal adjunta provincial provisional del Distrito Fiscal de Huánuco. La resolución también dicta otras disposiciones relacionadas con el nombramiento o cese de fiscales. Esta medida afecta la conformación del Ministerio Público en Huánuco. Se enfoca en la gestión de personal fiscal.",
       "cambios_clave": [
         "Acepta renuncia de fiscal adjunta provincial en Huánuco."
@@ -1446,12 +2473,17 @@
       "sectores": [
         "justicia",
         "ministerio_publico"
+>>>>>>> origin/main
       ],
       "tags": [
         "renuncia",
         "fiscal",
         "ministerio publico",
+<<<<<<< HEAD
+        "huancavelica"
+=======
         "huanuco"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1469,6 +2501,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8xMDIwMjYwNDI0",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-10_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombra a un fiscal adjunto provincial provisional del Distrito Fiscal de Lima Noroeste. La resolución designa a un nuevo funcionario para ejercer funciones fiscales en dicha jurisdicción. Esto fortalece la capacidad de investigación y persecución penal del Ministerio Público. El nombramiento es para cubrir una plaza existente. La designación es provisional.",
+      "cambios_clave": [
+        "Nombra fiscal adjunto provincial provisional en Lima Noroeste"
+      ],
+      "a_quien_afecta": "Ministerio Público y el Distrito Fiscal de Lima Noroeste.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Nombramiento de un fiscal provisional, sin impacto generalizado.",
+      "sectores": [
+        "justicia",
+        "judicial"
+=======
       "resumen_ejecutivo": "Se nombra a un nuevo fiscal adjunto provincial provisional en el Distrito Fiscal de Lima Noroeste. Esta designación forma parte de la rotación y cobertura de plazas en el Ministerio Público. La medida asegura la continuidad del servicio fiscal en la mencionada jurisdicción. No modifica normativas generales.",
       "cambios_clave": [
         "Nombra fiscal adjunto provincial provisional en Lima Noroeste."
@@ -1480,6 +2525,7 @@
       "sectores": [
         "justicia",
         "ministerio_publico"
+>>>>>>> origin/main
       ],
       "tags": [
         "nombramiento",
@@ -1503,6 +2549,22 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8xMTIwMjYwNDI0",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-11_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional para el Distrito Fiscal de Lima Este. Esta designación busca cubrir una vacante temporal o permanente dentro del Ministerio Público. La norma afecta directamente a la profesional designada y a la estructura del Ministerio Público en Lima Este. Se trata de una designación específica que no modifica normativas generales.",
+      "cambios_clave": [
+        "Nombra fiscal adjunta provincial provisional en Lima Este."
+      ],
+      "a_quien_afecta": "Fiscal adjunta provincial provisional y el Ministerio Público de Lima Este.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+=======
       "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional en el Distrito Fiscal de Lima Este. Esta designación busca cubrir una plaza vacante y garantizar la operatividad del Ministerio Público en la zona. La medida es parte de la gestión de recursos humanos del sector justicia. No altera normativas sustantivas.",
       "cambios_clave": [
         "Nombra fiscal adjunta provincial provisional en Lima Este."
@@ -1518,6 +2580,7 @@
       "tags": [
         "nombramiento",
         "fiscal",
+>>>>>>> origin/main
         "ministerio publico",
         "lima este"
       ],
@@ -1537,6 +2600,22 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8xMjIwMjYwNDI0",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-12_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa a una fiscal adjunta provincial provisional para el Distrito Fiscal de Lima Centro. Esta resolución formaliza la incorporación de la profesional a funciones específicas dentro del Ministerio Público. La medida impacta a la fiscal nombrada y a la organización fiscal de Lima Centro. Es una designación puntual que no altera el marco normativo existente.",
+      "cambios_clave": [
+        "Nombra fiscal adjunta provincial provisional en Lima Centro."
+      ],
+      "a_quien_afecta": "Fiscal adjunta provincial provisional y el Ministerio Público de Lima Centro.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+=======
       "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional en el Distrito Fiscal de Lima Centro. Esta designación es para cubrir una plaza y asegurar la continuidad del servicio fiscal en dicha área. La medida se enmarca en la administración de personal del Ministerio Público. No implica cambios regulatorios amplios.",
       "cambios_clave": [
         "Nombra fiscal adjunta provincial provisional en Lima Centro."
@@ -1552,6 +2631,7 @@
       "tags": [
         "nombramiento",
         "fiscal",
+>>>>>>> origin/main
         "ministerio publico",
         "lima centro"
       ],
@@ -1571,6 +2651,22 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8xMzIwMjYwNDI0",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-13_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional para el Distrito Fiscal de Puno. La resolución oficializa la designación de la profesional para ejercer funciones fiscales en dicha jurisdicción. Afecta directamente a la fiscal nombrada y al Ministerio Público en Puno. Constituye una acción administrativa interna sin implicancias regulatorias amplias.",
+      "cambios_clave": [
+        "Nombra fiscal adjunta provincial provisional en Puno."
+      ],
+      "a_quien_afecta": "Fiscal adjunta provincial provisional y el Ministerio Público de Puno.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+=======
       "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional en el Distrito Fiscal de Puno. Esta designación tiene como objetivo cubrir una plaza y garantizar la atención de casos en la región. La medida es parte de la gestión de recursos humanos del Ministerio Público. No introduce cambios normativos generales.",
       "cambios_clave": [
         "Nombra fiscal adjunta provincial provisional en Puno."
@@ -1586,6 +2682,7 @@
       "tags": [
         "nombramiento",
         "fiscal",
+>>>>>>> origin/main
         "ministerio publico",
         "puno"
       ],
@@ -1605,6 +2702,22 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8xNDIwMjYwNDI0",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-14_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombra a un fiscal adjunto provincial provisional para el Distrito Fiscal de Áncash. Esta resolución formaliza la designación de la persona para ejercer funciones fiscales en la región. La medida impacta a la profesional nombrada y a la estructura del Ministerio Público en Áncash. Se trata de una designación específica sin modificaciones regulatorias generales.",
+      "cambios_clave": [
+        "Nombra fiscal adjunto provincial provisional en Áncash."
+      ],
+      "a_quien_afecta": "Fiscal adjunto provincial provisional y el Ministerio Público de Áncash.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+=======
       "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional en el Distrito Fiscal de Áncash. Esta designación busca cubrir una plaza vacante y asegurar la continuidad del servicio fiscal en la región. La medida se enmarca en la administración de personal del Ministerio Público. No modifica normativas sustantivas.",
       "cambios_clave": [
         "Nombra fiscal adjunta provincial provisional en Áncash."
@@ -1620,6 +2733,7 @@
       "tags": [
         "nombramiento",
         "fiscal",
+>>>>>>> origin/main
         "ministerio publico",
         "ancash"
       ],
@@ -1639,6 +2753,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8yMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-2_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombran fiscales adjuntos superiores provisionales para el Distrito Fiscal del Callao y se dictan otras disposiciones. La resolución formaliza la designación de profesionales para ejercer funciones fiscales superiores. Afecta directamente a los fiscales nombrados y al Ministerio Público en el Callao. Es una medida administrativa interna sin cambios regulatorios sustantivos.",
+      "cambios_clave": [
+        "Nombra fiscales adjuntos superiores provisionales en Callao.",
+        "Dicta otras disposiciones administrativas."
+      ],
+      "a_quien_afecta": "Fiscales adjuntos superiores provisionales y el Ministerio Público del Callao.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de fiscales sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+=======
       "resumen_ejecutivo": "Se nombran fiscales adjuntos superiores provisionales para el Distrito Fiscal del Callao y se dictan otras disposiciones. Esta medida busca cubrir plazas necesarias para el funcionamiento del Ministerio Público en el Callao. La resolución se enfoca en la gestión de personal fiscal. No altera normativas generales.",
       "cambios_clave": [
         "Nombra fiscales adjuntos superiores provisionales en el Callao."
@@ -1654,6 +2785,7 @@
       "tags": [
         "nombramiento",
         "fiscal",
+>>>>>>> origin/main
         "ministerio publico",
         "callao"
       ],
@@ -1673,6 +2805,22 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV8zMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-3_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombra a un fiscal provincial provisional para el Distrito Fiscal de Ayacucho. La resolución oficializa la designación de la persona para ejercer funciones de fiscal provincial. La medida impacta al fiscal nombrado y a la estructura del Ministerio Público en Ayacucho. Se trata de una designación específica que no modifica normativas generales.",
+      "cambios_clave": [
+        "Nombra fiscal provincial provisional en Ayacucho."
+      ],
+      "a_quien_afecta": "Fiscal provincial provisional y el Ministerio Público de Ayacucho.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+=======
       "resumen_ejecutivo": "Se nombra a un fiscal provincial provisional en el Distrito Fiscal de Ayacucho. Esta designación es para cubrir una plaza y asegurar la continuidad del servicio fiscal en la región. La medida se enmarca en la administración de personal del Ministerio Público. No modifica normativas sustantivas.",
       "cambios_clave": [
         "Nombra fiscal provincial provisional en Ayacucho."
@@ -1688,6 +2836,7 @@
       "tags": [
         "nombramiento",
         "fiscal",
+>>>>>>> origin/main
         "ministerio publico",
         "ayacucho"
       ],
@@ -1707,6 +2856,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV80MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-4_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombra a un fiscal adjunto provincial provisional para el Distrito Fiscal de La Libertad. La resolución formaliza la designación de la profesional para ejercer funciones fiscales en la región. La medida impacta a la fiscal nombrada y al Ministerio Público en La Libertad. Es una designación puntual sin modificaciones regulatorias generales.",
+      "cambios_clave": [
+        "Nombra fiscal adjunto provincial provisional en La Libertad."
+      ],
+      "a_quien_afecta": "Fiscal adjunto provincial provisional y el Ministerio Público de La Libertad.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+        "ministerio publico",
+=======
       "resumen_ejecutivo": "Se nombra a un fiscal adjunto provincial provisional para el Distrito Fiscal de La Libertad. Esta designación busca cubrir una plaza temporal en el Ministerio Público. La medida se enmarca en la facultad discrecional de la institución para organizar su personal fiscal. La vigencia de la designación será determinada por las necesidades del servicio.",
       "cambios_clave": [
         "Nombramiento de fiscal adjunto provincial provisional en La Libertad."
@@ -1722,6 +2888,7 @@
         "fiscal",
         "ministerio publico",
         "designacion",
+>>>>>>> origin/main
         "la libertad"
       ],
       "prompt_version": 2
@@ -1740,6 +2907,23 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV81MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-5_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional para el Distrito Fiscal de Lima Centro. La resolución oficializa la designación de la profesional para ejercer funciones fiscales. La medida impacta a la fiscal nombrada y a la organización del Ministerio Público en Lima Centro. Se trata de una designación específica sin cambios regulatorios amplios.",
+      "cambios_clave": [
+        "Nombra fiscal adjunta provincial provisional en Lima Centro."
+      ],
+      "a_quien_afecta": "Fiscal adjunta provincial provisional y el Ministerio Público de Lima Centro.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+        "ministerio publico",
+=======
       "resumen_ejecutivo": "Se nombra a una fiscal adjunta provincial provisional para el Distrito Fiscal de Lima Centro. Esta acción responde a la necesidad de cubrir temporalmente una plaza fiscal en la mencionada jurisdicción. La resolución forma parte de la gestión administrativa del Ministerio Público para asegurar la continuidad de las labores fiscales. La designación se sujeta a las disposiciones internas de la institución.",
       "cambios_clave": [
         "Nombramiento de fiscal adjunta provincial provisional en Lima Centro."
@@ -1755,6 +2939,7 @@
         "fiscal",
         "ministerio publico",
         "designacion",
+>>>>>>> origin/main
         "lima centro"
       ],
       "prompt_version": 2
@@ -1773,6 +2958,24 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV82MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-6_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se designa a un fiscal en la 2° Fiscalía Provincial Penal de Flagrancia Delictiva de Lima Este y se nombra a un fiscal adjunto provincial provisional en el mismo distrito fiscal. Estas acciones formalizan la asignación de funciones y la cobertura de plazas dentro del Ministerio Público. Afectan a los fiscales designados y a la estructura fiscal de Lima Este. Son medidas administrativas internas.",
+      "cambios_clave": [
+        "Designa fiscal en 2° Fiscalía Provincial Penal de Lima Este.",
+        "Nombra fiscal adjunto provincial provisional en Lima Este."
+      ],
+      "a_quien_afecta": "Fiscales designados y el Ministerio Público de Lima Este.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designaciones internas de fiscales sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+        "ministerio publico",
+=======
       "resumen_ejecutivo": "Se designa a un fiscal en la 2° Fiscalía Provincial Penal de Flagrancia Delictiva de Lima Este y se nombra a un fiscal adjunto provincial provisional en el mismo distrito fiscal. Estas medidas buscan cubrir plazas fiscales y asegurar el funcionamiento de las fiscalías especializadas. La resolución se alinea con las facultades de organización interna del Ministerio Público. La designación provisional se rige por las normas internas.",
       "cambios_clave": [
         "Designación de fiscal en fiscalía de flagrancia.",
@@ -1789,6 +2992,7 @@
         "fiscal",
         "ministerio publico",
         "designacion",
+>>>>>>> origin/main
         "lima este",
         "flagrancia"
       ],
@@ -1808,6 +3012,26 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV83MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-7_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se nombran fiscales adjuntos provinciales provisionales en Ucayali, Lima Noroeste y Cusco, se designa a un fiscal en la Fiscalía Especializada en Delitos de Tráfico Ilícito de Drogas en Juliaca y se dictan otras disposiciones. Estas acciones cubren vacantes y asignan funciones específicas dentro del Ministerio Público. Afectan a los fiscales nombrados y a las fiscalías de las regiones mencionadas. Son medidas administrativas internas.",
+      "cambios_clave": [
+        "Nombra fiscales adjuntos en Ucayali, Lima Noroeste y Cusco.",
+        "Designa fiscal en Juliaca (Tráfico Ilícito de Drogas)."
+      ],
+      "a_quien_afecta": "Fiscales nombrados y las fiscalías de Ucayali, Lima Noroeste, Cusco y Juliaca.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designaciones internas de fiscales sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "justicia"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+        "ministerio publico",
+        "tráfico ilícito de drogas"
+=======
       "resumen_ejecutivo": "Se nombran fiscales adjuntos provinciales provisionales en Ucayali, Lima Noroeste y Cusco, y se designa a un fiscal en la Fiscalía Especializada en Delitos de Tráfico Ilícito de Drogas en Juliaca. Estas acciones buscan cubrir vacantes y fortalecer la labor fiscal en áreas clave. La resolución forma parte de la gestión del Ministerio Público para optimizar el servicio de justicia. Se dictan otras disposiciones internas.",
       "cambios_clave": [
         "Nombramiento de fiscales adjuntos en Ucayali, Lima Noroeste y Cusco.",
@@ -1827,6 +3051,7 @@
         "designacion",
         "tráfico de drogas",
         "provisional"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1844,6 +3069,25 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV84MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-8_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se da por concluida una designación y se nombra a un fiscal provincial provisional para el Distrito Fiscal de La Libertad. La resolución formaliza la asignación de funciones y la cobertura de una plaza fiscal. Impacta al fiscal nombrado y a la estructura del Ministerio Público en La Libertad. Es una medida administrativa interna sin cambios regulatorios generales.",
+      "cambios_clave": [
+        "Concluye designación previa.",
+        "Nombra fiscal provincial provisional en La Libertad."
+      ],
+      "a_quien_afecta": "Fiscal provincial provisional y el Ministerio Público de La Libertad.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+        "ministerio publico",
+        "la libertad"
+=======
       "resumen_ejecutivo": "Se da por concluida la designación de un fiscal provincial en La Libertad y se nombra a un nuevo fiscal provincial provisional en el mismo distrito fiscal. Esta medida responde a la necesidad de reorganizar el personal fiscal y asegurar la continuidad de la función. La resolución se basa en las facultades de administración interna del Ministerio Público. La designación provisional se sujeta a las normas vigentes.",
       "cambios_clave": [
         "Conclusión de designación fiscal provincial.",
@@ -1862,6 +3106,7 @@
         "designacion",
         "la libertad",
         "provincial"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1879,6 +3124,25 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTMyMV85MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509321-9_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se deja sin efecto una resolución previa y se nombra a una fiscal adjunta provincial provisional para el Distrito Fiscal de San Martín. La medida corrige una designación anterior y formaliza la incorporación de la profesional. Afecta a la fiscal nombrada y al Ministerio Público en San Martín. Es una acción administrativa interna sin implicancias regulatorias amplias.",
+      "cambios_clave": [
+        "Deja sin efecto resolución previa.",
+        "Nombra fiscal adjunta provincial provisional en San Martín."
+      ],
+      "a_quien_afecta": "Fiscal adjunta provincial provisional y el Ministerio Público de San Martín.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un fiscal sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "fiscal",
+        "designacion",
+        "ministerio publico",
+        "san martin"
+=======
       "resumen_ejecutivo": "Se deja sin efecto una resolución previa y se nombra a una fiscal adjunta provincial provisional para el Distrito Fiscal de San Martín. Esta acción corrige una designación anterior y asegura la cobertura temporal de una plaza fiscal. La medida se enmarca en la potestad del Ministerio Público para organizar su personal. La designación provisional se rige por las normativas internas.",
       "cambios_clave": [
         "Anulación de resolución previa de nombramiento fiscal.",
@@ -1897,6 +3161,7 @@
         "designacion",
         "san martin",
         "anulacion"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1914,6 +3179,25 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODM1OV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508359-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se autoriza el viaje del Gerente de Conducta de Mercado e Inclusión Financiera de la SBS a Rumania. El propósito es su participación en eventos relacionados con su área de gestión. La autorización impacta directamente al funcionario y a la Superintendencia de Banca, Seguros y AFP (SBS). Es un permiso individual para un viaje de trabajo específico.",
+      "cambios_clave": [
+        "Autoriza viaje de funcionario de la SBS a Rumania."
+      ],
+      "a_quien_afecta": "Gerente de Conducta de Mercado e Inclusión Financiera de la SBS.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para un funcionario.",
+      "sectores": [
+        "financiero",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje",
+        "sbs",
+        "funcionario",
+        "inclusion financiera"
+=======
       "resumen_ejecutivo": "Se autoriza el viaje del Gerente de Conducta de Mercado e Inclusión Financiera de la SBS a Rumania. El funcionario participará en eventos relacionados con su área de competencia. Esta autorización se da en el marco de las funciones de representación y capacitación de la Superintendencia. El viaje se realizará en las fechas indicadas y se sujeta a las normas de viáticos.",
       "cambios_clave": [
         "Autorización de viaje para gerente de la SBS a Rumania."
@@ -1932,6 +3216,7 @@
         "gerente",
         "inclusion financiera",
         "rumania"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -1949,15 +3234,26 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTA1N18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509057-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se aprueba la Guía de identificación y reporte de alertas para sujetos obligados a informar a la UIF-Perú, según la Ley N°29038. Esta guía establece los procedimientos para detectar y comunicar operaciones sospechosas. Afecta a las entidades y personas naturales o jurídicas que deben reportar a la Unidad de Inteligencia Financiera. Modifica el procedimiento operativo para la prevención del lavado de activos.",
+      "cambios_clave": [
+        "Aprueba Guía de identificación y reporte de alertas a UIF-Perú.",
+        "Establece procedimiento para sujetos obligados a informar."
+=======
       "resumen_ejecutivo": "Se aprueba la Guía de identificación y reporte de alertas para sujetos obligados a informar a la UIF-Perú, conforme a la Ley N° 29038. Esta guía establece los procedimientos y criterios para la detección y comunicación de operaciones sospechosas. Su objetivo es fortalecer la lucha contra el lavado de activos y financiamiento del terrorismo. La norma detalla las obligaciones de reporte y las disposiciones aplicables.",
       "cambios_clave": [
         "Aprobación de guía para reporte de alertas a la UIF-Perú.",
         "Establece criterios para sujetos obligados a informar."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "Sujetos obligados a informar a la UIF-Perú.",
       "vigencia": "Desde su publicación (24/04/2026)",
       "impacto": "medio",
+<<<<<<< HEAD
+      "impacto_razon": "Establece un nuevo procedimiento operativo para la prevención de delitos financieros.",
+=======
       "impacto_razon": "Establece una guía operativa con implicancias directas para entidades financieras y otras obligadas a reportar.",
+>>>>>>> origin/main
       "sectores": [
         "financiero",
         "tributacion",
@@ -1986,6 +3282,27 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNDcxNV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2504715-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se aprueba el Plan de Ordenamiento Territorial (POT) del departamento de Moquegua. Este plan establece las directrices para el uso y la gestión del territorio a nivel departamental. Afecta a gobiernos locales, sectoriales, empresas y ciudadanos dentro de la jurisdicción de Moquegua. Implementa la normativa nacional sobre ordenamiento territorial a nivel regional.",
+      "cambios_clave": [
+        "Aprueba el Plan de Ordenamiento Territorial de Moquegua."
+      ],
+      "a_quien_afecta": "Gobiernos locales, sectoriales, empresas y ciudadanos de Moquegua.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Establece el marco de planificación territorial para todo un departamento.",
+      "sectores": [
+        "gobierno_regional",
+        "urbanismo",
+        "vivienda",
+        "ambiente"
+      ],
+      "tags": [
+        "pot",
+        "ordenamiento territorial",
+        "moquegua",
+        "planificacion"
+=======
       "resumen_ejecutivo": "Se aprueba el Plan de Ordenamiento Territorial (POT) del departamento de Moquegua. Este plan establece las directrices y zonificación para el uso y ocupación del territorio regional. Su finalidad es promover el desarrollo sostenible y la gestión integrada de los recursos. La ordenanza es un instrumento clave para la planificación y el ordenamiento territorial a nivel departamental. El POT define el uso del suelo y las actividades permitidas.",
       "cambios_clave": [
         "Aprobación del Plan de Ordenamiento Territorial de Moquegua.",
@@ -2007,6 +3324,7 @@
         "moquegua",
         "planificacion",
         "territorio"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -2024,6 +3342,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzY1NV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2507655-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se convoca a la Primera y Segunda Audiencia Pública de Rendición de Cuentas de la Municipalidad Distrital de Barranco para el año 2026. El objetivo es informar a la ciudadanía sobre la gestión municipal. Afecta a los funcionarios de la municipalidad y a los vecinos del distrito de Barranco. Es una convocatoria anual obligatoria para la transparencia de la gestión pública.",
+      "cambios_clave": [
+        "Convoca a audiencias públicas de rendición de cuentas 2026."
+      ],
+      "a_quien_afecta": "Funcionarios de la Municipalidad de Barranco y vecinos del distrito.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece un proceso de participación ciudadana y transparencia municipal.",
+      "sectores": [
+        "gobierno_local",
+        "administracion_publica"
+=======
       "resumen_ejecutivo": "La Municipalidad de Barranco convoca a la Primera y Segunda Audiencia Pública de Rendición de Cuentas del año 2026. Estos eventos permitirán a la ciudadanía conocer los avances de gestión y realizar consultas. La convocatoria se realiza en cumplimiento de la normativa de transparencia y participación ciudadana. Las audiencias son un mecanismo de control social sobre la gestión edil.",
       "cambios_clave": [
         "Convocatoria a audiencias públicas de rendición de cuentas.",
@@ -2036,13 +3367,18 @@
       "sectores": [
         "gobierno_local",
         "transparencia"
+>>>>>>> origin/main
       ],
       "tags": [
         "rendicion de cuentas",
         "audiencia publica",
         "barranco",
+<<<<<<< HEAD
+        "municipalidad"
+=======
         "transparencia",
         "gestion municipal"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -2060,6 +3396,19 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTE4OV8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509189-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
+      "resumen_ejecutivo": "Se convoca a la Primera Audiencia Pública de Rendición de Cuentas 2026 del distrito de San Isidro. El propósito es presentar a la ciudadanía los resultados de la gestión municipal. La convocatoria impacta a los funcionarios de la municipalidad y a los residentes de San Isidro. Es un mecanismo de transparencia y participación ciudadana.",
+      "cambios_clave": [
+        "Convoca a la Primera Audiencia Pública de Rendición de Cuentas 2026."
+      ],
+      "a_quien_afecta": "Funcionarios de la Municipalidad de San Isidro y vecinos del distrito.",
+      "vigencia": "Desde su publicación (24/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece un proceso de participación ciudadana y transparencia municipal.",
+      "sectores": [
+        "gobierno_local",
+        "administracion_publica"
+=======
       "resumen_ejecutivo": "La Municipalidad de San Isidro convoca a la Primera Audiencia Pública de Rendición de Cuentas del año 2026. Este evento busca informar a los vecinos sobre la gestión edil y fomentar la participación ciudadana. La convocatoria se realiza conforme a las normativas de transparencia y buen gobierno. Es un espacio para el diálogo entre la autoridad y la ciudadanía.",
       "cambios_clave": [
         "Convocatoria a audiencia pública de rendición de cuentas.",
@@ -2072,13 +3421,18 @@
       "sectores": [
         "gobierno_local",
         "transparencia"
+>>>>>>> origin/main
       ],
       "tags": [
         "rendicion de cuentas",
         "audiencia publica",
         "san isidro",
+<<<<<<< HEAD
+        "municipalidad"
+=======
         "transparencia",
         "gestion municipal"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     }
@@ -2090,6 +3444,19 @@
       "fecha_publicacion": "2026-04-24",
       "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQyNA==",
       "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/_BO20260424_Portada.jpg"
+<<<<<<< HEAD
+    }
+  ],
+  "stats": {
+    "total_normas": 67,
+    "alto": 6,
+    "medio": 21,
+    "bajo": 40,
+    "sectores_top": [
+      [
+        "administracion_publica",
+        38
+=======
     },
     {
       "seccion": "concesiones_mineras",
@@ -2413,17 +3780,38 @@
       [
         "administracion_publica",
         16
+>>>>>>> origin/main
       ],
       [
         "ambiente",
         10
       ],
       [
+<<<<<<< HEAD
+        "educacion",
+=======
         "ministerio_publico",
+>>>>>>> origin/main
         8
       ],
       [
         "gobierno_local",
+<<<<<<< HEAD
+        6
+      ],
+      [
+        "justicia",
+        6
+      ],
+      [
+        "salud",
+        5
+      ]
+    ],
+    "documentos_otras_secciones": 1
+  },
+  "generated_at": "2026-04-26T13:47:32.972603Z"
+=======
         7
       ],
       [
@@ -2434,4 +3822,5 @@
     "documentos_otras_secciones": 45
   },
   "generated_at": "2026-04-24T12:57:02.388277Z"
+>>>>>>> origin/main
 }

@@ -2,6 +2,99 @@
   "fecha": "2026-04-24",
   "normas": [
     {
+<<<<<<< HEAD
+      "id": "2509496-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "00474-2026-DE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 00474-2026-DE",
+      "entidad_emisora": "DEFENSA",
+      "sumilla": "Autorizan viaje de personal militar del Instituto Geográfico Nacional a los Países Bajos en comisión de servicios",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509496-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ5Nl8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509496-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2509754-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000164-2026-MIDIS/PAE-DE",
+      "titulo_oficial": "RESOLUCION N° 000164-2026-MIDIS/PAE-DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Jefe de la Subunidad de Control de la Unidad de Control y Vigilancia de la Prestación del Servicio Alimentario del Programa de Alimentación Escolar (PAE)",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509754-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTc1NF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509754-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2509560-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "000291-2026-IN-VOI-DGIN",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 000291-2026-IN-VOI-DGIN",
+      "entidad_emisora": "INTERIOR",
+      "sumilla": "Designan Subprefecto Distrital de San Luis provincia de San Pablo departamento de Cajamarca",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509560-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTU2MF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509560-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2509832-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "432-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 432-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Designan Director Adjunto de la Dirección General del Hospital María Auxiliadora",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509832-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTgzMl8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509832-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2509858-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION ADMINISTRATIVA",
+      "tipo_corto": "RA",
+      "numero": "000031-2026-DP/OGA",
+      "titulo_oficial": "RESOLUCION ADMINISTRATIVA N° 000031-2026-DP/OGA",
+      "entidad_emisora": "DESPACHO PRESIDENCIAL",
+      "sumilla": "Delegan facultades al Ejecutivo de la Oficina de Abastecimiento del Despacho Presidencial",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509858-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg1OF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509858-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+      "id": "2509801-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "100-2026-ATU/PE",
+      "titulo_oficial": "RESOLUCION N° 100-2026-ATU/PE",
+      "entidad_emisora": "AUTORIDAD DE TRANSPORTE URBANO PARA LIMA Y CALLAO",
+      "sumilla": "Designan Gerente General de la Autoridad de Transporte Urbano para Lima y Callao - ATU",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509801-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTgwMV8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509801-1_Portada.jpg",
+      "edicion_extraordinaria": true
+    },
+    {
+=======
+>>>>>>> origin/main
       "id": "2509444-1",
       "seccion": "normas_legales",
       "tipo": "LEY",
@@ -17,6 +110,39 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+      "id": "2509442-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "059-2026-PCM",
+      "titulo_oficial": "DECRETO SUPREMO N° 059-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Decreto Supremo que prorroga el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Amazonas Áncash Arequipa Cajamarca Ica Junín La Libertad Lambayeque Lima Madre de Dios Piura Puno San Martín y Tumbes por peligro inminente ante intensas precipitaciones pluviales",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509442-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+      "id": "2509442-7",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "134-2026-PCM",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 134-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Autorizan viaje de Ministra del Ambiente a Turquía y encargan su Despacho a la Ministra de Cultura",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509442-7",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml83MjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-7_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+=======
+>>>>>>> origin/main
       "id": "2509442-2",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
@@ -47,6 +173,8 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+=======
       "id": "2509442-1",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
@@ -77,6 +205,7 @@
       "edicion_extraordinaria": false
     },
     {
+>>>>>>> origin/main
       "id": "2509184-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -107,6 +236,20 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+      "id": "2509287-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION JEFATURAL",
+      "tipo_corto": "RJ",
+      "numero": "000066-2026-ANIN/JEF",
+      "titulo_oficial": "RESOLUCION JEFATURAL N° 000066-2026-ANIN/JEF",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Aprueban ejecución de expropiación de área afectada de inmueble por la ejecución del Proyecto: Creación del servicio de protección en riberas del río Motupe vulnerable ante peligro de inundación en los distritos de Motupe Jayanca Morrope Pacora Salas y Túcume - 5 distritos de la provincia de Lambayeque y departamento de Lambayeque y el valor de tasación",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509287-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTI4N18xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509287-1_Portada.jpg",
+=======
       "id": "2509442-7",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION SUPREMA",
@@ -119,6 +262,7 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509442-7",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml83MjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-7_Portada.jpg",
+>>>>>>> origin/main
       "edicion_extraordinaria": false
     },
     {
@@ -407,6 +551,24 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+      "id": "2509352-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "424-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 424-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Derogan el literal h) del artículo 5 de la Resolución Ministerial N° 984-2025/MINSA",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509352-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTM1Ml8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509352-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+=======
+>>>>>>> origin/main
       "id": "2509088-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -422,6 +584,20 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+      "id": "2509198-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "174-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 174-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Aprueban el Manual de Operaciones del Programa Mejoramiento Integral de Barrios",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509198-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTE5OF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509198-1_Portada.jpg",
+=======
       "id": "2509352-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -434,6 +610,7 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509352-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTM1Ml8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509352-1_Portada.jpg",
+>>>>>>> origin/main
       "edicion_extraordinaria": false
     },
     {
@@ -452,6 +629,8 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+=======
       "id": "2509198-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -467,6 +646,7 @@
       "edicion_extraordinaria": false
     },
     {
+>>>>>>> origin/main
       "id": "2508855-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
@@ -587,6 +767,24 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+      "id": "2508384-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "0336-2025-EESPPM-DG",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 0336-2025-EESPPM-DG",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Aprueban el Manual de Perfiles de Puestos (MPP) de la Escuela de Educación Superior Pedagógica Pública Monterrico - EESPPM",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508384-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODM4NF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508384-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+=======
+>>>>>>> origin/main
       "id": "2489176-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
@@ -617,6 +815,8 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+=======
       "id": "2508384-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
@@ -632,6 +832,7 @@
       "edicion_extraordinaria": false
     },
     {
+>>>>>>> origin/main
       "id": "2509321-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
@@ -924,6 +1125,8 @@
       "fecha_publicacion": "2026-04-24",
       "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQyNA==",
       "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/_BO20260424_Portada.jpg"
+<<<<<<< HEAD
+=======
     },
     {
       "seccion": "concesiones_mineras",
@@ -1232,6 +1435,7 @@
       "fecha_publicacion": "2026-04-24",
       "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508938_1.pdf",
       "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508938_1_Portada.jpg"
+>>>>>>> origin/main
     }
   ]
 }

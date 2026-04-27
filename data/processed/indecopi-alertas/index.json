@@ -1,6 +1,10 @@
 {
   "fechas": [
     {
+<<<<<<< HEAD
+      "fecha": "2026-04-24",
+      "total_alertas": 1
+=======
       "fecha": "2026-04-27",
       "total_alertas": 0
     },
@@ -55,6 +59,7 @@
     {
       "fecha": "2026-04-14",
       "total_alertas": 0
+>>>>>>> origin/main
     },
     {
       "fecha": "2026-04-13",

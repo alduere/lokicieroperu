@@ -12,7 +12,7 @@ on:
         required: true
         type: string
       notify:
-        description: "Send Telegram + email notification at the end?"
+        description: "Send Telegram notification at the end?"
         required: false
         type: boolean
         default: false
@@ -24,17 +24,12 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 env:
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-  BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
-  EMAIL_TO: ${{ secrets.EMAIL_TO }}
-  EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-  SITE_BASE_URL: https://alduere.github.io/lokicieroperu
+  SITE_BASE_URL: ""
 
 jobs:
   backfill:
@@ -57,17 +52,6 @@ jobs:
       - name: Install Python deps
         run: uv sync --frozen
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: "npm"
-          cache-dependency-path: site/package-lock.json
-
-      - name: Install site deps
-        working-directory: site
-        run: npm install --no-audit --no-fund
-
       - name: Backfill range
         run: |
           start="${{ inputs.start_date }}"
@@ -85,17 +69,12 @@ jobs:
             current=$(date -d "$current + 1 day" +%Y-%m-%d)
           done
 
-      - name: Build PDFs and Astro site
+      - name: Build PDFs
         run: uv run python -m scripts.build
 
       - name: Notify Telegram (optional)
         if: inputs.notify
         run: uv run python -m scripts.notify
-        continue-on-error: true
-
-      - name: Notify Email (optional)
-        if: inputs.notify && env.BREVO_API_KEY != ''
-        run: uv run python -m scripts.notify_email
         continue-on-error: true
 
       - name: Commit
@@ -109,19 +88,3 @@ jobs:
             git commit -m "backfill: ${{ inputs.start_date }} → ${{ inputs.end_date }} [skip ci]"
             git push
           fi
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site/dist
-
-  deploy:
-    needs: backfill
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4

@@ -1,8 +1,27 @@
 {
   "fechas": [
     {
+<<<<<<< HEAD
+      "fecha": "2026-04-26",
+      "total_normas": 26,
+      "alto": 1,
+      "medio": 11,
+      "bajo": 14
+    },
+    {
+      "fecha": "2026-04-24",
+      "total_normas": 67,
+      "alto": 6,
+      "medio": 21,
+      "bajo": 40
+    },
+    {
+      "fecha": "2026-04-13",
+      "total_normas": 0,
+=======
       "fecha": "2026-04-27",
       "total_normas": 16,
+>>>>>>> origin/main
       "alto": 0,
       "medio": 6,
       "bajo": 10
