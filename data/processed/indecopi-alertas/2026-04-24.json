@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-04-24",
+  "source_slug": "indecopi-alertas",
+  "items": [
+    {
+      "id": "4244",
+      "codigo_alerta": "A4244",
+      "titulo": "Vehículos Mercedes Benz G 580 (2025) podrían presentar defectos en tornillos de las ruedas",
+      "sumilla": "Diveimport S.A. informó al Indecopi sobre el llamado a revisión de 2 vehículos Mercedes-Benz modelo G 580 (2025) fabricados en Alemania. Según lo informado, podrían presentarse fallas en los tornillos de las ruedas del vehículo. Así, la unión atornillada de los tornillos y el conjunto de la rueda podrían soltarse mientras el vehículo está en marcha. Esta condición podría comprometer la estabilidad del vehículo, incrementando el riesgo de accidente. Los consumidores pueden contactarse al número (01) 712-2000 o al correo acciondefabrica@divemotor.com.pe.",
+      "fecha_publicacion": "2026-04-24",
+      "categoria": "Vehículos automotores, remolques y semirremolques; y sus partes y accesorios",
+      "url_slug": "vehiculos-mercedes-benz-g-580-2025-podrian-presentar-defectos-en-tornillos-de-las-ruedas",
+      "nombre_producto": "Automóvil",
+      "marca": "Mercedes Benz",
+      "modelo": "G 580 (2025)",
+      "lote": null,
+      "unidades_involucradas": "2",
+      "periodo": "años ",
+      "descripcion_riesgo": "Los tornillos de las ruedas del vehículo podrían no cumplir con los requisitos establecidos por el fabricante.",
+      "descripcion_efectos": "La unión atornillada de los tornillos y el conjunto de la rueda podrían soltarse durante la conducción.\r\nEsta condición podría comprometer la estabilidad del vehículo, incrementando el riesgo de accidente.",
+      "medidas_adoptadas": "El proveedor informó que,  como medida preventiva y gratuita, realizará la revisión de los vehículos involucrados, a fin de sustituir los tornillos de rueda del vehículo.  Actualmente, se encuentra coordinando las gestiones de importación de los repuestos necesarios, lo cual informará oportunamente a los consumidores.",
+      "datos_contacto": "Para más información, los consumidores pueden contactarse al Call Center (01) 712-2000 o al correo acciondefabrica@divemotor.com.pe.",
+      "imagen_url": "/apps/dpc/indecopialertas/files/alerta/4244/imagen/Plantilla de imágenes.jpgPlantilla de imágenes.jpg",
+      "ficha_url": "https://servicio.indecopi.gob.pe/indecopialertasapi/public/alerta/descargarFichaTecnica/4244",
+      "link_oficial": "https://alertasdeconsumo.gob.pe/alertas/vehiculos-mercedes-benz-g-580-2025-podrian-presentar-defectos-en-tornillos-de-las-ruedas",
+      "resumen": "Se alerta sobre 2 vehículos Mercedes-Benz G 580 (2025) debido a posibles fallas en los tornillos de las ruedas. Estos podrían soltarse durante la conducción, comprometiendo la estabilidad y aumentando el riesgo de accidente. Los consumidores afectados deben contactarse con Diveimport S.A. para la revisión y sustitución gratuita de los tornillos.",
+      "impacto": "alto",
+      "impacto_razon": "El defecto en los tornillos de las ruedas de un vehículo puede comprometer seriamente la estabilidad y aumentar el riesgo de accidentes graves.",
+      "tags": [
+        "vehículos",
+        "mercedes benz",
+        "tornillos de rueda",
+        "seguridad vial",
+        "accidente"
+      ],
+      "prompt_version": 1
+    }
+  ],
+  "stats": {
+    "total_alertas": 1,
+    "por_categoria": [
+      [
+        "Vehículos automotores, remolques y semirremolques; y sus partes y accesorios",
+        1
+      ]
+    ]
+  },
+  "generated_at": "2026-04-26T13:47:41.524816Z"
+}

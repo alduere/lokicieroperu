@@ -2,8 +2,8 @@ name: Daily pipeline
 
 on:
   schedule:
-    # 12:00 UTC = 7:00 AM Lima (UTC-5)
-    - cron: "0 12 * * *"
+    # 11:30 UTC = 6:30 AM Lima (UTC-5), lunes a sábado
+    - cron: "30 11 * * 1-6"
   workflow_dispatch:
     inputs:
       target_date:
@@ -13,21 +13,11 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 env:
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-  BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
-  EMAIL_TO: ${{ secrets.EMAIL_TO }}
-  EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-  SITE_BASE_URL: https://alduere.github.io/lokicieroperu
 
 jobs:
   pipeline:
@@ -61,17 +51,6 @@ jobs:
       - name: Install Python deps
         run: uv sync --frozen
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: "npm"
-          cache-dependency-path: site/package-lock.json
-
-      - name: Install site deps
-        working-directory: site
-        run: npm install --no-audit --no-fund
-
       # ── Scrape all sources ──────────────────────────────────────────
       - name: Scrape El Peruano
         run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source elperuano
@@ -90,10 +69,6 @@ jobs:
 
       - name: Scrape Tribunal Fiscal
         run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source tribunal-fiscal
-        continue-on-error: true
-
-      - name: Scrape Noticias
-        run: uv run python -m scripts.scrape --date "${{ steps.target.outputs.value }}" --source noticias
         continue-on-error: true
 
       - name: Scrape Financiero
@@ -120,23 +95,14 @@ jobs:
         run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source tribunal-fiscal
         continue-on-error: true
 
-      - name: Summarize Noticias
-        run: uv run python -m scripts.summarize --date "${{ steps.target.outputs.value }}" --source noticias
-        continue-on-error: true
-
-      # ── Build ───────────────────────────────────────────────────────
-      - name: Build PDFs and Astro site
+      # ── Build PDFs ──────────────────────────────────────────────────
+      - name: Build PDFs
         run: uv run python -m scripts.build
 
       # ── Notify ──────────────────────────────────────────────────────
       - name: Notify Telegram
         if: success()
         run: uv run python -m scripts.notify --date "${{ steps.target.outputs.value }}"
-        continue-on-error: true
-
-      - name: Notify Email (Brevo)
-        if: success() && env.BREVO_API_KEY != ''
-        run: uv run python -m scripts.notify_email --date "${{ steps.target.outputs.value }}"
         continue-on-error: true
 
       # ── Persist ─────────────────────────────────────────────────────
@@ -152,11 +118,6 @@ jobs:
             git push
           fi
 
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site/dist
-
       - name: Notify on failure
         if: failure()
         run: |
@@ -169,14 +130,3 @@ jobs:
               'Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
           )
           " || true
-
-  deploy:
-    needs: pipeline
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4

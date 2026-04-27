@@ -1,0 +1,84 @@
+{
+  "fecha": "2026-04-24",
+  "source_slug": "gaceta-pi",
+  "items": [
+    {
+      "id": "13646-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ALWAYS",
+      "solicitante": "THE PROCTER & GAMBLE COMPANY, de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-24",
+      "fecha_presentacion": "2026-03-06",
+      "fecha_limite_oposicion": "2026-06-08",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "16076-2026/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "PRODEGAS INGENIERÍA QUE CONECTA TUS PROYECTOS CON ENERGÍA",
+      "solicitante": "PROYECTOS Y DESARROLLO EN GAS NATURAL Y GLP S.A.C. - PRODEGAS S.A.C., de Perú",
+      "clase": "37",
+      "fecha_publicacion": "2026-04-24",
+      "fecha_presentacion": "2026-04-20",
+      "fecha_limite_oposicion": "2026-06-08",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "16721-2026/DSD",
+      "tipo_solicitud": "MARCA COLECTIVA",
+      "signo_solicitado": "CHOPCCA PACHA",
+      "solicitante": "ASOCIACION DE PRODUCTORES ARTESANALES Y CONFECCIONES TEXTILES LAS EMPRENDEDORAS DEL CENTRO VILLA TINQUERCCASA, de Perú",
+      "clase": "25",
+      "fecha_publicacion": "2026-04-24",
+      "fecha_presentacion": "2026-03-20",
+      "fecha_limite_oposicion": "2026-06-08",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "16919-2026/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "HEALTH ECONOMIC INDEX",
+      "solicitante": "ZEGARRA CAVERO LUIS ALBERTO, de Perú",
+      "clase": "42",
+      "fecha_publicacion": "2026-04-24",
+      "fecha_presentacion": "2026-03-23",
+      "fecha_limite_oposicion": "2026-06-08",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "17857-2026/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "IMPLEMENTOS EPYSA",
+      "solicitante": "IMPLEMENTOS PERU S.A.C., de Perú",
+      "clase": "35",
+      "fecha_publicacion": "2026-04-24",
+      "fecha_presentacion": "2026-03-24",
+      "fecha_limite_oposicion": "2026-06-08",
+      "descripcion": null,
+      "prompt_version": 0
+    }
+  ],
+  "stats": {
+    "total_solicitudes": 5,
+    "por_tipo": [
+      [
+        "MARCA DE SERVICIO",
+        3
+      ],
+      [
+        "MARCA DE PRODUCTO",
+        1
+      ],
+      [
+        "MARCA COLECTIVA",
+        1
+      ]
+    ]
+  },
+  "generated_at": "2026-04-26T13:47:38.964959Z"
+}

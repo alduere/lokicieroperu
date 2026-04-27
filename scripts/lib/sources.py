@@ -95,6 +95,7 @@ SOURCES: dict[str, SourceConfig] = {
         nombre="Noticias",
         subtitulo="Economía, finanzas y política",
         item_label="noticias",
+        enabled=False,
         scraper_cls="scripts.scrapers.noticias.NoticiasScraper",
         summarizer_cls="scripts.summarizers.noticias.NoticiasSummarizer",
         categorias=[
