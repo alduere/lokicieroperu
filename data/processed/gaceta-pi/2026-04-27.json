@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-04-27",
+  "source_slug": "gaceta-pi",
+  "items": [
+    {
+      "id": "66183-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "BELLI BERRIES",
+      "solicitante": "California Giant, Inc., de Estados Unidos de América",
+      "clase": "31",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_presentacion": "2025-12-15",
+      "fecha_limite_oposicion": "2026-06-09",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "68035-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "STANLEY 1913",
+      "solicitante": "PMI WW Brands, LLC, de Estados Unidos de América",
+      "clase": "21",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_presentacion": "2025-12-23",
+      "fecha_limite_oposicion": "2026-06-09",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "10319-2026/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "LIMA CRIOLLA RESTAURANTE",
+      "solicitante": "SAAVEDRA GUABLOCHE MARISSA GABRIELA, de Perú",
+      "clase": "43",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_presentacion": "2026-02-20",
+      "fecha_limite_oposicion": "2026-06-09",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "10771-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "Fecha de Presentación:",
+      "solicitante": "ZIMMERMANN GONZALES DIEGO, de Perú",
+      "clase": "32",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_presentacion": "2026-02-23",
+      "fecha_limite_oposicion": "2026-06-09",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "11419-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "BIOWELLS BALANCE",
+      "solicitante": "RAMOS SALAS JOSE RAUL, de Perú",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-27",
+      "fecha_presentacion": "2026-02-26",
+      "fecha_limite_oposicion": "2026-06-09",
+      "descripcion": null,
+      "prompt_version": 0
+    }
+  ],
+  "stats": {
+    "total_solicitudes": 5,
+    "por_tipo": [
+      [
+        "MARCA DE PRODUCTO",
+        4
+      ],
+      [
+        "MARCA DE SERVICIO",
+        1
+      ]
+    ]
+  },
+  "generated_at": "2026-04-27T13:15:32.732074Z"
+}
