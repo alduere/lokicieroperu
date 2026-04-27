@@ -1,14 +1,819 @@
 {
   "fecha": "2026-04-13",
-  "normas": [],
-  "documentos": [],
+  "normas": [
+    {
+      "id": "2505211-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "053-2026-PCM",
+      "titulo_oficial": "DECRETO SUPREMO N° 053-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Decreto Supremo que precisa medidas para garantizar el ejercicio del derecho de sufragio en las Elecciones Generales de 2026",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505211-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIxMV8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505211-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Decreto Supremo precisa las medidas para asegurar el ejercicio del derecho al voto en las próximas Elecciones Generales de 2026. Se detallan los procedimientos y garantías necesarios para que los ciudadanos puedan sufragar sin inconvenientes. La norma busca fortalecer la transparencia y legitimidad del proceso electoral. Afecta directamente a la ciudadanía y a los organismos electorales encargados de la organización. Es una medida preparatoria para el evento electoral.",
+      "cambios_clave": [
+        "Precisa medidas para garantizar el sufragio en Elecciones Generales 2026."
+      ],
+      "a_quien_afecta": "Ciudadanía y organismos electorales.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece directrices para un proceso electoral clave, afectando a la ciudadanía y entidades organizadoras.",
+      "sectores": [
+        "gobierno_local",
+        "administracion_publica"
+      ],
+      "tags": [
+        "elecciones",
+        "sufragio",
+        "proceso electoral",
+        "garantias"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505194-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "D000112-2026-MINAM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° D000112-2026-MINAM",
+      "entidad_emisora": "AMBIENTE",
+      "sumilla": "Designan Jefa de la Oficina de Abastecimiento de la Oficina General de Administración del Ministerio del Ambiente",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505194-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE5NF8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505194-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la nueva Jefa de la Oficina de Abastecimiento de la Oficina General de Administración del Ministerio del Ambiente. Este nombramiento es una acción administrativa interna. La persona designada asumirá la responsabilidad de la gestión de recursos y suministros del ministerio. La medida no implica cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Jefa de la Oficina de Abastecimiento del MINAM."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio del Ambiente.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "ambiente",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "abastecimiento",
+        "ministerio del ambiente"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505193-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000103-2026-MC",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000103-2026-MC",
+      "entidad_emisora": "CULTURA",
+      "sumilla": "Designan Directora de Sistema Administrativo III de la Oficina de Cooperación Internacional de la Oficina General de Planeamiento y Presupuesto del Ministerio de Cultura",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505193-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE5M18xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505193-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la nueva Directora de Sistema Administrativo III de la Oficina de Cooperación Internacional del Ministerio de Cultura. Este nombramiento es una acción administrativa interna. La funcionaria designada será responsable de las actividades de cooperación internacional del ministerio. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Directora de Cooperación Internacional del MINCUL."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Cultura.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "cultura",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "cooperacion internacional",
+        "ministerio de cultura"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505206-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "0014-2026-EF/50",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 0014-2026-EF/50.01",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Aprueban Lineamientos para la elaboración de la Línea de Base de la Asignación Presupuestaria",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505206-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwNl8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505206-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueban los lineamientos para la elaboración de la Línea de Base de la Asignación Presupuestaria. Estos lineamientos establecen el marco metodológico y los criterios que las entidades públicas deben seguir para definir el punto de partida de sus presupuestos. El objetivo es mejorar la planificación y el seguimiento del gasto público. Afecta a las entidades del sector público que gestionan asignaciones presupuestarias.",
+      "cambios_clave": [
+        "Aprueban lineamientos para la Línea de Base presupuestaria."
+      ],
+      "a_quien_afecta": "Entidades públicas y administradores presupuestarios.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece directrices para la planificación presupuestaria en el sector público.",
+      "sectores": [
+        "presupuesto_publico",
+        "administracion_publica"
+      ],
+      "tags": [
+        "lineamientos",
+        "presupuesto",
+        "planificacion",
+        "gestion publica"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505199-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "184-2026-EF/49",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 184-2026-EF/49",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Designan Director de la Dirección General de Programación Multianual de Inversiones del Ministerio de Economía y Finanzas",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505199-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE5OV8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505199-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Director de la Dirección General de Programación Multianual de Inversiones del Ministerio de Economía y Finanzas. Este nombramiento es una acción administrativa interna. El funcionario designado será responsable de la planificación de las inversiones públicas a mediano y largo plazo. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Director General de Programación Multianual de Inversiones del MEF."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Economía y Finanzas.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "economia",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "inversion publica",
+        "ministerio de economia"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505143-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "D000076-2026-CONADIS-PRE",
+      "titulo_oficial": "RESOLUCION N° D000076-2026-CONADIS-PRE",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Modifican e incorporan disposiciones a la Res. N° D000001-2026-CONADIS-PRE que delegó facultades a diversos órganos del CONADIS para el ejercicio fiscal 2026",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505143-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE0M18xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505143-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifican e incorporan disposiciones a la resolución que delegó facultades a diversos órganos del CONADIS para el ejercicio fiscal 2026. Estas modificaciones ajustan las competencias delegadas para optimizar la gestión del Consejo Nacional para la Integración de la Persona con Discapacidad. Afecta a los órganos internos del CONADIS y a las personas con discapacidad que interactúan con ellos. Busca mejorar la eficiencia administrativa.",
+      "cambios_clave": [
+        "Modifican delegación de facultades del CONADIS para 2026."
+      ],
+      "a_quien_afecta": "Órganos del CONADIS y personas con discapacidad.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Ajusta la delegación de facultades en un organismo clave para la atención a personas con discapacidad.",
+      "sectores": [
+        "discapacidad",
+        "administracion_publica"
+      ],
+      "tags": [
+        "delegacion de facultades",
+        "conadis",
+        "gestion administrativa"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505202-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000166-2026-MIMP",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000166-2026-MIMP",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Designan Secretario General del Ministerio de la Mujer y Poblaciones Vulnerables",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505202-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwMl8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505202-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Secretario General del Ministerio de la Mujer y Poblaciones Vulnerables. Este nombramiento es una acción administrativa interna. El funcionario designado será responsable de la gestión administrativa y de apoyo a las funciones del ministerio. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Secretario General del MIMP."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de la Mujer y Poblaciones Vulnerables.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "mujer",
+        "discapacidad",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "secretario general",
+        "mimp"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505192-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000094-2026-PRODUCE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000094-2026-PRODUCE",
+      "entidad_emisora": "PRODUCE",
+      "sumilla": "Designan Jefa General de Recursos Humanos de la Oficina General de Recursos Humanos del Ministerio de la Producción",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505192-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE5Ml8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505192-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la nueva Jefa General de Recursos Humanos del Ministerio de la Producción. Este nombramiento es una acción administrativa interna. La funcionaria designada será responsable de la gestión del personal y los procesos de recursos humanos del ministerio. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Jefa de Recursos Humanos del PRODUCE."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de la Producción.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "produccion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "recursos humanos",
+        "produce"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505197-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "186-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 186-2026-MTC/01",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Designan Director Ejecutivo del Programa Nacional de Telecomunicaciones - PRONATEL del Ministerio de Transportes y Comunicaciones",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505197-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE5N18xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505197-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director Ejecutivo del Programa Nacional de Telecomunicaciones (PRONATEL) del Ministerio de Transportes y Comunicaciones. Este nombramiento es una acción administrativa interna. El funcionario designado liderará las iniciativas de desarrollo de telecomunicaciones del programa. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Director Ejecutivo del PRONATEL (MTC)."
+      ],
+      "a_quien_afecta": "Funcionario designado y Programa Nacional de Telecomunicaciones.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro de un programa del ministerio.",
+      "sectores": [
+        "telecomunicaciones",
+        "transporte",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "pronatel",
+        "telecomunicaciones"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505198-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "149-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 149-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Director General de Programas y Proyectos de Vivienda y Urbanismo de la Dirección General de Programas y Proyectos en Vivienda y Urbanismo del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505198-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE5OF8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505198-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director General de Programas y Proyectos de Vivienda y Urbanismo del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. El funcionario designado será responsable de la planificación y ejecución de programas y proyectos en estas áreas. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Director General de Programas de Vivienda y Urbanismo."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "vivienda",
+        "urbanismo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "vivienda",
+        "urbanismo",
+        "ministerio de vivienda"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505200-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "151-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 151-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Director General de Programas y Proyectos de Construcción y Saneamiento de la Dirección General de Programas y Proyectos en Construcción y Saneamiento del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505200-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwMF8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505200-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director General de Programas y Proyectos de Construcción y Saneamiento del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. El funcionario designado será responsable de la planificación y ejecución de programas y proyectos en estas áreas. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Director General de Programas de Construcción y Saneamiento."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "vivienda",
+        "construccion",
+        "agua",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "construccion",
+        "saneamiento",
+        "ministerio de vivienda"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505201-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "141-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 141-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Jefe de Seguridad y Defensa Nacional de la Oficina de Seguridad y Defensa Nacional de la Secretaría General del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505201-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwMV8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505201-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de Seguridad y Defensa Nacional de la Oficina de Seguridad y Defensa Nacional del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. El funcionario designado será responsable de las políticas de seguridad y defensa del ministerio. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Jefe de Seguridad y Defensa Nacional del MVCS."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "vivienda",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "seguridad nacional",
+        "ministerio de vivienda"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505195-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0147-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0147-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Asesora de Vivienda y Urbanismo del Viceministerio de Vivienda y Urbanismo del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505195-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTE5NV8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505195-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Asesora de Vivienda y Urbanismo del Viceministerio de Vivienda y Urbanismo del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. La funcionaria designada brindará apoyo técnico y asesoramiento en temas de vivienda y urbanismo. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Asesora de Vivienda y Urbanismo del MVCS."
+      ],
+      "a_quien_afecta": "Funcionario designado y Viceministerio de Vivienda y Urbanismo.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "vivienda",
+        "urbanismo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "asesor",
+        "vivienda",
+        "urbanismo"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505203-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0143-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0143-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Asesora de Despacho Ministerial del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505203-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwM18xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505203-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Asesora de Despacho Ministerial del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. La funcionaria designada brindará apoyo directo al titular del ministerio en diversas funciones. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Asesora de Despacho Ministerial del MVCS."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "vivienda",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "asesor",
+        "despacho ministerial"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505204-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0145-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0145-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Asesor de Vivienda y Urbanismo del Viceministerio de Vivienda y Urbanismo del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505204-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwNF8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505204-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Asesor de Vivienda y Urbanismo del Viceministerio de Vivienda y Urbanismo del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. El funcionario designado brindará apoyo técnico y asesoramiento en temas de vivienda y urbanismo. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Asesor de Vivienda y Urbanismo del MVCS."
+      ],
+      "a_quien_afecta": "Funcionario designado y Viceministerio de Vivienda y Urbanismo.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "vivienda",
+        "urbanismo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "asesor",
+        "vivienda",
+        "urbanismo"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505207-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "153-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 153-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Directora de Gestión y Coordinación en Construcción y Saneamiento de la Dirección de Gestión y Coordinación en Construcción y Saneamiento de la Dirección General de Programas y Proyectos en Construcción y Saneamiento del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505207-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwN18xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505207-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Directora de Gestión y Coordinación en Construcción y Saneamiento del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. La funcionaria designada será responsable de la gestión y coordinación en estas áreas dentro de la Dirección General de Programas y Proyectos. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Directora de Gestión en Construcción y Saneamiento."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "vivienda",
+        "construccion",
+        "agua",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "gestion",
+        "construccion",
+        "saneamiento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505208-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "154-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 154-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Director Ejecutivo del Programa Nacional de Vivienda Rural del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505208-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwOF8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505208-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director Ejecutivo del Programa Nacional de Vivienda Rural del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. El funcionario designado liderará las acciones del programa enfocado en la vivienda rural. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Director Ejecutivo del Programa Nacional de Vivienda Rural."
+      ],
+      "a_quien_afecta": "Funcionario designado y Programa Nacional de Vivienda Rural.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro de un programa del ministerio.",
+      "sectores": [
+        "vivienda",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "vivienda rural",
+        "programa nacional"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505209-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "156-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 156-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Directora de Gestión Ambiental de la Dirección de Gestión Ambiental de la Dirección General de Asuntos Ambientales del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505209-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwOV8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505209-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Directora de Gestión Ambiental de la Dirección General de Asuntos Ambientales del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. La funcionaria designada será responsable de las políticas y acciones de gestión ambiental del ministerio. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Directora de Gestión Ambiental del MVCS."
+      ],
+      "a_quien_afecta": "Funcionario designado y Ministerio de Vivienda, Construcción y Saneamiento.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del ministerio.",
+      "sectores": [
+        "ambiente",
+        "vivienda",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "gestion ambiental",
+        "ministerio de vivienda"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505210-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "158-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 158-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Director Ejecutivo del Programa Generación de Suelo Urbano del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505210-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIxMF8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505210-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director Ejecutivo del Programa Generación de Suelo Urbano del Ministerio de Vivienda, Construcción y Saneamiento. Este nombramiento es una acción administrativa interna. El funcionario designado liderará las acciones del programa enfocado en la generación de suelo urbano. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Director Ejecutivo del Programa Generación de Suelo Urbano."
+      ],
+      "a_quien_afecta": "Funcionario designado y Programa Generación de Suelo Urbano.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro de un programa del ministerio.",
+      "sectores": [
+        "vivienda",
+        "urbanismo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "suelo urbano",
+        "programa"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505205-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000096-2026-INGEMMET/PE",
+      "titulo_oficial": "RESOLUCION N° 000096-2026-INGEMMET/PE",
+      "entidad_emisora": "INSTITUTO GEOLÓGICO MINERO Y METALÚRGICO",
+      "sumilla": "Designan Coordinador/a de Geología y Laboratorio del Instituto Geológico Minero y Metalúrgico - INGEMMET",
+      "fecha_publicacion": "2026-04-13",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505205-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTIwNV8xMjAyNjA0MTM=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/2505205-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Coordinador/a de Geología y Laboratorio del Instituto Geológico, Minero y Metalúrgico (INGEMMET). Este nombramiento es una acción administrativa interna. El/la funcionario/a designado/a será responsable de la supervisión de las actividades de geología y laboratorio de la institución. La medida no genera cambios regulatorios ni afecta a terceros.",
+      "cambios_clave": [
+        "Designan Coordinador/a de Geología y Laboratorio del INGEMMET."
+      ],
+      "a_quien_afecta": "Funcionario designado y el INGEMMET.",
+      "vigencia": "Desde su publicación (13/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario en un cargo específico dentro del instituto.",
+      "sectores": [
+        "mineria",
+        "geologia",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "geologia",
+        "laboratorio",
+        "ingemmet"
+      ],
+      "prompt_version": 2
+    }
+  ],
+  "documentos": [
+    {
+      "seccion": "boletin_oficial",
+      "edicion": "12941",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQxMw==",
+      "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/_BO20260413_Portada.jpg"
+    },
+    {
+      "seccion": "casaciones",
+      "edicion": "945",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Q0EyMDI2MDQxMw==",
+      "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/13/_CA20260413_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504331-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504331_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504331_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504486-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504486_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504486_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504529-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504529_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504529_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504658-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504658_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504658_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504722-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504722_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504722_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504730-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504730_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504730_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504756-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504756_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504756_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504801-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504801_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504801_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504912-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504912_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504912_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504918-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504918_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504918_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504928-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504928_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504928_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504934-1",
+      "fecha_publicacion": "2026-04-13",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/13/2504934_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/13/2504934_1_Portada.jpg"
+    }
+  ],
   "stats": {
-    "total_normas": 0,
+    "total_normas": 20,
     "alto": 0,
-    "medio": 0,
-    "bajo": 0,
-    "sectores_top": [],
-    "documentos_otras_secciones": 0
+    "medio": 3,
+    "bajo": 17,
+    "sectores_top": [
+      [
+        "administracion_publica",
+        20
+      ],
+      [
+        "vivienda",
+        10
+      ],
+      [
+        "urbanismo",
+        4
+      ],
+      [
+        "ambiente",
+        2
+      ],
+      [
+        "discapacidad",
+        2
+      ],
+      [
+        "construccion",
+        2
+      ]
+    ],
+    "documentos_otras_secciones": 14
   },
-  "generated_at": "2026-04-13T03:08:59.471085Z"
+  "generated_at": "2026-04-13T12:55:39.714080Z"
 }

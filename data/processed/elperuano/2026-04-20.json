@@ -1,0 +1,716 @@
+{
+  "fecha": "2026-04-20",
+  "normas": [
+    {
+      "id": "2507545-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "069-2026-SENAMHI/PREJ",
+      "titulo_oficial": "RESOLUCION N° 069-2026-SENAMHI/PREJ",
+      "entidad_emisora": "AMBIENTE",
+      "sumilla": "Designan asesor de Alta Dirección para la Presidencia Ejecutiva del SENAMHI",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507545-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU0NV8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507545-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a un asesor de Alta Dirección para la Presidencia Ejecutiva del Servicio Nacional de Meteorología e Hidrología (SENAMHI). Esta designación recae en un profesional específico para apoyar las funciones de la alta dirección.",
+      "cambios_clave": [
+        "Designación de asesor de Alta Dirección en el SENAMHI."
+      ],
+      "a_quien_afecta": "Al funcionario designado y al SENAMHI.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "asesor",
+        "senamhi"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507577-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0128-2026-MIDAGRI",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0128-2026-MIDAGRI",
+      "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
+      "sumilla": "Crean Grupo de Trabajo Multisectorial para realizar evaluación preliminar de viabilidad técnica económica y social de las Represas Ascope 1 Ascope 2 (Cuenca del río Chicama La Libertad) y La Calzada (río La Leche Lambayeque) y elaborar propuesta de soluciones a las iniciativas de represamiento",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507577-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3N18xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507577-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se crea un Grupo de Trabajo Multisectorial encargado de evaluar la viabilidad técnica, económica y social de dos proyectos de represas en La Libertad y Lambayeque. El grupo deberá proponer soluciones para estas iniciativas de represamiento hídrico.",
+      "cambios_clave": [
+        "Creación de grupo de trabajo para evaluar represas.",
+        "Evaluación de viabilidad de proyectos hídricos."
+      ],
+      "a_quien_afecta": "Al MIDAGRI, gobiernos regionales y empresas vinculadas a la gestión hídrica.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece un grupo de trabajo para evaluar proyectos de infraestructura hídrica relevantes.",
+      "sectores": [
+        "agua",
+        "agricultura",
+        "gobierno_regional"
+      ],
+      "tags": [
+        "grupo de trabajo",
+        "represas",
+        "viabilidad",
+        "hidrico"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507569-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000083-2026-MIDIS/FONCODES/DE",
+      "titulo_oficial": "RESOLUCION N° 000083-2026-MIDIS/FONCODES/DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Asesora de la Dirección Ejecutiva del FONCODES",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507569-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU2OV8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507569-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a una profesional como Asesora de la Dirección Ejecutiva del Fondo de Cooperación para el Desarrollo Social (FONCODES). Esta designación busca fortalecer la gestión de la entidad.",
+      "cambios_clave": [
+        "Designación de Asesora de Dirección Ejecutiva en FONCODES."
+      ],
+      "a_quien_afecta": "Al funcionario designado y al FONCODES.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "asesora",
+        "foncodes"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507570-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000085-2026-MIDIS/FONCODES/DE",
+      "titulo_oficial": "RESOLUCION N° 000085-2026-MIDIS/FONCODES/DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Coordinadora de la Unidad de Planeamiento Presupuesto y Modernización del FONCODES",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507570-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3MF8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507570-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a una profesional como Coordinadora de la Unidad de Planeamiento, Presupuesto y Modernización del Fondo de Cooperación para el Desarrollo Social (FONCODES). El objetivo es optimizar la planificación y gestión presupuestaria.",
+      "cambios_clave": [
+        "Designación de Coordinadora de Planeamiento en FONCODES."
+      ],
+      "a_quien_afecta": "Al funcionario designado y al FONCODES.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "designacion",
+        "coordinadora",
+        "planeamiento",
+        "foncodes"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507576-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "D000116-2026-MIDIS",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° D000116-2026-MIDIS",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Director de la Dirección de Articulación de las Prestaciones Sociales de la Dirección General de Articulación de las Prestaciones Sociales del Ministerio",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507576-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3Nl8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507576-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a un Director en la Dirección de Articulación de las Prestaciones Sociales del Ministerio de Desarrollo e Inclusión Social (MIDIS). Este nombramiento es clave para la gestión de políticas sociales.",
+      "cambios_clave": [
+        "Designación de Director en el MIDIS."
+      ],
+      "a_quien_afecta": "Al funcionario designado y al MIDIS.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "inclusion_social"
+      ],
+      "tags": [
+        "designacion",
+        "director",
+        "midis"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507578-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "0016-2026-EF/50",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 0016-2026-EF/50.01",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Resolución Directorial que aprueba los resultados finales del cumplimiento de las metas del Programa de Incentivos a la Mejora de la Gestión Municipal (PI) correspondiente al año 2025",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507578-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3OF8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507578-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueban los resultados finales del cumplimiento de metas del Programa de Incentivos a la Mejora de la Gestión Municipal (PI) para el año 2025. Estos resultados son la base para futuras asignaciones y reconocimientos a municipalidades.",
+      "cambios_clave": [
+        "Aprobación de resultados finales del PI 2025.",
+        "Reconocimiento a la gestión municipal."
+      ],
+      "a_quien_afecta": "A las municipalidades provinciales y distritales del país.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Evalúa y reconoce la gestión de municipalidades a nivel nacional.",
+      "sectores": [
+        "gobierno_local",
+        "economia"
+      ],
+      "tags": [
+        "gestion municipal",
+        "incentivos",
+        "resultados",
+        "municipalidades"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507573-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "065-2026-PRONIS-CG",
+      "titulo_oficial": "RESOLUCION N° 065-2026-PRONIS-CG",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Designan jefa de la Sub Unidad de Tesorería de la Unidad de Administración y Finanzas del Programa Nacional de Inversiones en Salud",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507573-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3M18xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507573-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a una jefa para la Sub Unidad de Tesorería de la Unidad de Administración y Finanzas del Programa Nacional de Inversiones en Salud (PRONIS). La designación busca asegurar la correcta gestión financiera.",
+      "cambios_clave": [
+        "Designación de jefa de Sub Unidad de Tesorería en PRONIS."
+      ],
+      "a_quien_afecta": "Al funcionario designado y al PRONIS.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "salud"
+      ],
+      "tags": [
+        "designacion",
+        "tesoreria",
+        "pronis"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507568-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION VICE MINISTERIAL",
+      "tipo_corto": "RES",
+      "numero": "0021-2026-MTC/03",
+      "titulo_oficial": "RESOLUCION VICE MINISTERIAL N° 0021-2026-MTC/03",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Modifican la R.VM. N° 332-2005-MTC/03 que aprobó los Planes de Canalización y Asignación de Frecuencias del Servicio de Radiodifusión por Televisión en VHF de las localidades del departamento de Junín",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507568-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU2OF8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507568-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifican los Planes de Canalización y Asignación de Frecuencias del Servicio de Radiodifusión por Televisión en VHF para localidades de Junín. Estos ajustes son necesarios para la adecuada prestación del servicio.",
+      "cambios_clave": [
+        "Modificación de planes de frecuencias de TV en Junín.",
+        "Actualización de asignación de canales VHF."
+      ],
+      "a_quien_afecta": "A los radiodifusores de televisión en el departamento de Junín.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Afecta la operación y planificación de canales de televisión en una región específica.",
+      "sectores": [
+        "telecomunicaciones",
+        "medios_comunicacion"
+      ],
+      "tags": [
+        "frecuencias",
+        "television",
+        "junin",
+        "radiodifusion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507574-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000045-2026-IRTP-JE",
+      "titulo_oficial": "RESOLUCION N° 000045-2026-IRTP-JE",
+      "entidad_emisora": "INSTITUTO NACIONAL DE RADIO Y TELEVISIÓN DEL PERÚ",
+      "sumilla": "Designan Jefe de la Oficina de Administración del IRTP",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507574-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3NF8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507574-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de la Oficina de Administración del Instituto Nacional de Radio y Televisión del Perú (IRTP). Este nombramiento es fundamental para la gestión administrativa y financiera de la entidad.",
+      "cambios_clave": [
+        "Designación de Jefe de Oficina de Administración en el IRTP."
+      ],
+      "a_quien_afecta": "Al funcionario designado y al IRTP.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "medios_comunicacion"
+      ],
+      "tags": [
+        "designacion",
+        "administracion",
+        "irtp"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507572-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000058-2026-P/IPD",
+      "titulo_oficial": "RESOLUCION N° 000058-2026-P/IPD",
+      "entidad_emisora": "INSTITUTO PERUANO DEL DEPORTE",
+      "sumilla": "Autorizan transferencia financiera del Instituto Peruano del Deporte – IPD a favor de la Organización Deportiva Panamericana - Panam Sports y dictan otras disposiciones",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507572-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3Ml8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507572-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una transferencia financiera del Instituto Peruano del Deporte (IPD) a favor de Panam Sports. Esta medida permite cumplir con compromisos internacionales y organizar eventos deportivos.",
+      "cambios_clave": [
+        "Autorización de transferencia financiera al IPD.",
+        "Apoyo a Panam Sports."
+      ],
+      "a_quien_afecta": "Al IPD, Panam Sports y al sector deportivo.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Implica una transferencia de fondos públicos para la organización deportiva internacional.",
+      "sectores": [
+        "deporte",
+        "administracion_publica"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "ipd",
+        "panam sports",
+        "deporte"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507575-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000064-2026-PROMPERU/PE",
+      "titulo_oficial": "RESOLUCION N° 000064-2026-PROMPERU/PE",
+      "entidad_emisora": "COMISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMO",
+      "sumilla": "Designan Asesor 2 de la Gerencia General de PROMPERÚ",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507575-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3NV8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507575-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a un Asesor 2 de la Gerencia General de PROMPERÚ. Esta designación busca reforzar el equipo directivo para la promoción de exportaciones y turismo.",
+      "cambios_clave": [
+        "Designación de Asesor 2 en la Gerencia General de PROMPERÚ."
+      ],
+      "a_quien_afecta": "Al funcionario designado y a PROMPERÚ.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "comercio_exterior",
+        "turismo"
+      ],
+      "tags": [
+        "designacion",
+        "asesor",
+        "promperu"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507295-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION ADMINISTRATIVA",
+      "tipo_corto": "RA",
+      "numero": "000044-2026-P-CE-PJ",
+      "titulo_oficial": "RESOLUCION ADMINISTRATIVA N° 000044-2026-P-CE-PJ",
+      "entidad_emisora": "CONSEJO EJECUTIVO DEL PODER JUDICIAL",
+      "sumilla": "Autorizan viaje de jueza suprema provisional para participar en evento que se realizará en Colombia",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507295-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzI5NV8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507295-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de una jueza suprema provisional a Colombia para participar en un evento. La participación busca fortalecer la cooperación judicial internacional y el intercambio de experiencias.",
+      "cambios_clave": [
+        "Autorización de viaje para jueza suprema a Colombia."
+      ],
+      "a_quien_afecta": "A la jueza suprema provisional y al Poder Judicial.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de una funcionaria judicial.",
+      "sectores": [
+        "justicia",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje oficial",
+        "jueza",
+        "colombia",
+        "poder judicial"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507209-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0462-2026-UNTRM/CU",
+      "titulo_oficial": "RESOLUCION N° 0462-2026-UNTRM/CU",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Autorizan viaje de estudiante de la Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas al Reino de Suecia en comisión de servicios",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507209-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzIwOV8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507209-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de un estudiante de la Universidad Nacional Toribio Rodríguez de Mendoza de Amazonas a Suecia en comisión de servicios. El viaje permitirá al estudiante participar en actividades académicas o de investigación.",
+      "cambios_clave": [
+        "Autorización de viaje para estudiante a Suecia."
+      ],
+      "a_quien_afecta": "Al estudiante y a la Universidad Nacional Toribio Rodríguez de Mendoza.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un estudiante universitario.",
+      "sectores": [
+        "educacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje",
+        "estudiante",
+        "suecia",
+        "universidad"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507571-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION JEFATURAL",
+      "tipo_corto": "RJ",
+      "numero": "000044-2026/JNAC/RENIEC",
+      "titulo_oficial": "RESOLUCION JEFATURAL N° 000044-2026/JNAC/RENIEC",
+      "entidad_emisora": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+      "sumilla": "Designan Jefe de la Unidad de Gestión de Personal de la Oficina de Potencial Humano del RENIEC",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507571-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzU3MV8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507571-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de la Unidad de Gestión de Personal de la Oficina de Potencial Humano del Registro Nacional de Identificación y Estado Civil (RENIEC). El nombramiento es para asegurar la correcta administración del personal.",
+      "cambios_clave": [
+        "Designación de Jefe de Unidad de Gestión de Personal en RENIEC."
+      ],
+      "a_quien_afecta": "Al funcionario designado y al RENIEC.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "migraciones"
+      ],
+      "tags": [
+        "designacion",
+        "gestion de personal",
+        "reniec"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507234-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "3196-2026-GTVT/MPC",
+      "titulo_oficial": "RESOLUCION N° 3196-2026-GTVT/MPC",
+      "entidad_emisora": "MUNICIPALIDAD PROVINCIAL DEL CUSCO",
+      "sumilla": "Declaran el cumplimiento de notificación de 8 resoluciones gerenciales que declaran sancionar a administrados",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507234-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzIzNF8xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507234-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara el cumplimiento de notificación de 8 resoluciones gerenciales de la Municipalidad Provincial del Cusco que sancionan a administrados. Esto formaliza la notificación de sanciones administrativas.",
+      "cambios_clave": [
+        "Cumplimiento de notificación de 8 resoluciones sancionadoras.",
+        "Sanciones administrativas en Cusco."
+      ],
+      "a_quien_afecta": "A los 8 administrados sancionados y a la Municipalidad Provincial del Cusco.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Declara el cumplimiento de notificaciones de sanciones administrativas previas.",
+      "sectores": [
+        "gobierno_local",
+        "justicia"
+      ],
+      "tags": [
+        "notificacion",
+        "sancion",
+        "municipalidad cusco"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507237-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "3226-2026-GTVT/MPC",
+      "titulo_oficial": "RESOLUCION N° 3226-2026-GTVT/MPC",
+      "entidad_emisora": "MUNICIPALIDAD PROVINCIAL DEL CUSCO",
+      "sumilla": "Declaran el cumplimiento de notificación de 32 resoluciones gerenciales que declaran el inicio del procedimiento administrativo sancionador (PAS)",
+      "fecha_publicacion": "2026-04-20",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507237-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzIzN18xMjAyNjA0MjA=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/2507237-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara el cumplimiento de notificación de 32 resoluciones gerenciales de la Municipalidad Provincial del Cusco que inician procedimientos administrativos sancionadores (PAS). Esto formaliza el inicio de procesos contra administrados.",
+      "cambios_clave": [
+        "Cumplimiento de notificación de 32 inicios de PAS.",
+        "Procedimientos sancionadores en Cusco."
+      ],
+      "a_quien_afecta": "A los 32 administrados y a la Municipalidad Provincial del Cusco.",
+      "vigencia": "Desde su publicación (20/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Declara el cumplimiento de notificaciones de inicio de procedimientos administrativos sancionadores.",
+      "sectores": [
+        "gobierno_local",
+        "justicia"
+      ],
+      "tags": [
+        "notificacion",
+        "procedimiento administrativo",
+        "sancionador",
+        "municipalidad cusco"
+      ],
+      "prompt_version": 2
+    }
+  ],
+  "documentos": [
+    {
+      "seccion": "boletin_oficial",
+      "edicion": "12948",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQyMA==",
+      "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/20/_BO20260420_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2506772-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2506772_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2506772_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507165-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507165_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507165_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507165-2",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507165_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507165_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507165-3",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507165_3.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507165_3_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507166-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507166_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507166_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507179-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507179_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507179_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507193-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507193_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507193_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507195-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507195_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507195_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507206-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507206_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507206_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507210-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507210_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507210_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507210-2",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507210_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507210_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507213-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507213_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507213_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507236-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507236_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507236_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507236-2",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507236_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507236_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507243-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507243_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507243_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507251-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507251_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507251_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507288-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507288_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507288_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507322-1",
+      "fecha_publicacion": "2026-04-20",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/20/2507322_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/20/2507322_1_Portada.jpg"
+    }
+  ],
+  "stats": {
+    "total_normas": 16,
+    "alto": 0,
+    "medio": 4,
+    "bajo": 12,
+    "sectores_top": [
+      [
+        "administracion_publica",
+        11
+      ],
+      [
+        "gobierno_local",
+        3
+      ],
+      [
+        "justicia",
+        3
+      ],
+      [
+        "medios_comunicacion",
+        2
+      ],
+      [
+        "agua",
+        1
+      ],
+      [
+        "agricultura",
+        1
+      ]
+    ],
+    "documentos_otras_secciones": 19
+  },
+  "generated_at": "2026-04-20T13:03:05.743223Z"
+}

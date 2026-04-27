@@ -1,12 +1,72 @@
 {
   "fechas": [
     {
+<<<<<<< HEAD
       "fecha": "2026-04-24",
       "total_solicitudes": 5
     },
     {
       "fecha": "2026-04-13",
+=======
+      "fecha": "2026-04-27",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-26",
+>>>>>>> origin/main
       "total_solicitudes": 0
+    },
+    {
+      "fecha": "2026-04-25",
+      "total_solicitudes": 0
+    },
+    {
+      "fecha": "2026-04-24",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-23",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-22",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-21",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-20",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-19",
+      "total_solicitudes": 0
+    },
+    {
+      "fecha": "2026-04-18",
+      "total_solicitudes": 0
+    },
+    {
+      "fecha": "2026-04-17",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-16",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-15",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-14",
+      "total_solicitudes": 5
+    },
+    {
+      "fecha": "2026-04-13",
+      "total_solicitudes": 5
     },
     {
       "fecha": "2026-04-12",

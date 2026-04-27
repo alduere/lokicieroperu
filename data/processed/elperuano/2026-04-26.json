@@ -15,9 +15,15 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg2MF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509860-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se designa al nuevo Jefe de la Unidad de Tecnologías de la Información del Programa de Mejor Atención al Ciudadano (MAC). Este puesto es clave para la gestión y operación de los servicios tecnológicos del programa.",
       "cambios_clave": [
         "Designación de Jefe de Unidad de TI en el Programa MAC"
+=======
+      "resumen_ejecutivo": "Se designa al nuevo Jefe de la Unidad de Tecnologías de la Información del Programa de Mejor Atención al Ciudadano (MAC). Este puesto es clave para la gestión y el soporte tecnológico de los servicios ofrecidos a la ciudadanía a través de los MAC. La designación recae en un funcionario específico para asegurar la continuidad y eficiencia en las operaciones de TI. La medida responde a la necesidad de optimizar la infraestructura tecnológica del programa.",
+      "cambios_clave": [
+        "Designación de Jefe de Unidad de Tecnologías de la Información en el Programa MAC."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "Al Programa de Mejor Atención al Ciudadano (MAC) y al funcionario designado.",
       "vigencia": "Desde su publicación (26/04/2026)",
@@ -47,6 +53,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg2MV8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509861-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje de un servidor del Instituto Nacional de Investigación y Capacitación de Recursos Hídricos (INAIGEM) a Austria. El propósito es participar en una comisión de servicios, probablemente relacionada con la gestión o investigación de recursos hídricos.",
       "cambios_clave": [
         "Autorización de viaje a Austria para servidor del INAIGEM"
@@ -57,12 +64,30 @@
       "impacto_razon": "Autorización de viaje individual de un servidor público.",
       "sectores": [
         "agua",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje de un servidor del Instituto Nacional de Investigación y Capacitación Agraria (INAIGEM) a Austria. El propósito es participar en una comisión de servicios, probablemente para fines de investigación, capacitación o colaboración internacional en materia agraria. Esta autorización es necesaria para que el servidor pueda cumplir con las actividades encomendadas en el extranjero. La norma detalla los pormenores del viaje y su justificación.",
+      "cambios_clave": [
+        "Autorización de viaje de servidor del INAIGEM a Austria."
+      ],
+      "a_quien_afecta": "Al servidor del INAIGEM y al Instituto Nacional de Investigación y Capacitación Agraria.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para comisión de servicios.",
+      "sectores": [
+        "agricultura",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
         "viaje",
+<<<<<<< HEAD
         "recursos hidricos",
         "austria"
+=======
+        "inaigem",
+        "austria",
+        "comision de servicios"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -80,6 +105,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg2Ml8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509862-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se crea el Concurso de Preincubación para un Turismo Innovador, denominado 'Emprende Turismo TEC'. Esta iniciativa busca fomentar la innovación y el emprendimiento en el sector turístico a través de un concurso.",
       "cambios_clave": [
         "Creación del Concurso de Preincubación 'Emprende Turismo TEC'"
@@ -97,6 +123,26 @@
         "innovacion",
         "turismo",
         "emprendimiento"
+=======
+      "resumen_ejecutivo": "Se crea el Concurso de Preincubación para un Turismo Innovador, denominado 'Emprende Turismo TEC'. Esta iniciativa busca fomentar la innovación y el emprendimiento en el sector turístico, probablemente a través de la tecnología. El objetivo es impulsar nuevas ideas y proyectos que mejoren la oferta turística del país. La creación de este concurso es un paso para dinamizar el sector y promover la competitividad.",
+      "cambios_clave": [
+        "Creación del Concurso de Preincubación 'Emprende Turismo TEC'."
+      ],
+      "a_quien_afecta": "A emprendedores, startups y actores del sector turístico interesados en innovación.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Crea una nueva iniciativa para fomentar el emprendimiento en un sector clave.",
+      "sectores": [
+        "turismo",
+        "mype",
+        "tecnologia"
+      ],
+      "tags": [
+        "concurso",
+        "turismo innovador",
+        "emprendimiento",
+        "tecnologia"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -114,6 +160,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTcxMF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509710-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se inicia el procedimiento para el saneamiento físico legal del bien inmueble prehispánico 'Huayrayna', ubicado en Huánuco. El objetivo es regularizar la situación legal y posesión del sitio arqueológico.",
       "cambios_clave": [
         "Inicio de saneamiento físico legal de inmueble prehispánico Huayrayna"
@@ -131,6 +178,26 @@
         "inmueble",
         "arqueologia",
         "huanuco"
+=======
+      "resumen_ejecutivo": "Se inicia el procedimiento de saneamiento físico-legal del bien inmueble prehispánico 'Huayrayna', ubicado en Huánuco. Este proceso busca formalizar y registrar adecuadamente la propiedad y características del sitio arqueológico. El saneamiento es fundamental para su protección, conservación y posible puesta en valor. La medida es un paso administrativo para asegurar la correcta identificación y delimitación del bien cultural.",
+      "cambios_clave": [
+        "Inicio de saneamiento físico-legal del inmueble prehispánico Huayrayna."
+      ],
+      "a_quien_afecta": "Al Ministerio de Cultura, al Gobierno Regional de Huánuco y a la ciudadanía.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Inicia un procedimiento legal para la protección de un bien cultural prehispánico.",
+      "sectores": [
+        "cultura",
+        "gobierno_regional",
+        "urbanismo"
+      ],
+      "tags": [
+        "saneamiento fisico legal",
+        "inmueble prehispánico",
+        "huánuco",
+        "cultura"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -148,6 +215,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg3Nl8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509876-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje del Presidente y Secretario de la Federación Deportiva Militar del Perú (FEDEMILPE) al Principado de Mónaco. La comisión de servicios está relacionada con actividades deportivas militares.",
       "cambios_clave": [
         "Autorización de viaje a Mónaco para directivos de FEDEMILPE"
@@ -159,12 +227,31 @@
       "sectores": [
         "defensa",
         "deporte",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje a Mónaco del Presidente y Secretario de la Federación Deportiva Militar del Perú (FEDEMILPE). La comisión de servicios tiene como objetivo representar a la federación en eventos o actividades internacionales. Esta autorización es necesaria para que los representantes militares puedan cumplir con sus funciones en el extranjero. La norma especifica los detalles del viaje y su justificación.",
+      "cambios_clave": [
+        "Autorización de viaje de directivos de FEDEMILPE a Mónaco."
+      ],
+      "a_quien_afecta": "Al Presidente y Secretario de la FEDEMILPE y a la Federación Deportiva Militar.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para representación institucional.",
+      "sectores": [
+        "defensa",
+        "deportes",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
         "viaje",
+<<<<<<< HEAD
         "deporte militar",
         "monaco"
+=======
+        "fedemilpe",
+        "monaco",
+        "comision de servicios"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -182,22 +269,37 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTgyOF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509828-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se designa al nuevo Jefe de la Unidad de Recursos Humanos del Programa Nacional de Asistencia Solidaria Pensión 65. Este nombramiento es para asegurar la correcta gestión del personal del programa social.",
       "cambios_clave": [
         "Designación de Jefe de Unidad de RRHH en Pensión 65"
+=======
+      "resumen_ejecutivo": "Se designa al nuevo Jefe de la Unidad de Recursos Humanos del Programa Nacional de Asistencia Solidaria Pensión 65. Este nombramiento es crucial para la gestión del personal y los procesos administrativos del programa social. La designación busca asegurar la correcta administración de los recursos humanos que apoyan a los beneficiarios. La medida es parte de la estructura organizacional del programa.",
+      "cambios_clave": [
+        "Designación de Jefe de Unidad de Recursos Humanos en Pensión 65."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "Al Programa Pensión 65 y al funcionario designado.",
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
+<<<<<<< HEAD
       "impacto_razon": "Designación interna de un funcionario público.",
+=======
+      "impacto_razon": "Designación interna de un funcionario dentro de un programa social.",
+>>>>>>> origin/main
       "sectores": [
         "desarrollo_social",
         "administracion_publica"
       ],
       "tags": [
         "designacion",
+<<<<<<< HEAD
         "recursos humanos",
         "pension 65"
+=======
+        "pension 65",
+        "recursos humanos"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -215,14 +317,24 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg2OV8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509869-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje de personal policial a Argentina para participar en una comisión de servicios. La naturaleza exacta de la comisión no se especifica, pero se relaciona con funciones policiales o de seguridad.",
       "cambios_clave": [
         "Autorización de viaje de personal policial a Argentina"
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje de personal policial a Argentina en comisión de servicios. El propósito es probablemente la participación en capacitaciones, conferencias o actividades de cooperación policial internacional. Esta autorización permite al personal policial cumplir con misiones específicas en el extranjero, fortaleciendo la colaboración y el intercambio de experiencias. La norma detalla los pormenores del viaje.",
+      "cambios_clave": [
+        "Autorización de viaje de personal policial a Argentina."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "Al personal policial autorizado y al Ministerio del Interior.",
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
+<<<<<<< HEAD
       "impacto_razon": "Autorización de viaje individual de miembros de la policía.",
+=======
+      "impacto_razon": "Autorización de viaje individual para personal de seguridad en comisión de servicios.",
+>>>>>>> origin/main
       "sectores": [
         "policia",
         "interior",
@@ -231,7 +343,12 @@
       "tags": [
         "viaje",
         "policia",
+<<<<<<< HEAD
         "argentina"
+=======
+        "argentina",
+        "comision de servicios"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -249,6 +366,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg2OF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509868-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se aprueba el Manual de Operaciones del Programa Nacional de Bienes Incautados (PRONABI). Este manual detalla los procedimientos y la estructura funcional para la gestión de bienes incautados por el Estado.",
       "cambios_clave": [
         "Aprobación del Manual de Operaciones del PRONABI"
@@ -260,6 +378,20 @@
       "sectores": [
         "justicia",
         "administracion_publica"
+=======
+      "resumen_ejecutivo": "Se aprueba el Manual de Operaciones (MOP) del Programa Nacional de Bienes Incautados (PRONABI). Este manual establece las funciones, estructura y procedimientos operativos del programa, que se encarga de la administración y disposición de bienes incautados. La aprobación del MOP es esencial para la correcta ejecución de las actividades del PRONABI y para garantizar la transparencia en la gestión de dichos bienes. La norma actualiza o formaliza el marco operativo.",
+      "cambios_clave": [
+        "Aprobación del Manual de Operaciones del PRONABI."
+      ],
+      "a_quien_afecta": "Al Programa Nacional de Bienes Incautados (PRONABI) y a sus funcionarios.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Aprueba el marco operativo de una entidad encargada de bienes incautados.",
+      "sectores": [
+        "justicia",
+        "administracion_publica",
+        "contraloria"
+>>>>>>> origin/main
       ],
       "tags": [
         "manual de operaciones",
@@ -282,6 +414,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTYxMV8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509611-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje de inspectores de la Dirección General de Aeronáutica Civil (DGAC) a Paraguay. La comisión de servicios está vinculada a la supervisión y fiscalización aeronáutica internacional.",
       "cambios_clave": [
         "Autorización de viaje de inspectores de la DGAC a Paraguay"
@@ -290,6 +423,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Autorización de viaje individual de funcionarios de una entidad regulatoria.",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje de inspectores de la Dirección General de Aeronáutica Civil (DGAC) a Paraguay. La comisión de servicios tiene como objetivo supervisar o evaluar aspectos relacionados con la aviación civil en el marco de acuerdos bilaterales o internacionales. Esta autorización es necesaria para que los inspectores puedan realizar sus funciones de fiscalización y control en el extranjero. La norma detalla los pormenores del viaje.",
+      "cambios_clave": [
+        "Autorización de viaje de inspectores de la DGAC a Paraguay."
+      ],
+      "a_quien_afecta": "A inspectores de la DGAC y a la Dirección General de Aeronáutica Civil.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para fiscalización en el sector aeronáutico.",
+>>>>>>> origin/main
       "sectores": [
         "transporte",
         "aeronautica",
@@ -297,9 +440,15 @@
       ],
       "tags": [
         "viaje",
+<<<<<<< HEAD
         "aeronautica",
         "inspeccion",
         "paraguay"
+=======
+        "dgac",
+        "paraguay",
+        "aeronautica"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -317,6 +466,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTUwMl8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509502-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se delegan facultades específicas a un integrante del equipo de comunicaciones de la Dirección Ejecutiva de la Agencia Peruana de Cooperación Internacional (APCI). Esto permite agilizar ciertas gestiones comunicacionales.",
       "cambios_clave": [
         "Delegación de facultades en equipo de comunicaciones de APCI"
@@ -325,14 +475,30 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Delegación interna de funciones administrativas.",
+=======
+      "resumen_ejecutivo": "Se delegan facultades específicas a un integrante del equipo de comunicaciones de la Dirección Ejecutiva de la Agencia Peruana de Cooperación Internacional (APCI). Esta delegación permite al servidor actuar en nombre de la Dirección en ciertas materias relacionadas con la comunicación institucional. El objetivo es agilizar la gestión y la toma de decisiones en el área de comunicaciones. La norma precisa el alcance de las facultades delegadas.",
+      "cambios_clave": [
+        "Delegan facultades de comunicación en la APCI."
+      ],
+      "a_quien_afecta": "Al equipo de comunicaciones de la APCI y al servidor receptor de la delegación.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Delega facultades internas de comunicación en un organismo de cooperación.",
+>>>>>>> origin/main
       "sectores": [
         "relaciones_exteriores",
         "administracion_publica"
       ],
       "tags": [
+<<<<<<< HEAD
         "delegacion",
         "comunicaciones",
         "apci"
+=======
+        "delegacion de facultades",
+        "apci",
+        "comunicaciones"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -350,14 +516,24 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTUwN18xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509507-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se designa a la nueva Jefa de la Oficina de Asesoría Jurídica de la Agencia Peruana de Cooperación Internacional (APCI). Este nombramiento es para asegurar la conducción legal del organismo.",
       "cambios_clave": [
         "Designación de Jefa de Asesoría Jurídica en APCI"
+=======
+      "resumen_ejecutivo": "Se designa a la nueva Jefa de la Oficina de Asesoría Jurídica de la Agencia Peruana de Cooperación Internacional (APCI). Este nombramiento es fundamental para asegurar la correcta orientación legal y el soporte en la toma de decisiones de la institución. La designación recae en una profesional para garantizar la eficiencia en la gestión de asuntos legales. La medida fortalece la estructura directiva de la APCI.",
+      "cambios_clave": [
+        "Designación de Jefa de Oficina de Asesoría Jurídica en la APCI."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "A la Agencia Peruana de Cooperación Internacional (APCI) y a la funcionaria designada.",
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
+<<<<<<< HEAD
       "impacto_razon": "Designación interna de un cargo directivo.",
+=======
+      "impacto_razon": "Designación interna de un funcionario en un organismo de cooperación internacional.",
+>>>>>>> origin/main
       "sectores": [
         "relaciones_exteriores",
         "justicia",
@@ -365,8 +541,13 @@
       ],
       "tags": [
         "designacion",
+<<<<<<< HEAD
         "asesoria juridica",
         "apci"
+=======
+        "apci",
+        "asesoria juridica"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -384,6 +565,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg3N18xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509877-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se dispone la asignación de vehículos oficiales de uso exclusivo para el cumplimiento de funciones institucionales del Despacho Presidencial. El objetivo es optimizar la logística y seguridad de las operaciones.",
       "cambios_clave": [
         "Asignación de vehículos oficiales de uso exclusivo para el Despacho Presidencial"
@@ -392,14 +574,29 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "medio",
       "impacto_razon": "Regula el uso de recursos logísticos del más alto nivel de gobierno.",
+=======
+      "resumen_ejecutivo": "Se dispone la asignación de vehículos oficiales de uso exclusivo para el cumplimiento de funciones institucionales. Esta medida busca optimizar el uso de los recursos móviles del Estado y asegurar que estén disponibles para las tareas esenciales. La asignación se realiza para garantizar la eficiencia operativa y la continuidad de las labores. La norma establece los criterios para dicha asignación.",
+      "cambios_clave": [
+        "Asignación de vehículos oficiales para funciones institucionales."
+      ],
+      "a_quien_afecta": "A las entidades públicas que utilizan vehículos oficiales y a sus funcionarios.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Regula la asignación y uso de vehículos oficiales, afectando la administración pública.",
+>>>>>>> origin/main
       "sectores": [
         "administracion_publica",
         "transporte"
       ],
       "tags": [
         "vehiculos oficiales",
+<<<<<<< HEAD
         "despacho presidencial",
         "logistica"
+=======
+        "asignacion",
+        "funciones institucionales"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -417,6 +614,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg2M18xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509863-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se aprueba el programa de transferencias mensuales de recursos del Fondo de Compensación Social Eléctrica (FISE) para el Mecanismo de Compensación de la Tarifa Eléctrica Residencial. Estas transferencias se realizarán a las distribuidoras eléctricas hasta agosto de 2026, conforme a la Ley N° 30468.",
       "cambios_clave": [
         "Aprobación de transferencias FISE para compensación de tarifa eléctrica"
@@ -429,12 +627,30 @@
         "energia",
         "economia",
         "presupuesto_publico"
+=======
+      "resumen_ejecutivo": "Se aprueba el programa de transferencias mensuales de recursos del Fondo de Compensación Social Eléctrica (FISE) para el Mecanismo de Compensación de la Tarifa Eléctrica Residencial. Estas transferencias se realizarán entre mayo y agosto de 2026 a las distribuidoras eléctricas. La medida se basa en la Ley N° 30468 y busca asegurar que los hogares de menores recursos accedan a tarifas eléctricas asequibles. La norma detalla los montos y periodos de las transferencias.",
+      "cambios_clave": [
+        "Aprueba transferencias del FISE para compensación de tarifa eléctrica."
+      ],
+      "a_quien_afecta": "A las distribuidoras eléctricas y a los usuarios del servicio eléctrico residencial de bajos recursos.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Afecta la política de subsidios eléctricos y el acceso a tarifas asequibles para miles de hogares.",
+      "sectores": [
+        "energia",
+        "electricidad",
+        "economia"
+>>>>>>> origin/main
       ],
       "tags": [
         "fise",
         "tarifa electrica",
         "subsidio",
+<<<<<<< HEAD
         "transferencia financiera"
+=======
+        "distribuidoras electricas"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -452,6 +668,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ3NF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509474-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se designan a las nuevas directoras de la Dirección de Evaluación y Acreditación del Coneau y de la Dirección de Capacitación, Selección y Supervisión del Coneau. Estos nombramientos son para asegurar la gestión de la calidad educativa.",
       "cambios_clave": [
         "Designación de Directoras en el Coneau (Evaluación y Capacitación)"
@@ -460,15 +677,31 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "medio",
       "impacto_razon": "Designación de cargos directivos en entidad responsable de la acreditación educativa.",
+=======
+      "resumen_ejecutivo": "Se designan a las nuevas Directoras de la Dirección de Evaluación y Acreditación del Coneau y de la Dirección de Capacitación, Selección y Supervisión del Coneau. Estos nombramientos son cruciales para el funcionamiento del Sistema Nacional de Evaluación, Acreditación y Certificación de la Calidad Educativa (SINEACE). Las nuevas directoras serán responsables de áreas clave para asegurar la calidad educativa en el país. La medida fortalece la estructura directiva del SINEACE.",
+      "cambios_clave": [
+        "Designan Directoras en áreas clave del SINEACE (Coneau)."
+      ],
+      "a_quien_afecta": "Al SINEACE, al Coneau y a las profesionales designadas.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Designa directivos en un organismo clave para la calidad educativa.",
+>>>>>>> origin/main
       "sectores": [
         "educacion",
         "administracion_publica"
       ],
       "tags": [
         "designacion",
+<<<<<<< HEAD
         "coneau",
         "acreditacion",
         "educacion"
+=======
+        "sineace",
+        "coneau",
+        "calidad educativa"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -486,6 +719,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTU3NF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509574-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje de servidores de la SUNAT a República Dominicana para participar en la 60ª Asamblea General del Centro Interamericano de Administraciones Tributarias (CIAT). El objetivo es el intercambio de experiencias y cooperación en materia tributaria.",
       "cambios_clave": [
         "Autorización de viaje de servidores de SUNAT a República Dominicana para Asamblea CIAT"
@@ -494,6 +728,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Autorización de viaje de funcionarios para evento internacional.",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje de servidores de la SUNAT a República Dominicana para participar en la 60ª Asamblea General del CIAT (Centro Interamericano de Administraciones Tributarias). El objetivo es asistir a este importante evento internacional para discutir temas tributarios y de administración fiscal. Esta participación fortalece la colaboración y el intercambio de experiencias con otras administraciones tributarias de la región. La norma detalla los pormenores del viaje.",
+      "cambios_clave": [
+        "Autorizan viaje de servidores de SUNAT a República Dominicana para Asamblea CIAT."
+      ],
+      "a_quien_afecta": "A servidores de la SUNAT y a la propia Superintendencia Nacional de Aduanas y de Administración Tributaria.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje para participación en evento internacional de administración tributaria.",
+>>>>>>> origin/main
       "sectores": [
         "tributacion",
         "administracion_publica",
@@ -521,18 +765,32 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ1OF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509458-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza una Transferencia Financiera a favor de la Contraloría General de la República. Esta transferencia es para financiar gastos operativos o proyectos específicos de la Contraloría.",
       "cambios_clave": [
         "Autorización de Transferencia Financiera a favor de la Contraloría General"
+=======
+      "resumen_ejecutivo": "Se autoriza una Transferencia Financiera a favor de la Contraloría General de la República. Esta transferencia de fondos es necesaria para financiar actividades o gastos específicos de la Contraloría, probablemente relacionados con sus funciones de supervisión y control. La medida asegura que la Contraloría cuente con los recursos necesarios para el cumplimiento de sus objetivos institucionales. La norma detalla el monto y la finalidad de la transferencia.",
+      "cambios_clave": [
+        "Autorizan transferencia financiera a favor de la Contraloría General."
+>>>>>>> origin/main
       ],
       "a_quien_afecta": "A la SUNAT (como transferente) y a la Contraloría General de la República (como receptora).",
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "medio",
+<<<<<<< HEAD
       "impacto_razon": "Implica un movimiento de fondos públicos entre entidades estatales.",
       "sectores": [
         "contraloria",
         "presupuesto_publico",
         "tributacion"
+=======
+      "impacto_razon": "Implica una transferencia de recursos públicos entre entidades del Estado.",
+      "sectores": [
+        "contraloria",
+        "presupuesto_publico",
+        "administracion_publica"
+>>>>>>> origin/main
       ],
       "tags": [
         "transferencia financiera",
@@ -555,6 +813,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg3NV8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509875-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se designa al nuevo Intendente Regional de Arequipa de la Superintendencia Nacional de Fiscalización Laboral (SUNAFIL). Este nombramiento es para asegurar la correcta supervisión de las normas laborales en la región.",
       "cambios_clave": [
         "Designación de Intendente Regional de Arequipa en SUNAFIL"
@@ -563,6 +822,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "medio",
       "impacto_razon": "Designación de un cargo clave para la fiscalización laboral a nivel regional.",
+=======
+      "resumen_ejecutivo": "Se designa al nuevo Intendente Regional de Arequipa de la Superintendencia Nacional de Fiscalización Laboral (SUNAFIL). Este nombramiento es crucial para la supervisión y el cumplimiento de las normativas laborales en la región de Arequipa. La designación busca fortalecer la capacidad de fiscalización y garantizar la protección de los derechos de los trabajadores. La medida es parte de la estructura orgánica de SUNAFIL.",
+      "cambios_clave": [
+        "Designan Intendente Regional de Arequipa de la SUNAFIL."
+      ],
+      "a_quien_afecta": "A la SUNAFIL, a su Intendencia Regional de Arequipa y al funcionario designado.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Designa a un alto funcionario responsable de la fiscalización laboral en una región.",
+>>>>>>> origin/main
       "sectores": [
         "trabajo",
         "administracion_publica",
@@ -590,6 +859,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTg1NV8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509855-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se designan a la nueva Asesora de Gerencia General y al Director General de la Oficina General de Gestión de las Personas de SUSALUD. Estos nombramientos buscan fortalecer la gestión administrativa y de personal de la institución.",
       "cambios_clave": [
         "Designación de Asesora de Gerencia General y Director de Gestión de Personas en SUSALUD"
@@ -598,6 +868,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Designación interna de cargos directivos en una entidad pública.",
+=======
+      "resumen_ejecutivo": "Se designan a la Asesora de Gerencia General y al Director General de la Oficina General de Gestión de las Personas de SUSALUD. Estos nombramientos son importantes para la gestión administrativa y de recursos humanos de la Superintendencia Nacional de Salud. Las nuevas designaciones buscan fortalecer la estructura directiva y asegurar la eficiencia en la administración de personal. La medida es parte de la organización interna de SUSALUD.",
+      "cambios_clave": [
+        "Designan Asesora de Gerencia y Director de Gestión de Personas en SUSALUD."
+      ],
+      "a_quien_afecta": "A SUSALUD y a las profesionales designadas.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de funcionarios en la Superintendencia Nacional de Salud.",
+>>>>>>> origin/main
       "sectores": [
         "salud",
         "administracion_publica"
@@ -623,6 +903,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQxMV8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509411-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje de un estudiante de la Escuela de Posgrado de la Universidad Nacional Toribio Rodríguez de Mendoza (UNTRM) a Alemania. La comisión de servicios está relacionada con estudios de posgrado o investigación.",
       "cambios_clave": [
         "Autorización de viaje de estudiante de UNTRM a Alemania"
@@ -631,16 +912,32 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Autorización de viaje individual de un estudiante para fines académicos.",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje de un estudiante de la Escuela de Posgrado de la Universidad Nacional Toribio Rodríguez de Mendoza (UNTRM) a Alemania. El propósito es participar en una comisión de servicios, probablemente para realizar estudios de investigación o especialización. Esta autorización es necesaria para que el estudiante pueda cumplir con sus actividades académicas en el extranjero. La norma detalla los pormenores del viaje y su justificación académica.",
+      "cambios_clave": [
+        "Autorizan viaje de estudiante de la UNTRM a Alemania."
+      ],
+      "a_quien_afecta": "Al estudiante de posgrado de la UNTRM y a la Universidad Nacional Toribio Rodríguez de Mendoza.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para un estudiante en comisión de servicios académicos.",
+>>>>>>> origin/main
       "sectores": [
         "educacion",
         "administracion_publica"
       ],
       "tags": [
         "viaje",
+<<<<<<< HEAD
         "estudiante",
         "posgrado",
         "alemania",
         "untrm"
+=======
+        "untrm",
+        "alemania",
+        "estudiante"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -658,6 +955,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQxNF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509414-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje de un estudiante de la Escuela de Posgrado de la Universidad Nacional Toribio Rodríguez de Mendoza (UNTRM) a Colombia. La comisión de servicios se vincula a actividades académicas o de investigación.",
       "cambios_clave": [
         "Autorización de viaje de estudiante de UNTRM a Colombia"
@@ -666,16 +964,32 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Autorización de viaje individual de un estudiante para fines académicos.",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje de un estudiante de la Escuela de Posgrado de la Universidad Nacional Toribio Rodríguez de Mendoza (UNTRM) a Colombia. El propósito es participar en una comisión de servicios, probablemente para realizar estudios de investigación o especialización. Esta autorización es necesaria para que el estudiante pueda cumplir con sus actividades académicas en el extranjero. La norma detalla los pormenores del viaje y su justificación académica.",
+      "cambios_clave": [
+        "Autorizan viaje de estudiante de la UNTRM a Colombia."
+      ],
+      "a_quien_afecta": "Al estudiante de posgrado de la UNTRM y a la Universidad Nacional Toribio Rodríguez de Mendoza.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para un estudiante en comisión de servicios académicos.",
+>>>>>>> origin/main
       "sectores": [
         "educacion",
         "administracion_publica"
       ],
       "tags": [
         "viaje",
+<<<<<<< HEAD
         "estudiante",
         "posgrado",
         "colombia",
         "untrm"
+=======
+        "untrm",
+        "colombia",
+        "estudiante"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -693,6 +1007,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA4M18xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2508083-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje de autoridades y equipo técnico de la Universidad Nacional de San Martín (UNSM) a Brasil. La comisión de servicios está orientada a proyectos de investigación o cooperación.",
       "cambios_clave": [
         "Autorización de viaje de autoridades y equipo técnico de UNSM a Brasil"
@@ -701,16 +1016,32 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Autorización de viaje de un grupo de funcionarios para fines institucionales.",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje de autoridades y equipo técnico de la Universidad Nacional de San Martín (UNSM) a Brasil. La comisión de servicios tiene como objetivo participar en actividades relacionadas con proyectos de investigación o cooperación académica. Esta autorización es necesaria para que los representantes de la UNSM puedan cumplir con sus funciones en el extranjero. La norma detalla los pormenores del viaje y su justificación.",
+      "cambios_clave": [
+        "Autorizan viaje de autoridades y equipo técnico de la UNSM a Brasil."
+      ],
+      "a_quien_afecta": "A autoridades y equipo técnico de la UNSM y a la Universidad Nacional de San Martín.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje grupal para representación académica y de proyectos.",
+>>>>>>> origin/main
       "sectores": [
         "educacion",
         "administracion_publica"
       ],
       "tags": [
         "viaje",
+<<<<<<< HEAD
         "universidad",
         "investigacion",
         "brasil",
         "unsm"
+=======
+        "unsm",
+        "brasil",
+        "autoridades"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -728,6 +1059,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODUzMF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2508530-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se autoriza el viaje del Director de la Oficina de Cooperación y Relaciones Internacionales de la Universidad Nacional de San Martín (UNSM) a los EE.UU. La comisión de servicios busca fortalecer lazos internacionales y de cooperación académica.",
       "cambios_clave": [
         "Autorización de viaje de Director de Relaciones Internacionales de UNSM a EE.UU."
@@ -736,6 +1068,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "bajo",
       "impacto_razon": "Autorización de viaje individual de un funcionario para fines de cooperación.",
+=======
+      "resumen_ejecutivo": "Se autoriza el viaje del Director de la Oficina de Cooperación y Relaciones Internacionales de la Universidad Nacional de San Martín (UNSM) a los EE.UU. La comisión de servicios tiene como objetivo fortalecer lazos de cooperación y explorar nuevas oportunidades de colaboración internacional para la universidad. Esta autorización es necesaria para que el director pueda cumplir con sus funciones en el extranjero. La norma detalla los pormenores del viaje.",
+      "cambios_clave": [
+        "Autorizan viaje de Director de Relaciones Internacionales de la UNSM a EE.UU."
+      ],
+      "a_quien_afecta": "Al Director de la Oficina de Cooperación y Relaciones Internacionales de la UNSM y a la Universidad Nacional de San Martín.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para un directivo en funciones de cooperación internacional.",
+>>>>>>> origin/main
       "sectores": [
         "educacion",
         "relaciones_exteriores",
@@ -743,10 +1085,16 @@
       ],
       "tags": [
         "viaje",
+<<<<<<< HEAD
         "universidad",
         "cooperacion internacional",
         "ee.uu.",
         "unsm"
+=======
+        "unsm",
+        "eeuu",
+        "cooperacion internacional"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -764,6 +1112,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ2MF8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509460-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se declara electo a un Consejero Regional como Presidente del Consejo Regional del Gobierno Regional de Tacna para el periodo legislativo 2026. Este acuerdo formaliza la elección de la máxima autoridad del consejo.",
       "cambios_clave": [
         "Declaración de elección de Presidente del Consejo Regional de Tacna"
@@ -772,6 +1121,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "medio",
       "impacto_razon": "Define la conducción política de un gobierno regional.",
+=======
+      "resumen_ejecutivo": "Se declara electo a un Consejero Regional como Presidente del Consejo Regional del Gobierno Regional de Tacna para el periodo legislativo 2026. Esta elección formaliza la conducción del órgano de gobierno regional para el próximo año. La decisión recae en un miembro del consejo, cumpliendo con los procedimientos establecidos. La norma oficializa la designación del máximo representante del consejo.",
+      "cambios_clave": [
+        "Declaran electo a Consejero Regional como Presidente del Consejo Regional de Tacna."
+      ],
+      "a_quien_afecta": "Al Consejo Regional de Tacna y al Consejero Regional electo como Presidente.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Formaliza la elección de la máxima autoridad del gobierno regional.",
+>>>>>>> origin/main
       "sectores": [
         "gobierno_regional",
         "administracion_publica"
@@ -798,6 +1157,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ2M18xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2509463-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se declara electo a un Consejero Regional como Vicepresidente del Consejo Regional del Gobierno Regional de Tacna para el periodo legislativo 2026. Este acuerdo formaliza la elección del segundo cargo directivo del consejo.",
       "cambios_clave": [
         "Declaración de elección de Vicepresidente del Consejo Regional de Tacna"
@@ -806,6 +1166,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "medio",
       "impacto_razon": "Define la segunda autoridad del consejo de un gobierno regional.",
+=======
+      "resumen_ejecutivo": "Se declara electo a un Consejero Regional como Vicepresidente del Consejo Regional del Gobierno Regional de Tacna para el periodo legislativo 2026. Esta elección formaliza la segunda autoridad del órgano de gobierno regional. La decisión recae en un miembro del consejo, cumpliendo con los procedimientos establecidos. La norma oficializa la designación del Vicepresidente del consejo.",
+      "cambios_clave": [
+        "Declaran electo a Consejero Regional como Vicepresidente del Consejo Regional de Tacna."
+      ],
+      "a_quien_afecta": "Al Consejo Regional de Tacna y al Consejero Regional electo como Vicepresidente.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Formaliza la elección de la segunda autoridad del gobierno regional.",
+>>>>>>> origin/main
       "sectores": [
         "gobierno_regional",
         "administracion_publica"
@@ -832,6 +1202,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTk3M18xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2505973-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se aprueba el Manual de Operaciones (MOP) del Programa Regional de Infraestructura Multisectorial (PRIM) del Gobierno Regional de Ucayali. Este manual establece las directrices para la ejecución y gestión de proyectos de infraestructura.",
       "cambios_clave": [
         "Aprobación del Manual de Operaciones del PRIM del Gobierno Regional de Ucayali"
@@ -843,13 +1214,31 @@
       "sectores": [
         "gobierno_regional",
         "construccion",
+=======
+      "resumen_ejecutivo": "Se aprueba el Manual de Operaciones (MOP) del Programa Regional de Infraestructura Multisectorial (PRIM) del Gobierno Regional de Ucayali. Este manual establece la estructura, funciones y procedimientos del programa, que busca mejorar la infraestructura en diversos sectores de la región. La aprobación del MOP es esencial para la correcta ejecución y gestión de los proyectos de infraestructura. La norma formaliza el marco operativo del PRIM.",
+      "cambios_clave": [
+        "Aprueban el Manual de Operaciones del Programa Regional de Infraestructura Multisectorial (PRIM) de Ucayali."
+      ],
+      "a_quien_afecta": "Al Gobierno Regional de Ucayali, al programa PRIM y a los beneficiarios de infraestructura.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Aprueba el marco operativo de un programa regional de infraestructura.",
+      "sectores": [
+        "gobierno_regional",
+        "construccion",
+        "vivienda",
+>>>>>>> origin/main
         "administracion_publica"
       ],
       "tags": [
         "manual de operaciones",
         "infraestructura",
         "ucayali",
+<<<<<<< HEAD
         "gobierno regional"
+=======
+        "programa regional"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     },
@@ -867,6 +1256,7 @@
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjI0Nl8xMjAyNjA0MjY=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/26/2506246-1_Portada.jpg",
       "edicion_extraordinaria": false,
+<<<<<<< HEAD
       "resumen_ejecutivo": "Se aprueba el Texto Único de Procedimientos Administrativos (TUPA) del Instituto Municipal de Planeamiento de Arequipa (IMPLA). Este documento consolida y actualiza todos los trámites y servicios que ofrece dicha entidad edil. La norma es de interés para ciudadanos y empresas que interactúan con el IMPLA para gestiones urbanísticas y de planeamiento. Reemplaza o actualiza procedimientos administrativos previamente establecidos por la entidad.",
       "cambios_clave": [
         "Aprueba el Texto Único de Procedimientos Administrativos (TUPA) del IMPLA."
@@ -875,6 +1265,16 @@
       "vigencia": "Desde su publicación (26/04/2026)",
       "impacto": "medio",
       "impacto_razon": "Modifica el catálogo de procedimientos administrativos de una entidad municipal clave para el desarrollo urbano.",
+=======
+      "resumen_ejecutivo": "Se aprueba el Texto Único de Procedimientos Administrativos (TUPA) del Instituto Municipal de Planeamiento de Arequipa (IMPLA). Este documento consolida y actualiza todos los trámites y servicios que ofrece dicha entidad municipal. La aprobación del TUPA es un requisito para la gestión administrativa y la transparencia en los servicios ofrecidos a los ciudadanos. La norma actualiza el marco de procedimientos del IMPLA, reemplazando versiones anteriores.",
+      "cambios_clave": [
+        "Aprueba el Texto Único de Procedimientos Administrativos (TUPA) del IMPLA."
+      ],
+      "a_quien_afecta": "Ciudadanos y empresas que realicen trámites ante el IMPLA de Arequipa.",
+      "vigencia": "Desde su publicación (26/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Actualiza y consolida los procedimientos administrativos de una entidad municipal clave.",
+>>>>>>> origin/main
       "sectores": [
         "gobierno_local",
         "urbanismo"
@@ -883,7 +1283,11 @@
         "tupa",
         "procedimientos administrativos",
         "arequipa",
+<<<<<<< HEAD
         "planeamiento"
+=======
+        "impla"
+>>>>>>> origin/main
       ],
       "prompt_version": 2
     }
@@ -947,7 +1351,15 @@
     "sectores_top": [
       [
         "administracion_publica",
+<<<<<<< HEAD
         20
+=======
+        21
+      ],
+      [
+        "gobierno_regional",
+        5
+>>>>>>> origin/main
       ],
       [
         "educacion",
@@ -958,10 +1370,13 @@
         4
       ],
       [
+<<<<<<< HEAD
         "gobierno_regional",
         4
       ],
       [
+=======
+>>>>>>> origin/main
         "urbanismo",
         2
       ],
@@ -972,5 +1387,9 @@
     ],
     "documentos_otras_secciones": 7
   },
+<<<<<<< HEAD
   "generated_at": "2026-04-26T13:35:35.012544Z"
+=======
+  "generated_at": "2026-04-26T12:39:16.204997Z"
+>>>>>>> origin/main
 }

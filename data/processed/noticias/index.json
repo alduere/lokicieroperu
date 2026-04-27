@@ -1,10 +1,120 @@
 {
   "fechas": [
     {
-      "fecha": "2026-04-13",
+      "fecha": "2026-04-27",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-26",
       "total_noticias": 17,
       "fuentes_activas": [
         "andina"
+      ]
+    },
+    {
+      "fecha": "2026-04-25",
+      "total_noticias": 20,
+      "fuentes_activas": [
+        "andina"
+      ]
+    },
+    {
+      "fecha": "2026-04-24",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-23",
+      "total_noticias": 24,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-22",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-21",
+      "total_noticias": 23,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-20",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-19",
+      "total_noticias": 13,
+      "fuentes_activas": [
+        "andina"
+      ]
+    },
+    {
+      "fecha": "2026-04-18",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-17",
+      "total_noticias": 23,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-16",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-15",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-14",
+      "total_noticias": 22,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
+      ]
+    },
+    {
+      "fecha": "2026-04-13",
+      "total_noticias": 21,
+      "fuentes_activas": [
+        "andina",
+        "rpp"
       ]
     },
     {

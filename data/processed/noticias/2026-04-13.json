@@ -2,306 +2,254 @@
   "fecha": "2026-04-13",
   "noticias": [
     {
-      "id": "andina-b2878a3001ed",
-      "titulo": "Misión de la OEA saluda decisión que permite a ciudadanos votar mañana",
+      "id": "andina-2943cbb5da62",
+      "titulo": "Rafael Aguirre este 22 de abril en el Teatro Municipal junto a la orquesta Teresa Quesada",
       "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-mision-de-oea-saluda-decision-permite-a-ciudadanos-votar-manana-1071011.aspx",
-      "fecha": "2026-04-13T02:56:54Z",
-      "contenido": "La Misión de Observación Electoral (MOE) de la Organización de los Estados Americanos (OEA) en el Perú, encabezada por Víctor Rico Frontaura, saludó las medidas oportunas adoptadas por el Jurado Nacional de Elecciones (JNE) a solicitud de la Oficina Nacional de Procesos Electorales (ONPE) para garantizar el derecho al voto de los ciudadanos que no pudieron ejercerlo durante la jornada de hoy en Lima.",
+      "url": "https://andina.pe/agencia/noticia-rafael-aguirre-este-22-abril-el-teatro-municipal-junto-a-orquesta-teresa-quesada-1071036.aspx",
+      "fecha": "2026-04-13T12:50:28Z",
+      "contenido": "Este 22 de abril regresa a la escena clásica local Rafael Aguirre, consolidando en Lima una trayectoria que lo ha llevado a las principales salas de Europa, Estados Unidos y Asia.",
       "fuente_display": "Andina",
-      "resumen": "La Misión de Observación Electoral (MOE) de la OEA en Perú saludó las medidas del JNE y ONPE para garantizar el voto de ciudadanos que no pudieron ejercerlo el domingo. La decisión permite que estos electores voten en una fecha posterior.",
+      "resumen": "El músico Rafael Aguirre se presentará el 22 de abril en el Teatro Municipal de Lima junto a la orquesta Teresa Quesada. Aguirre ha consolidado una trayectoria internacional presentándose en importantes salas de Europa, Estados Unidos y Asia.",
+      "categoria": "Economía",
+      "tags": [
+        "música",
+        "cultura",
+        "lima",
+        "orquesta"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-68536faa26de",
+      "titulo": "Elecciones 2026: se inicia comicios en 13 locales de Lima que no instalaron mesas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-se-inicia-comicios-13-locales-lima-no-instalaron-mesas-1071035.aspx",
+      "fecha": "2026-04-13T12:45:07Z",
+      "contenido": "El proceso de elecciones generales se inició en 13 locales de votación en la ciudad de Lima, en las que no se pudieron instalar las mesa de sufragio en la víspera.",
+      "fuente_display": "Andina",
+      "resumen": "Se iniciaron comicios en 13 locales de votación en Lima que no habían instalado sus mesas de sufragio previamente. El proceso electoral busca asegurar el derecho al voto de los ciudadanos.",
       "categoria": "Política",
       "tags": [
-        "oea",
-        "jne",
-        "onpe",
         "elecciones",
+        "lima",
+        "mesas de sufragio",
+        "proceso electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-07e533afc635",
+      "titulo": "Britney Spears ingresa a rehabilitación tras arresto",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-britney-spears-ingresa-a-rehabilitacion-tras-arresto-1071039.aspx",
+      "fecha": "2026-04-13T12:44:36Z",
+      "contenido": "La superestrella pop Britney Spears se internó en un centro de rehabilitación tras ser arrestada el mes pasado bajo sospecha de conducir alcoholizada, informaron el domingo varios medios estadounidenses.",
+      "fuente_display": "Andina",
+      "resumen": "La superestrella pop Britney Spears se ha internado en un centro de rehabilitación. La decisión se da tras ser arrestada el mes pasado bajo sospecha de conducir en estado de ebriedad.",
+      "categoria": "Política",
+      "tags": [
+        "celebridades",
+        "rehabilitación",
+        "arresto",
+        "música"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3415aa3dad5f",
+      "titulo": "León XIV dice que no tiene \"intención de entrar en un debate\" con Trump",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-leon-xiv-dice-no-tiene-intencion-entrar-un-debate-trump-1071041.aspx",
+      "fecha": "2026-04-13T12:36:57Z",
+      "contenido": "El papa León XIV afirmó este lunes que no tiene \"la intención de entrar en un debate\" con Donald Trump, en respuesta a las críticas del presidente estadounidense.",
+      "fuente_display": "Andina",
+      "resumen": "El papa León XIV declaró que no tiene intención de debatir con Donald Trump. La afirmación surge como respuesta a las críticas vertidas por el presidente estadounidense.",
+      "categoria": "Política",
+      "tags": [
+        "vaticano",
+        "donald trump",
+        "política internacional",
+        "religión"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-c14e25854b5f",
+      "titulo": "Miss Universo 2025 visitará Ica y conocerá el oasis de Huacachina y el Santuario de Luren",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-miss-universo-2025-visitara-ica-y-conocera-oasis-huacachina-y-santuario-luren-1070531.aspx",
+      "fecha": "2026-04-13T12:34:36Z",
+      "contenido": "Las autoridades de Ica avanzan con los preparativos para la visita que realizará esta semana a esta región del sur del Perú, la mexicana Fátima Bosch, elegida Miss Universo el año pasado, programando actividades que incluirán su participación en un corso por la ciudad, navegar por la laguna de la Huacachina y asistir al Santuario del Señor de Luren.",
+      "fuente_display": "Andina",
+      "resumen": "La Miss Universo 2025, Fátima Bosch, visitará Ica esta semana. Su agenda incluye un corso por la ciudad, un paseo por la laguna de Huacachina y una visita al Santuario del Señor de Luren.",
+      "categoria": "Política",
+      "tags": [
+        "miss universo",
+        "ica",
+        "turismo",
+        "cultura"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1651d50d22f9",
+      "titulo": "Alta Dirección de Fonafe reafirma compromiso con el desarrollo de la industria naval",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-alta-direccion-fonafe-reafirma-compromiso-con-desarrollo-de-industria-naval-1071037.aspx",
+      "fecha": "2026-04-13T12:33:29Z",
+      "contenido": "Reafirmando su compromiso con el crecimiento y la modernización de las empresas del Estado, la Alta Dirección de la Corporación Fonafe realizó ayer una visita a las instalaciones de SIMA Perú en su sede del Callao.",
+      "fuente_display": "Andina",
+      "resumen": "La Alta Dirección de Fonafe reafirmó su compromiso con el desarrollo de la industria naval. Dicha reafirmación se dio durante una visita a las instalaciones de SIMA Perú en el Callao.",
+      "categoria": "Economía",
+      "tags": [
+        "fonafe",
+        "sima perú",
+        "industria naval",
+        "empresas del estado"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-40a9b8c0806c",
+      "titulo": "Perú desfiló con orgullo en la inauguración de los Suramericanos de la Juventud Panamá",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-desfilo-orgullo-la-inauguracion-los-suramericanos-de-juventud-panama-1071040.aspx",
+      "fecha": "2026-04-13T12:30:41Z",
+      "contenido": "Con el entusiasmo de dejar en alto el nombre del Perú, la delegación nacional desfiló en la ceremonia de inauguración de los IV Juegos Suramericanos de la Juventud Panamá 2026, que se realizó en el Estadio Rommel Fernández.",
+      "fuente_display": "Andina",
+      "resumen": "La delegación peruana desfiló con orgullo en la ceremonia de inauguración de los IV Juegos Suramericanos de la Juventud Panamá 2026. El evento deportivo busca promover la participación juvenil en el continente.",
+      "categoria": "Política",
+      "tags": [
+        "deportes",
+        "juegos suramericanos",
+        "panamá",
+        "juventud"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-300dc7d6d121",
+      "titulo": "Kimberly García: \"Quiero dedicar esta victoria en el Mundial a todos los peruanos\"",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-kimberly-garcia-quiero-dedicar-esta-victoria-el-mundial-a-todos-los-peruanos-1071034.aspx",
+      "fecha": "2026-04-13T12:16:29Z",
+      "contenido": "Tras obtener el campeonato mundial de la Media Maratón de Marcha Atlética en Brasil, la deportista nacional Kimberly García dedicó su título máximo a todo los peruanos y aseguró que su sueño olímpico de la infancia sigue vivo.",
+      "fuente_display": "Andina",
+      "resumen": "La deportista Kimberly García dedicó su reciente victoria en el campeonato mundial de Marcha Atlética a todos los peruanos. García aseguró que su sueño olímpico de infancia sigue vigente.",
+      "categoria": "Política",
+      "tags": [
+        "atletismo",
+        "marcha atlética",
+        "deportista peruana",
+        "mundial"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3072cf5996e2",
+      "titulo": "Estas son las normas legales más importantes del lunes 13 de abril del 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-estas-son-las-normas-legales-mas-importantes-del-lunes-13-abril-del-2026-1071033.aspx",
+      "fecha": "2026-04-13T12:07:38Z",
+      "contenido": "El boletín Normas Legales del Diario Oficial El Peruano difunde una serie de dispositivos de interés público y de impacto para la marcha del país. Conoce a continuación cuáles son las normas legales más relevantes de hoy.",
+      "fuente_display": "Andina",
+      "resumen": "El Diario Oficial El Peruano publicó normas legales de interés público y de impacto nacional este lunes 13 de abril. El boletín Normas Legales contiene dispositivos relevantes para la marcha del país.",
+      "categoria": "Política",
+      "tags": [
+        "normas legales",
+        "el peruano",
+        "legislación",
+        "política"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-b8e9e973868d",
+      "titulo": "Banco Mundial: Perú crecerá más que sus pares en América Latina y el Caribe",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-banco-mundial-peru-crecera-mas-sus-pares-america-latina-y-caribe-1070944.aspx",
+      "fecha": "2026-04-13T12:06:12Z",
+      "contenido": "La solidez macroeconómica de una Nación no constituye un fin en sí mismo, sino la plataforma indispensable para ejecutar transformaciones estructurales que deriven en un bienestar social tangible y permanente.",
+      "fuente_display": "Andina",
+      "resumen": "El Banco Mundial proyecta que Perú crecerá por encima de sus pares en América Latina y el Caribe. La solidez macroeconómica del país es vista como una plataforma para transformaciones estructurales y bienestar social.",
+      "categoria": "Economía",
+      "tags": [
+        "banco mundial",
+        "crecimiento económico",
+        "perú",
+        "américa latina"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-cd58aeb92f5b",
+      "titulo": "Waru Waru: ¿Qué es este sistema peruano que maravilla al mundo?, ¿En qué región se aplica?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-waru-waru-es-este-sistema-peruano-maravilla-al-mundo-que-region-se-aplica-1070202.aspx",
+      "fecha": "2026-04-13T11:54:48Z",
+      "contenido": "En el territorio peruano existen evidencias claras del avanzado conocimiento tecnológico alcanzado por nuestros antepasados para adaptarse y progresar en entornos geográficos complejos. Un claro ejemplo de ello son los Waru Waru, un sistema que continúa utilizándose en la actualidad por las comunidades herederas de ese magnífico legado ancestral.",
+      "fuente_display": "Andina",
+      "resumen": "El sistema de Waru Waru, una tecnología ancestral peruana, sigue siendo utilizado por comunidades locales. Este sistema demuestra el avanzado conocimiento tecnológico de los antepasados para adaptarse a entornos complejos.",
+      "categoria": "Economía",
+      "tags": [
+        "cultura",
+        "tecnología ancestral",
+        "waru waru",
+        "perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-f17d6302260c",
+      "titulo": "MTPE exhorta a empleadores a dar facilidades para voto de hoy 13 de abril",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mtpe-exhorta-a-empleadores-a-dar-facilidades-para-voto-hoy-13-abril-1071032.aspx",
+      "fecha": "2026-04-13T11:52:23Z",
+      "contenido": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) exhortó a los empleadores a brindar facilidades a sus trabajadores para que puedan ejercer su derecho al voto y cumplir con su rol como miembros de mesa durante la jornada electoral de este 13 de abril de 2026, en el marco de las Elecciones Generales.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Trabajo y Promoción del Empleo (MTPE) exhortó a los empleadores a facilitar la participación de sus trabajadores en las elecciones. Se pide dar facilidades para el ejercicio del voto y el rol como miembros de mesa.",
+      "categoria": "Política",
+      "tags": [
+        "mtpe",
+        "elecciones",
+        "trabajadores",
         "derecho al voto"
       ],
       "prompt_version": "prensa-v1"
     },
     {
-      "id": "andina-597285907c4b",
-      "titulo": "ONPE: 52,251 electores podrán votar el lunes en San Juan de Miraflores, Lurín y Pachacamac",
+      "id": "andina-6bf7d01324bc",
+      "titulo": "Elecciones 2026: Gobierno precisa medidas para garantizar el voto en mesas no instaladas",
       "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-onpe-52251-electores-podran-votar-lunes-san-juan-miraflores-lurin-y-pachacamac-1071012.aspx",
-      "fecha": "2026-04-13T02:55:32Z",
-      "contenido": "En total, 52,251 electores podrán emitir su voto el lunes 13 de abril en los 13 locales donde este domingo no se pudieron instalar mesas de sufragio: tres en San Juan de Miraflores, siete en Lurín y tres en Pachacamac, dijo esta noche el jefe de la Oficina Nacional de Procesos Electorales (ONPE), Piero Corvetto.",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-gobierno-precisa-medidas-para-garantizar-voto-mesas-no-instaladas-1071030.aspx",
+      "fecha": "2026-04-13T11:48:49Z",
+      "contenido": "El Ejecutivo dispuso la ampliación de medidas para asegurar el derecho al voto en las Elecciones Generales 2026, tras registrarse mesas de sufragio que no fueron instaladas por retrasos en la distribución del material electoral.",
       "fuente_display": "Andina",
-      "resumen": "La ONPE informó que 52,251 electores podrán votar el lunes en San Juan de Miraflores, Lurín y Pachacamac. Esto se debe a que las mesas de sufragio en 13 locales no pudieron ser instaladas el domingo.",
+      "resumen": "El Gobierno implementó medidas adicionales para garantizar el derecho al voto en las Elecciones Generales 2026. Esto se da tras la no instalación de algunas mesas de sufragio por retrasos en la distribución de material electoral.",
       "categoria": "Política",
       "tags": [
-        "onpe",
-        "elecciones",
-        "voto",
-        "san juan de miraflores",
-        "lurín"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-34a59e409c69",
-      "titulo": "Fuerza Popular saluda decisión del JNE: \"El derecho a votar es un derecho constitucional\"",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-fuerza-popular-saluda-decision-del-jne-derecho-a-votar-es-un-derecho-constitucional-1071008.aspx",
-      "fecha": "2026-04-13T02:33:45Z",
-      "contenido": "La decisión del Jurado Nacional de Elecciones (JNE) de ampliar a este lunes 13 de abril las elecciones generales en las 211 mesas en Lima Metropolitana que no fueron instaladas hoy debido a la falta de material electoral es \"inédita\" y \"la saludamos\" aunque no solucionará el daño ocasionado, sostuvo el candidato a la segunda vicepresidencia por Fuerza Popular, Miguel Torres.",
-      "fuente_display": "Andina",
-      "resumen": "Fuerza Popular calificó de \"inédita\" la decisión del JNE de ampliar las elecciones para este lunes en mesas no instaladas, saludándola aunque consideran que no soluciona el daño. Señalan que el derecho a votar es constitucional.",
-      "categoria": "Política",
-      "tags": [
-        "fuerza popular",
-        "jne",
+        "gobierno",
         "elecciones",
         "derecho al voto",
-        "lima"
+        "mesas de sufragio"
       ],
       "prompt_version": "prensa-v1"
     },
     {
-      "id": "andina-5c61ad991d93",
-      "titulo": "Elecciones 2026: Tribunal de Honor del Pacto Ético invoca a mantener calma y prudencia",
+      "id": "andina-e60c81a93e7b",
+      "titulo": "Atención : oleajes de moderada intensidad afectarán el litoral hasta el lunes 20 de abril",
       "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-tribunal-honor-del-pacto-etico-invoca-a-mantener-calma-y-prudencia-1071009.aspx",
-      "fecha": "2026-04-13T02:26:51Z",
-      "contenido": "El Tribunal de Honor del Pacto Ético Electoral (PEE), invocó a la ciudadanía y a las organizaciones políticas a mantener la calma y prudencia tras el término de la jornada electoral de hoy, al tiempo de recordar que la publicación de los resultados oficiales es competencia exclusiva de la Oficina Nacional de Procesos Electorales (ONPE).",
+      "url": "https://andina.pe/agencia/noticia-atencion-oleajes-moderada-intensidad-afectaran-litoral-hasta-lunes-20-abril-1071029.aspx",
+      "fecha": "2026-04-13T11:44:19Z",
+      "contenido": "Oleajes de ligera a moderada intensidad se presentan en el litoral peruano desde el domingo 12 y se prolongarán hasta el lunes 20 de abril, informó la Dirección de Hidrografía y Navegación de la Marina de Guerra del Perú.",
       "fuente_display": "Andina",
-      "resumen": "El Tribunal de Honor del Pacto Ético Electoral (PEE) invocó a la calma y prudencia tras las elecciones, recordando que la ONPE es la única entidad encargada de publicar los resultados oficiales. Se busca mantener la tranquilidad ciudadana.",
-      "categoria": "Política",
-      "tags": [
-        "pacto ético electoral",
-        "onpe",
-        "elecciones",
-        "resultados",
-        "calma"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-7e0c0087533d",
-      "titulo": "Parkinson: estos ocho síntomas no son “normales” durante el envejecimiento",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-parkinson-estos-ocho-sintomas-no-son-normales-durante-envejecimiento-1071010.aspx",
-      "fecha": "2026-04-13T02:26:12Z",
-      "contenido": "La enfermedad de Parkinson es un trastorno neurodegenerativo progresivo que afecta principalmente el movimiento. Entre sus síntomas más frecuentes se encuentran el temblor en reposo, la rigidez muscular, la lentitud en los movimientos y las dificultades para mantener el equilibrio.",
-      "fuente_display": "Andina",
-      "resumen": "La enfermedad de Parkinson es un trastorno neurodegenerativo que afecta el movimiento, presentando síntomas como temblores, rigidez muscular y problemas de equilibrio. Se enfatiza que estos síntomas no deben ser considerados normales durante el envejecimiento.",
+      "resumen": "Se pronostican oleajes de ligera a moderada intensidad en el litoral peruano hasta el lunes 20 de abril. La Dirección de Hidrografía y Navegación de la Marina de Guerra del Perú emitió la advertencia.",
       "categoria": "Economía",
       "tags": [
-        "parkinson",
-        "salud",
-        "envejecimiento",
-        "síntomas",
-        "neurodegenerativo"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-f8af1d1eaa69",
-      "titulo": "Elecciones 2026: López Aliaga señala que su partido perdió votos por mesas no instaladas",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-lopez-aliaga-senala-su-partido-perdio-votos-mesas-no-instaladas-1070998.aspx",
-      "fecha": "2026-04-13T01:52:56Z",
-      "contenido": "El candidato presidencial de Renovación Popular, Rafael López Aliaga, aseveró que su partido perdió votos, luego de que la ONPE anunciara que 63 300 personas no sufragaron por demoras en la instalación de las mesas electorales.",
-      "fuente_display": "Andina",
-      "resumen": "Rafael López Aliaga, candidato de Renovación Popular, afirmó que su partido perdió votos debido a las demoras en la instalación de mesas electorales. La ONPE reportó que 63,300 personas no pudieron sufragar.",
-      "categoria": "Política",
-      "tags": [
-        "rafael lópez aliaga",
-        "renovación popular",
-        "elecciones",
-        "onpe",
-        "votos"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-50639f35907d",
-      "titulo": "INEN atendió un millón 400 mil recetas de pacientes con cáncer durante el último año",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-inen-atendio-un-millon-400-mil-recetas-pacientes-cancer-durante-ultimo-ano-1071007.aspx",
-      "fecha": "2026-04-13T01:51:03Z",
-      "contenido": "El Ministerio de Salud (Minsa), a través del Instituto Nacional de Enfermedades Neoplásicas (INEN), atendió un millón 400 mil recetas médicas en el último año, consolidando un sistema que garantiza tratamientos seguros y oportunos para pacientes con cáncer.",
-      "fuente_display": "Andina",
-      "resumen": "El Instituto Nacional de Enfermedades Neoplásicas (INEN), bajo el Ministerio de Salud, atendió 1.4 millones de recetas para pacientes con cáncer en el último año. Esto asegura tratamientos oportunos y seguros para quienes padecen esta enfermedad.",
-      "categoria": "Economía",
-      "tags": [
-        "inen",
-        "ministerio de salud",
-        "cáncer",
-        "recetas",
-        "tratamiento"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-8769417aae5a",
-      "titulo": "Jorge Nieto pide a sus electores esperar con tranquilidad resultado del conteo oficial",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-jorge-nieto-pide-a-sus-electores-esperar-tranquilidad-resultado-del-conteo-oficial-1071006.aspx",
-      "fecha": "2026-04-13T01:35:48Z",
-      "contenido": "El candidato presidencial del Partido del Buen Gobierno, Jorge Nieto Montesinos, invocó a sus electores a esperar con tranquilidad el resultado del conteo oficial, y asimismo expresó que espera llegar a la segunda vuelta según los indicadores que su agrupación política maneja.",
-      "fuente_display": "Andina",
-      "resumen": "Jorge Nieto, candidato presidencial del Partido del Buen Gobierno, pidió a sus electores esperar con tranquilidad los resultados oficiales del conteo. Expresó su expectativa de alcanzar la segunda vuelta electoral.",
-      "categoria": "Política",
-      "tags": [
-        "jorge nieto",
-        "partido del buen gobierno",
-        "elecciones",
-        "resultados",
-        "segunda vuelta"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-97d0b597bab9",
-      "titulo": "ODPE Chiclayo puso en cero sistema de cómputo para asegurar adecuado conteo de votos",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-odpe-chiclayo-puso-cero-sistema-computo-para-asegurar-adecuado-conteo-votos-1071005.aspx",
-      "fecha": "2026-04-13T01:22:55Z",
-      "contenido": "A pocas horas del cierre de la jornada electoral, la Oficina Descentralizada de Procesos Electorales (ODPE) de Chiclayo, región Lambayeque,  realizó la puesta en “cero” de sus servidores en el centro de cómputo, un procedimiento clave para asegurar la transparencia en el conteo de votos de las Elecciones Generales 2026.",
-      "fuente_display": "Andina",
-      "resumen": "La ODPE Chiclayo realizó la puesta en \"cero\" de sus servidores de cómputo para garantizar la transparencia en el conteo de votos de las Elecciones Generales 2026. Este procedimiento es crucial para asegurar la fiabilidad de los resultados.",
-      "categoria": "Política",
-      "tags": [
-        "odpe chiclayo",
-        "elecciones",
-        "conteo de votos",
-        "transparencia",
-        "lambayeque"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-7f0c3480c559",
-      "titulo": "Elecciones 2026: Belmont agradece apoyo y respaldo recibido en la contienda",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-belmont-agradece-apoyo-y-respaldo-recibido-la-contienda-1071003.aspx",
-      "fecha": "2026-04-13T01:14:19Z",
-      "contenido": "El candidato presidencial del Partido Cívico Obras, Ricardo Pablo Belmont Cassinelli, se pronunció tras la difusión de los resultados a boca de urna, los cuales lo ubican entre los primeros lugares.",
-      "fuente_display": "Andina",
-      "resumen": "Ricardo Belmont, candidato presidencial del Partido Cívico Obras, agradeció el apoyo y respaldo recibido durante la contienda electoral. Sus declaraciones se dan tras la difusión de resultados a boca de urna que lo ubican favorablemente.",
-      "categoria": "Política",
-      "tags": [
-        "ricardo belmont",
-        "partido cívico obras",
-        "elecciones",
-        "agradecimiento",
-        "resultados"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-6920b0fd13db",
-      "titulo": "IGP: movimiento sísmico de magnitud 3.5 se registró esta noche en el Callao",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-igp-movimiento-sismico-magnitud-35-se-registro-esta-noche-el-callao-1071002.aspx",
-      "fecha": "2026-04-13T01:14:06Z",
-      "contenido": "Un movimiento sísmico de magnitud 3.5 se registró esta noche en la Provincia Constitucional del Callao, al oeste de Lima, sin que se reportaran daños.",
-      "fuente_display": "Andina",
-      "resumen": "El Instituto Geofísico del Perú (IGP) informó sobre un movimiento sísmico de magnitud 3.5 registrado en el Callao. El evento ocurrió durante la noche y no se reportaron daños materiales ni personales.",
-      "categoria": "Economía",
-      "tags": [
-        "igp",
-        "sismo",
-        "callao",
-        "movimiento telúrico",
-        "perú"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-581ad90f7fc4",
-      "titulo": "Elecciones 2026: Roberto Sánchez toma primeros resultados con serenidad y gratitud",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-roberto-sanchez-toma-primeros-resultados-serenidad-y-gratitud-1071004.aspx",
-      "fecha": "2026-04-13T01:10:15Z",
-      "contenido": "El candidato presidencial de Juntos por el Perú, Roberto Sánchez, manifestó que toma con serenidad y gratitud los primeros resultados a boca de urna, que lo ubican entre el grupo de candidatos que podría pasar a una eventual segunda vuelta.",
-      "fuente_display": "Andina",
-      "resumen": "Roberto Sánchez, candidato de Juntos por el Perú, recibió con serenidad y gratitud los primeros resultados a boca de urna. Se mostró optimista sobre la posibilidad de pasar a una eventual segunda vuelta electoral.",
-      "categoria": "Política",
-      "tags": [
-        "roberto sánchez",
-        "juntos por el perú",
-        "elecciones",
-        "resultados",
-        "segunda vuelta"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-f16752342293",
-      "titulo": "Más de 4,000 ciudadanos recibieron resultados electorales en playas del Norte Chico",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-mas-4000-ciudadanos-recibieron-resultados-electorales-playas-del-norte-chico-1070999.aspx",
-      "fecha": "2026-04-13T00:57:29Z",
-      "contenido": "Decenas de votantes que llegaron a Barranca para participar en las Elecciones 2026, decidieron luego visitar los balnearios de esta provincia, en el departamento de Lima, donde playas como Puerto Chico, Chorrillos y Colorado fueron los más frecuentados.",
-      "fuente_display": "Andina",
-      "resumen": "Más de 4,000 ciudadanos que participaron en las Elecciones 2026 en Barranca decidieron visitar playas del Norte Chico, como Puerto Chico, Chorrillos y Colorado. La jornada electoral se complementó con actividades recreativas.",
-      "categoria": "Política",
-      "tags": [
-        "elecciones",
-        "barranca",
-        "playas",
-        "norte chico",
-        "lima"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-05caf25b36a2",
-      "titulo": "Empresas peruanas logran más de US$ 1 millón en misión comercial en Costa Rica",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-empresas-peruanas-logran-mas-1-millon-mision-comercial-costa-rica-1071000.aspx",
-      "fecha": "2026-04-13T00:53:33Z",
-      "contenido": "Con ventas por un millón 86,000 dólares y expectativas de negocio por tres millones 659,000 dólares en los próximos 12 meses, concluyó la misión comercial en Costa Rica, organizada por el Ministerio de Relaciones Exteriores, la Embajada del Perú en el país centroamericano, la Asociación de Exportadores (Adex), y el apoyo estratégico de la Cámara de Comercio de Costa Rica (CRECEX).",
-      "fuente_display": "Andina",
-      "resumen": "Empresas peruanas lograron ventas por más de US$ 1 millón y proyectan US$ 3.6 millones en Costa Rica durante una misión comercial. El evento fue organizado por el Ministerio de Relaciones Exteriores y ADEX, con apoyo de la Cámara de Comercio local.",
-      "categoria": "Economía",
-      "tags": [
-        "exportaciones",
-        "costa rica",
-        "misión comercial",
-        "adex",
-        "perú"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-d0785e207c03",
-      "titulo": "Elecciones 2026: este lunes 13 continúa sufragio en mesas que no fueron instaladas",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-este-lunes-13-continua-sufragio-mesas-no-fueron-instaladas-1070993.aspx",
-      "fecha": "2026-04-13T00:50:27Z",
-      "contenido": "El Jurado Nacional de Elecciones (JNE) dispuso ampliar el horario de votación, desde las 07:00 horas hasta las 18:00 horas, del lunes 13 de abril, en aquellas centros de votación donde la ciudadanía no pudo ejercer su derecho al sufragio este domingo.",
-      "fuente_display": "Andina",
-      "resumen": "El JNE amplió el horario de votación hasta las 18:00 horas del lunes 13 de abril para los ciudadanos que no pudieron sufragar el domingo. La medida busca garantizar el derecho al voto en mesas no instaladas.",
-      "categoria": "Política",
-      "tags": [
-        "jne",
-        "elecciones",
-        "voto",
-        "horario",
-        "derecho al voto"
-      ],
-      "prompt_version": "prensa-v1"
-    },
-    {
-      "id": "andina-6427c96e893a",
-      "titulo": "Elecciones 2026: distrito fiscal de Junín registró cerca de 1000 acciones preventivas",
-      "fuente": "andina",
-      "url": "https://andina.pe/agencia/noticia-elecciones-2026-distrito-fiscal-junin-registro-cerca-1000-acciones-preventivas-1070997.aspx",
-      "fecha": "2026-04-13T00:38:30Z",
-      "contenido": "El presidente de la Junta de Fiscales Superiores de Junín, Ramón Alfonso Vallejo Odría, y el fiscal superior coordinador de enlace, Lucio Raúl Amado Picón, monitorearon el trabajo de los 268 fiscales desplegados a los locales de votación como parte de las Elecciones Generales 2026 celebradas hoy, 12 de abril.",
-      "fuente_display": "Andina",
-      "resumen": "El distrito fiscal de Junín registró cerca de 1000 acciones preventivas durante las Elecciones Generales 2026. 268 fiscales fueron desplegados a locales de votación para monitorear el proceso.",
-      "categoria": "Política",
-      "tags": [
-        "fiscalía",
-        "junín",
-        "elecciones",
-        "prevención",
-        "monitoreo"
+        "oleajes",
+        "litoral peruano",
+        "marina de guerra",
+        "clima"
       ],
       "prompt_version": "prensa-v1"
     },
@@ -310,24 +258,133 @@
       "titulo": "Elecciones 2026: Ingrese a este link para ver cómo marchan los resultados de la ONPE",
       "fuente": "andina",
       "url": "https://andina.pe/agencia/noticia-elecciones-2026-ingrese-a-este-link-para-ver-como-marchan-los-resultados-de-onpe-1070992.aspx",
-      "fecha": "2026-04-13T00:22:43Z",
-      "contenido": "A partir de las 6 de la tarde, la Oficina Nacional de Procesos Electorales (ONPE) ha habilitado un enlace en la página web de las Elecciones Generales 2026  que permite conocer los resultados oficiales de los comicios realizados hoy, conforme se van procesando actas en los 126 centros de cómputo del organismo electoral.",
+      "fecha": "2026-04-13T11:42:08Z",
+      "contenido": "A partir de las 6 de la tarde de ayer, la Oficina Nacional de Procesos Electorales (ONPE) ha habilitado un enlace en la página web de las Elecciones Generales 2026  que permite conocer los resultados oficiales de los comicios realizados hoy, conforme se van procesando actas en los 126 centros de cómputo del organismo electoral.",
       "fuente_display": "Andina",
-      "resumen": "La ONPE habilitó un enlace en su web para que los ciudadanos puedan consultar los resultados oficiales de las Elecciones Generales 2026. El acceso permite ver el avance del procesamiento de actas en los centros de cómputo.",
+      "resumen": "La ONPE habilitó un enlace en su página web para consultar los resultados oficiales de las Elecciones Generales 2026. Los ciudadanos pueden acceder a los resultados conforme se procesan las actas.",
       "categoria": "Política",
       "tags": [
         "onpe",
         "elecciones",
         "resultados",
-        "web",
-        "conteo"
+        "proceso electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-a09a0ea22450",
+      "titulo": "Precio del dólar Perú y tipo de cambio hoy 13 de abril del 2026",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-13-de-abril-del-2026-noticia-1684073",
+      "fecha": "2026-04-13T11:05:39Z",
+      "contenido": "En  Perú , el  tipo de cambio  para hoy lunes 13 de abril es de  S/3.40 según el Banco Central de Reserva Del Perú.",
+      "fuente_display": "RPP",
+      "resumen": "El tipo de cambio del dólar en Perú para hoy, lunes 13 de abril de 2026, se sitúa en S/3.40, según información del Banco Central de Reserva del Perú.",
+      "categoria": "Finanzas",
+      "tags": [
+        "dólar",
+        "tipo de cambio",
+        "bcrp",
+        "mercado cambiario"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-45e6d25c6cb6",
+      "titulo": "Elecciones 2026: Estos son los 13 colegios de Lima donde se sufragará hoy, 13 de abril",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-estos-son-los-13-colegios-lima-donde-se-sufragara-hoy-13-abril-1071021.aspx",
+      "fecha": "2026-04-13T11:00:50Z",
+      "contenido": "EI Ministerio de Educación (Minedu) informó que se mantendrán habilitadas las 13 instituciones educativas de San Juan de Miraflores, Lurín y Pachacamac en las que quedó pendiente el sufragio de más de 50 mil ciudadanos a fin de que puedan emitir su voto, tal como ha sido ordenado, de forma excepcional, por el Jurado Nacional de Elecciones (JNE).",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Educación informó que 13 colegios en Lima Sur permanecerán habilitados para el sufragio este 13 de abril. Más de 50 mil ciudadanos podrán emitir su voto en estas instituciones.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones",
+        "lima",
+        "colegios",
+        "minedu"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1affe4eb0c4b",
+      "titulo": "Suplemento “Variedades”: el anime toma las pistas de baile y las ferias en Lima",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-suplemento-variedades-anime-toma-las-pistas-baile-y-las-ferias-lima-1070680.aspx",
+      "fecha": "2026-04-13T11:00:00Z",
+      "contenido": "Fotos: ANDINA/Verónica Calderón",
+      "fuente_display": "Andina",
+      "resumen": "El suplemento \"Variedades\" de esta semana aborda la creciente popularidad del anime. Se exploran cómo este género japonés está influyendo en las pistas de baile y ferias en Lima.",
+      "categoria": "Economía",
+      "tags": [
+        "cultura",
+        "anime",
+        "lima",
+        "entretenimiento"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-05884d093380",
+      "titulo": "¡Atentos! Lluvias ligeras a moderadas se presentarán en la costa norte este lunes 13",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-atentos-lluvias-ligeras-a-moderadas-se-presentaran-la-costa-norte-este-lunes-13-1071023.aspx",
+      "fecha": "2026-04-13T11:00:00Z",
+      "contenido": "Este lunes 13 de abril se estiman acumulados de lluvia entre 15 y 30 mm/día en Tumbes y Piura, y registros entre 3 y 15 mm/día en el resto de la costa norte, informó el Servicio Nacional de Meteorología e Hidrología (Senamhi).",
+      "fuente_display": "Andina",
+      "resumen": "Se esperan lluvias ligeras a moderadas en la costa norte del Perú este lunes 13 de abril. Los acumulados de lluvia estimados varían entre 15 y 30 mm/día en Tumbes y Piura, según el Senamhi.",
+      "categoria": "Economía",
+      "tags": [
+        "clima",
+        "lluvias",
+        "costa norte",
+        "senamhi"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-82b8234cce9b",
+      "titulo": "Mario Vargas Llosa: a un año de la partida del nobel peruano",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mario-vargas-llosa-a-un-ano-de-partida-del-nobel-peruano-1071015.aspx",
+      "fecha": "2026-04-13T11:00:00Z",
+      "contenido": "Hoy, 13 de abril, se cumple el primer aniversario del fallecimiento de Mario Vargas Llosa (Arequipa, 1936- Lima, 2025). Como recordó Álvaro Vargas Llosa, el mayor de sus tres hijos, el Premio Nobel de Literatura 2010 “fue una persona que vivió la vida como una gran aventura, ese era su espíritu, visión y talante”.",
+      "fuente_display": "Andina",
+      "resumen": "Se conmemora el primer aniversario del fallecimiento del Premio Nobel de Literatura peruano Mario Vargas Llosa. El escritor falleció en Lima el 13 de abril de 2025, dejando un legado literario universal.",
+      "categoria": "Política",
+      "tags": [
+        "mario vargas llosa",
+        "premio nobel",
+        "literatura",
+        "aniversario"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-186d7b8c1af5",
+      "titulo": "Elecciones 2026: La nueva Ley de teletrabajo como puerta hacia la libertad financiera",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-nueva-ley-teletrabajo-como-puerta-hacia-libertad-financiera-1071022.aspx",
+      "fecha": "2026-04-13T10:00:00Z",
+      "contenido": "En el marco del actual proceso electoral, el futuro del empleo se ha convertido en un tema central, con el avance en el Congreso del Proyecto de Ley N° 10612/2024-CR, se busca establecer el teletrabajo como un derecho obligatorio para poblaciones vulnerables.",
+      "fuente_display": "Andina",
+      "resumen": "El Congreso avanza en el Proyecto de Ley N° 10612/2024-CR, que busca establecer el teletrabajo como un derecho obligatorio para poblaciones vulnerables. Esta iniciativa se presenta como un tema central en el debate electoral de cara a las elecciones 2026, con potencial impacto en la libertad financiera.",
+      "categoria": "Economía",
+      "tags": [
+        "teletrabajo",
+        "libertad financiera",
+        "congreso",
+        "elecciones 2026",
+        "poblaciones vulnerables"
       ],
       "prompt_version": "prensa-v1"
     }
   ],
-  "total": 17,
+  "total": 21,
   "fuentes_activas": [
-    "andina"
+    "andina",
+    "rpp"
   ],
   "prompt_version": "prensa-v1"
 }

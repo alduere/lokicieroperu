@@ -1,0 +1,410 @@
+{
+  "fecha": "2026-04-27",
+  "noticias": [
+    {
+      "id": "andina-8ab54aa56662",
+      "titulo": "Startup de Arequipa gana concurso internacional en Chile con innovador dispositivo médico",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-startup-arequipa-gana-concurso-internacional-chile-innovador-dispositivo-medico-1072110.aspx",
+      "fecha": "2026-04-27T13:12:40Z",
+      "contenido": "Con un innovador proyecto la startup Hem.AI, de la Universidad Católica de Santa María (UCSM) de Arequipa, obtuvo el primer lugar en la Hackathon HSIL 2026 organizada en Chile por el Harvard Health Systems Innovation Lab, una unidad oficial de investigación y formación de la  la Harvard T.H. Chan School of Public Health de la Universidad de Harvard.",
+      "fuente_display": "Andina",
+      "resumen": "Una startup de la Universidad Católica de Santa María de Arequipa, Hem.AI, ganó el primer lugar en una competencia internacional en Chile con un dispositivo médico innovador. El concurso fue organizado por el Harvard Health Systems Innovation Lab.",
+      "categoria": "Economía",
+      "tags": [
+        "startup",
+        "innovación",
+        "dispositivo médico",
+        "concurso internacional",
+        "arequipa"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-79bb6d39213e",
+      "titulo": "Fiebre por Enhypen ya se siente en Lima",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-fiebre-enhypen-ya-se-siente-lima-1072829.aspx",
+      "fecha": "2026-04-27T13:10:52Z",
+      "contenido": "La fiebre por Enhypen ya se siente en Lima. Tras una exitosa preventa que reunió a miles de fans conectados para asegurar su lugar, hoy se inicia oficialmente la venta general de entradas para el esperado concierto de la agrupación surcoreana como parte de su gira mundial “Blood Saga”.",
+      "fuente_display": "Andina",
+      "resumen": "La venta general de entradas para el concierto de la agrupación surcoreana Enhypen en Lima ha iniciado, tras una exitosa preventa. El evento forma parte de su gira mundial \"Blood Saga\".",
+      "categoria": "Economía",
+      "tags": [
+        "concierto",
+        "enhypen",
+        "entradas",
+        "gira mundial",
+        "lima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-feeb1f0e7f9e",
+      "titulo": "¿Será duda para el Mundial? Real Madrid confirma lesión de Kylian Mbappé",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-sera-duda-para-mundial-real-madrid-confirma-lesion-kylian-mbappe-1072827.aspx",
+      "fecha": "2026-04-27T13:02:31Z",
+      "contenido": "El delantero francés del Real Madrid Kylian Mbappé sufre una lesión muscular en el muslo izquierdo, confirmó este lunes el club español, sin precisar la duración de la baja de su estrella.",
+      "fuente_display": "Andina",
+      "resumen": "El Real Madrid ha confirmado una lesión muscular en el muslo izquierdo del delantero Kylian Mbappé. El club español no ha especificado la duración de la baja del jugador.",
+      "categoria": "Economía",
+      "tags": [
+        "fútbol",
+        "lesión",
+        "kylian mbappé",
+        "real madrid",
+        "deportes"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8a4346750dd5",
+      "titulo": "Piura: inspeccionan 28,000 casas para evitar reproducción de zancudo transmisor del dengue",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-piura-inspeccionan-28000-casas-para-evitar-reproduccion-zancudo-transmisor-del-dengue-1072825.aspx",
+      "fecha": "2026-04-27T12:59:58Z",
+      "contenido": "Un total de 28,000 viviendas pertenecientes a los asentamientos humanos Señor de los Milagros, Susana Higuchi, Javier Heraud, José María Arguedas y San Pedro de la ciudad de Piura fueron inspeccionados por brigadistas de la Dirección Regional de Salud (Diresa) de Piura con el objetivo de evitar la reproducción del zancudo transmisor del dengue.",
+      "fuente_display": "Andina",
+      "resumen": "En Piura, se han inspeccionado 28,000 viviendas para prevenir la reproducción del zancudo transmisor del dengue. Brigadistas de la Dirección Regional de Salud realizaron la labor en varios asentamientos humanos.",
+      "categoria": "Economía",
+      "tags": [
+        "salud pública",
+        "dengue",
+        "prevención",
+        "piura",
+        "inspección"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-9984b310e279",
+      "titulo": "Cercado de Lima: Policía en moto muere en accidente de tránsito",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-cercado-lima-policia-moto-muere-accidente-transito-1072828.aspx",
+      "fecha": "2026-04-27T12:58:34Z",
+      "contenido": "Un efectivo de la Policía Nacional del Perú (PNP), que se desplazaba en motocicleta, murió tras ser embestido por un automóvil en el cruce de las avenidas Alfonso Ugarte y Bolivia, en el Cercado de Lima.  Vea aquí la galería fotográfica",
+      "fuente_display": "Andina",
+      "resumen": "Un efectivo de la Policía Nacional del Perú falleció en un accidente de tránsito en el Cercado de Lima. El policía se desplazaba en motocicleta y fue embestido por un automóvil.",
+      "categoria": "Política",
+      "tags": [
+        "accidente de tránsito",
+        "policía",
+        "fallecimiento",
+        "cercado de lima",
+        "seguridad vial"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8104bb2df7f1",
+      "titulo": "Congreso: Comisión de Defensa abordará hoy proceso de compra de aviones para la FAP",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-congreso-comision-defensa-abordara-hoy-proceso-compra-aviones-para-fap-1072650.aspx",
+      "fecha": "2026-04-27T12:43:22Z",
+      "contenido": "La Comisión de Defensa Nacional y Orden Interno del Congreso de la República abordará hoy lunes 27 el proceso de compra de aviones de guerra para la Fuerza Aérea del Perú (FAP).",
+      "fuente_display": "Andina",
+      "resumen": "La Comisión de Defensa Nacional del Congreso abordará hoy el proceso de compra de aviones de guerra para la Fuerza Aérea del Perú (FAP). La reunión se centrará en este importante proceso de adquisición.",
+      "categoria": "Política",
+      "tags": [
+        "congreso",
+        "fuerza aérea del perú",
+        "compra de aviones",
+        "defensa nacional",
+        "fap"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3e53c33bbc47",
+      "titulo": "León XIV se reúne con la primera mujer al mando de la Iglesia anglicana",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-leon-xiv-se-reune-con-primera-mujer-al-mando-de-iglesia-anglicana-1072823.aspx",
+      "fecha": "2026-04-27T12:41:55Z",
+      "contenido": "El papa León XIV recibió el lunes a la primera mujer en liderar a los cristianos anglicanos del mundo, la recién investida arzobispa de Canterbury, Sarah Mullally, y llamó a la unidad para promover la paz con mayor eficacia.",
+      "fuente_display": "Andina",
+      "resumen": "El papa León XIV se reunió con Sarah Mullally, la primera mujer en liderar a los cristianos anglicanos del mundo. El encuentro tuvo lugar en el Vaticano y se enfatizó la importancia de la unidad para promover la paz.",
+      "categoria": "Política",
+      "tags": [
+        "vaticano",
+        "papa",
+        "iglesia anglicana",
+        "unidad",
+        "paz"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-a15015a72723",
+      "titulo": "Gobierno presenta avances de la implementación de la economía circular en saneamiento",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-gobierno-presenta-avances-de-implementacion-de-economia-circular-saneamiento-1072824.aspx",
+      "fecha": "2026-04-27T12:41:18Z",
+      "contenido": "El Ministerio de Vivienda, Construcción y Saneamiento (MVCS) presentó los avances en la implementación de la Hoja de Ruta de Economía Circular en Agua Potable y Saneamiento al 2030, en la octava Mesa Redonda de la Organización para la Cooperación y el Desarrollo Económicos (OCDE), sobre economía circular en ciudades y regiones.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Vivienda presentó los avances en la implementación de la economía circular en saneamiento. La presentación se realizó en una mesa redonda de la OCDE sobre economía circular en ciudades y regiones.",
+      "categoria": "Economía",
+      "tags": [
+        "economía circular",
+        "saneamiento",
+        "ministerio de vivienda",
+        "ocde",
+        "avances"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-5c61b9681234",
+      "titulo": "Apertura: Así va la tabla tras el triunfo de Alianza Lima y caída de Universitario en casa",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-apertura-asi-va-tabla-tras-triunfo-alianza-lima-y-caida-universitario-casa-1072821.aspx",
+      "fecha": "2026-04-27T12:40:06Z",
+      "contenido": "La fecha 12 del Torneo Apertura culmina este lunes, pero hubo movimiento en la parte alta de la tabla de posiciones porque Alianza Lima volvió a la punta al ganar en Trujillo; Universitario y Cristal perdieron el paso debilitando sus opciones de ganar el primer torneo de la Liga 1.",
+      "fuente_display": "Andina",
+      "resumen": "Alianza Lima recuperó la punta del Torneo Apertura tras ganar en Trujillo, mientras Universitario y Cristal sufrieron derrotas. La tabla de posiciones se mueve significativamente en la Liga 1.",
+      "categoria": "Economía",
+      "tags": [
+        "fútbol",
+        "liga 1",
+        "torneo apertura",
+        "alianza lima",
+        "universitario"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-37fdc6c3db5e",
+      "titulo": "Huancavelica espera más de medio centenar de inversionistas en la Expo Perú Los Andes",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-huancavelica-espera-mas-medio-centenar-inversionistas-la-expo-peru-los-andes-1072459.aspx",
+      "fecha": "2026-04-27T12:37:33Z",
+      "contenido": "Huancavelica se prepara para ser, entre el 26 y el 29 de junio, sede de Expo Perú Los Andes 2026, feria organizada por la Mancomunidad Regional de Los Andes, en la que, por primera vez, se realizará una rueda de negocios ante agentes internacionales y nacionales para la promoción de inversiones, donde las regiones participantes podrán exponer su potencial productivo.",
+      "fuente_display": "Andina",
+      "resumen": "Huancavelica será sede de Expo Perú Los Andes 2026, una feria que espera a más de medio centenar de inversionistas nacionales e internacionales. Se realizará una rueda de negocios para promover inversiones en la región.",
+      "categoria": "Economía",
+      "tags": [
+        "inversiones",
+        "expo perú los andes",
+        "huancavelica",
+        "rueda de negocios",
+        "promoción"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-132c938e79de",
+      "titulo": "Cajamarca inicia Semana de Vacunación en Las Américas y espera inmunizar a 6,800 personas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-cajamarca-inicia-semana-vacunacion-las-americas-y-espera-inmunizar-a-6800-personas-1072819.aspx",
+      "fecha": "2026-04-27T12:21:51Z",
+      "contenido": "Cajamarca inició la Semana de Vacunación en las Américas que se prolongará hasta el domingo 3 de mayo y fijó como meta inmunizar a más de 6,800 personas en las 13 provincias que conforman la región, a través de brigadas de salud que visitarán casa por casa y en los establecimientos de salud.",
+      "fuente_display": "Andina",
+      "resumen": "Cajamarca inició la Semana de Vacunación en las Américas con la meta de inmunizar a 6,800 personas. Brigadas de salud visitarán hogares y establecimientos para alcanzar el objetivo.",
+      "categoria": "Economía",
+      "tags": [
+        "salud",
+        "vacunación",
+        "cajamarca",
+        "semana de vacunación en las américas",
+        "inmunización"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-033e09f7ee53",
+      "titulo": "MEF proyecta un mejor desempeño de la economía en los próximos años",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mef-proyecta-un-mejor-desempeno-de-economia-los-proximos-anos-1072791.aspx",
+      "fecha": "2026-04-27T12:16:40Z",
+      "contenido": "El viceministro de Economía, Eloy Durán, destacó que el crecimiento alcanzado por la producción nacional en los últimos años se basa en diversos factores cuyo potencial de crecimiento se mantiene.",
+      "fuente_display": "Andina",
+      "resumen": "El viceministro de Economía, Eloy Durán, proyecta un mejor desempeño económico para los próximos años. Destacó que el crecimiento actual se basa en factores con potencial sostenido.",
+      "categoria": "Economía",
+      "tags": [
+        "economía",
+        "proyecciones",
+        "viceministro de economía",
+        "crecimiento",
+        "mef"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-2e816a703b0d",
+      "titulo": "Perú Unite gana la liga regional y clasifica al mundial del juego Pokémon Unite",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-unite-gana-liga-regional-y-clasifica-al-mundial-del-juego-pokemon-unite-1072820.aspx",
+      "fecha": "2026-04-27T12:08:42Z",
+      "contenido": "El equipo Perú Unite logró un importante triunfo en la Liga Regional de Pokémon Unite, consolidándose como campeón y asegurando su clasificación al mundial que se disputará en San Francisco, y en el que buscarán regresar con otro trofeo del primer lugar, luego del triunfo del año pasado.",
+      "fuente_display": "Andina",
+      "resumen": "El equipo peruano Perú Unite se coronó campeón de la Liga Regional de Pokémon Unite, clasificando al mundial en San Francisco. Buscan revalidar su título obtenido el año pasado.",
+      "categoria": "Economía",
+      "tags": [
+        "esports",
+        "pokémon unite",
+        "campeonato regional",
+        "mundial",
+        "perú unite"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-da8383a50b72",
+      "titulo": "ONU prevé evento El Niño desde mediados del 2026 con lluvias intensas y mayor temperatura",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-onu-preve-evento-nino-desde-mediados-del-2026-lluvias-intensas-y-mayor-temperatura-1072594.aspx",
+      "fecha": "2026-04-27T11:59:41Z",
+      "contenido": "La Organización Meteorológica Mundial (OMM) informó que existe una alta probabilidad de que el Fenómeno El Niño se desarrolle a partir de mediados de ESTE 2026, luego de varios meses de condiciones climáticas neutrales en el océano Pacífico ecuatorial.",
+      "fuente_display": "Andina",
+      "resumen": "La Organización Meteorológica Mundial (OMM) prevé una alta probabilidad de que el Fenómeno El Niño se desarrolle a partir de mediados de 2026. Se esperan lluvias intensas y mayor temperatura.",
+      "categoria": "Economía",
+      "tags": [
+        "fenómeno el niño",
+        "clima",
+        "pronóstico",
+        "lluvias intensas",
+        "temperatura"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3a301c6c271f",
+      "titulo": "Villa El Salvador: volcadura de camión causa congestión vehicular en la Panamericana Sur",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-villa-salvador-volcadura-camion-causa-congestion-vehicular-la-panamericana-sur-1072818.aspx",
+      "fecha": "2026-04-27T11:45:11Z",
+      "contenido": "Una intensa congestión vehicular se registra en el kilómetro 16 de la Panamericana Sur, en el distrito de Villa El Salvador, a causa de la volcadura de un camión frigorífico que transportaba jabas de pota, obligando a cerrar dos de los tres carriles de dicha vía en el sentido de sur a norte.",
+      "fuente_display": "Andina",
+      "resumen": "La volcadura de un camión frigorífico en la Panamericana Sur, a la altura de Villa El Salvador, ha causado una intensa congestión vehicular. El camión transportaba jabas de pota y bloqueó dos carriles.",
+      "categoria": "Economía",
+      "tags": [
+        "accidente de tránsito",
+        "tráfico",
+        "congestión vehicular",
+        "villa el salvador",
+        "panamericana sur"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8aa5e591d7a1",
+      "titulo": "Temblor hoy en Perú, lunes 27 de abril: dos sismos remecen las regiones Huánuco y Arequipa",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-temblor-hoy-peru-lunes-27-abril-dos-sismos-remecen-las-regiones-huanuco-y-arequipa-1072817.aspx",
+      "fecha": "2026-04-27T11:35:30Z",
+      "contenido": "Dos sismos de magnitud moderada se registraron durante la madrugada de este lunes 27 de abril en distintas regiones del país, según informó el Centro Sismológico Nacional (Censis) del Instituto Geofísico del Perú (IGP).",
+      "fuente_display": "Andina",
+      "resumen": "Dos sismos de magnitud moderada remecieron las regiones de Huánuco y Arequipa durante la madrugada de este lunes 27 de abril. El Centro Sismológico Nacional del IGP reportó los movimientos telúricos.",
+      "categoria": "Economía",
+      "tags": [
+        "sismos",
+        "temblor",
+        "huánuco",
+        "arequipa",
+        "igp"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-c992ab1fe06e",
+      "titulo": "Estas son las normas legales más importantes del lunes 27 de abril del 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-estas-son-las-normas-legales-mas-importantes-del-lunes-27-abril-del-2026-1072816.aspx",
+      "fecha": "2026-04-27T11:17:31Z",
+      "contenido": "El boletín Normas Legales del Diario Oficial El Peruano difunde una serie de dispositivos de interés público y de impacto para la marcha del país. Conoce a continuación cuáles son las normas legales más relevantes de hoy.",
+      "fuente_display": "Andina",
+      "resumen": "El Diario Oficial El Peruano publicó hoy, lunes 27 de abril, un compendio de normas legales de interés público y de impacto para la marcha del país. Se detallan los dispositivos más relevantes de la jornada.",
+      "categoria": "Política",
+      "tags": [
+        "normas legales",
+        "el peruano",
+        "dispositivos legales",
+        "publicación",
+        "actualidad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-268c84a13877",
+      "titulo": "Precio del dólar Perú y tipo de cambio hoy 27 de abril del 2026",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-27-de-abril-del-2026-noticia-1685969",
+      "fecha": "2026-04-27T11:05:39Z",
+      "contenido": "En  Perú , el  tipo de cambio  para hoy lunes 27 de abril es de  S/3.49 según el Banco Central de Reserva Del Perú.",
+      "fuente_display": "RPP",
+      "resumen": "El tipo de cambio del dólar en Perú para hoy, lunes 27 de abril, se sitúa en S/3.49, según información del Banco Central de Reserva del Perú.",
+      "categoria": "Finanzas",
+      "tags": [
+        "dólar",
+        "tipo de cambio",
+        "bcrp",
+        "finanzas",
+        "perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-9809cf40b3d3",
+      "titulo": "Lluvias ligeras a moderadas se registrarán nuevamente en la selva desde este lunes",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-lluvias-ligeras-a-moderadas-se-registraran-nuevamente-la-selva-desde-este-lunes-1072802.aspx",
+      "fecha": "2026-04-27T11:00:00Z",
+      "contenido": "Lluvias de ligera a moderada intensidad se presentarán en la selva este lunes 27 y el martes 28 de abril, acompañadas de descargas eléctricas y ráfagas de viento con velocidades cercanas a los 45 km/h, informó el Servicio Nacional de Meteorología e Hidrología (Senamhi).",
+      "fuente_display": "Andina",
+      "resumen": "El Servicio Nacional de Meteorología e Hidrología (Senamhi) pronostica lluvias de ligera a moderada intensidad en la selva peruana para este lunes 27 y martes 28 de abril. Se esperan también descargas eléctricas y ráfagas de viento.",
+      "categoria": "Economía",
+      "tags": [
+        "clima",
+        "lluvias",
+        "selva",
+        "senamhi",
+        "pronóstico"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-bd7bf522fb91",
+      "titulo": "Beca 18: hoy lunes 27 de abril vence el plazo para postular a segundo momento",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-beca-18-hoy-lunes-27-abril-vence-plazo-para-postular-a-segundo-momento-1072400.aspx",
+      "fecha": "2026-04-27T10:59:13Z",
+      "contenido": "Los preseleccionados de Beca 18, convocatoria 2026, que no obtuvieron vacante en el primer momento o no llegaron a postular tienen plazo hasta hoy lunes 27 de abril (23.59 horas) para participar en el segundo momento de la etapa final y acceder a una de las becas disponibles.",
+      "fuente_display": "Andina",
+      "resumen": "Hoy, lunes 27 de abril, vence el plazo para postular al segundo momento de la convocatoria 2026 de Beca 18. Los preseleccionados que no obtuvieron vacante o no postularon tienen hasta la medianoche para hacerlo.",
+      "categoria": "Economía",
+      "tags": [
+        "becas",
+        "beca 18",
+        "educación",
+        "postulación",
+        "plazo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-5cf5bd863dd0",
+      "titulo": "Toma nota de 4 consideraciones antes de invertir en activos alternativos",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-toma-nota-4-consideraciones-antes-invertir-activos-alternativos-1072796.aspx",
+      "fecha": "2026-04-27T10:00:00Z",
+      "contenido": "Los activos alternativos están creciendo de manera importante en los mercados internacionales, y el Perú no es la excepción. Cada vez son más los inversionistas peruanos en buscar alternativas de inversión que ofrezcan diversificación y potencial de rentabilidad fuera de los canales tradicionales.",
+      "fuente_display": "Andina",
+      "resumen": "Los activos alternativos están ganando terreno en el mercado peruano, impulsados por inversionistas que buscan diversificar sus portafolios y obtener rentabilidad fuera de las opciones tradicionales. Es importante considerar ciertos factores antes de invertir en estas alternativas de inversión.",
+      "categoria": "Finanzas",
+      "tags": [
+        "inversión",
+        "activos alternativos",
+        "diversificación",
+        "rentabilidad",
+        "mercado peruano"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 21,
+  "fuentes_activas": [
+    "andina",
+    "rpp"
+  ],
+  "prompt_version": "prensa-v1"
+}

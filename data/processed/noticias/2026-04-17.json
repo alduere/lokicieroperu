@@ -1,0 +1,431 @@
+{
+  "fecha": "2026-04-17",
+  "noticias": [
+    {
+      "id": "andina-c6e315d566e3",
+      "titulo": "Puno: brigadas realizan barrido casa por casa en Juliaca para detectar casos de sarampión",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-puno-brigadas-realizan-barrido-casa-casa-juliaca-para-detectar-casos-sarampion-1071662.aspx",
+      "fecha": "2026-04-17T12:47:37Z",
+      "contenido": "Brigadas de emergencia de la Dirección General de Gestión del Riesgo de Desastres y Defensa Nacional en Salud (Digerd) del Ministerio de Salud (Minsa) ejecutan un barrido de casa por casa en las zonas priorizadas de la ciudad de Juliaca, región Puno, para detectar y prevenir casos de sarampión.",
+      "fuente_display": "Andina",
+      "resumen": "Brigadas del Ministerio de Salud realizan un barrido casa por casa en Juliaca, Puno, para detectar y prevenir casos de sarampión. La medida busca contener el avance de la enfermedad en la región.",
+      "categoria": "Economía",
+      "tags": [
+        "salud pública",
+        "sarampión",
+        "puno",
+        "juliaca",
+        "prevención"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d8f0ff24b91d",
+      "titulo": "Defensoría del Pueblo se pronuncia sobre material electoral encontrado en la vía pública",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-defensoria-del-pueblo-se-pronuncia-sobre-material-electoral-encontrado-la-via-publica-1071661.aspx",
+      "fecha": "2026-04-17T12:38:46Z",
+      "contenido": "La Defensoría del Pueblo emitió un pronunciamiento para expresar su preocupación ante la denuncia periodística que informó sobre el hallazgo de material electoral en la vía pública.",
+      "fuente_display": "Andina",
+      "resumen": "La Defensoría del Pueblo expresó su preocupación por el hallazgo de material electoral en la vía pública. La institución busca esclarecer las circunstancias de este hecho y garantizar la transparencia de los procesos electorales.",
+      "categoria": "Política",
+      "tags": [
+        "defensoría del pueblo",
+        "elecciones",
+        "material electoral",
+        "transparencia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-91e21095d28d",
+      "titulo": "MEF destina S/ 20.6 millones para Bonificación Especial para el Docente Investigador",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mef-destina-s-206-millones-para-bonificacion-especial-para-docente-investigador-1071591.aspx",
+      "fecha": "2026-04-17T12:31:48Z",
+      "contenido": "El Ministerio de Economía y Finanzas (MEF) autorizó una transferencia de 20 millones 645,573 soles a favor de 47 universidades públicas, para financiar la implementación progresiva de la Bonificación Especial para el Docente Investigador.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Economía y Finanzas (MEF) destinará más de S/ 20.6 millones para la Bonificación Especial del Docente Investigador. Estos fondos se transferirán a 47 universidades públicas para financiar la implementación progresiva de dicha bonificación.",
+      "categoria": "Economía",
+      "tags": [
+        "mef",
+        "docentes investigadores",
+        "universidades públicas",
+        "bonificación"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-5a885b40d3eb",
+      "titulo": "¿Viajarás a Machu Picchu? Considera estas claves para una grata visita y sin contratiempos",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-viajaras-a-machu-picchu-considera-estas-claves-para-una-grata-visita-y-sin-contratiempos-1071576.aspx",
+      "fecha": "2026-04-17T12:24:36Z",
+      "contenido": "Los viajeros peruanos y extranjeros que deseen visitar Machu Picchu este año y/o recorrer el Camino Inca que conduce a esta monumental maravilla mundial deben considerar una serie de aspectos claves para que su experiencia \nturística sea óptima, gratificante y sin contratiempos.",
+      "fuente_display": "Andina",
+      "resumen": "Se recomienda a los visitantes de Machu Picchu y el Camino Inca considerar aspectos clave para una visita óptima y sin contratiempos. Estas recomendaciones buscan mejorar la experiencia turística en la maravilla mundial.",
+      "categoria": "Economía",
+      "tags": [
+        "machu picchu",
+        "turismo",
+        "camino inca",
+        "recomendaciones"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-47d8c1959961",
+      "titulo": "Estas son las normas legales más importantes del viernes 17 de abril del 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-estas-son-las-normas-legales-mas-importantes-del-viernes-17-abril-del-2026-1071659.aspx",
+      "fecha": "2026-04-17T12:08:54Z",
+      "contenido": "El boletín Normas Legales del Diario Oficial El Peruano difunde una serie de dispositivos de interés público y de impacto para la marcha del país. Conoce a continuación cuáles son las normas legales más relevantes de hoy.",
+      "fuente_display": "Andina",
+      "resumen": "El Diario Oficial El Peruano publicó normas legales de interés público y de impacto para el país. El boletín Normas Legales resume los dispositivos más relevantes del viernes 17 de abril del 2026.",
+      "categoria": "Política",
+      "tags": [
+        "normas legales",
+        "el peruano",
+        "dispositivos legales",
+        "interés público"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-2b7426296acf",
+      "titulo": "Día Mundial de la Hemofilia: qué es, cómo se contrae y cuántos casos hay en Perú",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-dia-mundial-de-hemofilia-es-como-se-contrae-y-cuantos-casos-hay-peru-1071634.aspx",
+      "fecha": "2026-04-17T12:07:13Z",
+      "contenido": "La hemofilia es una enfermedad genética y hereditaria que impide la coagulación de la sangre de manera adecuada. Esto quiere decir que, cuando se producen sangrados, estos duran más tiempo de lo normal porque la sangre no coagula bien. El 17 de abril de cada año se celebra el Día Mundial de la Hemofilia, una fecha proclamada por la Federación Mundial de Hemofilia (FMH) en conmemoración del nacimiento de su fundador, Frank Schnabel.",
+      "fuente_display": "Andina",
+      "resumen": "En el Día Mundial de la Hemofilia, se informa sobre esta enfermedad genética que afecta la coagulación de la sangre. La hemofilia causa sangrados prolongados y se conmemora cada 17 de abril.",
+      "categoria": "Economía",
+      "tags": [
+        "salud",
+        "hemofilia",
+        "enfermedad genética",
+        "día mundial de la hemofilia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-411b2a5fd04b",
+      "titulo": "Gemini frena anuncios dañinos antes de que lleguen a los usuarios",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-gemini-frena-anuncios-daninos-antes-de-lleguen-a-los-usuarios-1071614.aspx",
+      "fecha": "2026-04-17T12:00:00Z",
+      "contenido": "Google informó que las herramientas impulsadas por Gemini mejoraron su capacidad para detectar y bloquear anuncios dañinos: sus sistemas bloquearon o eliminaron más de 8.300 millones de anuncios en 2025. De ese total, más del 99 % fue detenido antes de publicarse o llegar a las personas.",
+      "fuente_display": "Andina",
+      "resumen": "Google ha mejorado la capacidad de sus herramientas con Gemini para detectar y bloquear anuncios dañinos, bloqueando más de 8.300 millones en 2025. La mayoría de estos anuncios fueron detenidos antes de ser publicados.",
+      "categoria": "Economía",
+      "tags": [
+        "google",
+        "gemini",
+        "anuncios dañinos",
+        "publicidad digital"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-2b6b569fc71d",
+      "titulo": "Región Amazonas diversifica su oferta agrícola y fortalece su potencial exportador",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-region-amazonas-diversifica-su-oferta-agricola-y-fortalece-su-potencial-exportador-1071660.aspx",
+      "fecha": "2026-04-17T12:00:00Z",
+      "contenido": "La región Amazonas consolida su posicionamiento como una de las zonas con mayor proyección productiva del país, gracias a la diversidad de cultivos que se desarrollan en sus distintas provincias y que hoy representan una valiosa oportunidad para fortalecer el comercio regional, nacional e internacional.",
+      "fuente_display": "Andina",
+      "resumen": "La región Amazonas está diversificando su oferta agrícola, fortaleciendo su potencial exportador. La variedad de cultivos en sus provincias representa una oportunidad para el comercio regional, nacional e internacional.",
+      "categoria": "Economía",
+      "tags": [
+        "amazonas",
+        "agricultura",
+        "exportaciones",
+        "comercio regional"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-edfe2ec1adb3",
+      "titulo": "Elecciones 2026: ONPE emite comunicado sobre actas encontradas correspondientes a Surco",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-onpe-emite-comunicado-sobre-actas-encontradas-correspondientes-a-surco-1071658.aspx",
+      "fecha": "2026-04-17T11:43:23Z",
+      "contenido": "A continuación publicamos el  comunicado emitido por la Oficina Nacional de Procesos Electorales (ONPE) sobre las\ncajas con cédulas electorales encontradas correspondientes  al distrito de Santiago de  Surco, el jueves 16 de abril.",
+      "fuente_display": "Andina",
+      "resumen": "La ONPE emitió un comunicado sobre cajas con cédulas electorales encontradas en Santiago de Surco. La Oficina Nacional de Procesos Electorales busca aclarar la procedencia de este material electoral.",
+      "categoria": "Política",
+      "tags": [
+        "onpe",
+        "elecciones 2026",
+        "material electoral",
+        "surco"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-e084a459b68b",
+      "titulo": "San Martín: reportan grietas y hundimiento de terreno en el distrito de Agua Blanca",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-san-martin-reportan-grietas-y-hundimiento-terreno-el-distrito-agua-blanca-1071657.aspx",
+      "fecha": "2026-04-17T11:41:30Z",
+      "contenido": "Pobladores del caserío Eladio Tapulima, ubicado en el distrito de Agua Blanca, provincia de El Dorado, región San Martín, alertaron que en la madrugada del jueves 16 de abril se registró el hundimiento de un sector del poblado, formando grietas de gran tamaño y provocando movimiento en masa de terreno.",
+      "fuente_display": "Andina",
+      "resumen": "Se reportaron grietas y hundimiento de terreno en el distrito de Agua Blanca, San Martín. El movimiento de masa en el caserío Eladio Tapulima alertó a los pobladores sobre el riesgo geológico.",
+      "categoria": "Economía",
+      "tags": [
+        "san martín",
+        "desastres naturales",
+        "movimiento de masa",
+        "geología"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-958dc53418ba",
+      "titulo": "Cortes de agua y luz: cuáles son las zonas afectadas y cuándo vuelve el servicio",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-cortes-agua-y-luz-cuales-son-las-zonas-afectadas-y-cuando-vuelve-servicio-1068408.aspx",
+      "fecha": "2026-04-17T11:24:19Z",
+      "contenido": "Durante esta semana se registrarán cortes programados de agua y energía eléctrica en distintos distritos de Lima, según informaron el Servicio de Agua Potable y Alcantarillado de Lima (Sedapal) y la empresa Pluz Energía Perú. En esta nota, revisa las zonas afectadas y los horarios previstos para la reposición de ambos servicios.",
+      "fuente_display": "Andina",
+      "resumen": "Se anuncian cortes programados de agua y luz en varios distritos de Lima durante esta semana. Sedapal y Pluz Energía Perú informaron las zonas afectadas y los horarios de reposición del servicio.",
+      "categoria": "Economía",
+      "tags": [
+        "servicios básicos",
+        "cortes de agua",
+        "cortes de luz",
+        "lima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d2036f19f4f8",
+      "titulo": "Puno activa puntos de control en frontera con Bolivia para frenar el avance del sarampión",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-puno-activa-puntos-control-frontera-bolivia-para-frenar-avance-del-sarampion-1071570.aspx",
+      "fecha": "2026-04-17T11:20:06Z",
+      "contenido": "El jefe zonal de la Superintendencia Nacional de Migraciones en Puno, Hugo Neptalí Cavero Aybar, anunció la creación de nuevos puntos de control en la frontera con Bolivia para frenar el avance del sarampión y prevenir el incremento del brote detectado en la región, donde ya se registran 35 casos confirmados según el último reporte oficial emitido este miércoles 15 de abril.",
+      "fuente_display": "Andina",
+      "resumen": "Puno activó puntos de control en la frontera con Bolivia para frenar el avance del sarampión. Se han confirmado 35 casos en la región, y se busca prevenir un mayor incremento del brote.",
+      "categoria": "Economía",
+      "tags": [
+        "puno",
+        "frontera",
+        "sarampión",
+        "salud pública",
+        "migraciones"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-0ac8ecd91488",
+      "titulo": "Elecciones 2026: Aquí el link para ver en vivo resultado de ONPE de elección presidencial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-aqui-link-para-ver-vivo-resultado-onpe-eleccion-presidencial-1070992.aspx",
+      "fecha": "2026-04-17T11:10:41Z",
+      "contenido": "La ciudadania puede acceder al enlace en la página web de las Elecciones Generales 2026 de la Oficina Nacional de Procesos Electorales, la cual permite conocer los resultados oficiales de los comicios, conforme se van procesando actas en los 126 centros de cómputo del organismo electoral.",
+      "fuente_display": "Andina",
+      "resumen": "La ONPE habilitó un enlace en su página web para seguir en vivo los resultados de la elección presidencial de las Elecciones Generales 2026. Los ciudadanos podrán acceder a los resultados oficiales conforme se procesan las actas.",
+      "categoria": "Política",
+      "tags": [
+        "onpe",
+        "elecciones 2026",
+        "resultados electorales",
+        "transmisión en vivo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-6a06b693da11",
+      "titulo": "Precio del dólar Perú y tipo de cambio hoy 17 de abril del 2026",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-17-de-abril-del-2026-noticia-1684726",
+      "fecha": "2026-04-17T11:05:39Z",
+      "contenido": "En  Perú , el  tipo de cambio  para hoy viernes 17 de abril es de  S/3.44 según el Banco Central de Reserva Del Perú.",
+      "fuente_display": "RPP",
+      "resumen": "El tipo de cambio del dólar en Perú para el viernes 17 de abril del 2026 se sitúa en S/3.44, según información del Banco Central de Reserva del Perú.",
+      "categoria": "Finanzas",
+      "tags": [
+        "dólar",
+        "tipo de cambio",
+        "bcrp",
+        "mercado cambiario"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d0163c641f3e",
+      "titulo": "Lluvias moderadas a fuertes se prolongarán en la selva y altas temperaturas en la sierra",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-lluvias-moderadas-a-fuertes-se-prolongaran-la-selva-y-altas-temperaturas-la-sierra-1071656.aspx",
+      "fecha": "2026-04-17T11:00:00Z",
+      "contenido": "Hasta el domingo 19 de abril se extenderá la ocurrencia de lluvias moderadas a fuertes en la selva, mientras que en la sierra la temperatura diurna aumentará con la misma intensidad, informó el Servicio Nacional de Meteorología e Hidrología (Senamhi).",
+      "fuente_display": "Andina",
+      "resumen": "El Senamhi pronostica lluvias moderadas a fuertes en la selva hasta el domingo 19 de abril. En la sierra, se esperan altas temperaturas diurnas durante el mismo periodo.",
+      "categoria": "Economía",
+      "tags": [
+        "senamhi",
+        "clima",
+        "lluvias",
+        "temperaturas",
+        "pronóstico"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4e75da0dfb9e",
+      "titulo": "Día del emprendimiento: haz este test y descubre si tu negocio está listo para crecer",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-dia-del-emprendimiento-haz-este-test-y-descubre-si-tu-negocio-esta-listo-para-crecer-1071635.aspx",
+      "fecha": "2026-04-17T11:00:00Z",
+      "contenido": "El crecimiento de los emprendimientos en Perú ha cambiado la forma de vender, cobrar y administrar ingresos. Hoy, muchos negocios operan a través de redes sociales, reciben pagos digitales y trabajan con clientes dentro y fuera del país, lo que exige procesos más rápidos y simples para no perder oportunidades.",
+      "fuente_display": "Andina",
+      "resumen": "En el Día del Emprendimiento, se invita a los empresarios a realizar un test para evaluar si sus negocios están listos para crecer. El crecimiento de los emprendimientos en Perú exige procesos más rápidos y digitales.",
+      "categoria": "Economía",
+      "tags": [
+        "emprendimiento",
+        "negocios",
+        "crecimiento empresarial",
+        "día del emprendimiento"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-86de03cb3dd4",
+      "titulo": "Rafael López Aliaga sostiene que existió un \"ausentismo provocado\" en los comicios",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-rafael-lopez-aliaga-sostiene-existio-un-ausentismo-provocado-los-comicios-1071649.aspx",
+      "fecha": "2026-04-17T04:51:49Z",
+      "contenido": "El candidato presidencial de Renovación Popular, Rafael López Aliaga, manifestó que durante la jornada electoral del domingo 12 existió un presunto \"ausentismo provocado\", ya que la demora en la instalación de las mesas de sufragio habría ocasionado que muchas personas retornen a sus hogares sin haber sufragado.",
+      "fuente_display": "Andina",
+      "resumen": "Rafael López Aliaga denunció un \"ausentismo provocado\" en las elecciones, atribuyendo la demora en la instalación de mesas de sufragio como causa. El candidato de Renovación Popular cuestionó la jornada electoral.",
+      "categoria": "Política",
+      "tags": [
+        "rafael lópez aliaga",
+        "elecciones",
+        "ausentismo",
+        "renovación popular"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-95a053e1a2d7",
+      "titulo": "INSN San Borja acerca la donación voluntaria de sangre a Ate y el Callao: ¿Qué fechas?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-insn-san-borja-acerca-donacion-voluntaria-sangre-a-ate-y-callao-fechas-1071648.aspx",
+      "fecha": "2026-04-17T04:27:50Z",
+      "contenido": "El Instituto Nacional de Salud del Niño San Borja (INSNSB), en alianza con la Asociación Peruana de Donantes de Sangre ‘Por ti mi sangre’, pondrá en marcha este fin de semana el ‘Hemobus’, una unidad móvil que facilita la donación voluntaria en distintos lugares de Lima.",
+      "fuente_display": "Andina",
+      "resumen": "El INSN San Borja acerca la donación voluntaria de sangre a Ate y el Callao con el 'Hemobus', una unidad móvil. La iniciativa busca facilitar la donación de sangre en distintos puntos de Lima este fin de semana.",
+      "categoria": "Economía",
+      "tags": [
+        "donación de sangre",
+        "salud",
+        "insn san borja",
+        "hemobus"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-e979d62d8663",
+      "titulo": "La UNMSM reconoce a sus referentes: trayectorias que enaltecen el legado sanmarquino",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-la-unmsm-reconoce-a-sus-referentes-trayectorias-enaltecen-legado-sanmarquino-1071652.aspx",
+      "fecha": "2026-04-17T04:06:25Z",
+      "contenido": "En el marco de las celebraciones por su 475º aniversario, la Universidad Nacional Mayor de San Marcos (UNMSM) realizó este jueves la ceremonia de reconocimiento a Personajes Destacados, Sanmarquinos Destacados y Sanmarquinos Ilustres.",
+      "fuente_display": "Andina",
+      "resumen": "La UNMSM reconoció a sus referentes en el marco de su 475º aniversario. La ceremonia distinguió a Personajes Destacados, Sanmarquinos Destacados y Sanmarquinos Ilustres por su legado.",
+      "categoria": "Política",
+      "tags": [
+        "unmsm",
+        "aniversario",
+        "reconocimiento",
+        "legado sanmarquino"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-7fe10e6e1ccc",
+      "titulo": "Las perspectivas del mercado de aceite de oliva en el Perú se presentan positivas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-las-perspectivas-del-mercado-aceite-oliva-el-peru-se-presentan-positivas-1071651.aspx",
+      "fecha": "2026-04-17T03:54:33Z",
+      "contenido": "El mercado peruano de aceite de oliva ha mostrado un crecimiento sostenido en los últimos años, impulsado por una mayor preferencia por productos saludables y de valor agregado, por lo cual las perspectivas son positivas, no obstante el incremento de su precio, indicó Santolivo Group.",
+      "fuente_display": "Andina",
+      "resumen": "Las perspectivas del mercado de aceite de oliva en Perú son positivas, impulsadas por la preferencia por productos saludables. A pesar del incremento de precios, se espera un crecimiento sostenido en el sector.",
+      "categoria": "Economía",
+      "tags": [
+        "aceite de oliva",
+        "mercado peruano",
+        "productos saludables",
+        "tendencias de consumo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-22458dc0c5ca",
+      "titulo": "¿Qué significa para un docente recibir las Palmas Magisteriales y cómo impacta en su vida?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-que-significa-para-un-docente-recibir-las-palmas-magisteriales-y-como-impacta-su-vida-1071643.aspx",
+      "fecha": "2026-04-17T03:53:38Z",
+      "contenido": "Recibir la condecoración de las Palmas Magisteriales, el más alto reconocimiento que otorga el Estado peruano a profesionales de la educación, no solo representa un honor, sino también un compromiso permanente con la mejora de la enseñanza y el desarrollo de las comunidades.",
+      "fuente_display": "Andina",
+      "resumen": "Las Palmas Magisteriales son el máximo reconocimiento del Estado peruano a los profesionales de la educación. Recibir esta distinción implica un honor y un compromiso continuo con la mejora de la enseñanza y el progreso de las comunidades.",
+      "categoria": "Política",
+      "tags": [
+        "palmas magisteriales",
+        "educación",
+        "reconocimiento",
+        "docentes",
+        "estado peruano"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-371ea0317cef",
+      "titulo": "Presidente de la Confiep: \"El señor Corvetto tiene que dar un paso al costado\"",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/peru/actualidad/presidente-de-la-confiep-piero-corvetto-tiene-que-dar-un-paso-al-costado-noticia-1684697",
+      "fecha": "2026-04-17T01:50:48Z",
+      "contenido": "Jorge Zapata calificó de \"insostenible\" la situación del jefe de la ONPE debido a los hechos ocurridos durante la jornada electoral.",
+      "fuente_display": "RPP",
+      "resumen": "El presidente de la Confiep, Jorge Zapata, considera insostenible la permanencia de Roberto Corvetto en la jefatura de la ONPE. Zapata argumenta que los eventos durante la jornada electoral hacen necesaria su renuncia.",
+      "categoria": "Política",
+      "tags": [
+        "confiep",
+        "onpe",
+        "roberto corvetto",
+        "elecciones",
+        "renuncia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-436c9b549f52",
+      "titulo": "Julio Velarde no descarta quedarse en el BCR: dice que lo \"pensaría\" si le proponen continuar",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/julio-velarde-no-descarta-quedarse-en-el-bcr-dice-que-lo-pensaria-si-le-proponen-continuar-noticia-1684690",
+      "fecha": "2026-04-17T00:21:43Z",
+      "contenido": "Julio Velarde está próximo a cumplir 20 años al mando del BCR y su continuidad dependerá del nuevo presidente de la República, quien asumirá en julio próximo.",
+      "fuente_display": "RPP",
+      "resumen": "Julio Velarde, actual presidente del BCR, no descarta continuar en el cargo si se le ofrece la renovación. Su permanencia dependerá de la decisión del próximo presidente de la República, quien asumirá funciones en julio.",
+      "categoria": "Economía",
+      "tags": [
+        "julio velarde",
+        "bcr",
+        "continuidad",
+        "economía",
+        "banco central de reserva"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 23,
+  "fuentes_activas": [
+    "andina",
+    "rpp"
+  ],
+  "prompt_version": "prensa-v1"
+}

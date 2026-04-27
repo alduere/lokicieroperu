@@ -1,0 +1,2123 @@
+{
+  "fecha": "2026-04-21",
+  "normas": [
+    {
+      "id": "2508072-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "136-2026-PCM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 136-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Designan Secretario de la Secretaría de Gestión Social y Diálogo",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508072-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3Ml8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508072-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Secretario de la Secretaría de Gestión Social y Diálogo. Este nombramiento recae en una persona específica para ocupar dicho cargo dentro de la Presidencia del Consejo de Ministros. La norma formaliza la incorporación de un nuevo funcionario en una posición clave de gestión social. No modifica normativas previas, solo actualiza la titularidad del puesto.",
+      "cambios_clave": [
+        "Designación del Secretario de Gestión Social y Diálogo."
+      ],
+      "a_quien_afecta": "Al funcionario designado y la Presidencia del Consejo de Ministros.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario sin efectos generales ni sectoriales.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "gestion social",
+        "pcm"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508081-4",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "128-2026-PCM",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 128-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Dejan sin efecto la Resolución Suprema N° 127-2026-PCM",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508081-4",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA4MV80MjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508081-4_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se deja sin efecto la Resolución Suprema N° 127-2026-PCM. Esta acción anula una disposición previa emitida por la Presidencia del Consejo de Ministros. La medida afecta directamente a la norma anterior y a quienes pudieran estar vinculados a su aplicación. No introduce nuevas regulaciones, sino que revierte una decisión previa.",
+      "cambios_clave": [
+        "Anulación de la Resolución Suprema N° 127-2026-PCM."
+      ],
+      "a_quien_afecta": "A la norma previamente emitida y a las partes involucradas.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Anulación de una resolución previa sin generar nuevos efectos regulatorios.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "revocatoria",
+        "resolucion suprema",
+        "pcm"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508005-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "106-2026-MINCETUR",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 106-2026-MINCETUR",
+      "entidad_emisora": "COMERCIO EXTERIOR Y TURISMO",
+      "sumilla": "Autorizan viaje de representante de PROMPERÚ para participar en evento a realizarse en los Estados Unidos de América",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508005-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODAwNV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508005-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de un representante de PROMPERÚ a los Estados Unidos para participar en un evento. La finalidad es promover los intereses comerciales y turísticos del país. Esta autorización recae sobre un funcionario específico del sector. La norma es un permiso individual y no modifica el marco regulatorio existente.",
+      "cambios_clave": [
+        "Autorización de viaje para representante de PROMPERÚ a EE.UU."
+      ],
+      "a_quien_afecta": "Al representante de PROMPERÚ y a la entidad promotora.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un funcionario sin impacto regulatorio.",
+      "sectores": [
+        "comercio_exterior",
+        "turismo"
+      ],
+      "tags": [
+        "viaje",
+        "promperu",
+        "eeuu"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508012-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "107-2026-MINCETUR",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 107-2026-MINCETUR",
+      "entidad_emisora": "COMERCIO EXTERIOR Y TURISMO",
+      "sumilla": "Autorizan viaje de representante de PROMPERÚ para participar en evento a realizarse en EE.UU.",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508012-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODAxMl8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508012-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de un representante de PROMPERÚ a los Estados Unidos para participar en un evento. La finalidad es la promoción de actividades de comercio exterior y turismo. Esta autorización es para un funcionario específico del sector. La norma es un permiso individual y no altera el marco normativo vigente.",
+      "cambios_clave": [
+        "Autorización de viaje para representante de PROMPERÚ a EE.UU."
+      ],
+      "a_quien_afecta": "Al representante de PROMPERÚ y a la entidad promotora.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un funcionario sin impacto regulatorio.",
+      "sectores": [
+        "comercio_exterior",
+        "turismo"
+      ],
+      "tags": [
+        "viaje",
+        "promperu",
+        "eeuu"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507729-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000116-2026-MC",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000116-2026-MC",
+      "entidad_emisora": "CULTURA",
+      "sumilla": "Autorizan viaje de Jefe Institucional de la Biblioteca Nacional del Perú a Argentina en comisión de servicios",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507729-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcyOV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507729-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje en comisión de servicios del Jefe Institucional de la Biblioteca Nacional del Perú a Argentina. El objetivo es participar en actividades relacionadas con su función. Esta autorización recae sobre un funcionario específico del sector Cultura. La norma es un permiso individual y no modifica el marco legal existente.",
+      "cambios_clave": [
+        "Autorización de viaje del Jefe de la Biblioteca Nacional a Argentina."
+      ],
+      "a_quien_afecta": "Al Jefe Institucional de la Biblioteca Nacional del Perú.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un funcionario sin impacto regulatorio.",
+      "sectores": [
+        "cultura"
+      ],
+      "tags": [
+        "viaje",
+        "biblioteca nacional",
+        "argentina"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508078-7",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "022-2026-DE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 022-2026-DE",
+      "entidad_emisora": "DEFENSA",
+      "sumilla": "Asignan empleo a General de División como Asesor del Comandante General del Comando de Operaciones Terrestres del Ejército",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508078-7",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3OF83MjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508078-7_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se asigna empleo a un General de División como Asesor del Comandante General del Comando de Operaciones Terrestres del Ejército. Esta acción formaliza la asignación de funciones de un alto oficial dentro de la estructura militar. La norma afecta directamente al oficial y a la cadena de mando del Ejército. No modifica normativas generales, solo concreta una asignación específica.",
+      "cambios_clave": [
+        "Asignación de empleo a General de División como Asesor."
+      ],
+      "a_quien_afecta": "Al General de División y al Comando de Operaciones Terrestres del Ejército.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Asignación de funciones a un oficial militar sin impacto general.",
+      "sectores": [
+        "defensa"
+      ],
+      "tags": [
+        "designacion",
+        "ejercito",
+        "general"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508081-5",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "023-2026-DE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 023-2026-DE",
+      "entidad_emisora": "DEFENSA",
+      "sumilla": "Dan por concluida designación de Jefe del Centro Nacional de Estimación Prevención y Reducción del Riesgo de Desastres - CENEPRED",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508081-5",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA4MV81MjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508081-5_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se da por concluida la designación del Jefe del Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (CENEPRED). Esta medida revierte una designación previa en el cargo de dirección de dicha entidad. La norma afecta directamente al funcionario saliente y a la institución. No establece nuevas regulaciones, solo formaliza el cese de funciones.",
+      "cambios_clave": [
+        "Conclusión de designación del Jefe del CENEPRED."
+      ],
+      "a_quien_afecta": "Al ex Jefe del CENEPRED y a la institución.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Cese de funciones de un director sin impacto regulatorio.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "cese",
+        "cenepred",
+        "designacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508081-6",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "024-2026-DE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 024-2026-DE",
+      "entidad_emisora": "DEFENSA",
+      "sumilla": "Designan Jefe del Centro Nacional de Estimación Prevención y Reducción del Riesgo de Desastres - CENEPRED",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508081-6",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA4MV82MjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508081-6_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Jefe del Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (CENEPRED). Esta acción nombra a un nuevo directivo para la institución. La norma afecta directamente al nuevo funcionario y a la entidad. No modifica el marco legal, solo actualiza la titularidad del cargo directivo.",
+      "cambios_clave": [
+        "Designación del nuevo Jefe del CENEPRED."
+      ],
+      "a_quien_afecta": "Al nuevo Jefe del CENEPRED y a la institución.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un director sin impacto regulatorio.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "cenepred",
+        "jefe"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507964-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION JEFATURAL",
+      "tipo_corto": "RJ",
+      "numero": "D000051-2026-MIDAGRI-SENASA-JN",
+      "titulo_oficial": "RESOLUCION JEFATURAL N° D000051-2026-MIDAGRI-SENASA-JN",
+      "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
+      "sumilla": "Designan Secretaria Técnica del Procedimiento Administrativo Disciplinario del Servicio Nacional de Sanidad Agraria",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507964-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk2NF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507964-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Secretaria Técnica del Procedimiento Administrativo Disciplinario del Servicio Nacional de Sanidad Agraria (SENASA). Esta designación formaliza la persona encargada de gestionar los procedimientos disciplinarios internos. La norma afecta directamente a la funcionaria designada y al SENASA. No modifica el marco legal, solo asigna una función específica.",
+      "cambios_clave": [
+        "Designación de Secretaria Técnica del Procedimiento Disciplinario del SENASA."
+      ],
+      "a_quien_afecta": "A la Secretaria Técnica designada y al SENASA.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario interno para un procedimiento específico.",
+      "sectores": [
+        "agricultura",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "senasa",
+        "disciplinario"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507987-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0129-2026-MIDAGRI",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0129-2026-MIDAGRI",
+      "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
+      "sumilla": "Disponen la publicación de la propuesta de Disposiciones Técnicas Ambientales para proyectos y/o actividades de cultivo de café cacao y palma aceitera así como de la Resolución Ministerial que las aprueba",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507987-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk4N18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507987-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se dispone la publicación de la propuesta de Disposiciones Técnicas Ambientales para proyectos de café, cacao y palma aceitera, así como de la resolución que las aprueba. Esto permite la difusión de normativas técnicas ambientales para estos cultivos. La medida afecta a los productores y desarrolladores de proyectos en estos sectores. Busca transparentar y facilitar la adopción de estándares ambientales.",
+      "cambios_clave": [
+        "Publicación de propuesta de Disposiciones Técnicas Ambientales para cultivos."
+      ],
+      "a_quien_afecta": "Productores de café, cacao y palma aceitera, y desarrolladores de proyectos.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Dispone la publicación de normativas técnicas ambientales para cultivos específicos.",
+      "sectores": [
+        "agricultura",
+        "ambiente"
+      ],
+      "tags": [
+        "normativa ambiental",
+        "cultivos",
+        "publicacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508068-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "0131-2026-MIDAGRI",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 0131-2026-MIDAGRI",
+      "entidad_emisora": "DESARROLLO AGRARIO Y RIEGO",
+      "sumilla": "Autorizan Transferencia Financiera a favor del Ministerio de Vivienda Construcción y Saneamiento",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508068-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA2OF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508068-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia Financiera a favor del Ministerio de Vivienda, Construcción y Saneamiento. Esta operación presupuestaria permite reasignar fondos dentro del sector público. La medida afecta directamente al Ministerio de Vivienda y al MIDAGRI como entidad transferente. No modifica el marco legal, sino que ejecuta una operación financiera prevista.",
+      "cambios_clave": [
+        "Autorización de Transferencia Financiera al Ministerio de Vivienda."
+      ],
+      "a_quien_afecta": "Al Ministerio de Vivienda, Construcción y Saneamiento y al MIDAGRI.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Autoriza una transferencia financiera entre ministerios para fines específicos.",
+      "sectores": [
+        "vivienda",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "midagri",
+        "minvu"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507869-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "D000055-2026-MIDIS/P65-DE",
+      "titulo_oficial": "RESOLUCION N° D000055-2026-MIDIS/P65-DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Jefe de Unidad de la Unidad de Administración del Programa Nacional de Asistencia Solidaria Pensión 65",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507869-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzg2OV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507869-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de Unidad de la Unidad de Administración del Programa Nacional de Asistencia Solidaria Pensión 65. Esta designación formaliza la persona que ocupará un cargo directivo clave en la administración del programa. La norma afecta directamente al funcionario designado y al programa Pensión 65. No modifica el marco legal, solo asigna una responsabilidad de gestión.",
+      "cambios_clave": [
+        "Designación del Jefe de Unidad de Administración de Pensión 65."
+      ],
+      "a_quien_afecta": "Al Jefe de Unidad designado y al Programa Pensión 65.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un jefe de unidad administrativa en un programa social.",
+      "sectores": [
+        "inclusion_social",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "pension 65",
+        "administracion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507895-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "D000056-2026-MIDIS/P65-DE",
+      "titulo_oficial": "RESOLUCION N° D000056-2026-MIDIS/P65-DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Coordinador Técnico de la Dirección Ejecutiva del Programa Nacional de Asistencia Solidaria Pensión 65",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507895-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzg5NV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507895-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Coordinador Técnico de la Dirección Ejecutiva del Programa Nacional de Asistencia Solidaria Pensión 65. Esta acción nombra a un funcionario para una posición técnica clave dentro del programa. La norma afecta directamente al coordinador designado y al programa Pensión 65. No introduce cambios regulatorios, solo asigna una función específica.",
+      "cambios_clave": [
+        "Designación del Coordinador Técnico de Pensión 65."
+      ],
+      "a_quien_afecta": "Al Coordinador Técnico designado y al Programa Pensión 65.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un coordinador técnico en un programa social.",
+      "sectores": [
+        "inclusion_social",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "pension 65",
+        "coordinador"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507943-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "D000122-2026-MIDIS/PNADP/DE",
+      "titulo_oficial": "RESOLUCION N° D000122-2026-MIDIS/PNADP/DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Coordinadora de Sistemas de la Información de la Unidad de Tecnologías de la Información del Programa Nacional de Apoyo Directo a los Más Pobres JUNTOS",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507943-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk0M18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507943-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Coordinadora de Sistemas de Información de la Unidad de Tecnologías del Programa JUNTOS. Esta designación formaliza la persona encargada de la gestión de sistemas informáticos del programa. La norma afecta directamente a la funcionaria designada y al Programa JUNTOS. No modifica el marco legal, solo asigna una responsabilidad de gestión tecnológica.",
+      "cambios_clave": [
+        "Designación de Coordinadora de Sistemas de Información de JUNTOS."
+      ],
+      "a_quien_afecta": "A la Coordinadora designada y al Programa JUNTOS.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de una coordinadora de sistemas en un programa social.",
+      "sectores": [
+        "inclusion_social",
+        "tecnologia",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "juntos",
+        "sistemas"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508070-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "D000089-2026-MIDIS/PNPDS-DE",
+      "titulo_oficial": "RESOLUCION N° D000089-2026-MIDIS/PNPDS-DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan jefe de la Unidad de Tecnologías de la Información del Programa Nacional de entrega de la pensión no contributiva a personas con discapacidad severa en situación de pobreza – CONTIGO",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508070-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3MF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508070-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de la Unidad de Tecnologías de la Información del Programa CONTIGO. Esta acción nombra al responsable de la gestión de TI del programa de apoyo a personas con discapacidad. La norma afecta directamente al funcionario designado y al Programa CONTIGO. No modifica el marco legal, solo asigna una responsabilidad de gestión tecnológica.",
+      "cambios_clave": [
+        "Designación del Jefe de TI del Programa CONTIGO."
+      ],
+      "a_quien_afecta": "Al Jefe de TI designado y al Programa CONTIGO.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un jefe de TI en un programa social.",
+      "sectores": [
+        "inclusion_social",
+        "tecnologia",
+        "discapacidad",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "contigo",
+        "ti"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508078-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "064-2026-EF",
+      "titulo_oficial": "DECRETO SUPREMO N° 064-2026-EF",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508078-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3OF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508078-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales. Esta medida permite reasignar fondos presupuestarios para financiar gastos específicos de municipalidades. La norma afecta directamente a los gobiernos locales beneficiados y al Ministerio de Economía y Finanzas. No modifica el marco legal, sino que ejecuta una operación presupuestaria.",
+      "cambios_clave": [
+        "Autoriza Transferencia de Partidas a gobiernos locales."
+      ],
+      "a_quien_afecta": "Diversos gobiernos locales y el Ministerio de Economía y Finanzas.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Autoriza transferencias presupuestarias a gobiernos locales para gastos específicos.",
+      "sectores": [
+        "gobierno_local",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia de partidas",
+        "gobiernos locales",
+        "presupuesto"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508078-2",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "065-2026-EF",
+      "titulo_oficial": "DECRETO SUPREMO N° 065-2026-EF",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508078-2",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3OF8yMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508078-2_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales. Esta medida permite reasignar fondos presupuestarios para financiar gastos específicos de municipalidades. La norma afecta directamente a los gobiernos locales beneficiados y al Ministerio de Economía y Finanzas. No modifica el marco legal, sino que ejecuta una operación presupuestaria.",
+      "cambios_clave": [
+        "Autoriza Transferencia de Partidas a gobiernos locales."
+      ],
+      "a_quien_afecta": "Diversos gobiernos locales y el Ministerio de Economía y Finanzas.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Autoriza transferencias presupuestarias a gobiernos locales para gastos específicos.",
+      "sectores": [
+        "gobierno_local",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia de partidas",
+        "gobiernos locales",
+        "presupuesto"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508078-3",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "066-2026-EF",
+      "titulo_oficial": "DECRETO SUPREMO N° 066-2026-EF",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508078-3",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3OF8zMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508078-3_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de diversos gobiernos locales. Esta medida permite reasignar fondos presupuestarios para financiar gastos específicos de municipalidades. La norma afecta directamente a los gobiernos locales beneficiados y al Ministerio de Economía y Finanzas. No modifica el marco legal, sino que ejecuta una operación presupuestaria.",
+      "cambios_clave": [
+        "Autoriza Transferencia de Partidas a gobiernos locales."
+      ],
+      "a_quien_afecta": "Diversos gobiernos locales y el Ministerio de Economía y Finanzas.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Autoriza transferencias presupuestarias a gobiernos locales para gastos específicos.",
+      "sectores": [
+        "gobierno_local",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia de partidas",
+        "gobiernos locales",
+        "presupuesto"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508081-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "067-2026-EF",
+      "titulo_oficial": "DECRETO SUPREMO N° 067-2026-EF",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Decreto Supremo que autoriza Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de la Universidad Nacional Tecnológica de Frontera San Ignacio de Loyola",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508081-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA4MV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508081-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia de Partidas en el Presupuesto del Sector Público para el Año Fiscal 2026 a favor de la Universidad Nacional Tecnológica de Frontera San Ignacio de Loyola. Esta medida permite reasignar fondos presupuestarios para financiar gastos específicos de la universidad. La norma afecta directamente a la universidad beneficiada y al Ministerio de Economía y Finanzas. No modifica el marco legal, sino que ejecuta una operación presupuestaria.",
+      "cambios_clave": [
+        "Autoriza Transferencia de Partidas a la Universidad San Ignacio de Loyola."
+      ],
+      "a_quien_afecta": "Universidad Nacional Tecnológica de Frontera San Ignacio de Loyola y MEF.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Autoriza transferencia presupuestaria a una universidad para gastos específicos.",
+      "sectores": [
+        "educacion",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia de partidas",
+        "universidad",
+        "presupuesto"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507941-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "0017-2026-EF/50",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 0017-2026-EF/50.01",
+      "entidad_emisora": "ECONOMIA Y FINANZAS",
+      "sumilla": "Resolución Directoral que aprueba los resultados finales de la verificación del cumplimiento de indicadores del incentivo presupuestario orientado a promover el incremento de la capacidad de ejecución de inversiones de los gobiernos regionales y gobiernos locales correspondiente al año 2025",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507941-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk0MV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507941-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueban los resultados finales de la verificación del cumplimiento de indicadores del incentivo presupuestario para la ejecución de inversiones de gobiernos regionales y locales en 2025. Esto determina qué entidades cumplen los requisitos para recibir incentivos. La norma afecta a los gobiernos subnacionales y al Ministerio de Economía y Finanzas. Establece criterios de evaluación para la asignación de recursos.",
+      "cambios_clave": [
+        "Aprueba resultados de verificación de indicadores de inversión de gobiernos."
+      ],
+      "a_quien_afecta": "Gobiernos regionales, gobiernos locales y el Ministerio de Economía y Finanzas.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Aprueba resultados de verificación de indicadores de inversión para gobiernos subnacionales.",
+      "sectores": [
+        "gobierno_regional",
+        "gobierno_local",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "inversion",
+        "gobiernos regionales",
+        "gobiernos locales"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507789-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "234-2026-MINEDU",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 234-2026-MINEDU",
+      "entidad_emisora": "EDUCACION",
+      "sumilla": "Designan Jefa de la Oficina General de Recursos Humanos",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507789-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzc4OV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507789-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Jefa de la Oficina General de Recursos Humanos del Ministerio de Educación. Esta designación formaliza a la persona encargada de la gestión del personal del sector. La norma afecta directamente a la funcionaria designada y al Ministerio de Educación. No modifica el marco legal, solo asigna una responsabilidad de gestión de recursos humanos.",
+      "cambios_clave": [
+        "Designación de Jefa de Oficina General de Recursos Humanos del MINEDU."
+      ],
+      "a_quien_afecta": "A la Jefa designada y al Ministerio de Educación.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de una jefa de recursos humanos en un ministerio.",
+      "sectores": [
+        "educacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "minedu",
+        "recursos humanos"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506163-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "156-2026-MINEM/DM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 156-2026-MINEM/DM",
+      "entidad_emisora": "ENERGIA Y MINAS",
+      "sumilla": "Otorgan a favor de Consorcio Eléctrico de Villacurí S.A.C. concesión definitiva para desarrollar la actividad de transmisión de energía eléctrica del proyecto Línea de Transmisión de 60 kV SET El Ángel – SET Huerto y SET Huerto 60/23 kV ubicado en el departamento de Ica",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506163-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjE2M18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2506163-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se otorga a Consorcio Eléctrico de Villacurí S.A.C. la concesión definitiva para desarrollar la actividad de transmisión de energía eléctrica. La concesión abarca la línea de transmisión SET El Ángel – SET Huerto en Ica. Esto permite a la empresa operar infraestructura eléctrica. La norma afecta a la empresa y al sector energético. Es una autorización específica para un proyecto de transmisión.",
+      "cambios_clave": [
+        "Otorga concesión definitiva para transmisión eléctrica a Consorcio Eléctrico."
+      ],
+      "a_quien_afecta": "Consorcio Eléctrico de Villacurí S.A.C. y al sector energético.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Otorga una concesión definitiva para transmisión de energía eléctrica a una empresa.",
+      "sectores": [
+        "energia",
+        "electricidad"
+      ],
+      "tags": [
+        "concesion",
+        "transmision electrica",
+        "energia"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507917-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000191-2026-MIMP",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000191-2026-MIMP",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Designan Jefe de Subunidad de Apoyo de la Subunidad Financiera de la Unidad de Administración del Programa Integral Nacional para el Bienestar Familiar - INABIF",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507917-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzkxN18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507917-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Jefe de Subunidad de Apoyo de la Subunidad Financiera del Programa Integral Nacional para el Bienestar Familiar (INABIF). Esta designación formaliza la persona que ocupará un cargo de gestión financiera dentro del programa. La norma afecta directamente al funcionario designado y al INABIF. No modifica el marco legal, solo asigna una responsabilidad de gestión financiera.",
+      "cambios_clave": [
+        "Designación del Jefe de Subunidad Financiera del INABIF."
+      ],
+      "a_quien_afecta": "Al Jefe de Subunidad designado y al INABIF.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un jefe de subunidad financiera en un programa social.",
+      "sectores": [
+        "inclusion_social",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "inabif",
+        "financiero"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508075-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000193-2026-MIMP",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000193-2026-MIMP",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Designan Directora II de la Oficina de Comunicación de la Secretaría General del Ministerio",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508075-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3NV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508075-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Directora II de la Oficina de Comunicación de la Secretaría General del Ministerio de la Mujer y Poblaciones Vulnerables. Esta designación formaliza a la persona encargada de la comunicación institucional. La norma afecta directamente a la funcionaria designada y al Ministerio. No modifica el marco legal, solo asigna una responsabilidad de gestión comunicacional.",
+      "cambios_clave": [
+        "Designación de Directora de Oficina de Comunicación del MIMP."
+      ],
+      "a_quien_afecta": "A la Directora designada y al Ministerio de la Mujer y Poblaciones Vulnerables.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de una directora de oficina de comunicación en un ministerio.",
+      "sectores": [
+        "mujer",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "mimp",
+        "comunicacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508069-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000100-2026-PRODUCE",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000100-2026-PRODUCE",
+      "entidad_emisora": "PRODUCE",
+      "sumilla": "Designan representantes del Ministerio de la Producción ante las Juntas de Administración de la ZED Paita ZED Ilo ZED Matarani y ZED Tumbes",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508069-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA2OV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508069-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designan representantes del Ministerio de la Producción ante las Juntas de Administración de las Zonas Especiales de Desarrollo (ZED) de Paita, Ilo, Matarani y Tumbes. Esta acción formaliza la participación del ministerio en la gestión de estas zonas económicas. La norma afecta al Ministerio de la Producción y a las ZED mencionadas. No introduce cambios regulatorios, solo asigna representación.",
+      "cambios_clave": [
+        "Designan representantes del PRODUCE ante Juntas de Administración de ZED."
+      ],
+      "a_quien_afecta": "Ministerio de la Producción y las Zonas Especiales de Desarrollo (ZED).",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Designa representantes ministeriales en juntas de administración de zonas económicas especiales.",
+      "sectores": [
+        "comercio",
+        "economia",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "produce",
+        "zed"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508078-6",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "068-2026-RE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 068-2026-RE",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Reconocen a Cónsul General de la República de Chile en Arequipa con jurisdicción consular en la circunscripción consular correspondiente a los departamentos de Arequipa Cusco Apurímac Ayacucho Huancavelica y Madre de Dios",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508078-6",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3OF82MjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508078-6_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se reconoce al Cónsul General de Chile en Arequipa, quien ejercerá funciones consulares en una amplia jurisdicción del sur del país. Esta designación facilita la atención a ciudadanos chilenos y la gestión de trámites consulares en la región. La norma es emitida por el Ministerio de Relaciones Exteriores.",
+      "cambios_clave": [
+        "Reconocimiento del Cónsul General de Chile en Arequipa"
+      ],
+      "a_quien_afecta": "República de Chile y ciudadanos chilenos en Arequipa y otras regiones del sur.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación consular específica sin impacto regulatorio general.",
+      "sectores": [
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "consulado",
+        "chile",
+        "arequipa",
+        "designacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508078-4",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "004-2026-SA",
+      "titulo_oficial": "DECRETO SUPREMO N° 004-2026-SA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Decreto Supremo que modifica el artículo 4 del Reglamento de la Ley N° 30200 Ley que promueve el auxilio oportuno al público en los centros comerciales aprobado por Decreto Supremo N° 018-2016-SA",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508078-4",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3OF80MjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508078-4_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el artículo 4 del Reglamento de la Ley N° 30200, que promueve el auxilio oportuno en centros comerciales. La modificación busca ajustar o clarificar las disposiciones sobre la asistencia que deben brindar los establecimientos comerciales a sus usuarios. La norma es emitida por el Ministerio de Salud.",
+      "cambios_clave": [
+        "Modifica artículo 4 del Reglamento de la Ley N° 30200"
+      ],
+      "a_quien_afecta": "Centros comerciales y consumidores a nivel nacional.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Afecta el procedimiento de auxilio en centros comerciales, impactando a establecimientos y público.",
+      "sectores": [
+        "salud",
+        "comercio"
+      ],
+      "tags": [
+        "centros comerciales",
+        "auxilio",
+        "salud",
+        "modificacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507942-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "396-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 396-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Disponen publicación de proyecto de Reglamento de la Ley N° 31129 Ley que reconoce el trabajo de los servidores públicos en el ámbito de la salud en el marco de la Emergencia Nacional por las graves circunstancias que afectan la vida y la salud de la Nación a consecuencia del brote del COVID-19",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507942-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk0Ml8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507942-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Ministerio de Salud dispone la publicación del proyecto de Reglamento de la Ley N° 31129. Esta ley reconoce el trabajo de los servidores de salud durante la emergencia nacional por COVID-19. La publicación permite recibir aportes y comentarios de la ciudadanía y sectores involucrados antes de su aprobación final.",
+      "cambios_clave": [
+        "Publicación de proyecto de Reglamento Ley N° 31129",
+        "Reconocimiento a servidores de salud por COVID-19"
+      ],
+      "a_quien_afecta": "Servidores de salud, Ministerio de Salud y público en general.",
+      "vigencia": "La publicación permite comentarios hasta su aprobación.",
+      "impacto": "medio",
+      "impacto_razon": "Prepara la regulación de derechos laborales de personal de salud en emergencia sanitaria.",
+      "sectores": [
+        "salud",
+        "trabajo"
+      ],
+      "tags": [
+        "salud",
+        "covid-19",
+        "servidores publicos",
+        "reglamento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508078-5",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "005-2026-TR",
+      "titulo_oficial": "DECRETO SUPREMO N° 005-2026-TR",
+      "entidad_emisora": "TRABAJO Y PROMOCION DEL EMPLEO",
+      "sumilla": "Decreto Supremo que autoriza la Transferencia Financiera del Aporte Total del Programa de Empleo Temporal Llamkasun Perú a favor de organismos ejecutores",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508078-5",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA3OF81MjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508078-5_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una Transferencia Financiera del Programa de Empleo Temporal Llamkasun Perú hacia organismos ejecutores. Esta operación busca asegurar la continuidad y ejecución de programas de empleo, destinando recursos para financiar actividades específicas de dichos organismos. La medida es dispuesta por el Ministerio de Trabajo y Promoción del Empleo.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera de Llamkasun Perú",
+        "A favor de organismos ejecutores"
+      ],
+      "a_quien_afecta": "Organismos ejecutores de programas de empleo y beneficiarios de Llamkasun Perú.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Facilita la ejecución de programas de empleo, impactando a beneficiarios y entidades ejecutoras.",
+      "sectores": [
+        "trabajo",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "empleo temporal",
+        "llamkasun peru",
+        "transferencia financiera"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508081-2",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "011-2026-MTC",
+      "titulo_oficial": "DECRETO SUPREMO N° 011-2026-MTC",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Decreto Supremo que modifica el Reglamento Nacional de Tránsito aprobado por Decreto Supremo N° 033-2001-MTC",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508081-2",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA4MV8yMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508081-2_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el Reglamento Nacional de Tránsito aprobado por el Decreto Supremo N° 033-2001-MTC. Los cambios buscan actualizar o precisar las normas que rigen la circulación vehicular y peatonal en el país. La iniciativa proviene del Ministerio de Transportes y Comunicaciones.",
+      "cambios_clave": [
+        "Modifica el Reglamento Nacional de Tránsito"
+      ],
+      "a_quien_afecta": "Conductores, peatones, transportistas y entidades de control de tránsito.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Modifica el marco normativo general del tránsito vehicular y peatonal a nivel nacional.",
+      "sectores": [
+        "transporte"
+      ],
+      "tags": [
+        "transito",
+        "reglamento",
+        "modificacion",
+        "licencia"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507977-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "199-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 199-2026-MTC/01.02",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Disponen publicación de proyecto de Resolución Ministerial que deroga la Resolución Ministerial N° 104-2003-MTC-02 que aprueba diversos Anexos Técnicos del Reglamento de la Ley de Aeronáutica Civil; y se dispone la aprobación de los Anexos Técnicos del Reglamento de la Ley de Aeronáutica Civil aprobado por Decreto Supremo N° 050-2001-MTC",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507977-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk3N18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507977-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se dispone la publicación del proyecto de Resolución Ministerial que derogará la Resolución Ministerial N° 104-2003-MTC, la cual aprobaba Anexos Técnicos del Reglamento de la Ley de Aeronáutica Civil. Paralelamente, se aprobarán nuevos Anexos Técnicos del reglamento vigente. Esto busca actualizar la normativa aeronáutica.",
+      "cambios_clave": [
+        "Deroga RM N° 104-2003-MTC sobre Anexos Técnicos Aeronáuticos",
+        "Aprueba nuevos Anexos Técnicos del Reglamento de Aeronáutica Civil"
+      ],
+      "a_quien_afecta": "Empresas del sector aeronáutico, pilotos, y autoridades de aviación civil.",
+      "vigencia": "La publicación permite comentarios hasta su aprobación.",
+      "impacto": "alto",
+      "impacto_razon": "Actualiza normativa técnica clave para la operación del sector aeronáutico.",
+      "sectores": [
+        "aeronautica",
+        "transporte"
+      ],
+      "tags": [
+        "aeronautica",
+        "anexos tecnicos",
+        "reglamento",
+        "modificacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508006-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "200-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 200-2026-MTC/01.02",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Autorizan viaje de inspectora de la Dirección General de Aeronáutica Civil a Chile en comisión de servicios",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508006-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODAwNl8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508006-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de una inspectora de la Dirección General de Aeronáutica Civil a Chile. El propósito es participar en una comisión de servicios, probablemente para supervisar o coordinar aspectos técnicos o regulatorios de aviación civil. La autorización es emitida por el Ministerio de Transportes y Comunicaciones.",
+      "cambios_clave": [
+        "Autoriza viaje de inspectora de aeronáutica civil a Chile"
+      ],
+      "a_quien_afecta": "Inspectora de la DGAC y el Ministerio de Transportes y Comunicaciones.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual para comisión de servicios.",
+      "sectores": [
+        "aeronautica",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "viaje oficial",
+        "aeronautica",
+        "chile",
+        "inspectora"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508045-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "201-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 201-2026-MTC/01",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Modifican la R.M. N° 001-2026-MTC/01 que delega facultades en diversos funcionarios órganos organismos públicos y programas del Ministerio de Transportes y Comunicaciones",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508045-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA0NV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508045-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifican las facultades delegadas a funcionarios, órganos y programas del Ministerio de Transportes y Comunicaciones, según lo establecido en la R.M. N° 001-2026-MTC/01. Estos ajustes buscan optimizar la gestión y distribución de responsabilidades dentro del ministerio. La medida es emitida por el propio ministerio.",
+      "cambios_clave": [
+        "Modifica delegación de facultades del MTC"
+      ],
+      "a_quien_afecta": "Funcionarios y órganos del Ministerio de Transportes y Comunicaciones.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Reorganiza la distribución de responsabilidades y facultades dentro de una entidad pública.",
+      "sectores": [
+        "administracion_publica",
+        "transporte"
+      ],
+      "tags": [
+        "delegacion de facultades",
+        "mtc",
+        "funcionarios"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508081-3",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "006-2026-VIVIENDA",
+      "titulo_oficial": "DECRETO SUPREMO N° 006-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Decreto Supremo que modifica el Reglamento de los Títulos II y III de la Ley N° 28687 Ley de desarrollo y complementaria de formalización de la propiedad informal acceso al suelo y dotación de servicios básicos aprobado por el Decreto Supremo Nº 017-2006-VIVIENDA",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508081-3",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA4MV8zMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508081-3_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el Reglamento de los Títulos II y III de la Ley N° 28687, sobre formalización de la propiedad informal, acceso al suelo y servicios básicos. Los cambios buscan mejorar o ajustar los procedimientos y requisitos para la formalización de predios y la provisión de servicios. La norma es del Ministerio de Vivienda, Construcción y Saneamiento.",
+      "cambios_clave": [
+        "Modifica Reglamento Ley N° 28687 de formalización de propiedad"
+      ],
+      "a_quien_afecta": "Propietarios informales, desarrolladores inmobiliarios y entidades de saneamiento.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Afecta directamente el proceso de formalización de propiedad y acceso a servicios básicos.",
+      "sectores": [
+        "vivienda",
+        "urbanismo",
+        "construccion"
+      ],
+      "tags": [
+        "propiedad informal",
+        "formalizacion",
+        "vivienda",
+        "reglamento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508067-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "D000028-2026-COFOPRI-DE",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° D000028-2026-COFOPRI-DE",
+      "entidad_emisora": "ORGANISMO DE FORMALIZACIÓN DE LA PROPIEDAD INFORMAL",
+      "sumilla": "Delegan a las Jefaturas de las Oficinas Zonales de COFOPRI la suscripción del Acta de Transferencia de Propiedad y la emisión de resolución que formaliza la transferencia a título gratuito de predios de titularidad de personas naturales o jurídicas a favor de COFOPRI con fines de formalización",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508067-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA2N18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508067-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se delegan facultades a las Jefaturas de las Oficinas Zonales de COFOPRI para suscribir Actas de Transferencia de Propiedad y emitir resoluciones de formalización. Esto permite agilizar la transferencia gratuita de predios a favor de COFOPRI para fines de formalización. La medida busca descentralizar la toma de decisiones.",
+      "cambios_clave": [
+        "Delega suscripción de actas y emisión de resoluciones a Oficinas Zonales de COFOPRI"
+      ],
+      "a_quien_afecta": "Jefaturas de Oficinas Zonales de COFOPRI y COFOPRI.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Agiliza procesos de formalización de propiedad al descentralizar facultades en COFOPRI.",
+      "sectores": [
+        "vivienda",
+        "administracion_publica"
+      ],
+      "tags": [
+        "cofopri",
+        "delegacion de facultades",
+        "propiedad",
+        "formalizacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508057-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000116-2026-MIGRACIONES",
+      "titulo_oficial": "RESOLUCION N° 000116-2026-MIGRACIONES",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE MIGRACIONES",
+      "sumilla": "Designan Ejecutivo de la Unidad de Desarrollo de Sistemas de la Oficina de Tecnologías de la Información y Comunicaciones de MIGRACIONES",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508057-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODA1N18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508057-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a un nuevo Ejecutivo en la Unidad de Desarrollo de Sistemas de la Oficina de Tecnologías de la Información y Comunicaciones de la Superintendencia Nacional de Migraciones. Este nombramiento busca fortalecer la gestión del área de sistemas y tecnología de la institución.",
+      "cambios_clave": [
+        "Designan Ejecutivo de Desarrollo de Sistemas en Migraciones"
+      ],
+      "a_quien_afecta": "Superintendencia Nacional de Migraciones y el funcionario designado.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de personal sin efectos regulatorios externos.",
+      "sectores": [
+        "migraciones",
+        "administracion_publica",
+        "tecnologia"
+      ],
+      "tags": [
+        "designacion",
+        "migraciones",
+        "ti",
+        "sistemas"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507993-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "043-2026-SUSALUD/S",
+      "titulo_oficial": "RESOLUCION N° 043-2026-SUSALUD/S",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE SALUD",
+      "sumilla": "Designan Director General de la Oficina General de Administración de la Superintendencia Nacional de Salud",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507993-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk5M18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507993-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Director General de la Oficina General de Administración de la Superintendencia Nacional de Salud (SUSALUD). Este nombramiento tiene como objetivo asegurar la correcta gestión administrativa y financiera de la institución. La decisión es tomada por la propia Superintendencia.",
+      "cambios_clave": [
+        "Designan Director General de Administración en SUSALUD"
+      ],
+      "a_quien_afecta": "Superintendencia Nacional de Salud y el funcionario designado.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un cargo directivo sin impacto regulatorio general.",
+      "sectores": [
+        "salud",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designacion",
+        "susalud",
+        "administracion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507769-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION ADMINISTRATIVA",
+      "tipo_corto": "RA",
+      "numero": "000105-2026-CE-PJ",
+      "titulo_oficial": "RESOLUCION ADMINISTRATIVA N° 000105-2026-CE-PJ",
+      "entidad_emisora": "CONSEJO EJECUTIVO DEL PODER JUDICIAL",
+      "sumilla": "Aprueban la Directiva denominada Desplazamiento del personal del Poder Judicial comprendido en los regímenes laborales regulados por los Decretos Legislativos N.° 728 a plazo indeterminado y 1057 – Versión 001",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507769-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzc2OV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507769-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba la Directiva \"Desplazamiento del personal del Poder Judicial comprendido en los regímenes laborales de los Decretos Legislativos N.° 728 y 1057\". Esta norma regula los traslados internos del personal bajo dichos regímenes, estableciendo procedimientos y condiciones para el cambio de puesto a plazo indeterminado.",
+      "cambios_clave": [
+        "Aprueban Directiva sobre desplazamiento de personal del Poder Judicial"
+      ],
+      "a_quien_afecta": "Personal del Poder Judicial bajo regímenes DL 728 y DL 1057.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Regula movimientos internos de personal en el Poder Judicial, afectando a trabajadores y la gestión interna.",
+      "sectores": [
+        "justicia",
+        "trabajo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "poder judicial",
+        "personal",
+        "desplazamiento",
+        "directiva"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507877-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "005409-2026-R/UNMSM",
+      "titulo_oficial": "RESOLUCION N° 005409-2026-R/UNMSM",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Ratifican resolución que autorizó viaje de docente de la Universidad Nacional Mayor de San Marcos a México en comisión de servicios",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507877-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzg3N18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507877-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se ratifica una resolución previa que autorizó el viaje de un docente de la Universidad Nacional Mayor de San Marcos (UNMSM) a México. El viaje se realizó en comisión de servicios, probablemente para actividades académicas o de investigación. La ratificación confirma la validez del permiso otorgado.",
+      "cambios_clave": [
+        "Ratifican autorización de viaje de docente de la UNMSM a México"
+      ],
+      "a_quien_afecta": "Docente de la UNMSM y la Universidad Nacional Mayor de San Marcos.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Ratificación de un viaje individual de un docente universitario.",
+      "sectores": [
+        "educacion"
+      ],
+      "tags": [
+        "viaje",
+        "docente",
+        "unmsm",
+        "ratificacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507887-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "005408-2026-R/UNMSM",
+      "titulo_oficial": "RESOLUCION N° 005408-2026-R/UNMSM",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Ratifican resolución que autorizó viaje de docente de la Universidad Nacional Mayor de San Marcos a México en comisión de servicios",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507887-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzg4N18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507887-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se ratifica una resolución previa que autorizó el viaje de un docente de la Universidad Nacional Mayor de San Marcos (UNMSM) a México. El viaje se realizó en comisión de servicios, probablemente para actividades académicas o de investigación. La ratificación confirma la validez del permiso otorgado.",
+      "cambios_clave": [
+        "Ratifican autorización de viaje de docente de la UNMSM a México"
+      ],
+      "a_quien_afecta": "Docente de la UNMSM y la Universidad Nacional Mayor de San Marcos.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Ratificación de un viaje individual de un docente universitario.",
+      "sectores": [
+        "educacion"
+      ],
+      "tags": [
+        "viaje",
+        "docente",
+        "unmsm",
+        "ratificacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507715-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0776-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0776-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundado en parte recurso de apelación interpuesto por personero legal titular de la organización política Partido País para Todos; y en consecuencia; revocan extremo de la Resolución Nº 01124-2026-JEE- MAYN/JNE emitida por el Jurado Electoral Especial de Maynas",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507715-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcxNV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507715-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara fundado en parte un recurso de apelación del personero legal del Partido País para Todos, revocando una resolución del Jurado Electoral Especial de Maynas. La decisión del Jurado Nacional de Elecciones (JNE) modifica una sanción o determinación previa impuesta por el JEE.",
+      "cambios_clave": [
+        "Revocan parcialmente resolución del JEE Maynas a favor del Partido País para Todos"
+      ],
+      "a_quien_afecta": "Partido País para Todos y el Jurado Electoral Especial de Maynas.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modifica decisiones electorales y sanciones a organizaciones políticas a nivel local.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "partido pais para todos",
+        "apelacion",
+        "resolucion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507718-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0604-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0604-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundado en parte recurso de apelación de candidato a la Cámara de Diputados por el distrito electoral de La Libertad del Partido SíCreo; revocan resolución en el extremo que fija multa por infracción a la Ley de Organizaciones Políticas la reducen y confirman lo demás",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507718-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcxOF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507718-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara fundado en parte un recurso de apelación de un candidato a Diputado del Partido Sí Creo, revocando y reduciendo una multa impuesta por el Jurado Electoral Especial (JEE). El Jurado Nacional de Elecciones (JNE) modifica la sanción económica por infracción a la Ley de Organizaciones Políticas.",
+      "cambios_clave": [
+        "Reducen multa a candidato a Diputado del Partido Sí Creo"
+      ],
+      "a_quien_afecta": "Candidato a Diputado del Partido Sí Creo y el JEE La Libertad.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Afecta la sanción económica de un candidato y la aplicación de la Ley de Organizaciones Políticas.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "multa",
+        "candidato",
+        "organizacion politica"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507719-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0796-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0796-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran en sesión permanente virtual o presencial a los 60 Jurados Electorales Especiales a partir de la vigencia de la presente resolución hasta la culminación del proceso electoral de las Elecciones Generales 2026",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507719-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcxOV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507719-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declaran en sesión permanente virtual o presencial los 60 Jurados Electorales Especiales (JEE) a partir de la vigencia de la norma hasta la culminación de las Elecciones Generales 2026. Esto asegura la operatividad continua de los JEE durante todo el proceso electoral.",
+      "cambios_clave": [
+        "Declaran en sesión permanente a los 60 JEE hasta fin de elecciones 2026"
+      ],
+      "a_quien_afecta": "Jurados Electorales Especiales y el proceso electoral 2026.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Asegura la operatividad continua de los órganos electorales durante un proceso nacional.",
+      "sectores": [
+        "electoral",
+        "justicia",
+        "administracion_publica"
+      ],
+      "tags": [
+        "jne",
+        "jurados electorales especiales",
+        "elecciones 2026",
+        "sesion permanente"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507721-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0641-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0641-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran infundado recurso de apelación de la organización política Fuerza Arequipeña y confirman la resolución que declaró improcedente la solicitud de modificación de su Estatuto y Reglamento Electoral",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507721-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcyMV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507721-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara infundado el recurso de apelación de la organización política Fuerza Arequipeña, confirmando la resolución que declaró improcedente la modificación de su Estatuto y Reglamento Electoral. El Jurado Nacional de Elecciones (JNE) mantiene la decisión original del JEE.",
+      "cambios_clave": [
+        "Confirman improcedencia de modificación de Estatuto de Fuerza Arequipeña"
+      ],
+      "a_quien_afecta": "Organización política Fuerza Arequipeña y el JNE.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Rechaza cambios en estatutos de organizaciones políticas, afectando su autonomía interna y regulación.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "fuerza arequipeña",
+        "estatuto",
+        "reglamento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507722-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0782-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0782-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran que candidata a la Cámara de Diputados por el distrito electoral de Piura no incurrió en infracción prevista en la Ley de Organizaciones Políticas y no corresponde sancionarla con multa",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507722-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcyMl8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507722-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara que una candidata a Diputada por Piura no incurrió en infracción a la Ley de Organizaciones Políticas, por lo que no corresponde sancionarla con multa. El Jurado Nacional de Elecciones (JNE) falla a favor de la candidata, desestimando la posible sanción.",
+      "cambios_clave": [
+        "Candidata a Diputada por Piura no será sancionada con multa"
+      ],
+      "a_quien_afecta": "Candidata a Diputada por Piura y el JNE.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Resuelve un caso particular de posible sanción electoral, afectando a la candidata y la aplicación de la ley.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "candidata",
+        "multa",
+        "organizacion politica"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507725-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0595-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0595-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundado en parte recurso de apelación de la organización política Partido Político Nacional Perú Libre; revocan resolución que impuso multa a candidato al Senado por el distrito electoral del Callao por infracción a la Ley de Organizaciones Políticas la reducen y confirman lo demás",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507725-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcyNV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507725-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara fundado en parte un recurso de apelación del Partido Político Nacional Perú Libre, revocando y reduciendo una multa impuesta a un candidato al Senado por el Callao. El Jurado Nacional de Elecciones (JNE) modifica la sanción económica por infracción a la Ley de Organizaciones Políticas.",
+      "cambios_clave": [
+        "Reducen multa a candidato al Senado del Partido Perú Libre (Callao)"
+      ],
+      "a_quien_afecta": "Candidato al Senado del Partido Perú Libre y el JNE.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Afecta la sanción económica de un candidato y la aplicación de la Ley de Organizaciones Políticas.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "multa",
+        "candidato",
+        "peru libre"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507728-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0594-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0594-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundada en parte apelación y revocan la Res. N° 00464-2026-JEE-TUMB/JNE que determinó sancionar con multa a candidato a la Cámara de Diputados por el distrito electoral de Tumbes",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507728-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzcyOF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507728-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara fundada en parte una apelación y se revoca la resolución que sancionaba con multa a un candidato a Diputado por Tumbes. El Jurado Nacional de Elecciones (JNE) modifica la sanción impuesta por el Jurado Electoral Especial (JEE) de Tumbes.",
+      "cambios_clave": [
+        "Revocan multa a candidato a Diputado por Tumbes"
+      ],
+      "a_quien_afecta": "Candidato a Diputado por Tumbes y el JEE Tumbes.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modifica una sanción electoral impuesta a un candidato, afectando la aplicación de la ley.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "multa",
+        "candidato",
+        "tumbes"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507730-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0784-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0784-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundado recurso de apelación de la organización política Ahora Nación - AN y nula la Resolución Nº 00249-2026-JEE-AQP2/JNE así como todo lo actuado en procedimiento sancionador por infracción a normas de propaganda electoral",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507730-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzczMF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507730-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara fundado un recurso de apelación de la organización política Ahora Nación - AN, declarando nula una resolución y todo lo actuado en un procedimiento sancionador por propaganda electoral. El Jurado Nacional de Elecciones (JNE) anula la sanción impuesta por el Jurado Electoral Especial (JEE) de Arequipa.",
+      "cambios_clave": [
+        "Anulan procedimiento sancionador por propaganda electoral (Ahora Nación)"
+      ],
+      "a_quien_afecta": "Organización política Ahora Nación y el JEE Arequipa.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Anula un proceso sancionador electoral, afectando la aplicación de normas de propaganda.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "propaganda electoral",
+        "ahora nacion",
+        "anulacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507734-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0649-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0649-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundada en parte apelación interpuesta por candidata al cargo de representante peruana al Parlamento Andino contra la Res. 00875-2026-JEE-LIC2/JNE que determinó sancionarla con multa",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507734-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzczNF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507734-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara fundada en parte una apelación interpuesta por una candidata al Parlamento Andino contra una multa impuesta por el Jurado Electoral Especial (JEE) de La Libertad. El Jurado Nacional de Elecciones (JNE) reduce la sanción económica.",
+      "cambios_clave": [
+        "Reducen multa a candidata al Parlamento Andino (La Libertad)"
+      ],
+      "a_quien_afecta": "Candidata al Parlamento Andino y el JEE La Libertad.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Afecta la sanción económica de una candidata y la aplicación de la ley electoral.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "multa",
+        "parlamento andino",
+        "candidata"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507737-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0610-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0610-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundado en parte recurso de apelación interpuesto por candidato a la Cámara de Diputados por la organización política Fuerza y Libertad; y revocan extremo de la Resolución Nº 00456-2026-JEE-TACN/JNE",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507737-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzczN18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507737-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se declara fundado en parte un recurso de apelación de un candidato a Diputado de Fuerza y Libertad, revocando un extremo de la resolución emitida por el Jurado Electoral Especial (JEE) de Tacna. El Jurado Nacional de Elecciones (JNE) modifica la decisión del JEE.",
+      "cambios_clave": [
+        "Revocan extremo de resolución a candidato de Fuerza y Libertad (Tacna)"
+      ],
+      "a_quien_afecta": "Candidato de Fuerza y Libertad y el JEE Tacna.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modifica una decisión electoral en un caso particular, afectando al candidato y la aplicación de la ley.",
+      "sectores": [
+        "electoral",
+        "justicia"
+      ],
+      "tags": [
+        "jne",
+        "fuerza y libertad",
+        "apelacion",
+        "resolucion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507738-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0607-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0607-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundado en parte recurso de apelación de la organización política Partido del Buen Gobierno; revocan resolución en el extremo que fija multa por infracción a la Ley de Organizaciones Políticas la reducen y confirman lo demás",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507738-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzczOF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507738-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Jurado Nacional de Elecciones (JNE) estima parcialmente un recurso de apelación del Partido del Buen Gobierno. Se revoca la multa impuesta por infracción a la Ley de Organizaciones Políticas, reduciéndola. El resto de la resolución se confirma.",
+      "cambios_clave": [
+        "Reduce multa a organización política",
+        "Estima parcialmente apelación"
+      ],
+      "a_quien_afecta": "Organización política Partido del Buen Gobierno y el JNE.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Resuelve un caso particular de multa a partido político sin afectar al sector.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "multa",
+        "partido politico",
+        "organizacion politica",
+        "apelacion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507739-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0606-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0606-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran infundado recurso de apelación interpuesto por candidato al Senado por el distrito electoral de Lambayeque de la organización política Partido Morado; y en consecuencia confirman la Resolución Nº 00738-2026-JEE-CHYO/JNE",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507739-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzczOV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507739-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Jurado Nacional de Elecciones (JNE) declara infundado el recurso de apelación de un candidato al Senado por el Partido Morado. En consecuencia, se confirma la resolución previa del Jurado Electoral Especial de Chimbote.",
+      "cambios_clave": [
+        "Confirma resolución previa del JEE",
+        "Declara infundado recurso de apelación"
+      ],
+      "a_quien_afecta": "Candidato al Senado por el Partido Morado y el JEE de Chimbote.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Resuelve un caso individual de apelación de un candidato.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "elecciones",
+        "candidato",
+        "apelacion",
+        "partido morado"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507742-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0609-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0609-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundado en parte recurso de apelación interpuesto por personero legal titular de la organización política Progresemos; y en consecuencia revocan extremo de la Resolución Nº 00779-2026-JEE-CALL/JNE",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507742-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzc0Ml8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507742-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Jurado Nacional de Elecciones (JNE) estima parcialmente la apelación del partido Progresemos. Se revoca un extremo de la resolución previa del Jurado Electoral Especial de Callao.",
+      "cambios_clave": [
+        "Revoca extremo de resolución previa del JEE",
+        "Estima parcialmente apelación de partido político"
+      ],
+      "a_quien_afecta": "Organización política Progresemos y el JEE de Callao.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Resuelve un caso particular de apelación de una organización política.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "partido politico",
+        "apelacion",
+        "resolucion",
+        "elecciones"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507751-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0586-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0586-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Revocan Acuerdo de Concejo N° 072-2025-MDCH que declaró fundada suspensión del cargo de alcalde de la Municipalidad Distrital de Characato provincia y departamento de Arequipa",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507751-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzc1MV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507751-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Jurado Nacional de Elecciones (JNE) revoca un acuerdo del Concejo Municipal de Characato. Dicho acuerdo había declarado fundada la suspensión del cargo de alcalde de dicha municipalidad.",
+      "cambios_clave": [
+        "Revoca acuerdo de suspensión de alcalde",
+        "Desestima suspensión de cargo edil"
+      ],
+      "a_quien_afecta": "Alcalde y Concejo Municipal de Characato (Arequipa).",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modifica una decisión municipal sobre la permanencia de un alcalde en su cargo.",
+      "sectores": [
+        "gobierno_local"
+      ],
+      "tags": [
+        "suspension",
+        "alcalde",
+        "municipalidad",
+        "acuerdo concejo"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507998-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0612-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0612-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran fundada en parte apelación interpuesta contra la Res. Nº 01185-2026-JEE-MAYN/JNE que determinó sancionar con multa a candidato a la Cámara de Diputados por el distrito electoral de Loreto por infracción prevista en la Ley de Organizaciones Políticas",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507998-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzk5OF8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507998-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Jurado Nacional de Elecciones (JNE) declara fundada en parte una apelación contra una sanción de multa a un candidato a la Cámara de Diputados. La multa fue impuesta por infracción a la Ley de Organizaciones Políticas.",
+      "cambios_clave": [
+        "Funda parcialmente apelación contra multa",
+        "Modifica sanción a candidato"
+      ],
+      "a_quien_afecta": "Candidato a la Cámara de Diputados por Loreto y el JEE de Maynas.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Resuelve un caso específico de multa a un candidato.",
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [
+        "multa",
+        "candidato",
+        "apelacion",
+        "ley organizaciones politicas"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2508001-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0638-2026-JNE",
+      "titulo_oficial": "RESOLUCION N° 0638-2026-JNE",
+      "entidad_emisora": "JURADO NACIONAL DE ELECCIONES",
+      "sumilla": "Declaran infundado recurso de apelación y confirman el Acuerdo de Concejo Municipal Nº 016-2025-MPL que rechazó recurso de reconsideración contra el Acuerdo de Concejo Nº 12-2025-MPL que rechazó solicitud de vacancia de la alcaldesa de la Municipalidad Distrital de Pueblo Libre; e improcedente recurso de apelación en el extremo referido a la vacancia de regidor",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508001-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODAwMV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2508001-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Jurado Nacional de Elecciones (JNE) declara infundado un recurso de apelación y confirma el rechazo de una solicitud de vacancia contra la alcaldesa de Pueblo Libre. También declara improcedente otro extremo de la apelación referido a la vacancia de un regidor.",
+      "cambios_clave": [
+        "Confirma rechazo de vacancia de alcaldesa",
+        "Declara improcedente apelación de vacancia de regidor"
+      ],
+      "a_quien_afecta": "Alcaldesa y regidor de Pueblo Libre, y el Concejo Municipal.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Resuelve sobre la permanencia de autoridades ediles en sus cargos.",
+      "sectores": [
+        "gobierno_local"
+      ],
+      "tags": [
+        "vacancia",
+        "alcaldesa",
+        "regidor",
+        "apelacion",
+        "pueblo libre"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2507173-1",
+      "seccion": "normas_legales",
+      "tipo": "ACUERDO",
+      "tipo_corto": "ACU",
+      "numero": "118-2026-CR/GRM",
+      "titulo_oficial": "ACUERDO N° 118-2026-CR/GRM",
+      "entidad_emisora": "GOBIERNO REGIONAL DE MOQUEGUA",
+      "sumilla": "Autorizan segunda transferencia parcial financiera del Gobierno Regional de Moquegua a favor de la Municipalidad Provincial General Sánchez Cerro",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2507173-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNzE3M18xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2507173-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Gobierno Regional de Moquegua autoriza una segunda transferencia financiera parcial a favor de la Municipalidad Provincial General Sánchez Cerro. Esta operación busca proveer recursos para proyectos o gastos específicos de la municipalidad.",
+      "cambios_clave": [
+        "Autoriza transferencia financiera parcial",
+        "Gobierno Regional a Municipalidad Provincial"
+      ],
+      "a_quien_afecta": "Gobierno Regional de Moquegua y Municipalidad Provincial General Sánchez Cerro.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Implica movimiento de recursos públicos entre entidades del Estado.",
+      "sectores": [
+        "gobierno_regional",
+        "gobierno_local",
+        "presupuesto_publico"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "gobierno regional",
+        "municipalidad",
+        "recursos publicos"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2506052-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO DE ALCALDIA",
+      "tipo_corto": "OTRO",
+      "numero": "006-2026-MDEA",
+      "titulo_oficial": "DECRETO DE ALCALDIA N° 006-2026-MDEA",
+      "entidad_emisora": "MUNICIPALIDAD DE EL AGUSTINO",
+      "sumilla": "Aprueban Cronograma de actividades para la Primera Audiencia Pública de Rendición de Cuentas de la Municipalidad Distrital de El Agustino para el año 2026",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2506052-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNjA1Ml8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2506052-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "La Municipalidad Distrital de El Agustino aprueba el cronograma para su Primera Audiencia Pública de Rendición de Cuentas del año 2026. Este evento permitirá a la ciudadanía conocer los avances y gestiones de la comuna.",
+      "cambios_clave": [
+        "Aprueba cronograma de audiencia pública",
+        "Rendición de cuentas 2026"
+      ],
+      "a_quien_afecta": "Vecinos y autoridades de la Municipalidad Distrital de El Agustino.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Establece un procedimiento administrativo interno de comunicación ciudadana.",
+      "sectores": [
+        "gobierno_local"
+      ],
+      "tags": [
+        "audiencia publica",
+        "rendicion de cuentas",
+        "municipalidad",
+        "cronograma"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2499011-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO DE ALCALDIA",
+      "tipo_corto": "OTRO",
+      "numero": "001-2026-MDC-A",
+      "titulo_oficial": "DECRETO DE ALCALDIA N° 001-2026-MDC-A",
+      "entidad_emisora": "MUNICIPALIDAD DISTRITAL DE CASTILLA",
+      "sumilla": "Aprueban modificación del Texto Único de Procedimientos Administrativos y Servicios Prestados en Exclusividad - TUPA de la Municipalidad Distrital de Castilla",
+      "fecha_publicacion": "2026-04-21",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2499011-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjQ5OTAxMV8xMjAyNjA0MjE=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/2499011-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "La Municipalidad Distrital de Castilla aprueba la modificación de su Texto Único de Procedimientos Administrativos (TUPA). Esto implica cambios en los procedimientos y servicios que ofrece a los ciudadanos y empresas.",
+      "cambios_clave": [
+        "Modifica Texto Único de Procedimientos Administrativos (TUPA)",
+        "Actualiza servicios y procedimientos municipales"
+      ],
+      "a_quien_afecta": "Ciudadanos y empresas que interactúan con la Municipalidad Distrital de Castilla.",
+      "vigencia": "Desde su publicación (21/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Afecta los trámites administrativos y servicios ofrecidos por la municipalidad.",
+      "sectores": [
+        "gobierno_local",
+        "administracion_publica"
+      ],
+      "tags": [
+        "tupa",
+        "procedimientos administrativos",
+        "servicios municipales",
+        "municipalidad"
+      ],
+      "prompt_version": 2
+    }
+  ],
+  "documentos": [
+    {
+      "seccion": "boletin_oficial",
+      "edicion": "12949",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQyMQ==",
+      "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/21/_BO20260421_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2506603-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2506603_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2506603_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507231-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507231_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507231_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507338-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507338_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507338_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507381-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507381_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507381_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507386-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507386_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507386_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507387-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507387_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507387_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507410-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507410_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507410_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507433-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507433_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507433_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507449-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507449_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507449_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507488-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507488_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507488_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507488-2",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507488_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507488_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507526-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507526_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507526_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2507851-1",
+      "fecha_publicacion": "2026-04-21",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/21/2507851_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/21/2507851_1_Portada.jpg"
+    }
+  ],
+  "stats": {
+    "total_normas": 59,
+    "alto": 5,
+    "medio": 27,
+    "bajo": 27,
+    "sectores_top": [
+      [
+        "administracion_publica",
+        24
+      ],
+      [
+        "justicia",
+        11
+      ],
+      [
+        "electoral",
+        10
+      ],
+      [
+        "gobierno_local",
+        9
+      ],
+      [
+        "presupuesto_publico",
+        8
+      ],
+      [
+        "inclusion_social",
+        5
+      ]
+    ],
+    "documentos_otras_secciones": 14
+  },
+  "generated_at": "2026-04-21T12:58:28.170011Z"
+}

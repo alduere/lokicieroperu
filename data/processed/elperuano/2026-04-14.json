@@ -1,0 +1,1288 @@
+{
+  "fecha": "2026-04-14",
+  "normas": [
+    {
+      "id": "2505636-1",
+      "seccion": "normas_legales",
+      "tipo": "LEY",
+      "tipo_corto": "LEY",
+      "numero": "32577",
+      "titulo_oficial": "LEY N° 32577",
+      "entidad_emisora": "CONGRESO DE LA REPUBLICA",
+      "sumilla": "Ley que otorga una bonificación económica excepcional para los licenciados veteranos de la pacificación nacional",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505636-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzNl8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505636-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se otorga una bonificación económica excepcional a los licenciados veteranos de la pacificación nacional. Esta medida busca reconocer y compensar a quienes participaron en acciones de pacificación.",
+      "cambios_clave": [
+        "Otorga bonificación económica excepcional a veteranos de pacificación."
+      ],
+      "a_quien_afecta": "Licenciados veteranos de la pacificación nacional.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Beneficio económico directo para un grupo específico de ciudadanos.",
+      "sectores": [
+        "defensa",
+        "administracion_publica"
+      ],
+      "tags": [
+        "bonificación",
+        "veteranos",
+        "pacificación",
+        "reconocimiento"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505636-2",
+      "seccion": "normas_legales",
+      "tipo": "LEY",
+      "tipo_corto": "LEY",
+      "numero": "32578",
+      "titulo_oficial": "LEY N° 32578",
+      "entidad_emisora": "CONGRESO DE LA REPUBLICA",
+      "sumilla": "Ley que crea la Universidad Nacional Tecnológica Intercultural de Pomata en el distrito de Pomata provincia de Chucuito departamento de Puno",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505636-2",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzNl8yMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505636-2_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se crea la Universidad Nacional Tecnológica Intercultural de Pomata en el distrito de Pomata, provincia de Chucuito, departamento de Puno. Esta nueva institución busca ofrecer educación superior tecnológica e intercultural en la región.",
+      "cambios_clave": [
+        "Crea la Universidad Nacional Tecnológica Intercultural de Pomata."
+      ],
+      "a_quien_afecta": "Estudiantes y docentes de la región Puno.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Creación de una nueva universidad pública con impacto educativo regional.",
+      "sectores": [
+        "educacion",
+        "gobierno_regional"
+      ],
+      "tags": [
+        "universidad",
+        "educación superior",
+        "puno",
+        "intercultural"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505636-3",
+      "seccion": "normas_legales",
+      "tipo": "LEY",
+      "tipo_corto": "LEY",
+      "numero": "32579",
+      "titulo_oficial": "LEY N° 32579",
+      "entidad_emisora": "CONGRESO DE LA REPUBLICA",
+      "sumilla": "Ley de conversión del Instituto de Educación Superior Público Túpac Amaru del Cusco en Universidad Nacional Tecnológica Túpac Amaru del Cusco",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505636-3",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzNl8zMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505636-3_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "El Instituto de Educación Superior Público Túpac Amaru del Cusco se convierte en la Universidad Nacional Tecnológica Túpac Amaru del Cusco. Esta conversión eleva el nivel de la institución educativa y amplía su oferta académica.",
+      "cambios_clave": [
+        "Convierte Instituto Túpac Amaru en Universidad Nacional Tecnológica."
+      ],
+      "a_quien_afecta": "Estudiantes y docentes del Cusco.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Transformación de una institución educativa a nivel universitario.",
+      "sectores": [
+        "educacion"
+      ],
+      "tags": [
+        "universidad",
+        "educación superior",
+        "cusco",
+        "conversión"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505636-4",
+      "seccion": "normas_legales",
+      "tipo": "LEY",
+      "tipo_corto": "LEY",
+      "numero": "32580",
+      "titulo_oficial": "LEY N° 32580",
+      "entidad_emisora": "CONGRESO DE LA REPUBLICA",
+      "sumilla": "Ley que crea la Universidad Nacional Intercultural de Nauta (UNIN) en el distrito de Nauta provincia de Loreto departamento de Loreto",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505636-4",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzNl80MjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505636-4_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se crea la Universidad Nacional Intercultural de Nauta (UNIN) en el distrito de Nauta, provincia de Loreto, departamento de Loreto. La universidad ofrecerá formación superior tecnológica e intercultural en la Amazonía.",
+      "cambios_clave": [
+        "Crea la Universidad Nacional Intercultural de Nauta (UNIN)."
+      ],
+      "a_quien_afecta": "Estudiantes y docentes de la región Loreto.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Creación de una nueva universidad pública con impacto educativo regional.",
+      "sectores": [
+        "educacion",
+        "gobierno_regional"
+      ],
+      "tags": [
+        "universidad",
+        "educación superior",
+        "loreto",
+        "intercultural"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505631-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "127-2026-PCM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 127-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Aprueban el Reglamento Interno de la Comisión Especial constituida mediante la Ley N° 30254 Ley de Promoción para el uso seguro y responsable de las Tecnologías de la Información y Comunicaciones por Niños Niñas y Adolescentes",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505631-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzMV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505631-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Reglamento Interno de la Comisión Especial creada por la Ley N° 30254. Dicha comisión promueve el uso seguro y responsable de las tecnologías de la información y comunicaciones por niños, niñas y adolescentes.",
+      "cambios_clave": [
+        "Aprueba Reglamento Interno de Comisión Especial TIC para menores."
+      ],
+      "a_quien_afecta": "Comisión Especial, niños, niñas y adolescentes usuarios de TIC.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Reglamenta el funcionamiento de una comisión y establece directrices para el uso de TIC por menores.",
+      "sectores": [
+        "tecnologia",
+        "derechos_humanos",
+        "niñez"
+      ],
+      "tags": [
+        "reglamento",
+        "tic",
+        "menores",
+        "seguridad"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505639-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "129-2026-PCM",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 129-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Designan Secretario de la Secretaría de Integridad Pública de la Presidencia del Consejo de Ministros",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505639-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzOV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505639-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Secretario de la Secretaría de Integridad Pública de la Presidencia del Consejo de Ministros. El cargo es clave para la promoción de políticas contra la corrupción y la transparencia en la gestión pública.",
+      "cambios_clave": [
+        "Designa Secretario de Integridad Pública de la PCM."
+      ],
+      "a_quien_afecta": "Funcionario designado y la Presidencia del Consejo de Ministros.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un funcionario específico sin impacto general.",
+      "sectores": [
+        "administracion_publica",
+        "transparencia"
+      ],
+      "tags": [
+        "designación",
+        "integridad pública",
+        "pcm"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505622-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "D000048-2026-MIDIS/P65-DE",
+      "titulo_oficial": "RESOLUCION N° D000048-2026-MIDIS/P65-DE",
+      "entidad_emisora": "DESARROLLO E INCLUSIÓN SOCIAL",
+      "sumilla": "Designan Asesora de la Dirección Ejecutiva del Programa Nacional de Asistencia Solidaria Pensión 65",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505622-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYyMl8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505622-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a una Asesora de la Dirección Ejecutiva del Programa Nacional de Asistencia Solidaria Pensión 65. El nombramiento recae en una funcionaria que apoyará la gestión del programa social.",
+      "cambios_clave": [
+        "Designa Asesora de la Dirección Ejecutiva de Pensión 65."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Programa Pensión 65.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un puesto de asesoría en un programa social.",
+      "sectores": [
+        "administracion_publica",
+        "inclusion_social"
+      ],
+      "tags": [
+        "designación",
+        "pensión 65",
+        "asesoría"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505624-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "221-2026-MINEDU",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 221-2026-MINEDU",
+      "entidad_emisora": "EDUCACION",
+      "sumilla": "Designan Directora de la Dirección de Educación Básica Especial de la Dirección General de Servicios Educativos Especializados",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505624-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYyNF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505624-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Directora de la Dirección de Educación Básica Especial de la Dirección General de Servicios Educativos Especializados. El nombramiento fortalece la gestión educativa en el ámbito de la educación especial.",
+      "cambios_clave": [
+        "Designa Directora de Educación Básica Especial del MINEDU."
+      ],
+      "a_quien_afecta": "Funcionario designado y el sector Educación.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo directivo en el Ministerio de Educación.",
+      "sectores": [
+        "educacion"
+      ],
+      "tags": [
+        "designación",
+        "educación especial",
+        "minedu"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505626-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "222-2026-MINEDU",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 222-2026-MINEDU",
+      "entidad_emisora": "EDUCACION",
+      "sumilla": "Designan Directora General de la Dirección General de Gestión Descentralizada dependiente del Despacho Viceministerial de Gestión Institucional",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505626-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYyNl8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505626-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Directora General de la Dirección General de Gestión Descentralizada del Ministerio de Educación. El nombramiento es relevante para la articulación de políticas educativas a nivel regional y local.",
+      "cambios_clave": [
+        "Designa Directora General de Gestión Descentralizada del MINEDU."
+      ],
+      "a_quien_afecta": "Funcionario designado y el sector Educación.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo directivo en el Ministerio de Educación.",
+      "sectores": [
+        "educacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "gestión descentralizada",
+        "minedu"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505620-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "000271-2026-IN-VOI-DGIN",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 000271-2026-IN-VOI-DGIN",
+      "entidad_emisora": "INTERIOR",
+      "sumilla": "Designan Subprefectos(as) Distritales en los departamentos de Huancavelica Junín y Puno",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505620-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYyMF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505620-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designan Subprefectos Distritales en los departamentos de Huancavelica, Junín y Puno. Estos funcionarios representan al Poder Ejecutivo a nivel local y cumplen funciones administrativas y de orden público.",
+      "cambios_clave": [
+        "Designa Subprefectos Distritales en Huancavelica, Junín y Puno."
+      ],
+      "a_quien_afecta": "Funcionarios designados y autoridades locales en las regiones mencionadas.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de funcionarios de nivel distrital.",
+      "sectores": [
+        "interior",
+        "gobierno_regional"
+      ],
+      "tags": [
+        "designación",
+        "subprefectos",
+        "huancavelica",
+        "junín",
+        "puno"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505479-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "155-2026-JUS",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 155-2026-JUS",
+      "entidad_emisora": "JUSTICIA Y DERECHOS HUMANOS",
+      "sumilla": "Disponen la publicación de la propuesta de contenido mínimo para la modificación del Estudio Ambiental o PAMA para impactos ambientales negativos no significativos del Sector Justicia y Derechos Humanos",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505479-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTQ3OV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505479-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se dispone la publicación de la propuesta de contenido mínimo para modificar Estudios Ambientales o PAMA para impactos ambientales negativos no significativos en el Sector Justicia y Derechos Humanos. Esto busca estandarizar los procedimientos de evaluación ambiental.",
+      "cambios_clave": [
+        "Publica propuesta de contenido mínimo para modificar Estudios Ambientales."
+      ],
+      "a_quien_afecta": "Entidades del Sector Justicia y consultoras ambientales.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Establece directrices para la evaluación ambiental en un sector específico.",
+      "sectores": [
+        "justicia",
+        "ambiente"
+      ],
+      "tags": [
+        "estudios ambientales",
+        "pama",
+        "justicia",
+        "publicación"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505644-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000170-2026-MIMP",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000170-2026-MIMP",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Designan Asesor II del Despacho Viceministerial de la Mujer",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505644-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTY0NF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505644-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a un Asesor II del Despacho Viceministerial de la Mujer. El nombramiento busca fortalecer el equipo de trabajo del Viceministerio encargado de políticas para la mujer.",
+      "cambios_clave": [
+        "Designa Asesor II del Viceministerio de la Mujer."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Viceministerio de la Mujer.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un puesto de asesoría en un viceministerio.",
+      "sectores": [
+        "mujer",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "asesor",
+        "viceministerio de la mujer"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505645-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000171-2026-MIMP",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000171-2026-MIMP",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Designan Asesora II del Despacho Ministerial",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505645-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTY0NV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505645-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a una Asesora II del Despacho Ministerial del Ministerio de la Mujer y Poblaciones Vulnerables. El nombramiento refuerza el equipo de apoyo directo del titular del sector.",
+      "cambios_clave": [
+        "Designa Asesora II del Despacho Ministerial del MIMP."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Ministerio de la Mujer y Poblaciones Vulnerables.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un puesto de asesoría en el despacho ministerial.",
+      "sectores": [
+        "mujer",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "asesor",
+        "mimp"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505646-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000174-2026-MIMP",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000174-2026-MIMP",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Designan Director II de la Oficina de Abastecimiento y Servicios de la Oficina General de Administración del Ministerio",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505646-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTY0Nl8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505646-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director II de la Oficina de Abastecimiento y Servicios de la Oficina General de Administración del Ministerio de la Mujer y Poblaciones Vulnerables. El cargo es responsable de la gestión de recursos logísticos y administrativos.",
+      "cambios_clave": [
+        "Designa Director de Oficina de Abastecimiento y Servicios del MIMP."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Ministerio de la Mujer y Poblaciones Vulnerables.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo directivo en la administración interna del ministerio.",
+      "sectores": [
+        "administracion_publica",
+        "mujer"
+      ],
+      "tags": [
+        "designación",
+        "abastecimiento",
+        "mimp"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505647-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "000175-2026-MIMP",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 000175-2026-MIMP",
+      "entidad_emisora": "MUJER Y POBLACIONES VULNERABLES",
+      "sumilla": "Designan Directora II de la Dirección de Asistencia Técnica y Promoción de Servicios de la Dirección General Contra la Violencia de Género",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505647-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTY0N18xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505647-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Directora II de la Dirección de Asistencia Técnica y Promoción de Servicios de la Dirección General Contra la Violencia de Género. El nombramiento fortalece la lucha contra la violencia de género.",
+      "cambios_clave": [
+        "Designa Directora de Dirección Contra la Violencia de Género del MIMP."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Ministerio de la Mujer y Poblaciones Vulnerables.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Designación en un área clave para la protección de derechos de las mujeres.",
+      "sectores": [
+        "mujer",
+        "derechos_humanos",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "violencia de género",
+        "mimp"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505563-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "006-2026-IMARPE/GG",
+      "titulo_oficial": "RESOLUCION N° 006-2026-IMARPE/GG",
+      "entidad_emisora": "PRODUCE",
+      "sumilla": "Aprueban modificación del Manual de Clasificador de Cargos del Instituto del Mar del Perú",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505563-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTU2M18xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505563-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba la modificación del Manual de Clasificador de Cargos del Instituto del Mar del Perú (IMARPE). Este cambio actualiza la estructura de puestos de trabajo de la institución científica.",
+      "cambios_clave": [
+        "Modifica el Manual de Clasificador de Cargos del IMARPE."
+      ],
+      "a_quien_afecta": "Personal del Instituto del Mar del Perú (IMARPE).",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Modificación de la estructura organizacional y de puestos de una entidad pública.",
+      "sectores": [
+        "pesqueria",
+        "administracion_publica"
+      ],
+      "tags": [
+        "manual de cargos",
+        "imarpe",
+        "modificación"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505637-3",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "064-2026-RE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 064-2026-RE",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Remiten al Congreso de la República la documentación relativa al Tratado entre la República del Perú y la República de Kazajistán sobre Asistencia Legal Mutua en Materia Penal",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505637-3",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzN18zMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505637-3_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se remite al Congreso de la República la documentación del Tratado de Asistencia Legal Mutua en Materia Penal entre Perú y Kazajistán. El objetivo es que el Congreso revise y apruebe dicho acuerdo internacional.",
+      "cambios_clave": [
+        "Remite al Congreso Tratado de Asistencia Legal Mutua Perú-Kazajistán."
+      ],
+      "a_quien_afecta": "Congreso de la República y el Poder Ejecutivo.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Inicia el proceso de ratificación de un tratado internacional en materia penal.",
+      "sectores": [
+        "justicia",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "tratado",
+        "asistencia legal",
+        "penal",
+        "kazajistán",
+        "congreso"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505637-4",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "065-2026-RE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 065-2026-RE",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Remiten al Congreso de la República la documentación relativa al Tratado entre la República del Perú y la República de Kazajistán sobre Extradición",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505637-4",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzN180MjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505637-4_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se remite al Congreso de la República la documentación del Tratado de Extradición entre Perú y Kazajistán. El propósito es que el Congreso evalúe y apruebe este acuerdo bilateral.",
+      "cambios_clave": [
+        "Remite al Congreso Tratado de Extradición Perú-Kazajistán."
+      ],
+      "a_quien_afecta": "Congreso de la República y el Poder Ejecutivo.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Inicia el proceso de ratificación de un tratado internacional sobre extradición.",
+      "sectores": [
+        "justicia",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "tratado",
+        "extradición",
+        "perú",
+        "kazajistán",
+        "congreso"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505637-5",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "066-2026-RE",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 066-2026-RE",
+      "entidad_emisora": "RELACIONES EXTERIORES",
+      "sumilla": "Remiten al Congreso de la República la documentación relativa al Acuerdo entre la República del Perú y el Instituto Global para el Crecimiento Verde con respecto a la Personería Jurídica y los Privilegios e Inmunidades del Instituto Global para el Crecimiento Verde",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505637-5",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzN181MjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505637-5_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se remite al Congreso de la República el Acuerdo entre Perú y el Instituto Global para el Crecimiento Verde sobre su personería jurídica, privilegios e inmunidades. Esto permite su eventual ratificación y aplicación.",
+      "cambios_clave": [
+        "Remite al Congreso Acuerdo Perú-Instituto Crecimiento Verde."
+      ],
+      "a_quien_afecta": "Congreso de la República y el Instituto Global para el Crecimiento Verde.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Inicia el proceso de aprobación de un acuerdo internacional para una organización.",
+      "sectores": [
+        "relaciones_exteriores",
+        "ambiente",
+        "organismos_internacionales"
+      ],
+      "tags": [
+        "acuerdo",
+        "crecimiento verde",
+        "congreso",
+        "internacional"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505637-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "003-2026-SA",
+      "titulo_oficial": "DECRETO SUPREMO N° 003-2026-SA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Decreto Supremo que aprueba el Reglamento de la Ley N° 30102 Ley que dispone medidas preventivas contra los efectos nocivos para la salud por la exposición prolongada a la radiación solar",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505637-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzN18xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505637-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se aprueba el Reglamento de la Ley N° 30102, que establece medidas preventivas contra los efectos nocivos de la exposición prolongada a la radiación solar. El reglamento detalla las acciones y responsabilidades para proteger la salud pública.",
+      "cambios_clave": [
+        "Aprueba Reglamento de Ley de protección contra radiación solar."
+      ],
+      "a_quien_afecta": "Ciudadanía, sector salud y entidades públicas y privadas.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "alto",
+      "impacto_razon": "Reglamenta una ley de salud pública con implicancias para toda la población.",
+      "sectores": [
+        "salud",
+        "ambiente"
+      ],
+      "tags": [
+        "reglamento",
+        "radiación solar",
+        "salud pública",
+        "protección"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505637-2",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "004-2026-TR",
+      "titulo_oficial": "DECRETO SUPREMO N° 004-2026-TR",
+      "entidad_emisora": "TRABAJO Y PROMOCION DEL EMPLEO",
+      "sumilla": "Decreto Supremo que modifica el Decreto Supremo N° 009-2022-TR Decreto Supremo que crea el Sistema de Información del Mercado Laboral (SIMEL) y el Laboratorio de Innovación Laboral",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505637-2",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzN18yMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505637-2_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se modifica el Decreto Supremo N° 009-2022-TR, que creó el Sistema de Información del Mercado Laboral (SIMEL) y el Laboratorio de Innovación Laboral. Los cambios buscan optimizar la gestión y el uso de estas herramientas para el análisis del empleo.",
+      "cambios_clave": [
+        "Modifica sistema de información del mercado laboral (SIMEL)."
+      ],
+      "a_quien_afecta": "Ministerio de Trabajo, investigadores y público interesado en el mercado laboral.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Ajusta el funcionamiento de un sistema de información clave para el análisis laboral.",
+      "sectores": [
+        "trabajo",
+        "tecnologia"
+      ],
+      "tags": [
+        "mercado laboral",
+        "simel",
+        "información",
+        "modificación"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505481-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "086-2026-TR",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 086-2026-TR",
+      "entidad_emisora": "TRABAJO Y PROMOCION DEL EMPLEO",
+      "sumilla": "Designan Jefa de Comunicación e Imagen Institucional de la Oficina de Comunicación e Imagen Institucional",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505481-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTQ4MV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505481-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa a la Jefa de Comunicación e Imagen Institucional de la Oficina de Comunicación e Imagen Institucional del Ministerio de Trabajo y Promoción del Empleo. El puesto es clave para la difusión de información y la imagen de la entidad.",
+      "cambios_clave": [
+        "Designa Jefa de Comunicación e Imagen Institucional del MTPE."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Ministerio de Trabajo y Promoción del Empleo.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación de un cargo de comunicación dentro de un ministerio.",
+      "sectores": [
+        "trabajo",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "comunicación",
+        "imagen institucional",
+        "mtpe"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505525-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "188-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 188-2026-MTC/01.02",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Ratifican el Memorándum de Entendimiento entre las Autoridades Aeronáuticas Civiles de la República del Paraguay y la República del Perú",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505525-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTUyNV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505525-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se ratifica el Memorándum de Entendimiento entre las Autoridades Aeronáuticas Civiles de Paraguay y Perú. Este acuerdo facilita la cooperación y el intercambio de información en materia de aviación civil entre ambos países.",
+      "cambios_clave": [
+        "Ratifica Memorándum de Entendimiento Aeronáutico Perú-Paraguay."
+      ],
+      "a_quien_afecta": "Autoridades aeronáuticas de Perú y Paraguay.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Fortalece la cooperación bilateral en el sector de transporte aéreo.",
+      "sectores": [
+        "transporte",
+        "aeronautica",
+        "relaciones_exteriores"
+      ],
+      "tags": [
+        "memorándum",
+        "aeronáutica",
+        "perú",
+        "paraguay",
+        "cooperación"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505634-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "192-2026-MTC/01",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 192-2026-MTC/01",
+      "entidad_emisora": "TRANSPORTES Y COMUNICACIONES",
+      "sumilla": "Designan Director Ejecutivo del Programa Nacional de Telecomunicaciones - PRONATEL",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505634-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzNF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505634-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director Ejecutivo del Programa Nacional de Telecomunicaciones (PRONATEL). El nombramiento es crucial para la gestión y ejecución de proyectos de conectividad y despliegue de redes de telecomunicaciones.",
+      "cambios_clave": [
+        "Designa Director Ejecutivo del Programa Nacional de Telecomunicaciones (PRONATEL)."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Programa Nacional de Telecomunicaciones.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Designación de un cargo directivo clave para el desarrollo de telecomunicaciones.",
+      "sectores": [
+        "telecomunicaciones",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "telecomunicaciones",
+        "pronatel"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505635-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "074-2026-VIVIENDA/VMCS/PNSU/DE",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 074-2026-VIVIENDA/VMCS/PNSU/DE",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Responsable de la Unidad para la Mejora de la Prestación de los Servicios del Programa Nacional de Saneamiento Urbano",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505635-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYzNV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505635-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Responsable de la Unidad para la Mejora de la Prestación de los Servicios del Programa Nacional de Saneamiento Urbano. El cargo es fundamental para la supervisión y optimización de los servicios de saneamiento.",
+      "cambios_clave": [
+        "Designa Responsable de Unidad de Servicios del Programa Nacional de Saneamiento Urbano."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Programa Nacional de Saneamiento Urbano.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Designación de un puesto clave para la gestión de servicios de saneamiento urbano.",
+      "sectores": [
+        "vivienda",
+        "agua",
+        "administracion_publica"
+      ],
+      "tags": [
+        "designación",
+        "saneamiento urbano",
+        "servicios"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505590-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "159-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 159-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Designan Jefe de Atención al Ciudadano de la Oficina de Atención al Ciudadano",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505590-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTU5MF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505590-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Jefe de Atención al Ciudadano de la Oficina de Atención al Ciudadano. Esta designación recae en un funcionario específico dentro del Ministerio de Vivienda, Construcción y Saneamiento. La norma se limita a formalizar un cambio de personal en un cargo de confianza. No modifica regulaciones previas ni establece nuevas obligaciones.",
+      "cambios_clave": [
+        "Designación del Jefe de Atención al Ciudadano en Vivienda."
+      ],
+      "a_quien_afecta": "Funcionario designado y el Ministerio de Vivienda.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un funcionario sin efectos generales.",
+      "sectores": [
+        "administracion_publica",
+        "vivienda"
+      ],
+      "tags": [
+        "designacion",
+        "atencion al ciudadano",
+        "vivienda"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505248-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000041-2026-DV-PE",
+      "titulo_oficial": "RESOLUCION N° 000041-2026-DV-PE",
+      "entidad_emisora": "COMISION NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS",
+      "sumilla": "Autorizan transferencia financiera para financiar actividad a favor del Gobierno Regional Junín – Dirección Regional de Agricultura",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505248-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTI0OF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505248-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza una transferencia financiera destinada a financiar actividades específicas a favor del Gobierno Regional Junín, a través de su Dirección Regional de Agricultura. Esta operación busca proveer recursos para proyectos concretos en la región. La norma es una autorización puntual de fondos entre entidades públicas. No implica cambios regulatorios amplios.",
+      "cambios_clave": [
+        "Transferencia financiera a Gobierno Regional Junín."
+      ],
+      "a_quien_afecta": "Gobierno Regional Junín y la Comisión Nacional para el Desarrollo y Vida sin Drogas.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "medio",
+      "impacto_razon": "Autoriza el uso de fondos públicos para un proyecto regional específico.",
+      "sectores": [
+        "administracion_publica",
+        "gobierno_regional",
+        "agricultura"
+      ],
+      "tags": [
+        "transferencia financiera",
+        "gobierno regional",
+        "junin"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505284-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION JEFATURAL",
+      "tipo_corto": "RJ",
+      "numero": "000026-2026-OSINFOR/JE",
+      "titulo_oficial": "RESOLUCION JEFATURAL N° 000026-2026-OSINFOR/JE",
+      "entidad_emisora": "ORGANISMO DE SUPERVISION DE LOS RECURSOS FORESTALES Y DE FAUNA SILVESTRE",
+      "sumilla": "Designan Gerente General del Organismo de Supervisión de los Recursos Forestales y de Fauna Silvestre – OSINFOR",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505284-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTI4NF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505284-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Gerente General del Organismo de Supervisión de los Recursos Forestales y de Fauna Silvestre (OSINFOR). Esta designación formaliza la jefatura de una entidad clave en la supervisión forestal. La norma se enfoca en la estructura interna y la conducción del OSINFOR. No introduce cambios en la regulación forestal o de fauna silvestre.",
+      "cambios_clave": [
+        "Designación del Gerente General del OSINFOR."
+      ],
+      "a_quien_afecta": "Funcionario designado y el OSINFOR.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un cargo de confianza en una entidad pública.",
+      "sectores": [
+        "administracion_publica",
+        "ambiente",
+        "recursos_forestales"
+      ],
+      "tags": [
+        "designacion",
+        "osinfor",
+        "gerente general"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505501-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000056",
+      "titulo_oficial": "RESOLUCION N° 000056 -2026-PROMPERU/PE",
+      "entidad_emisora": "COMISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMO",
+      "sumilla": "Designan Director de la Dirección de Promoción de las Exportaciones de la Comisión de Promoción del Perú para la Exportación y el Turismo – PROMPERÚ",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505501-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTUwMV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505501-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al Director de la Dirección de Promoción de las Exportaciones en PROMPERÚ. Esta designación recae en un funcionario clave para la estrategia de promoción comercial del país. La norma se limita a cubrir una posición directiva dentro de la institución. No modifica políticas de exportación ni procedimientos comerciales.",
+      "cambios_clave": [
+        "Designación del Director de Promoción de Exportaciones en PROMPERÚ."
+      ],
+      "a_quien_afecta": "Funcionario designado y PROMPERÚ.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un cargo directivo en PROMPERÚ.",
+      "sectores": [
+        "administracion_publica",
+        "comercio_exterior",
+        "turismo"
+      ],
+      "tags": [
+        "designacion",
+        "promperu",
+        "exportaciones"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505619-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000057-2026-PROMPERU/PE",
+      "titulo_oficial": "RESOLUCION N° 000057-2026-PROMPERU/PE",
+      "entidad_emisora": "COMISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMO",
+      "sumilla": "Designan Jefe de la Oficina de Producción de la Comisión de Promoción del Perú para la Exportación y el Turismo – PROMPERÚ",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505619-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTYxOV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505619-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designa al nuevo Jefe de la Oficina de Producción de PROMPERÚ. Esta designación formaliza la conducción de una unidad operativa dentro de la entidad promotora del comercio y turismo. La norma se enfoca en la estructura interna y la asignación de responsabilidades. No altera las funciones generales de PROMPERÚ ni las políticas de promoción.",
+      "cambios_clave": [
+        "Designación del Jefe de la Oficina de Producción en PROMPERÚ."
+      ],
+      "a_quien_afecta": "Funcionario designado y PROMPERÚ.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de un cargo de jefatura en PROMPERÚ.",
+      "sectores": [
+        "administracion_publica",
+        "comercio_exterior",
+        "turismo"
+      ],
+      "tags": [
+        "designacion",
+        "promperu",
+        "produccion"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505577-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000064-2026/SUNAT",
+      "titulo_oficial": "RESOLUCION N° 000064-2026/SUNAT",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+      "sumilla": "Designan en diversos cargos de confianza de la SUNAT",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505577-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTU3N18xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505577-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designan diversos funcionarios en cargos de confianza dentro de la SUNAT. Esta resolución consolida cambios en puestos clave de la administración tributaria y aduanera. La norma se enfoca en la reconfiguración de mandos dentro de la institución. No modifica la normativa tributaria ni aduanera vigente.",
+      "cambios_clave": [
+        "Designación de funcionarios en cargos de confianza en SUNAT."
+      ],
+      "a_quien_afecta": "Funcionarios designados y la SUNAT.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designaciones internas de personal de confianza en la SUNAT.",
+      "sectores": [
+        "administracion_publica",
+        "tributacion",
+        "aduanas"
+      ],
+      "tags": [
+        "designacion",
+        "sunat",
+        "cargos de confianza"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505548-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "000056-2026-SUNAT/800000",
+      "titulo_oficial": "RESOLUCION N° 000056-2026-SUNAT/800000",
+      "entidad_emisora": "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+      "sumilla": "Designan en cargos de confianza de Supervisor 1 dependientes de la Superintendencia Nacional Adjunta de Administración y Finanzas",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505548-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTU0OF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505548-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se designan supervisores en cargos de confianza dentro de la Superintendencia Nacional Adjunta de Administración y Finanzas de la SUNAT. Esta resolución formaliza la asignación de responsabilidades en niveles de supervisión operativa. La norma se limita a la estructura interna de la SUNAT. No altera las obligaciones tributarias ni los procedimientos administrativos generales.",
+      "cambios_clave": [
+        "Designación de supervisores en la SUNAT."
+      ],
+      "a_quien_afecta": "Supervisores designados y la SUNAT.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Designación interna de personal de supervisión en la SUNAT.",
+      "sectores": [
+        "administracion_publica",
+        "tributacion"
+      ],
+      "tags": [
+        "designacion",
+        "sunat",
+        "supervisores"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505328-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "0380-2026-UNHEVAL",
+      "titulo_oficial": "RESOLUCION N° 0380-2026-UNHEVAL",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Autorizan viaje de docente de la Universidad Nacional Hermilio Valdizán para participar como ponente en evento a realizarse en España",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505328-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTMyOF8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505328-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": null,
+      "cambios_clave": [],
+      "a_quien_afecta": null,
+      "vigencia": null,
+      "impacto": "medio",
+      "impacto_razon": null,
+      "sectores": [
+        "administracion_publica"
+      ],
+      "tags": [],
+      "prompt_version": 0
+    },
+    {
+      "id": "2503622-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION",
+      "tipo_corto": "RES",
+      "numero": "168-2026-CO-UNAT",
+      "titulo_oficial": "RESOLUCION N° 168-2026-CO-UNAT",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Autorizan viaje de docente de la Universidad Nacional Autónoma de Tayacaja Daniel Hernández Morillo para participar en evento académico a realizarse en Francia",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2503622-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwMzYyMl8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2503622-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de un docente de la Universidad Nacional Autónoma de Tayacaja Daniel Hernández Morillo (UNAT) a Francia para participar en un evento académico. Esta autorización facilita la representación de la universidad en un contexto internacional. La norma se limita a la movilidad de un miembro del personal docente. No introduce modificaciones a la política educativa ni a la gestión universitaria.",
+      "cambios_clave": [
+        "Autorización de viaje de docente de la UNAT a Francia."
+      ],
+      "a_quien_afecta": "Docente autorizado y la UNAT.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje individual de un docente para evento académico.",
+      "sectores": [
+        "educacion",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje autorizado",
+        "docente",
+        "unat",
+        "francia"
+      ],
+      "prompt_version": 2
+    },
+    {
+      "id": "2505369-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SBS",
+      "tipo_corto": "RES",
+      "numero": "01080-2026",
+      "titulo_oficial": "RESOLUCION SBS N° 01080-2026",
+      "entidad_emisora": "SUPERINTENDENCIA DE BANCA, SEGUROS Y ADMINISTRADORAS PRIVADAS DE FONDOS DE PENSIONES",
+      "sumilla": "Autorizan viaje de funcionarios de la Superintendencia Adjunta de Seguros para participar en eventos a realizarse en Costa Rica",
+      "fecha_publicacion": "2026-04-14",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2505369-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwNTM2OV8xMjAyNjA0MTQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/2505369-1_Portada.jpg",
+      "edicion_extraordinaria": false,
+      "resumen_ejecutivo": "Se autoriza el viaje de funcionarios de la Superintendencia Adjunta de Seguros (SAS) de la SBS a Costa Rica para participar en eventos relevantes para el sector asegurador. Esta autorización permite la asistencia a foros internacionales que abordan temas de regulación y supervisión de seguros. La norma se enfoca en la participación de la SBS en actividades internacionales. No modifica la normativa de seguros ni las funciones de la SBS.",
+      "cambios_clave": [
+        "Autorización de viaje de funcionarios de la SBS a Costa Rica."
+      ],
+      "a_quien_afecta": "Funcionarios autorizados y la SBS.",
+      "vigencia": "Desde su publicación (14/04/2026)",
+      "impacto": "bajo",
+      "impacto_razon": "Autorización de viaje de funcionarios de la SBS para evento internacional.",
+      "sectores": [
+        "financiero",
+        "seguros",
+        "administracion_publica"
+      ],
+      "tags": [
+        "viaje autorizado",
+        "sbs",
+        "seguros",
+        "costa rica"
+      ],
+      "prompt_version": 2
+    }
+  ],
+  "documentos": [
+    {
+      "seccion": "boletin_oficial",
+      "edicion": "12942",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQxNA==",
+      "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/14/_BO20260414_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2504486-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2504486_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2504486_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505007-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505007_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505007_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505029-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505029_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505029_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505075-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505075_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505075_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505080-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505080_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505080_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505083-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505083_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505083_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505094-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505094_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505094_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505099-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505099_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505099_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2505121-1",
+      "fecha_publicacion": "2026-04-14",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/14/2505121_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/14/2505121_1_Portada.jpg"
+    }
+  ],
+  "stats": {
+    "total_normas": 35,
+    "alto": 1,
+    "medio": 17,
+    "bajo": 17,
+    "sectores_top": [
+      [
+        "administracion_publica",
+        22
+      ],
+      [
+        "educacion",
+        6
+      ],
+      [
+        "gobierno_regional",
+        4
+      ],
+      [
+        "ambiente",
+        4
+      ],
+      [
+        "mujer",
+        4
+      ],
+      [
+        "relaciones_exteriores",
+        4
+      ]
+    ],
+    "documentos_otras_secciones": 10
+  },
+  "generated_at": "2026-04-14T12:58:42.063833Z"
+}

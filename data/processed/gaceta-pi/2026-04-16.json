@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-04-16",
+  "source_slug": "gaceta-pi",
+  "items": [
+    {
+      "id": "16199-2024/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "I-OPTIK",
+      "solicitante": "Ningbo Ming Sing Optical R&D Co.,Ltd, de China",
+      "clase": "10",
+      "fecha_publicacion": "2026-04-16",
+      "fecha_presentacion": "2025-07-30",
+      "fecha_limite_oposicion": "2026-05-29",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "16265-2024/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "I-OPTIK",
+      "solicitante": "Ningbo Ming Sing Optical R&D Co.,Ltd, de China",
+      "clase": "09",
+      "fecha_publicacion": "2026-04-16",
+      "fecha_presentacion": "2025-07-30",
+      "fecha_limite_oposicion": "2026-05-29",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "17060-2024/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "ANGEAU",
+      "solicitante": "ANGEL INTERNATIONAL(H.K.) LIMITED, de Perú",
+      "clase": "35",
+      "fecha_publicacion": "2026-04-16",
+      "fecha_presentacion": "2025-07-31",
+      "fecha_limite_oposicion": "2026-05-29",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "14033-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ANYSUN",
+      "solicitante": "Shantou Meishang Cosmetics Co., Ltd., de China",
+      "clase": "03",
+      "fecha_publicacion": "2026-04-16",
+      "fecha_presentacion": "2025-07-01",
+      "fecha_limite_oposicion": "2026-05-29",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "15457-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ICOTTONOTE",
+      "solicitante": "Shanghai Mulu Textile Group Co., Ltd, de China",
+      "clase": "25",
+      "fecha_publicacion": "2026-04-16",
+      "fecha_presentacion": "2026-04-07",
+      "fecha_limite_oposicion": "2026-05-29",
+      "descripcion": null,
+      "prompt_version": 0
+    }
+  ],
+  "stats": {
+    "total_solicitudes": 5,
+    "por_tipo": [
+      [
+        "MARCA DE PRODUCTO",
+        4
+      ],
+      [
+        "MARCA DE SERVICIO",
+        1
+      ]
+    ]
+  },
+  "generated_at": "2026-04-16T13:02:48.445250Z"
+}

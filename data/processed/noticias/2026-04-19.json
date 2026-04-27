@@ -1,0 +1,257 @@
+{
+  "fecha": "2026-04-19",
+  "noticias": [
+    {
+      "id": "andina-d297c628e6e5",
+      "titulo": "¡Atención, innovador! aprende a crear tu startup usando inteligencia artificial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-atencion-innovador-aprende-a-crear-tu-startup-usando-inteligencia-artificial-1071858.aspx",
+      "fecha": "2026-04-19T12:00:00Z",
+      "contenido": "Tienes una idea innovadora que buscas llevar al mercado, no te pierdas este evento de ProInnóvate del Ministerio de la Producción con expertos del Tecnológico de Monterrey (México), quienes dictarán mentoría para transformar ideas de negocio y aprovechar la inteligencia artificial (IA).",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de la Producción, a través de ProInnóvate, organiza un evento para emprendedores que buscan crear startups utilizando inteligencia artificial. Expertos del Tecnológico de Monterrey ofrecerán mentorías para transformar ideas de negocio.",
+      "categoria": "Economía",
+      "tags": [
+        "startup",
+        "inteligencia artificial",
+        "innovación",
+        "emprendimiento",
+        "proinnóvate"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8546ffb6a9e7",
+      "titulo": "Serums 2026-I: profesionales de la salud rinden la evaluación hoy domingo 19",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-serums-2026i-profesionales-de-salud-rinden-evaluacion-hoy-domingo-19-1071455.aspx",
+      "fecha": "2026-04-19T11:56:44Z",
+      "contenido": "El Ministerio de Salud (Minsa) publicó la lista de los 29 puntos donde hoy domingo 19 de abril se desarrollará la evaluación para el Servicio Rural y Urbano Marginal de Salud (Serums) 2026-I. En esta nota conoce cuáles son las sedes por cada región y qué beneficios obtendrán quienes alcancen una plaza para este servicio.",
+      "fuente_display": "Andina",
+      "resumen": "Profesionales de la salud rendirán hoy la evaluación para el Servicio Rural y Urbano Marginal de Salud (Serums) 2026-I en 29 puntos a nivel nacional. El Ministerio de Salud (Minsa) detalló las sedes y los beneficios para los que obtengan una plaza.",
+      "categoria": "Economía",
+      "tags": [
+        "salud",
+        "serums",
+        "evaluación",
+        "profesionales",
+        "minsa"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-58a98ddd62a7",
+      "titulo": "Senamhi: temperatura diurna en sierra norte aumentará hasta 33 °C el lunes 20 y martes 21",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-senamhi-temperatura-diurna-sierra-norte-aumentara-hasta-33-%C2%B0c-lunes-20-y-martes-21-1071849.aspx",
+      "fecha": "2026-04-19T11:00:00Z",
+      "contenido": "Doce departamentos de la sierra norte y centro registrarán un aumento de la temperatura diurna, de moderada a fuerte intensidad y con valores que alcanzarán los 33 °C, el lunes 20 y martes 21 de abril, pronosticó el Servicio Nacional de Meteorología e Hidrología (Senamhi).",
+      "fuente_display": "Andina",
+      "resumen": "El Senamhi pronosticó un aumento de la temperatura diurna en la sierra norte y centro del Perú, alcanzando hasta 33 °C el lunes 20 y martes 21 de abril. Doce departamentos se verán afectados por este incremento de calor.",
+      "categoria": "Economía",
+      "tags": [
+        "senamhi",
+        "temperatura",
+        "sierra",
+        "pronóstico",
+        "clima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-797b033ea7bd",
+      "titulo": "Elecciones 2026: Aquí el link para ver en vivo resultados de ONPE de elección presidencial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-aqui-link-para-ver-vivo-resultados-onpe-eleccion-presidencial-1070992.aspx",
+      "fecha": "2026-04-19T04:00:39Z",
+      "contenido": "La ciudadania puede acceder al enlace en la página web de las Elecciones Generales 2026 de la Oficina Nacional de Procesos Electorales, la cual permite conocer los resultados oficiales de los comicios, conforme se van procesando actas en los 126 centros de cómputo del organismo electoral.",
+      "fuente_display": "Andina",
+      "resumen": "La Oficina Nacional de Procesos Electorales (ONPE) ha habilitado un enlace en su página web para seguir en vivo los resultados de las Elecciones Generales 2026. Los ciudadanos podrán consultar los resultados oficiales conforme se procesan las actas.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones",
+        "onpe",
+        "resultados",
+        "presidencial",
+        "2026"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-f3c7a416cf1d",
+      "titulo": "Liga de Naciones femenina: Perú cayó 1-0 ante Ecuador en Quito e hipotecó sus opciones",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-liga-naciones-femenina-peru-cayo-10-ante-ecuador-quito-e-hipoteco-sus-opciones-1071861.aspx",
+      "fecha": "2026-04-19T03:54:01Z",
+      "contenido": "La selección femenina de Ecuador venció este sábado por 1-0 a la Perú en Quito en partido de la séptima fecha de la Liga de Naciones, y con 8 puntos conservó su presupuesto para buscar la clasificación al Mundial de Brasil 2027 por la vía de la repesca.",
+      "fuente_display": "Andina",
+      "resumen": "La selección peruana de fútbol femenino perdió 1-0 contra Ecuador en Quito, complicando sus posibilidades de clasificar al Mundial de Brasil 2027. Con esta derrota, Perú se mantiene con 8 puntos en la Liga de Naciones.",
+      "categoria": "Economía",
+      "tags": [
+        "fútbol femenino",
+        "liga de naciones",
+        "ecuador",
+        "perú",
+        "mundial"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-db76633e5dc2",
+      "titulo": "¡Arrollador! Alianza Lima apabulló 8-0 a Cusco FC y ascendió a la punta del Apertura",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-arrollador-alianza-lima-apabullo-80-a-cusco-fc-y-ascendio-a-punta-del-apertura-1071859.aspx",
+      "fecha": "2026-04-19T03:37:57Z",
+      "contenido": "En una actuación sobresaliente, Alianza Lima goleó 8-0 a Cusco FC, en el Estadio Alejandro Villanueva, donde este sábado se consolidó el resultado más abultado del Torneo Apertura de la presente temporada y uno de los  de mayores diferencias de los últimos años en el fútbol peruano.",
+      "fuente_display": "Andina",
+      "resumen": "Alianza Lima goleó 8-0 a Cusco FC en el Estadio Alejandro Villanueva, logrando la mayor goleada del Torneo Apertura y una de las más abultadas en la historia del fútbol peruano. Con este resultado, Alianza Lima asciende a la punta del campeonato.",
+      "categoria": "Economía",
+      "tags": [
+        "fútbol",
+        "alianza lima",
+        "goleada",
+        "torneo apertura",
+        "cusco fc"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-fd4b580b56b5",
+      "titulo": "Elecciones 2026: Ahora Nación expresa su defensa a independencia de órganos electorales",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-ahora-nacion-expresa-su-defensa-a-independencia-organos-electorales-1071856.aspx",
+      "fecha": "2026-04-19T03:14:11Z",
+      "contenido": "El partido político Ahora Nación, que postuló a la Presidencia de la República a Alfonso López Chau, expresó su categórico rechazo a un presunto intento de fraude y, al mismo tiempo, defendió la independencia de los órganos electorales.",
+      "fuente_display": "Andina",
+      "resumen": "El partido político Ahora Nación, que postuló a Alfonso López Chau, rechazó un presunto intento de fraude electoral y defendió la independencia de los órganos electorales. La agrupación política se pronunció sobre las próximas elecciones.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones",
+        "ahora nación",
+        "fraude",
+        "órganos electorales",
+        "independencia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-a4e856ab31b4",
+      "titulo": "Rover que buscará indicios de vida debajo de la superficie de Marte se lanzará en 2028",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-rover-buscara-indicios-vida-debajo-de-superficie-marte-se-lanzara-2028-1071854.aspx",
+      "fecha": "2026-04-19T02:23:08Z",
+      "contenido": "La NASA ha dado luz verde al inicio de la implementación de la Misión Rosalind Franklin. Será la primera en perforar hasta dos metros por debajo de la superficie del Planeta Rojo, en busca de señales de vida pasada o presente en Marte y su lanzamiento está previsto para el 2028.",
+      "fuente_display": "Andina",
+      "resumen": "La NASA ha aprobado el inicio de la Misión Rosalind Franklin, cuyo objetivo es buscar indicios de vida en Marte perforando hasta dos metros bajo su superficie. El lanzamiento de este rover está programado para el año 2028.",
+      "categoria": "Economía",
+      "tags": [
+        "nasa",
+        "marte",
+        "rover",
+        "vida extraterrestre",
+        "misión espacial"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-be1911116837",
+      "titulo": "México, España y Brasil piden diálogo respetuoso con Cuba",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mexico-espana-y-brasil-piden-dialogo-respetuoso-cuba-1071855.aspx",
+      "fecha": "2026-04-19T02:19:44Z",
+      "contenido": "México, España y Brasil instaron el sábado a mantener con Cuba un diálogo sincero y respetuoso, que garantice a los cubanos decidir su futuro \"en plena libertad\", dijeron en un comunicado conjunto.",
+      "fuente_display": "Andina",
+      "resumen": "México, España y Brasil han solicitado un diálogo sincero y respetuoso con Cuba, instando a que los cubanos puedan decidir su futuro en plena libertad. La petición se realizó a través de un comunicado conjunto.",
+      "categoria": "Política",
+      "tags": [
+        "cuba",
+        "méxico",
+        "españa",
+        "brasil",
+        "diálogo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-bd36c697a484",
+      "titulo": "Ministerio de salud impulsa vacunación en jornada que une el deporte y la salud",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ministerio-salud-impulsa-vacunacion-jornada-une-deporte-y-salud-1071853.aspx",
+      "fecha": "2026-04-19T02:02:30Z",
+      "contenido": "El Ministerio de Salud (Minsa) realizó una campaña de inmunización en la explanada del estadio Alejandro Villanueva,(Matute), en la previa del encuentro entre Alianza Lima y Cusco FC.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Salud (Minsa) organizó una campaña de inmunización en el estadio Alejandro Villanueva (Matute), coincidiendo con la previa del partido entre Alianza Lima y Cusco FC. La jornada buscó unir deporte y salud.",
+      "categoria": "Economía",
+      "tags": [
+        "minsa",
+        "vacunación",
+        "salud",
+        "deporte",
+        "alianza lima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1f708ddd971b",
+      "titulo": "MEF: Recursos públicos deben convertirse en obras que mejoren calidad de vida de población",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mef-recursos-publicos-deben-convertirse-obras-mejoren-calidad-vida-poblacion-1071852.aspx",
+      "fecha": "2026-04-19T01:16:36Z",
+      "contenido": "El ministro de Economía y Finanzas, Rodolfo Acuña Namihas, recalcó que los recursos públicos deben traducirse en obras concretas que mejoren la calidad de vida de la población y que su ejecución no puede demorarse.",
+      "fuente_display": "Andina",
+      "resumen": "El ministro de Economía y Finanzas, Rodolfo Acuña Namihas, enfatizó que los recursos públicos deben materializarse en obras que mejoren la calidad de vida de la población. Subrayó la importancia de agilizar la ejecución de dichos proyectos.",
+      "categoria": "Economía",
+      "tags": [
+        "mef",
+        "recursos públicos",
+        "obras",
+        "calidad de vida",
+        "ejecución"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-08c2b9d5c692",
+      "titulo": "Gobierno ejecutó más de 190 mil operativos policiales para preservar seguridad ciudadana",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-gobierno-ejecuto-mas-190-mil-operativos-policiales-para-preservar-seguridad-ciudadana-1071851.aspx",
+      "fecha": "2026-04-19T00:44:20Z",
+      "contenido": "En dos meses de gestión el Gobierno de transición ha desarrollado acciones claves para fortalecer la seguridad en el país y combatir al crimen organizado.",
+      "fuente_display": "Andina",
+      "resumen": "El Gobierno de transición ha llevado a cabo más de 190 mil operativos policiales en sus dos meses de gestión para fortalecer la seguridad ciudadana y combatir el crimen organizado en el país.",
+      "categoria": "Política",
+      "tags": [
+        "seguridad ciudadana",
+        "operativos policiales",
+        "crimen organizado",
+        "gobierno",
+        "gestión"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-515444d89b76",
+      "titulo": "Indeci aconseja medidas preventivas ante aumento de temperatura en sierra norte y centro",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-indeci-aconseja-medidas-preventivas-ante-aumento-temperatura-sierra-norte-y-centro-1071850.aspx",
+      "fecha": "2026-04-19T00:10:38Z",
+      "contenido": "El Instituto Nacional de Defensa Civil (Indeci) recomienda a la población adoptar medidas de preparación ante el Aviso Meteorológico N.° 152 (nivel naranja) del Senamhi, que anuncia el incremento de la temperatura diurna, de moderada a fuerte intensidad, en la sierra norte y centro del país.",
+      "fuente_display": "Andina",
+      "resumen": "El Indeci aconseja a la población adoptar medidas preventivas ante el incremento de la temperatura diurna en la sierra norte y centro del país, según el aviso meteorológico del Senamhi. Se recomienda preparación ante el nivel naranja de alerta.",
+      "categoria": "Economía",
+      "tags": [
+        "indeci",
+        "senamhi",
+        "temperatura",
+        "sierra",
+        "prevención"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 13,
+  "fuentes_activas": [
+    "andina"
+  ],
+  "prompt_version": "prensa-v1"
+}

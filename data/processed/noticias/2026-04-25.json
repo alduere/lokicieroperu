@@ -1,0 +1,390 @@
+{
+  "fecha": "2026-04-25",
+  "noticias": [
+    {
+      "id": "andina-eced341aa136",
+      "titulo": "Festival aéreo FAP: maniobras de aeronaves, paracaidismo y todo lo que podrás ver [video]",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-festival-aereo-fap-maniobras-aeronaves-paracaidismo-y-todo-que-podras-ver-video-1072008.aspx",
+      "fecha": "2026-04-25T12:34:39Z",
+      "contenido": "Lima se prepara para un espectáculo aéreo que dejará boquiabiertos a grandes y chicos: la Fuerza Aérea del Perú (FAP) abre hoy sábado 25 y domingo 26 de abril las puertas de la Base Aérea Las Palmas, en Santiago de Surco, para el XVIII Festival Aéreo BALP 2026. Gratuito y familiar, el evento arranca a las 10:00 a.m. y se extenderá hasta las 5:00 p.m., con acrobacias de vértigo y saltos paracaidistas que pintarán el cielo de colores vibrantes.",
+      "fuente_display": "Andina",
+      "resumen": "La Fuerza Aérea del Perú (FAP) realizará su XVIII Festival Aéreo BALP 2026 en la Base Aérea Las Palmas los días 25 y 26 de abril. El evento gratuito contará con maniobras de aeronaves, paracaidismo y otras exhibiciones aéreas para toda la familia.",
+      "categoria": "Economía",
+      "tags": [
+        "fap",
+        "festival aéreo",
+        "base aérea las palmas",
+        "espectáculo aéreo",
+        "acrobacias"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-7d15ba69065a",
+      "titulo": "BCR: pagos digitales en Perú superan 1,500 millones de operaciones mensuales",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-bcr-pagos-digitales-peru-superan-1500-millones-operaciones-mensuales-1072658.aspx",
+      "fecha": "2026-04-25T12:34:31Z",
+      "contenido": "El gerente general del Banco Central de Reserva (BCR), Paul Castillo, afirmó que el ecosistema de pagos digitales en el Perú ha registrado un crecimiento “impresionante” en los últimos años, alcanzando más de 1,500 millones de transacciones mensuales, y adelantó que la entidad continuará impulsando su expansión mediante nuevas fases de interoperabilidad e innovación tecnológica.",
+      "fuente_display": "Andina",
+      "resumen": "El Banco Central de Reserva (BCR) informó que los pagos digitales en Perú han superado las 1,500 millones de operaciones mensuales. La entidad continuará impulsando la expansión de estos servicios a través de la interoperabilidad y la innovación tecnológica.",
+      "categoria": "Economía",
+      "tags": [
+        "bcr",
+        "pagos digitales",
+        "interoperabilidad",
+        "innovación tecnológica",
+        "transacciones"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-ff9759e58a9a",
+      "titulo": "Investigador usa nuevas tecnologías para modernizar la gestión forestal en la Amazonía",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-investigador-usa-nuevas-tecnologias-para-modernizar-gestion-forestal-la-amazonia-1072655.aspx",
+      "fecha": "2026-04-25T12:00:01Z",
+      "contenido": "El uso de tecnologías de vanguardia como los sistemas LiDAR (Light Detection and Ranging) son una  herramienta clave para modernizar el manejo de bosques de nuestra Amazonía.",
+      "fuente_display": "Andina",
+      "resumen": "Un investigador está utilizando tecnologías avanzadas como LiDAR para modernizar la gestión forestal en la Amazonía peruana. Estas herramientas permiten un manejo más eficiente y actualizado de los bosques.",
+      "categoria": "Economía",
+      "tags": [
+        "tecnología",
+        "gestión forestal",
+        "amazonía",
+        "lidar",
+        "manejo de bosques"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3bd7a153429b",
+      "titulo": "Aniversario de Ayacucho: ¿Por qué fue declarada Ciudad Creativa y qué destaca Unesco?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-aniversario-ayacucho-por-fue-declarada-ciudad-creativa-y-destaca-unesco-1072172.aspx",
+      "fecha": "2026-04-25T11:00:00Z",
+      "contenido": "El 3 de noviembre de 2019, la ciudad de Ayacucho se convirtió en una de las dos primeras urbes de Perú en integrar la Red de Ciudades Creativas de la Unesco. A propósito de la celebración del 486 aniversario de la fundación española de esta emblemática localidad, protagonista de trascendentales acontecimientos históricos e ineludible destino turístico, cabe destacar los atributos que la llevaron a ser distinguida y formar parte de esta prestigiosa membresía mundial.",
+      "fuente_display": "Andina",
+      "resumen": "Ayacucho fue designada Ciudad Creativa por la Unesco en 2019, destacando sus atributos culturales y turísticos. A propósito de su aniversario, se resalta la importancia de esta distinción que la integra a una red mundial de ciudades.",
+      "categoria": "Economía",
+      "tags": [
+        "ayacucho",
+        "unesco",
+        "ciudad creativa",
+        "turismo",
+        "cultura"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-baaa2368e408",
+      "titulo": "Perú: crece producción de cobre, zinc, estaño, hierro y plata en febrero de 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-crece-produccion-cobre-zinc-estano-hierro-y-plata-febrero-2026-1072645.aspx",
+      "fecha": "2026-04-25T10:00:00Z",
+      "contenido": "Al cierre del primer bimestre del 2026 el cobre, zinc, plata, hierro y estaño registran crecimientos interanuales al compararlos con los niveles correspondientes a enero y febrero del año anterior, informó el Ministerio de Energía y Minas (Minem).",
+      "fuente_display": "Andina",
+      "resumen": "La producción de cobre, zinc, estaño, hierro y plata en Perú experimentó un crecimiento interanual en febrero de 2026, según informó el Ministerio de Energía y Minas (Minem). Estos resultados positivos se observan al comparar con el mismo periodo del año anterior.",
+      "categoria": "Economía",
+      "tags": [
+        "producción minera",
+        "cobre",
+        "zinc",
+        "plata",
+        "minem"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-fdf6247bac09",
+      "titulo": "Minsa: jornada nacional de vacunación se inicia mañana hasta el domingo 3 de mayo",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-minsa-jornada-nacional-vacunacion-se-inicia-manana-hasta-domingo-3-mayo-1072652.aspx",
+      "fecha": "2026-04-25T04:14:37Z",
+      "contenido": "El Ministerio de Salud (Minsa), a través del Centro Nacional de Abastecimiento de Recursos Estratégicos en Salud (Cenares), distribuyó 6 280 757 dosis de vacunas para el desarrollo de la Semana de Vacunación en las Américas que se llevará a cabo del 25 de abril al 3 de mayo a nivel nacional, bajo el lema “Vacunación para todos”.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Salud (Minsa) inició una jornada nacional de vacunación que se extenderá hasta el 3 de mayo, distribuyendo más de 6.2 millones de dosis. La campaña se enmarca en la Semana de Vacunación en las Américas bajo el lema “Vacunación para todos”.",
+      "categoria": "Economía",
+      "tags": [
+        "minsa",
+        "vacunación",
+        "salud pública",
+        "semana de vacunación en las américas",
+        "dosis"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4243da8bb5a3",
+      "titulo": "Grupo Eco Plaza invierte US$ 20 millones en proyecto mixto en el óvalo de Santa Anita",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-grupo-eco-plaza-invierte-20-millones-proyecto-mixto-el-ovalo-santa-anita-1072647.aspx",
+      "fecha": "2026-04-25T04:14:24Z",
+      "contenido": "Grupo Eco Plaza, corporación peruana dedicada al desarrollo de proyectos inmobiliarios comerciales, inició su primer proyecto de desarrollo del 2026 de uso mixto, vivienda y comercio, con más de 22,000 m².",
+      "fuente_display": "Andina",
+      "resumen": "Grupo Eco Plaza, empresa peruana de desarrollo inmobiliario, ha invertido US$ 20 millones en un nuevo proyecto de uso mixto (vivienda y comercio) en el óvalo de Santa Anita. El proyecto abarca más de 22,000 m².",
+      "categoria": "Economía",
+      "tags": [
+        "inversión inmobiliaria",
+        "grupo eco plaza",
+        "proyecto mixto",
+        "santa anita",
+        "desarrollo comercial"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-587a85615466",
+      "titulo": "Congreso: comisión abordará el lunes 27 proceso de compra de aviones para la FAP",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-congreso-comision-abordara-lunes-27-proceso-compra-aviones-para-fap-1072650.aspx",
+      "fecha": "2026-04-25T03:56:48Z",
+      "contenido": "La Comisión de Defensa Nacional y Orden Interno del Congreso de la República abordará este lunes 27 el proceso de compra de aviones de guerra para la Fuerza Aérea del Perú (FAP).",
+      "fuente_display": "Andina",
+      "resumen": "La Comisión de Defensa Nacional y Orden Interno del Congreso revisará el proceso de compra de aviones de guerra para la Fuerza Aérea del Perú (FAP). La sesión está programada para el lunes 27.",
+      "categoria": "Política",
+      "tags": [
+        "congreso",
+        "fap",
+        "compra de aviones",
+        "comisión de defensa",
+        "fuerza aérea"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-192ae0bbacdf",
+      "titulo": "Arequipa promueve cultura de prevención de desastres y adaptación al cambio climático",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-arequipa-promueve-cultura-prevencion-desastres-y-adaptacion-al-cambio-climatico-1072651.aspx",
+      "fecha": "2026-04-25T03:56:20Z",
+      "contenido": "Con el objetivo de fortalecer la cultura de prevención y sensibilizar a la población frente a los riesgos de desastres, el Gobierno Regional de Arequipa realizó la Feria Informativa Multipeligro y Adaptación al Cambio Climático en la plaza Mayta Cápac del distrito de Miraflores, en la Ciudad Blanca.",
+      "fuente_display": "Andina",
+      "resumen": "El Gobierno Regional de Arequipa promueve la cultura de prevención de desastres y adaptación al cambio climático mediante ferias informativas. El objetivo es sensibilizar a la población sobre los riesgos y las medidas a tomar.",
+      "categoria": "Política",
+      "tags": [
+        "arequipa",
+        "prevención de desastres",
+        "cambio climático",
+        "gobierno regional",
+        "sensibilización"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-699951a4632e",
+      "titulo": "Callao tendrá ruta en honor al Papa, con lugares claves de su labor pastoral en el puerto",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-callao-tendra-ruta-honor-al-papa-lugares-claves-su-labor-pastoral-el-puerto-1072648.aspx",
+      "fecha": "2026-04-25T03:48:54Z",
+      "contenido": "La Municipalidad Provincial del Callao presentó el road show de la ruta turística “Los Caminos del Papa León XIV”, una iniciativa que busca fortalecer la identidad cultural del primer puerto, dinamizar el turismo y generar confianza en el sector empresarial para nuevas inversiones.",
+      "fuente_display": "Andina",
+      "resumen": "La Municipalidad Provincial del Callao ha lanzado una ruta turística en honor al Papa, recorriendo lugares clave de su labor pastoral en el puerto. Esta iniciativa busca fortalecer la identidad cultural y dinamizar el turismo e inversiones.",
+      "categoria": "Economía",
+      "tags": [
+        "callao",
+        "turismo",
+        "ruta papal",
+        "identidad cultural",
+        "inversiones"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-332aa9aeffa7",
+      "titulo": "Osinergmin: mira dónde puedes encontrar combustible más barato en Lima y provincias",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-osinergmin-mira-donde-puedes-encontrar-combustible-mas-barato-lima-y-provincias-1068759.aspx",
+      "fecha": "2026-04-25T03:30:57Z",
+      "contenido": "Durante las últimas semanas subieron los precios de los combustibles en los diferentes grifos de Lima y provincias debido al conflicto en el Medio Oriente. En ese sentido, vale la pena hacer un recorrido por diferentes distritos y buscar opciones más económicas evitando, de esta manera, dejar dinero en la mesa.",
+      "fuente_display": "Andina",
+      "resumen": "Osinergmin informa sobre la variación de precios de combustibles en Lima y provincias, afectada por el conflicto en Medio Oriente. Se recomienda buscar opciones más económicas para los consumidores.",
+      "categoria": "Economía",
+      "tags": [
+        "osinergmin",
+        "combustibles",
+        "precios",
+        "lima",
+        "provincias"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-be72f525f980",
+      "titulo": "Coordinan impulso a proyectos que permitan cerrar brechas en infraestructura turística",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-coordinan-impulso-a-proyectos-permitan-cerrar-brechas-infraestructura-turistica-1072644.aspx",
+      "fecha": "2026-04-25T03:04:21Z",
+      "contenido": "El ministro de Comercio Exterior y Turismo, José Reyes, sostuvo una reunión de trabajo con el gobernador regional de Cusco, Werner Salcedo, con el objetivo de evaluar oportunidades para impulsar proyectos que permitan cerrar brechas en infraestructura turística en la región.",
+      "fuente_display": "Andina",
+      "resumen": "El ministro de Comercio Exterior y Turismo, José Reyes, se reunió con el gobernador regional de Cusco, Werner Salcedo, para impulsar proyectos que reduzcan las brechas en infraestructura turística. Se busca mejorar las condiciones para el desarrollo del sector.",
+      "categoria": "Economía",
+      "tags": [
+        "turismo",
+        "infraestructura turística",
+        "cusco",
+        "mincetur",
+        "desarrollo regional"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-678c63dd7652",
+      "titulo": "Pakistán: el negociador iraní llega a Islamabad, que espera a los emisarios de EE.UU.",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-pakistan-negociador-irani-llega-a-islamabad-espera-a-los-emisarios-eeuu-1072646.aspx",
+      "fecha": "2026-04-25T02:54:40Z",
+      "contenido": "Las conversaciones entre Estados Unidos e Irán para poner fin a la guerra parecen encaminadas a reanudarse este sábado con el envío de negociadores de ambos bandos a Pakistán, aunque sin garantía de diálogos directos, dos semanas después de un primer fracaso.",
+      "fuente_display": "Andina",
+      "resumen": "Un negociador iraní llegó a Islamabad, Pakistán, donde se esperan emisarios de EE.UU. para reanudar las conversaciones de paz. Estas negociaciones buscan poner fin a la guerra, aunque no se garantizan diálogos directos.",
+      "categoria": "Política",
+      "tags": [
+        "pakistán",
+        "irán",
+        "estados unidos",
+        "negociaciones de paz",
+        "conflicto"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-27317059a4b4",
+      "titulo": "Elecciones 2026: JNE establece el 7 de mayo como fecha límite para recuento de votos",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-jne-establece-7-mayo-como-fecha-limite-para-recuento-votos-1072643.aspx",
+      "fecha": "2026-04-25T02:40:20Z",
+      "contenido": "El Jurado Nacional de Elecciones (JNE) fijó el 7 de mayo próximo como fecha límite para que los Jurados Electorales Especiales (JEE) realicen las audiencias públicas de recuento de votos.",
+      "fuente_display": "Andina",
+      "resumen": "El Jurado Nacional de Elecciones (JNE) ha establecido el 7 de mayo como fecha límite para el recuento de votos en las Elecciones 2026. Los Jurados Electorales Especiales (JEE) deberán realizar las audiencias públicas correspondientes.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "jne",
+        "recuento de votos",
+        "audiencias públicas",
+        "proceso electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-6a4131d4e11a",
+      "titulo": "Bailar también es medicina: los beneficios físicos y emocionales para los adultos mayores",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-bailar-tambien-es-medicina-los-beneficios-fisicos-y-emocionales-para-los-adultos-mayores-1072525.aspx",
+      "fecha": "2026-04-25T02:39:08Z",
+      "contenido": "A partir de los 40 años, el cuerpo comienza a perder masa muscular, la flexibilidad a reducirse y mantener una adecuada salud se vuelve cada vez más complicado. Ante lo cual, el Ministerio de Salud (Minsa) destacó al baile como una práctica que no solo favorece el bienestar físico, sino también fortalece la salud emocional y los vínculos sociales.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Salud (Minsa) destaca los beneficios físicos y emocionales del baile para adultos mayores, ayudando a contrarrestar la pérdida de masa muscular y mejorar la salud emocional y social. Esta práctica es recomendada para mayores de 40 años.",
+      "categoria": "Economía",
+      "tags": [
+        "salud",
+        "adultos mayores",
+        "baile",
+        "minsa",
+        "bienestar emocional"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d757da938316",
+      "titulo": "Perú impulsa el financiamiento efectivo para acelerar el desarrollo sostenible",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-impulsa-financiamiento-efectivo-para-acelerar-desarrollo-sostenible-1072642.aspx",
+      "fecha": "2026-04-25T02:30:55Z",
+      "contenido": "El Perú participó activamente en el Foro sobre Financiación para el Desarrollo 2026 del Consejo Económico y Social de las Naciones Unidas, realizado en la sede de las Naciones Unidas en Nueva York, donde reafirmó la urgencia de traducir el impulso generado en Sevilla en avances concretos para el cumplimiento de los Objetivos de Desarrollo Sostenible (ODS).",
+      "fuente_display": "Andina",
+      "resumen": "Perú participó en el Foro sobre Financiación para el Desarrollo 2026 de la ONU, reafirmando la necesidad de acelerar el desarrollo sostenible y cumplir los Objetivos de Desarrollo Sostenible (ODS). Se busca traducir los impulsos generados en avances concretos.",
+      "categoria": "Economía",
+      "tags": [
+        "desarrollo sostenible",
+        "onu",
+        "financiación",
+        "ods",
+        "foro de desarrollo"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-c18678a36dc4",
+      "titulo": "Policía Nacional y Sucamec incautan más de 11.5 toneladas de pirotécnicos en Junín",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-policia-nacional-y-sucamec-incautan-mas-115-toneladas-pirotecnicos-junin-1072641.aspx",
+      "fecha": "2026-04-25T02:11:13Z",
+      "contenido": "Como parte de las acciones estratégicas para reforzar la seguridad ciudadana y prevenir riesgos para la población, el Ministerio del Interior (Mininter) incautó más de 11.5 toneladas de productos pirotécnicos en una serie de operativos ejecutados en la región Junín.",
+      "fuente_display": "Andina",
+      "resumen": "La Policía Nacional y Sucamec incautaron más de 11.5 toneladas de productos pirotécnicos en Junín. El Ministerio del Interior (Mininter) lideró los operativos para reforzar la seguridad ciudadana y prevenir riesgos.",
+      "categoria": "Política",
+      "tags": [
+        "pirotécnicos",
+        "incautación",
+        "junín",
+        "seguridad ciudadana",
+        "mininter"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3eda1600f592",
+      "titulo": "Programa Jóvenes Productivos inserta más de 44,000 personas al mercado laboral",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-programa-jovenes-productivos-inserta-mas-44000-personas-al-mercado-laboral-1072640.aspx",
+      "fecha": "2026-04-25T01:46:56Z",
+      "contenido": "El Ministerio de Trabajo y Promoción del Empleo (MTPE), a través del Programa Nacional de Empleo Jóvenes Productivos, señaló que está cambiando la vida de miles de jóvenes en situación de pobreza y vulnerabilidad sociolaboral, brindándoles una oportunidad real de acceder al mercado laboral formal y construir un mejor futuro.",
+      "fuente_display": "Andina",
+      "resumen": "El Programa Nacional de Empleo Jóvenes Productivos del Ministerio de Trabajo y Promoción del Empleo (MTPE) ha logrado insertar a más de 44,000 jóvenes en el mercado laboral. El programa busca brindar oportunidades a jóvenes en situación de vulnerabilidad.",
+      "categoria": "Economía",
+      "tags": [
+        "jóvenes productivos",
+        "mercado laboral",
+        "mtpe",
+        "empleo juvenil",
+        "inserción laboral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-a9bca11e0863",
+      "titulo": "OEFA evalúa impacto ambiental de incendio en almacén clandestino del Jirón Miroquesada",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-oefa-evalua-impacto-ambiental-incendio-almacen-clandestino-del-jiron-miroquesada-1072639.aspx",
+      "fecha": "2026-04-25T01:43:12Z",
+      "contenido": "Miembros del Organismo de Evaluación y Fiscalización Ambiental (OEFA) se han movilizado al centro de Lima para evaluar el posible impacto ambiental generado por el enorme incendio ocurrido en un almacén clandestino del Jirón Miroquesada, en el centro de Lima.",
+      "fuente_display": "Andina",
+      "resumen": "El Organismo de Evaluación y Fiscalización Ambiental (OEFA) está evaluando el impacto ambiental del incendio ocurrido en un almacén clandestino en el Jirón Miroquesada, centro de Lima. Se busca determinar los posibles daños ecológicos.",
+      "categoria": "Economía",
+      "tags": [
+        "oefa",
+        "impacto ambiental",
+        "incendio",
+        "almacén clandestino",
+        "centro de lima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-7aac48ce0904",
+      "titulo": "Mininter reafirma trabajo articulado con Fiscalía para fortalecer lucha contra el crimen",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-mininter-reafirma-trabajo-articulado-fiscalia-para-fortalecer-lucha-contra-crimen-1072636.aspx",
+      "fecha": "2026-04-25T01:30:18Z",
+      "contenido": "En representación del Ministerio del Interior (Mininter), el viceministro de Orden Interno, Juan Olivera García, participó en una mesa de trabajo multisectorial en el Congreso de la República, donde se analizaron los alcances del proyecto de Ley Orgánica del Ministerio Público, en el marco del fortalecimiento del sistema de justicia y la seguridad ciudadana.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio del Interior (Mininter) reafirmó su trabajo articulado con la Fiscalía para fortalecer la lucha contra el crimen. La participación en mesas de trabajo multisectoriales busca mejorar el sistema de justicia y la seguridad ciudadana.",
+      "categoria": "Política",
+      "tags": [
+        "mininter",
+        "fiscalía",
+        "lucha contra el crimen",
+        "seguridad ciudadana",
+        "sistema de justicia"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 20,
+  "fuentes_activas": [
+    "andina"
+  ],
+  "prompt_version": "prensa-v1"
+}

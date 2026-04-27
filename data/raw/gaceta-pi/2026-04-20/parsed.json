@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-04-20",
+  "items": [
+    {
+      "id": "67623-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "WD-40",
+      "solicitante": "WD-40 Manufacturing Company, de Estados Unidos de América",
+      "clase": "02",
+      "fecha_publicacion": "2026-04-20",
+      "fecha_presentacion": "2025-12-22",
+      "fecha_limite_oposicion": "2026-06-02",
+      "descripcion": null
+    },
+    {
+      "id": "67643-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "BAMREY",
+      "solicitante": "Juno Therapeutics, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-20",
+      "fecha_presentacion": "2025-12-22",
+      "fecha_limite_oposicion": "2026-06-02",
+      "descripcion": null
+    },
+    {
+      "id": "67652-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "KYPOWZA",
+      "solicitante": "Juno Therapeutics, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-20",
+      "fecha_presentacion": "2025-12-22",
+      "fecha_limite_oposicion": "2026-06-02",
+      "descripcion": null
+    },
+    {
+      "id": "67687-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "TREKZAROS",
+      "solicitante": "Juno Therapeutics, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-20",
+      "fecha_presentacion": "2025-12-22",
+      "fecha_limite_oposicion": "2026-06-02",
+      "descripcion": null
+    },
+    {
+      "id": "67693-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ZEYPEXIV",
+      "solicitante": "Juno Therapeutics, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-20",
+      "fecha_presentacion": "2025-12-22",
+      "fecha_limite_oposicion": "2026-06-02",
+      "descripcion": null
+    }
+  ]
+}

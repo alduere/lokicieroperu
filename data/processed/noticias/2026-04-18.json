@@ -1,0 +1,410 @@
+{
+  "fecha": "2026-04-18",
+  "noticias": [
+    {
+      "id": "andina-761f524293aa",
+      "titulo": "De la Amazonía a Europa: promueven ingredientes peruanos en industria cosmética",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-de-amazonia-a-europa-promueven-ingredientes-peruanos-industria-cosmetica-1071783.aspx",
+      "fecha": "2026-04-18T12:30:00Z",
+      "contenido": "La participación del Perú en In-Cosmetics Global París 2026, impulsada por la Comisión de Promoción del Perú para la Exportación y el Turismo (PromPerú), consolidó la presencia de la oferta nacional de ingredientes naturales en un mercado cada vez más orientado a la trazabilidad y la innovación.",
+      "fuente_display": "Andina",
+      "resumen": "Perú participó en In-Cosmetics Global París 2026, promoviendo ingredientes naturales de la Amazonía en la industria cosmética europea. La iniciativa, impulsada por PromPerú, busca consolidar la oferta nacional en un mercado enfocado en trazabilidad e innovación.",
+      "categoria": "Economía",
+      "tags": [
+        "exportación",
+        "cosmética",
+        "amazonía",
+        "promperú",
+        "mercado internacional"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-5c9cb38e1e8e",
+      "titulo": "Serums 2026-I ofrece 7,000 plazas: ¿cómo se distribuyen por región y cuánto pagarán?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-serums-2026i-ofrece-7000-plazas-como-se-distribuyen-region-y-cuanto-pagaran-1071687.aspx",
+      "fecha": "2026-04-18T12:28:36Z",
+      "contenido": "Este domingo 19 de abril será la evaluación 2026-I para acceder a una plaza remunerada del Servicio Rural y Urbano Marginal de Salud (Serums), un programa de servicio a la comunidad realizado por profesionales titulados de ciencias de la salud durante casi un año.",
+      "fuente_display": "Andina",
+      "resumen": "El Servicio Rural y Urbano Marginal de Salud (Serums) ofrecerá 7,000 plazas remuneradas para profesionales de la salud en su evaluación 2026-I. El programa, que implica un año de servicio comunitario, distribuirá las plazas por región y definirá los montos de pago.",
+      "categoria": "Economía",
+      "tags": [
+        "salud",
+        "plazas",
+        "remuneradas",
+        "servicio comunitario",
+        "profesionales"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-812e145b92f6",
+      "titulo": "Perú acumula 17 medallas en los Juegos Suramericanos de la Juventud Panamá 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-acumula-17-medallas-los-juegos-suramericanos-de-juventud-panama-2026-1071796.aspx",
+      "fecha": "2026-04-18T12:27:44Z",
+      "contenido": "La delegación peruana continúa destacando en los Juegos Suramericanos de la Juventud Panamá 2026, y este viernes llegó a un total de 17 medallas en diversas disciplinas, logrando ubicarse en el cuarto lugar del medallero.",
+      "fuente_display": "Andina",
+      "resumen": "La delegación peruana ha obtenido 17 medallas en los Juegos Suramericanos de la Juventud Panamá 2026, ubicándose en el cuarto lugar del medallero. Los deportistas peruanos continúan destacando en diversas disciplinas.",
+      "categoria": "Economía",
+      "tags": [
+        "deportes",
+        "medallas",
+        "juegos suramericanos",
+        "juventud",
+        "panamá"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-797b033ea7bd",
+      "titulo": "Elecciones 2026: Aquí el link para ver en vivo resultados de ONPE de elección presidencial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-aqui-link-para-ver-vivo-resultados-onpe-eleccion-presidencial-1070992.aspx",
+      "fecha": "2026-04-18T12:19:37Z",
+      "contenido": "La ciudadania puede acceder al enlace en la página web de las Elecciones Generales 2026 de la Oficina Nacional de Procesos Electorales, la cual permite conocer los resultados oficiales de los comicios, conforme se van procesando actas en los 126 centros de cómputo del organismo electoral.",
+      "fuente_display": "Andina",
+      "resumen": "La Oficina Nacional de Procesos Electorales (ONPE) habilitó un enlace en su página web para seguir en vivo los resultados de las Elecciones Generales 2026. Los ciudadanos pueden consultar los resultados oficiales a medida que se procesan las actas.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones",
+        "onpe",
+        "resultados",
+        "presidencial",
+        "proceso electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-170254afd6b5",
+      "titulo": "El IPD  entregó incentivos económicos pendientes a seis medallistas nacionales",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-el-ipd-entrego-incentivos-economicos-pendientes-a-seis-medallistas-nacionales-1071794.aspx",
+      "fecha": "2026-04-18T12:19:37Z",
+      "contenido": "En una muestra de reconocimiento al esfuerzo y los resultados de nuestros deportistas, el Instituto Peruano del Deporte (IPD) hizo efectiva la entrega de incentivos económicos a seis destacados atletas que han dejado en alto el nombre del país en competencias internacionales.",
+      "fuente_display": "Andina",
+      "resumen": "El Instituto Peruano del Deporte (IPD) entregó incentivos económicos pendientes a seis medallistas nacionales. Este reconocimiento busca valorar el esfuerzo y los logros de los atletas que han representado al país en competencias internacionales.",
+      "categoria": "Economía",
+      "tags": [
+        "deportes",
+        "incentivos económicos",
+        "medallas",
+        "ipd",
+        "atletas"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3ffb20339db3",
+      "titulo": "Jackelynne Silva-Martínez sobre Artemis II: ¡Ha sido un gran esfuerzo de equipo!",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-jackelynne-silvamartinez-sobre-artemis-ii-ha-sido-un-gran-esfuerzo-equipo-1071791.aspx",
+      "fecha": "2026-04-18T12:00:00Z",
+      "contenido": "Ha pasado una semana desde que la tripulación de Artemis II regresó a la Tierra tras una exitosa misión alrededor de la Luna. Un hecho histórico donde participó la ingeniera cusqueña Jackelynne Silva-Martínez, quien trabaja como integradora de misiones Artemis en el Johnson Space Center de la NASA en Houston. Ella compartió detalles de su trabajo durante la misión.",
+      "fuente_display": "Andina",
+      "resumen": "La ingeniera peruana Jackelynne Silva-Martínez, parte del equipo de Artemis II en la NASA, compartió detalles sobre la exitosa misión lunar. Su rol como integradora de misiones Artemis en el Johnson Space Center fue crucial para el logro.",
+      "categoria": "Economía",
+      "tags": [
+        "espacio",
+        "nasa",
+        "artemis ii",
+        "ingeniera",
+        "misión lunar"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-7974bf8f267f",
+      "titulo": "Gamarra con ofertas por “cierre” de verano e inicio de temporada de otoño",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-gamarra-ofertas-cierre-verano-e-inicio-temporada-otono-1071212.aspx",
+      "fecha": "2026-04-18T12:00:00Z",
+      "contenido": "Aprovechemos el fin de semana. Tomando en cuenta que en el calendario el verano finalizó hace algunas semanas, para dar paso al otoño, los confeccionistas del Emporio Comercial de Gamarra están brindando ofertas, promociones y remates en esta época del año.",
+      "fuente_display": "Andina",
+      "resumen": "El Emporio Comercial de Gamarra ofrece ofertas y promociones por el cierre de la temporada de verano y el inicio del otoño. Los confeccionistas buscan atraer compradores con descuentos especiales en sus productos.",
+      "categoria": "Economía",
+      "tags": [
+        "comercio",
+        "gamarra",
+        "ofertas",
+        "verano",
+        "otoño"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8eb222f0b152",
+      "titulo": "Conoce monumentos peruanos que todo viajero nacional debe visitar alguna vez en su vida",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-conoce-monumentos-peruanos-todo-viajero-nacional-debe-visitar-alguna-vez-su-vida-1071553.aspx",
+      "fecha": "2026-04-18T11:00:00Z",
+      "contenido": "El Día Internacional de los Monumentos y Sitios se celebra el 18 de abril, y a propósito de esta efeméride hay que destacar que el Perú posee un vasto y formidable patrimonio monumental prehispánico que evidencia el alto nivel \nde conocimiento alcanzado por culturas que se desarrollaron en diversas partes de su complejo territorio.",
+      "fuente_display": "Andina",
+      "resumen": "Perú posee un vasto patrimonio monumental prehispánico que evidencia el alto nivel de conocimiento de antiguas culturas. A propósito del Día Internacional de los Monumentos y Sitios, se destaca la importancia de estos vestigios.",
+      "categoria": "Economía",
+      "tags": [
+        "turismo",
+        "monumentos",
+        "patrimonio",
+        "cultura",
+        "arqueología"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-94ace4a5315b",
+      "titulo": "Adex: Perú es el segundo exportador de hierbas y especias en América Latina",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-adex-peru-es-segundo-exportador-hierbas-y-especias-america-latina-1071785.aspx",
+      "fecha": "2026-04-18T10:00:02Z",
+      "contenido": "Perú se consolidó en 2025 como el segundo exportador de hierbas y especias en América Latina y el Caribe, informó el Centro de Investigación de Economía y Negocios Globales de la Asociación de Exportadores (CIEN-Adex)",
+      "fuente_display": "Andina",
+      "resumen": "Perú se consolidó en 2025 como el segundo mayor exportador de hierbas y especias en América Latina y el Caribe. El Centro de Investigación de Economía y Negocios Globales de la Asociación de Exportadores (CIEN-Adex) destacó este logro.",
+      "categoria": "Economía",
+      "tags": [
+        "exportación",
+        "hierbas",
+        "especias",
+        "adex",
+        "américa latina"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-16bd01e7f529",
+      "titulo": "CCL expresó preocupación por postergación de contrato para compra de aeronaves F-16",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/ccl-expreso-preocupacion-por-postergacion-de-contrato-para-compra-de-aeronaves-f-16-noticia-1684872",
+      "fecha": "2026-04-18T04:56:53Z",
+      "contenido": "La  Cámara de Comercio de Lima (CCL)  advirtió  que la demora en la compra de aviones de combate a una empresa multinacional de origen estadounidense , valorizada en US$ 3 500 millones, genera incertidumbre y debilita la imagen del país.",
+      "fuente_display": "RPP",
+      "resumen": "La Cámara de Comercio de Lima (CCL) expresó preocupación por la postergación de la compra de aeronaves F-16, valorizada en US$ 3,500 millones. La CCL advierte que la demora genera incertidumbre y afecta la imagen del país.",
+      "categoria": "Política",
+      "tags": [
+        "defensa",
+        "aeronaves",
+        "f-16",
+        "ccl",
+        "inversión"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-62837a841884",
+      "titulo": "Documento del siglo XIX sobre administración del guano es Patrimonio Cultural de la Nación",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-documento-del-siglo-xix-sobre-administracion-del-guano-es-patrimonio-cultural-de-nacion-1071792.aspx",
+      "fecha": "2026-04-18T04:52:18Z",
+      "contenido": "El Ministerio de Cultura declaró Patrimonio Cultural de la Nación al “Libro copiador de cuentas del Ministerio de Hacienda y Comercio, años de 1877 a 1879 (MH-H4, 546)”, bajo custodia del Archivo General de la Nación (AGN), con una resolución viceministerial publicada en Diario Oficial El Peruano.",
+      "fuente_display": "Andina",
+      "resumen": "Un documento del siglo XIX sobre la administración del guano, titulado “Libro copiador de cuentas del Ministerio de Hacienda y Comercio”, fue declarado Patrimonio Cultural de la Nación. El documento está bajo custodia del Archivo General de la Nación.",
+      "categoria": "Política",
+      "tags": [
+        "patrimonio cultural",
+        "guano",
+        "historia",
+        "ministerio de cultura",
+        "documento"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-9ff61f8fbae9",
+      "titulo": "¿Dónde adquirir productos hechos por internos y apoyar su reinserción?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-donde-adquirir-productos-hechos-internos-y-apoyar-su-reinsercion-1071526.aspx",
+      "fecha": "2026-04-18T04:10:18Z",
+      "contenido": "El Instituto Nacional Penitenciario (INPE) celebró el primer aniversario del Centro de Promoción y Comercialización del programa  Cárceles Productivas , una tienda que impulsa la reinserción social y laboral de personas privadas de libertad mediante la venta de productos elaborados por ellos mismos en los establecimientos penitenciarios de todo el país.",
+      "fuente_display": "Andina",
+      "resumen": "El Instituto Nacional Penitenciario (INPE) celebra el primer aniversario de su tienda \"Cárceles Productivas\", que comercializa productos elaborados por internos. Esta iniciativa busca impulsar la reinserción social y laboral de personas privadas de libertad.",
+      "categoria": "Economía",
+      "tags": [
+        "reinserción social",
+        "productos",
+        "inpe",
+        "cárceles",
+        "emprendimiento"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-b560337ee78f",
+      "titulo": "Perú fortalece cooperación con la OCDE para optimizar el funcionamiento del Estado",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-fortalece-cooperacion-con-ocde-para-optimizar-funcionamiento-del-estado-1071786.aspx",
+      "fecha": "2026-04-18T04:00:00Z",
+      "contenido": "Con el objetivo de seguir mejorando la calidad de los servicios a la ciudadanía y fortalecer el Gobierno Abierto en la gestión pública, el Perú consolidó su trabajo con la Organización para la Cooperación y el Desarrollo Económicos (OCDE), a través de reuniones estratégicas con la alta dirección del Comité de Gobernanza Pública del organismo internacional, realizadas del 13 al 15 de abril, en París (Francia).",
+      "fuente_display": "Andina",
+      "resumen": "Perú fortaleció su cooperación con la OCDE para optimizar el funcionamiento del Estado y mejorar los servicios a la ciudadanía. Se realizaron reuniones estratégicas en París con el Comité de Gobernanza Pública del organismo internacional.",
+      "categoria": "Política",
+      "tags": [
+        "ocde",
+        "gobernanza",
+        "estado",
+        "cooperación",
+        "gestión pública"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8269f1781cae",
+      "titulo": "Impulsan autonomía económica de más de 80 mujeres de la pesca artesanal",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-impulsan-autonomia-economica-mas-80-mujeres-de-pesca-artesanal-1071781.aspx",
+      "fecha": "2026-04-18T04:00:00Z",
+      "contenido": "Con el objetivo de ampliar las oportunidades económicas de las mujeres vinculadas a la pesca artesanal, el Ministerio de la Producción (Produce), a través de la Dirección General de Pesca Artesanal, desarrolló en Chancay una jornada de fortalecimiento de capacidades dirigida a impulsar emprendimientos, promover la formalización y consolidar nuevas líneas de desarrollo productivo en el sector.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de la Producción (Produce) impulsó la autonomía económica de más de 80 mujeres de la pesca artesanal en Chancay. La jornada de fortalecimiento de capacidades busca promover emprendimientos y nuevas líneas de desarrollo productivo en el sector.",
+      "categoria": "Economía",
+      "tags": [
+        "pesca artesanal",
+        "mujeres",
+        "autonomía económica",
+        "produce",
+        "emprendimiento"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d69486df55f2",
+      "titulo": "Dormir temprano permite que los niños crezcan más y tengan mejor rendimiento escolar",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-dormir-temprano-permite-los-ninos-crezcan-mas-y-tengan-mejor-rendimiento-escolar-1071789.aspx",
+      "fecha": "2026-04-18T03:39:37Z",
+      "contenido": "Dormir bien es un hábito que se desarrolla en la etapa de la niñez, y el no hacerlo de manera correcta podría afectar la secreción de la hormona de crecimiento. En ese sentido, el Minesterio de Salud (Minsa), brinda recomendaciones para asegurar el desarrollo y bienestar del menor, así como horarios de descanso que puedan ayudar en su crecimiento.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Salud (Minsa) recomienda dormir temprano para favorecer el crecimiento infantil y el rendimiento escolar. Una buena rutina de sueño es crucial para la secreción de la hormona de crecimiento y el bienestar general del menor.",
+      "categoria": "Economía",
+      "tags": [
+        "salud infantil",
+        "sueño",
+        "crecimiento",
+        "minsa",
+        "rendimiento escolar"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1350034a419f",
+      "titulo": "Irán amenaza con cerrar de nuevo el estrecho de Ormuz si continúa bloqueo de EE.UU.",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-iran-amenaza-cerrar-nuevo-estrecho-ormuz-si-continua-bloqueo-eeuu-1071787.aspx",
+      "fecha": "2026-04-18T03:26:07Z",
+      "contenido": "Teherán amenazó el sábado (diferencia horaria) con cerrar el estrecho de Ormuz si Estados Unidos mantiene el bloqueo a los puertos iraníes, hora después de que el paso marítimo fuera reabierto.",
+      "fuente_display": "Andina",
+      "resumen": "Irán amenazó con cerrar nuevamente el estrecho de Ormuz si Estados Unidos mantiene el bloqueo a sus puertos. La advertencia se produjo horas después de la reapertura del paso marítimo.",
+      "categoria": "Política",
+      "tags": [
+        "geopolítica",
+        "irán",
+        "estrecho de ormuz",
+        "bloqueo",
+        "estados unidos"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-ce6fb2c447a3",
+      "titulo": "Cancillería cumplió con entregar material electoral conforme a tiempos establecidos",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-cancilleria-cumplio-entregar-material-electoral-conforme-a-tiempos-establecidos-1071779.aspx",
+      "fecha": "2026-04-18T03:01:35Z",
+      "contenido": "Los cónsules generales de diferentes ciudades del mundo arribaron a nuestro país luego de las elecciones generales 2026 del último domingo 12 de abril, trayendo consigo las actas y votos bajo una firme cadena de custodia, en cumplimiento de los protocolos establecidos, con la finalidad de asegurar la transparencia y confiabilidad del proceso electoral.",
+      "fuente_display": "Andina",
+      "resumen": "La Cancillería cumplió con entregar el material electoral de las elecciones generales 2026, incluyendo actas y votos, bajo cadena de custodia. Los cónsules generales retornaron al país para asegurar la transparencia del proceso.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones",
+        "cancillería",
+        "material electoral",
+        "transparencia",
+        "proceso electoral"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-672a990ef411",
+      "titulo": "PromPerú reafirma su compromiso con el sector turismo en Fiavit 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-promperu-reafirma-su-compromiso-con-sector-turismo-fiavit-2026-1071780.aspx",
+      "fecha": "2026-04-18T03:00:00Z",
+      "contenido": "La Comisión de Promoción del Perú para la Exportación y el Turismo (PromPerú) participa en la Feria Nacional e Internacional de Turismo Fiavit 2026, organizada por la Apavit, que se llevó a cabo el 16 y 17 de abril en Lima.",
+      "fuente_display": "Andina",
+      "resumen": "PromPerú reafirmó su compromiso con el sector turismo participando en la Feria Nacional e Internacional de Turismo Fiavit 2026 en Lima. El evento, organizado por Apavit, reunió a diversos actores del sector.",
+      "categoria": "Economía",
+      "tags": [
+        "turismo",
+        "promperú",
+        "fiavit",
+        "feria",
+        "sector turístico"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-96a55ff7bcbc",
+      "titulo": "Áncash: MTC redobla trabajos para restablecer tránsito tras la caída de rocas en Copuma",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ancash-mtc-redobla-trabajos-para-restablecer-transito-tras-caida-rocas-copuma-1071784.aspx",
+      "fecha": "2026-04-18T02:59:59Z",
+      "contenido": "El Ministerio de Transportes y Comunicaciones (MTC), a través de Provías Nacional, intensifica las labores para restablecer el tránsito seguro en el sector de Copuma, ubicado entre los km 185+190 y 185+250 del tramo Puchca-Huacaybamba en la ruta nacional PE-14A, región Áncash.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Transportes y Comunicaciones (MTC), a través de Provías Nacional, intensifica los trabajos para restablecer el tránsito en el sector de Copuma, Áncash, tras la caída de rocas. Se busca garantizar la seguridad y fluidez de la ruta nacional PE-14A.",
+      "categoria": "Economía",
+      "tags": [
+        "infraestructura",
+        "transporte",
+        "mtc",
+        "áncash",
+        "tránsito"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-997c016acdb9",
+      "titulo": "Metropolitano: ¿Cómo recuperar el saldo de tu tarjeta en caso de pérdida o robo?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-metropolitano-como-recuperar-saldo-tu-tarjeta-caso-perdida-o-robo-1071782.aspx",
+      "fecha": "2026-04-18T02:49:15Z",
+      "contenido": "El Ministerio de Transportes y Comunicaciones (MTC), a través de la Autoridad de Transporte Urbano para Lima y Callao (ATU), recuerda la importancia de personalizar las tarjetas del Metropolitano y Lima Pass para que los usuarios no pierdan su dinero en caso de incidentes, como pérdida o robo.",
+      "fuente_display": "Andina",
+      "resumen": "La Autoridad de Transporte Urbano (ATU) recuerda a los usuarios del Metropolitano y Lima Pass la importancia de personalizar sus tarjetas. Esto permite recuperar el saldo en caso de pérdida o robo, protegiendo el dinero de los pasajeros.",
+      "categoria": "Economía",
+      "tags": [
+        "transporte público",
+        "atu",
+        "metropolitano",
+        "tarjeta",
+        "seguridad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-574ef868ecfb",
+      "titulo": "Perú culminó con éxito presidencia de Cepal y reitera compromiso con desarrollo sostenible",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-culmino-exito-presidencia-cepal-y-reitera-compromiso-desarrollo-sostenible-1071775.aspx",
+      "fecha": "2026-04-18T02:26:27Z",
+      "contenido": "El Perú, en su calidad de Presidente de la Comisión Económica para América Latina y el Caribe (Cepal), clausuró en Santiago de Chile la Novena Reunión del Foro de los Países de América Latina y el Caribe sobre el Desarrollo Sostenible, donde el embajador Jorge Félix Rubio Correa reafirmó la urgencia de acelerar la implementación de la Agenda 2030, mediante acciones concretas, alianzas efectivas y resultados tangibles que mejoren la calidad de vida en la región.",
+      "fuente_display": "Andina",
+      "resumen": "Perú concluyó exitosamente su presidencia de la Cepal al clausurar la Novena Reunión del Foro de los Países de América Latina y el Caribe sobre el Desarrollo Sostenible. El embajador Jorge Félix Rubio Correa enfatizó la necesidad de acelerar la Agenda 2030 con acciones concretas y alianzas efectivas para mejorar la calidad de vida regional.",
+      "categoria": "Política",
+      "tags": [
+        "cepal",
+        "desarrollo sostenible",
+        "agenda 2030",
+        "perú",
+        "américa latina"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 21,
+  "fuentes_activas": [
+    "andina",
+    "rpp"
+  ],
+  "prompt_version": "prensa-v1"
+}

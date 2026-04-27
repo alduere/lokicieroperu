@@ -1,6 +1,7 @@
 {
   "fecha": "2026-04-24",
   "source_slug": "indecopi-alertas",
+<<<<<<< HEAD
   "items": [
     {
       "id": "4244",
@@ -46,4 +47,12 @@
     ]
   },
   "generated_at": "2026-04-26T13:47:41.524816Z"
+=======
+  "items": [],
+  "stats": {
+    "total_alertas": 0,
+    "por_categoria": []
+  },
+  "generated_at": "2026-04-24T12:57:02.729938Z"
+>>>>>>> origin/main
 }

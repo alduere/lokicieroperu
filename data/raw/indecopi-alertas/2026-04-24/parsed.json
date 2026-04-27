@@ -1,5 +1,6 @@
 {
   "fecha": "2026-04-24",
+<<<<<<< HEAD
   "items": [
     {
       "id": "4244",
@@ -24,4 +25,7 @@
       "link_oficial": "https://alertasdeconsumo.gob.pe/alertas/vehiculos-mercedes-benz-g-580-2025-podrian-presentar-defectos-en-tornillos-de-las-ruedas"
     }
   ]
+=======
+  "items": []
+>>>>>>> origin/main
 }

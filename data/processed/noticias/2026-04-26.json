@@ -1,0 +1,332 @@
+{
+  "fecha": "2026-04-26",
+  "noticias": [
+    {
+      "id": "andina-eced341aa136",
+      "titulo": "Festival aéreo FAP: maniobras de aeronaves, paracaidismo y todo lo que podrás ver [video]",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-festival-aereo-fap-maniobras-aeronaves-paracaidismo-y-todo-que-podras-ver-video-1072008.aspx",
+      "fecha": "2026-04-26T12:00:33Z",
+      "contenido": "Lima podrá disfrutar de un espectáculo aéreo que dejará boquiabiertos a grandes y chicos: la Fuerza Aérea del Perú (FAP) abre hoy domingo 26 de abril las puertas de la Base Aérea Las Palmas, en Santiago de Surco, para la segunda jornada del XVIII Festival Aéreo BALP 2026. Gratuito y familiar, el evento arranca a las 10:00 a.m. y se extenderá hasta las 5:00 p.m., con acrobacias de vértigo y saltos paracaidistas que pintarán el cielo de colores vibrantes.",
+      "fuente_display": "Andina",
+      "resumen": "La Fuerza Aérea del Perú (FAP) realizará el XVIII Festival Aéreo BALP 2026 en la Base Aérea Las Palmas, presentando maniobras de aeronaves y paracaidismo. El evento gratuito y familiar se llevará a cabo el domingo 26 de abril, ofreciendo un espectáculo aéreo para todas las edades.",
+      "categoria": "Economía",
+      "tags": [
+        "fap",
+        "festival aéreo",
+        "espectáculo",
+        "las palmas"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-6ac2bf865aa8",
+      "titulo": "NASA muestra en su calendario impresionante foto de las nubes sobre la costa del Perú",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-nasa-muestra-su-calendario-impresionante-foto-las-nubes-sobre-costa-del-peru-1072736.aspx",
+      "fecha": "2026-04-26T12:00:01Z",
+      "contenido": "En la página de abril del Calendario de Ciencia de la NASA 2026 se muestra una imagen de nubes blancas sobre la costa de Perú. La foto fue tomada el 14 de julio de 2024 por el satélite de NASA Earth Plancton, Aerosoles, Nubes y Ecosistemas Oceánicos (PACE, por sus siglas en inglés).",
+      "fuente_display": "Andina",
+      "resumen": "La NASA incluyó en su calendario de ciencia 2026 una impresionante fotografía de las nubes sobre la costa peruana. La imagen fue capturada el 14 de julio de 2024 por el satélite PACE de la agencia espacial estadounidense.",
+      "categoria": "Economía",
+      "tags": [
+        "nasa",
+        "perú",
+        "nubes",
+        "satélite",
+        "ciencia"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-114bb9133937",
+      "titulo": "Costa Verde cierra temporalmente por triatlón Ironman 70.3 hoy domingo 26",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-costa-verde-cierra-temporalmente-triatlon-ironman-703-hoy-domingo-26-1072714.aspx",
+      "fecha": "2026-04-26T11:28:27Z",
+      "contenido": "La Municipalidad Metropolitana de Lima (MML) informó que hoy domingo 26 de abril se cerrará temporalmente el tránsito vehicular en el Circuito de Playas de la Costa Verde, debido a la realización del evento deportivo internacional Ironman 70.3 Lima – Perú 2026.",
+      "fuente_display": "Andina",
+      "resumen": "La Costa Verde permanecerá cerrada temporalmente al tránsito vehicular este domingo 26 de abril debido a la realización del evento deportivo internacional Ironman 70.3 Lima – Perú 2026. La Municipalidad Metropolitana de Lima (MML) informó sobre la restricción.",
+      "categoria": "Economía",
+      "tags": [
+        "costa verde",
+        "ironman 70.3",
+        "cierre temporal",
+        "deportes",
+        "lima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-5ec92c432591",
+      "titulo": "Senamhi: temperatura diurna en sierra sur aumentará hasta 30 °C hoy y mañana lunes 27",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-senamhi-temperatura-diurna-sierra-sur-aumentara-hasta-30-%C2%B0c-hoy-y-manana-lunes-27-1072730.aspx",
+      "fecha": "2026-04-26T10:45:00Z",
+      "contenido": "Un aumento de la temperatura diurna, de moderada a fuerte intensidad y con valores que alcanzarán los 30 °C, hoy domingo 26 y mañana lunes 27 de abril, en la sierra centro y sur, pronosticó el Servicio Nacional de Meteorología e Hidrología (Senamhi).",
+      "fuente_display": "Andina",
+      "resumen": "El Servicio Nacional de Meteorología e Hidrología (Senamhi) pronosticó un aumento de temperatura diurna en la sierra centro y sur del país. Se espera que los valores alcancen hasta 30 °C durante el domingo 26 y lunes 27 de abril.",
+      "categoria": "Economía",
+      "tags": [
+        "senamhi",
+        "temperatura",
+        "sierra",
+        "pronóstico",
+        "clima"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-9d47be2e0f36",
+      "titulo": "Día de la Madre: cómo preparar tu negocio sin afectar tus finanzas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-dia-de-madre-como-preparar-tu-negocio-sin-afectar-tus-finanzas-1072686.aspx",
+      "fecha": "2026-04-26T10:00:00Z",
+      "contenido": "El Día de la Madre es una de las campañas comerciales más relevantes para miles de emprendedores en el país y representa una oportunidad clave para impulsar ventas sin descuidar la organización del negocio.",
+      "fuente_display": "Andina",
+      "resumen": "El Día de la Madre representa una oportunidad clave para que los negocios impulsen sus ventas, pero es fundamental prepararse adecuadamente sin afectar las finanzas. Miles de emprendedores en el país buscan maximizar esta campaña comercial.",
+      "categoria": "Finanzas",
+      "tags": [
+        "día de la madre",
+        "negocios",
+        "finanzas",
+        "emprendedores",
+        "ventas"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-bceb7ffc310b",
+      "titulo": "Ayacucho: colapsa puente y más de 40 viviendas afectadas por intensas lluvias en La Mar",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ayacucho-colapsa-puente-y-mas-40-viviendas-afectadas-intensas-lluvias-la-mar-1072747.aspx",
+      "fecha": "2026-04-26T04:14:25Z",
+      "contenido": "Una fuerte lluvia registrada la mañana del sábado 25 de abril provocó una grave emergencia en el centro poblado de Huayao, ubicado en el distrito de Tambo, provincia de La Mar, región Ayacucho.",
+      "fuente_display": "Andina",
+      "resumen": "Un puente colapsó y más de 40 viviendas resultaron afectadas en Ayacucho tras intensas lluvias registradas en la provincia de La Mar. La emergencia se produjo en el centro poblado de Huayao debido a las fuertes precipitaciones del sábado 25 de abril.",
+      "categoria": "Economía",
+      "tags": [
+        "ayacucho",
+        "lluvias",
+        "puente colapsado",
+        "emergencia",
+        "viviendas"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-be97c61a6553",
+      "titulo": "Trump afirma que tirador \"estaba muy lejos\" de él tras tiroteo en cena de corresponsales",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-trump-afirma-tirador-estaba-muy-lejos-de-tras-tiroteo-cena-corresponsales-1072746.aspx",
+      "fecha": "2026-04-26T04:02:59Z",
+      "contenido": "El presidente estadounidense, Donald Trump, aseguró esta noche en rueda de prensa que el tirador que fue detenido en un intento de infiltrarse en la Cena de Corresponsales de la Casa Blanca \"estaba muy lejos\" de acercarse a él y aseguró que \"era un loco\", pero podría haber atravesado las puertas del gran salón donde él se encontraba.",
+      "fuente_display": "Andina",
+      "resumen": "El presidente estadounidense, Donald Trump, afirmó que el tirador que intentó infiltrarse en la Cena de Corresponsales de la Casa Blanca se encontraba \"muy lejos\" de él. Aseguró que el individuo era \"un loco\" pero no logró acercarse a la zona donde él estaba.",
+      "categoria": "Política",
+      "tags": [
+        "donald trump",
+        "tiroteo",
+        "casa blanca",
+        "seguridad",
+        "estados unidos"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-15f2f2154a1e",
+      "titulo": "Entregan mil títulos de propiedad a familias de nueve asentamientos humanos en el Callao",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-entregan-mil-titulos-propiedad-a-familias-nueve-asentamientos-humanos-el-callao-1072741.aspx",
+      "fecha": "2026-04-26T03:53:13Z",
+      "contenido": "En un hecho histórico para el distrito de Mi Perú, el alcalde del Callao, César Pérez, anunció la entrega de mil títulos de propiedad a familias de nueve asentamientos humanos que, tras más de 20 años de espera, están a punto de cumplir el sueño de formalizar sus viviendas.",
+      "fuente_display": "Andina",
+      "resumen": "El Callao entregó mil títulos de propiedad a familias de nueve asentamientos humanos en el distrito de Mi Perú. Tras más de 20 años de espera, estas familias finalmente podrán formalizar sus viviendas, un hecho calificado de histórico por las autoridades locales.",
+      "categoria": "Política",
+      "tags": [
+        "callao",
+        "títulos de propiedad",
+        "asentamientos humanos",
+        "formalización",
+        "mi perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-3bc5abc3ff81",
+      "titulo": "Biblioteca Nacional presentó \"Pasaporte\" que resume diálogo cultural Perú-Argentina",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-biblioteca-nacional-presento-pasaporte-resume-dialogo-cultural-peruargentina-1072743.aspx",
+      "fecha": "2026-04-26T03:40:54Z",
+      "contenido": "Hernán y Solange comparten la vida como marido y mujer. Unidos por el amor, pero divididos por su pasaporte. Ya no más. Ahora, él, argentino, y ella, peruana, comparten un mismo \"pasaporte\" que une sus nacionalidades… aunque sea de manera simbólica.",
+      "fuente_display": "Andina",
+      "resumen": "La Biblioteca Nacional presentó \"Pasaporte\", una publicación que resume el diálogo cultural entre Perú y Argentina. La obra simbólicamente une las nacionalidades de una pareja, uniendo a un argentino y una peruana.",
+      "categoria": "Economía",
+      "tags": [
+        "biblioteca nacional",
+        "cultura",
+        "perú",
+        "argentina",
+        "publicación"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-f3d75278acd7",
+      "titulo": "Gobierno peruano rechaza enérgicamente el acto de violencia registrado en Washington",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-gobierno-peruano-rechaza-energicamente-acto-violencia-registrado-washington-1072745.aspx",
+      "fecha": "2026-04-26T03:30:08Z",
+      "contenido": "El Gobierno peruano expresó su enérgica condena al hecho de violencia registrado esta noche en una actividad en la que participaba el presidente de Estados Unidos, Donald Trump, en la ciudad de Washington, capital norteamericana.",
+      "fuente_display": "Andina",
+      "resumen": "El Gobierno peruano condenó enérgicamente el acto de violencia ocurrido en Washington, en el que participó el presidente de Estados Unidos, Donald Trump. La cancillería emitió un comunicado expresando su rechazo al incidente.",
+      "categoria": "Política",
+      "tags": [
+        "perú",
+        "washington",
+        "violencia",
+        "condena",
+        "gobierno"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-ec3cbd81489d",
+      "titulo": "Perú condena atentado terrorista en Colombia y expresa condolencias al vecino país",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-peru-condena-atentado-terrorista-colombia-y-expresa-condolencias-al-vecino-pais-1072744.aspx",
+      "fecha": "2026-04-26T03:14:09Z",
+      "contenido": "El Ministerio de Relaciones Exteriores, en representación del Gobierno peruano, emitió un comunicado en el que expresa su condena por el atentado terrorista en Colombia y expresa sus condolencias al vecino país.",
+      "fuente_display": "Andina",
+      "resumen": "Perú condenó el atentado terrorista ocurrido en Colombia y expresó sus condolencias al país vecino. El Ministerio de Relaciones Exteriores emitió un comunicado oficial manifestando la solidaridad peruana ante el trágico suceso.",
+      "categoria": "Política",
+      "tags": [
+        "perú",
+        "colombia",
+        "atentado terrorista",
+        "condena",
+        "relaciones exteriores"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1bb7f9d76da6",
+      "titulo": "Trump dice, tras ser evacuado de una cena en Washington, que un tirador ha sido detenido",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-trump-dice-tras-ser-evacuado-una-cena-washington-un-tirador-ha-sido-detenido-1072742.aspx",
+      "fecha": "2026-04-26T02:26:30Z",
+      "contenido": "El presidente de EE.UU., Donald Trump, escribió en redes sociales este sábado, poco después de ser evacuado de una cena de gala que se celebraba en Washington por unos aparentes disparos, que \"un tirador ha sido detenido\" y aseguró que ha recomendado que el evento no se suspenda.",
+      "fuente_display": "Andina",
+      "resumen": "El presidente de EE.UU., Donald Trump, informó a través de redes sociales que un tirador fue detenido tras un incidente en una cena de gala en Washington. Fue evacuado del evento y recomendó que no se suspendiera.",
+      "categoria": "Política",
+      "tags": [
+        "donald trump",
+        "washington",
+        "tiroteo",
+        "seguridad",
+        "estados unidos"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-54aaba3a7be0",
+      "titulo": "Se consolida en el país red de mujeres que impulsan emprendimientos sostenibles",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-se-consolida-el-pais-red-mujeres-impulsan-emprendimientos-sostenibles-1072735.aspx",
+      "fecha": "2026-04-26T02:07:34Z",
+      "contenido": "La red Mujeres Futuro Circular continúa consolidándose en el país, con ocho nuevas lideresas provenientes de Cajamarca, Ayacucho, Huánuco, Madre de Dios y Lima, quienes se integran a esta iniciativa fortaleciendo una comunidad que ya articula a 32 mujeres al frente de emprendimientos sostenibles.",
+      "fuente_display": "Andina",
+      "resumen": "La red Mujeres Futuro Circular se consolida en Perú, incorporando ocho nuevas lideresas de diversas regiones. Esta iniciativa fortalece una comunidad de 32 mujeres al frente de emprendimientos sostenibles, promoviendo la economía circular.",
+      "categoria": "Economía",
+      "tags": [
+        "mujeres",
+        "emprendimientos",
+        "sostenibilidad",
+        "red",
+        "perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-b66b393d54c9",
+      "titulo": "Al menos cinco personas mueren en un operativo militar en Huancavelica",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-al-menos-cinco-personas-mueren-un-operativo-militar-huancavelica-1072740.aspx",
+      "fecha": "2026-04-26T01:47:53Z",
+      "contenido": "Al menos cinco personas murieron y otras dos resultaron heridas este sábado en un operativo realizado por las fuerzas de seguridad de Perú en el Valle de los Ríos Apurímac, Ene y Mantaro (Vraem), una amplia zona del centro y sur del país por la que se desplazan organizaciones del narcotráfico y remanentes subversivos, informaron fuentes militares.",
+      "fuente_display": "Andina",
+      "resumen": "Un operativo militar en el Vraem (Valle de los Ríos Apurímac, Ene y Mantaro) en Huancavelica dejó como saldo al menos cinco personas muertas y dos heridas. Las fuerzas de seguridad realizaron la acción en una zona de alta actividad delictiva.",
+      "categoria": "Política",
+      "tags": [
+        "vraem",
+        "operativo militar",
+        "huancavelica",
+        "muertos",
+        "seguridad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-2158da4d50f1",
+      "titulo": "Servicio Secreto evacúa a Trump de cena de corresponsales tras aparentes disparos",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-servicio-secreto-evacua-a-trump-cena-corresponsales-tras-aparentes-disparos-1072739.aspx",
+      "fecha": "2026-04-26T01:19:49Z",
+      "contenido": "El Servicio Secreto de EE.UU. evacuó este sábado al presidente y la primera dama, Donald y Melania Trump, junto a otros miembros del Gabinete estadounidense del salón donde se celebraba la cena anual de la Asociación de Corresponsales de la Casa Blanca (WHCA) tras escucharse lo que parecían ser disparos, según relató un periodista de EFE que se encontraba en el evento.",
+      "fuente_display": "Andina",
+      "resumen": "El Servicio Secreto de EE.UU. evacuó al presidente Donald Trump y a otros funcionarios de la Cena de Corresponsales de la Casa Blanca tras escucharse aparentes disparos. El incidente generó una rápida respuesta de seguridad.",
+      "categoria": "Política",
+      "tags": [
+        "servicio secreto",
+        "donald trump",
+        "casa blanca",
+        "evacuación",
+        "seguridad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1cb6eb6a9325",
+      "titulo": "Presidenta del Poder Judicial a favor de implementar unidad de flagrancia en el aeropuerto",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-presidenta-del-poder-judicial-a-favor-implementar-unidad-flagrancia-el-aeropuerto-1072737.aspx",
+      "fecha": "2026-04-26T01:04:18Z",
+      "contenido": "La presidenta del Poder Judicial, Janet Tello Gilardi, consideró necesaria e importante la implementación de una Unidad de Flagrancia en el Aeropuerto Internacional Jorge Chávez del Callao, a fin de enfrentar con celeridad, firmeza y de manera coordinada ilícitos vinculados al ámbito migratorio.",
+      "fuente_display": "Andina",
+      "resumen": "La presidenta del Poder Judicial, Janet Tello Gilardi, considera necesaria la implementación de una Unidad de Flagrancia en el Aeropuerto Jorge Chávez. El objetivo es agilizar la respuesta ante ilícitos vinculados al ámbito migratorio en el terminal aéreo.",
+      "categoria": "Política",
+      "tags": [
+        "poder judicial",
+        "aeropuerto jorge chávez",
+        "unidad de flagrancia",
+        "migración",
+        "seguridad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8ef6e37a3713",
+      "titulo": "Ministra de la Mujer visitó a niños y adolescentes de centros de acogida en Ayacucho",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ministra-de-mujer-visito-a-ninos-y-adolescentes-centros-acogida-ayacucho-1072738.aspx",
+      "fecha": "2026-04-26T00:56:49Z",
+      "contenido": "En el marco del Día Internacional de Lucha contra el Maltrato Infantil, la ministra de la Mujer y Poblaciones Vulnerables (MIMP), Edith Pariona, visitó centros de acogida y servicios del sector en la región Ayacucho, donde conoció de cerca la realidad de los niños, niñas y adolescentes, que son acogidos en los Centros de Acogida Residencial (CAR).",
+      "fuente_display": "Andina",
+      "resumen": "La ministra de la Mujer y Poblaciones Vulnerables, Edith Pariona, visitó centros de acogida en Ayacucho en el marco del Día Internacional de Lucha contra el Maltrato Infantil. La ministra conoció de cerca la realidad de niños y adolescentes en centros residenciales.",
+      "categoria": "Política",
+      "tags": [
+        "ministra de la mujer",
+        "ayacucho",
+        "maltrato infantil",
+        "niños",
+        "adolescentes"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 17,
+  "fuentes_activas": [
+    "andina"
+  ],
+  "prompt_version": "prensa-v1"
+}

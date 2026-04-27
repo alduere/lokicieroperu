@@ -1,10 +1,80 @@
 {
   "fecha": "2026-04-13",
   "source_slug": "gaceta-pi",
-  "items": [],
+  "items": [
+    {
+      "id": "63131-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "EL PLAN PERFECTO EXISTE",
+      "solicitante": "Dave & Buster's I, L.P., de Estados Unidos de América",
+      "clase": "41",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-11-27",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "65298-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "STRYZACTA",
+      "solicitante": "RayzeBio, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-10",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "67660-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "OLEYREV",
+      "solicitante": "Juno Therapeutics, Inc., de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-22",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "68225-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "D",
+      "solicitante": "DE SANGOSSE, de Francia",
+      "clase": "01",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-26",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "68606-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "Fecha de Presentación:",
+      "solicitante": "TERNA S.p.A. , de Italia",
+      "clase": "04",
+      "fecha_publicacion": "2026-04-13",
+      "fecha_presentacion": "2025-12-29",
+      "fecha_limite_oposicion": "2026-05-26",
+      "descripcion": null,
+      "prompt_version": 0
+    }
+  ],
   "stats": {
-    "total_solicitudes": 0,
-    "por_tipo": []
+    "total_solicitudes": 5,
+    "por_tipo": [
+      [
+        "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+        3
+      ],
+      [
+        "MARCA DE PRODUCTO",
+        2
+      ]
+    ]
   },
-  "generated_at": "2026-04-13T01:32:18.402622Z"
+  "generated_at": "2026-04-13T12:55:40.644353Z"
 }

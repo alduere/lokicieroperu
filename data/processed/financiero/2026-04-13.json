@@ -11,24 +11,24 @@
       "simbolo": "Cu",
       "ticker": "HG=F",
       "unidad": "USD/lb",
-      "valor": 5.815,
-      "variacion_pct": -0.9454
+      "valor": 5.863,
+      "variacion_pct": -0.1278
     },
     {
       "nombre": "Plata",
       "simbolo": "Ag",
       "ticker": "SI=F",
       "unidad": "USD/oz",
-      "valor": 74.36,
-      "variacion_pct": -2.5732
+      "valor": 74.11,
+      "variacion_pct": -2.9008
     },
     {
       "nombre": "Oro",
       "simbolo": "Au",
       "ticker": "GC=F",
       "unidad": "USD/oz",
-      "valor": 4741.7998,
-      "variacion_pct": -0.4221
+      "valor": 4743.5,
+      "variacion_pct": -0.3864
     },
     {
       "nombre": "Zinc",

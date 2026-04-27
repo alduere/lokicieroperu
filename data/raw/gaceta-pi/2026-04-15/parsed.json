@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-04-15",
+  "items": [
+    {
+      "id": "45492-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "LIGHTS CO",
+      "solicitante": "ALFA PARF GROUP S.P.A. , de Italia",
+      "clase": "03",
+      "fecha_publicacion": "2026-04-15",
+      "fecha_presentacion": "2025-08-29",
+      "fecha_limite_oposicion": "2026-05-28",
+      "descripcion": null
+    },
+    {
+      "id": "56434-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "LazuliMoon",
+      "solicitante": "Hortifrut Genetics Limited, de Irlanda",
+      "clase": "31",
+      "fecha_publicacion": "2026-04-15",
+      "fecha_presentacion": "2025-10-24",
+      "fecha_limite_oposicion": "2026-05-28",
+      "descripcion": null
+    },
+    {
+      "id": "57396-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "KPOP DEMON HUNTERS",
+      "solicitante": "Netflix Studios, LLC, de Estados Unidos de América",
+      "clase": "09",
+      "fecha_publicacion": "2026-04-15",
+      "fecha_presentacion": "2025-10-30",
+      "fecha_limite_oposicion": "2026-05-28",
+      "descripcion": null
+    },
+    {
+      "id": "67109-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "AMEX SUPPLY CHAIN OPTIMIZATION",
+      "solicitante": "AMERICAN EXPRESS MARKETING & DEVELOPMENT CORPORATION, de Estados Unidos de América",
+      "clase": "36",
+      "fecha_publicacion": "2026-04-15",
+      "fecha_presentacion": "2025-12-18",
+      "fecha_limite_oposicion": "2026-05-28",
+      "descripcion": null
+    },
+    {
+      "id": "67117-2025/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "AMERICAN EXPRESS SUPPLY CHAIN OPTIMIZATION",
+      "solicitante": "American Express Marketing & Development Corporation, de Estados Unidos de América",
+      "clase": "36",
+      "fecha_publicacion": "2026-04-15",
+      "fecha_presentacion": "2025-12-18",
+      "fecha_limite_oposicion": "2026-05-28",
+      "descripcion": null
+    }
+  ]
+}

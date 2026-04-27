@@ -2,6 +2,7 @@
   "fecha": "2026-04-24",
   "normas": [
     {
+<<<<<<< HEAD
       "id": "2509496-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -92,6 +93,8 @@
       "edicion_extraordinaria": true
     },
     {
+=======
+>>>>>>> origin/main
       "id": "2509444-1",
       "seccion": "normas_legales",
       "tipo": "LEY",
@@ -107,6 +110,7 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
       "id": "2509442-1",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
@@ -137,6 +141,8 @@
       "edicion_extraordinaria": false
     },
     {
+=======
+>>>>>>> origin/main
       "id": "2509442-2",
       "seccion": "normas_legales",
       "tipo": "DECRETO SUPREMO",
@@ -167,6 +173,39 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+=======
+      "id": "2509442-1",
+      "seccion": "normas_legales",
+      "tipo": "DECRETO SUPREMO",
+      "tipo_corto": "DS",
+      "numero": "059-2026-PCM",
+      "titulo_oficial": "DECRETO SUPREMO N° 059-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Decreto Supremo que prorroga el Estado de Emergencia en varios distritos de algunas provincias de los departamentos de Amazonas Áncash Arequipa Cajamarca Ica Junín La Libertad Lambayeque Lima Madre de Dios Piura Puno San Martín y Tumbes por peligro inminente ante intensas precipitaciones pluviales",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509442-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+      "id": "2509287-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION JEFATURAL",
+      "tipo_corto": "RJ",
+      "numero": "000066-2026-ANIN/JEF",
+      "titulo_oficial": "RESOLUCION JEFATURAL N° 000066-2026-ANIN/JEF",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Aprueban ejecución de expropiación de área afectada de inmueble por la ejecución del Proyecto: Creación del servicio de protección en riberas del río Motupe vulnerable ante peligro de inundación en los distritos de Motupe Jayanca Morrope Pacora Salas y Túcume - 5 distritos de la provincia de Lambayeque y departamento de Lambayeque y el valor de tasación",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509287-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTI4N18xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509287-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+>>>>>>> origin/main
       "id": "2509184-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -197,6 +236,7 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
       "id": "2509287-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION JEFATURAL",
@@ -209,6 +249,20 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509287-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTI4N18xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509287-1_Portada.jpg",
+=======
+      "id": "2509442-7",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION SUPREMA",
+      "tipo_corto": "RSU",
+      "numero": "134-2026-PCM",
+      "titulo_oficial": "RESOLUCION SUPREMA N° 134-2026-PCM",
+      "entidad_emisora": "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+      "sumilla": "Autorizan viaje de Ministra del Ambiente a Turquía y encargan su Despacho a la Ministra de Cultura",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509442-7",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTQ0Ml83MjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509442-7_Portada.jpg",
+>>>>>>> origin/main
       "edicion_extraordinaria": false
     },
     {
@@ -497,6 +551,7 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
       "id": "2509352-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -512,6 +567,8 @@
       "edicion_extraordinaria": false
     },
     {
+=======
+>>>>>>> origin/main
       "id": "2509088-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -527,6 +584,7 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
       "id": "2509198-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION MINISTERIAL",
@@ -539,6 +597,20 @@
       "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509198-1",
       "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTE5OF8xMjAyNjA0MjQ=",
       "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509198-1_Portada.jpg",
+=======
+      "id": "2509352-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "424-2026/MINSA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 424-2026/MINSA",
+      "entidad_emisora": "SALUD",
+      "sumilla": "Derogan el literal h) del artículo 5 de la Resolución Ministerial N° 984-2025/MINSA",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509352-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTM1Ml8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509352-1_Portada.jpg",
+>>>>>>> origin/main
       "edicion_extraordinaria": false
     },
     {
@@ -557,6 +629,24 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+=======
+      "id": "2509198-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION MINISTERIAL",
+      "tipo_corto": "RM",
+      "numero": "174-2026-VIVIENDA",
+      "titulo_oficial": "RESOLUCION MINISTERIAL N° 174-2026-VIVIENDA",
+      "entidad_emisora": "VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+      "sumilla": "Aprueban el Manual de Operaciones del Programa Mejoramiento Integral de Barrios",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2509198-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwOTE5OF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2509198-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+>>>>>>> origin/main
       "id": "2508855-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
@@ -677,6 +767,7 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
       "id": "2508384-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION DIRECTORAL",
@@ -692,6 +783,8 @@
       "edicion_extraordinaria": false
     },
     {
+=======
+>>>>>>> origin/main
       "id": "2489176-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
@@ -722,6 +815,24 @@
       "edicion_extraordinaria": false
     },
     {
+<<<<<<< HEAD
+=======
+      "id": "2508384-1",
+      "seccion": "normas_legales",
+      "tipo": "RESOLUCION DIRECTORAL",
+      "tipo_corto": "RD",
+      "numero": "0336-2025-EESPPM-DG",
+      "titulo_oficial": "RESOLUCION DIRECTORAL N° 0336-2025-EESPPM-DG",
+      "entidad_emisora": "INSTITUCIONES EDUCATIVAS",
+      "sumilla": "Aprueban el Manual de Perfiles de Puestos (MPP) de la Escuela de Educación Superior Pedagógica Pública Monterrico - EESPPM",
+      "fecha_publicacion": "2026-04-24",
+      "link_oficial": "https://busquedas.elperuano.pe/dispositivo/NL/2508384-1",
+      "descarga_pdf": "https://epdoc2.elperuano.pe/EpPo/DescargaIN.asp?Referencias=MjUwODM4NF8xMjAyNjA0MjQ=",
+      "portada_img": "https://diariooficial.elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/2508384-1_Portada.jpg",
+      "edicion_extraordinaria": false
+    },
+    {
+>>>>>>> origin/main
       "id": "2509321-1",
       "seccion": "normas_legales",
       "tipo": "RESOLUCION",
@@ -1014,6 +1125,317 @@
       "fecha_publicacion": "2026-04-24",
       "descarga_url": "https://epdoc2.elperuano.pe/EpPo/Descarga.asp?Referencias=Qk8yMDI2MDQyNA==",
       "portada_img": "https://elperuano.pe/NormasElperuano/PortadaFull/2026/04/24/_BO20260424_Portada.jpg"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508284-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508284_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508284_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508492-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508492_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508492_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508499-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508499_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508499_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508501-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508501_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508501_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508502-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508502_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508502_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508508-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508508_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508508_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508509-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508509_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508509_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508515-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508515_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508515_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508543-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508543_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508543_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508548-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508548_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508548_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508567-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508567_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508567_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508592-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508592_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508592_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508608-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508608_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508608_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508611-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508611_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508611_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508612-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508612_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508612_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508614-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508614_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508614_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508615-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508615_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508615_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508616-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508616_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508616_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508618-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508618_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508618_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508625-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508625_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508625_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508635-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508635_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508635_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508641-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508641_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508641_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508686-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508686_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508686_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508698-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508698_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508698_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508731-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508731_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508731_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508750-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508750_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508750_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508789-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508789_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508789_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508814-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508814_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508814_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508815-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508815_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508815_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508815-2",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508815_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508815_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508816-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508816_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508816_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508816-2",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508816_2.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508816_2_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508816-3",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508816_3.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508816_3_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508818-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508818_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508818_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508824-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508824_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508824_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508828-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508828_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508828_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508897-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508897_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508897_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508915-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508915_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508915_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508928-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508928_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508928_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508941-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508941_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508941_1_Portada.jpg"
+    },
+    {
+      "seccion": "concesiones_mineras",
+      "edicion": "2508959-1",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508959_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508959_1_Portada.jpg"
+    },
+    {
+      "seccion": "patentes_signos",
+      "edicion": "—",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508519_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508519_1_Portada.jpg"
+    },
+    {
+      "seccion": "patentes_signos",
+      "edicion": "—",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508936_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508936_1_Portada.jpg"
+    },
+    {
+      "seccion": "patentes_signos",
+      "edicion": "—",
+      "fecha_publicacion": "2026-04-24",
+      "descarga_url": "https://elperuano.pe/GespoBoletinFiles/2026/04/24/2508938_1.pdf",
+      "portada_img": "https://elperuano.pe/GespoBoletinFiles/Portada/2026/04/24/2508938_1_Portada.jpg"
+>>>>>>> origin/main
     }
   ]
 }

@@ -1,0 +1,410 @@
+{
+  "fecha": "2026-04-16",
+  "noticias": [
+    {
+      "id": "andina-067eeafd2b55",
+      "titulo": "Minedu: concurso La Buena Escuela promoverá bienestar socioemocional en colegios",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-minedu-concurso-buena-escuela-promovera-bienestar-socioemocional-colegios-1071515.aspx",
+      "fecha": "2026-04-16T13:00:00Z",
+      "contenido": "La comunidad educativa debe compartir sus experiencias y buenas prácticas en bienestar socioemocional para que los estudiantes mejoren sus aprendizajes, señaló el viceministro de Gestión Pedagógica del Ministerio de Educación (Minedu), Gerber Pérez, durante la presentación del concurso La Buena Escuela, organizada por la asociación Empresarios por la Educación en alianza con el Minedu.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Educación (Minedu) lanza el concurso \"La Buena Escuela\" para promover el bienestar socioemocional en los colegios. Esta iniciativa busca que la comunidad educativa comparta experiencias y buenas prácticas para mejorar el aprendizaje de los estudiantes.",
+      "categoria": "Política",
+      "tags": [
+        "minedu",
+        "educación",
+        "bienestar socioemocional",
+        "concurso",
+        "aprendizaje"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-5c1bbedfaba5",
+      "titulo": "Grave accidente en vía Canta - Pasco: tres heridos graves deja choque de bus con automóvil",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-grave-accidente-via-canta-pasco-tres-heridos-graves-deja-choque-bus-automovil-1071523.aspx",
+      "fecha": "2026-04-16T12:59:57Z",
+      "contenido": "Tres personas heridas de gravedad es el resultado de un choque frontal entre un automóvil y un ómnibus de tranporte de personal en la carretera Canta - Pasco, a la altura del kilómetro 40.5 de la citada vía en la zona de Alpamarca, en el punto limítrofe de las regiones de Pasco, Junín y Lima.",
+      "fuente_display": "Andina",
+      "resumen": "Un grave accidente de tránsito ocurrió en la vía Canta - Pasco, resultando en tres heridos de gravedad. El choque frontal involucró a un automóvil y un ómnibus de transporte de personal en el kilómetro 40.5.",
+      "categoria": "Política",
+      "tags": [
+        "accidente",
+        "canta",
+        "pasco",
+        "heridos",
+        "transporte"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-6075158a3eb7",
+      "titulo": "Municipio del Callao reafirma colaboración con investigaciones en denuncias por corrupción",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-municipio-del-callao-reafirma-colaboracion-investigaciones-denuncias-corrupcion-1071521.aspx",
+      "fecha": "2026-04-16T12:50:14Z",
+      "contenido": "La Municipalidad Provincial del Callao ratificó su disposición de colaborar con las investigaciones que vienen realizando el Ministerio Público y la Policía Nacional del Perú (PNP), en el marco de las  diligencias de allanamiento   ejecutadas en instalaciones de la comuna y en viviendas de sus principales autoridades.",
+      "fuente_display": "Andina",
+      "resumen": "La Municipalidad Provincial del Callao reafirmó su compromiso de colaborar con las investigaciones del Ministerio Público y la Policía Nacional sobre denuncias de corrupción. Esto incluye las diligencias de allanamiento realizadas en instalaciones ediles y viviendas de autoridades.",
+      "categoria": "Política",
+      "tags": [
+        "callao",
+        "corrupción",
+        "investigación",
+        "ministerio público",
+        "policía nacional"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-e48242c54f00",
+      "titulo": "Elecciones 2026: ¿Tramitas una dispensa o justificación? Aquí el procedimiento [VIDEO]",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-tramitas-una-dispensa-o-justificacion-aqui-procedimiento-video-1071377.aspx",
+      "fecha": "2026-04-16T12:47:11Z",
+      "contenido": "El Jurado Nacional de Elecciones (JNE) informó que los ciudadanos pueden realizar el trámite de dispensa o justificación electoral desde el día siguiente de las elecciones generales 2026. En esta nota te explicamos cómo hacerlo, qué requisitos necesitas y en qué casos aplica, con el apoyo de un video explicativo.",
+      "fuente_display": "Andina",
+      "resumen": "El Jurado Nacional de Elecciones (JNE) informa sobre el procedimiento para tramitar dispensas o justificaciones electorales para las Elecciones 2026. Se detallan los requisitos y casos aplicables, con apoyo de un video explicativo.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "jne",
+        "dispensa electoral",
+        "justificación electoral",
+        "trámite"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-b96f81143070",
+      "titulo": "Alessia y Vambina estrenan “Vichayito”, el segundo sencillo de Cumbia de As",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-alessia-y-vambina-estrenan-vichayito-segundo-sencillo-cumbia-as-1071519.aspx",
+      "fecha": "2026-04-16T12:46:18Z",
+      "contenido": "Alessia y Vambina presentan “Vichayito”, el segundo sencillo de su próximo álbum Cumbia de As, una producción que explora nuevas dimensiones de la cumbia peruana desde una mirada contemporánea.",
+      "fuente_display": "Andina",
+      "resumen": "Las artistas Alessia y Vambina lanzan \"Vichayito\", el segundo sencillo de su próximo álbum \"Cumbia de As\". La producción explora nuevas dimensiones de la cumbia peruana desde una perspectiva contemporánea.",
+      "categoria": "Política",
+      "tags": [
+        "música",
+        "alessia",
+        "vambina",
+        "cumbia peruana",
+        "lanzamiento"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-bc8908a86953",
+      "titulo": "Cámara de Comercio de Lima tendrá como presidente a Raúl Barrios para el periodo 2026-2027",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-camara-comercio-lima-tendra-como-presidente-a-raul-barrios-para-periodo-20262027-1071520.aspx",
+      "fecha": "2026-04-16T12:45:58Z",
+      "contenido": "En el marco de su Asamblea General Ordinaria, la Cámara de Comercio de Lima (CCL) eligió como su presidente para el periodo 2026-2027 al abogado Raúl Barrios Fernández-Concha.",
+      "fuente_display": "Andina",
+      "resumen": "Raúl Barrios Fernández-Concha fue elegido como el nuevo presidente de la Cámara de Comercio de Lima (CCL) para el periodo 2026-2027. La elección se realizó durante la Asamblea General Ordinaria de la institución.",
+      "categoria": "Economía",
+      "tags": [
+        "cámara de comercio de lima",
+        "ccl",
+        "raúl barrios",
+        "presidente",
+        "elección"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-8fd631b7d521",
+      "titulo": "¿Qué otra urbe de Perú tiene el título de Ciudad Heroica y por qué es un lugar imperdible?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-que-otra-urbe-peru-tiene-titulo-ciudad-heroica-y-por-es-un-lugar-imperdible-1071277.aspx",
+      "fecha": "2026-04-16T12:41:54Z",
+      "contenido": "Cuando se menciona cuál es la localidad de Perú reconocida mundialmente como Ciudad Heroica, inmediatamente recordamos a Tacna. Sin embargo, cabe precisar que existe otra urbe que también lleva ese título, obtenido muchos años antes que la capital del departamento fronterizo más austral del Perú. ¿De qué ciudad se trata y qué mérito le permitió ser distinguida con tan honroso reconocimiento nacional?",
+      "fuente_display": "Andina",
+      "resumen": "Se explora la existencia de otra ciudad peruana, además de Tacna, que ostenta el título de \"Ciudad Heroica\". Se detalla el mérito histórico que le valió esta distinción nacional.",
+      "categoria": "Política",
+      "tags": [
+        "historia",
+        "perú",
+        "ciudad heroica",
+        "distinción",
+        "localidad"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4968ebf4b04e",
+      "titulo": "Palmas Magisteriales: ¿cómo y ante qué entidad deben presentarse las postulaciones?",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-palmas-magisteriales-como-y-ante-entidad-deben-presentarse-las-postulaciones-1071392.aspx",
+      "fecha": "2026-04-16T12:39:09Z",
+      "contenido": "Con el objetivo de reconocer a quienes transforman la educación en el país, el Ministerio de Educación (Minedu) abrió la convocatoria para el galardón Palmas Magisteriales 2026, la cual estará disponible hasta el 30 de abril. En esta edición, hasta 40 docentes y profesionales podrán ser reconocidos con el máximo galardón que otorga el sector Educación.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Educación (Minedu) ha abierto la convocatoria para el galardón Palmas Magisteriales 2026, reconociendo a docentes y profesionales que transforman la educación. Las postulaciones estarán abiertas hasta el 30 de abril, pudiendo ser reconocidos hasta 40 personas.",
+      "categoria": "Política",
+      "tags": [
+        "minedu",
+        "palmas magisteriales",
+        "educación",
+        "docentes",
+        "reconocimiento"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1976ef23ad17",
+      "titulo": "SBS declara disolución de la Caja Rural de Ahorro y Crédito Del Centro",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-sbs-declara-disolucion-de-caja-rural-ahorro-y-credito-del-centro-1071518.aspx",
+      "fecha": "2026-04-16T12:24:33Z",
+      "contenido": "La Superintendencia de Banca, Seguros y AFP (SBS) declaró la disolución de la Caja Rural de Ahorro y Crédito Del Centro, iniciándose el respectivo proceso de liquidación por la causal de pérdida o reducción de más del 50% del patrimonio efectivo.",
+      "fuente_display": "Andina",
+      "resumen": "La Superintendencia de Banca, Seguros y AFP (SBS) ha declarado la disolución de la Caja Rural de Ahorro y Crédito Del Centro. El proceso de liquidación se inicia debido a la pérdida de más del 50% de su patrimonio efectivo.",
+      "categoria": "Finanzas",
+      "tags": [
+        "sbs",
+        "caja rural",
+        "disolución",
+        "liquidación",
+        "patrimonio"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-567954f63a13",
+      "titulo": "Papa León XIV: \"El mundo está siendo destruido por unos pocos tiranos\"",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-papa-leon-xiv-mundo-esta-siendo-destruido-unos-pocos-tiranos-1071516.aspx",
+      "fecha": "2026-04-16T12:23:32Z",
+      "contenido": "León XIV cargó este jueves contra quienes usan las religiones y a Dios para sus intereses militares, económicos y políticos y afirmó que \"el mundo está siendo destruido por unos pocos tiranos\", en un encuentro por la paz en Bamenda (noroeste de Camerún), una región en guerra civil desde hace una década.",
+      "fuente_display": "Andina",
+      "resumen": "El Papa León XIV criticó duramente a quienes utilizan la religión con fines militares, económicos y políticos, afirmando que \"el mundo está siendo destruido por unos pocos tiranos\". Sus declaraciones se dieron en un encuentro por la paz en Camerún.",
+      "categoria": "Política",
+      "tags": [
+        "papa",
+        "crítica",
+        "religión",
+        "política",
+        "paz"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-00181f9463c2",
+      "titulo": "Singular hallazgo en Cusco: descubren muro de posible origen inca durante remoción de alud",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-singular-hallazgo-cusco-descubren-muro-posible-origen-inca-durante-remocion-alud-1071289.aspx",
+      "fecha": "2026-04-16T12:21:03Z",
+      "contenido": "Un muro, aparentemente de origen Inca, fue hallado durante los trabajos de remoción de tierra y piedras en el sector Angostura, ubicado al sureste de la ciudad del Cusco, jurisdicción del distrito de San Jerónimo, donde se produjo un deslizamiento.",
+      "fuente_display": "Andina",
+      "resumen": "Durante trabajos de remoción de aludes en Cusco, se descubrió un muro de posible origen inca. El hallazgo ocurrió en el sector Angostura, distrito de San Jerónimo, tras un deslizamiento de tierra y piedras.",
+      "categoria": "Política",
+      "tags": [
+        "cusco",
+        "arqueología",
+        "inca",
+        "hallazgo",
+        "muro"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-99f08294c721",
+      "titulo": "Sigue en vivo la conferencia de prensa de los astronautas de Artemis II",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-sigue-vivo-conferencia-prensa-los-astronautas-artemis-ii-1071517.aspx",
+      "fecha": "2026-04-16T12:21:00Z",
+      "contenido": "Los primeros astronautas en viajar a la Luna en más de medio siglo han regresado a la Tierra tras una misión que ha establecido nuevos récords a bordo del vuelo de prueba Artemis II de la NASA. Hoy compartirán su experiencia y próximas actividades en una conferencia de prensa virtual.",
+      "fuente_display": "Andina",
+      "resumen": "Los astronautas de la misión Artemis II, los primeros en viajar a la Luna en más de 50 años, compartirán su experiencia y próximas actividades en una conferencia de prensa virtual. La misión de prueba de la NASA ha establecido nuevos récords.",
+      "categoria": "Política",
+      "tags": [
+        "espacio",
+        "artemis ii",
+        "nasa",
+        "astronautas",
+        "luna"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-86159c3627fb",
+      "titulo": "Villa El Salvador: incendio consume más de 40 locales en mercado Unión Progreso",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-villa-salvador-incendio-consume-mas-40-locales-mercado-union-progreso-1071514.aspx",
+      "fecha": "2026-04-16T12:09:25Z",
+      "contenido": "Un incendio de grandes proporciones se registra esta mañana en el mercado Unión Progreso, ubicado en el distrito de Villa El Salvador, dejando hasta el momento más de 40 locales afectados, informaron los bomberos.",
+      "fuente_display": "Andina",
+      "resumen": "Un incendio de grandes proporciones afectó más de 40 locales en el mercado Unión Progreso, en Villa El Salvador. Los bomberos trabajaron para controlar el siniestro en esta concurrida zona comercial.",
+      "categoria": "Política",
+      "tags": [
+        "incendio",
+        "villa el salvador",
+        "mercado",
+        "bomberos",
+        "locales"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-d303c98015b9",
+      "titulo": "Áncash: región reporta 762 emergencias por eventos naturales asociados a lluvias intensas",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-ancash-region-reporta-762-emergencias-eventos-naturales-asociados-a-lluvias-intensas-1071513.aspx",
+      "fecha": "2026-04-16T11:55:03Z",
+      "contenido": "Un total de 762 emergencias por eventos naturales asociados a lluvias intensas se han registrado en la región Áncash en lo que va del año, informó el Centro de Operaciones de Emergencia Regional (COER).",
+      "fuente_display": "Andina",
+      "resumen": "La región Áncash ha reportado 762 emergencias debido a eventos naturales asociados a lluvias intensas en lo que va del año. El Centro de Operaciones de Emergencia Regional (COER) brindó la información.",
+      "categoria": "Política",
+      "tags": [
+        "áncash",
+        "lluvias",
+        "emergencias",
+        "eventos naturales",
+        "coer"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-646d693bd4d6",
+      "titulo": "Estas son las normas legales más importantes del jueves 16 de abril del 2026",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-estas-son-las-normas-legales-mas-importantes-del-jueves-16-abril-del-2026-1071512.aspx",
+      "fecha": "2026-04-16T11:51:33Z",
+      "contenido": "El boletín Normas Legales del Diario Oficial El Peruano difunde una serie de dispositivos de interés público y de impacto para la marcha del país. Conoce a continuación cuáles son las normas legales más relevantes de hoy.",
+      "fuente_display": "Andina",
+      "resumen": "El Diario Oficial El Peruano publicó normas legales de interés público y de impacto nacional el jueves 16 de abril de 2026. Se destacan las disposiciones más relevantes difundidas en el boletín Normas Legales.",
+      "categoria": "Política",
+      "tags": [
+        "normas legales",
+        "el peruano",
+        "publicación",
+        "legislación",
+        "perú"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-4935ee426454",
+      "titulo": "Temblor hoy en Perú, jueves 16 de abril: Pisco fue sacudidada por un sismo de magnitud 5.1",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-temblor-hoy-peru-jueves-16-abril-pisco-fue-sacudidada-un-sismo-magnitud-51-1071510.aspx",
+      "fecha": "2026-04-16T11:26:22Z",
+      "contenido": "Un fuerte sismo de magnitud 5.1, con una profundidad de 48 kilómetros, se registró la madrugada de este jueves 16 de abril frente a la ciudad de Pisco, provincia del mismo nombre, en la región Ica, informó el Centro Sismológico Nacional del Instituto Geofísico del Perú (IGP).",
+      "fuente_display": "Andina",
+      "resumen": "Un sismo de magnitud 5.1, con una profundidad de 48 kilómetros, se registró frente a la ciudad de Pisco, en la región Ica. El Instituto Geofísico del Perú (IGP) informó sobre el movimiento telúrico.",
+      "categoria": "Política",
+      "tags": [
+        "sismo",
+        "pisco",
+        "ica",
+        "igp",
+        "terremoto"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-0ac8ecd91488",
+      "titulo": "Elecciones 2026: Aquí el link para ver en vivo resultado de ONPE de elección presidencial",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-elecciones-2026-aqui-link-para-ver-vivo-resultado-onpe-eleccion-presidencial-1070992.aspx",
+      "fecha": "2026-04-16T11:20:09Z",
+      "contenido": "La ciudadania puede acceder al enlace en la página web de las Elecciones Generales 2026 de la Oficina Nacional de Procesos Electorales, la cual permite conocer los resultados oficiales de los comicios, conforme se van procesando actas en los 126 centros de cómputo del organismo electoral.",
+      "fuente_display": "Andina",
+      "resumen": "La Oficina Nacional de Procesos Electorales (ONPE) ha habilitado un enlace en su página web para seguir en vivo los resultados de las Elecciones Generales 2026. Los ciudadanos podrán acceder a los resultados oficiales conforme se procesan las actas.",
+      "categoria": "Política",
+      "tags": [
+        "elecciones 2026",
+        "onpe",
+        "resultados",
+        "en vivo",
+        "comicios"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-9ca1c799654f",
+      "titulo": "Allanan viviendas de alcalde y exalcalde de Callao por presunto caso de corrupción",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-allanan-viviendas-alcalde-y-exalcalde-callao-presunto-caso-corrupcion-1071511.aspx",
+      "fecha": "2026-04-16T11:17:17Z",
+      "contenido": "La Policía Nacional del Perú (PNP) y el Ministerio Público ejecutan desde esta madrugada un operativo de allanamiento en viviendas vinculadas al alcalde provincial del Callao, César Pérez, y al exalcalde Pedro Spadaro, en el distrito limeño de San Isidro, como parte de una investigación por presuntos actos de corrupción en la comuna chalaca.",
+      "fuente_display": "Andina",
+      "resumen": "La Policía Nacional y el Ministerio Público allanaron viviendas del alcalde y exalcalde del Callao, César Pérez y Pedro Spadaro, respectivamente, en San Isidro. La operación se enmarca en una investigación por presuntos actos de corrupción en la comuna chalaca.",
+      "categoria": "Política",
+      "tags": [
+        "callao",
+        "corrupción",
+        "allanamiento",
+        "alcalde",
+        "ministerio público"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "rpp-a68c52818940",
+      "titulo": "Precio del dólar Perú y tipo de cambio hoy 16 de abril del 2026",
+      "fuente": "rpp",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-16-de-abril-del-2026-noticia-1684551",
+      "fecha": "2026-04-16T11:05:39Z",
+      "contenido": "En  Perú , el  tipo de cambio  para hoy jueves 16 de abril es de  S/3.44 según el Banco Central de Reserva Del Perú.",
+      "fuente_display": "RPP",
+      "resumen": "El precio del dólar en Perú para el jueves 16 de abril de 2026 se sitúa en S/3.44, según información del Banco Central de Reserva del Perú (BCRP).",
+      "categoria": "Finanzas",
+      "tags": [
+        "dólar",
+        "tipo de cambio",
+        "bcrp",
+        "perú",
+        "finanzas"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-1ccfa32a4918",
+      "titulo": "¡Atención! Persistentes lluvias moderadas a fuertes en la Sierra alertan a 12 regiones",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-atencion-persistentes-lluvias-moderadas-a-fuertes-la-sierra-alertan-a-12-regiones-1071509.aspx",
+      "fecha": "2026-04-16T11:00:00Z",
+      "contenido": "Nieve, granizo, aguanieve y lluvia, de moderada a fuerte intensidad, no dejarán de caer en la Sierra hasta este viernes 17 de abril, según pronóstico del Servicio Nacional de Meteorología e Hidrología (Senamhi).",
+      "fuente_display": "Andina",
+      "resumen": "El Servicio Nacional de Meteorología e Hidrología (Senamhi) alertó sobre persistentes lluvias moderadas a fuertes en la Sierra, que afectarán a 12 regiones hasta el viernes 17 de abril. Se pronostica nieve, granizo y aguanieve.",
+      "categoria": "Política",
+      "tags": [
+        "senamhi",
+        "lluvias",
+        "sierra",
+        "alertas",
+        "pronóstico"
+      ],
+      "prompt_version": "prensa-v1"
+    },
+    {
+      "id": "andina-e90e2a1a402a",
+      "titulo": "Serums 2026-I: horarios, requisitos y restricciones para el domingo 19 de abril",
+      "fuente": "andina",
+      "url": "https://andina.pe/agencia/noticia-serums-2026i-horarios-requisitos-y-restricciones-para-domingo-19-abril-1071500.aspx",
+      "fecha": "2026-04-16T10:51:56Z",
+      "contenido": "El Ministerio de Salud (Minsa) brindó disposiciones dirigidas a los profesionales de la salud que participarán en la evaluación para el Servicio Rural y Urbano Marginal de Salud (Serums) 2026-I que se realizará el domingo 19 de abril, con el objetivo de garantizar un proceso ordenado, seguro y transparente a nivel nacional.",
+      "fuente_display": "Andina",
+      "resumen": "El Ministerio de Salud (Minsa) ha establecido directrices para los profesionales de la salud que participarán en la evaluación del Servicio Rural y Urbano Marginal de Salud (Serums) 2026-I. El examen se llevará a cabo el domingo 19 de abril, buscando asegurar un proceso nacional ordenado, seguro y transparente.",
+      "categoria": "Economía",
+      "tags": [
+        "minsa",
+        "serums",
+        "evaluación",
+        "profesionales de la salud",
+        "proceso"
+      ],
+      "prompt_version": "prensa-v1"
+    }
+  ],
+  "total": 21,
+  "fuentes_activas": [
+    "andina",
+    "rpp"
+  ],
+  "prompt_version": "prensa-v1"
+}

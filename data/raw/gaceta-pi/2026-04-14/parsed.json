@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-04-14",
+  "items": [
+    {
+      "id": "921334-2021/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "COOSUNAT",
+      "solicitante": "COOPERATIVA DE AHORRO Y CREDITO DE TRABAJADORES DE LA SUNAT - COOSUNAT, de Perú",
+      "clase": "36",
+      "fecha_publicacion": "2026-04-14",
+      "fecha_presentacion": "2021-10-28",
+      "fecha_limite_oposicion": "2026-05-27",
+      "descripcion": null
+    },
+    {
+      "id": "65007-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "3K HELMET",
+      "solicitante": "ARAUJO LUCAS LUIS ALBERTO, de Perú",
+      "clase": "12",
+      "fecha_publicacion": "2026-04-14",
+      "fecha_presentacion": "2026-01-05",
+      "fecha_limite_oposicion": "2026-05-27",
+      "descripcion": null
+    },
+    {
+      "id": "65246-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ARIH",
+      "solicitante": "PALDO CO., LTD., de Corea",
+      "clase": "32",
+      "fecha_publicacion": "2026-04-14",
+      "fecha_presentacion": "2025-12-10",
+      "fecha_limite_oposicion": "2026-05-27",
+      "descripcion": null
+    },
+    {
+      "id": "12904-2026/DSD",
+      "tipo_solicitud": "NOMBRE COMERCIAL",
+      "signo_solicitado": "SNOUT ESTÉTICA CANINA",
+      "solicitante": "SNOUT DOG SPA S.A.C., de Perú",
+      "clase": "44",
+      "fecha_publicacion": "2026-04-14",
+      "fecha_presentacion": "2026-03-04",
+      "fecha_limite_oposicion": "2026-05-27",
+      "descripcion": null
+    },
+    {
+      "id": "12946-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "HREZ",
+      "solicitante": "Enza Zaden Beheer B.V., de Reino de los Países Bajos",
+      "clase": "31",
+      "fecha_publicacion": "2026-04-14",
+      "fecha_presentacion": "2026-03-04",
+      "fecha_limite_oposicion": "2026-05-27",
+      "descripcion": null
+    }
+  ]
+}
