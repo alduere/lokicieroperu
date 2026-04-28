@@ -1,0 +1,50 @@
+{
+  "fecha": "2026-04-28",
+  "usd_pen": {
+    "moneda": "USD/PEN",
+    "valor": 0.0,
+    "variacion_pct": 0.0
+  },
+  "minerales": [
+    {
+      "nombre": "Cobre",
+      "simbolo": "Cu",
+      "ticker": "HG=F",
+      "unidad": "USD/lb",
+      "valor": 5.9735,
+      "variacion_pct": -0.7395
+    },
+    {
+      "nombre": "Plata",
+      "simbolo": "Ag",
+      "ticker": "SI=F",
+      "unidad": "USD/oz",
+      "valor": 73.945,
+      "variacion_pct": -1.4106
+    },
+    {
+      "nombre": "Oro",
+      "simbolo": "Au",
+      "ticker": "GC=F",
+      "unidad": "USD/oz",
+      "valor": 4607.2002,
+      "variacion_pct": -1.4587
+    },
+    {
+      "nombre": "Zinc",
+      "simbolo": "Zn",
+      "ticker": "LME_Zn_cash",
+      "unidad": "USD/mt",
+      "valor": 3444.5,
+      "variacion_pct": -1.1621
+    },
+    {
+      "nombre": "Plomo",
+      "simbolo": "Pb",
+      "ticker": "LME_Pb_cash",
+      "unidad": "USD/mt",
+      "valor": 1939.0,
+      "variacion_pct": -0.7677
+    }
+  ]
+}

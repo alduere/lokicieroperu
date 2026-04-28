@@ -1,0 +1,60 @@
+{
+  "fecha": "2026-04-28",
+  "items": [
+    {
+      "id": "53729-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ANGLO TECK",
+      "solicitante": "Anglo American Services (UK) Ltd, de Reino Unido",
+      "clase": "11",
+      "fecha_publicacion": "2026-04-28",
+      "fecha_presentacion": "2025-10-09",
+      "fecha_limite_oposicion": "2026-06-10",
+      "descripcion": null
+    },
+    {
+      "id": "53730-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ANGLO TECK",
+      "solicitante": "Anglo American Services (UK) Ltd, de Reino Unido",
+      "clase": "14",
+      "fecha_publicacion": "2026-04-28",
+      "fecha_presentacion": "2025-10-09",
+      "fecha_limite_oposicion": "2026-06-10",
+      "descripcion": null
+    },
+    {
+      "id": "53731-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ANGLO TECK",
+      "solicitante": "Anglo American Services (UK) Ltd, de Reino Unido",
+      "clase": "16",
+      "fecha_publicacion": "2026-04-28",
+      "fecha_presentacion": "2025-10-09",
+      "fecha_limite_oposicion": "2026-06-10",
+      "descripcion": null
+    },
+    {
+      "id": "53732-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "ANGLO TECK",
+      "solicitante": "Anglo American Services (UK) Ltd, de Reino Unido",
+      "clase": "19",
+      "fecha_publicacion": "2026-04-28",
+      "fecha_presentacion": "2025-10-09",
+      "fecha_limite_oposicion": "2026-06-10",
+      "descripcion": null
+    },
+    {
+      "id": "53734-2025/DSD",
+      "tipo_solicitud": "MARCA DE SERVICIO",
+      "signo_solicitado": "ANGLO TECK",
+      "solicitante": "Anglo American Services (UK) Ltd, de Reino Unido",
+      "clase": "35",
+      "fecha_publicacion": "2026-04-28",
+      "fecha_presentacion": "2025-10-09",
+      "fecha_limite_oposicion": "2026-06-10",
+      "descripcion": null
+    }
+  ]
+}
