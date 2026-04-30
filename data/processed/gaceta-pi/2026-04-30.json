@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-04-30",
+  "source_slug": "gaceta-pi",
+  "items": [
+    {
+      "id": "67846-2025/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "UPCLIXIOR",
+      "solicitante": "Bristol-Myers Squibb Company, de Estados Unidos de América",
+      "clase": "05",
+      "fecha_publicacion": "2026-04-30",
+      "fecha_presentacion": "2025-12-23",
+      "fecha_limite_oposicion": "2026-06-12",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "1526-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "DRUIDA",
+      "solicitante": "MENACHO SANCHEZ JUAN ALFREDO, de Perú; TAUREL MALASPINA MONICA INES, de Perú",
+      "clase": "32",
+      "fecha_publicacion": "2026-04-30",
+      "fecha_presentacion": null,
+      "fecha_limite_oposicion": "2026-06-12",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "15783-2026/DSD",
+      "tipo_solicitud": "MARCA DE PRODUCTO",
+      "signo_solicitado": "Xtreme",
+      "solicitante": "BYD COMPANY LIMITED, de China",
+      "clase": "12",
+      "fecha_publicacion": "2026-04-30",
+      "fecha_presentacion": "2026-03-16",
+      "fecha_limite_oposicion": "2026-06-12",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "17003-2026/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "LUMON",
+      "solicitante": "Lumon Invest Oy, de Finlandia",
+      "clase": "06",
+      "fecha_publicacion": "2026-04-30",
+      "fecha_presentacion": "2026-03-23",
+      "fecha_limite_oposicion": "2026-06-12",
+      "descripcion": null,
+      "prompt_version": 0
+    },
+    {
+      "id": "17775-2026/DSD",
+      "tipo_solicitud": "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+      "signo_solicitado": "HUMMINGBIRD ELECTRONICS ELECTRONIC SOLUTIONS FOR ALL VEHICLES",
+      "solicitante": "Redarc Electronics Pty Ltd, de Australia",
+      "clase": "09",
+      "fecha_publicacion": "2026-04-30",
+      "fecha_presentacion": "2026-03-25",
+      "fecha_limite_oposicion": "2026-06-12",
+      "descripcion": null,
+      "prompt_version": 0
+    }
+  ],
+  "stats": {
+    "total_solicitudes": 5,
+    "por_tipo": [
+      [
+        "MARCA DE PRODUCTO",
+        3
+      ],
+      [
+        "MULTICLASE MARCA PRODUCTO Y/O SERVICIO",
+        2
+      ]
+    ]
+  },
+  "generated_at": "2026-04-30T13:05:36.766515Z"
+}
