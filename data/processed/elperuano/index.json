@@ -1,6 +1,13 @@
 {
   "fechas": [
     {
+      "fecha": "2026-05-01",
+      "total_normas": 93,
+      "alto": 6,
+      "medio": 38,
+      "bajo": 49
+    },
+    {
       "fecha": "2026-04-30",
       "total_normas": 88,
       "alto": 16,
